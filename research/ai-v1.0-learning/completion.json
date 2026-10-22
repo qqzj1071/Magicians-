@@ -1,0 +1,31 @@
+{
+  "completed": true,
+  "rounds": 6,
+  "selected": 6,
+  "counts": {
+    "baseline": 4800,
+    "common": 1260,
+    "route": 7740,
+    "construction": 16742,
+    "hard_matchup": 25056,
+    "feedback": 43200,
+    "checkpoint_validation": 4320,
+    "final": 24000,
+    "factorial": 6720
+  },
+  "total_simulations": 133838,
+  "card_sha256": "c38a3d456f9de20df5b585045822c7c1e91a76296bcd55fb3fd2f189b4fc201a",
+  "elapsed_seconds": 1316.1734194755554,
+  "final_severe": 36,
+  "source_sha256": {
+    "cards.py": "d384a9266bd00f4a9ec2bdba8e4bf86498457bafabbcd29017a61d212ce5007a",
+    "controller.py": "efd71ac0e5f6a042c79e69d23700cb7c711b1304c4881c6e90722cdd518d48af",
+    "engine.py": "37d56510deb744c058c71d24d89d300ab6daa5d3ba2206e735eb9290b2cae010",
+    "learning_core.py": "67339884c6d864918bcfc26c1bd03ea98502ed1fb931cc15ee27422f937769a1",
+    "learning_jobs.py": "3252d8b49510227c59affb38cf4d6491a3bccb3694c9b5622506c18988c02a09",
+    "planner.py": "5b223e0b096878fcccd24cbbd5a6504697df3160cacade2599898461c150d8f3",
+    "train_v1.py": "4fade0aa105d4db7929cc9a008780358751f57fdb4c4d9b5d8e25a2645376e08"
+  },
+  "elapsed_scope": "elapsed_seconds starts at latest resume; see wall_since_experiment_start_seconds for full wall time",
+  "wall_since_experiment_start_seconds": 3029.9081995487213
+}

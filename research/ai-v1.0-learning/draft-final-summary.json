@@ -1,0 +1,23 @@
+{
+  "random": {
+    "decks": 45,
+    "legal_decks": 42,
+    "games": 1512,
+    "score": 0.026124338624338623,
+    "strict_win_rate": 0.025793650793650792
+  },
+  "learned": {
+    "decks": 45,
+    "legal_decks": 45,
+    "games": 1620,
+    "score": 0.33024691358024694,
+    "strict_win_rate": 0.32654320987654323
+  },
+  "prior": {
+    "decks": 45,
+    "legal_decks": 45,
+    "games": 1620,
+    "score": 0.33271604938271604,
+    "strict_win_rate": 0.32901234567901233
+  }
+}

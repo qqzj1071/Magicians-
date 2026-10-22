@@ -1,6 +1,8 @@
+> 产品设计资料；不作为卡牌数值或已实现功能的依据。当前卡牌唯一入口：[v1.0](README.md)。
+
 # 多人模式
 
-- 版本：v0.5
+- 版本：多人产品设计草案（不覆盖卡牌v1.0）
 - 上游：`overview.md`
 - 下游：`combat/rules.md`、`combat/ai.md`、`deckbuilding/rules.md`
 - 状态：规则草案

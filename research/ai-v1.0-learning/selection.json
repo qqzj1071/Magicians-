@@ -1,0 +1,6 @@
+{
+  "chosen_round": 6,
+  "criterion": "fixed baseline gauntlet validation mean + 0.2 lower quartile; no final seed access",
+  "objective": 0.8376736111111112,
+  "selected_context_sha256": "dea676937770d577e441b1f04d30f5adc1093e8950aeb70e8f1e093cb4a09066"
+}

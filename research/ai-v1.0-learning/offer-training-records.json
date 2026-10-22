@@ -1,0 +1,1878 @@
+[
+  {
+    "element": "earth",
+    "route": "earth-01",
+    "round": 1,
+    "features": {
+      "value": 5.25,
+      "cost": 1,
+      "own": -1.0,
+      "route": 0.0,
+      "draw": 1.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 1.0,
+      "heal": 1.0,
+      "shield": -1.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.19642857142857142,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "不坏壁垒",
+      "incoming": "应急整备"
+    }
+  },
+  {
+    "element": "earth",
+    "route": "earth-02",
+    "round": 1,
+    "features": {
+      "value": 9.5,
+      "cost": -1,
+      "own": 1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 1.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": -0.0625,
+    "accepted": false,
+    "move": {
+      "kind": "add",
+      "out": null,
+      "incoming": "裂岩护壁"
+    }
+  },
+  {
+    "element": "fire",
+    "route": "fire-01",
+    "round": 1,
+    "features": {
+      "value": 6.5,
+      "cost": -2,
+      "own": 1.0,
+      "route": 1.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": 0.13392857142857142,
+    "accepted": true,
+    "move": {
+      "kind": "add",
+      "out": null,
+      "incoming": "压缩爆燃"
+    }
+  },
+  {
+    "element": "fire",
+    "route": "fire-02",
+    "round": 1,
+    "features": {
+      "value": -7.0,
+      "cost": 2,
+      "own": -1.0,
+      "route": -1.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": -1.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": 0.13392857142857142,
+    "accepted": true,
+    "move": {
+      "kind": "remove",
+      "out": "焚心",
+      "incoming": null
+    }
+  },
+  {
+    "element": "poison",
+    "route": "poison-01",
+    "round": 1,
+    "features": {
+      "value": 0.16666666666666696,
+      "cost": -2,
+      "own": -1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": -1.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": -1.0
+    },
+    "reward": -0.017857142857142856,
+    "accepted": false,
+    "move": {
+      "kind": "swap",
+      "out": "毒甲",
+      "incoming": "永恒壁垒"
+    }
+  },
+  {
+    "element": "water",
+    "route": "water-02",
+    "round": 1,
+    "features": {
+      "value": 3.5,
+      "cost": 0,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": 1.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 1.0,
+      "heal": 1.0,
+      "shield": -1.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": 0.14285714285714285,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "护盾强化",
+      "incoming": "应急整备"
+    }
+  },
+  {
+    "element": "wind",
+    "route": "wind-01",
+    "round": 1,
+    "features": {
+      "value": 1.75,
+      "cost": 1,
+      "own": 0.0,
+      "route": 1.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 1.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.05357142857142857,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "烈风",
+      "incoming": "疾行"
+    }
+  },
+  {
+    "element": "wind",
+    "route": "wind-02",
+    "round": 1,
+    "features": {
+      "value": -8.0,
+      "cost": 1,
+      "own": -1.0,
+      "route": -1.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": -1.0,
+      "antiheal": 0.0,
+      "cheap": -1.0
+    },
+    "reward": 0,
+    "accepted": false,
+    "move": {
+      "kind": "remove",
+      "out": "追风",
+      "incoming": null
+    }
+  },
+  {
+    "element": "earth",
+    "route": "earth-02",
+    "round": 2,
+    "features": {
+      "value": -4.0,
+      "cost": 1,
+      "own": -1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": -1.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": -1.0
+    },
+    "reward": 0.03571428571428571,
+    "accepted": true,
+    "move": {
+      "kind": "remove",
+      "out": "石肤",
+      "incoming": null
+    }
+  },
+  {
+    "element": "fire",
+    "route": "fire-01",
+    "round": 2,
+    "features": {
+      "value": 14.0,
+      "cost": -1,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 1.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.017857142857142856,
+    "accepted": false,
+    "move": {
+      "kind": "add",
+      "out": null,
+      "incoming": "破障法阵"
+    }
+  },
+  {
+    "element": "fire",
+    "route": "fire-02",
+    "round": 2,
+    "features": {
+      "value": 3.25,
+      "cost": 1,
+      "own": 1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": -1.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 1.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.21428571428571427,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "命运检索",
+      "incoming": "导火索"
+    }
+  },
+  {
+    "element": "fire",
+    "route": "fire-03",
+    "round": 2,
+    "features": {
+      "value": 2.25,
+      "cost": 1,
+      "own": -1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": -0.017857142857142856,
+    "accepted": false,
+    "move": {
+      "kind": "swap",
+      "out": "焰心屏障",
+      "incoming": "坚壁"
+    }
+  },
+  {
+    "element": "poison",
+    "route": "poison-01",
+    "round": 2,
+    "features": {
+      "value": -4.0,
+      "cost": 1,
+      "own": -1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": -1.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": -1.0
+    },
+    "reward": 0.026785714285714284,
+    "accepted": true,
+    "move": {
+      "kind": "remove",
+      "out": "毒甲",
+      "incoming": null
+    }
+  },
+  {
+    "element": "poison",
+    "route": "poison-02",
+    "round": 2,
+    "features": {
+      "value": -6.5,
+      "cost": 2,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": -0.03571428571428571,
+    "accepted": false,
+    "move": {
+      "kind": "remove",
+      "out": "战意沸腾",
+      "incoming": null
+    }
+  },
+  {
+    "element": "poison",
+    "route": "poison-03",
+    "round": 2,
+    "features": {
+      "value": 2.0,
+      "cost": 1,
+      "own": 1.0,
+      "route": 0.0,
+      "draw": -1.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.24107142857142858,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "灵感涌现",
+      "incoming": "固毒"
+    }
+  },
+  {
+    "element": "water",
+    "route": "water-01",
+    "round": 2,
+    "features": {
+      "value": -9.75,
+      "cost": -2,
+      "own": 1.0,
+      "route": 0.0,
+      "draw": -1.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": -1.0
+    },
+    "reward": 0,
+    "accepted": false,
+    "move": {
+      "kind": "legendary",
+      "out": "禁忌知识",
+      "incoming": "深渊潮"
+    }
+  },
+  {
+    "element": "water",
+    "route": "water-02",
+    "round": 2,
+    "features": {
+      "value": 8.0,
+      "cost": -1,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 1.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 1.0,
+      "cheap": 1.0
+    },
+    "reward": 0.14285714285714285,
+    "accepted": true,
+    "move": {
+      "kind": "add",
+      "out": null,
+      "incoming": "断流封印"
+    }
+  },
+  {
+    "element": "water",
+    "route": "water-03",
+    "round": 2,
+    "features": {
+      "value": -4.166666666666667,
+      "cost": 3,
+      "own": -1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": -1.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": 0.10714285714285714,
+    "accepted": true,
+    "move": {
+      "kind": "remove",
+      "out": "奔流",
+      "incoming": null
+    }
+  },
+  {
+    "element": "wind",
+    "route": "wind-03",
+    "round": 2,
+    "features": {
+      "value": 9.0,
+      "cost": -1,
+      "own": 1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": -0.0625,
+    "accepted": false,
+    "move": {
+      "kind": "add",
+      "out": null,
+      "incoming": "风刃"
+    }
+  },
+  {
+    "element": "earth",
+    "route": "earth-01",
+    "round": 3,
+    "features": {
+      "value": 0.5,
+      "cost": 0,
+      "own": -1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": -1.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": -0.044642857142857144,
+    "accepted": false,
+    "move": {
+      "kind": "swap",
+      "out": "石肤",
+      "incoming": "护盾"
+    }
+  },
+  {
+    "element": "earth",
+    "route": "earth-03",
+    "round": 3,
+    "features": {
+      "value": 14.0,
+      "cost": -1,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 1.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.0625,
+    "accepted": true,
+    "move": {
+      "kind": "add",
+      "out": null,
+      "incoming": "破障法阵"
+    }
+  },
+  {
+    "element": "fire",
+    "route": "fire-01",
+    "round": 3,
+    "features": {
+      "value": -0.08333333333333304,
+      "cost": -1,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": -1.0,
+      "search": 0.0,
+      "shuffle": -1.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 1.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": 0.07142857142857142,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "循环",
+      "incoming": "圣盾"
+    }
+  },
+  {
+    "element": "fire",
+    "route": "fire-02",
+    "round": 3,
+    "features": {
+      "value": 9.0,
+      "cost": -1,
+      "own": 1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": -0.008928571428571428,
+    "accepted": false,
+    "move": {
+      "kind": "add",
+      "out": null,
+      "incoming": "战意"
+    }
+  },
+  {
+    "element": "fire",
+    "route": "fire-03",
+    "round": 3,
+    "features": {
+      "value": 4.5,
+      "cost": 0,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 1.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": 0.13392857142857142,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "火星",
+      "incoming": "灼痛"
+    }
+  },
+  {
+    "element": "poison",
+    "route": "poison-02",
+    "round": 3,
+    "features": {
+      "value": -4.166666666666667,
+      "cost": 3,
+      "own": -1.0,
+      "route": -1.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": 0.1875,
+    "accepted": true,
+    "move": {
+      "kind": "remove",
+      "out": "蚀骨之触",
+      "incoming": null
+    }
+  },
+  {
+    "element": "poison",
+    "route": "poison-03",
+    "round": 3,
+    "features": {
+      "value": -4.0,
+      "cost": 1,
+      "own": -1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": -1.0
+    },
+    "reward": 0.05357142857142857,
+    "accepted": true,
+    "move": {
+      "kind": "remove",
+      "out": "毒针",
+      "incoming": null
+    }
+  },
+  {
+    "element": "water",
+    "route": "water-01",
+    "round": 3,
+    "features": {
+      "value": 9.0,
+      "cost": -1,
+      "own": 1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 1.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.10714285714285714,
+    "accepted": true,
+    "move": {
+      "kind": "add",
+      "out": null,
+      "incoming": "回潮"
+    }
+  },
+  {
+    "element": "water",
+    "route": "water-02",
+    "round": 3,
+    "features": {
+      "value": -4.0,
+      "cost": 1,
+      "own": -1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": -1.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": -1.0
+    },
+    "reward": -0.05357142857142857,
+    "accepted": false,
+    "move": {
+      "kind": "remove",
+      "out": "水滴",
+      "incoming": null
+    }
+  },
+  {
+    "element": "water",
+    "route": "water-03",
+    "round": 3,
+    "features": {
+      "value": 8.0,
+      "cost": -1,
+      "own": 1.0,
+      "route": 0.0,
+      "draw": 1.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 1.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.09821428571428571,
+    "accepted": true,
+    "move": {
+      "kind": "add",
+      "out": null,
+      "incoming": "回流"
+    }
+  },
+  {
+    "element": "wind",
+    "route": "wind-01",
+    "round": 3,
+    "features": {
+      "value": 0.0,
+      "cost": 0,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": -1.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": 0.017857142857142856,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "灵感涌现",
+      "incoming": "战意沸腾"
+    }
+  },
+  {
+    "element": "wind",
+    "route": "wind-02",
+    "round": 3,
+    "features": {
+      "value": -4.0,
+      "cost": 1,
+      "own": -1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": -1.0
+    },
+    "reward": -0.026785714285714284,
+    "accepted": false,
+    "move": {
+      "kind": "remove",
+      "out": "疾风",
+      "incoming": null
+    }
+  },
+  {
+    "element": "wind",
+    "route": "wind-03",
+    "round": 3,
+    "features": {
+      "value": 13.0,
+      "cost": 3,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": 1.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.2857142857142857,
+    "accepted": true,
+    "move": {
+      "kind": "legendary",
+      "out": "魔力契约",
+      "incoming": "禁忌知识"
+    }
+  },
+  {
+    "element": "earth",
+    "route": "earth-01",
+    "round": 4,
+    "features": {
+      "value": -6.5,
+      "cost": 2,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": -0.008928571428571428,
+    "accepted": false,
+    "move": {
+      "kind": "remove",
+      "out": "战意沸腾",
+      "incoming": null
+    }
+  },
+  {
+    "element": "earth",
+    "route": "earth-03",
+    "round": 4,
+    "features": {
+      "value": 3.25,
+      "cost": 1,
+      "own": 1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": -1.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 1.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.0625,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "命运检索",
+      "incoming": "裂岩护壁"
+    }
+  },
+  {
+    "element": "fire",
+    "route": "fire-02",
+    "round": 4,
+    "features": {
+      "value": 5.75,
+      "cost": 1,
+      "own": -1.0,
+      "route": 0.0,
+      "draw": 1.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 1.0,
+      "heal": 1.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.017857142857142856,
+    "accepted": false,
+    "move": {
+      "kind": "swap",
+      "out": "焰心屏障",
+      "incoming": "应急整备"
+    }
+  },
+  {
+    "element": "fire",
+    "route": "fire-03",
+    "round": 4,
+    "features": {
+      "value": 6.5,
+      "cost": 1,
+      "own": 1.0,
+      "route": 0.0,
+      "draw": -1.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 1.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.07142857142857142,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "灵感涌现",
+      "incoming": "慢燃"
+    }
+  },
+  {
+    "element": "poison",
+    "route": "poison-01",
+    "round": 4,
+    "features": {
+      "value": 7.5,
+      "cost": 1,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 1.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.026785714285714284,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "战意沸腾",
+      "incoming": "破障法阵"
+    }
+  },
+  {
+    "element": "poison",
+    "route": "poison-02",
+    "round": 4,
+    "features": {
+      "value": -9.0,
+      "cost": 1,
+      "own": -1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": -1.0
+    },
+    "reward": -0.044642857142857144,
+    "accepted": false,
+    "move": {
+      "kind": "remove",
+      "out": "腐骨",
+      "incoming": null
+    }
+  },
+  {
+    "element": "poison",
+    "route": "poison-03",
+    "round": 4,
+    "features": {
+      "value": 0.16666666666666696,
+      "cost": -1,
+      "own": 0.0,
+      "route": -1.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": 0.0,
+    "accepted": false,
+    "move": {
+      "kind": "swap",
+      "out": "毒爆弹",
+      "incoming": "蚀界"
+    }
+  },
+  {
+    "element": "water",
+    "route": "water-01",
+    "round": 4,
+    "features": {
+      "value": 6.0,
+      "cost": 1,
+      "own": -1.0,
+      "route": -1.0,
+      "draw": 1.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 1.0,
+      "heal": 1.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.08035714285714286,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "血潮汹涌",
+      "incoming": "应急整备"
+    }
+  },
+  {
+    "element": "water",
+    "route": "water-02",
+    "round": 4,
+    "features": {
+      "value": 2.0,
+      "cost": 1,
+      "own": 1.0,
+      "route": 0.0,
+      "draw": -1.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 1.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.08928571428571429,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "灵感涌现",
+      "incoming": "潮声"
+    }
+  },
+  {
+    "element": "wind",
+    "route": "wind-01",
+    "round": 4,
+    "features": {
+      "value": 5.0,
+      "cost": 0,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": -1.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 1.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": -0.017857142857142856,
+    "accepted": false,
+    "move": {
+      "kind": "swap",
+      "out": "风眼",
+      "incoming": "风幕"
+    }
+  },
+  {
+    "element": "wind",
+    "route": "wind-02",
+    "round": 4,
+    "features": {
+      "value": -6.5,
+      "cost": 2,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": 0.03571428571428571,
+    "accepted": true,
+    "move": {
+      "kind": "remove",
+      "out": "战意沸腾",
+      "incoming": null
+    }
+  },
+  {
+    "element": "wind",
+    "route": "wind-03",
+    "round": 4,
+    "features": {
+      "value": 3.75,
+      "cost": 1,
+      "own": 0.0,
+      "route": -1.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 1.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.05357142857142857,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "风蚀",
+      "incoming": "疾行"
+    }
+  },
+  {
+    "element": "earth",
+    "route": "earth-01",
+    "round": 5,
+    "features": {
+      "value": -4.0,
+      "cost": 1,
+      "own": -1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": -1.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": -1.0
+    },
+    "reward": -0.07142857142857142,
+    "accepted": false,
+    "move": {
+      "kind": "remove",
+      "out": "岩壁",
+      "incoming": null
+    }
+  },
+  {
+    "element": "earth",
+    "route": "earth-02",
+    "round": 5,
+    "features": {
+      "value": 9.75,
+      "cost": 2,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": 1.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.30357142857142855,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "守护者壁垒",
+      "incoming": "禁忌知识"
+    }
+  },
+  {
+    "element": "fire",
+    "route": "fire-01",
+    "round": 5,
+    "features": {
+      "value": 5.75,
+      "cost": 1,
+      "own": -1.0,
+      "route": 0.0,
+      "draw": 1.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 1.0,
+      "heal": 1.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": -0.017857142857142856,
+    "accepted": false,
+    "move": {
+      "kind": "swap",
+      "out": "焰心屏障",
+      "incoming": "应急整备"
+    }
+  },
+  {
+    "element": "fire",
+    "route": "fire-02",
+    "round": 5,
+    "features": {
+      "value": 8.5,
+      "cost": -1,
+      "own": 1.0,
+      "route": 0.0,
+      "draw": 1.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": -0.0625,
+    "accepted": false,
+    "move": {
+      "kind": "add",
+      "out": null,
+      "incoming": "余火"
+    }
+  },
+  {
+    "element": "fire",
+    "route": "fire-03",
+    "round": 5,
+    "features": {
+      "value": 12.0,
+      "cost": -1,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": 1.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 1.0,
+      "heal": 1.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.14285714285714285,
+    "accepted": true,
+    "move": {
+      "kind": "add",
+      "out": null,
+      "incoming": "应急整备"
+    }
+  },
+  {
+    "element": "poison",
+    "route": "poison-01",
+    "round": 5,
+    "features": {
+      "value": 3.833333333333333,
+      "cost": 2,
+      "own": -1.0,
+      "route": -1.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": -0.017857142857142856,
+    "accepted": false,
+    "move": {
+      "kind": "swap",
+      "out": "万蚀",
+      "incoming": "稳固结界"
+    }
+  },
+  {
+    "element": "poison",
+    "route": "poison-02",
+    "round": 5,
+    "features": {
+      "value": 2.5,
+      "cost": 1,
+      "own": 1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.16071428571428573,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "战意沸腾",
+      "incoming": "毒牙"
+    }
+  },
+  {
+    "element": "poison",
+    "route": "poison-03",
+    "round": 5,
+    "features": {
+      "value": -4.0,
+      "cost": 0,
+      "own": 1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": -1.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": 0.044642857142857144,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "命运检索",
+      "incoming": "毒瓶"
+    }
+  },
+  {
+    "element": "water",
+    "route": "water-01",
+    "round": 5,
+    "features": {
+      "value": -4.0,
+      "cost": 1,
+      "own": -1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": -1.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": -1.0
+    },
+    "reward": 0.03571428571428571,
+    "accepted": true,
+    "move": {
+      "kind": "remove",
+      "out": "清泉",
+      "incoming": null
+    }
+  },
+  {
+    "element": "water",
+    "route": "water-02",
+    "round": 5,
+    "features": {
+      "value": 14.0,
+      "cost": -1,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 1.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.07142857142857142,
+    "accepted": true,
+    "move": {
+      "kind": "add",
+      "out": null,
+      "incoming": "破障法阵"
+    }
+  },
+  {
+    "element": "water",
+    "route": "water-03",
+    "round": 5,
+    "features": {
+      "value": 8.0,
+      "cost": -1,
+      "own": 1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 1.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": -0.09821428571428571,
+    "accepted": false,
+    "move": {
+      "kind": "add",
+      "out": null,
+      "incoming": "疾流"
+    }
+  },
+  {
+    "element": "wind",
+    "route": "wind-01",
+    "round": 5,
+    "features": {
+      "value": 5.0,
+      "cost": 0,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": -1.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 1.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": 0.03571428571428571,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "寻风",
+      "incoming": "风幕"
+    }
+  },
+  {
+    "element": "wind",
+    "route": "wind-03",
+    "round": 5,
+    "features": {
+      "value": 2.25,
+      "cost": 1,
+      "own": 1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": -1.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.017857142857142856,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "愈合之光",
+      "incoming": "穿云"
+    }
+  },
+  {
+    "element": "earth",
+    "route": "earth-01",
+    "round": 6,
+    "features": {
+      "value": 2.75,
+      "cost": 1,
+      "own": 1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": -1.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.05357142857142857,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "愈合之光",
+      "incoming": "不动如山"
+    }
+  },
+  {
+    "element": "earth",
+    "route": "earth-02",
+    "round": 6,
+    "features": {
+      "value": 4.25,
+      "cost": -2,
+      "own": 1.0,
+      "route": 1.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 1.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": -0.03571428571428571,
+    "accepted": false,
+    "move": {
+      "kind": "add",
+      "out": null,
+      "incoming": "岩核爆破"
+    }
+  },
+  {
+    "element": "fire",
+    "route": "fire-02",
+    "round": 6,
+    "features": {
+      "value": -4.0,
+      "cost": 1,
+      "own": -1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": -1.0
+    },
+    "reward": -0.008928571428571428,
+    "accepted": false,
+    "move": {
+      "kind": "remove",
+      "out": "火花",
+      "incoming": null
+    }
+  },
+  {
+    "element": "fire",
+    "route": "fire-03",
+    "round": 6,
+    "features": {
+      "value": -6.25,
+      "cost": 2,
+      "own": -1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": 0.10714285714285714,
+    "accepted": true,
+    "move": {
+      "kind": "remove",
+      "out": "焰心屏障",
+      "incoming": null
+    }
+  },
+  {
+    "element": "poison",
+    "route": "poison-01",
+    "round": 6,
+    "features": {
+      "value": 0.0,
+      "cost": 0,
+      "own": 1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": -1.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": 0.22321428571428573,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "愈合",
+      "incoming": "固毒"
+    }
+  },
+  {
+    "element": "poison",
+    "route": "poison-02",
+    "round": 6,
+    "features": {
+      "value": 5.0,
+      "cost": 0,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 1.0,
+      "antiheal": 0.0,
+      "cheap": 0.0
+    },
+    "reward": 0.0,
+    "accepted": false,
+    "move": {
+      "kind": "swap",
+      "out": "腐蚀",
+      "incoming": "爆裂"
+    }
+  },
+  {
+    "element": "poison",
+    "route": "poison-03",
+    "round": 6,
+    "features": {
+      "value": 6.25,
+      "cost": 1,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.026785714285714284,
+    "accepted": true,
+    "move": {
+      "kind": "swap",
+      "out": "毒瓶",
+      "incoming": "腐溃"
+    }
+  },
+  {
+    "element": "water",
+    "route": "water-02",
+    "round": 6,
+    "features": {
+      "value": 8.5,
+      "cost": -1,
+      "own": 1.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0.008928571428571428,
+    "accepted": false,
+    "move": {
+      "kind": "add",
+      "out": null,
+      "incoming": "深流"
+    }
+  },
+  {
+    "element": "water",
+    "route": "water-03",
+    "round": 6,
+    "features": {
+      "value": 4.5,
+      "cost": -1,
+      "own": 0.0,
+      "route": 0.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 1.0,
+      "cleanse": 0.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 0.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": -0.03571428571428571,
+    "accepted": false,
+    "move": {
+      "kind": "add",
+      "out": null,
+      "incoming": "拆盾弹"
+    }
+  },
+  {
+    "element": "wind",
+    "route": "wind-02",
+    "round": 6,
+    "features": {
+      "value": 1.75,
+      "cost": 1,
+      "own": 0.0,
+      "route": 1.0,
+      "draw": 0.0,
+      "search": 0.0,
+      "shuffle": 0.0,
+      "penetration": 0.0,
+      "cleanse": -1.0,
+      "heal": 0.0,
+      "shield": 0.0,
+      "tempo": 1.0,
+      "antiheal": 0.0,
+      "cheap": 1.0
+    },
+    "reward": 0,
+    "accepted": false,
+    "move": {
+      "kind": "swap",
+      "out": "风之躯",
+      "incoming": "追云"
+    }
+  }
+]

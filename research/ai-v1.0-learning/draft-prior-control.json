@@ -1,0 +1,7 @@
+{
+  "training_rewards": false,
+  "ridge": false,
+  "all_other_offer_heuristics_identical": true,
+  "model_selection_forbidden": true,
+  "uses_same_draft_and_combat_seeds": true
+}

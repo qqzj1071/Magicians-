@@ -1,0 +1,36 @@
+{
+  "cards_unchanged": true,
+  "battle_and_planner_sources_match_training": true,
+  "all_15_decks_legal": true,
+  "final_pairings": 120,
+  "final_unique_seeds": 24000,
+  "stage_seed_sets_disjoint": true,
+  "rows_by_stage": {
+    "baseline": 4800,
+    "validation": 32688,
+    "train": 22430,
+    "feedback": 43200,
+    "draft": 4752,
+    "factorial": 6720,
+    "final": 24000,
+    "hierarchy": 1944,
+    "style": 3240,
+    "trace": 120
+  },
+  "unique_seeds_by_stage": {
+    "train": 3762,
+    "validation": 15372,
+    "feedback": 43200,
+    "baseline": 4800,
+    "final": 24000,
+    "factorial": 1680,
+    "draft": 1620,
+    "hierarchy": 648,
+    "trace": 120,
+    "style": 1080
+  },
+  "selected_before_final": true,
+  "draft_frozen_before_its_final_test": true,
+  "total_simulations": 144134,
+  "parallel_resume_identical_completed_jobs": 31
+}

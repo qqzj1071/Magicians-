@@ -1,0 +1,9 @@
+{
+  "card_sha256": "c38a3d456f9de20df5b585045822c7c1e91a76296bcd55fb3fd2f189b4fc201a",
+  "active_library": "decks\\trained-v1.0.json",
+  "matchups": 120,
+  "diagnostic_directions": 225,
+  "selected_round": 6,
+  "severe_final": 36,
+  "old_severe_no_longer_severe": 6
+}
