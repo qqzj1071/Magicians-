@@ -1,0 +1,12 @@
+{
+  "version": "deckbuilding-v1.0",
+  "status": "frozen_user_accepted",
+  "sha256": {
+    "damage.json": "8e0271aba44af8ff977151ebaab28748a922a6b118a57fbaaf2735b21e0df091",
+    "economy.json": "bf870b5249e0cd4d53aa3f8e6ffad54dfac366afebee55c0dbcf2ec37a77e64e",
+    "initial-ai.json": "1dc429d3a9d3726919b51beefdbe60fd2374f3ec32e796001326febdac1d682d",
+    "pool-counts.json": "e209a6a37b793dfe98ea1deb4d2217e15ba9a296703a12292e5e630dfd11f2f5",
+    "probabilities.json": "9df33e1ac808b967eecab9e7367156337c8a1f172508419dc2c20cfd35ddcb27",
+    "README.md": "2f7ba9375b135b32e056c30862c170e5b0bc838b5d31070da2c446ae51391cf5"
+  }
+}

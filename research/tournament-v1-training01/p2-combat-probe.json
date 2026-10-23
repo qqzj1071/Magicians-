@@ -1,0 +1,734 @@
+{
+  "rows": [
+    {
+      "room": 0,
+      "round": 3,
+      "flip": 0,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 36,
+      "waste": 0.030303030303030304
+    },
+    {
+      "room": 0,
+      "round": 3,
+      "flip": 0,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 36,
+      "waste": 0.030303030303030304
+    },
+    {
+      "room": 0,
+      "round": 3,
+      "flip": 1,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 37,
+      "waste": 0.0
+    },
+    {
+      "room": 0,
+      "round": 3,
+      "flip": 1,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 37,
+      "waste": 0.0
+    },
+    {
+      "room": 0,
+      "round": 6,
+      "flip": 0,
+      "condition": "new",
+      "score": 0.5,
+      "plays": 26,
+      "waste": 0.0
+    },
+    {
+      "room": 0,
+      "round": 6,
+      "flip": 0,
+      "condition": "old",
+      "score": 0.5,
+      "plays": 26,
+      "waste": 0.0
+    },
+    {
+      "room": 0,
+      "round": 6,
+      "flip": 1,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 26,
+      "waste": 0.0
+    },
+    {
+      "room": 0,
+      "round": 6,
+      "flip": 1,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 26,
+      "waste": 0.0
+    },
+    {
+      "room": 0,
+      "round": 9,
+      "flip": 0,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 29,
+      "waste": 0.0
+    },
+    {
+      "room": 0,
+      "round": 9,
+      "flip": 0,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 29,
+      "waste": 0.0
+    },
+    {
+      "room": 0,
+      "round": 9,
+      "flip": 1,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 30,
+      "waste": 0.0
+    },
+    {
+      "room": 0,
+      "round": 9,
+      "flip": 1,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 30,
+      "waste": 0.0
+    },
+    {
+      "room": 0,
+      "round": 12,
+      "flip": 0,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 19,
+      "waste": 0.0
+    },
+    {
+      "room": 0,
+      "round": 12,
+      "flip": 0,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 19,
+      "waste": 0.0
+    },
+    {
+      "room": 0,
+      "round": 12,
+      "flip": 1,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 19,
+      "waste": 0.0
+    },
+    {
+      "room": 0,
+      "round": 12,
+      "flip": 1,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 19,
+      "waste": 0.0
+    },
+    {
+      "room": 0,
+      "round": 15,
+      "flip": 0,
+      "condition": "new",
+      "score": 1.0,
+      "plays": 14,
+      "waste": 0.05
+    },
+    {
+      "room": 0,
+      "round": 15,
+      "flip": 0,
+      "condition": "old",
+      "score": 1.0,
+      "plays": 14,
+      "waste": 0.05
+    },
+    {
+      "room": 0,
+      "round": 15,
+      "flip": 1,
+      "condition": "new",
+      "score": 1.0,
+      "plays": 14,
+      "waste": 0.0
+    },
+    {
+      "room": 0,
+      "round": 15,
+      "flip": 1,
+      "condition": "old",
+      "score": 1.0,
+      "plays": 14,
+      "waste": 0.0
+    },
+    {
+      "room": 1,
+      "round": 3,
+      "flip": 0,
+      "condition": "new",
+      "score": 1.0,
+      "plays": 41,
+      "waste": 0.0
+    },
+    {
+      "room": 1,
+      "round": 3,
+      "flip": 0,
+      "condition": "old",
+      "score": 1.0,
+      "plays": 41,
+      "waste": 0.0
+    },
+    {
+      "room": 1,
+      "round": 3,
+      "flip": 1,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 41,
+      "waste": 0.0
+    },
+    {
+      "room": 1,
+      "round": 3,
+      "flip": 1,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 41,
+      "waste": 0.0
+    },
+    {
+      "room": 1,
+      "round": 6,
+      "flip": 0,
+      "condition": "new",
+      "score": 1.0,
+      "plays": 48,
+      "waste": 0.0
+    },
+    {
+      "room": 1,
+      "round": 6,
+      "flip": 0,
+      "condition": "old",
+      "score": 1.0,
+      "plays": 48,
+      "waste": 0.0
+    },
+    {
+      "room": 1,
+      "round": 6,
+      "flip": 1,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 47,
+      "waste": 0.02
+    },
+    {
+      "room": 1,
+      "round": 6,
+      "flip": 1,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 47,
+      "waste": 0.02
+    },
+    {
+      "room": 1,
+      "round": 9,
+      "flip": 0,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 22,
+      "waste": 0.0
+    },
+    {
+      "room": 1,
+      "round": 9,
+      "flip": 0,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 22,
+      "waste": 0.0
+    },
+    {
+      "room": 1,
+      "round": 9,
+      "flip": 1,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 16,
+      "waste": 0.05263157894736842
+    },
+    {
+      "room": 1,
+      "round": 9,
+      "flip": 1,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 16,
+      "waste": 0.05263157894736842
+    },
+    {
+      "room": 1,
+      "round": 12,
+      "flip": 0,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 48,
+      "waste": 0.0
+    },
+    {
+      "room": 1,
+      "round": 12,
+      "flip": 0,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 48,
+      "waste": 0.0
+    },
+    {
+      "room": 1,
+      "round": 12,
+      "flip": 1,
+      "condition": "new",
+      "score": 1.0,
+      "plays": 48,
+      "waste": 0.0
+    },
+    {
+      "room": 1,
+      "round": 12,
+      "flip": 1,
+      "condition": "old",
+      "score": 1.0,
+      "plays": 48,
+      "waste": 0.0
+    },
+    {
+      "room": 1,
+      "round": 15,
+      "flip": 0,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 14,
+      "waste": 0.0
+    },
+    {
+      "room": 1,
+      "round": 15,
+      "flip": 0,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 14,
+      "waste": 0.0
+    },
+    {
+      "room": 1,
+      "round": 15,
+      "flip": 1,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 22,
+      "waste": 0.029411764705882353
+    },
+    {
+      "room": 1,
+      "round": 15,
+      "flip": 1,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 22,
+      "waste": 0.029411764705882353
+    },
+    {
+      "room": 2,
+      "round": 3,
+      "flip": 0,
+      "condition": "new",
+      "score": 1.0,
+      "plays": 44,
+      "waste": 0.0
+    },
+    {
+      "room": 2,
+      "round": 3,
+      "flip": 0,
+      "condition": "old",
+      "score": 1.0,
+      "plays": 44,
+      "waste": 0.0
+    },
+    {
+      "room": 2,
+      "round": 3,
+      "flip": 1,
+      "condition": "new",
+      "score": 1.0,
+      "plays": 40,
+      "waste": 0.0
+    },
+    {
+      "room": 2,
+      "round": 3,
+      "flip": 1,
+      "condition": "old",
+      "score": 1.0,
+      "plays": 40,
+      "waste": 0.0
+    },
+    {
+      "room": 2,
+      "round": 6,
+      "flip": 0,
+      "condition": "new",
+      "score": 1.0,
+      "plays": 44,
+      "waste": 0.04
+    },
+    {
+      "room": 2,
+      "round": 6,
+      "flip": 0,
+      "condition": "old",
+      "score": 1.0,
+      "plays": 44,
+      "waste": 0.04
+    },
+    {
+      "room": 2,
+      "round": 6,
+      "flip": 1,
+      "condition": "new",
+      "score": 1.0,
+      "plays": 47,
+      "waste": 0.0
+    },
+    {
+      "room": 2,
+      "round": 6,
+      "flip": 1,
+      "condition": "old",
+      "score": 1.0,
+      "plays": 47,
+      "waste": 0.0
+    },
+    {
+      "room": 2,
+      "round": 9,
+      "flip": 0,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 29,
+      "waste": 0.0
+    },
+    {
+      "room": 2,
+      "round": 9,
+      "flip": 0,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 29,
+      "waste": 0.0
+    },
+    {
+      "room": 2,
+      "round": 9,
+      "flip": 1,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 27,
+      "waste": 0.0
+    },
+    {
+      "room": 2,
+      "round": 9,
+      "flip": 1,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 27,
+      "waste": 0.0
+    },
+    {
+      "room": 2,
+      "round": 12,
+      "flip": 0,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 19,
+      "waste": 0.0
+    },
+    {
+      "room": 2,
+      "round": 12,
+      "flip": 0,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 19,
+      "waste": 0.0
+    },
+    {
+      "room": 2,
+      "round": 12,
+      "flip": 1,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 20,
+      "waste": 0.03571428571428571
+    },
+    {
+      "room": 2,
+      "round": 12,
+      "flip": 1,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 20,
+      "waste": 0.03571428571428571
+    },
+    {
+      "room": 2,
+      "round": 15,
+      "flip": 0,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 14,
+      "waste": 0.0
+    },
+    {
+      "room": 2,
+      "round": 15,
+      "flip": 0,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 14,
+      "waste": 0.0
+    },
+    {
+      "room": 2,
+      "round": 15,
+      "flip": 1,
+      "condition": "new",
+      "score": 1.0,
+      "plays": 15,
+      "waste": 0.0
+    },
+    {
+      "room": 2,
+      "round": 15,
+      "flip": 1,
+      "condition": "old",
+      "score": 1.0,
+      "plays": 15,
+      "waste": 0.0
+    },
+    {
+      "room": 3,
+      "round": 3,
+      "flip": 0,
+      "condition": "new",
+      "score": 1.0,
+      "plays": 47,
+      "waste": 0.0
+    },
+    {
+      "room": 3,
+      "round": 3,
+      "flip": 0,
+      "condition": "old",
+      "score": 1.0,
+      "plays": 47,
+      "waste": 0.0
+    },
+    {
+      "room": 3,
+      "round": 3,
+      "flip": 1,
+      "condition": "new",
+      "score": 1.0,
+      "plays": 48,
+      "waste": 0.02
+    },
+    {
+      "room": 3,
+      "round": 3,
+      "flip": 1,
+      "condition": "old",
+      "score": 1.0,
+      "plays": 48,
+      "waste": 0.02
+    },
+    {
+      "room": 3,
+      "round": 6,
+      "flip": 0,
+      "condition": "new",
+      "score": 1.0,
+      "plays": 25,
+      "waste": 0.0
+    },
+    {
+      "room": 3,
+      "round": 6,
+      "flip": 0,
+      "condition": "old",
+      "score": 1.0,
+      "plays": 25,
+      "waste": 0.0
+    },
+    {
+      "room": 3,
+      "round": 6,
+      "flip": 1,
+      "condition": "new",
+      "score": 1.0,
+      "plays": 24,
+      "waste": 0.0
+    },
+    {
+      "room": 3,
+      "round": 6,
+      "flip": 1,
+      "condition": "old",
+      "score": 1.0,
+      "plays": 24,
+      "waste": 0.0
+    },
+    {
+      "room": 3,
+      "round": 9,
+      "flip": 0,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 21,
+      "waste": 0.037037037037037035
+    },
+    {
+      "room": 3,
+      "round": 9,
+      "flip": 0,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 21,
+      "waste": 0.037037037037037035
+    },
+    {
+      "room": 3,
+      "round": 9,
+      "flip": 1,
+      "condition": "new",
+      "score": 1.0,
+      "plays": 15,
+      "waste": 0.043478260869565216
+    },
+    {
+      "room": 3,
+      "round": 9,
+      "flip": 1,
+      "condition": "old",
+      "score": 1.0,
+      "plays": 15,
+      "waste": 0.043478260869565216
+    },
+    {
+      "room": 3,
+      "round": 12,
+      "flip": 0,
+      "condition": "new",
+      "score": 0.5,
+      "plays": 14,
+      "waste": 0.0
+    },
+    {
+      "room": 3,
+      "round": 12,
+      "flip": 0,
+      "condition": "old",
+      "score": 0.5,
+      "plays": 14,
+      "waste": 0.0
+    },
+    {
+      "room": 3,
+      "round": 12,
+      "flip": 1,
+      "condition": "new",
+      "score": 1.0,
+      "plays": 14,
+      "waste": 0.0
+    },
+    {
+      "room": 3,
+      "round": 12,
+      "flip": 1,
+      "condition": "old",
+      "score": 1.0,
+      "plays": 14,
+      "waste": 0.0
+    },
+    {
+      "room": 3,
+      "round": 15,
+      "flip": 0,
+      "condition": "new",
+      "score": 0.5,
+      "plays": 13,
+      "waste": 0.0
+    },
+    {
+      "room": 3,
+      "round": 15,
+      "flip": 0,
+      "condition": "old",
+      "score": 0.5,
+      "plays": 13,
+      "waste": 0.0
+    },
+    {
+      "room": 3,
+      "round": 15,
+      "flip": 1,
+      "condition": "new",
+      "score": 0.0,
+      "plays": 10,
+      "waste": 0.0
+    },
+    {
+      "room": 3,
+      "round": 15,
+      "flip": 1,
+      "condition": "old",
+      "score": 0.0,
+      "plays": 10,
+      "waste": 0.0
+    }
+  ],
+  "means": {
+    "new": 0.4375,
+    "old": 0.4375
+  },
+  "stage_gains": {
+    "1-4": 0.0,
+    "5-8": 0.0,
+    "9-12": 0.0,
+    "15-16": 0.0
+  }
+}

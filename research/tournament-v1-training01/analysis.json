@@ -1,0 +1,369 @@
+{
+  "champion_scores": {
+    "candidate": {
+      "mean": 0.4265625,
+      "low": 0.3546875,
+      "high": 0.496875,
+      "rooms": 32
+    },
+    "old_combat": {
+      "mean": 0.42552083333333335,
+      "low": 0.3546875,
+      "high": 0.4953125,
+      "rooms": 32
+    },
+    "full_reference": {
+      "mean": 0.559375,
+      "low": 0.51875,
+      "high": 0.6,
+      "rooms": 32
+    }
+  },
+  "champion_paired": {
+    "old_combat": {
+      "mean": 0.0010416666666666664,
+      "low": -0.002083333333333333,
+      "high": 0.005208333333333332,
+      "rooms": 32
+    },
+    "full_reference": {
+      "mean": -0.1328125,
+      "low": -0.19270833333333331,
+      "high": -0.07083333333333333,
+      "rooms": 32
+    }
+  },
+  "combat_probe_gain": {
+    "mean": 0.010937500000000001,
+    "low": 0.0,
+    "high": 0.024218750000000004,
+    "rooms": 32
+  },
+  "mixed_champion_excess": {
+    "mean": 0.0,
+    "low": -0.1875,
+    "high": 0.1875,
+    "rooms": 24
+  },
+  "independent_champion_score_change": 0.04322916666666665,
+  "construction_external_difference": {
+    "mean": 0.04218749999999999,
+    "low": -0.05416666666666664,
+    "high": 0.13906249999999998,
+    "new_rooms": 32,
+    "old_rooms": 32
+  },
+  "same_deck_operation": {
+    "new": {
+      "plays": 28.72151898734177,
+      "waste": 0.010578670965849541
+    },
+    "old": {
+      "plays": 28.775316455696203,
+      "waste": 0.010467310730916175
+    }
+  },
+  "baseline_champion_score": 0.38333333333333336,
+  "new_diagnostics": {
+    "spec_mean": 4.015625,
+    "unspecialized": 0,
+    "route_mean": 7.952755905511811,
+    "route_observations": 127,
+    "mean_cost": 1.534875905015768,
+    "mean_size": 17.2421875,
+    "resources": {
+      "draw": 2.296875,
+      "search": 2.1796875,
+      "shuffle": 1.1171875
+    },
+    "route_changes": 15,
+    "mean_elements": 2.4375,
+    "reason_counts": {
+      "buy": 2511,
+      "hold": 2792,
+      "bank": 1759,
+      "refresh": 1033,
+      "delete": 1441,
+      "skip_refresh": 492
+    },
+    "positive_public_counter_buys": 75,
+    "bank_by_hp": {
+      "high>60": {
+        "n": 1187,
+        "mean": 0.9182813816343723
+      },
+      "mid31-60": {
+        "n": 361,
+        "mean": 0.8476454293628809
+      },
+      "low<=30": {
+        "n": 211,
+        "mean": 1.2417061611374407
+      }
+    },
+    "finance": {
+      "1": {
+        "bank": 0.453125,
+        "wasted": 0,
+        "refresh": 0.390625,
+        "bonus": 0
+      },
+      "2": {
+        "bank": 0.7109375,
+        "wasted": 0,
+        "refresh": 0.640625,
+        "bonus": 0
+      },
+      "3": {
+        "bank": 0.8671875,
+        "wasted": 0.1328125,
+        "refresh": 0.890625,
+        "bonus": 0
+      },
+      "4": {
+        "bank": 1.1328125,
+        "wasted": 0.390625,
+        "refresh": 0.7890625,
+        "bonus": 0.3046875
+      },
+      "5": {
+        "bank": 1.0546875,
+        "wasted": 0.203125,
+        "refresh": 0.7109375,
+        "bonus": 0.1171875
+      },
+      "6": {
+        "bank": 1.2578125,
+        "wasted": 0.3671875,
+        "refresh": 0.8046875,
+        "bonus": 0.171875
+      },
+      "7": {
+        "bank": 1.171875,
+        "wasted": 0.203125,
+        "refresh": 0.6640625,
+        "bonus": 0.1953125
+      },
+      "8": {
+        "bank": 0.3671875,
+        "wasted": 0,
+        "refresh": 0.0859375,
+        "bonus": 0.1015625
+      },
+      "9": {
+        "bank": 0.515625,
+        "wasted": 0.0234375,
+        "refresh": 0.3515625,
+        "bonus": 0.2109375
+      },
+      "10": {
+        "bank": 0.6929133858267716,
+        "wasted": 0.015748031496062992,
+        "refresh": 0.3228346456692913,
+        "bonus": 0.16535433070866143
+      },
+      "11": {
+        "bank": 0.8907563025210085,
+        "wasted": 0.16806722689075632,
+        "refresh": 0.4789915966386555,
+        "bonus": 0.14285714285714285
+      },
+      "12": {
+        "bank": 1.1181818181818182,
+        "wasted": 0.2727272727272727,
+        "refresh": 0.4727272727272727,
+        "bonus": 0.15454545454545454
+      },
+      "13": {
+        "bank": 1.1958762886597938,
+        "wasted": 0.7422680412371134,
+        "refresh": 0.7319587628865979,
+        "bonus": 0.2268041237113402
+      },
+      "14": {
+        "bank": 1.6923076923076923,
+        "wasted": 1,
+        "refresh": 0.7948717948717948,
+        "bonus": 0.19230769230769232
+      },
+      "15": {
+        "bank": 1.7241379310344827,
+        "wasted": 1.7241379310344827,
+        "refresh": 0.9137931034482759,
+        "bonus": 0.1896551724137931
+      },
+      "16": {
+        "bank": 1.5625,
+        "wasted": 1.75,
+        "refresh": 0.8125,
+        "bonus": 0.125
+      },
+      "17": {
+        "bank": 2,
+        "wasted": 2,
+        "refresh": 1,
+        "bonus": 0
+      }
+    }
+  },
+  "old_diagnostics": {
+    "spec_mean": 3.953125,
+    "unspecialized": 0,
+    "route_mean": 7.913385826771654,
+    "route_observations": 127,
+    "mean_cost": 1.5209982944418412,
+    "mean_size": 17.4140625,
+    "resources": {
+      "draw": 2.3671875,
+      "search": 2.1875,
+      "shuffle": 1.1328125
+    },
+    "route_changes": 14,
+    "mean_elements": 2.3125,
+    "reason_counts": {
+      "buy": 2519,
+      "hold": 2847,
+      "delete": 1428
+    },
+    "positive_public_counter_buys": 71,
+    "bank_by_hp": {
+      "high>60": {
+        "n": 1185,
+        "mean": 0.9130801687763713
+      },
+      "mid31-60": {
+        "n": 380,
+        "mean": 0.9605263157894737
+      },
+      "low<=30": {
+        "n": 219,
+        "mean": 1.269406392694064
+      }
+    },
+    "finance": {
+      "1": {
+        "bank": 0.484375,
+        "wasted": 0,
+        "refresh": 0.3671875,
+        "bonus": 0
+      },
+      "2": {
+        "bank": 0.6953125,
+        "wasted": 0,
+        "refresh": 0.6875,
+        "bonus": 0
+      },
+      "3": {
+        "bank": 0.8984375,
+        "wasted": 0.1171875,
+        "refresh": 0.875,
+        "bonus": 0
+      },
+      "4": {
+        "bank": 1.21875,
+        "wasted": 0.421875,
+        "refresh": 0.7421875,
+        "bonus": 0.328125
+      },
+      "5": {
+        "bank": 1.109375,
+        "wasted": 0.3046875,
+        "refresh": 0.7578125,
+        "bonus": 0.140625
+      },
+      "6": {
+        "bank": 1.34375,
+        "wasted": 0.59375,
+        "refresh": 0.84375,
+        "bonus": 0.1328125
+      },
+      "7": {
+        "bank": 0.9140625,
+        "wasted": 0.1484375,
+        "refresh": 0.6796875,
+        "bonus": 0.2109375
+      },
+      "8": {
+        "bank": 0.359375,
+        "wasted": 0,
+        "refresh": 0.140625,
+        "bonus": 0.234375
+      },
+      "9": {
+        "bank": 0.5703125,
+        "wasted": 0.0234375,
+        "refresh": 0.328125,
+        "bonus": 0.140625
+      },
+      "10": {
+        "bank": 0.7952755905511811,
+        "wasted": 0.07874015748031496,
+        "refresh": 0.33070866141732286,
+        "bonus": 0.14960629921259844
+      },
+      "11": {
+        "bank": 0.9826086956521739,
+        "wasted": 0.08695652173913043,
+        "refresh": 0.5217391304347826,
+        "bonus": 0.20869565217391303
+      },
+      "12": {
+        "bank": 1.0648148148148149,
+        "wasted": 0.26851851851851855,
+        "refresh": 0.5277777777777778,
+        "bonus": 0.1574074074074074
+      },
+      "13": {
+        "bank": 1.292929292929293,
+        "wasted": 0.5454545454545454,
+        "refresh": 0.6565656565656566,
+        "bonus": 0.09090909090909091
+      },
+      "14": {
+        "bank": 1.4871794871794872,
+        "wasted": 1.2179487179487178,
+        "refresh": 0.7692307692307693,
+        "bonus": 0.19230769230769232
+      },
+      "15": {
+        "bank": 1.6507936507936507,
+        "wasted": 1.253968253968254,
+        "refresh": 0.8095238095238095,
+        "bonus": 0.1746031746031746
+      },
+      "16": {
+        "bank": 1.75,
+        "wasted": 1.625,
+        "refresh": 0.84375,
+        "bonus": 0.125
+      },
+      "17": {
+        "bank": 2,
+        "wasted": 2.9,
+        "refresh": 0.7,
+        "bonus": 0.2
+      }
+    }
+  },
+  "counts": {
+    "rooms": 248,
+    "course_battles": 7211,
+    "training_battles": 2291,
+    "training_counterfactual_games": 11147,
+    "external_matrix_games": 7554,
+    "same_deck_probe_games": 1448
+  },
+  "draft_accepted": 6,
+  "combat_accepted": 1,
+  "audit": {
+    "status": "passed",
+    "rooms": 248,
+    "decision_reasons": 73942,
+    "combat_learning_attempts": 4428,
+    "locally_accepted_trials": 118,
+    "winner_learning": 2188,
+    "loser_learning": 2119,
+    "draw_learning": 121,
+    "scope": "frozen rules, all ten independent gates, exact rollback, terminal model hash, two shuffle learning, reasons"
+  }
+}

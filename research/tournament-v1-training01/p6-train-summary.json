@@ -1,0 +1,21 @@
+{
+  "rooms": 8,
+  "strong12": 0.375,
+  "alive15": 0.3125,
+  "ended18": 1.0,
+  "mean_end": 15.125,
+  "max_end": 17,
+  "tied": 0,
+  "battles": 228,
+  "spec_by5": 0.875,
+  "spec_by6": 0.9375,
+  "champion_size": 17.875,
+  "champion_dice": 0.8957739634568903,
+  "end_histogram": {
+    "16": 1,
+    "15": 5,
+    "13": 1,
+    "17": 1
+  },
+  "mean_elements": 2.25
+}

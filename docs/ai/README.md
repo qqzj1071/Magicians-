@@ -1,7 +1,14 @@
-# 战斗AI与构筑AI · 卡牌v1.0
+# 构筑与战斗AI · 当前入口
 
-[总报告](training-v1/report.md) · [共性战斗逻辑](training-v1/common.md) · [构筑方法](training-v1/construction.md) · [120组对战索引](training-v1/matchups.md)
+卡牌v1.0与[构筑v1.0](../../releases/deckbuilding-v1.0/README.md)冻结；AI检查点独立演进，不能回写游戏规则。
 
-卡牌数据未修改；实际采用的固定牌表见[训练牌组](../../decks/trained-v1.0.json)。参数按共性→路线→具体对手分层，运行器默认读取该训练版列表。历史15套封版参考列表仍独立保留。
+- [十轮四人赛事学习及独立终测](tournament-v1-report.md)
+- [训练、回退与防过拟合方法](tournament-v1-method.md)
+- [真实抓牌、存费和出牌理由示例](tournament-v1-decisions.md)
+- [当前研究检查点指针](current-tournament.json)
 
-严格胜率中同时击败不计胜；训练评分中同时击败计0.5，两个口径不混用。最终测试只用于报告，不用来继续选牌或调参。仍严重克制的组合保留失败记录，不宣称全部破解。
+研究候选可用tools/round_robin/tournament_inference.load_release读取research/tournament-v1-training01。实际推荐模型以current-tournament.json中的model与哈希为准；混合赛事若明确退步，保留冻结前AI作为默认。整体是否更强以独立终测与区间为准，不能用自弈胜率、训练次数或Dice代替战力。
+
+后续训练必须换新的研究名称与种子空间；工具默认接当前推荐检查点继续学习，也可显式指定checkpoint。不覆盖本次结果，不重用终测种子调参。
+
+冻结前策略仍保留于releases/deckbuilding-v1.0/initial-ai.json，旧构筑规则与实验已压缩且过时，默认禁止解压。固定15套标准牌组的历史战斗先验仍见[报告](training-v1/report.md)、[共性](training-v1/common.md)与[历史构筑课程](training-v1/construction.md)，不把它们作为现行赛事规则。

@@ -1,0 +1,223 @@
+{
+  "rooms": 24,
+  "mean_new_champion_share": 0.5,
+  "mean_expected_share": 0.5,
+  "rows": [
+    {
+      "index": 0,
+      "new_seats": [
+        0
+      ],
+      "share": 0.0,
+      "expected": 0.25
+    },
+    {
+      "index": 1,
+      "new_seats": [
+        0,
+        1
+      ],
+      "share": 1.0,
+      "expected": 0.5
+    },
+    {
+      "index": 2,
+      "new_seats": [
+        0,
+        1,
+        2
+      ],
+      "share": 1.0,
+      "expected": 0.75
+    },
+    {
+      "index": 3,
+      "new_seats": [
+        1
+      ],
+      "share": 0.0,
+      "expected": 0.25
+    },
+    {
+      "index": 4,
+      "new_seats": [
+        1,
+        2
+      ],
+      "share": 1.0,
+      "expected": 0.5
+    },
+    {
+      "index": 5,
+      "new_seats": [
+        1,
+        2,
+        3
+      ],
+      "share": 0.0,
+      "expected": 0.75
+    },
+    {
+      "index": 6,
+      "new_seats": [
+        2
+      ],
+      "share": 1.0,
+      "expected": 0.25
+    },
+    {
+      "index": 7,
+      "new_seats": [
+        2,
+        3
+      ],
+      "share": 0.0,
+      "expected": 0.5
+    },
+    {
+      "index": 8,
+      "new_seats": [
+        0,
+        2,
+        3
+      ],
+      "share": 1.0,
+      "expected": 0.75
+    },
+    {
+      "index": 9,
+      "new_seats": [
+        3
+      ],
+      "share": 1.0,
+      "expected": 0.25
+    },
+    {
+      "index": 10,
+      "new_seats": [
+        0,
+        3
+      ],
+      "share": 0.0,
+      "expected": 0.5
+    },
+    {
+      "index": 11,
+      "new_seats": [
+        0,
+        1,
+        3
+      ],
+      "share": 1.0,
+      "expected": 0.75
+    },
+    {
+      "index": 12,
+      "new_seats": [
+        0
+      ],
+      "share": 1.0,
+      "expected": 0.25
+    },
+    {
+      "index": 13,
+      "new_seats": [
+        0,
+        1
+      ],
+      "share": 0.0,
+      "expected": 0.5
+    },
+    {
+      "index": 14,
+      "new_seats": [
+        0,
+        1,
+        2
+      ],
+      "share": 1.0,
+      "expected": 0.75
+    },
+    {
+      "index": 15,
+      "new_seats": [
+        1
+      ],
+      "share": 0.0,
+      "expected": 0.25
+    },
+    {
+      "index": 16,
+      "new_seats": [
+        1,
+        2
+      ],
+      "share": 0.0,
+      "expected": 0.5
+    },
+    {
+      "index": 17,
+      "new_seats": [
+        1,
+        2,
+        3
+      ],
+      "share": 1.0,
+      "expected": 0.75
+    },
+    {
+      "index": 18,
+      "new_seats": [
+        2
+      ],
+      "share": 0.0,
+      "expected": 0.25
+    },
+    {
+      "index": 19,
+      "new_seats": [
+        2,
+        3
+      ],
+      "share": 0.0,
+      "expected": 0.5
+    },
+    {
+      "index": 20,
+      "new_seats": [
+        0,
+        2,
+        3
+      ],
+      "share": 0.0,
+      "expected": 0.75
+    },
+    {
+      "index": 21,
+      "new_seats": [
+        3
+      ],
+      "share": 0.0,
+      "expected": 0.25
+    },
+    {
+      "index": 22,
+      "new_seats": [
+        0,
+        3
+      ],
+      "share": 1.0,
+      "expected": 0.5
+    },
+    {
+      "index": 23,
+      "new_seats": [
+        0,
+        1,
+        3
+      ],
+      "share": 1.0,
+      "expected": 0.75
+    }
+  ]
+}

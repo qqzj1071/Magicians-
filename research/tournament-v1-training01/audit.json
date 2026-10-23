@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "counts": {
+    "rooms": 248,
+    "purchases": 19720,
+    "bonus_points": 1905,
+    "battles": 7211,
+    "player_rounds": 13848,
+    "broadcasts": 2061,
+    "retargets": 566,
+    "ghost_battles": 574
+  },
+  "final": {
+    "rooms": 32,
+    "strong12": 0.3359375,
+    "alive15": 0.3125,
+    "ended18": 1.0,
+    "mean_end": 15.125,
+    "max_end": 17,
+    "tied": 0,
+    "battles": 910,
+    "spec_by5": 0.9375,
+    "spec_by6": 0.984375,
+    "champion_size": 18.21875,
+    "champion_dice": 0.8812096395195721,
+    "end_histogram": {
+      "15": 19,
+      "14": 5,
+      "16": 7,
+      "17": 1
+    },
+    "mean_elements": 2.4375
+  },
+  "matrix_games": 2880,
+  "scope": "source hashes, card freeze, uniform copies, face reservations, purchases, money, bonus, elimination, HP, ghosts, scheduling, broadcasts, terminal champions, paired matrix"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "rooms": 248,
+  "decision_reasons": 73942,
+  "combat_learning_attempts": 4428,
+  "locally_accepted_trials": 118,
+  "winner_learning": 2188,
+  "loser_learning": 2119,
+  "draw_learning": 121,
+  "scope": "frozen rules, all ten independent gates, exact rollback, terminal model hash, two shuffle learning, reasons"
+}

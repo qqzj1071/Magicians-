@@ -1,0 +1,8015 @@
+{
+  "combat": [
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "operation_layer": 2.4800000000000004,
+        "health": -0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "reserve": 0.012,
+        "health": 0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "sustain_value": -0.08399999999999996,
+        "layer": 1.5199999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cost_power": -0.040000000000000036,
+        "startup_resource": -4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "energy": -2.120000000000001,
+        "damage": 0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "core_priority": -24.399999999999977,
+        "layer": 1.5199999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "budget_fit": 1.6000000000000005,
+        "energy": 2.120000000000001
+      },
+      "gain": 0.0013249999999999096,
+      "seed_gains": [
+        0.0,
+        0.002649999999999819
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "finish_burst": 0.06400000000000006,
+        "cleanse": 0
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "energy": 2.120000000000001,
+        "tempo_value": -0.09199999999999997
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cost_power": -0.040000000000000036,
+        "finish_burst": 0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "sustain_value": -0.08399999999999996,
+        "penetration_value": -0.10400000000000009
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "layer": -1.5199999999999996,
+        "finish_burst": -0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "core_priority": -24.399999999999977,
+        "energy": -2.120000000000001
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "damage": 0.05600000000000005,
+        "cost_power": 0.040000000000000036
+      },
+      "gain": -0.0004750000000000032,
+      "seed_gains": [
+        0.0,
+        -0.0009500000000000064
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "search": -2.24,
+        "layer": 1.5199999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cost_power": 0.040000000000000036,
+        "layer": 1.5199999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "penetration_value": -0.10399999999999998,
+        "budget_fit": -1.5999999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "draw": -1.4399999999999995,
+        "tempo_value": 0.09200000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "startup_resource": -4.200000000000003,
+        "layer": -1.5199999999999996
+      },
+      "gain": -0.0045000000000000005,
+      "seed_gains": [
+        -0.009000000000000001,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "damage": 0.05600000000000005,
+        "budget_fit": -1.5999999999999996
+      },
+      "gain": -0.0014500000000000624,
+      "seed_gains": [
+        0.0,
+        -0.0029000000000001247
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "shield_engine": -0.08399999999999996,
+        "cost_power": 0.040000000000000036
+      },
+      "gain": 2.499999999999985e-05,
+      "seed_gains": [
+        0.0,
+        4.99999999999997e-05
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cost_power": -0.040000000000000036,
+        "tempo_value": 0.09200000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cleanse": 0.08,
+        "damage": -0.05600000000000005
+      },
+      "gain": -0.00027499999999999747,
+      "seed_gains": [
+        -0.0005499999999999949,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "penetration_value": 0.10400000000000009,
+        "sustain_value": -0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cost_power": 0.040000000000000036,
+        "finish_burst": -0.06400000000000006
+      },
+      "gain": -0.25554999999999994,
+      "seed_gains": [
+        -0.007849999999999913,
+        -0.50325
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "energy": -2.120000000000001,
+        "finish_burst": -0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "layer": 1.5199999999999996,
+        "search": -2.24
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "layer": -1.5199999999999996,
+        "cost_power": 0.040000000000000036
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "fire-03",
+      "opponent": "water-01",
+      "scope": "route",
+      "changes": {
+        "search": 2.24,
+        "core_priority": 24.399999999999977
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "draw",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "water-01",
+      "opponent": "fire-03",
+      "scope": "matchup",
+      "changes": {
+        "energy": 2.120000000000001,
+        "finish_burst": -0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "draw",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "fire-02",
+      "opponent": "fire-01",
+      "scope": "context",
+      "changes": {
+        "cost_power": 0.040000000000000036,
+        "panic": 0.08800000000000008
+      },
+      "gain": -0.0021999999999999797,
+      "seed_gains": [
+        0.0,
+        -0.0043999999999999595
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "fire-01",
+      "opponent": "fire-02",
+      "scope": "route",
+      "changes": {
+        "budget_fit": -1.5999999999999996,
+        "penetration_value": 0.10400000000000009
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "fire-03",
+      "opponent": "fire-01",
+      "scope": "matchup",
+      "changes": {
+        "damage": -0.05600000000000005,
+        "draw": 1.4400000000000013
+      },
+      "gain": -0.001125000000000001,
+      "seed_gains": [
+        0.0,
+        -0.002250000000000002
+      ],
+      "accepted": false,
+      "outcome": "draw",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "fire-01",
+      "opponent": "fire-03",
+      "scope": "route",
+      "changes": {
+        "shield_engine": 0.08400000000000007,
+        "penetration_value": -0.10399999999999998
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "draw",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "fire-02",
+      "opponent": "water-01",
+      "scope": "route",
+      "changes": {
+        "reserve": -0.012,
+        "draw": 1.4399999999999995
+      },
+      "gain": 0.003922138047138049,
+      "seed_gains": [
+        0.006194276094276099,
+        0.0016499999999999987
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "water-01",
+      "opponent": "fire-02",
+      "scope": "context",
+      "changes": {
+        "sustain_value": 0.08400000000000007,
+        "draw": 1.4399999999999995
+      },
+      "gain": -0.0003250000000000197,
+      "seed_gains": [
+        0.0002500000000000835,
+        -0.0009000000000001229
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "fire-03",
+      "opponent": "water-01",
+      "scope": "route",
+      "changes": {
+        "finish_burst": 0.06399999999999995,
+        "cleanse": 0.08
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "water-01",
+      "opponent": "fire-03",
+      "scope": "context",
+      "changes": {
+        "budget_fit": 1.5999999999999996,
+        "tempo_value": -0.09199999999999997
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "fire-02",
+      "opponent": "fire-01",
+      "scope": "route",
+      "changes": {
+        "energy": 2.120000000000001,
+        "draw": -1.4399999999999995
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "fire-01",
+      "opponent": "fire-02",
+      "scope": "route",
+      "changes": {
+        "energy": 2.120000000000001,
+        "core_priority": 24.399999999999977
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "fire-03",
+      "opponent": "fire-01",
+      "scope": "route",
+      "changes": {
+        "cleanse": 0.08,
+        "damage": -0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "draw",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "fire-01",
+      "opponent": "fire-03",
+      "scope": "route",
+      "changes": {
+        "startup_resource": 4.200000000000003,
+        "finish_burst": 0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "draw",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "fire-02",
+      "opponent": "water-01",
+      "scope": "route",
+      "changes": {
+        "epic_cycle": 2.8000000000000007,
+        "damage": -0.05600000000000005
+      },
+      "gain": -0.00016324884792628946,
+      "seed_gains": [
+        -0.00032649769585257893,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "water-01",
+      "opponent": "fire-02",
+      "scope": "matchup",
+      "changes": {
+        "startup_resource": -4.200000000000003,
+        "draw": -1.4399999999999995
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "fire-03",
+      "opponent": "fire-02",
+      "scope": "matchup",
+      "changes": {
+        "damage": -0.05600000000000005,
+        "operation_layer": -2.4800000000000004
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "fire-02",
+      "opponent": "fire-03",
+      "scope": "matchup",
+      "changes": {
+        "health": -0.05600000000000005,
+        "epic_cycle": -2.8000000000000007
+      },
+      "gain": -0.0005944444444444443,
+      "seed_gains": [
+        0.0,
+        -0.0011888888888888886
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "fire-01",
+      "opponent": "water-01",
+      "scope": "context",
+      "changes": {
+        "damage": -0.05600000000000005,
+        "startup_resource": 4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "water-01",
+      "opponent": "fire-01",
+      "scope": "matchup",
+      "changes": {
+        "finish_burst": 0.06400000000000006,
+        "cost_power": 0.040000000000000036
+      },
+      "gain": -0.0015749999999999983,
+      "seed_gains": [
+        0.0,
+        -0.0031499999999999966
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "fire-03",
+      "opponent": "water-01",
+      "scope": "context",
+      "changes": {
+        "tempo_value": -0.05556666666666665,
+        "panic": 0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "water-01",
+      "opponent": "fire-03",
+      "scope": "context",
+      "changes": {
+        "health": 0.05600000000000005,
+        "epic_cycle": 2.8000000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "fire-02",
+      "opponent": "fire-01",
+      "scope": "route",
+      "changes": {
+        "layer": 1.5199999999999996,
+        "penetration_value": 0.10400000000000009
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "fire-01",
+      "opponent": "fire-02",
+      "scope": "route",
+      "changes": {
+        "budget_fit": 1.5999999999999996,
+        "panic": 0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 14,
+      "route": "fire-03",
+      "opponent": "fire-02",
+      "scope": "matchup",
+      "changes": {
+        "tempo_value": -0.05556666666666665,
+        "budget_fit": -1.5999999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 14,
+      "route": "fire-02",
+      "opponent": "fire-03",
+      "scope": "route",
+      "changes": {
+        "epic_cycle": -2.8000000000000007,
+        "core_priority": 24.399999999999977
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 14,
+      "route": "water-01",
+      "opponent": "fire-01",
+      "scope": "context",
+      "changes": {
+        "reserve": 0.011999999999999997,
+        "damage": -0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "draw",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 15,
+      "route": "fire-03",
+      "opponent": "water-01",
+      "scope": "context",
+      "changes": {
+        "energy": -2.120000000000001,
+        "cleanse": -0.016
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 15,
+      "route": "water-01",
+      "opponent": "fire-03",
+      "scope": "route",
+      "changes": {
+        "cleanse": 0,
+        "layer": -1.52
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "shield_engine": 0.08400000000000007,
+        "cost_power": -0.040000000000000036
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "energy": 2.120000000000001,
+        "startup_resource": 4.200000000000003
+      },
+      "gain": 0.004450000000000065,
+      "seed_gains": [
+        0.0,
+        0.00890000000000013
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "epic_cycle": 2.8000000000000007,
+        "shield_engine": 0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "draw": -1.4400000000000013,
+        "startup_resource": -4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "epic_cycle": -2.8000000000000007,
+        "panic": 0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "draw": 1.4400000000000013,
+        "tempo_value": -0.09199999999999997
+      },
+      "gain": -0.25202499999999994,
+      "seed_gains": [
+        0.0,
+        -0.5040499999999999
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "core_priority": -24.399999999999977,
+        "tempo_value": 0.09200000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "energy": 2.120000000000001,
+        "operation_layer": 2.4800000000000004
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cost_power": 0.040000000000000036,
+        "tempo_value": 0.09200000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "reserve": 0,
+        "sustain_value": -0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "epic_cycle": 2.8000000000000007,
+        "cost_power": -0.040000000000000036
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "panic": 0.08800000000000008,
+        "damage": 0.05599999999999994
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "core_priority": -24.399999999999977,
+        "penetration_value": 0.10400000000000009
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "tempo_value": 0.09200000000000008,
+        "draw": -1.4399999999999995
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "tempo_value": 0.09200000000000008,
+        "search": 2.24
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "core_priority": 24.399999999999977,
+        "epic_cycle": -2.8000000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "sustain_value": -0.08399999999999996,
+        "budget_fit": -1.5999999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "budget_fit": 1.5999999999999996,
+        "damage": -0.05600000000000005
+      },
+      "gain": -0.00024999999999997247,
+      "seed_gains": [
+        -0.0004999999999999449,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cost_power": 0.040000000000000036,
+        "budget_fit": -1.5999999999999996
+      },
+      "gain": -0.00013438438438438324,
+      "seed_gains": [
+        0.0,
+        -0.0002687687687687665
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "startup_resource": -4.200000000000003,
+        "tempo_value": 0.09200000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "tempo_value": 0.09200000000000008,
+        "reserve": 0.012
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cleanse": 0,
+        "core_priority": 24.399999999999977
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "sustain_value": 0.08400000000000007,
+        "energy": -2.120000000000001
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "startup_resource": -4.200000000000003,
+        "draw": -1.4399999999999995
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "startup_resource": 4.200000000000003,
+        "core_priority": 24.399999999999977
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "budget_fit": 1.5999999999999996,
+        "sustain_value": -0.08400000000000007
+      },
+      "gain": 0.0006249999999998757,
+      "seed_gains": [
+        0.0004499999999998394,
+        0.0007999999999999119
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "finish_burst": -0.06400000000000006,
+        "epic_cycle": 2.8000000000000007
+      },
+      "gain": 0.0003499999999999996,
+      "seed_gains": [
+        0.0,
+        0.0006999999999999992
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cleanse": 0,
+        "damage": -0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "fire-02",
+      "opponent": "water-02",
+      "scope": "route",
+      "changes": {
+        "health": 0.05600000000000005,
+        "shield_engine": 0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "water-02",
+      "opponent": "fire-02",
+      "scope": "matchup",
+      "changes": {
+        "penetration_value": -0.10399999999999998,
+        "operation_layer": 2.4800000000000004
+      },
+      "gain": -0.0036000000000000008,
+      "seed_gains": [
+        0.0002500000000000002,
+        -0.007450000000000002
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "water-01",
+      "opponent": "water-03",
+      "scope": "matchup",
+      "changes": {
+        "core_priority": -24.399999999999977,
+        "energy": -2.120000000000001
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "water-03",
+      "opponent": "water-01",
+      "scope": "route",
+      "changes": {
+        "operation_layer": 2.4800000000000004,
+        "damage": -0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "fire-02",
+      "opponent": "water-01",
+      "scope": "context",
+      "changes": {
+        "cost_power": -0.040000000000000036,
+        "tempo_value": -0.09199999999999997
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "water-01",
+      "opponent": "fire-02",
+      "scope": "context",
+      "changes": {
+        "core_priority": 24.399999999999977,
+        "penetration_value": -0.10399999999999998
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "water-02",
+      "opponent": "water-03",
+      "scope": "matchup",
+      "changes": {
+        "shield_engine": 0.08400000000000007,
+        "reserve": 0.011999999999999997
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "water-03",
+      "opponent": "water-02",
+      "scope": "route",
+      "changes": {
+        "energy": -2.120000000000001,
+        "core_priority": 24.399999999999977
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "fire-02",
+      "opponent": "water-02",
+      "scope": "matchup",
+      "changes": {
+        "damage": 0.05600000000000005,
+        "energy": -2.120000000000001
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "water-02",
+      "opponent": "fire-02",
+      "scope": "route",
+      "changes": {
+        "cost_power": 0.040000000000000036,
+        "cleanse": 0.08
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "water-01",
+      "opponent": "water-03",
+      "scope": "matchup",
+      "changes": {
+        "reserve": 0.011999999999999997,
+        "draw": 1.4399999999999995
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "water-03",
+      "opponent": "water-01",
+      "scope": "route",
+      "changes": {
+        "tempo_value": -0.09199999999999997,
+        "operation_layer": 2.4800000000000004
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "fire-02",
+      "opponent": "water-01",
+      "scope": "route",
+      "changes": {
+        "reserve": 0.011999999999999997,
+        "epic_cycle": -2.8000000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "water-01",
+      "opponent": "fire-02",
+      "scope": "context",
+      "changes": {
+        "budget_fit": -1.5999999999999996,
+        "health": -0.05599999999999994
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "water-02",
+      "opponent": "water-03",
+      "scope": "route",
+      "changes": {
+        "energy": 2.1199999999999974,
+        "reserve": -0.012
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "water-03",
+      "opponent": "water-02",
+      "scope": "matchup",
+      "changes": {
+        "core_priority": -24.399999999999977,
+        "operation_layer": 2.4800000000000004
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "fire-02",
+      "opponent": "water-03",
+      "scope": "matchup",
+      "changes": {
+        "operation_layer": -2.4800000000000004,
+        "health": 0.05600000000000005
+      },
+      "gain": 0.0016434782608695693,
+      "seed_gains": [
+        0.0032869565217391386,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "water-03",
+      "opponent": "fire-02",
+      "scope": "route",
+      "changes": {
+        "layer": 1.5199999999999996,
+        "cleanse": 0.08
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "water-01",
+      "opponent": "water-02",
+      "scope": "context",
+      "changes": {
+        "cost_power": 0.040000000000000036,
+        "panic": -0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "water-01",
+      "opponent": "water-03",
+      "scope": "context",
+      "changes": {
+        "layer": 1.5199999999999996,
+        "search": -2.24
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "water-03",
+      "opponent": "water-01",
+      "scope": "route",
+      "changes": {
+        "operation_layer": 2.4800000000000004,
+        "reserve": 0.011999999999999997
+      },
+      "gain": -0.0022999999999999687,
+      "seed_gains": [
+        0.0,
+        -0.0045999999999999375
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "fire-02",
+      "opponent": "water-02",
+      "scope": "route",
+      "changes": {
+        "operation_layer": -2.4800000000000004,
+        "search": -2.24
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "operation_layer": 2.4800000000000004,
+        "cost_power": -0.040000000000000036
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "draw",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "core_priority": 24.399999999999977,
+        "damage": -0.05599999999999994
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "draw",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "epic_cycle": 2.8000000000000007,
+        "cost_power": -0.040000000000000036
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "panic": 0.08800000000000008,
+        "epic_cycle": 2.8000000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "draw": -1.4400000000000013,
+        "tempo_value": 0.09200000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "finish_burst": -0.06400000000000006,
+        "search": 2.2399999999999984
+      },
+      "gain": 0.001975000000000001,
+      "seed_gains": [
+        0.003950000000000002,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "energy": -2.120000000000001,
+        "cost_power": 0.040000000000000036
+      },
+      "gain": -0.25084999999999996,
+      "seed_gains": [
+        0.00019999999999997797,
+        -0.5018999999999999
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "reserve": 0.012,
+        "penetration_value": 0.10400000000000009
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "shield_engine": -0.08400000000000007,
+        "damage": -0.05599999999999994
+      },
+      "gain": 0.00032500000000000064,
+      "seed_gains": [
+        0.0006500000000000013,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cost_power": -0.040000000000000036,
+        "budget_fit": -1.6000000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "finish_burst": 0.06400000000000006,
+        "operation_layer": 2.4800000000000004
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "draw",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cleanse": 0,
+        "energy": 2.120000000000001
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "draw",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "layer": -1.5199999999999996,
+        "penetration_value": 0.10400000000000009
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "penetration_value": 0.10400000000000009,
+        "tempo_value": 0.09200000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "search": 2.24,
+        "panic": 0.08800000000000008
+      },
+      "gain": -0.001100000000000101,
+      "seed_gains": [
+        -0.0018000000000000238,
+        -0.000400000000000178
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "core_priority": 24.399999999999977,
+        "startup_resource": 4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "core_priority": -24.399999999999977,
+        "health": 0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "energy": 2.120000000000001,
+        "startup_resource": 4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "damage": 0.05600000000000005,
+        "epic_cycle": 2.8000000000000007
+      },
+      "gain": -0.0007999999999999986,
+      "seed_gains": [
+        0.0,
+        -0.0015999999999999973
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "sustain_value": -0.08399999999999996,
+        "epic_cycle": -2.8000000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "operation_layer": 2.4800000000000004,
+        "panic": -0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "sustain_value": -0.08399999999999996,
+        "penetration_value": -0.10399999999999998
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "shield_engine": -0.08399999999999996,
+        "panic": -0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "core_priority": -24.399999999999977,
+        "budget_fit": -1.5999999999999996
+      },
+      "gain": 7.499999999993623e-05,
+      "seed_gains": [
+        0.0,
+        0.00014999999999987246
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "penetration_value": 0.10400000000000009,
+        "reserve": 0.012
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "search": -2.24,
+        "health": 0.05600000000000005
+      },
+      "gain": -5.000000000000143e-05,
+      "seed_gains": [
+        -0.00010000000000000286,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "draw": 1.4399999999999995,
+        "epic_cycle": -2.8000000000000007
+      },
+      "gain": 0.0012140625000000016,
+      "seed_gains": [
+        0.002428125000000003,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "panic": 0.08799999999999986,
+        "health": -0.05600000000000005
+      },
+      "gain": -7.499999999999955e-05,
+      "seed_gains": [
+        -0.0001499999999999991,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "water-03",
+      "opponent": "earth-01",
+      "scope": "matchup",
+      "changes": {
+        "damage": -0.05600000000000005,
+        "energy": -2.120000000000001
+      },
+      "gain": 0.001100000000000101,
+      "seed_gains": [
+        0.0,
+        0.002200000000000202
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "earth-01",
+      "opponent": "water-03",
+      "scope": "matchup",
+      "changes": {
+        "epic_cycle": 2.8000000000000007,
+        "core_priority": 24.399999999999977
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "water-02",
+      "opponent": "earth-02",
+      "scope": "matchup",
+      "changes": {
+        "sustain_value": -0.08400000000000007,
+        "operation_layer": -2.4800000000000004
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "earth-02",
+      "opponent": "water-02",
+      "scope": "route",
+      "changes": {
+        "finish_burst": 0.06400000000000006,
+        "epic_cycle": -2.8000000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "water-03",
+      "opponent": "earth-02",
+      "scope": "matchup",
+      "changes": {
+        "operation_layer": 2.4800000000000004,
+        "finish_burst": 0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "earth-02",
+      "opponent": "water-03",
+      "scope": "context",
+      "changes": {
+        "finish_burst": 0.06400000000000006,
+        "energy": 2.120000000000001
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "water-02",
+      "opponent": "earth-01",
+      "scope": "context",
+      "changes": {
+        "sustain_value": 0.08400000000000007,
+        "finish_burst": 0.06400000000000006
+      },
+      "gain": 0.002850000000000019,
+      "seed_gains": [
+        0.0,
+        0.005700000000000038
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "earth-01",
+      "opponent": "water-02",
+      "scope": "context",
+      "changes": {
+        "cost_power": 0.040000000000000036,
+        "budget_fit": -1.5999999999999996
+      },
+      "gain": 0.0030344268476621434,
+      "seed_gains": [
+        0.0,
+        0.006068853695324287
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "water-03",
+      "opponent": "earth-01",
+      "scope": "context",
+      "changes": {
+        "reserve": 0.011999999999999997,
+        "shield_engine": 0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "earth-01",
+      "opponent": "water-03",
+      "scope": "matchup",
+      "changes": {
+        "epic_cycle": 2.8000000000000007,
+        "health": -0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "water-02",
+      "opponent": "earth-02",
+      "scope": "route",
+      "changes": {
+        "operation_layer": 2.4800000000000004,
+        "health": -0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "earth-02",
+      "opponent": "water-02",
+      "scope": "context",
+      "changes": {
+        "damage": -0.05600000000000005,
+        "panic": 0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "water-03",
+      "opponent": "water-02",
+      "scope": "route",
+      "changes": {
+        "penetration_value": -0.10400000000000009,
+        "epic_cycle": 2.8000000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "water-02",
+      "opponent": "water-03",
+      "scope": "matchup",
+      "changes": {
+        "search": -2.24,
+        "panic": 0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "earth-02",
+      "opponent": "earth-01",
+      "scope": "context",
+      "changes": {
+        "panic": 0.08800000000000008,
+        "damage": 0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "earth-01",
+      "opponent": "earth-02",
+      "scope": "context",
+      "changes": {
+        "layer": 1.5199999999999996,
+        "shield_engine": -0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "water-03",
+      "opponent": "earth-02",
+      "scope": "context",
+      "changes": {
+        "health": 0.05600000000000005,
+        "search": 2.240000000000002
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "earth-02",
+      "opponent": "water-03",
+      "scope": "matchup",
+      "changes": {
+        "tempo_value": -0.09199999999999997,
+        "reserve": -0.012
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "earth-01",
+      "opponent": "water-02",
+      "scope": "matchup",
+      "changes": {
+        "draw": -1.4399999999999995,
+        "finish_burst": 0.06400000000000006
+      },
+      "gain": -0.5158869281759906,
+      "seed_gains": [
+        -1.0318026442307693,
+        2.878787878812794e-05
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "water-03",
+      "opponent": "earth-01",
+      "scope": "route",
+      "changes": {
+        "search": 2.240000000000002,
+        "operation_layer": 2.4800000000000004
+      },
+      "gain": -2.5000000000000716e-05,
+      "seed_gains": [
+        -5.000000000000143e-05,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "earth-01",
+      "opponent": "water-03",
+      "scope": "context",
+      "changes": {
+        "panic": -0.08800000000000008,
+        "budget_fit": -1.5999999999999996
+      },
+      "gain": -7.500000000004725e-05,
+      "seed_gains": [
+        -0.0001500000000000945,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "earth-02",
+      "opponent": "water-02",
+      "scope": "matchup",
+      "changes": {
+        "reserve": 0.011999999999999997,
+        "epic_cycle": 2.8000000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 14,
+      "route": "earth-02",
+      "opponent": "earth-01",
+      "scope": "matchup",
+      "changes": {
+        "cleanse": 0.0,
+        "cost_power": 0.040000000000000036
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 14,
+      "route": "earth-01",
+      "opponent": "earth-02",
+      "scope": "route",
+      "changes": {
+        "core_priority": -24.399999999999977,
+        "finish_burst": 0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 14,
+      "route": "water-03",
+      "opponent": "water-02",
+      "scope": "matchup",
+      "changes": {
+        "energy": 2.120000000000001,
+        "budget_fit": -1.5999999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 15,
+      "route": "water-03",
+      "opponent": "earth-02",
+      "scope": "context",
+      "changes": {
+        "health": 0.05600000000000005,
+        "reserve": 0.011999999999999997
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 15,
+      "route": "earth-02",
+      "opponent": "water-03",
+      "scope": "matchup",
+      "changes": {
+        "shield_engine": 0.08399999999999996,
+        "energy": 2.120000000000001
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "epic_cycle": -2.8000000000000007,
+        "layer": -1.5199999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "sustain_value": -0.08399999999999996,
+        "operation_layer": 2.4800000000000004
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "budget_fit": 1.6000000000000005,
+        "epic_cycle": -2.8000000000000007
+      },
+      "gain": 0.0025500000000000522,
+      "seed_gains": [
+        0.0051000000000001044,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "operation_layer": 2.4800000000000004,
+        "shield_engine": -0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "draw": -1.4400000000000013,
+        "sustain_value": 0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "draw": -1.4400000000000013,
+        "health": 0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "reserve": 0,
+        "sustain_value": -0.08399999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "layer": -1.5199999999999996,
+        "startup_resource": 4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "startup_resource": 4.200000000000003,
+        "finish_burst": 0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "layer": 1.5199999999999996,
+        "draw": -1.4400000000000013
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "operation_layer": 2.4800000000000004,
+        "startup_resource": -4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "sustain_value": -0.08399999999999996,
+        "finish_burst": 0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "penetration_value": 0.10400000000000009,
+        "shield_engine": -0.08399999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "health": 0.05600000000000005,
+        "damage": 0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "reserve": 0.012,
+        "startup_resource": -4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "search": 2.24,
+        "shield_engine": -0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "epic_cycle": 2.8000000000000007,
+        "energy": -2.120000000000001
+      },
+      "gain": 0.507575,
+      "seed_gains": [
+        1.00925,
+        0.005900000000000001
+      ],
+      "accepted": true,
+      "outcome": "loss",
+      "reason": "two_shuffle_mean_gain_and_no_large_regression"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cleanse": 0,
+        "draw": -1.4399999999999995
+      },
+      "gain": 0.0025500000000000522,
+      "seed_gains": [
+        0.0051000000000001044,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "penetration_value": -0.10400000000000009,
+        "reserve": 0
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "startup_resource": -4.200000000000003,
+        "panic": -0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "health": -0.05600000000000005,
+        "finish_burst": -0.06400000000000006
+      },
+      "gain": -0.2609064814814815,
+      "seed_gains": [
+        -0.521812962962963,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "draw",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "operation_layer": 2.4800000000000004,
+        "budget_fit": 1.5999999999999996
+      },
+      "gain": 0.2601799180327869,
+      "seed_gains": [
+        0.5203598360655738,
+        0.0
+      ],
+      "accepted": true,
+      "outcome": "draw",
+      "reason": "two_shuffle_mean_gain_and_no_large_regression"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cleanse": 0,
+        "penetration_value": -0.10400000000000009
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "startup_resource": 4.200000000000003,
+        "epic_cycle": 2.8000000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "budget_fit": 1.5999999999999996,
+        "finish_burst": -0.06400000000000006
+      },
+      "gain": -0.007300000000000084,
+      "seed_gains": [
+        -0.014600000000000168,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "budget_fit": -1.5999999999999996,
+        "panic": -0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "panic": -0.08800000000000008,
+        "finish_burst": -0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "reserve": 0,
+        "draw": 1.4399999999999995
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "water-03",
+      "opponent": "earth-03",
+      "scope": "route",
+      "changes": {
+        "penetration_value": 0.10400000000000009,
+        "cleanse": 0.08
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "earth-03",
+      "opponent": "water-03",
+      "scope": "context",
+      "changes": {
+        "damage": 0.05600000000000005,
+        "health": 0.05600000000000005
+      },
+      "gain": -0.00024999999999997247,
+      "seed_gains": [
+        -0.0004999999999999449,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "earth-01",
+      "opponent": "earth-02",
+      "scope": "matchup",
+      "changes": {
+        "cleanse": -0.016000000000000004,
+        "finish_burst": 0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "earth-02",
+      "opponent": "earth-01",
+      "scope": "context",
+      "changes": {
+        "startup_resource": -4.200000000000003,
+        "tempo_value": -0.09199999999999997
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "water-03",
+      "opponent": "earth-02",
+      "scope": "matchup",
+      "changes": {
+        "tempo_value": -0.09199999999999997,
+        "health": -0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "earth-02",
+      "opponent": "water-03",
+      "scope": "route",
+      "changes": {
+        "draw": -1.4399999999999995,
+        "sustain_value": 0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "earth-03",
+      "opponent": "earth-01",
+      "scope": "context",
+      "changes": {
+        "epic_cycle": -2.8000000000000007,
+        "startup_resource": -4.200000000000003
+      },
+      "gain": 0.00024549894549896756,
+      "seed_gains": [
+        0.0025122100122099145,
+        -0.0020212121212119794
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "earth-01",
+      "opponent": "earth-03",
+      "scope": "route",
+      "changes": {
+        "core_priority": -24.399999999999977,
+        "shield_engine": -0.08400000000000007
+      },
+      "gain": -0.0020826970443349746,
+      "seed_gains": [
+        -0.004165394088669949,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "water-03",
+      "opponent": "earth-01",
+      "scope": "context",
+      "changes": {
+        "operation_layer": -2.4800000000000004,
+        "finish_burst": -0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "earth-01",
+      "opponent": "water-03",
+      "scope": "route",
+      "changes": {
+        "cleanse": -0.016000000000000004,
+        "draw": 1.4399999999999995
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "earth-03",
+      "opponent": "earth-02",
+      "scope": "matchup",
+      "changes": {
+        "finish_burst": 0.06400000000000006,
+        "damage": 0.05600000000000005
+      },
+      "gain": 0.00010000000000001674,
+      "seed_gains": [
+        0.00020000000000003348,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "draw",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "earth-02",
+      "opponent": "earth-03",
+      "scope": "matchup",
+      "changes": {
+        "search": -2.24,
+        "epic_cycle": 2.8000000000000007
+      },
+      "gain": -0.7737785399359336,
+      "seed_gains": [
+        -0.5094056436567165,
+        -1.0381514362151507
+      ],
+      "accepted": false,
+      "outcome": "draw",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "water-03",
+      "opponent": "earth-02",
+      "scope": "route",
+      "changes": {
+        "panic": -0.08800000000000008,
+        "health": 0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "earth-02",
+      "opponent": "water-03",
+      "scope": "route",
+      "changes": {
+        "epic_cycle": -2.8000000000000007,
+        "operation_layer": 2.4800000000000004
+      },
+      "gain": 0.0008064516129032244,
+      "seed_gains": [
+        0.0016129032258064488,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "earth-03",
+      "opponent": "earth-01",
+      "scope": "route",
+      "changes": {
+        "health": 0.05600000000000005,
+        "operation_layer": 2.4800000000000004
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "earth-01",
+      "opponent": "earth-03",
+      "scope": "matchup",
+      "changes": {
+        "search": -2.24,
+        "reserve": -0.012
+      },
+      "gain": 0.0003738868696047254,
+      "seed_gains": [
+        0.0007477737392094508,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "water-03",
+      "opponent": "earth-03",
+      "scope": "matchup",
+      "changes": {
+        "tempo_value": -0.09199999999999997,
+        "startup_resource": 4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "earth-03",
+      "opponent": "water-03",
+      "scope": "route",
+      "changes": {
+        "cost_power": 0.040000000000000036,
+        "finish_burst": 0.06400000000000006
+      },
+      "gain": 0.0003499999999999996,
+      "seed_gains": [
+        0.0,
+        0.0006999999999999992
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "earth-01",
+      "opponent": "earth-02",
+      "scope": "context",
+      "changes": {
+        "operation_layer": 2.4800000000000004,
+        "budget_fit": -1.5999999999999996
+      },
+      "gain": -0.0034423076923078,
+      "seed_gains": [
+        0.0,
+        -0.0068846153846156
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "earth-02",
+      "opponent": "earth-01",
+      "scope": "context",
+      "changes": {
+        "energy": -2.120000000000001,
+        "health": 0.05599999999999994
+      },
+      "gain": 0.5175262104460542,
+      "seed_gains": [
+        0.0,
+        1.0350524208921084
+      ],
+      "accepted": true,
+      "outcome": "win",
+      "reason": "two_shuffle_mean_gain_and_no_large_regression"
+    },
+    {
+      "round": 13,
+      "route": "water-03",
+      "opponent": "earth-02",
+      "scope": "context",
+      "changes": {
+        "cleanse": 0,
+        "startup_resource": -4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "earth-02",
+      "opponent": "water-03",
+      "scope": "route",
+      "changes": {
+        "budget_fit": 1.5999999999999996,
+        "cleanse": 0.08
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "earth-03",
+      "opponent": "earth-01",
+      "scope": "context",
+      "changes": {
+        "shield_engine": -0.08400000000000007,
+        "search": 2.240000000000002
+      },
+      "gain": 0.00028845871290050784,
+      "seed_gains": [
+        0.0,
+        0.0005769174258010157
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 14,
+      "route": "earth-03",
+      "opponent": "earth-02",
+      "scope": "matchup",
+      "changes": {
+        "finish_burst": -0.06400000000000006,
+        "energy": -2.120000000000001
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 14,
+      "route": "earth-02",
+      "opponent": "earth-03",
+      "scope": "context",
+      "changes": {
+        "layer": 1.5199999999999996,
+        "damage": -0.05600000000000005
+      },
+      "gain": 0.022046645021645106,
+      "seed_gains": [
+        0.0,
+        0.04409329004329021
+      ],
+      "accepted": true,
+      "outcome": "win",
+      "reason": "two_shuffle_mean_gain_and_no_large_regression"
+    },
+    {
+      "round": 14,
+      "route": "water-03",
+      "opponent": "earth-01",
+      "scope": "context",
+      "changes": {
+        "penetration_value": -0.10400000000000009,
+        "panic": 0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 15,
+      "route": "water-03",
+      "opponent": "earth-03",
+      "scope": "matchup",
+      "changes": {
+        "search": 2.240000000000002,
+        "reserve": -0.012
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 15,
+      "route": "earth-03",
+      "opponent": "water-03",
+      "scope": "context",
+      "changes": {
+        "panic": 0.08800000000000008,
+        "finish_burst": 0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 15,
+      "route": "earth-02",
+      "opponent": "earth-01",
+      "scope": "route",
+      "changes": {
+        "finish_burst": -0.06400000000000006,
+        "cleanse": 0
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 16,
+      "route": "earth-03",
+      "opponent": "earth-02",
+      "scope": "context",
+      "changes": {
+        "sustain_value": -0.08399999999999996,
+        "budget_fit": 1.5999999999999996
+      },
+      "gain": -0.0018699232491205618,
+      "seed_gains": [
+        -0.0037398464982411235,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 16,
+      "route": "earth-02",
+      "opponent": "earth-03",
+      "scope": "route",
+      "changes": {
+        "finish_burst": -0.06400000000000006,
+        "startup_resource": -4.200000000000003
+      },
+      "gain": -0.000491986687147894,
+      "seed_gains": [
+        -0.000983973374295788,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 17,
+      "route": "earth-03",
+      "opponent": "earth-02",
+      "scope": "matchup",
+      "changes": {
+        "operation_layer": 2.4800000000000004,
+        "epic_cycle": -2.8000000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 17,
+      "route": "earth-02",
+      "opponent": "earth-03",
+      "scope": "context",
+      "changes": {
+        "health": -0.05599999999999994,
+        "core_priority": -24.399999999999977
+      },
+      "gain": 0.5060780578898226,
+      "seed_gains": [
+        0.0,
+        1.0121561157796453
+      ],
+      "accepted": true,
+      "outcome": "win",
+      "reason": "two_shuffle_mean_gain_and_no_large_regression"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "damage": 0.05599999999999994,
+        "draw": -1.4400000000000013
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "tempo_value": 0.09200000000000008,
+        "panic": 0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cost_power": 0.040000000000000036,
+        "search": 2.2399999999999984
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "draw",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "operation_layer": -2.4800000000000004,
+        "reserve": 0
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "draw",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "health": 0.05600000000000005,
+        "penetration_value": 0.10400000000000009
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "panic": 0.08800000000000008,
+        "cleanse": 0.08
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "core_priority": 24.399999999999977,
+        "budget_fit": 1.6000000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "sustain_value": 0.08399999999999996,
+        "finish_burst": 0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cost_power": 0.040000000000000036,
+        "sustain_value": -0.08399999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "shield_engine": -0.08400000000000007,
+        "layer": -1.5199999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "budget_fit": -1.6000000000000005,
+        "penetration_value": -0.10400000000000009
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "operation_layer": 2.4800000000000004,
+        "cleanse": 0
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "search": -2.24,
+        "epic_cycle": 2.8000000000000007
+      },
+      "gain": -0.0022201219512195114,
+      "seed_gains": [
+        -0.004440243902439023,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "epic_cycle": -2.8000000000000007,
+        "layer": -1.5199999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "tempo_value": 0.09200000000000008,
+        "reserve": 0.012
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "health": 0.05600000000000005,
+        "operation_layer": -2.4800000000000004
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "draw": -1.4399999999999995,
+        "budget_fit": 1.5999999999999996
+      },
+      "gain": 0.0014249999999999862,
+      "seed_gains": [
+        -0.00345,
+        0.006299999999999972
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "shield_engine": 0.08400000000000007,
+        "search": 2.24
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "search": -2.24,
+        "finish_burst": 0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cleanse": 0,
+        "layer": 1.5199999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "shield_engine": 0.08400000000000007,
+        "energy": 2.120000000000001
+      },
+      "gain": -0.0029428571428571438,
+      "seed_gains": [
+        -0.0058857142857142875,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "epic_cycle": 2.8000000000000007,
+        "core_priority": 24.399999999999977
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "startup_resource": 4.200000000000003,
+        "energy": 2.120000000000001
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cost_power": 0.040000000000000036,
+        "sustain_value": -0.08399999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "shield_engine": 0.08400000000000007,
+        "startup_resource": -4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "core_priority": -24.399999999999977,
+        "cleanse": 0
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "reserve": 0,
+        "layer": 1.5199999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "startup_resource": -4.200000000000003,
+        "budget_fit": 1.5999999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "earth-02",
+      "opponent": "wind-02",
+      "scope": "route",
+      "changes": {
+        "epic_cycle": 2.8000000000000007,
+        "budget_fit": 1.5999999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "wind-02",
+      "opponent": "earth-02",
+      "scope": "route",
+      "changes": {
+        "budget_fit": 1.5999999999999996,
+        "core_priority": 24.399999999999977
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "wind-01",
+      "opponent": "wind-03",
+      "scope": "context",
+      "changes": {
+        "layer": -1.52,
+        "tempo_value": 0.09200000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "wind-03",
+      "opponent": "wind-01",
+      "scope": "context",
+      "changes": {
+        "tempo_value": -0.09200000000000008,
+        "penetration_value": -0.10400000000000009
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "earth-02",
+      "opponent": "wind-03",
+      "scope": "route",
+      "changes": {
+        "shield_engine": 0.08399999999999996,
+        "sustain_value": 0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "wind-03",
+      "opponent": "earth-02",
+      "scope": "route",
+      "changes": {
+        "core_priority": 24.399999999999977,
+        "shield_engine": 0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "wind-01",
+      "opponent": "wind-02",
+      "scope": "route",
+      "changes": {
+        "epic_cycle": -2.8000000000000007,
+        "cost_power": -0.040000000000000036
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "wind-02",
+      "opponent": "wind-01",
+      "scope": "context",
+      "changes": {
+        "panic": -0.08800000000000008,
+        "shield_engine": -0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "earth-02",
+      "opponent": "wind-01",
+      "scope": "matchup",
+      "changes": {
+        "startup_resource": 4.200000000000003,
+        "finish_burst": 0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "wind-01",
+      "opponent": "earth-02",
+      "scope": "route",
+      "changes": {
+        "layer": -1.52,
+        "energy": -2.120000000000001
+      },
+      "gain": 2.4999999999997247e-05,
+      "seed_gains": [
+        0.0,
+        4.999999999999449e-05
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "wind-03",
+      "opponent": "wind-02",
+      "scope": "route",
+      "changes": {
+        "search": -2.24,
+        "finish_burst": 0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "wind-02",
+      "opponent": "wind-03",
+      "scope": "matchup",
+      "changes": {
+        "cleanse": -0.00037500000000000006,
+        "shield_engine": -0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "earth-02",
+      "opponent": "wind-03",
+      "scope": "matchup",
+      "changes": {
+        "search": -2.24,
+        "epic_cycle": 2.8000000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "wind-03",
+      "opponent": "earth-02",
+      "scope": "route",
+      "changes": {
+        "operation_layer": -2.4800000000000004,
+        "finish_burst": -0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "wind-01",
+      "opponent": "wind-02",
+      "scope": "route",
+      "changes": {
+        "sustain_value": 0.08400000000000007,
+        "tempo_value": -0.09200000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "wind-02",
+      "opponent": "wind-01",
+      "scope": "context",
+      "changes": {
+        "cleanse": 0.08,
+        "layer": 1.5199999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "earth-02",
+      "opponent": "wind-02",
+      "scope": "route",
+      "changes": {
+        "health": -0.05599999999999994,
+        "panic": 0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "wind-02",
+      "opponent": "earth-02",
+      "scope": "route",
+      "changes": {
+        "search": 2.240000000000002,
+        "health": 0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "wind-01",
+      "opponent": "wind-03",
+      "scope": "matchup",
+      "changes": {
+        "epic_cycle": 2.8000000000000007,
+        "search": 2.2399999999999984
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "wind-03",
+      "opponent": "wind-01",
+      "scope": "context",
+      "changes": {
+        "health": -0.05600000000000005,
+        "sustain_value": 0.08400000000000007
+      },
+      "gain": 0.0012000000000000899,
+      "seed_gains": [
+        0.0024000000000001798,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "earth-02",
+      "opponent": "wind-01",
+      "scope": "context",
+      "changes": {
+        "budget_fit": 1.5999999999999996,
+        "core_priority": -24.399999999999977
+      },
+      "gain": 0.005075000000000052,
+      "seed_gains": [
+        0.010150000000000103,
+        0.0
+      ],
+      "accepted": true,
+      "outcome": "win",
+      "reason": "two_shuffle_mean_gain_and_no_large_regression"
+    },
+    {
+      "round": 13,
+      "route": "wind-01",
+      "opponent": "earth-02",
+      "scope": "route",
+      "changes": {
+        "energy": -2.120000000000001,
+        "damage": 0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "wind-03",
+      "opponent": "wind-02",
+      "scope": "context",
+      "changes": {
+        "penetration_value": -0.10400000000000009,
+        "shield_engine": 0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "wind-02",
+      "opponent": "wind-03",
+      "scope": "context",
+      "changes": {
+        "health": 0.05600000000000005,
+        "core_priority": -24.399999999999977
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 14,
+      "route": "earth-02",
+      "opponent": "wind-03",
+      "scope": "route",
+      "changes": {
+        "damage": -0.05600000000000005,
+        "shield_engine": -0.08399999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 14,
+      "route": "wind-03",
+      "opponent": "earth-02",
+      "scope": "context",
+      "changes": {
+        "layer": 1.5199999999999996,
+        "core_priority": -24.399999999999977
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "startup_resource": 4.200000000000003,
+        "draw": 1.4400000000000013
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "damage": 0.05599999999999994,
+        "energy": -2.120000000000001
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "search": 2.2399999999999984,
+        "damage": -0.05599999999999994
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "reserve": 0.012,
+        "health": 0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "sustain_value": -0.08399999999999996,
+        "layer": 1.5199999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "tempo_value": 0.09200000000000008,
+        "reserve": 0
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cleanse": 0.08,
+        "draw": -1.4400000000000013
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cost_power": -0.040000000000000036,
+        "operation_layer": -2.4800000000000004
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "penetration_value": 0.10400000000000009,
+        "operation_layer": 2.4800000000000004
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cost_power": 0.040000000000000036,
+        "damage": -0.05599999999999994
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "layer": -1.5199999999999996,
+        "reserve": 0.012
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "budget_fit": 1.6000000000000005,
+        "damage": -0.05599999999999994
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "damage": 0.05600000000000005,
+        "penetration_value": -0.10400000000000009
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "draw": 1.4399999999999995,
+        "panic": 0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cost_power": 0.040000000000000036,
+        "health": 0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "reserve": 0.012,
+        "shield_engine": -0.08399999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "layer": 1.5199999999999996,
+        "cost_power": -0.040000000000000036
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "sustain_value": -0.08399999999999996,
+        "epic_cycle": 2.8000000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "sustain_value": 0.08399999999999996,
+        "cleanse": 0
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "operation_layer": -2.4800000000000004,
+        "finish_burst": -0.06400000000000006
+      },
+      "gain": -0.0010249999999999426,
+      "seed_gains": [
+        -0.0020499999999998852,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "sustain_value": -0.08399999999999996,
+        "layer": -1.5199999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "epic_cycle": 2.8000000000000007,
+        "startup_resource": 4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "core_priority": 24.399999999999977,
+        "draw": 1.4399999999999995
+      },
+      "gain": -0.0004249999999998977,
+      "seed_gains": [
+        0.0,
+        -0.0008499999999997954
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cost_power": 0.040000000000000036,
+        "search": -2.24
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "core_priority": 24.399999999999977,
+        "damage": -0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "startup_resource": 4.200000000000003,
+        "core_priority": -24.399999999999977
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": "wind-02",
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "finish_burst": 0.06400000000000006,
+        "shield_engine": -0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": "wind-02",
+      "scope": "context",
+      "changes": {
+        "budget_fit": 1.5999999999999996,
+        "cleanse": 0.08
+      },
+      "gain": -0.0002750000000000252,
+      "seed_gains": [
+        -0.0005500000000000504,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": null,
+      "opponent": "wind-03",
+      "scope": "context",
+      "changes": {
+        "sustain_value": -0.08399999999999996,
+        "cleanse": 0
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "wind-03",
+      "opponent": null,
+      "scope": "route",
+      "changes": {
+        "draw": 1.4399999999999995,
+        "energy": 2.120000000000001
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "wind-02",
+      "opponent": "poison-02",
+      "scope": "context",
+      "changes": {
+        "core_priority": -24.399999999999977,
+        "panic": -0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "poison-02",
+      "opponent": "wind-02",
+      "scope": "matchup",
+      "changes": {
+        "layer": -1.5200000000000005,
+        "penetration_value": 0.10400000000000009
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": null,
+      "opponent": "wind-02",
+      "scope": "context",
+      "changes": {
+        "search": -2.24,
+        "cost_power": 0.040000000000000036
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "wind-02",
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "penetration_value": -0.10400000000000009,
+        "layer": -1.5199999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "wind-03",
+      "opponent": "poison-02",
+      "scope": "route",
+      "changes": {
+        "sustain_value": -0.08400000000000007,
+        "epic_cycle": -2.8000000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "poison-02",
+      "opponent": "wind-03",
+      "scope": "route",
+      "changes": {
+        "health": -0.05600000000000005,
+        "layer": -1.5199999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": null,
+      "opponent": "poison-03",
+      "scope": "context",
+      "changes": {
+        "sustain_value": -0.08399999999999996,
+        "cost_power": -0.040000000000000036
+      },
+      "gain": 0.002575000000000001,
+      "seed_gains": [
+        0.0,
+        0.005150000000000002
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "poison-03",
+      "opponent": null,
+      "scope": "route",
+      "changes": {
+        "penetration_value": 0.10400000000000009,
+        "sustain_value": -0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "wind-02",
+      "opponent": "wind-03",
+      "scope": "route",
+      "changes": {
+        "layer": -1.5199999999999996,
+        "draw": 1.4399999999999995
+      },
+      "gain": -0.5072880434782608,
+      "seed_gains": [
+        -1.0145760869565217,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "wind-03",
+      "opponent": "wind-02",
+      "scope": "route",
+      "changes": {
+        "budget_fit": -1.5999999999999996,
+        "penetration_value": -0.10400000000000009
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": null,
+      "opponent": "wind-02",
+      "scope": "context",
+      "changes": {
+        "budget_fit": -1.5999999999999996,
+        "core_priority": 24.399999999999977
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "wind-02",
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "draw": 1.4399999999999995,
+        "energy": 2.120000000000001
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "wind-03",
+      "opponent": "poison-03",
+      "scope": "route",
+      "changes": {
+        "reserve": -0.012,
+        "cost_power": -0.040000000000000036
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "poison-03",
+      "opponent": "wind-03",
+      "scope": "route",
+      "changes": {
+        "epic_cycle": 2.8000000000000007,
+        "draw": -1.4399999999999995
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": null,
+      "opponent": "wind-03",
+      "scope": "context",
+      "changes": {
+        "epic_cycle": -2.8000000000000007,
+        "search": 2.240000000000002
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "wind-03",
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "penetration_value": -0.10400000000000009,
+        "health": -0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "wind-02",
+      "opponent": "poison-03",
+      "scope": "matchup",
+      "changes": {
+        "shield_engine": -0.08400000000000007,
+        "cleanse": -0.00037500000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "poison-03",
+      "opponent": "wind-02",
+      "scope": "context",
+      "changes": {
+        "panic": 0.08800000000000008,
+        "layer": -1.52
+      },
+      "gain": 0.5199452380952381,
+      "seed_gains": [
+        0.0,
+        1.0398904761904761
+      ],
+      "accepted": true,
+      "outcome": "win",
+      "reason": "two_shuffle_mean_gain_and_no_large_regression"
+    },
+    {
+      "round": 13,
+      "route": null,
+      "opponent": "poison-03",
+      "scope": "context",
+      "changes": {
+        "damage": -0.05600000000000005,
+        "layer": -1.52
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "poison-03",
+      "opponent": null,
+      "scope": "route",
+      "changes": {
+        "search": 2.240000000000002,
+        "health": -0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "wind-03",
+      "opponent": "wind-02",
+      "scope": "route",
+      "changes": {
+        "shield_engine": -0.08400000000000007,
+        "panic": -0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 14,
+      "route": "wind-03",
+      "opponent": "poison-03",
+      "scope": "matchup",
+      "changes": {
+        "startup_resource": -4.200000000000003,
+        "cleanse": -0.016000000000000004
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 14,
+      "route": "poison-03",
+      "opponent": "wind-03",
+      "scope": "matchup",
+      "changes": {
+        "cost_power": 0.040000000000000036,
+        "draw": 1.4399999999999995
+      },
+      "gain": 0.513025,
+      "seed_gains": [
+        1.02605,
+        0.0
+      ],
+      "accepted": true,
+      "outcome": "loss",
+      "reason": "two_shuffle_mean_gain_and_no_large_regression"
+    },
+    {
+      "round": 15,
+      "route": "wind-03",
+      "opponent": "poison-03",
+      "scope": "route",
+      "changes": {
+        "cost_power": 0.040000000000000036,
+        "penetration_value": 0.10400000000000009
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 15,
+      "route": "poison-03",
+      "opponent": "wind-03",
+      "scope": "context",
+      "changes": {
+        "tempo_value": 0.09200000000000008,
+        "epic_cycle": 2.8000000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "sustain_value": -0.08400000000000007,
+        "cost_power": 0.040000000000000036
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "shield_engine": -0.08400000000000007,
+        "layer": 1.5199999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "tempo_value": 0.09200000000000008,
+        "epic_cycle": -2.8000000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "tempo_value": 0.09200000000000008,
+        "epic_cycle": -2.8000000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "shield_engine": -0.08400000000000007,
+        "panic": 0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "draw",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "energy": 2.120000000000001,
+        "core_priority": -24.399999999999977
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "draw",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "finish_burst": -0.06400000000000006,
+        "health": -0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "operation_layer": -2.4800000000000004,
+        "reserve": 0.012
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "tempo_value": -0.09199999999999997,
+        "operation_layer": 2.4800000000000004
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "penetration_value": -0.10400000000000009,
+        "cost_power": 0.040000000000000036
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "sustain_value": -0.08400000000000007,
+        "health": 0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cost_power": 0.040000000000000036,
+        "health": 0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "epic_cycle": 2.8000000000000007,
+        "health": -0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cost_power": 0.040000000000000036,
+        "draw": -1.4399999999999995
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "sustain_value": 0.08399999999999996,
+        "panic": 0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "panic": -0.08800000000000008,
+        "tempo_value": 0.09200000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "panic": -0.08800000000000008,
+        "cost_power": -0.040000000000000036
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cleanse": 0,
+        "startup_resource": -4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "search": -2.24,
+        "finish_burst": 0.06400000000000006
+      },
+      "gain": -2.4999999999941735e-05,
+      "seed_gains": [
+        -4.999999999988347e-05,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "budget_fit": -1.5999999999999996,
+        "core_priority": -24.399999999999977
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "panic": -0.08800000000000008,
+        "startup_resource": 4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "finish_burst": -0.06400000000000006,
+        "search": 2.24
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "cleanse": 0.08,
+        "health": 0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "finish_burst": 0.06400000000000006,
+        "penetration_value": 0.10400000000000009
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "penetration_value": 0.10400000000000009,
+        "layer": 1.5199999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "core_priority": -24.399999999999977,
+        "health": 0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "search": -2.24,
+        "draw": -1.4399999999999995
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "startup_resource": 4.200000000000003,
+        "budget_fit": -1.5999999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "poison-02",
+      "opponent": "fire-02",
+      "scope": "context",
+      "changes": {
+        "damage": -0.05600000000000005,
+        "sustain_value": 0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "fire-02",
+      "opponent": "poison-02",
+      "scope": "context",
+      "changes": {
+        "operation_layer": -2.4800000000000004,
+        "search": 2.240000000000002
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "wind-03",
+      "opponent": "poison-03",
+      "scope": "context",
+      "changes": {
+        "cleanse": 0.08,
+        "startup_resource": -4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "poison-03",
+      "opponent": "wind-03",
+      "scope": "matchup",
+      "changes": {
+        "shield_engine": 0.08400000000000007,
+        "draw": 1.4399999999999995
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "poison-02",
+      "opponent": "poison-03",
+      "scope": "context",
+      "changes": {
+        "startup_resource": 4.200000000000003,
+        "search": 2.240000000000002
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "poison-03",
+      "opponent": "poison-02",
+      "scope": "route",
+      "changes": {
+        "sustain_value": 0.08400000000000007,
+        "tempo_value": -0.09199999999999997
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "wind-03",
+      "opponent": "fire-02",
+      "scope": "route",
+      "changes": {
+        "penetration_value": -0.10400000000000009,
+        "startup_resource": 4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "fire-02",
+      "opponent": "wind-03",
+      "scope": "route",
+      "changes": {
+        "operation_layer": 2.4800000000000004,
+        "shield_engine": 0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "poison-02",
+      "opponent": "fire-02",
+      "scope": "route",
+      "changes": {
+        "startup_resource": -4.200000000000003,
+        "sustain_value": -0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "fire-02",
+      "opponent": "poison-02",
+      "scope": "route",
+      "changes": {
+        "sustain_value": -0.08399999999999996,
+        "epic_cycle": -2.8000000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "wind-03",
+      "opponent": "poison-03",
+      "scope": "context",
+      "changes": {
+        "damage": -0.05600000000000005,
+        "shield_engine": -0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "poison-03",
+      "opponent": "wind-03",
+      "scope": "context",
+      "changes": {
+        "epic_cycle": -2.8000000000000007,
+        "energy": 2.120000000000001
+      },
+      "gain": -0.001114705882352962,
+      "seed_gains": [
+        0.0,
+        -0.002229411764705924
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "poison-02",
+      "opponent": "wind-03",
+      "scope": "context",
+      "changes": {
+        "health": 0.05600000000000005,
+        "finish_burst": -0.06400000000000006
+      },
+      "gain": 0.010075000000000056,
+      "seed_gains": [
+        0.020150000000000112,
+        0.0
+      ],
+      "accepted": true,
+      "outcome": "win",
+      "reason": "two_shuffle_mean_gain_and_no_large_regression"
+    },
+    {
+      "round": 11,
+      "route": "wind-03",
+      "opponent": "poison-02",
+      "scope": "context",
+      "changes": {
+        "layer": -1.52,
+        "search": -2.24
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "poison-03",
+      "opponent": "fire-02",
+      "scope": "matchup",
+      "changes": {
+        "startup_resource": 4.200000000000003,
+        "health": 0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "fire-02",
+      "opponent": "poison-03",
+      "scope": "route",
+      "changes": {
+        "epic_cycle": -2.8000000000000007,
+        "startup_resource": 4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "poison-02",
+      "opponent": "poison-03",
+      "scope": "route",
+      "changes": {
+        "energy": 2.120000000000001,
+        "budget_fit": 1.5999999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "poison-03",
+      "opponent": "poison-02",
+      "scope": "context",
+      "changes": {
+        "core_priority": 24.399999999999977,
+        "search": -2.24
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "wind-03",
+      "opponent": "fire-02",
+      "scope": "route",
+      "changes": {
+        "tempo_value": -0.09200000000000008,
+        "damage": -0.05600000000000005
+      },
+      "gain": 0.004425000000000001,
+      "seed_gains": [
+        0.0,
+        0.008850000000000002
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "poison-02",
+      "opponent": "wind-03",
+      "scope": "route",
+      "changes": {
+        "core_priority": 24.399999999999977,
+        "epic_cycle": -2.8000000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "wind-03",
+      "opponent": "poison-02",
+      "scope": "context",
+      "changes": {
+        "layer": -1.52,
+        "draw": -1.4399999999999995
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "poison-03",
+      "opponent": "fire-02",
+      "scope": "route",
+      "changes": {
+        "penetration_value": 0.10400000000000009,
+        "draw": -1.4399999999999995
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 14,
+      "route": "wind-03",
+      "opponent": "poison-03",
+      "scope": "matchup",
+      "changes": {
+        "energy": -2.120000000000001,
+        "operation_layer": -2.4800000000000004
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 14,
+      "route": "poison-03",
+      "opponent": "wind-03",
+      "scope": "route",
+      "changes": {
+        "budget_fit": 1.5999999999999996,
+        "layer": -1.52
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 14,
+      "route": "poison-02",
+      "opponent": "fire-02",
+      "scope": "context",
+      "changes": {
+        "penetration_value": -0.10399999999999998,
+        "finish_burst": -0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 15,
+      "route": "poison-02",
+      "opponent": "poison-03",
+      "scope": "context",
+      "changes": {
+        "epic_cycle": -2.8000000000000007,
+        "operation_layer": -2.4800000000000004
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 15,
+      "route": "poison-03",
+      "opponent": "poison-02",
+      "scope": "context",
+      "changes": {
+        "damage": -0.05600000000000005,
+        "cost_power": -0.040000000000000036
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "core_priority": -24.399999999999977,
+        "tempo_value": 0.09200000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "startup_resource": -4.200000000000003,
+        "shield_engine": 0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "draw": 1.4400000000000013,
+        "sustain_value": -0.08399999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 1,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "damage": 0.05600000000000005,
+        "tempo_value": 0.09200000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "search": -2.2399999999999984,
+        "panic": 0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "budget_fit": 1.6000000000000005,
+        "startup_resource": -4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "sustain_value": 0.08400000000000007,
+        "operation_layer": 2.4800000000000004
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 2,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "search": -2.2399999999999984,
+        "tempo_value": -0.09199999999999997
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "tempo_value": 0.09200000000000008,
+        "core_priority": -24.399999999999977
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "tempo_value": -0.09199999999999997,
+        "reserve": 0
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "operation_layer": -2.4800000000000004,
+        "search": 2.2399999999999984
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 3,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "reserve": 0.012,
+        "startup_resource": 4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "penetration_value": 0.10400000000000009,
+        "search": -2.24
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "damage": -0.05600000000000005,
+        "panic": 0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "finish_burst": 0.06400000000000006,
+        "tempo_value": 0.09200000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 4,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "draw": 1.4399999999999995,
+        "reserve": 0
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "damage": -0.05600000000000005,
+        "finish_burst": 0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "draw": -1.4399999999999995,
+        "damage": -0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "core_priority": 24.399999999999977,
+        "sustain_value": 0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 5,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "core_priority": 24.399999999999977,
+        "tempo_value": 0.09200000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "panic": 0.08799999999999986,
+        "cleanse": 0.08
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "sustain_value": 0.08399999999999996,
+        "startup_resource": 4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "core_priority": 24.399999999999977,
+        "finish_burst": -0.06400000000000006
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 6,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "shield_engine": -0.08399999999999996,
+        "operation_layer": -2.4800000000000004
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "finish_burst": 0.06400000000000006,
+        "damage": -0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": null,
+      "scope": "context",
+      "changes": {
+        "shield_engine": 0.08400000000000007,
+        "tempo_value": 0.09200000000000008
+      },
+      "gain": 0.0012750000000000261,
+      "seed_gains": [
+        0.0025500000000000522,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": null,
+      "opponent": "fire-02",
+      "scope": "context",
+      "changes": {
+        "panic": 0.08799999999999986,
+        "cleanse": 0
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 7,
+      "route": "fire-02",
+      "opponent": null,
+      "scope": "route",
+      "changes": {
+        "energy": -2.120000000000001,
+        "startup_resource": 4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "poison-02",
+      "opponent": "poison-03",
+      "scope": "route",
+      "changes": {
+        "startup_resource": 4.200000000000003,
+        "tempo_value": 0.09200000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "poison-03",
+      "opponent": "poison-02",
+      "scope": "context",
+      "changes": {
+        "draw": -1.4399999999999995,
+        "damage": 0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "fire-01",
+      "opponent": "fire-02",
+      "scope": "route",
+      "changes": {
+        "damage": -0.05600000000000005,
+        "core_priority": 24.399999999999977
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 8,
+      "route": "fire-02",
+      "opponent": "fire-01",
+      "scope": "route",
+      "changes": {
+        "budget_fit": -1.5999999999999996,
+        "health": -0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "poison-02",
+      "opponent": "fire-02",
+      "scope": "matchup",
+      "changes": {
+        "search": 2.240000000000002,
+        "startup_resource": 4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "fire-02",
+      "opponent": "poison-02",
+      "scope": "matchup",
+      "changes": {
+        "draw": 1.4399999999999995,
+        "shield_engine": -0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "poison-03",
+      "opponent": "fire-01",
+      "scope": "route",
+      "changes": {
+        "cleanse": -0.08000000000000007,
+        "startup_resource": -4.200000000000003
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 9,
+      "route": "fire-01",
+      "opponent": "poison-03",
+      "scope": "route",
+      "changes": {
+        "epic_cycle": -2.8000000000000007,
+        "cleanse": 0.07999999999999999
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "poison-02",
+      "opponent": "fire-01",
+      "scope": "matchup",
+      "changes": {
+        "health": -0.05600000000000005,
+        "tempo_value": 0.09200000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "fire-01",
+      "opponent": "poison-02",
+      "scope": "context",
+      "changes": {
+        "energy": 2.120000000000001,
+        "layer": -1.52
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "poison-03",
+      "opponent": "fire-02",
+      "scope": "route",
+      "changes": {
+        "penetration_value": -0.10399999999999998,
+        "finish_burst": 0.06399999999999995
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 10,
+      "route": "fire-02",
+      "opponent": "poison-03",
+      "scope": "context",
+      "changes": {
+        "operation_layer": -2.4800000000000004,
+        "penetration_value": -0.10400000000000009
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "poison-02",
+      "opponent": "poison-03",
+      "scope": "matchup",
+      "changes": {
+        "layer": 1.5199999999999996,
+        "damage": -0.05600000000000005
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "poison-03",
+      "opponent": "poison-02",
+      "scope": "route",
+      "changes": {
+        "search": 2.240000000000002,
+        "core_priority": -24.399999999999977
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "fire-01",
+      "opponent": "fire-02",
+      "scope": "route",
+      "changes": {
+        "budget_fit": 1.5999999999999996,
+        "draw": 1.4399999999999995
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 11,
+      "route": "fire-02",
+      "opponent": "fire-01",
+      "scope": "context",
+      "changes": {
+        "tempo_value": -0.09199999999999997,
+        "reserve": 0.011999999999999997
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "poison-02",
+      "opponent": "fire-02",
+      "scope": "route",
+      "changes": {
+        "search": 2.240000000000002,
+        "layer": 1.5199999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "fire-02",
+      "opponent": "poison-02",
+      "scope": "route",
+      "changes": {
+        "core_priority": 24.399999999999977,
+        "layer": -1.52
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "poison-03",
+      "opponent": "fire-01",
+      "scope": "route",
+      "changes": {
+        "core_priority": -24.399999999999977,
+        "shield_engine": 0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 12,
+      "route": "fire-01",
+      "opponent": "poison-03",
+      "scope": "context",
+      "changes": {
+        "cost_power": -0.040000000000000036,
+        "energy": -2.120000000000001
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "poison-02",
+      "opponent": "fire-01",
+      "scope": "context",
+      "changes": {
+        "damage": -0.05600000000000005,
+        "sustain_value": 0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "fire-01",
+      "opponent": "poison-02",
+      "scope": "context",
+      "changes": {
+        "core_priority": -24.399999999999977,
+        "search": -2.24
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "poison-03",
+      "opponent": "fire-02",
+      "scope": "route",
+      "changes": {
+        "panic": -0.08800000000000008,
+        "sustain_value": -0.08400000000000007
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 13,
+      "route": "fire-02",
+      "opponent": "poison-03",
+      "scope": "context",
+      "changes": {
+        "cleanse": -0.08000000000000002,
+        "startup_resource": -4.200000000000003
+      },
+      "gain": -0.0019000000000000128,
+      "seed_gains": [
+        0.0,
+        -0.0038000000000000256
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 14,
+      "route": "poison-02",
+      "opponent": "poison-03",
+      "scope": "route",
+      "changes": {
+        "operation_layer": 2.4800000000000004,
+        "layer": 1.5199999999999996
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 14,
+      "route": "poison-03",
+      "opponent": "poison-02",
+      "scope": "route",
+      "changes": {
+        "startup_resource": -4.200000000000003,
+        "sustain_value": 0.08400000000000007
+      },
+      "gain": 5.0000000000000565e-05,
+      "seed_gains": [
+        0.00010000000000000113,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 14,
+      "route": "fire-01",
+      "opponent": "fire-02",
+      "scope": "context",
+      "changes": {
+        "finish_burst": 0.06400000000000006,
+        "panic": -0.08800000000000008
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 14,
+      "route": "fire-02",
+      "opponent": "fire-01",
+      "scope": "route",
+      "changes": {
+        "search": -2.24,
+        "penetration_value": 0.10400000000000009
+      },
+      "gain": -0.0005499999999999997,
+      "seed_gains": [
+        0.0,
+        -0.0010999999999999994
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 15,
+      "route": "poison-02",
+      "opponent": "fire-02",
+      "scope": "route",
+      "changes": {
+        "penetration_value": -0.10399999999999998,
+        "search": 2.240000000000002
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "loss",
+      "reason": "insufficient_or_unstable_gain"
+    },
+    {
+      "round": 15,
+      "route": "fire-02",
+      "opponent": "poison-02",
+      "scope": "route",
+      "changes": {
+        "health": -0.05600000000000005,
+        "operation_layer": 2.4800000000000004
+      },
+      "gain": 0.0,
+      "seed_gains": [
+        0.0,
+        0.0
+      ],
+      "accepted": false,
+      "outcome": "win",
+      "reason": "insufficient_or_unstable_gain"
+    }
+  ],
+  "terminal_updates": 320
+}

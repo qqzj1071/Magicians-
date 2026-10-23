@@ -1,5 +1,7 @@
 # 卡牌v1.0战斗工具
 
+当前四人构筑/淘汰训练入口为`train_tournament_v1.py`，默认十轮，规则只读`releases/deckbuilding-v1.0`。检查规则用`verify_construction_v1.py`，检查策略与信息边界用`test_strategic_tournament_ai.py`，训练报告入口`docs/ai/README.md`。本目录旧版calibrate/optimize/report及早期shared-draft训练脚本仅为历史工具，不是现行规则入口，不要用它们覆盖冻结数据或自动解压旧实验。
+
 唯一数据为releases/v1.0/cards.json；decks/decks.json仅15套参考列表。运行 python tools/round_robin/verify_v1.py 检查253张面板、253项出牌事务、15组确定性战斗、225项策略绑定和数值规范。
 
 engine.py为事务执行器，planner.py为启发式贪心出牌，controller.py调用现有策略。历史数值修改与训练脚本已归档，避免意外覆盖封版卡牌。改构筑后旧策略哈希会失效，须重新校准。

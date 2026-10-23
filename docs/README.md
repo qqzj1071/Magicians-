@@ -1,13 +1,15 @@
-# Magicians! 文档入口 · 卡牌v1.0
+# Magicians! · 当前版本入口
 
-> 最新AI学习：[六轮报告](ai/training-v1/report.md)、[共性逻辑](ai/training-v1/common.md)、[构筑与抓牌](ai/training-v1/construction.md)。卡牌v1.0不变。
+卡牌v1.0与牌组构筑v1.0均已冻结，AI继续学习；规则变更须另开版本。
 
-当前唯一有效版本为 **卡牌v1.0**，2026-10-22封版。本次不是游戏整体发布；不改卡牌数值或战斗机制。
+1. [构筑v1.0规则与数据](../releases/deckbuilding-v1.0/README.md)：共享池、概率、研习、公开信息、四人淘汰与六阶段扣血。
+2. [卡牌v1.0](cards/README.md)：唯一数据releases/v1.0/cards.json，共253张。
+3. [构筑与战斗AI](ai/README.md)：学习状态、独立验证与检查点。
+4. [15套标准牌组](../decks/README.md)。
+5. [伤害](combat/damage-model.md)、[结算](combat/resolution-order.md)、[数值规范](combat/numeric-standards.md)。
 
-1. [卡表索引](cards/README.md)：五系与通用，共253张。
-2. [伤害分区](combat/damage-model.md)、[同步结算](combat/resolution-order.md)、[数值规范](combat/numeric-standards.md)。
-3. [修改路径摘要](CHANGELOG.md)：只保留最终设计脉络。
-4. [后续构筑讨论起点](deckbuilding/process-draft.md)与[参考牌组](../decks/README.md)。
-5. [战斗AI状态](ai/README.md)：保留出牌器，历史排名不作当前结论。
+旧构筑规则和实验已压缩标记过时，默认不解压、不引用为当前规则，见[归档说明](../archives/README.md)。研究运行器支持四人淘汰赛事，不等于联机和客户端已完整实现。
 
-机器读取只用[封版数据](../releases/v1.0/cards.json)，不要检索或恢复archives中的旧版资料，除非用户明确要求追溯。混系传奇的设计效果保留，但现有无动画引擎只验证单主系加通用的双人对战；多人赛事与构筑流程尚未验收。产品概念、联机和世界观文档不覆盖本版卡牌。
+## 世界观与美术创作
+
+[世界观入口](lore/README.md)：lore v0.2，以魔法集会与魔法师大赛为核心，包含世界、人物、美术方向和命名文案规范。[产品概念](game-concept.md)供首次了解项目的合作者阅读。创作资料不作为规则或功能实现依据。

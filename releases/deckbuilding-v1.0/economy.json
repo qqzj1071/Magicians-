@@ -1,0 +1,83 @@
+{
+  "version": "1.0",
+  "implementation_profile": "growth-v3",
+  "income": [
+    {
+      "rounds": [
+        1,
+        2
+      ],
+      "points": 2
+    },
+    {
+      "rounds": [
+        3,
+        5
+      ],
+      "points": 3
+    },
+    {
+      "rounds": [
+        6,
+        null
+      ],
+      "points": 4
+    }
+  ],
+  "carry_cap": 2,
+  "refresh_cost": 1,
+  "refresh_limit": 1,
+  "prices": {
+    "common": 1,
+    "rare": 2,
+    "epic": 3,
+    "legendary": 4
+  },
+  "route_replacement_cost": 2,
+  "legendary_capacity": 3,
+  "specialization_count": 3,
+  "minimum_deck_size": 8,
+  "starter_cards_consume_pool": false,
+  "starter": [
+    "攻击强化",
+    "攻击强化",
+    "防御强化",
+    "防御强化",
+    "护盾",
+    "检索附魔",
+    "短促",
+    "重洗"
+  ],
+  "free_purchase": {
+    "rounds_1_to_3": [
+      "common"
+    ],
+    "rounds_4_to_6": [
+      "common",
+      "rare"
+    ],
+    "scope": "one_per_round_both_faces"
+  },
+  "deletions": {
+    "rounds_1_to_3": [
+      0,
+      []
+    ],
+    "rounds_4_to_6": [
+      1,
+      [
+        0
+      ]
+    ],
+    "rounds_7_plus": [
+      2,
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "streak_bonus_every": 3,
+  "deletion_and_replacement_returns": "next_round",
+  "final_simultaneous_elimination": "co_champions"
+}
