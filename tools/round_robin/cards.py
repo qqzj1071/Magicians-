@@ -11,10 +11,12 @@ if _active.exists():
     _default=(_active.parent/_pointer['library']).resolve()
 LIBRARY_PATH=Path(os.environ.get('MAGICIANS_CARD_LIBRARY',str(_default))).resolve()
 LIBRARY=json.loads(LIBRARY_PATH.read_text(encoding='utf-8'))
-if LIBRARY.get('version')!='1.0':raise ValueError('Only frozen v1.0 inputs are supported; historical engines are in the archive.')
+if LIBRARY.get('version') not in ('1.0','1.1'):raise ValueError('Unsupported card release version.')
 CARD_LIBRARY_PATH=(LIBRARY_PATH.parent/LIBRARY['card_library']).resolve()
 CATALOG=json.loads(CARD_LIBRARY_PATH.read_text(encoding='utf-8'))
-if CATALOG.get('version')!='1.0':raise ValueError('Card and deck versions differ.')
+if CATALOG.get('version') not in ('1.0','1.1') or CATALOG.get('version')!=LIBRARY.get('version'):
+    raise ValueError('Card and deck versions differ.')
+CARD_VERSION=CATALOG['version']
 DECKS={d['id']:d for d in LIBRARY['decks']}
 @dataclass(frozen=True)
 class Card:

@@ -13,7 +13,7 @@ from typing import Optional
 import math
 import random
 
-from cards import CARDS, DECKS, SPECIAL, STACKING, ROUTES, SHIELDS, HEALS, SUB, PARAMS
+from cards import CARDS, DECKS, SPECIAL, STACKING, ROUTES, SHIELDS, HEALS, SUB, PARAMS, CARD_VERSION
 
 RULE_VERSION = '1.0'
 INF = 10**12
@@ -506,8 +506,9 @@ def card_plan(snapshot,i,name,t):
     elif name=='毒针':
         if e.shield>0 and e.poison==0:change_poison(states,1-i,1,t)
     elif name in ('腐蚀','毒雾','毒刺','毒瓶'):
-        n={'腐蚀':14,'毒雾':12 if e.poison else 0,'毒刺':8,'毒瓶':24+(8 if e.poison else 0)}[name]
-        s.extra+=n
+        n={'腐蚀':11,'毒雾':10 if e.poison else 0,'毒刺':6.5,'毒瓶':19.5+(6.5 if e.poison else 0)}[name]
+        if CARD_VERSION=='1.1':s.window_bonus+=int(Q(str(n))*2)
+        else:s.extra+=Q({'腐蚀':14,'毒雾':12 if e.poison else 0,'毒刺':8,'毒瓶':24+(8 if e.poison else 0)}[name])
     elif name=='寻毒':p.search=('element',2,1)
     elif name=='速腐':s.poison_next_hit+=2
     elif name=='蚀刻':poison_ticks()
@@ -518,11 +519,16 @@ def card_plan(snapshot,i,name,t):
     elif name=='蚀界':poison_ticks();s.poison_two_hits+=2
     elif name=='固毒':s.poison_guards+=1
     elif name=='延毒':s.decay_extend+=15
-    elif name=='腐溃':s.extra+=10+4*e.poison
-    elif name=='蚀创':s.extra+=20+6*e.poison
+    elif name=='腐溃':
+        if CARD_VERSION=='1.1':s.window_bonus+=int((Q(8)+Q(7,2)*e.poison)*2)
+        else:s.extra+=10+4*e.poison
+    elif name=='蚀创':
+        if CARD_VERSION=='1.1':s.window_bonus+=int((Q(16)+Q(5)*e.poison)*2)
+        else:s.extra+=20+6*e.poison
     elif name=='万毒蚀骨':
         a,d=stats(states,1-i)
-        s.extra+=5*e.poison+2*(max(0,e.attack-a)+max(0,e.defense-d))
+        if CARD_VERSION=='1.1':s.window_bonus+=int((Q(4)*e.poison+Q(3,2)*(max(0,e.attack-a)+max(0,e.defense-d)))*2)
+        else:s.extra+=5*e.poison+2*(max(0,e.attack-a)+max(0,e.defense-d))
     elif name=='蚀骨之触':
         e.def_debuff+=math.floor(2+Q(e.poison,2))
         amount=e.shield*min(Q(3,5),Q(8*e.poison,100));p.shields[1-i].cut+=amount;e.shield-=amount
@@ -569,8 +575,10 @@ def card_plan(snapshot,i,name,t):
     elif name=='铁壁':s.defense+=3 if s.shield>=50 else 0
     elif name=='战意沸腾':s.attack+=4 if s.hp>=500 else 0
     elif name in ('战意','高温炉心'):s.attack+=4 if s.layers>=6 else 0
-    elif name=='剧毒':s.extra+=30
-    elif name=='疫病':s.extra+=40;e.def_debuff+=2
+    elif name=='剧毒':
+        (setattr(s,'window_bonus',s.window_bonus+48) if CARD_VERSION=='1.1' else setattr(s,'extra',s.extra+30))
+    elif name=='疫病':
+        (setattr(s,'window_bonus',s.window_bonus+64) if CARD_VERSION=='1.1' else setattr(s,'extra',s.extra+40));e.def_debuff+=2
     elif name=='穿云':s.subs+=((25,30,1),)
     elif name in ('爆燃','火舌','烈风','风刃','狂风','狂暴','不灭烈焰','洪潮','深渊','深流','洪流',
                  '岩拳','山岳','巨岩','毒龙','腐化之躯','毒牙','腐潮','永恒壁垒','破军','坚壁',
@@ -801,7 +809,10 @@ def missile(states,i,t,base_ratio=Q(1),fixed=Q(0),main=False,marks=1,ember=0):
     ignore=20 if s.route=='穿云箭' and s.spec else 0
     defense=Q(d)*max(Q(0),1-Q(pen)/100)*(1-Q(ignore,100))
     if s.route=='生命之泉':defense=Q(math.floor(defense))
-    raw=(a*base_ratio+fixed)*Q(100+s.bonus+(s.window_bonus if main else 0),100)-defense
+    if CARD_VERSION=='1.1' and s.element=='poison' and main:
+        raw=((a+Q(s.window_bonus,2))*base_ratio+fixed)*Q(100+s.bonus,100)-defense
+    else:
+        raw=(a*base_ratio+fixed)*Q(100+s.bonus+(s.window_bonus if main else 0),100)-defense
     f=fire_factor(s)
     if main and s.element=='fire' and s.spec:
         f*=ember_factor(s,ember)
@@ -867,6 +878,7 @@ def launch(states,due,t,log=None):
         s=states[i]
         if s.route=='潮汐回响' and s.spec:s.tide+=ceil(tides[i]*Q(15,100))
         s.bonus=0;s.extra=Q(0);s.delay=Q(0);s.subs=();s.def_pen=0;s.shield_bonus=0
+        if CARD_VERSION=='1.1' and s.element=='poison':s.window_bonus=0
         s.tide_bonus=0;s.tide_record_bonus=0;s.main_pen=0;s.main_def_pen=0;s.last_time=t;s.next_fire=t+intervals[i]
     finish_reactions(states,reactions,t,log,tuple(i in due and snapshot[i].element=='earth' and snapshot[i].layers>0 for i in range(2)))
     for i in due:
@@ -922,7 +934,10 @@ def estimate(states,i,t,horizon):
     pen=min(1,float(s.def_pen+s.main_def_pen+(20 if s.route=='生命之泉' else 0)+(s.layers*layer_rate(s,'wind_pierce_def_per_layer',5) if s.route=='穿云箭' else 0))/100)
     ignore=.2 if s.route=='穿云箭' and s.spec else 0
     active=s.next_fire<(t//100+1)*100
-    raw=max(1,(a*ratio+extra)*(1+(s.bonus+(s.window_bonus if active else 0))/100)-d*(1-pen)*(1-ignore))
+    if CARD_VERSION=='1.1' and s.element=='poison':
+        raw=max(1,((a+Q(s.window_bonus,2))*ratio+extra)*(1+s.bonus/100)-d*(1-pen)*(1-ignore))
+    else:
+        raw=max(1,(a*ratio+extra)*(1+(s.bonus+(s.window_bonus if active else 0))/100)-d*(1-pen)*(1-ignore))
     factor=float(fire_factor(s))
     if s.element=='fire' and s.spec:
         anticipated=min(5,s.ember+max(0,(s.next_fire-t)//100))
