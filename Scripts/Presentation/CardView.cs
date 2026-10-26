@@ -9,18 +9,23 @@ public partial class CardView : PanelContainer
     public void Bind(CardPresentationProfile profile, int? studyPrice = null, bool freePurchase = false, bool combat = false, bool enchantmentApplied = false)
     {
         GetNode<Label>("Margin/Column/Title").Text = profile.Name;
+        var title = GetNode<Label>("Margin/Column/Title");
+        title.AddThemeColorOverride("font_color", profile.FirstEnchantmentLayers > 0 && !enchantmentApplied
+            ? new Color("ffd166") : Colors.White);
         GetNode<Label>("Margin/Column/Metadata").Text = $"元素：{CardPresentationCatalog.ElementLabel(profile.Element)}    稀有度：{CardPresentationCatalog.RarityLabel(profile.Rarity)}";
         GetNode<Label>("Margin/Column/Header/Element").Text = CardPresentationCatalog.ElementLabel(profile.Element);
         GetNode<Label>("Margin/Column/Header/Cost").Text = $"{profile.CombatCost} 费用";
-        GetNode<Label>("Margin/Column/Rarity").Text = CardPresentationCatalog.RarityLabel(profile.Rarity);
-        GetNode<Label>("Margin/Column/Rarity").AddThemeColorOverride("font_color", RarityColor(profile.Rarity));
-        GetNode<Label>("Margin/Column/Details/Text/Stats").Text = $"攻击 +{profile.Attack}    防御 +{profile.Defense}";
+        var rarity = GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Rarity");
+        rarity.Text = CardPresentationCatalog.RarityLabel(profile.Rarity);
+        rarity.AddThemeColorOverride("font_color", RarityColor(profile.Rarity));
+        GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Attack").Text = $"攻击 +{profile.Attack}";
+        GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Defense").Text = $"防御 +{profile.Defense}";
         GetNode<Label>("Margin/Column/Details/Text/Enchantment").Text = profile.FirstEnchantmentLayers > 0
             ? enchantmentApplied
                 ? $"附魔已叠加：{CardPresentationCatalog.ElementLabel(profile.Element)} +{profile.FirstEnchantmentLayers}层"
                 : $"首次附魔：{CardPresentationCatalog.ElementLabel(profile.Element)} +{profile.FirstEnchantmentLayers}层（未叠加）"
             : "无附魔层";
-        GetNode<Label>("Margin/Column/Details/Text/Rules").Text = profile.DisplayRulesText;
+        GetNode<Label>("Margin/Column/Details/Text/Rules").Text = FormatRulesText(profile.DisplayRulesText);
         var notes = GetNode<Label>("Margin/Column/Details/Text/RuleNotes");
         notes.Text = string.Join("\n", profile.RuleNotes);
         notes.Visible = profile.RuleNotes.Length > 0;
@@ -46,6 +51,16 @@ public partial class CardView : PanelContainer
         node.Visible = node.Texture is not null;
     }
 
+    public static string FormatRulesText(string text)
+    {
+        var timing = new[] { "立即", "整场", "下一发", "抽牌前", "下抽", "下一抽牌阶段前", "本次" };
+        var result = text;
+        foreach (var suffix in timing)
+            if (result.EndsWith("；" + suffix, StringComparison.Ordinal))
+                return result[..^(suffix.Length + 1)];
+        return result;
+    }
+
     private static Color ElementColor(string element) => element switch
     {
         "fire" => new Color("713b35"), "water" => new Color("284f73"),
@@ -60,5 +75,6 @@ public partial class CardView : PanelContainer
         "specialization" => new Color("66dfbe"), _ => Colors.White
     };
 }
+
 
 
