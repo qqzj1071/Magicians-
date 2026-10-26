@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "风暴",
+  "ProfileId": "card-5edd4076790f1f64",
+  "Name": "风暴",
+  "Element": "wind",
+  "Rarity": "epic",
+  "CombatCost": 2,
+  "BaseStudyCost": 3,
+  "Attack": 6,
+  "Defense": 5,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "下一发飞弹额外发射一段“固定 30 + 攻击力 30%”的加成副弹（不计入第三次计数，可叠风痕）",
+  "DisplayRulesText": "下一发飞弹额外发射一段“固定 30 + 攻击力 30%”的加成副弹（不计入第三次计数，可叠风痕）",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

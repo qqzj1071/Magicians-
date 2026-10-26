@@ -1,0 +1,90 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource path="res://Scripts/Presentation/CombatBoardController.cs" type="Script" id="1_combat"]
+
+[node name="CombatBoard" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_combat")
+
+[node name="Panel" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Column" type="VBoxContainer" parent="Panel"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Title" type="Label" parent="Panel/Column"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "战斗阶段"
+
+[node name="Arena" type="HBoxContainer" parent="Panel/Column"]
+layout_mode = 2
+size_flags_vertical = 3
+alignment = 1
+theme_override_constants/separation = 18
+
+[node name="Human" type="ColorRect" parent="Panel/Column/Arena"]
+custom_minimum_size = Vector2(110, 135)
+layout_mode = 2
+color = Color(0.31, 0.616, 0.412, 1)
+
+[node name="Projectile" type="ColorRect" parent="Panel/Column/Arena"]
+custom_minimum_size = Vector2(150, 60)
+layout_mode = 2
+size_flags_vertical = 4
+color = Color(0.557, 0.839, 1, 1)
+
+[node name="Ai" type="ColorRect" parent="Panel/Column/Arena"]
+custom_minimum_size = Vector2(110, 135)
+layout_mode = 2
+color = Color(0.463, 0.322, 0.659, 1)
+
+[node name="Status" type="Label" parent="Panel/Column"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "等待战斗实例"
+
+[node name="Actions" type="VBoxContainer" parent="Panel/Column"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="Logs" type="HBoxContainer" parent="Panel/Column"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="CardColumn" type="VBoxContainer" parent="Panel/Column/Logs"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Title" type="Label" parent="Panel/Column/Logs/CardColumn"]
+layout_mode = 2
+text = "出牌日志（双方同步结算后公开）"
+
+[node name="EventLog" type="RichTextLabel" parent="Panel/Column/Logs/CardColumn"]
+custom_minimum_size = Vector2(0, 112)
+layout_mode = 2
+scroll_following = true
+
+[node name="MissileColumn" type="VBoxContainer" parent="Panel/Column/Logs"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Title" type="Label" parent="Panel/Column/Logs/MissileColumn"]
+layout_mode = 2
+text = "飞弹发射与结算"
+
+[node name="MissileLog" type="RichTextLabel" parent="Panel/Column/Logs/MissileColumn"]
+custom_minimum_size = Vector2(0, 112)
+layout_mode = 2
+scroll_following = true

@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "疫病",
+  "ProfileId": "card-085e0c511d1214ef",
+  "Name": "疫病",
+  "Element": "poison",
+  "Rarity": "epic",
+  "CombatCost": 2,
+  "BaseStudyCost": 3,
+  "Attack": 6,
+  "Defense": 5,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "下一发飞弹额外造成 40 伤害；目标防御 -2（本场，可叠加，无上限）；下一发/整场",
+  "DisplayRulesText": "下一发飞弹额外造成 40 伤害；目标防御 -2（本场，可叠加，无上限）；下一发/整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

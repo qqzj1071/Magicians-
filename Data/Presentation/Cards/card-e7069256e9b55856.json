@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "高温炉心",
+  "ProfileId": "card-e7069256e9b55856",
+  "Name": "高温炉心",
+  "Element": "fire",
+  "Rarity": "rare",
+  "CombatCost": 2,
+  "BaseStudyCost": 2,
+  "Attack": 4,
+  "Defense": 3,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "火层 ≥6 时再 +4 攻；整场",
+  "DisplayRulesText": "火层 ≥6 时再 +4 攻；整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

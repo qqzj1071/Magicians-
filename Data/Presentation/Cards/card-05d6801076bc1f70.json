@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "蚀骨",
+  "ProfileId": "card-05d6801076bc1f70",
+  "Name": "蚀骨",
+  "Element": "poison",
+  "Rarity": "legendary",
+  "CombatCost": 3,
+  "BaseStudyCost": 4,
+  "Attack": 12,
+  "Defense": 5,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "自然衰减保留最后1毒，主动消耗可清空；毒衰减按原间隔和延毒修正取整后最终×2。激活万毒之源后减攻/减防系数改为0.45/0.3。",
+  "DisplayRulesText": "自然衰减保留最后1毒，主动消耗可清空；毒衰减按原间隔和延毒修正取整后最终×2。激活万毒之源后减攻/减防系数改为0.45/0.3。",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

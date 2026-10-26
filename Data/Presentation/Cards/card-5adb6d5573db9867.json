@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "回潮",
+  "ProfileId": "card-5adb6d5573db9867",
+  "Name": "回潮",
+  "Element": "water",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 9,
+  "Defense": 0,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "若本场已实际回复过生命，再 +4 攻；整场",
+  "DisplayRulesText": "若本场已实际回复过生命，再 +4 攻；整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

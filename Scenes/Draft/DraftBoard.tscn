@@ -1,0 +1,55 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource path="res://Scripts/Presentation/DraftBoardController.cs" type="Script" id="1_draft"]
+
+[node name="DraftBoard" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_draft")
+
+[node name="Panel" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Column" type="VBoxContainer" parent="Panel"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Title" type="Label" parent="Panel/Column"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "构筑阶段"
+
+[node name="CardPreview" type="HBoxContainer" parent="Panel/Column"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Card" type="ColorRect" parent="Panel/Column/CardPreview"]
+custom_minimum_size = Vector2(72, 100)
+layout_mode = 2
+color = Color(0.306, 0.51, 0.722, 1)
+
+[node name="Text" type="Label" parent="Panel/Column/CardPreview"]
+layout_mode = 2
+size_flags_vertical = 4
+text = "纯色卡牌占位资源\n后续替换为正式卡面"
+
+[node name="Study" type="Label" parent="Panel/Column"]
+layout_mode = 2
+text = "研习点"
+
+[node name="Offers" type="VBoxContainer" parent="Panel/Column"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Finish" type="Button" parent="Panel/Column"]
+layout_mode = 2
+text = "结束构筑"

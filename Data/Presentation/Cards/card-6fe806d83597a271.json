@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "泉眼",
+  "ProfileId": "card-6fe806d83597a271",
+  "Name": "泉眼",
+  "Element": "water",
+  "Rarity": "common",
+  "CombatCost": 1,
+  "BaseStudyCost": 1,
+  "Attack": 3,
+  "Defense": 1,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "回复 20 生命；若当前生命 ≤50%，改为回复 50；立即",
+  "DisplayRulesText": "回复 20 生命；若当前生命 ≤50%，改为回复 50；立即",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "蚀命",
+  "ProfileId": "card-7d6c4e22bffefd37",
+  "Name": "蚀命",
+  "Element": "poison",
+  "Rarity": "legendary",
+  "CombatCost": 3,
+  "BaseStudyCost": 4,
+  "Attack": 12,
+  "Defense": 5,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "每次非毒爆的常规或额外毒伤，加入目标最大生命×0.8%×毒层数后，整段只扣一次50%防御；不穿盾，不回血，0毒层不触发。",
+  "DisplayRulesText": "每次非毒爆的常规或额外毒伤，加入目标最大生命×0.8%×毒层数后，整段只扣一次50%防御；不穿盾，不回血，0毒层不触发。",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

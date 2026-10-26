@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "余烬引擎",
+  "ProfileId": "card-8da6ccfeae32b6ba",
+  "Name": "余烬引擎",
+  "Element": "fire",
+  "Rarity": "epic",
+  "CombatCost": 3,
+  "BaseStudyCost": 3,
+  "Attack": 2,
+  "Defense": 7,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "洗牌；下次抽牌阶段多抽 2；获得 2 费；立即",
+  "DisplayRulesText": "洗牌；下次抽牌阶段多抽 2；获得 2 费；立即",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

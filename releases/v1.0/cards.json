@@ -312,7 +312,7 @@
       "layers": 1,
       "ability": false,
       "kind": "normal",
-      "text": "下一发飞弹增伤百分点=ceil((10+有效攻击≥90时20+已激活火专精且余烬≥2时15)×0.9)；与既有增伤相加。",
+      "text": "下一发飞弹增伤百分点=ceil(10+有效攻击≥90时20+已激活火专精且余烬≥2时15)；与既有增伤相加。",
       "route_support": "燃烧血统"
     },
     "厚土": {
@@ -586,19 +586,6 @@
       "ability": false,
       "kind": "normal",
       "text": "目标攻击 -2（本场，可叠加）；整场",
-      "route_support": null
-    },
-    "守势": {
-      "name": "守势",
-      "cost": 1,
-      "element": "generic",
-      "rarity": "common",
-      "attack": 1,
-      "defense": 2,
-      "layers": 0,
-      "ability": false,
-      "kind": "normal",
-      "text": "无；整场",
       "route_support": null
     },
     "守岩": {

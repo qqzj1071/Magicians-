@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "禁咒目录",
+  "ProfileId": "card-41e53cf6b80e076d",
+  "Name": "禁咒目录",
+  "Element": "generic",
+  "Rarity": "legendary",
+  "CombatCost": 1,
+  "BaseStudyCost": 4,
+  "Attack": 12,
+  "Defense": 5,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "从摸牌堆随机查看最多 5 张不重复的史诗及以上牌（含专精牌），选至多 2 张按自选顺序置于牌堆顶，其余位置不变；下次抽牌阶段额外 +1 费",
+  "DisplayRulesText": "从摸牌堆随机查看最多 5 张不重复的史诗及以上牌（含专精牌），选至多 2 张按自选顺序置于牌堆顶，其余位置不变；下次抽牌阶段额外 +1 费",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

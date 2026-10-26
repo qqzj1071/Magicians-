@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "翻找",
+  "ProfileId": "card-41d2235339947253",
+  "Name": "翻找",
+  "Element": "generic",
+  "Rarity": "common",
+  "CombatCost": 0,
+  "BaseStudyCost": 1,
+  "Attack": 3,
+  "Defense": 1,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "查看摸牌堆顶 3 张，选 1 张置顶，其余放底；立即",
+  "DisplayRulesText": "查看摸牌堆顶 3 张，选 1 张置顶，其余放底；立即",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

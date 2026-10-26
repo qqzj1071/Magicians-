@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "攻守兼备",
+  "ProfileId": "card-8ae0dde72a176e11",
+  "Name": "攻守兼备",
+  "Element": "generic",
+  "Rarity": "rare",
+  "CombatCost": 2,
+  "BaseStudyCost": 2,
+  "Attack": 4,
+  "Defense": 3,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "无；整场",
+  "DisplayRulesText": "无；整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

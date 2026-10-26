@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "腐息",
+  "ProfileId": "card-d1b1ef795b7bb7c6",
+  "Name": "腐息",
+  "Element": "poison",
+  "Rarity": "rare",
+  "CombatCost": 2,
+  "BaseStudyCost": 2,
+  "Attack": 4,
+  "Defense": 3,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "下一次毒伤结算后，再额外结算一次毒伤（在衰减之前）；下一次",
+  "DisplayRulesText": "下一次毒伤结算后，再额外结算一次毒伤（在衰减之前）；下一次",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

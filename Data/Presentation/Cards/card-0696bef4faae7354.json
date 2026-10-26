@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "血怒",
+  "ProfileId": "card-0696bef4faae7354",
+  "Name": "血怒",
+  "Element": "water",
+  "Rarity": "rare",
+  "CombatCost": 2,
+  "BaseStudyCost": 2,
+  "Attack": 8,
+  "Defense": 0,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "若当前生命 ≤50%，再 +8 攻；若已打出「潮汐之心」，记录 `ceil(已损失生命 × 0.3% × 水层数)` 潮汐；整场/立即",
+  "DisplayRulesText": "若当前生命 ≤50%，再 +8 攻；若已打出「潮汐之心」，记录 `ceil(已损失生命 × 0.3% × 水层数)` 潮汐；整场/立即",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

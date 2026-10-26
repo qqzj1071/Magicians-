@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "穿云",
+  "ProfileId": "card-97bbdc82bd3e68a3",
+  "Name": "穿云",
+  "Element": "wind",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 4,
+  "Defense": 3,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "下一发飞弹额外发射一段“固定 25 + 攻击力 30%”的加成副弹",
+  "DisplayRulesText": "下一发飞弹额外发射一段“固定 25 + 攻击力 30%”的加成副弹",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

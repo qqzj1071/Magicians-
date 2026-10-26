@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "元素熔炉",
+  "ProfileId": "card-22a21234f54b1b08",
+  "Name": "元素熔炉",
+  "Element": "generic",
+  "Rarity": "legendary",
+  "CombatCost": 2,
+  "BaseStudyCost": 4,
+  "Attack": 12,
+  "Defense": 5,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "每张异种附魔牌（无论是否已打出）额外提供 1 层主系附魔层数；同一张只计一次，最多额外提供 6 层",
+  "DisplayRulesText": "每张异种附魔牌（无论是否已打出）额外提供 1 层主系附魔层数；同一张只计一次，最多额外提供 6 层",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

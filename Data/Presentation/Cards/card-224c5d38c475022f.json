@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "穿潮",
+  "ProfileId": "card-224c5d38c475022f",
+  "Name": "穿潮",
+  "Element": "water",
+  "Rarity": "rare",
+  "CombatCost": 2,
+  "BaseStudyCost": 2,
+  "Attack": 4,
+  "Defense": 3,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "下一发飞弹防御穿透40%；下一发",
+  "DisplayRulesText": "下一发飞弹防御穿透40%；下一发",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

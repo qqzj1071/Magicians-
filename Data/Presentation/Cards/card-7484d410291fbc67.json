@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "狂暴",
+  "ProfileId": "card-7484d410291fbc67",
+  "Name": "狂暴",
+  "Element": "fire",
+  "Rarity": "epic",
+  "CombatCost": 2,
+  "BaseStudyCost": 3,
+  "Attack": 14,
+  "Defense": 0,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "无；整场",
+  "DisplayRulesText": "无；整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

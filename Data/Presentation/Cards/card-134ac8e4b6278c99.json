@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "微风",
+  "ProfileId": "card-134ac8e4b6278c99",
+  "Name": "微风",
+  "Element": "wind",
+  "Rarity": "common",
+  "CombatCost": 1,
+  "BaseStudyCost": 1,
+  "Attack": 3,
+  "Defense": 1,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "下一发飞弹额外发射一段“固定 15 + 攻击力 20%”的加成副弹",
+  "DisplayRulesText": "下一发飞弹额外发射一段“固定 15 + 攻击力 20%”的加成副弹",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

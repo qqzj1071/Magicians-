@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "护盾",
+  "ProfileId": "card-b65b6e3a2e3dfc52",
+  "Name": "护盾",
+  "Element": "generic",
+  "Rarity": "common",
+  "CombatCost": 1,
+  "BaseStudyCost": 1,
+  "Attack": 3,
+  "Defense": 1,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "获得 60 护盾；立即",
+  "DisplayRulesText": "获得 60 护盾；立即",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

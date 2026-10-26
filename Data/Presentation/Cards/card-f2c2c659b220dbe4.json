@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "奔流",
+  "ProfileId": "card-f2c2c659b220dbe4",
+  "Name": "奔流",
+  "Element": "water",
+  "Rarity": "epic",
+  "CombatCost": 3,
+  "BaseStudyCost": 3,
+  "Attack": 5,
+  "Defense": 5,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "本场攻击间隔 ×0.9（发射后生效）；整场",
+  "DisplayRulesText": "本场攻击间隔 ×0.9（发射后生效）；整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

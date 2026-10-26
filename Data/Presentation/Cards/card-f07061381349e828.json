@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "血偿",
+  "ProfileId": "card-f07061381349e828",
+  "Name": "血偿",
+  "Element": "water",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 1,
+  "Defense": 5,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "回复 `ceil(已损失生命 × 6%)`；若已打出「潮汐之心」，记录 `ceil(已损失生命 × 0.3% × 水层数)` 潮汐；立即",
+  "DisplayRulesText": "回复 `ceil(已损失生命 × 6%)`；若已打出「潮汐之心」，记录 `ceil(已损失生命 × 0.3% × 水层数)` 潮汐；立即",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "泉心",
+  "ProfileId": "card-f5bd67cfee0bf548",
+  "Name": "泉心",
+  "Element": "water",
+  "Rarity": "epic",
+  "CombatCost": 3,
+  "BaseStudyCost": 3,
+  "Attack": 7,
+  "Defense": 4,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "下一发飞弹间隔 -50；这次发射的飞弹防御穿透60%；下一发",
+  "DisplayRulesText": "下一发飞弹间隔 -50；这次发射的飞弹防御穿透60%；下一发",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

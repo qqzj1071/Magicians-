@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "导火索",
+  "ProfileId": "card-cfd7af92d59b1f1d",
+  "Name": "导火索",
+  "Element": "fire",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 5,
+  "Defense": 3,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "下一发飞弹伤害+8%；若下一发间隔≥150，改为+16%。",
+  "DisplayRulesText": "下一发飞弹伤害+8%；若下一发间隔≥150，改为+16%。",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

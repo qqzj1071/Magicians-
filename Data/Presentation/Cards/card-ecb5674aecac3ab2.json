@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "岩拳",
+  "ProfileId": "card-ecb5674aecac3ab2",
+  "Name": "岩拳",
+  "Element": "earth",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 4,
+  "Defense": 3,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "无；整场",
+  "DisplayRulesText": "无；整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

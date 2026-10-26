@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "重洗",
+  "ProfileId": "card-cfdef5a39599ea9d",
+  "Name": "重洗",
+  "Element": "generic",
+  "Rarity": "common",
+  "CombatCost": 1,
+  "BaseStudyCost": 1,
+  "Attack": 1,
+  "Defense": 2,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "洗混摸牌堆与弃牌堆；立即",
+  "DisplayRulesText": "洗混摸牌堆与弃牌堆；立即",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

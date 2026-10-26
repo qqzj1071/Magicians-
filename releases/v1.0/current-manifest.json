@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "amendment": "2026-10-26-user-approved-duplicate-retirement",
+  "cards": 252,
+  "pool_copies": 1052,
+  "removed_cards": [
+    "守势"
+  ],
+  "retained_equivalent": "防御强化",
+  "numeric_fingerprint": "438c6302b3c34bfe7d3a3046bc8a5098f33ff10c644f66f4a2d9971a36175852",
+  "files": {
+    "docs/cards/earth.md": "93983bca52a6441aa62562b17f0c34100749bcc17363a165bd30244aa050e4dc",
+    "docs/cards/fire.md": "8ad0e9e6b27e71539173b8d2aab53a54f465f764cb2411c331a254c1797e445c",
+    "docs/cards/generic.md": "cbb2990d8714bba35ad771032575488c347586d7741ead954e1468d4815c08da",
+    "docs/cards/poison.md": "268019291ce7cc8f397815876b4bacaf006cf07c566e152da2587f421e1d46b7",
+    "docs/cards/README.md": "ae6f4955fce0f3a90c26a20bb6e5159ebba7562a8db3e4b885fbdf29fe88241a",
+    "docs/cards/water.md": "788aee9ffc3d6827a585807360aa860b6105f0b75258cac6f35d46916d11a28c",
+    "docs/cards/wind.md": "92c56f1d1657583134772a6cb05c189e28187128ad58f0b060dd059676039144",
+    "docs/combat/damage-model.md": "bdda0ae627eb5f0f2c3adc6974b66f582a7b3ea71c60199af876437b259ffa54",
+    "docs/combat/numeric-standards.md": "b1627732cf0ccfde677a2c4d38a77926e3f6e1512172e406101b5622d8a00b61",
+    "docs/combat/resolution-order.md": "2bff6d7eae9fa14d09fee000a12d55d752f9d7231ec522d1aac299548dff094e",
+    "releases/v1.0/cards.json": "e2c6cb2fcde982b2d4e2c2020b3ef18b716b1abfe6c3c3156c80a992fc08c474"
+  },
+  "calibration_card_library_sha256": "c38a3d456f9de20df5b585045822c7c1e91a76296bcd55fb3fd2f189b4fc201a"
+}

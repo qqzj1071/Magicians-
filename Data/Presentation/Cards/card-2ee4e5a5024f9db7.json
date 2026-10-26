@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "潮汐回响",
+  "ProfileId": "card-2ee4e5a5024f9db7",
+  "Name": "潮汐回响",
+  "Element": "water",
+  "Rarity": "legendary",
+  "CombatCost": 3,
+  "BaseStudyCost": 4,
+  "Attack": 10,
+  "Defense": 6,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "已激活水专精时，实际回复记录潮汐的每水层系数改为6.5%；发射消耗潮汐后返还消耗量15%。",
+  "DisplayRulesText": "已激活水专精时，实际回复记录潮汐的每水层系数改为6.5%；发射消耗潮汐后返还消耗量15%。",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "寻风",
+  "ProfileId": "card-dbf56f89858c2915",
+  "Name": "寻风",
+  "Element": "wind",
+  "Rarity": "common",
+  "CombatCost": 1,
+  "BaseStudyCost": 1,
+  "Attack": 4,
+  "Defense": 0,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "随机查看摸牌堆中的 2 张风系牌，选 1 张置顶，其余位置不变",
+  "DisplayRulesText": "随机查看摸牌堆中的 2 张风系牌，选 1 张置顶，其余位置不变",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

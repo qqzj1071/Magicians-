@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "火花",
+  "ProfileId": "card-9f62cd8bb760dbb3",
+  "Name": "火花",
+  "Element": "fire",
+  "Rarity": "common",
+  "CombatCost": 1,
+  "BaseStudyCost": 1,
+  "Attack": 4,
+  "Defense": 0,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "下一发飞弹伤害 +9%；下一发",
+  "DisplayRulesText": "下一发飞弹伤害 +9%；下一发",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

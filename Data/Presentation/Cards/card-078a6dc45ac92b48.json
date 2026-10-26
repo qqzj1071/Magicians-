@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "拆盾弹",
+  "ProfileId": "card-078a6dc45ac92b48",
+  "Name": "拆盾弹",
+  "Element": "generic",
+  "Rarity": "common",
+  "CombatCost": 1,
+  "BaseStudyCost": 1,
+  "Attack": 3,
+  "Defense": 1,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "下一发主弹额外获得25%护盾穿透；按效果",
+  "DisplayRulesText": "下一发主弹额外获得25%护盾穿透；按效果",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

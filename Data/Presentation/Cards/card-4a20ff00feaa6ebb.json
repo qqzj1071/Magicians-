@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "蚀创",
+  "ProfileId": "card-4a20ff00feaa6ebb",
+  "Name": "蚀创",
+  "Element": "poison",
+  "Rarity": "rare",
+  "CombatCost": 2,
+  "BaseStudyCost": 2,
+  "Attack": 4,
+  "Defense": 3,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "下一发飞弹额外造成 `20 + 6 × 当前毒层` 伤害；下一发",
+  "DisplayRulesText": "下一发飞弹额外造成 `20 + 6 × 当前毒层` 伤害；下一发",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

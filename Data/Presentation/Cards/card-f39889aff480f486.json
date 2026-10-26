@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "血刃",
+  "ProfileId": "card-f39889aff480f486",
+  "Name": "血刃",
+  "Element": "water",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 2,
+  "Defense": 4,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "支付 4% 当前生命；本场 +10 攻；若已打出「潮汐之心」，将这次支付量按 `5% × 水层数` 记录为潮汐；立即/整场",
+  "DisplayRulesText": "支付 4% 当前生命；本场 +10 攻；若已打出「潮汐之心」，将这次支付量按 `5% × 水层数` 记录为潮汐；立即/整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

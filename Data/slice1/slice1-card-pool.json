@@ -1,0 +1,34 @@
+{
+  "id": "slice1-basic-pool",
+  "sourceVersion": "1.0",
+  "supportedCardIds": [
+    "攻击强化",
+    "防御强化",
+    "护盾",
+    "检索附魔",
+    "短促",
+    "重洗",
+    "利刃",
+    "速读",
+    "鼓舞",
+    "石肤",
+    "水滴",
+    "微风"
+  ],
+  "initialDeck": [
+    { "cardId": "攻击强化", "count": 2 },
+    { "cardId": "防御强化", "count": 2 },
+    { "cardId": "护盾", "count": 1 },
+    { "cardId": "检索附魔", "count": 1 },
+    { "cardId": "短促", "count": 1 },
+    { "cardId": "重洗", "count": 1 }
+  ],
+  "offerPool": [
+    { "cardId": "利刃", "count": 8 },
+    { "cardId": "速读", "count": 8 },
+    { "cardId": "鼓舞", "count": 8 },
+    { "cardId": "石肤", "count": 6 },
+    { "cardId": "水滴", "count": 6 },
+    { "cardId": "微风", "count": 6 }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "焚心",
+  "ProfileId": "card-826e9bef0e869bb3",
+  "Name": "焚心",
+  "Element": "fire",
+  "Rarity": "epic",
+  "CombatCost": 2,
+  "BaseStudyCost": 3,
+  "Attack": 14,
+  "Defense": 0,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "消耗最多 2 余烬；每层回复 15% 已损失生命；若没有余烬，获得 1 余烬；立即",
+  "DisplayRulesText": "消耗最多 2 余烬；每层回复 15% 已损失生命；若没有余烬，获得 1 余烬；立即",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

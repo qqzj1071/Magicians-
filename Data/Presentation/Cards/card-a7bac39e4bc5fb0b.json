@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "碎岩印记",
+  "ProfileId": "card-a7bac39e4bc5fb0b",
+  "Name": "碎岩印记",
+  "Element": "earth",
+  "Rarity": "rare",
+  "CombatCost": 2,
+  "BaseStudyCost": 2,
+  "Attack": 9,
+  "Defense": 0,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "若本场你的护盾被击碎过，本场 +6 防；整场",
+  "DisplayRulesText": "若本场你的护盾被击碎过，本场 +6 防；整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

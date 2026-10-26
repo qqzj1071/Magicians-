@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "血潮",
+  "ProfileId": "card-d5ab10050f353a05",
+  "Name": "血潮",
+  "Element": "water",
+  "Rarity": "legendary",
+  "CombatCost": 3,
+  "BaseStudyCost": 4,
+  "Attack": 12,
+  "Defense": 5,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "每次主弹发射前支付当前生命4%（向上取整，不低于1血），支付量的80%向上取整加入本发主弹直接加伤。激活潮汐之心后，飞弹实际生命伤害的吸血系数改为每水层4.5%。",
+  "DisplayRulesText": "每次主弹发射前支付当前生命4%（向上取整，不低于1血），支付量的80%向上取整加入本发主弹直接加伤。激活潮汐之心后，飞弹实际生命伤害的吸血系数改为每水层4.5%。",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

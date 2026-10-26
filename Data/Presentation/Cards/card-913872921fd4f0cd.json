@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "守护者壁垒",
+  "ProfileId": "card-913872921fd4f0cd",
+  "Name": "守护者壁垒",
+  "Element": "generic",
+  "Rarity": "legendary",
+  "CombatCost": 2,
+  "BaseStudyCost": 4,
+  "Attack": 12,
+  "Defense": 5,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "每个抽牌阶段结束时，若本阶段打出的牌 ≤2，获得 `4 - 打出牌数量` 点永久防御",
+  "DisplayRulesText": "每个抽牌阶段结束时，若本阶段打出的牌 ≤2，获得 `4 - 打出牌数量` 点永久防御",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

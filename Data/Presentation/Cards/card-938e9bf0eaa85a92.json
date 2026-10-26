@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "火种库",
+  "ProfileId": "card-938e9bf0eaa85a92",
+  "Name": "火种库",
+  "Element": "fire",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 1,
+  "Defense": 5,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "随机查看摸牌堆中的 4 张火系牌，选 1 张置顶，其余位置不变（不足 4 张则全看）；立即",
+  "DisplayRulesText": "随机查看摸牌堆中的 4 张火系牌，选 1 张置顶，其余位置不变（不足 4 张则全看）；立即",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "岩壁",
+  "ProfileId": "card-5c117738a4b7957e",
+  "Name": "岩壁",
+  "Element": "earth",
+  "Rarity": "common",
+  "CombatCost": 1,
+  "BaseStudyCost": 1,
+  "Attack": 1,
+  "Defense": 2,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "获得30护盾；打出前已有至少100盾时本场再+2防御；立即/整场",
+  "DisplayRulesText": "获得30护盾；打出前已有至少100盾时本场再+2防御；立即/整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

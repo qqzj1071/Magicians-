@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "风步",
+  "ProfileId": "card-1f50ddd0f66525d1",
+  "Name": "风步",
+  "Element": "wind",
+  "Rarity": "common",
+  "CombatCost": 1,
+  "BaseStudyCost": 1,
+  "Attack": 3,
+  "Defense": 1,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "下一发飞弹间隔 -15",
+  "DisplayRulesText": "下一发飞弹间隔 -15",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

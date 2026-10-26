@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "灰烬账本",
+  "ProfileId": "card-e78a572629b003e2",
+  "Name": "灰烬账本",
+  "Element": "fire",
+  "Rarity": "rare",
+  "CombatCost": 2,
+  "BaseStudyCost": 2,
+  "Attack": 5,
+  "Defense": 2,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "每累计消耗3层尚未兑换的余烬，可获得1余烬；每次打出至多兑换一次，否则下次抽牌阶段多抽2；立即/下抽",
+  "DisplayRulesText": "每累计消耗3层尚未兑换的余烬，可获得1余烬；每次打出至多兑换一次，否则下次抽牌阶段多抽2；立即/下抽",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

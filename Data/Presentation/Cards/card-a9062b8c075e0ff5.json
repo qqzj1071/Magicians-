@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "爆燃",
+  "ProfileId": "card-a9062b8c075e0ff5",
+  "Name": "爆燃",
+  "Element": "fire",
+  "Rarity": "epic",
+  "CombatCost": 2,
+  "BaseStudyCost": 3,
+  "Attack": 9,
+  "Defense": 3,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "火 +1 层",
+  "DisplayRulesText": "火 +1 层",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

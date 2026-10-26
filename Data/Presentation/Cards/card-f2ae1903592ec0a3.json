@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "余震",
+  "ProfileId": "card-f2ae1903592ec0a3",
+  "Name": "余震",
+  "Element": "earth",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 4,
+  "Defense": 3,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "本场你的护盾下一次被击碎时，下次抽牌阶段多抽 1 张；整场/下抽",
+  "DisplayRulesText": "本场你的护盾下一次被击碎时，下次抽牌阶段多抽 1 张；整场/下抽",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

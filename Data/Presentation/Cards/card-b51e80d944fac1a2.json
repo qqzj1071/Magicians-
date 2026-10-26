@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "小治疗",
+  "ProfileId": "card-b51e80d944fac1a2",
+  "Name": "小治疗",
+  "Element": "generic",
+  "Rarity": "common",
+  "CombatCost": 1,
+  "BaseStudyCost": 1,
+  "Attack": 3,
+  "Defense": 1,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "回复 40 生命；立即",
+  "DisplayRulesText": "回复 40 生命；立即",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

@@ -4,6 +4,7 @@ import hashlib
 from dataclasses import replace
 from pathlib import Path
 from functools import lru_cache
+import zipfile
 from cards import ROOT,LIBRARY_PATH,CARD_LIBRARY_PATH
 import planner as P
 import engine as E
@@ -12,6 +13,27 @@ import engine as E
 @lru_cache(maxsize=4)
 def library(path):
     return json.loads(path.read_text(encoding='utf-8'))
+
+
+@lru_cache(maxsize=4)
+def approved_retirement_catalog(actual, expected):
+    """Keep calibrated weights immutable; accept only the recorded retirement
+    when every remaining card's numeric fields and all runtime tables match."""
+    path=ROOT/'releases/v1.0/current-manifest.json'
+    if not path.exists():return False
+    amendment=json.loads(path.read_text(encoding='utf-8'))
+    if amendment.get('calibration_card_library_sha256')!=expected or amendment.get('files',{}).get('releases/v1.0/cards.json')!=actual:
+        return False
+    with zipfile.ZipFile(ROOT/'releases/Magicians-cards-v1.0.zip') as z:
+        original=z.read('releases/v1.0/cards.json')
+    if hashlib.sha256(original).hexdigest()!=expected:return False
+    previous=json.loads(original);current=json.loads(CARD_LIBRARY_PATH.read_text(encoding='utf-8'))
+    if set(previous['cards'])-set(current['cards'])!=set(amendment['removed_cards']) or set(current['cards'])-set(previous['cards']):return False
+    for name,card in current['cards'].items():
+        if {k:v for k,v in card.items() if k not in ('text','route_support')}!={k:v for k,v in previous['cards'][name].items() if k not in ('text','route_support')}:return False
+    if any(current[k]!=previous[k] for k in ('mechanic_parameters','runtime_tables')):return False
+    decks=json.loads(LIBRARY_PATH.read_text(encoding='utf-8'))
+    return all(e['name'] in current['cards'] for d in decks['decks'] for e in d['entries'])
 
 
 def policy_for(own,opponent,path=None,layer='matchup'):
@@ -27,7 +49,8 @@ def policy_for(own,opponent,path=None,layer='matchup'):
         if expected and hashlib.sha256(Path(module.__file__).read_bytes()).hexdigest()!=expected:
             raise ValueError('Battle or planner code changed after calibration; revalidate these policies.')
     expected=registry.get('card_library_sha256')
-    if expected and hashlib.sha256(CARD_LIBRARY_PATH.read_bytes()).hexdigest()!=expected:
+    actual=hashlib.sha256(CARD_LIBRARY_PATH.read_bytes()).hexdigest()
+    if expected and actual!=expected and not approved_retirement_catalog(actual,expected):
         raise ValueError('Frozen v1.0 cards changed after calibration.')
     if layer not in ('common','route','matchup'):
         raise ValueError('Policy layer must be common, route or matchup.')

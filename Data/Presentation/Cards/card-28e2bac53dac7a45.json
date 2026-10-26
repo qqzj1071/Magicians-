@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "削弱",
+  "ProfileId": "card-28e2bac53dac7a45",
+  "Name": "削弱",
+  "Element": "generic",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 4,
+  "Defense": 3,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "目标攻击 -2（本场，可叠加）；整场",
+  "DisplayRulesText": "目标攻击 -2（本场，可叠加）；整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

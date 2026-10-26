@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "深流",
+  "ProfileId": "card-aa884df8a055c38d",
+  "Name": "深流",
+  "Element": "water",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 7,
+  "Defense": 1,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "无；整场",
+  "DisplayRulesText": "无；整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

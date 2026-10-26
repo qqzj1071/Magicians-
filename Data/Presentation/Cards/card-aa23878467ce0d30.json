@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "恐惧",
+  "ProfileId": "card-aa23878467ce0d30",
+  "Name": "恐惧",
+  "Element": "generic",
+  "Rarity": "epic",
+  "CombatCost": 2,
+  "BaseStudyCost": 3,
+  "Attack": 5,
+  "Defense": 5,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "目标攻击 -4、防御 -2（本场，可叠加）；整场",
+  "DisplayRulesText": "目标攻击 -4、防御 -2（本场，可叠加）；整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

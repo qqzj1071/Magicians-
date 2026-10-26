@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "回震岩甲",
+  "ProfileId": "card-404a775772fa17aa",
+  "Name": "回震岩甲",
+  "Element": "earth",
+  "Rarity": "epic",
+  "CombatCost": 3,
+  "BaseStudyCost": 3,
+  "Attack": 12,
+  "Defense": 1,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "获得 180 护盾；本场护盾被敌方伤害击碎时额外获得60护盾；每次重复打出返盾数值直接加算（两次为120）；若同时触发反伤，则在反伤结算后统一获盾；立即/整场",
+  "DisplayRulesText": "获得 180 护盾；本场护盾被敌方伤害击碎时额外获得60护盾；每次重复打出返盾数值直接加算（两次为120）；若同时触发反伤，则在反伤结算后统一获盾；立即/整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

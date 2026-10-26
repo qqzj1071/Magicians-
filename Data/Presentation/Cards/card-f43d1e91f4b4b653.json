@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "狂风",
+  "ProfileId": "card-f43d1e91f4b4b653",
+  "Name": "狂风",
+  "Element": "wind",
+  "Rarity": "rare",
+  "CombatCost": 2,
+  "BaseStudyCost": 2,
+  "Attack": 6,
+  "Defense": 2,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "无；整场",
+  "DisplayRulesText": "无；整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

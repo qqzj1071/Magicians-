@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "蚀界",
+  "ProfileId": "card-b53eb5ca1323393c",
+  "Name": "蚀界",
+  "Element": "poison",
+  "Rarity": "epic",
+  "CombatCost": 3,
+  "BaseStudyCost": 3,
+  "Attack": 8,
+  "Defense": 4,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "立即触发一次毒伤；接下来 2 次主飞弹命中生命各额外 +1 毒层；立即/下一发",
+  "DisplayRulesText": "立即触发一次毒伤；接下来 2 次主飞弹命中生命各额外 +1 毒层；立即/下一发",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

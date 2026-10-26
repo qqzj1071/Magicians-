@@ -14,7 +14,8 @@ def canon(x):
 def digest(x):return hashlib.sha256(json.dumps(canon(x),ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
 def main():
  assert E.RULE_VERSION==C.CATALOG['version']=='1.0'
- assert len(C.CARDS)==253 and '净化药剂' not in C.CARDS
+ current=json.loads((ROOT/'releases/v1.0/current-manifest.json').read_text(encoding='utf-8'))
+ assert len(C.CARDS)==current['cards']==252 and '净化药剂' not in C.CARDS and '守势' not in C.CARDS
  validate(C.PARAMS)
  budgets=dict(common=(4,4.5),rare=(8,9.5),epic=(12,14),legendary=(18,21),specialization=(20,24));groups={}
  for c in C.CARDS.values():
@@ -22,7 +23,7 @@ def main():
  for vs in groups.values():assert max(vs)/min(vs)<=1.2
  migration=json.loads((ROOT/'releases/v1.0/migration.json').read_text(encoding='utf-8'))
  fingerprint={n:{k:v for k,v in asdict(c).items() if k!='text'} for n,c in C.CARDS.items()}
- assert hashlib.sha256(json.dumps(fingerprint,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==migration['previous_numeric_fingerprint']
+ assert hashlib.sha256(json.dumps(fingerprint,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==current['numeric_fingerprint']
  evidence=json.loads((ROOT/'releases/v1.0/parity.json').read_text(encoding='utf-8'))
  for n,c in C.CARDS.items():
   s=E.State(c.element if c.element!='generic' else 'water',hp=600,energy=30,layers=5,spec=True,shield=E.Q(100),ember=3,tide=E.Q(100),poison=3)
@@ -49,7 +50,9 @@ def main():
    for path,h in json.loads(manifest.read_text(encoding='utf-8'))['files'].items():
     assert hashlib.sha256(z.read(path)).hexdigest()==h,path
     if path.startswith(('docs/cards/','docs/combat/')) or path=='releases/v1.0/cards.json':
-     assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==h,path
- result=dict(version='1.0',cards=253,card_numeric_identity=True,transaction_parity_checks=253,deterministic_battle_parity_checks=15,policy_bindings=225,numeric_grid_and_budgets=True)
+     assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==current['files'][path],path
+ for path,h in current['files'].items():
+  assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==h,path
+ result=dict(version='1.0',cards=len(C.CARDS),card_numeric_identity=True,transaction_parity_checks=len(C.CARDS),deterministic_battle_parity_checks=15,policy_bindings=225,numeric_grid_and_budgets=True)
  print(json.dumps(result,ensure_ascii=False));return result
 if __name__=='__main__':main()

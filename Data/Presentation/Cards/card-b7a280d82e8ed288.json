@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "生命之泉",
+  "ProfileId": "card-b7a280d82e8ed288",
+  "Name": "生命之泉",
+  "Element": "water",
+  "Rarity": "legendary",
+  "CombatCost": 3,
+  "BaseStudyCost": 4,
+  "Attack": 12,
+  "Defense": 5,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "固定间隔减少8+0.8×水层数；飞弹防御穿透20%；不提高潮汐成分。",
+  "DisplayRulesText": "固定间隔减少8+0.8×水层数；飞弹防御穿透20%；不提高潮汐成分。",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

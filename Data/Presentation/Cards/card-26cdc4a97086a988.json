@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "破甲",
+  "ProfileId": "card-26cdc4a97086a988",
+  "Name": "破甲",
+  "Element": "generic",
+  "Rarity": "rare",
+  "CombatCost": 2,
+  "BaseStudyCost": 2,
+  "Attack": 4,
+  "Defense": 3,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "目标防御 -4（本场，可叠加）；整场",
+  "DisplayRulesText": "目标防御 -4（本场，可叠加）；整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

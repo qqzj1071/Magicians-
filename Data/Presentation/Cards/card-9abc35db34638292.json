@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "余烬刻度",
+  "ProfileId": "card-9abc35db34638292",
+  "Name": "余烬刻度",
+  "Element": "fire",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 4,
+  "Defense": 3,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "若火层 ≥6，获得 1 余烬；否则下次抽牌阶段多抽 1；立即/下抽",
+  "DisplayRulesText": "若火层 ≥6，获得 1 余烬；否则下次抽牌阶段多抽 1；立即/下抽",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "水滴",
+  "ProfileId": "card-996b8536849b811c",
+  "Name": "水滴",
+  "Element": "water",
+  "Rarity": "common",
+  "CombatCost": 1,
+  "BaseStudyCost": 1,
+  "Attack": 4,
+  "Defense": 0,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "回复 30 生命；立即/整场",
+  "DisplayRulesText": "回复 30 生命；立即/整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

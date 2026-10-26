@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "战意沸腾",
+  "ProfileId": "card-c48a020c655e418a",
+  "Name": "战意沸腾",
+  "Element": "generic",
+  "Rarity": "epic",
+  "CombatCost": 2,
+  "BaseStudyCost": 3,
+  "Attack": 13,
+  "Defense": 0,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "若当前生命 ≥50%，再 +4 攻；整场",
+  "DisplayRulesText": "若当前生命 ≥50%，再 +4 攻；整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

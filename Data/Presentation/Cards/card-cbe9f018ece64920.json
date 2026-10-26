@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "壁垒之心",
+  "ProfileId": "card-cbe9f018ece64920",
+  "Name": "壁垒之心",
+  "Element": "earth",
+  "Rarity": "legendary",
+  "CombatCost": 3,
+  "BaseStudyCost": 4,
+  "Attack": 9,
+  "Defense": 7,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "随机查看摸牌堆最多5张护盾牌，选至多2张置顶；下抽+1费。有盾时普通飞弹减伤15%。已激活土专精时，反应反伤改为每段普通飞弹实际被盾吸收量×2%×土层数−敌方防御50%；自动碎盾斩杀仍使用护盾量公式。",
+  "DisplayRulesText": "随机查看摸牌堆最多5张护盾牌，选至多2张置顶；下抽+1费。有盾时普通飞弹减伤15%。已激活土专精时，反应反伤改为每段普通飞弹实际被盾吸收量×2%×土层数−敌方防御50%；自动碎盾斩杀仍使用护盾量公式。",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "山岳",
+  "ProfileId": "card-094e2e5a58c495d4",
+  "Name": "山岳",
+  "Element": "earth",
+  "Rarity": "rare",
+  "CombatCost": 2,
+  "BaseStudyCost": 2,
+  "Attack": 4,
+  "Defense": 3,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "无；整场",
+  "DisplayRulesText": "无；整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "追风",
+  "ProfileId": "card-1cbaeb8a36194a38",
+  "Name": "追风",
+  "Element": "wind",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 2,
+  "Defense": 4,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "下一发飞弹额外发射一段“固定 15 + 攻击力 35%”的加成副弹；本场攻击间隔永久 -1；下一发/整场",
+  "DisplayRulesText": "下一发飞弹额外发射一段“固定 15 + 攻击力 35%”的加成副弹；本场攻击间隔永久 -1；下一发/整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "水膜",
+  "ProfileId": "card-7f316bf5d438b636",
+  "Name": "水膜",
+  "Element": "water",
+  "Rarity": "common",
+  "CombatCost": 1,
+  "BaseStudyCost": 1,
+  "Attack": 1,
+  "Defense": 2,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "回复20生命；立即/整场",
+  "DisplayRulesText": "回复20生命；立即/整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

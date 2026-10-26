@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "碎盾术",
+  "ProfileId": "card-4a2a99050d4ba3c8",
+  "Name": "碎盾术",
+  "Element": "earth",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 8,
+  "Defense": 1,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "获得 60 护盾；若已打出「不周山」，消耗当前全部护盾，按壁垒公式造成反伤；本次伤害最终×1；立即",
+  "DisplayRulesText": "获得 60 护盾；若已打出「不周山」，消耗当前全部护盾，按壁垒公式造成反伤；本次伤害最终×1；立即",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

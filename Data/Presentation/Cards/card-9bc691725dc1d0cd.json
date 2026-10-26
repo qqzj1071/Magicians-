@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "永恒壁垒",
+  "ProfileId": "card-9bc691725dc1d0cd",
+  "Name": "永恒壁垒",
+  "Element": "generic",
+  "Rarity": "epic",
+  "CombatCost": 3,
+  "BaseStudyCost": 3,
+  "Attack": 2,
+  "Defense": 7,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "无；整场",
+  "DisplayRulesText": "无；整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

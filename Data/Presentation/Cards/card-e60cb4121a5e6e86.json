@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "战神徽记",
+  "ProfileId": "card-e60cb4121a5e6e86",
+  "Name": "战神徽记",
+  "Element": "generic",
+  "Rarity": "legendary",
+  "CombatCost": 2,
+  "BaseStudyCost": 4,
+  "Attack": 12,
+  "Defense": 5,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "每个抽牌阶段结束时，若本阶段打出的牌 ≥3，获得 `2 + 打出牌数量` 点永久攻击",
+  "DisplayRulesText": "每个抽牌阶段结束时，若本阶段打出的牌 ≥3，获得 `2 + 打出牌数量` 点永久攻击",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

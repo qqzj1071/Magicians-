@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "疾流",
+  "ProfileId": "card-ce35abba81affcc6",
+  "Name": "疾流",
+  "Element": "water",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 5,
+  "Defense": 2,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "下一发飞弹间隔 -20；下一发",
+  "DisplayRulesText": "下一发飞弹间隔 -20；下一发",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

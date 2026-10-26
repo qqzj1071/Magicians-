@@ -9,5 +9,10 @@ __pycache__/
 .env.local
 .env.*.local
 
+# Local Godot/client run logs and previews
+godot-*.log
+*.godot.log
+runtime/
+
 # Uploaded losslessly as verified parts; retain the original archive locally.
 /archives/pre-v1.0.zip

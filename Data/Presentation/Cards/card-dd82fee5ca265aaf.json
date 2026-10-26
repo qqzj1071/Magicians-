@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "蓄势",
+  "ProfileId": "card-dd82fee5ca265aaf",
+  "Name": "蓄势",
+  "Element": "generic",
+  "Rarity": "rare",
+  "CombatCost": 2,
+  "BaseStudyCost": 2,
+  "Attack": 4,
+  "Defense": 3,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "下一发飞弹伤害 +18%；下一发",
+  "DisplayRulesText": "下一发飞弹伤害 +18%；下一发",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

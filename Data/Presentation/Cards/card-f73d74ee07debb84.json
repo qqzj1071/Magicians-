@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "鼓舞",
+  "ProfileId": "card-f73d74ee07debb84",
+  "Name": "鼓舞",
+  "Element": "generic",
+  "Rarity": "common",
+  "CombatCost": 1,
+  "BaseStudyCost": 1,
+  "Attack": 1,
+  "Defense": 2,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "下次抽牌阶段多获得 1 费；下抽",
+  "DisplayRulesText": "下次抽牌阶段多获得 1 费；下抽",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

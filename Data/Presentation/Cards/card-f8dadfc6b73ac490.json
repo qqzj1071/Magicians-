@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "风幕",
+  "ProfileId": "card-f8dadfc6b73ac490",
+  "Name": "风幕",
+  "Element": "wind",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 3,
+  "Defense": 4,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "双方各获得 60 护盾；下一发飞弹间隔 -20；立即/下一发",
+  "DisplayRulesText": "双方各获得 60 护盾；下一发飞弹间隔 -20；立即/下一发",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

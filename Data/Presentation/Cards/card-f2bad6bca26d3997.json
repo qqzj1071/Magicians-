@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "气旋护壁",
+  "ProfileId": "card-f2bad6bca26d3997",
+  "Name": "气旋护壁",
+  "Element": "wind",
+  "Rarity": "epic",
+  "CombatCost": 2,
+  "BaseStudyCost": 3,
+  "Attack": 4,
+  "Defense": 6,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "双方各获得 100 护盾；本场攻击间隔永久 -3；立即/整场",
+  "DisplayRulesText": "双方各获得 100 护盾；本场攻击间隔永久 -3；立即/整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

@@ -1,0 +1,1010 @@
+{
+  "包扎": {
+    "ProfileId": "card-4348c33c76f558ea",
+    "Path": "res://Data/Presentation/Cards/card-4348c33c76f558ea.json"
+  },
+  "爆裂": {
+    "ProfileId": "card-765857f216b257e7",
+    "Path": "res://Data/Presentation/Cards/card-765857f216b257e7.json"
+  },
+  "爆裂弹头": {
+    "ProfileId": "card-39033d5f447fe903",
+    "Path": "res://Data/Presentation/Cards/card-39033d5f447fe903.json"
+  },
+  "爆燃": {
+    "ProfileId": "card-a9062b8c075e0ff5",
+    "Path": "res://Data/Presentation/Cards/card-a9062b8c075e0ff5.json"
+  },
+  "奔流": {
+    "ProfileId": "card-f2c2c659b220dbe4",
+    "Path": "res://Data/Presentation/Cards/card-f2c2c659b220dbe4.json"
+  },
+  "壁垒之心": {
+    "ProfileId": "card-cbe9f018ece64920",
+    "Path": "res://Data/Presentation/Cards/card-cbe9f018ece64920.json"
+  },
+  "壁障": {
+    "ProfileId": "card-3836e4746e42501a",
+    "Path": "res://Data/Presentation/Cards/card-3836e4746e42501a.json"
+  },
+  "濒死回响": {
+    "ProfileId": "card-c6a6feb1e78201ba",
+    "Path": "res://Data/Presentation/Cards/card-c6a6feb1e78201ba.json"
+  },
+  "不动如山": {
+    "ProfileId": "card-98ab80d707bb3031",
+    "Path": "res://Data/Presentation/Cards/card-98ab80d707bb3031.json"
+  },
+  "不坏壁垒": {
+    "ProfileId": "card-af32f4c4b9f5b11d",
+    "Path": "res://Data/Presentation/Cards/card-af32f4c4b9f5b11d.json"
+  },
+  "不灭烈焰": {
+    "ProfileId": "card-4eae9998fc1ee200",
+    "Path": "res://Data/Presentation/Cards/card-4eae9998fc1ee200.json"
+  },
+  "不周山": {
+    "ProfileId": "card-43eb8e3b815e512b",
+    "Path": "res://Data/Presentation/Cards/card-43eb8e3b815e512b.json"
+  },
+  "拆盾弹": {
+    "ProfileId": "card-078a6dc45ac92b48",
+    "Path": "res://Data/Presentation/Cards/card-078a6dc45ac92b48.json"
+  },
+  "潮声": {
+    "ProfileId": "card-3e70b54e9ff7bd4e",
+    "Path": "res://Data/Presentation/Cards/card-3e70b54e9ff7bd4e.json"
+  },
+  "潮汐恩泽": {
+    "ProfileId": "card-cd6bfb23832d5667",
+    "Path": "res://Data/Presentation/Cards/card-cd6bfb23832d5667.json"
+  },
+  "潮汐风暴": {
+    "ProfileId": "card-d5fbccfbdd22cd18",
+    "Path": "res://Data/Presentation/Cards/card-d5fbccfbdd22cd18.json"
+  },
+  "潮汐回廊": {
+    "ProfileId": "card-df396d2ef52a9ff0",
+    "Path": "res://Data/Presentation/Cards/card-df396d2ef52a9ff0.json"
+  },
+  "潮汐回响": {
+    "ProfileId": "card-2ee4e5a5024f9db7",
+    "Path": "res://Data/Presentation/Cards/card-2ee4e5a5024f9db7.json"
+  },
+  "潮汐之心": {
+    "ProfileId": "card-bdbcf55ca20c7d87",
+    "Path": "res://Data/Presentation/Cards/card-bdbcf55ca20c7d87.json"
+  },
+  "潮涌": {
+    "ProfileId": "card-18f08518c62f7880",
+    "Path": "res://Data/Presentation/Cards/card-18f08518c62f7880.json"
+  },
+  "炽焰王冠": {
+    "ProfileId": "card-4f441f21e7c885c9",
+    "Path": "res://Data/Presentation/Cards/card-4f441f21e7c885c9.json"
+  },
+  "穿潮": {
+    "ProfileId": "card-224c5d38c475022f",
+    "Path": "res://Data/Presentation/Cards/card-224c5d38c475022f.json"
+  },
+  "穿甲": {
+    "ProfileId": "card-101110be584defb8",
+    "Path": "res://Data/Presentation/Cards/card-101110be584defb8.json"
+  },
+  "穿云": {
+    "ProfileId": "card-97bbdc82bd3e68a3",
+    "Path": "res://Data/Presentation/Cards/card-97bbdc82bd3e68a3.json"
+  },
+  "穿云箭": {
+    "ProfileId": "card-acd4ce9339781de1",
+    "Path": "res://Data/Presentation/Cards/card-acd4ce9339781de1.json"
+  },
+  "穿云破甲": {
+    "ProfileId": "card-e0825d16054fd085",
+    "Path": "res://Data/Presentation/Cards/card-e0825d16054fd085.json"
+  },
+  "大地之盾": {
+    "ProfileId": "card-da5bb762ba041eca",
+    "Path": "res://Data/Presentation/Cards/card-da5bb762ba041eca.json"
+  },
+  "大地之握": {
+    "ProfileId": "card-e222c410b410177f",
+    "Path": "res://Data/Presentation/Cards/card-e222c410b410177f.json"
+  },
+  "大检索": {
+    "ProfileId": "card-8ef698664682b4d1",
+    "Path": "res://Data/Presentation/Cards/card-8ef698664682b4d1.json"
+  },
+  "导火索": {
+    "ProfileId": "card-cfd7af92d59b1f1d",
+    "Path": "res://Data/Presentation/Cards/card-cfd7af92d59b1f1d.json"
+  },
+  "毒爆": {
+    "ProfileId": "card-83d19808967f8f32",
+    "Path": "res://Data/Presentation/Cards/card-83d19808967f8f32.json"
+  },
+  "毒爆弹": {
+    "ProfileId": "card-6060a6434677b22a",
+    "Path": "res://Data/Presentation/Cards/card-6060a6434677b22a.json"
+  },
+  "毒潮": {
+    "ProfileId": "card-d46f1059327cfe5c",
+    "Path": "res://Data/Presentation/Cards/card-d46f1059327cfe5c.json"
+  },
+  "毒刺": {
+    "ProfileId": "card-aadab66fa894a6c9",
+    "Path": "res://Data/Presentation/Cards/card-aadab66fa894a6c9.json"
+  },
+  "毒甲": {
+    "ProfileId": "card-d183e9a435642113",
+    "Path": "res://Data/Presentation/Cards/card-d183e9a435642113.json"
+  },
+  "毒龙": {
+    "ProfileId": "card-02cdae9c16352479",
+    "Path": "res://Data/Presentation/Cards/card-02cdae9c16352479.json"
+  },
+  "毒囊": {
+    "ProfileId": "card-a427bcfbaac8eb36",
+    "Path": "res://Data/Presentation/Cards/card-a427bcfbaac8eb36.json"
+  },
+  "毒瓶": {
+    "ProfileId": "card-036c30ecd8dc4671",
+    "Path": "res://Data/Presentation/Cards/card-036c30ecd8dc4671.json"
+  },
+  "毒雾": {
+    "ProfileId": "card-7c970f687d368cca",
+    "Path": "res://Data/Presentation/Cards/card-7c970f687d368cca.json"
+  },
+  "毒牙": {
+    "ProfileId": "card-e60edabbee7b8404",
+    "Path": "res://Data/Presentation/Cards/card-e60edabbee7b8404.json"
+  },
+  "毒涌": {
+    "ProfileId": "card-d1abc9ed87f8702d",
+    "Path": "res://Data/Presentation/Cards/card-d1abc9ed87f8702d.json"
+  },
+  "毒针": {
+    "ProfileId": "card-7c403b89291e635d",
+    "Path": "res://Data/Presentation/Cards/card-7c403b89291e635d.json"
+  },
+  "短促": {
+    "ProfileId": "card-f0bee3302c49e76c",
+    "Path": "res://Data/Presentation/Cards/card-f0bee3302c49e76c.json"
+  },
+  "断流封印": {
+    "ProfileId": "card-c27780558ddb2799",
+    "Path": "res://Data/Presentation/Cards/card-c27780558ddb2799.json"
+  },
+  "盾脉": {
+    "ProfileId": "card-ff4c4553c73997fc",
+    "Path": "res://Data/Presentation/Cards/card-ff4c4553c73997fc.json"
+  },
+  "盾墙": {
+    "ProfileId": "card-9bfe5155911d4aba",
+    "Path": "res://Data/Presentation/Cards/card-9bfe5155911d4aba.json"
+  },
+  "盾之共鸣": {
+    "ProfileId": "card-e050c435f699c42d",
+    "Path": "res://Data/Presentation/Cards/card-e050c435f699c42d.json"
+  },
+  "翻阅": {
+    "ProfileId": "card-5c574ff39bce5637",
+    "Path": "res://Data/Presentation/Cards/card-5c574ff39bce5637.json"
+  },
+  "翻找": {
+    "ProfileId": "card-41d2235339947253",
+    "Path": "res://Data/Presentation/Cards/card-41d2235339947253.json"
+  },
+  "反震岩核": {
+    "ProfileId": "card-d56de720e26e936c",
+    "Path": "res://Data/Presentation/Cards/card-d56de720e26e936c.json"
+  },
+  "防御强化": {
+    "ProfileId": "card-479160099d19ff19",
+    "Path": "res://Data/Presentation/Cards/card-479160099d19ff19.json"
+  },
+  "焚心": {
+    "ProfileId": "card-826e9bef0e869bb3",
+    "Path": "res://Data/Presentation/Cards/card-826e9bef0e869bb3.json"
+  },
+  "风暴": {
+    "ProfileId": "card-5edd4076790f1f64",
+    "Path": "res://Data/Presentation/Cards/card-5edd4076790f1f64.json"
+  },
+  "风步": {
+    "ProfileId": "card-1f50ddd0f66525d1",
+    "Path": "res://Data/Presentation/Cards/card-1f50ddd0f66525d1.json"
+  },
+  "风驰": {
+    "ProfileId": "card-2ee1a2ab4769f262",
+    "Path": "res://Data/Presentation/Cards/card-2ee1a2ab4769f262.json"
+  },
+  "风痕": {
+    "ProfileId": "card-613b712d862370f3",
+    "Path": "res://Data/Presentation/Cards/card-613b712d862370f3.json"
+  },
+  "风痕回廊": {
+    "ProfileId": "card-9fc780b213fe4e68",
+    "Path": "res://Data/Presentation/Cards/card-9fc780b213fe4e68.json"
+  },
+  "风痕刻印": {
+    "ProfileId": "card-a577a545c8837ea8",
+    "Path": "res://Data/Presentation/Cards/card-a577a545c8837ea8.json"
+  },
+  "风卷": {
+    "ProfileId": "card-0a858b0161f48a98",
+    "Path": "res://Data/Presentation/Cards/card-0a858b0161f48a98.json"
+  },
+  "风幕": {
+    "ProfileId": "card-f8dadfc6b73ac490",
+    "Path": "res://Data/Presentation/Cards/card-f8dadfc6b73ac490.json"
+  },
+  "风切": {
+    "ProfileId": "card-90ec0e5739575d89",
+    "Path": "res://Data/Presentation/Cards/card-90ec0e5739575d89.json"
+  },
+  "风刃": {
+    "ProfileId": "card-3ac362e98afd3abb",
+    "Path": "res://Data/Presentation/Cards/card-3ac362e98afd3abb.json"
+  },
+  "风神之翼": {
+    "ProfileId": "card-62c49abfe3ed7588",
+    "Path": "res://Data/Presentation/Cards/card-62c49abfe3ed7588.json"
+  },
+  "风蚀": {
+    "ProfileId": "card-55da4198b7340a82",
+    "Path": "res://Data/Presentation/Cards/card-55da4198b7340a82.json"
+  },
+  "风牙": {
+    "ProfileId": "card-41e0d8d2a0cece80",
+    "Path": "res://Data/Presentation/Cards/card-41e0d8d2a0cece80.json"
+  },
+  "风眼": {
+    "ProfileId": "card-fc651b900d0450e3",
+    "Path": "res://Data/Presentation/Cards/card-fc651b900d0450e3.json"
+  },
+  "风之躯": {
+    "ProfileId": "card-96261388e63a77a9",
+    "Path": "res://Data/Presentation/Cards/card-96261388e63a77a9.json"
+  },
+  "锋刃": {
+    "ProfileId": "card-84720949c70a59f0",
+    "Path": "res://Data/Presentation/Cards/card-84720949c70a59f0.json"
+  },
+  "腐潮": {
+    "ProfileId": "card-d6f56fe4a726156f",
+    "Path": "res://Data/Presentation/Cards/card-d6f56fe4a726156f.json"
+  },
+  "腐骨": {
+    "ProfileId": "card-e4446d8b6d4d2f44",
+    "Path": "res://Data/Presentation/Cards/card-e4446d8b6d4d2f44.json"
+  },
+  "腐化之躯": {
+    "ProfileId": "card-c6bc1a18b6019da0",
+    "Path": "res://Data/Presentation/Cards/card-c6bc1a18b6019da0.json"
+  },
+  "腐溃": {
+    "ProfileId": "card-db97589468c1f685",
+    "Path": "res://Data/Presentation/Cards/card-db97589468c1f685.json"
+  },
+  "腐蚀": {
+    "ProfileId": "card-7e3fe77a22db304b",
+    "Path": "res://Data/Presentation/Cards/card-7e3fe77a22db304b.json"
+  },
+  "腐息": {
+    "ProfileId": "card-d1b1ef795b7bb7c6",
+    "Path": "res://Data/Presentation/Cards/card-d1b1ef795b7bb7c6.json"
+  },
+  "高温炉心": {
+    "ProfileId": "card-e7069256e9b55856",
+    "Path": "res://Data/Presentation/Cards/card-e7069256e9b55856.json"
+  },
+  "高压弹仓": {
+    "ProfileId": "card-75a0901c3ea7c788",
+    "Path": "res://Data/Presentation/Cards/card-75a0901c3ea7c788.json"
+  },
+  "攻击强化": {
+    "ProfileId": "card-e4ea216b37f3915a",
+    "Path": "res://Data/Presentation/Cards/card-e4ea216b37f3915a.json"
+  },
+  "攻守": {
+    "ProfileId": "card-17040f810a248431",
+    "Path": "res://Data/Presentation/Cards/card-17040f810a248431.json"
+  },
+  "攻守兼备": {
+    "ProfileId": "card-8ae0dde72a176e11",
+    "Path": "res://Data/Presentation/Cards/card-8ae0dde72a176e11.json"
+  },
+  "鼓舞": {
+    "ProfileId": "card-f73d74ee07debb84",
+    "Path": "res://Data/Presentation/Cards/card-f73d74ee07debb84.json"
+  },
+  "固毒": {
+    "ProfileId": "card-895b728c4a04603d",
+    "Path": "res://Data/Presentation/Cards/card-895b728c4a04603d.json"
+  },
+  "洪潮": {
+    "ProfileId": "card-1ff86c1a9f99db7b",
+    "Path": "res://Data/Presentation/Cards/card-1ff86c1a9f99db7b.json"
+  },
+  "洪流": {
+    "ProfileId": "card-6a21dad5470b120e",
+    "Path": "res://Data/Presentation/Cards/card-6a21dad5470b120e.json"
+  },
+  "厚土": {
+    "ProfileId": "card-b44530a7ad71de51",
+    "Path": "res://Data/Presentation/Cards/card-b44530a7ad71de51.json"
+  },
+  "护盾": {
+    "ProfileId": "card-b65b6e3a2e3dfc52",
+    "Path": "res://Data/Presentation/Cards/card-b65b6e3a2e3dfc52.json"
+  },
+  "护盾强化": {
+    "ProfileId": "card-c2cd1841a048eed2",
+    "Path": "res://Data/Presentation/Cards/card-c2cd1841a048eed2.json"
+  },
+  "灰烬循环": {
+    "ProfileId": "card-4f9ca5d9b4bbd647",
+    "Path": "res://Data/Presentation/Cards/card-4f9ca5d9b4bbd647.json"
+  },
+  "灰烬账本": {
+    "ProfileId": "card-e78a572629b003e2",
+    "Path": "res://Data/Presentation/Cards/card-e78a572629b003e2.json"
+  },
+  "灰烬重生": {
+    "ProfileId": "card-d90a6319bcd2773f",
+    "Path": "res://Data/Presentation/Cards/card-d90a6319bcd2773f.json"
+  },
+  "回潮": {
+    "ProfileId": "card-5adb6d5573db9867",
+    "Path": "res://Data/Presentation/Cards/card-5adb6d5573db9867.json"
+  },
+  "回火": {
+    "ProfileId": "card-46c513b1d011c2fa",
+    "Path": "res://Data/Presentation/Cards/card-46c513b1d011c2fa.json"
+  },
+  "回流": {
+    "ProfileId": "card-0c1f44e64da554f4",
+    "Path": "res://Data/Presentation/Cards/card-0c1f44e64da554f4.json"
+  },
+  "回响之潮": {
+    "ProfileId": "card-ba7edc1861c369fc",
+    "Path": "res://Data/Presentation/Cards/card-ba7edc1861c369fc.json"
+  },
+  "回岩": {
+    "ProfileId": "card-b4fbd11299d0e04c",
+    "Path": "res://Data/Presentation/Cards/card-b4fbd11299d0e04c.json"
+  },
+  "回震岩甲": {
+    "ProfileId": "card-404a775772fa17aa",
+    "Path": "res://Data/Presentation/Cards/card-404a775772fa17aa.json"
+  },
+  "火花": {
+    "ProfileId": "card-9f62cd8bb760dbb3",
+    "Path": "res://Data/Presentation/Cards/card-9f62cd8bb760dbb3.json"
+  },
+  "火苗": {
+    "ProfileId": "card-e5ab517e9064bb74",
+    "Path": "res://Data/Presentation/Cards/card-e5ab517e9064bb74.json"
+  },
+  "火墙": {
+    "ProfileId": "card-70035eb0e11295e5",
+    "Path": "res://Data/Presentation/Cards/card-70035eb0e11295e5.json"
+  },
+  "火舌": {
+    "ProfileId": "card-50c78e6d0e8bc939",
+    "Path": "res://Data/Presentation/Cards/card-50c78e6d0e8bc939.json"
+  },
+  "火星": {
+    "ProfileId": "card-dfbd8b22727ac5f4",
+    "Path": "res://Data/Presentation/Cards/card-dfbd8b22727ac5f4.json"
+  },
+  "火种翻找": {
+    "ProfileId": "card-6b4426ab79f34226",
+    "Path": "res://Data/Presentation/Cards/card-6b4426ab79f34226.json"
+  },
+  "火种库": {
+    "ProfileId": "card-938e9bf0eaa85a92",
+    "Path": "res://Data/Presentation/Cards/card-938e9bf0eaa85a92.json"
+  },
+  "疾风": {
+    "ProfileId": "card-f29c382155f1b51f",
+    "Path": "res://Data/Presentation/Cards/card-f29c382155f1b51f.json"
+  },
+  "疾风连斩": {
+    "ProfileId": "card-63939454a5b8ac5c",
+    "Path": "res://Data/Presentation/Cards/card-63939454a5b8ac5c.json"
+  },
+  "疾风之刃": {
+    "ProfileId": "card-f1000d8e12c550db",
+    "Path": "res://Data/Presentation/Cards/card-f1000d8e12c550db.json"
+  },
+  "疾流": {
+    "ProfileId": "card-ce35abba81affcc6",
+    "Path": "res://Data/Presentation/Cards/card-ce35abba81affcc6.json"
+  },
+  "疾行": {
+    "ProfileId": "card-c0483a6859c12277",
+    "Path": "res://Data/Presentation/Cards/card-c0483a6859c12277.json"
+  },
+  "疾影": {
+    "ProfileId": "card-83361ebf5eafc4ec",
+    "Path": "res://Data/Presentation/Cards/card-83361ebf5eafc4ec.json"
+  },
+  "坚壁": {
+    "ProfileId": "card-f9aef1aee4a76159",
+    "Path": "res://Data/Presentation/Cards/card-f9aef1aee4a76159.json"
+  },
+  "坚岩": {
+    "ProfileId": "card-3f3d0592965ab810",
+    "Path": "res://Data/Presentation/Cards/card-3f3d0592965ab810.json"
+  },
+  "检索附魔": {
+    "ProfileId": "card-dd3f1df5e0d3cba5",
+    "Path": "res://Data/Presentation/Cards/card-dd3f1df5e0d3cba5.json"
+  },
+  "禁忌知识": {
+    "ProfileId": "card-daea1317868c7e39",
+    "Path": "res://Data/Presentation/Cards/card-daea1317868c7e39.json"
+  },
+  "禁咒目录": {
+    "ProfileId": "card-41e53cf6b80e076d",
+    "Path": "res://Data/Presentation/Cards/card-41e53cf6b80e076d.json"
+  },
+  "静水": {
+    "ProfileId": "card-5a24d2212041cfa1",
+    "Path": "res://Data/Presentation/Cards/card-5a24d2212041cfa1.json"
+  },
+  "镜岩之心": {
+    "ProfileId": "card-34cb65388c472afb",
+    "Path": "res://Data/Presentation/Cards/card-34cb65388c472afb.json"
+  },
+  "巨岩": {
+    "ProfileId": "card-ac7ba884191e6934",
+    "Path": "res://Data/Presentation/Cards/card-ac7ba884191e6934.json"
+  },
+  "剧毒": {
+    "ProfileId": "card-e198edea34566b57",
+    "Path": "res://Data/Presentation/Cards/card-e198edea34566b57.json"
+  },
+  "飓风": {
+    "ProfileId": "card-d58f8b29e188a238",
+    "Path": "res://Data/Presentation/Cards/card-d58f8b29e188a238.json"
+  },
+  "恐惧": {
+    "ProfileId": "card-aa23878467ce0d30",
+    "Path": "res://Data/Presentation/Cards/card-aa23878467ce0d30.json"
+  },
+  "枯潮": {
+    "ProfileId": "card-8f3ac98e3c3e233a",
+    "Path": "res://Data/Presentation/Cards/card-8f3ac98e3c3e233a.json"
+  },
+  "狂暴": {
+    "ProfileId": "card-7484d410291fbc67",
+    "Path": "res://Data/Presentation/Cards/card-7484d410291fbc67.json"
+  },
+  "狂风": {
+    "ProfileId": "card-f43d1e91f4b4b653",
+    "Path": "res://Data/Presentation/Cards/card-f43d1e91f4b4b653.json"
+  },
+  "狂战": {
+    "ProfileId": "card-d0930d20c8cd7d6b",
+    "Path": "res://Data/Presentation/Cards/card-d0930d20c8cd7d6b.json"
+  },
+  "利刃": {
+    "ProfileId": "card-29937a8a9e3edaab",
+    "Path": "res://Data/Presentation/Cards/card-29937a8a9e3edaab.json"
+  },
+  "连环潮": {
+    "ProfileId": "card-1921c430ad4218fe",
+    "Path": "res://Data/Presentation/Cards/card-1921c430ad4218fe.json"
+  },
+  "燎原": {
+    "ProfileId": "card-c803289656859f73",
+    "Path": "res://Data/Presentation/Cards/card-c803289656859f73.json"
+  },
+  "烈风": {
+    "ProfileId": "card-4f90806e5d70c8d3",
+    "Path": "res://Data/Presentation/Cards/card-4f90806e5d70c8d3.json"
+  },
+  "烈焰冲刺": {
+    "ProfileId": "card-75c81cc40d718389",
+    "Path": "res://Data/Presentation/Cards/card-75c81cc40d718389.json"
+  },
+  "烈焰附身": {
+    "ProfileId": "card-8b989f5e0cfdc1e9",
+    "Path": "res://Data/Presentation/Cards/card-8b989f5e0cfdc1e9.json"
+  },
+  "裂风": {
+    "ProfileId": "card-3692ae6a8ffb468c",
+    "Path": "res://Data/Presentation/Cards/card-3692ae6a8ffb468c.json"
+  },
+  "裂空": {
+    "ProfileId": "card-a08ba215b738f39f",
+    "Path": "res://Data/Presentation/Cards/card-a08ba215b738f39f.json"
+  },
+  "裂空穿云": {
+    "ProfileId": "card-6bd2dade937316e5",
+    "Path": "res://Data/Presentation/Cards/card-6bd2dade937316e5.json"
+  },
+  "裂伤": {
+    "ProfileId": "card-6303851325d92388",
+    "Path": "res://Data/Presentation/Cards/card-6303851325d92388.json"
+  },
+  "裂岩护壁": {
+    "ProfileId": "card-bce7dbdd182d7aa9",
+    "Path": "res://Data/Presentation/Cards/card-bce7dbdd182d7aa9.json"
+  },
+  "临时壁垒": {
+    "ProfileId": "card-5daa5b0b61160227",
+    "Path": "res://Data/Presentation/Cards/card-5daa5b0b61160227.json"
+  },
+  "灵感涌现": {
+    "ProfileId": "card-6747040707d5f7f8",
+    "Path": "res://Data/Presentation/Cards/card-6747040707d5f7f8.json"
+  },
+  "慢燃": {
+    "ProfileId": "card-fac51305b1e353ff",
+    "Path": "res://Data/Presentation/Cards/card-fac51305b1e353ff.json"
+  },
+  "猛火弹": {
+    "ProfileId": "card-cad07e433583b339",
+    "Path": "res://Data/Presentation/Cards/card-cad07e433583b339.json"
+  },
+  "命运检索": {
+    "ProfileId": "card-14aad337055e08d4",
+    "Path": "res://Data/Presentation/Cards/card-14aad337055e08d4.json"
+  },
+  "魔法阵核心": {
+    "ProfileId": "card-3be51ad324d85c9e",
+    "Path": "res://Data/Presentation/Cards/card-3be51ad324d85c9e.json"
+  },
+  "魔力契约": {
+    "ProfileId": "card-c5cabb8d85245d20",
+    "Path": "res://Data/Presentation/Cards/card-c5cabb8d85245d20.json"
+  },
+  "磐石": {
+    "ProfileId": "card-e10c6b2dd2386525",
+    "Path": "res://Data/Presentation/Cards/card-e10c6b2dd2386525.json"
+  },
+  "磐岩壁": {
+    "ProfileId": "card-8544db73bd69db51",
+    "Path": "res://Data/Presentation/Cards/card-8544db73bd69db51.json"
+  },
+  "破风": {
+    "ProfileId": "card-ed923cb8cdc4d4b9",
+    "Path": "res://Data/Presentation/Cards/card-ed923cb8cdc4d4b9.json"
+  },
+  "破甲": {
+    "ProfileId": "card-26cdc4a97086a988",
+    "Path": "res://Data/Presentation/Cards/card-26cdc4a97086a988.json"
+  },
+  "破军": {
+    "ProfileId": "card-2484bb487234de17",
+    "Path": "res://Data/Presentation/Cards/card-2484bb487234de17.json"
+  },
+  "破障法阵": {
+    "ProfileId": "card-20244abd6edc4ca6",
+    "Path": "res://Data/Presentation/Cards/card-20244abd6edc4ca6.json"
+  },
+  "气旋护壁": {
+    "ProfileId": "card-f2bad6bca26d3997",
+    "Path": "res://Data/Presentation/Cards/card-f2bad6bca26d3997.json"
+  },
+  "清泉": {
+    "ProfileId": "card-06f8be26d9dee084",
+    "Path": "res://Data/Presentation/Cards/card-06f8be26d9dee084.json"
+  },
+  "泉心": {
+    "ProfileId": "card-f5bd67cfee0bf548",
+    "Path": "res://Data/Presentation/Cards/card-f5bd67cfee0bf548.json"
+  },
+  "泉眼": {
+    "ProfileId": "card-6fe806d83597a271",
+    "Path": "res://Data/Presentation/Cards/card-6fe806d83597a271.json"
+  },
+  "燃烧血统": {
+    "ProfileId": "card-1c9218fa132ac8f9",
+    "Path": "res://Data/Presentation/Cards/card-1c9218fa132ac8f9.json"
+  },
+  "燃血": {
+    "ProfileId": "card-7c8f94b4ac9f5f84",
+    "Path": "res://Data/Presentation/Cards/card-7c8f94b4ac9f5f84.json"
+  },
+  "山崩": {
+    "ProfileId": "card-57e1e994f286b204",
+    "Path": "res://Data/Presentation/Cards/card-57e1e994f286b204.json"
+  },
+  "山岳": {
+    "ProfileId": "card-094e2e5a58c495d4",
+    "Path": "res://Data/Presentation/Cards/card-094e2e5a58c495d4.json"
+  },
+  "山岳壁垒": {
+    "ProfileId": "card-c2a195e9a4db3e9d",
+    "Path": "res://Data/Presentation/Cards/card-c2a195e9a4db3e9d.json"
+  },
+  "山岳之躯": {
+    "ProfileId": "card-678820f2ea67db07",
+    "Path": "res://Data/Presentation/Cards/card-678820f2ea67db07.json"
+  },
+  "深流": {
+    "ProfileId": "card-aa884df8a055c38d",
+    "Path": "res://Data/Presentation/Cards/card-aa884df8a055c38d.json"
+  },
+  "深渊": {
+    "ProfileId": "card-2c73012572c37f5c",
+    "Path": "res://Data/Presentation/Cards/card-2c73012572c37f5c.json"
+  },
+  "深渊潮": {
+    "ProfileId": "card-392186bebc3faf79",
+    "Path": "res://Data/Presentation/Cards/card-392186bebc3faf79.json"
+  },
+  "渗骨毒素": {
+    "ProfileId": "card-788c08d398e2f02a",
+    "Path": "res://Data/Presentation/Cards/card-788c08d398e2f02a.json"
+  },
+  "生命洪流": {
+    "ProfileId": "card-9b44b8c42d634aa9",
+    "Path": "res://Data/Presentation/Cards/card-9b44b8c42d634aa9.json"
+  },
+  "生命之泉": {
+    "ProfileId": "card-b7a280d82e8ed288",
+    "Path": "res://Data/Presentation/Cards/card-b7a280d82e8ed288.json"
+  },
+  "生命祝福": {
+    "ProfileId": "card-71168010c10de7fd",
+    "Path": "res://Data/Presentation/Cards/card-71168010c10de7fd.json"
+  },
+  "圣盾": {
+    "ProfileId": "card-580e0d33d7e987c1",
+    "Path": "res://Data/Presentation/Cards/card-580e0d33d7e987c1.json"
+  },
+  "石肤": {
+    "ProfileId": "card-1d1991b4d0691afa",
+    "Path": "res://Data/Presentation/Cards/card-1d1991b4d0691afa.json"
+  },
+  "时光倒流": {
+    "ProfileId": "card-4d942789b7af1401",
+    "Path": "res://Data/Presentation/Cards/card-4d942789b7af1401.json"
+  },
+  "蚀创": {
+    "ProfileId": "card-4a20ff00feaa6ebb",
+    "Path": "res://Data/Presentation/Cards/card-4a20ff00feaa6ebb.json"
+  },
+  "蚀骨": {
+    "ProfileId": "card-05d6801076bc1f70",
+    "Path": "res://Data/Presentation/Cards/card-05d6801076bc1f70.json"
+  },
+  "蚀骨之触": {
+    "ProfileId": "card-84fb4754e02d2da1",
+    "Path": "res://Data/Presentation/Cards/card-84fb4754e02d2da1.json"
+  },
+  "蚀界": {
+    "ProfileId": "card-b53eb5ca1323393c",
+    "Path": "res://Data/Presentation/Cards/card-b53eb5ca1323393c.json"
+  },
+  "蚀刻": {
+    "ProfileId": "card-5fd7809228abf729",
+    "Path": "res://Data/Presentation/Cards/card-5fd7809228abf729.json"
+  },
+  "蚀命": {
+    "ProfileId": "card-7d6c4e22bffefd37",
+    "Path": "res://Data/Presentation/Cards/card-7d6c4e22bffefd37.json"
+  },
+  "守护者壁垒": {
+    "ProfileId": "card-913872921fd4f0cd",
+    "Path": "res://Data/Presentation/Cards/card-913872921fd4f0cd.json"
+  },
+  "守岩": {
+    "ProfileId": "card-4e4cf066e8e47f9e",
+    "Path": "res://Data/Presentation/Cards/card-4e4cf066e8e47f9e.json"
+  },
+  "水滴": {
+    "ProfileId": "card-996b8536849b811c",
+    "Path": "res://Data/Presentation/Cards/card-996b8536849b811c.json"
+  },
+  "水膜": {
+    "ProfileId": "card-7f316bf5d438b636",
+    "Path": "res://Data/Presentation/Cards/card-7f316bf5d438b636.json"
+  },
+  "水幕": {
+    "ProfileId": "card-dad9fdfdd5bdfea9",
+    "Path": "res://Data/Presentation/Cards/card-dad9fdfdd5bdfea9.json"
+  },
+  "水之低语": {
+    "ProfileId": "card-d876aedc6b7e9a34",
+    "Path": "res://Data/Presentation/Cards/card-d876aedc6b7e9a34.json"
+  },
+  "顺风": {
+    "ProfileId": "card-0970963a0d502cfa",
+    "Path": "res://Data/Presentation/Cards/card-0970963a0d502cfa.json"
+  },
+  "速读": {
+    "ProfileId": "card-354a07d42cc4c44a",
+    "Path": "res://Data/Presentation/Cards/card-354a07d42cc4c44a.json"
+  },
+  "速腐": {
+    "ProfileId": "card-14e43395906d5bea",
+    "Path": "res://Data/Presentation/Cards/card-14e43395906d5bea.json"
+  },
+  "碎盾术": {
+    "ProfileId": "card-4a2a99050d4ba3c8",
+    "Path": "res://Data/Presentation/Cards/card-4a2a99050d4ba3c8.json"
+  },
+  "碎石击": {
+    "ProfileId": "card-e8c0223fc53d3a14",
+    "Path": "res://Data/Presentation/Cards/card-e8c0223fc53d3a14.json"
+  },
+  "碎岩印记": {
+    "ProfileId": "card-a7bac39e4bc5fb0b",
+    "Path": "res://Data/Presentation/Cards/card-a7bac39e4bc5fb0b.json"
+  },
+  "碎岳之心": {
+    "ProfileId": "card-4fe4861e3158481f",
+    "Path": "res://Data/Presentation/Cards/card-4fe4861e3158481f.json"
+  },
+  "天岚": {
+    "ProfileId": "card-48e9f19935eed055",
+    "Path": "res://Data/Presentation/Cards/card-48e9f19935eed055.json"
+  },
+  "铁壁": {
+    "ProfileId": "card-65954021c6f56c8a",
+    "Path": "res://Data/Presentation/Cards/card-65954021c6f56c8a.json"
+  },
+  "通晓": {
+    "ProfileId": "card-4e703d7507b07110",
+    "Path": "res://Data/Presentation/Cards/card-4e703d7507b07110.json"
+  },
+  "万毒爆": {
+    "ProfileId": "card-5ca6b083e982b273",
+    "Path": "res://Data/Presentation/Cards/card-5ca6b083e982b273.json"
+  },
+  "万毒蚀骨": {
+    "ProfileId": "card-37cdc7d2bbfa3a94",
+    "Path": "res://Data/Presentation/Cards/card-37cdc7d2bbfa3a94.json"
+  },
+  "万毒之源": {
+    "ProfileId": "card-461ca7cc30aa91a9",
+    "Path": "res://Data/Presentation/Cards/card-461ca7cc30aa91a9.json"
+  },
+  "万钧碎盾": {
+    "ProfileId": "card-e54892857897977d",
+    "Path": "res://Data/Presentation/Cards/card-e54892857897977d.json"
+  },
+  "万蚀": {
+    "ProfileId": "card-afa6dc51fd745b84",
+    "Path": "res://Data/Presentation/Cards/card-afa6dc51fd745b84.json"
+  },
+  "威吓": {
+    "ProfileId": "card-7970e217aa4789b3",
+    "Path": "res://Data/Presentation/Cards/card-7970e217aa4789b3.json"
+  },
+  "微风": {
+    "ProfileId": "card-134ac8e4b6278c99",
+    "Path": "res://Data/Presentation/Cards/card-134ac8e4b6278c99.json"
+  },
+  "瘟潮": {
+    "ProfileId": "card-addfc2ea346ceebe",
+    "Path": "res://Data/Presentation/Cards/card-addfc2ea346ceebe.json"
+  },
+  "稳固结界": {
+    "ProfileId": "card-0b785dee9c31366f",
+    "Path": "res://Data/Presentation/Cards/card-0b785dee9c31366f.json"
+  },
+  "握盾": {
+    "ProfileId": "card-d568b7f870c21e43",
+    "Path": "res://Data/Presentation/Cards/card-d568b7f870c21e43.json"
+  },
+  "细流": {
+    "ProfileId": "card-8658f5c7829562e3",
+    "Path": "res://Data/Presentation/Cards/card-8658f5c7829562e3.json"
+  },
+  "小盾": {
+    "ProfileId": "card-c50255d0d2d90a77",
+    "Path": "res://Data/Presentation/Cards/card-c50255d0d2d90a77.json"
+  },
+  "小检索": {
+    "ProfileId": "card-dead452e79a5851a",
+    "Path": "res://Data/Presentation/Cards/card-dead452e79a5851a.json"
+  },
+  "小治疗": {
+    "ProfileId": "card-b51e80d944fac1a2",
+    "Path": "res://Data/Presentation/Cards/card-b51e80d944fac1a2.json"
+  },
+  "蓄能": {
+    "ProfileId": "card-5df96d8b44269fac",
+    "Path": "res://Data/Presentation/Cards/card-5df96d8b44269fac.json"
+  },
+  "蓄势": {
+    "ProfileId": "card-dd82fee5ca265aaf",
+    "Path": "res://Data/Presentation/Cards/card-dd82fee5ca265aaf.json"
+  },
+  "削弱": {
+    "ProfileId": "card-28e2bac53dac7a45",
+    "Path": "res://Data/Presentation/Cards/card-28e2bac53dac7a45.json"
+  },
+  "血偿": {
+    "ProfileId": "card-f07061381349e828",
+    "Path": "res://Data/Presentation/Cards/card-f07061381349e828.json"
+  },
+  "血潮": {
+    "ProfileId": "card-d5ab10050f353a05",
+    "Path": "res://Data/Presentation/Cards/card-d5ab10050f353a05.json"
+  },
+  "血潮汹涌": {
+    "ProfileId": "card-cfdd1cb1712550e8",
+    "Path": "res://Data/Presentation/Cards/card-cfdd1cb1712550e8.json"
+  },
+  "血怒": {
+    "ProfileId": "card-0696bef4faae7354",
+    "Path": "res://Data/Presentation/Cards/card-0696bef4faae7354.json"
+  },
+  "血刃": {
+    "ProfileId": "card-f39889aff480f486",
+    "Path": "res://Data/Presentation/Cards/card-f39889aff480f486.json"
+  },
+  "血之回响": {
+    "ProfileId": "card-5f9e3df45fab388c",
+    "Path": "res://Data/Presentation/Cards/card-5f9e3df45fab388c.json"
+  },
+  "寻毒": {
+    "ProfileId": "card-7cd11d247f4a1c10",
+    "Path": "res://Data/Presentation/Cards/card-7cd11d247f4a1c10.json"
+  },
+  "寻风": {
+    "ProfileId": "card-dbf56f89858c2915",
+    "Path": "res://Data/Presentation/Cards/card-dbf56f89858c2915.json"
+  },
+  "寻物": {
+    "ProfileId": "card-52a041a1e541ecef",
+    "Path": "res://Data/Presentation/Cards/card-52a041a1e541ecef.json"
+  },
+  "寻岩": {
+    "ProfileId": "card-7ba549b27bee1dac",
+    "Path": "res://Data/Presentation/Cards/card-7ba549b27bee1dac.json"
+  },
+  "循环": {
+    "ProfileId": "card-ad3221dd6681f3f5",
+    "Path": "res://Data/Presentation/Cards/card-ad3221dd6681f3f5.json"
+  },
+  "压实火药": {
+    "ProfileId": "card-c19dbddaab8d9c42",
+    "Path": "res://Data/Presentation/Cards/card-c19dbddaab8d9c42.json"
+  },
+  "压缩爆燃": {
+    "ProfileId": "card-92bf086f8c559f49",
+    "Path": "res://Data/Presentation/Cards/card-92bf086f8c559f49.json"
+  },
+  "延毒": {
+    "ProfileId": "card-bbbd080dea5469b3",
+    "Path": "res://Data/Presentation/Cards/card-bbbd080dea5469b3.json"
+  },
+  "岩壁": {
+    "ProfileId": "card-5c117738a4b7957e",
+    "Path": "res://Data/Presentation/Cards/card-5c117738a4b7957e.json"
+  },
+  "岩潮壁垒": {
+    "ProfileId": "card-03670ab5efa3b632",
+    "Path": "res://Data/Presentation/Cards/card-03670ab5efa3b632.json"
+  },
+  "岩核爆破": {
+    "ProfileId": "card-fc16379468ebd9ef",
+    "Path": "res://Data/Presentation/Cards/card-fc16379468ebd9ef.json"
+  },
+  "岩核重压": {
+    "ProfileId": "card-54486027d9782541",
+    "Path": "res://Data/Presentation/Cards/card-54486027d9782541.json"
+  },
+  "岩甲": {
+    "ProfileId": "card-1c056b80884502a2",
+    "Path": "res://Data/Presentation/Cards/card-1c056b80884502a2.json"
+  },
+  "岩拳": {
+    "ProfileId": "card-ecb5674aecac3ab2",
+    "Path": "res://Data/Presentation/Cards/card-ecb5674aecac3ab2.json"
+  },
+  "焰心屏障": {
+    "ProfileId": "card-398c09bee027b12a",
+    "Path": "res://Data/Presentation/Cards/card-398c09bee027b12a.json"
+  },
+  "疫病": {
+    "ProfileId": "card-085e0c511d1214ef",
+    "Path": "res://Data/Presentation/Cards/card-085e0c511d1214ef.json"
+  },
+  "应急整备": {
+    "ProfileId": "card-77fbfba1273a76a3",
+    "Path": "res://Data/Presentation/Cards/card-77fbfba1273a76a3.json"
+  },
+  "永恒壁垒": {
+    "ProfileId": "card-9bc691725dc1d0cd",
+    "Path": "res://Data/Presentation/Cards/card-9bc691725dc1d0cd.json"
+  },
+  "涌泉": {
+    "ProfileId": "card-919cee3ca4f152c3",
+    "Path": "res://Data/Presentation/Cards/card-919cee3ca4f152c3.json"
+  },
+  "余火": {
+    "ProfileId": "card-50d4e9ce268f7817",
+    "Path": "res://Data/Presentation/Cards/card-50d4e9ce268f7817.json"
+  },
+  "余烬护心": {
+    "ProfileId": "card-537bd81812364d61",
+    "Path": "res://Data/Presentation/Cards/card-537bd81812364d61.json"
+  },
+  "余烬刻度": {
+    "ProfileId": "card-9abc35db34638292",
+    "Path": "res://Data/Presentation/Cards/card-9abc35db34638292.json"
+  },
+  "余烬心脏": {
+    "ProfileId": "card-37015db0f0eef123",
+    "Path": "res://Data/Presentation/Cards/card-37015db0f0eef123.json"
+  },
+  "余烬引擎": {
+    "ProfileId": "card-8da6ccfeae32b6ba",
+    "Path": "res://Data/Presentation/Cards/card-8da6ccfeae32b6ba.json"
+  },
+  "余烬之核": {
+    "ProfileId": "card-b4ecd7937bc13056",
+    "Path": "res://Data/Presentation/Cards/card-b4ecd7937bc13056.json"
+  },
+  "余震": {
+    "ProfileId": "card-f2ae1903592ec0a3",
+    "Path": "res://Data/Presentation/Cards/card-f2ae1903592ec0a3.json"
+  },
+  "愈合": {
+    "ProfileId": "card-4f03322b2bc1801f",
+    "Path": "res://Data/Presentation/Cards/card-4f03322b2bc1801f.json"
+  },
+  "愈合之光": {
+    "ProfileId": "card-49cafbfc99ff1213",
+    "Path": "res://Data/Presentation/Cards/card-49cafbfc99ff1213.json"
+  },
+  "元素熔炉": {
+    "ProfileId": "card-22a21234f54b1b08",
+    "Path": "res://Data/Presentation/Cards/card-22a21234f54b1b08.json"
+  },
+  "战神徽记": {
+    "ProfileId": "card-e60cb4121a5e6e86",
+    "Path": "res://Data/Presentation/Cards/card-e60cb4121a5e6e86.json"
+  },
+  "战术": {
+    "ProfileId": "card-be399a2d479b751c",
+    "Path": "res://Data/Presentation/Cards/card-be399a2d479b751c.json"
+  },
+  "战术大师": {
+    "ProfileId": "card-7891d417e19a1048",
+    "Path": "res://Data/Presentation/Cards/card-7891d417e19a1048.json"
+  },
+  "战意": {
+    "ProfileId": "card-2a717f01fd990958",
+    "Path": "res://Data/Presentation/Cards/card-2a717f01fd990958.json"
+  },
+  "战意沸腾": {
+    "ProfileId": "card-c48a020c655e418a",
+    "Path": "res://Data/Presentation/Cards/card-c48a020c655e418a.json"
+  },
+  "整理": {
+    "ProfileId": "card-ff0934736802c998",
+    "Path": "res://Data/Presentation/Cards/card-ff0934736802c998.json"
+  },
+  "治愈洪流": {
+    "ProfileId": "card-125b5cfbcf9d74a2",
+    "Path": "res://Data/Presentation/Cards/card-125b5cfbcf9d74a2.json"
+  },
+  "重洗": {
+    "ProfileId": "card-cfdef5a39599ea9d",
+    "Path": "res://Data/Presentation/Cards/card-cfdef5a39599ea9d.json"
+  },
+  "追风": {
+    "ProfileId": "card-1cbaeb8a36194a38",
+    "Path": "res://Data/Presentation/Cards/card-1cbaeb8a36194a38.json"
+  },
+  "追云": {
+    "ProfileId": "card-e7f77231361fe826",
+    "Path": "res://Data/Presentation/Cards/card-e7f77231361fe826.json"
+  },
+  "灼痛": {
+    "ProfileId": "card-964a1b1454631bfe",
+    "Path": "res://Data/Presentation/Cards/card-964a1b1454631bfe.json"
+  }
+}

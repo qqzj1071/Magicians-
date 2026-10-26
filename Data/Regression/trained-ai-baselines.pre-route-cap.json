@@ -1,0 +1,18 @@
+{
+  "SchemaVersion": 1,
+  "ModelHash": "61acb2f2ff3cb8ed07965d0aa423a007d5cb8fd364c7cb4f6560625137808e31",
+  "CardLibraryHash": "e2c6cb2fcde982b2d4e2c2020b3ef18b716b1abfe6c3c3156c80a992fc08c474",
+  "RevisionReason": "2026-10-26: user-approved retirement of duplicate common card 守势 and its 8 shared copies; 252 cards / 1052 copies. Both fixed seeds repeated with identical final state and event digests; all recorded source hashes verified. Prior baseline preserved.",
+  "Seeds": {
+    "20261024": {
+      "FinalStateHash": "9c24b1d5851a87ecac3c870f202506e3ecc75374628fc9432a5b3c3558deda52",
+      "EventSummaryHash": "ea9b2e44ee65e25ae7c5d680d0c1ae1991ea5169d305d1c9e852b4f00693d066",
+      "Rounds": 16
+    },
+    "20261026": {
+      "FinalStateHash": "0ea55caca32dcb991e7f255d0516bd12ffe7c8900d59178bd275fc6932582658",
+      "EventSummaryHash": "88491e39fa186fa1845de5d02be2002c8494a6a5a7a346519243fe55017782b8",
+      "Rounds": 16
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "灼痛",
+  "ProfileId": "card-964a1b1454631bfe",
+  "Name": "灼痛",
+  "Element": "fire",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 7,
+  "Defense": 1,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "若下一发 ≥80，回复 5% 已损失生命；下一发",
+  "DisplayRulesText": "若下一发 ≥80，回复 5% 已损失生命；下一发",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

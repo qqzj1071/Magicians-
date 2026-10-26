@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "循环",
+  "ProfileId": "card-ad3221dd6681f3f5",
+  "Name": "循环",
+  "Element": "generic",
+  "Rarity": "rare",
+  "CombatCost": 2,
+  "BaseStudyCost": 2,
+  "Attack": 4,
+  "Defense": 3,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "洗混摸牌堆与弃牌堆（含自身）；下次抽牌阶段多抽 1 张、多获得 1 费；立即/下抽",
+  "DisplayRulesText": "洗混摸牌堆与弃牌堆（含自身）；下次抽牌阶段多抽 1 张、多获得 1 费；立即/下抽",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

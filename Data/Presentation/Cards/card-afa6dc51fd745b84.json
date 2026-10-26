@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "万蚀",
+  "ProfileId": "card-afa6dc51fd745b84",
+  "Name": "万蚀",
+  "Element": "poison",
+  "Rarity": "epic",
+  "CombatCost": 3,
+  "BaseStudyCost": 3,
+  "Attack": 2,
+  "Defense": 7,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "立即触发一次毒伤，且这次毒伤额外结算一次（共两次）；立即",
+  "DisplayRulesText": "立即触发一次毒伤，且这次毒伤额外结算一次（共两次）；立即",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

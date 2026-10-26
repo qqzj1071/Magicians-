@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "威吓",
+  "ProfileId": "card-7970e217aa4789b3",
+  "Name": "威吓",
+  "Element": "generic",
+  "Rarity": "common",
+  "CombatCost": 1,
+  "BaseStudyCost": 1,
+  "Attack": 1,
+  "Defense": 2,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "目标攻击 -2（本场，可叠加）；整场",
+  "DisplayRulesText": "目标攻击 -2（本场，可叠加）；整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

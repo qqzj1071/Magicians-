@@ -1,0 +1,18 @@
+{
+  "SchemaVersion": 1,
+  "ModelHash": "61acb2f2ff3cb8ed07965d0aa423a007d5cb8fd364c7cb4f6560625137808e31",
+  "CardLibraryHash": "e2c6cb2fcde982b2d4e2c2020b3ef18b716b1abfe6c3c3156c80a992fc08c474",
+  "RevisionReason": "2026-10-26: user-approved cap of one new route legendary across both faces in rounds 10/12 for route owners. Repeated full tournaments match final state and event digests; all recorded source hashes verified. Prior baseline preserved as pre-route-cap.",
+  "Seeds": {
+    "20261024": {
+      "FinalStateHash": "42f09b6340206ffce16a7b012fd26329ed22131e8e01137b10278db089926d0b",
+      "EventSummaryHash": "733b0645c600bd3e418c56d085d168d63d19fd713f3f6ce551e73a021a3aa16d",
+      "Rounds": 16
+    },
+    "20261026": {
+      "FinalStateHash": "3cce5e18ffc5c2e353d6aba0f87603a9d05696f62ad6cf506dae8af3f826db88",
+      "EventSummaryHash": "59dd9290e6127cba7302b1be1d0e7a240601c5f00349c7cf09660a0148d55571",
+      "Rounds": 14
+    }
+  }
+}

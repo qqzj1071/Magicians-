@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "风痕刻印",
+  "ProfileId": "card-a577a545c8837ea8",
+  "Name": "风痕刻印",
+  "Element": "wind",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 8,
+  "Defense": 1,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "下一发飞弹额外发射一段“固定 15 + 攻击力 15%”的加成副弹；若已打出「风痕」，该副弹命中叠 1 层后，再额外叠 2 层（共 3 层）；否则下一发飞弹间隔 -10；下一发",
+  "DisplayRulesText": "下一发飞弹额外发射一段“固定 15 + 攻击力 15%”的加成副弹；若已打出「风痕」，该副弹命中叠 1 层后，再额外叠 2 层（共 3 层）；否则下一发飞弹间隔 -10；下一发",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

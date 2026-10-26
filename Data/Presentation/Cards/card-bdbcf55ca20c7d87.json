@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "潮汐之心",
+  "ProfileId": "card-bdbcf55ca20c7d87",
+  "Name": "潮汐之心",
+  "Element": "water",
+  "Rarity": "specialization",
+  "CombatCost": 3,
+  "BaseStudyCost": 0,
+  "Attack": 18,
+  "Defense": 2,
+  "FirstEnchantmentLayers": 2,
+  "RulesText": "激活潮汐：实际回复生命×5%×水层数计入潮汐；发射消耗全部作为主弹直接加伤。只记录实际回复，满血空回无收益。",
+  "DisplayRulesText": "激活潮汐：实际回复生命×5%×水层数计入潮汐；发射消耗全部作为主弹直接加伤。只记录实际回复，满血空回无收益。",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

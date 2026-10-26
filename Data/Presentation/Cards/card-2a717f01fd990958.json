@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "战意",
+  "ProfileId": "card-2a717f01fd990958",
+  "Name": "战意",
+  "Element": "fire",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 9,
+  "Defense": 0,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "火层 ≥6 时再 +4 攻；整场",
+  "DisplayRulesText": "火层 ≥6 时再 +4 攻；整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

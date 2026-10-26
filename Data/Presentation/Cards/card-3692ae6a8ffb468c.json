@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "裂风",
+  "ProfileId": "card-3692ae6a8ffb468c",
+  "Name": "裂风",
+  "Element": "wind",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 8,
+  "Defense": 1,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "下一发飞弹额外发射一段“固定 22 + 攻击力 20%”的加成副弹（不计入第三次计数，可叠风痕）；下一发",
+  "DisplayRulesText": "下一发飞弹额外发射一段“固定 22 + 攻击力 20%”的加成副弹（不计入第三次计数，可叠风痕）；下一发",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

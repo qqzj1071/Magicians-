@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "魔力契约",
+  "ProfileId": "card-c5cabb8d85245d20",
+  "Name": "魔力契约",
+  "Element": "generic",
+  "Rarity": "legendary",
+  "CombatCost": 3,
+  "BaseStudyCost": 4,
+  "Attack": 12,
+  "Defense": 5,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "从下次抽牌阶段开始，每个抽牌阶段少抽 1 张、多获 1 费",
+  "DisplayRulesText": "从下次抽牌阶段开始，每个抽牌阶段少抽 1 张、多获 1 费",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "风神之翼",
+  "ProfileId": "card-62c49abfe3ed7588",
+  "Name": "风神之翼",
+  "Element": "wind",
+  "Rarity": "epic",
+  "CombatCost": 2,
+  "BaseStudyCost": 3,
+  "Attack": 11,
+  "Defense": 2,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "下一发飞弹额外发射一段“固定 20 + 攻击力 35%”的加成副弹；本场攻击间隔永久 -3；下一发/整场",
+  "DisplayRulesText": "下一发飞弹额外发射一段“固定 20 + 攻击力 35%”的加成副弹；本场攻击间隔永久 -3；下一发/整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

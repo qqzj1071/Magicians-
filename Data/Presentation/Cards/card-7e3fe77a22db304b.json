@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "腐蚀",
+  "ProfileId": "card-7e3fe77a22db304b",
+  "Name": "腐蚀",
+  "Element": "poison",
+  "Rarity": "common",
+  "CombatCost": 1,
+  "BaseStudyCost": 1,
+  "Attack": 4,
+  "Defense": 0,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "毒附魔层数 +1；下一发飞弹额外造成 14 伤害",
+  "DisplayRulesText": "毒附魔层数 +1；下一发飞弹额外造成 14 伤害",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

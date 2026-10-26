@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "穿云箭",
+  "ProfileId": "card-acd4ce9339781de1",
+  "Name": "穿云箭",
+  "Element": "wind",
+  "Rarity": "legendary",
+  "CombatCost": 2,
+  "BaseStudyCost": 4,
+  "Attack": 17,
+  "Defense": 2,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "每风层额外防御穿透3.5%/选风专精后7%；额外护盾穿透0.5%/1%，与基础1.5%/3%相加，总计2%/4%。飞弹对盾伤害额外+20%；打出天岚后独立无视20%防御，与防穿后的剩余防御乘算。",
+  "DisplayRulesText": "每风层额外防御穿透3.5%/选风专精后7%；额外护盾穿透0.5%/1%，与基础1.5%/3%相加，总计2%/4%。飞弹对盾伤害额外+20%；打出天岚后独立无视20%防御，与防穿后的剩余防御乘算。",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

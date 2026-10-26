@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "风之躯",
+  "ProfileId": "card-96261388e63a77a9",
+  "Name": "风之躯",
+  "Element": "wind",
+  "Rarity": "epic",
+  "CombatCost": 2,
+  "BaseStudyCost": 3,
+  "Attack": 12,
+  "Defense": 1,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "净化自身全部负面效果，包括全部毒层；不再提供主弹增伤；立即",
+  "DisplayRulesText": "净化自身全部负面效果，包括全部毒层；不再提供主弹增伤；立即",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "不坏壁垒",
+  "ProfileId": "card-af32f4c4b9f5b11d",
+  "Name": "不坏壁垒",
+  "Element": "earth",
+  "Rarity": "epic",
+  "CombatCost": 2,
+  "BaseStudyCost": 3,
+  "Attack": 12,
+  "Defense": 1,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "获得200护盾；仅本次获盾不触发旧盾衰减，不改变之后叠盾的0.75留存率；立即",
+  "DisplayRulesText": "获得200护盾；仅本次获盾不触发旧盾衰减，不改变之后叠盾的0.75留存率；立即",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "速腐",
+  "ProfileId": "card-14e43395906d5bea",
+  "Name": "速腐",
+  "Element": "poison",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 1,
+  "Defense": 5,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "下一发主飞弹命中生命时额外 +2 毒层；下一发",
+  "DisplayRulesText": "下一发主飞弹命中生命时额外 +2 毒层；下一发",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

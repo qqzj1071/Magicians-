@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "灵感涌现",
+  "ProfileId": "card-6747040707d5f7f8",
+  "Name": "灵感涌现",
+  "Element": "generic",
+  "Rarity": "epic",
+  "CombatCost": 2,
+  "BaseStudyCost": 3,
+  "Attack": 7,
+  "Defense": 4,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "下次抽牌阶段多抽 2 张，该抽牌阶段多获得 1 费；下抽",
+  "DisplayRulesText": "下次抽牌阶段多抽 2 张，该抽牌阶段多获得 1 费；下抽",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

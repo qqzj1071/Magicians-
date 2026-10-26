@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "短促",
+  "ProfileId": "card-f0bee3302c49e76c",
+  "Name": "短促",
+  "Element": "generic",
+  "Rarity": "common",
+  "CombatCost": 1,
+  "BaseStudyCost": 1,
+  "Attack": 4,
+  "Defense": 0,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "下一发飞弹间隔 -15；下一发",
+  "DisplayRulesText": "下一发飞弹间隔 -15；下一发",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

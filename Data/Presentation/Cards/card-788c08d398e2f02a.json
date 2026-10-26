@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "渗骨毒素",
+  "ProfileId": "card-788c08d398e2f02a",
+  "Name": "渗骨毒素",
+  "Element": "poison",
+  "Rarity": "epic",
+  "CombatCost": 3,
+  "BaseStudyCost": 3,
+  "Attack": 8,
+  "Defense": 4,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "所有主弹获得20%护盾穿透，持续至本方下次抽牌阶段前；不增强毒伤或毒爆；抽牌前",
+  "DisplayRulesText": "所有主弹获得20%护盾穿透，持续至本方下次抽牌阶段前；不增强毒伤或毒爆；抽牌前",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "巨岩",
+  "ProfileId": "card-ac7ba884191e6934",
+  "Name": "巨岩",
+  "Element": "earth",
+  "Rarity": "epic",
+  "CombatCost": 2,
+  "BaseStudyCost": 3,
+  "Attack": 7,
+  "Defense": 4,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "无；整场",
+  "DisplayRulesText": "无；整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

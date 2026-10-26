@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "石肤",
+  "ProfileId": "card-1d1991b4d0691afa",
+  "Name": "石肤",
+  "Element": "earth",
+  "Rarity": "common",
+  "CombatCost": 1,
+  "BaseStudyCost": 1,
+  "Attack": 4,
+  "Defense": 0,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "获得 50 护盾；立即/整场",
+  "DisplayRulesText": "获得 50 护盾；立即/整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

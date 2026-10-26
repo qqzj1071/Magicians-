@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "濒死回响",
+  "ProfileId": "card-c6a6feb1e78201ba",
+  "Name": "濒死回响",
+  "Element": "water",
+  "Rarity": "rare",
+  "CombatCost": 2,
+  "BaseStudyCost": 2,
+  "Attack": 6,
+  "Defense": 2,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "支付 8% 当前生命；回复 60 生命；下一发飞弹伤害 +27%；若已打出「潮汐之心」，将这次支付量按 `3% × 水层数` 记录为潮汐；立即/下一发",
+  "DisplayRulesText": "支付 8% 当前生命；回复 60 生命；下一发飞弹伤害 +27%；若已打出「潮汐之心」，将这次支付量按 `3% × 水层数` 记录为潮汐；立即/下一发",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

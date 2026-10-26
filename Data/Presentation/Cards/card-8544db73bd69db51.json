@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "磐岩壁",
+  "ProfileId": "card-8544db73bd69db51",
+  "Name": "磐岩壁",
+  "Element": "earth",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 4,
+  "Defense": 3,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "获得 80 护盾；若当前护盾 ≥150，再 +3 攻；立即/整场",
+  "DisplayRulesText": "获得 80 护盾；若当前护盾 ≥150，再 +3 攻；立即/整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

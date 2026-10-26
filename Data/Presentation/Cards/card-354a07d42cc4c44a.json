@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "速读",
+  "ProfileId": "card-354a07d42cc4c44a",
+  "Name": "速读",
+  "Element": "generic",
+  "Rarity": "common",
+  "CombatCost": 1,
+  "BaseStudyCost": 1,
+  "Attack": 1,
+  "Defense": 2,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "下次抽牌阶段多抽 1 张；下抽",
+  "DisplayRulesText": "下次抽牌阶段多抽 1 张；下抽",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

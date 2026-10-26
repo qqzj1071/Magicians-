@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "连环潮",
+  "ProfileId": "card-1921c430ad4218fe",
+  "Name": "连环潮",
+  "Element": "water",
+  "Rarity": "rare",
+  "CombatCost": 2,
+  "BaseStudyCost": 2,
+  "Attack": 4,
+  "Defense": 3,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "下一发飞弹间隔 -30；这次发射的飞弹伤害 +14%；下一发",
+  "DisplayRulesText": "下一发飞弹间隔 -30；这次发射的飞弹伤害 +14%；下一发",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

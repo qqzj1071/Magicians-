@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "涌泉",
+  "ProfileId": "card-919cee3ca4f152c3",
+  "Name": "涌泉",
+  "Element": "water",
+  "Rarity": "rare",
+  "CombatCost": 2,
+  "BaseStudyCost": 2,
+  "Attack": 2,
+  "Defense": 4,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "回复 65 生命；立即/整场",
+  "DisplayRulesText": "回复 65 生命；立即/整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

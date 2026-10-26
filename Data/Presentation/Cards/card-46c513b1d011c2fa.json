@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "回火",
+  "ProfileId": "card-46c513b1d011c2fa",
+  "Name": "回火",
+  "Element": "fire",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 1,
+  "Defense": 5,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "洗牌；已打出专精且本场洗牌累计至少3次时，额外获得1余烬；此额外收益每场最多2次；立即",
+  "DisplayRulesText": "洗牌；已打出专精且本场洗牌累计至少3次时，额外获得1余烬；此额外收益每场最多2次；立即",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "盾之共鸣",
+  "ProfileId": "card-e050c435f699c42d",
+  "Name": "盾之共鸣",
+  "Element": "generic",
+  "Rarity": "epic",
+  "CombatCost": 2,
+  "BaseStudyCost": 3,
+  "Attack": 5,
+  "Defense": 5,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "获得 100 护盾；若打出前当前护盾 ≥100，再获得 50 护盾；立即",
+  "DisplayRulesText": "获得 100 护盾；若打出前当前护盾 ≥100，再获得 50 护盾；立即",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "不动如山",
+  "ProfileId": "card-98ab80d707bb3031",
+  "Name": "不动如山",
+  "Element": "earth",
+  "Rarity": "rare",
+  "CombatCost": 1,
+  "BaseStudyCost": 2,
+  "Attack": 3,
+  "Defense": 4,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "若当前护盾 ≥50，再 +2 防；整场",
+  "DisplayRulesText": "若当前护盾 ≥50，再 +2 防；整场",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

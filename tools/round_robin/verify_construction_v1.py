@@ -12,7 +12,10 @@ def main():
     root=S.C.ROOT/'releases/deckbuilding-v1.0';manifest=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
     for name,h in manifest['sha256'].items():assert hashlib.sha256((root/name).read_bytes()).hexdigest()==h,name
     c=json.loads((root/'probabilities.json').read_text(encoding='utf-8'));P.assert_uniform_counts(c)
-    assert P.CFG==c and sum(P.copies(card,c) for card in S.C.CARDS.values())==1060
+    assert P.CFG==c and sum(P.copies(card,c) for card in S.C.CARDS.values())==1052
+    pool=json.loads((root/'pool-counts.json').read_text(encoding='utf-8'))['cards']
+    assert '守势' not in pool and set(pool)=={n for n,card in S.C.CARDS.items() if P.copies(card,c)>0}
+    assert all(pool[n]['copies']==P.copies(S.C.CARDS[n],c) for n in pool)
     assert json.loads((S.C.ROOT/'docs/deckbuilding/construction-probabilities.json').read_text(encoding='utf-8'))==c
     e=json.loads((root/'economy.json').read_text(encoding='utf-8'));assert S.START==e['starter']
     for r in range(1,8):
@@ -31,7 +34,7 @@ def main():
         assert sum(m for m,n in rows)<100
         assert sum(m+math.floor(math.log(500)*n) for m,n in rows)>=100
     assert all(.8<=n<=6 for m,n in t.values())
-    print(json.dumps(dict(status='passed',files=len(manifest['sha256']),pool=1060,epic2_both=both(2,2),legend6_both=both(6,3),legend7_both=both(7,3))))
+    print(json.dumps(dict(status='passed',files=len(manifest['sha256']),pool=1052,epic2_both=both(2,2),legend6_both=both(6,3),legend7_both=both(7,3))))
 
 
 if __name__=='__main__':main()

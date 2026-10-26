@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "疾风之刃",
+  "ProfileId": "card-f1000d8e12c550db",
+  "Name": "疾风之刃",
+  "Element": "wind",
+  "Rarity": "legendary",
+  "CombatCost": 3,
+  "BaseStudyCost": 4,
+  "Attack": 17,
+  "Defense": 2,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "激活天岚后间隔减少改为12+2.5×风层数；主弹追加上次主弹实际伤害×max(0,1−距上发行动值/100)×30%的追击直接加伤。",
+  "DisplayRulesText": "激活天岚后间隔减少改为12+2.5×风层数；主弹追加上次主弹实际伤害×max(0,1−距上发行动值/100)×30%的追击直接加伤。",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "包扎",
+  "ProfileId": "card-4348c33c76f558ea",
+  "Name": "包扎",
+  "Element": "generic",
+  "Rarity": "common",
+  "CombatCost": 1,
+  "BaseStudyCost": 1,
+  "Attack": 1,
+  "Defense": 2,
+  "FirstEnchantmentLayers": 0,
+  "RulesText": "回复 25 生命；立即",
+  "DisplayRulesText": "回复 25 生命；立即",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}

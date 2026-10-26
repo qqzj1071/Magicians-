@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "CardId": "爆裂弹头",
+  "ProfileId": "card-39033d5f447fe903",
+  "Name": "爆裂弹头",
+  "Element": "fire",
+  "Rarity": "rare",
+  "CombatCost": 2,
+  "BaseStudyCost": 2,
+  "Attack": 9,
+  "Defense": 0,
+  "FirstEnchantmentLayers": 1,
+  "RulesText": "下一发伤害 +18%；若该发 ≥80，获得 1 余烬；下一发",
+  "DisplayRulesText": "下一发伤害 +18%；若该发 ≥80，获得 1 余烬；下一发",
+  "RuleNotes": [],
+  "Art": {
+    "IllustrationTexture": "",
+    "FrameTexture": "",
+    "ElementIconTexture": "",
+    "EffectScene": "",
+    "Sound": ""
+  }
+}
