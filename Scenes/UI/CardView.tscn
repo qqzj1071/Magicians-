@@ -113,19 +113,19 @@ theme_override_font_sizes/font_size = 20
 autowrap_mode = 3
 modulate = Color(1, 0.85, 0.55, 1)
 
-[node name="StatsRarity" type="HBoxContainer" parent="Margin/Column/Details/Text"]
+[node name="StatsRarity" type="HBoxContainer" parent="Margin/Column"]
 theme_override_constants/separation = 8
 alignment = 1
 
-[node name="Attack" type="Label" parent="Margin/Column/Details/Text/StatsRarity"]
+[node name="Attack" type="Label" parent="Margin/Column/StatsRarity"]
 theme_override_font_sizes/font_size = 16
 horizontal_alignment = 1
 
-[node name="Rarity" type="Label" parent="Margin/Column/Details/Text/StatsRarity"]
+[node name="Rarity" type="Label" parent="Margin/Column/StatsRarity"]
 theme_override_font_sizes/font_size = 16
 horizontal_alignment = 1
 
-[node name="Defense" type="Label" parent="Margin/Column/Details/Text/StatsRarity"]
+[node name="Defense" type="Label" parent="Margin/Column/StatsRarity"]
 theme_override_font_sizes/font_size = 16
 horizontal_alignment = 1
 
