@@ -58,6 +58,12 @@ public partial class CombatBoardController : Control
         _status.SizeFlagsVertical = SizeFlags.Fill;
         _eventLog = GetNode<RichTextLabel>("Panel/Column/Logs/CardColumn/EventLog");
         _missileLog = GetNode<RichTextLabel>("Panel/Column/Logs/MissileColumn/MissileLog");
+        _status.CustomMinimumSize = new Vector2(0, 62);
+        _status.VerticalAlignment = VerticalAlignment.Top;
+        _eventLog.ScrollActive = true;
+        _eventLog.ScrollFollowing = true;
+        _missileLog.ScrollActive = true;
+        _missileLog.ScrollFollowing = true;
         Refresh();
     }
 
@@ -78,16 +84,18 @@ public partial class CombatBoardController : Control
 
         var view = session.HumanBattle is { } humanBattle
             ? CombatPlayerView.Create(humanBattle, new PlayerId("human")) : null;
-        _delegateCombat.Visible = view is { Phase: not CombatPhase.Finished } && state.Phase == MatchPhase.Combat;
-        _delegateCombat.Disabled = session.IsHumanCombatDelegated;
+        _delegateCombat.Visible = state.Phase == MatchPhase.Combat;
+        _delegateCombat.Disabled = view is null || view.Phase == CombatPhase.Finished || session.IsHumanCombatDelegated;
         _delegateCombat.Text = session.IsHumanCombatDelegated ? "AI正在代理本轮剩余战斗" : "本轮战斗由AI代理";
         _status.Text = view is null ? "你已淘汰，正在结算剩余对局。" :
             $"你  攻击{view.Self.Attack} · 防御{view.Self.Defense} · 生命{view.Self.Life} · 护盾{view.Self.Shield} · 费用{view.Self.Energy}\n" +
             $"对手  攻击{view.Opponent.Attack} · 防御{view.Opponent.Defense} · 生命{view.Opponent.Life} · 护盾{view.Opponent.Shield}    行动值{view.ActionValue}";
         if (view?.Phase == CombatPhase.Finished && state.Phase == MatchPhase.Combat)
             _status.Text += "\n你的战斗已结束，正在后台结算另一组对战……";
-        _selfStatus.Visible = view is not null;
-        _opponentStatus.Visible = view is not null;
+        _selfStatus.Visible = state.Phase == MatchPhase.Combat;
+        _opponentStatus.Visible = state.Phase == MatchPhase.Combat;
+        _selfStatus.Disabled = view is null;
+        _opponentStatus.Disabled = view is null;
         _eventLog.Text = CombatLogText.Exchanges(_events, new PlayerId("human"));
         var missileText = CombatLogText.Missiles(_events, new PlayerId("human"));
         if (_missileLog.Text != missileText) _missileLog.Text = missileText;

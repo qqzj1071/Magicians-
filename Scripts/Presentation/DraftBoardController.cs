@@ -36,12 +36,14 @@ public partial class DraftBoardController : Control
         _refreshActions = new VBoxContainer { Name = "RefreshActions" };
         var removeActions = new HBoxContainer { Name = "RemoveActions" };
         var finishActions = new HBoxContainer { Name = "FinishActions" };
+        removeActions.SizeFlagsHorizontal = SizeFlags.ExpandFill;
         finishActions.SizeFlagsHorizontal = SizeFlags.ExpandFill;
         column.AddChild(_actions);
         _actions.AddChild(_refreshActions);
         _actions.AddChild(removeActions);
         _actions.AddChild(finishActions);
         _removeCards = new Button { Name = "RemoveCards", Text = "删牌（本轮已删除0张）", CustomMinimumSize = new Vector2(0, 42) };
+        _removeCards.SizeFlagsHorizontal = SizeFlags.ExpandFill;
         removeActions.AddChild(_removeCards);
         _removeCards.Pressed += OpenRemovalWindow;
         _study = GetNode<Label>("Panel/Column/Study");
