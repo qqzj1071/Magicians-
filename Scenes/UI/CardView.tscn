@@ -42,6 +42,7 @@ horizontal_alignment = 2
 [node name="Title" type="Label" parent="Margin/Column"]
 theme_override_font_sizes/font_size = 24
 autowrap_mode = 3
+horizontal_alignment = 1
 text = "卡牌名称"
 
 [node name="Metadata" type="Label" parent="Margin/Column"]
@@ -98,23 +99,6 @@ horizontal_scroll_mode = 0
 size_flags_horizontal = 3
 theme_override_constants/separation = 6
 
-[node name="StatsRarity" type="HBoxContainer" parent="Margin/Column/Details/Text"]
-theme_override_constants/separation = 4
-
-[node name="Attack" type="Label" parent="Margin/Column/Details/Text/StatsRarity"]
-size_flags_horizontal = 3
-theme_override_font_sizes/font_size = 16
-
-[node name="Rarity" type="Label" parent="Margin/Column/Details/Text/StatsRarity"]
-size_flags_horizontal = 3
-theme_override_font_sizes/font_size = 16
-horizontal_alignment = 2
-
-[node name="Defense" type="Label" parent="Margin/Column/Details/Text/StatsRarity"]
-size_flags_horizontal = 3
-theme_override_font_sizes/font_size = 16
-horizontal_alignment = 2
-
 [node name="Enchantment" type="Label" parent="Margin/Column/Details/Text"]
 theme_override_font_sizes/font_size = 20
 autowrap_mode = 3
@@ -128,6 +112,22 @@ text = "完整牌面效果"
 theme_override_font_sizes/font_size = 20
 autowrap_mode = 3
 modulate = Color(1, 0.85, 0.55, 1)
+
+[node name="StatsRarity" type="HBoxContainer" parent="Margin/Column/Details/Text"]
+theme_override_constants/separation = 8
+alignment = 1
+
+[node name="Attack" type="Label" parent="Margin/Column/Details/Text/StatsRarity"]
+theme_override_font_sizes/font_size = 16
+horizontal_alignment = 1
+
+[node name="Rarity" type="Label" parent="Margin/Column/Details/Text/StatsRarity"]
+theme_override_font_sizes/font_size = 16
+horizontal_alignment = 1
+
+[node name="Defense" type="Label" parent="Margin/Column/Details/Text/StatsRarity"]
+theme_override_font_sizes/font_size = 16
+horizontal_alignment = 1
 
 [node name="Price" type="Label" parent="Margin/Column"]
 theme_override_font_sizes/font_size = 16
