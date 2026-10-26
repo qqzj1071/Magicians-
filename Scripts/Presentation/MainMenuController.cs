@@ -5,13 +5,14 @@ namespace Magicians.Presentation;
 public partial class MainMenuController : Control
 {
     public event Action? StartRequested;
+    private Control _center = null!;
     public override void _Ready()
     {
         var background = new ColorRect { Color = new Color("0e1420") };
         background.SetAnchorsAndOffsetsPreset(Control.LayoutPreset.FullRect); AddChild(background); MoveChild(background, 0);
         var center = new VBoxContainer { Name = "Center", Alignment = BoxContainer.AlignmentMode.Center,
             CustomMinimumSize = new Vector2(620, 360) };
-        center.SetAnchorsAndOffsetsPreset(Control.LayoutPreset.Center);
+        _center = center;
         center.AddChild(new Label { Text = "Magicians!", HorizontalAlignment = HorizontalAlignment.Center,
             Theme = new Theme { DefaultFontSize = 56 } });
         center.AddChild(new Label { Text = "魔法集会 · 魔法师大赛", HorizontalAlignment = HorizontalAlignment.Center });
@@ -22,5 +23,17 @@ public partial class MainMenuController : Control
         center.AddChild(start); center.AddChild(exit); AddChild(center);
         start.Pressed += () => StartRequested?.Invoke();
         exit.Pressed += () => GetTree().Quit();
+        Resized += CenterMenu;
+        CenterMenu();
+    }
+
+    private void CenterMenu()
+    {
+        if (_center is null || !IsInstanceValid(_center)) return;
+        var viewport = GetViewportRect().Size;
+        var size = _center.GetCombinedMinimumSize();
+        _center.Size = size;
+        _center.Position = (viewport - size) * 0.5f;
     }
 }
+
