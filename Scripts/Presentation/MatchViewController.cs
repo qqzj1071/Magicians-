@@ -107,7 +107,9 @@ public partial class MatchViewController : Control
         _reviewButton.Text = _review.Visible ? "返回赛事" : "逐轮出牌复盘";
         _draftBroadcast.Text = string.Join("\n", DraftBroadcastText.Lines(state, session.Cards));
         _draftBroadcast.Visible = state.Phase == MatchPhase.Draft && _draftBroadcast.Text.Length > 0 && !_review.Visible;
-        _battleBroadcast.Text = string.Join("\n", session.BattleAnnouncements.TakeLast(2).Select(a => a.Text));
+        _battleBroadcast.Text = string.Join("\n", session.BattleAnnouncements.TakeLast(2)
+            .GroupBy(a => a.Round).OrderBy(g => g.Key)
+            .Select(g => $"第{g.Key}轮 · " + string.Join("；", g.Select(a => a.Text[(a.Text.IndexOf('·') + 1)..].Trim()))));
         _battleBroadcast.Visible = session.BattleAnnouncements.Count > 0;
         _phaseLabel.Text = $"第{state.Round}轮 · 阶段：{state.Phase}";
         _nextRound.Visible = state.Phase == MatchPhase.Settlement;
@@ -163,3 +165,4 @@ public partial class MatchViewController : Control
         else GetTree().Quit();
     }
 }
+
