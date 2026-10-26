@@ -18,6 +18,11 @@ public static class CardPresentationRegression
                 view.Bind(profile);
                 if (view.GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Rarity").GetThemeColor("font_color") != CardView.RarityColor(profile.Rarity))
                     throw new InvalidDataException("Rarity color was not applied to the visible label: " + profile.CardId);
+                if (view.GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Attack").Text != $"攻+{profile.Attack}" ||
+                    view.GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Defense").Text != $"防+{profile.Defense}" ||
+                    view.GetNode<Label>("Margin/Column/Details/Text/Enchantment").Visible ||
+                    !string.IsNullOrEmpty(view.GetNode<Label>("Margin/Column/Details/Text/Enchantment").Text))
+                    throw new InvalidDataException("Card stats or removed enchantment hints are not rendered in the current format: " + profile.CardId);
                 if (view.GetNode<Label>("Margin/Column/Title").Text != profile.Name ||
                     view.GetNode<Label>("Margin/Column/Details/Text/Rules").Text != CardView.FormatRulesText(profile.DisplayRulesText) ||
                     !view.GetNode<Label>("Margin/Column/Metadata").Text.Contains(CardPresentationCatalog.ElementLabel(profile.Element), StringComparison.Ordinal) ||

@@ -17,7 +17,7 @@ public partial class DraftBoardController : Control
     private Button _removeCards = null!;
     private Window? _removeWindow;
     private VBoxContainer _actions = null!;
-    private HBoxContainer _refreshActions = null!;
+    private VBoxContainer _refreshActions = null!;
 
     public override void _Ready()
     {
@@ -33,19 +33,20 @@ public partial class DraftBoardController : Control
         _offers.Reparent(scroll);
         _offers.SizeFlagsHorizontal = SizeFlags.ExpandFill;
         _actions = new VBoxContainer { Name = "DraftActions" };
-        _refreshActions = new HBoxContainer { Name = "RefreshActions" };
+        _refreshActions = new VBoxContainer { Name = "RefreshActions" };
         var removeActions = new HBoxContainer { Name = "RemoveActions" };
         var finishActions = new HBoxContainer { Name = "FinishActions" };
         column.AddChild(_actions);
         _actions.AddChild(_refreshActions);
         _actions.AddChild(removeActions);
         _actions.AddChild(finishActions);
-        _removeCards = new Button { Name = "RemoveCards", Text = "删牌（本轮已删除0张）" };
+        _removeCards = new Button { Name = "RemoveCards", Text = "删牌（本轮已删除0张）", CustomMinimumSize = new Vector2(0, 42) };
         removeActions.AddChild(_removeCards);
         _removeCards.Pressed += OpenRemovalWindow;
         _study = GetNode<Label>("Panel/Column/Study");
         _finish = GetNode<Button>("Panel/Column/Finish");
         _finish.Reparent(finishActions);
+        _finish.CustomMinimumSize = new Vector2(0, 42);
         _finish.Pressed += FinishDraft;
         Resized += ResizeCards;
         Refresh();
@@ -129,7 +130,7 @@ public partial class DraftBoardController : Control
 
     private void AddAction(string title, Action action)
     {
-        var button = new Button { Text = title };
+        var button = new Button { Text = title, CustomMinimumSize = new Vector2(0, 42) };
         button.Pressed += action;
         _refreshActions.AddChild(button);
     }
