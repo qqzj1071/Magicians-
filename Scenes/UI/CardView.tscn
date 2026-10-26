@@ -23,8 +23,8 @@ theme_override_styles/panel = SubResource("CardFrame")
 [node name="Margin" type="MarginContainer" parent="."]
 theme_override_constants/margin_left = 14
 theme_override_constants/margin_right = 14
-theme_override_constants/margin_top = 14
-theme_override_constants/margin_bottom = 14
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_bottom = 10
 
 [node name="Column" type="VBoxContainer" parent="Margin"]
 theme_override_constants/separation = 5
@@ -33,10 +33,10 @@ theme_override_constants/separation = 5
 
 [node name="Element" type="Label" parent="Margin/Column/Header"]
 size_flags_horizontal = 3
-theme_override_font_sizes/font_size = 22
+theme_override_font_sizes/font_size = 18
 
 [node name="Cost" type="Label" parent="Margin/Column/Header"]
-theme_override_font_sizes/font_size = 22
+theme_override_font_sizes/font_size = 18
 horizontal_alignment = 2
 
 [node name="Title" type="Label" parent="Margin/Column"]
@@ -117,11 +117,11 @@ autowrap_mode = 3
 modulate = Color(1, 0.85, 0.55, 1)
 
 [node name="Rarity" type="Label" parent="Margin/Column"]
-theme_override_font_sizes/font_size = 20
+theme_override_font_sizes/font_size = 16
 horizontal_alignment = 1
 
 [node name="Price" type="Label" parent="Margin/Column"]
-theme_override_font_sizes/font_size = 20
+theme_override_font_sizes/font_size = 16
 autowrap_mode = 3
 
 
