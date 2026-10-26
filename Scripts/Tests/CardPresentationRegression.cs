@@ -50,6 +50,12 @@ public static class CardPresentationRegression
                 throw new InvalidDataException("The current free-purchase entitlement must be shown on the card view.");
         }
         finally { priceView.Free(); }
+        foreach (var sample in new[] { "回复 20 生命；立即/整场", "目标攻击 -2；整场", "获得 1 余烬；立即/下一发", "下次抽牌阶段多抽 1；下抽/下一发" })
+            if (CardView.FormatRulesText(sample).Contains("立即", StringComparison.Ordinal) ||
+                CardView.FormatRulesText(sample).Contains("整场", StringComparison.Ordinal) ||
+                CardView.FormatRulesText(sample).EndsWith("；下一发", StringComparison.Ordinal) ||
+                CardView.FormatRulesText(sample).EndsWith("；下抽", StringComparison.Ordinal))
+                throw new InvalidDataException("Timing annotations must be hidden from card rules text: " + sample);
         GD.Print($"CARD_PRESENTATION_OK profiles={catalog.All.Count} views={catalog.All.Count}");
     }
 }
