@@ -51,8 +51,10 @@ public partial class DraftBoardController : Control
         _finish.Disabled = player.TournamentLife <= 0 || player.Draft.IsCompleted || state.Phase != MatchPhase.Draft;
         _study.Text = $"研习点：{player.Draft.StudyPoints}";
         _removeCards.Text = $"删牌（本轮已删除{player.Draft.RemovalCount}张）";
-        _removeCards.Disabled = state.Phase != MatchPhase.Draft || player.Draft.IsCompleted || player.TournamentLife <= 0;
-        _removeCards.Modulate = !player.Draft.FreePurchaseUsed ? new Color("ffd166") : Colors.White;
+        var removalAvailableThisRound = state.Round >= 4;
+        _removeCards.Visible = removalAvailableThisRound;
+        _removeCards.Disabled = !removalAvailableThisRound || state.Phase != MatchPhase.Draft || player.Draft.IsCompleted || player.TournamentLife <= 0;
+        _removeCards.Modulate = !removalAvailableThisRound || player.Draft.FreePurchaseUsed ? Colors.White : new Color("ffd166");
         _removeCards.TooltipText = !player.Draft.FreePurchaseUsed
             ? "本轮免费购买资格尚未使用；删牌按钮已高亮"
             : "查看牌组并删除符合规则的卡牌";
@@ -172,7 +174,7 @@ public partial class DraftBoardController : Control
     private void ResizeCards()
     {
         if (_cardGrid is null || !IsInstanceValid(_cardGrid)) return;
-        var width = Mathf.Clamp(Mathf.Min((Size.X - 60) / 4, (Size.Y - 190) / (2 * 1.618f)), 200, 360);
+        var width = Mathf.Clamp(Mathf.Min((Size.X - 60) / 4, (Size.Y - 300) / (2 * 1.618f)), 190, 320);
         foreach (var row in _cardGrid.GetChildren().OfType<VBoxContainer>())
             foreach (var card in row.GetChildren().OfType<CardView>())
                 card.CustomMinimumSize = new Vector2(width, width * 1.618f);
