@@ -16,10 +16,10 @@ public static class CardPresentationRegression
             try
             {
                 view.Bind(profile);
-                if (view.GetNode<Label>("Margin/Column/Rarity").GetThemeColor("font_color") != CardView.RarityColor(profile.Rarity))
+                if (view.GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Rarity").GetThemeColor("font_color") != CardView.RarityColor(profile.Rarity))
                     throw new InvalidDataException("Rarity color was not applied to the visible label: " + profile.CardId);
                 if (view.GetNode<Label>("Margin/Column/Title").Text != profile.Name ||
-                    view.GetNode<Label>("Margin/Column/Details/Text/Rules").Text != profile.DisplayRulesText ||
+                    view.GetNode<Label>("Margin/Column/Details/Text/Rules").Text != CardView.FormatRulesText(profile.DisplayRulesText) ||
                     !view.GetNode<Label>("Margin/Column/Metadata").Text.Contains(CardPresentationCatalog.ElementLabel(profile.Element), StringComparison.Ordinal) ||
                     !view.GetNode<Label>("Margin/Column/Metadata").Text.Contains(CardPresentationCatalog.RarityLabel(profile.Rarity), StringComparison.Ordinal) ||
                     !view.GetNode<Label>("Margin/Column/Header/Cost").Text.Contains($"{profile.CombatCost} 费用", StringComparison.Ordinal))

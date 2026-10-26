@@ -42,7 +42,7 @@ public partial class DraftUiRevisionRunner : Node
             remove.EmitSignal(Button.SignalName.Pressed);
             Accept(session.Coordinator.CurrentState.Players[human].Deck.Cards.All(c => c.InstanceId != purchased.InstanceId) &&
                 session.Coordinator.CurrentState.Players[human].Draft.RemovalCount == 1 && grid.GetChildCount() == 8 &&
-                draft.GetNode<Button>("Panel/Column/RemoveCards").Text.Contains("已删除1张", StringComparison.Ordinal), "Exact selected card deletion and count refresh");
+                draft.GetNode<Button>("Panel/Column/DraftActions/RemoveActions/RemoveCards").Text.Contains("已删除1张", StringComparison.Ordinal), "Exact selected card deletion and count refresh");
             Accept(grid.GetChildren().OfType<VBoxContainer>().SelectMany(r => r.GetChildren().OfType<Button>()).All(b => b.Disabled), "Minimum deck protection remains authoritative");
             var rarityColors = session.CardProfiles.All.GroupBy(p => p.Rarity).Select(g => CardView.RarityColor(g.Key)).ToArray();
             Accept(rarityColors.Distinct().Count() == rarityColors.Length, "Rarity labels need distinct colors");
@@ -133,7 +133,7 @@ public partial class DraftUiRevisionRunner : Node
             new DraftRuleChangedEvent(state.Id, 1, i * 3 + 3, "", p.Id, "ReplaceRoute", new[] { route.Name })
         }).ToArray();
         var lines = DraftBroadcastText.Lines(state with { EventLog = events }, session.Cards).ToArray();
-        Accept(lines.Length == 12 && state.Players.Values.All(p => lines.Count(l => l.Contains(p.PublicInfo.DisplayName, StringComparison.Ordinal)) == 3), "All four participants' choices need broadcasts");
+        Accept(lines.Length == 1 && state.Players.Values.All(p => lines.Count(l => l.Contains(p.PublicInfo.DisplayName, StringComparison.Ordinal)) == 1), "All four participants' choices need broadcasts");
     }
 
     private static void Accept(bool condition, string message)

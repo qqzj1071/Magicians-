@@ -16,6 +16,8 @@ public partial class DraftBoardController : Control
     private GridContainer? _cardGrid;
     private Button _removeCards = null!;
     private Window? _removeWindow;
+    private VBoxContainer _actions = null!;
+    private HBoxContainer _refreshActions = null!;
 
     public override void _Ready()
     {
@@ -24,18 +26,26 @@ public partial class DraftBoardController : Control
         var column = GetNode<VBoxContainer>("Panel/Column");
         GetNode<Control>("Panel/Column/CardPreview").Visible = false;
         GetNode<Control>("Panel/Column/Title").Visible = false;
-        _removeCards = new Button { Name = "RemoveCards", Text = "删牌（本轮已删除0张）" };
-        column.AddChild(_removeCards);
-        column.MoveChild(_removeCards, GetNode<Button>("Panel/Column/Finish").GetIndex());
-        _removeCards.Pressed += OpenRemovalWindow;
         var position = _offers.GetIndex();
         var scroll = new ScrollContainer { SizeFlagsVertical = SizeFlags.ExpandFill, CustomMinimumSize = new Vector2(0, 220) };
         column.AddChild(scroll);
         column.MoveChild(scroll, position);
         _offers.Reparent(scroll);
         _offers.SizeFlagsHorizontal = SizeFlags.ExpandFill;
+        _actions = new VBoxContainer { Name = "DraftActions" };
+        _refreshActions = new HBoxContainer { Name = "RefreshActions" };
+        var removeActions = new HBoxContainer { Name = "RemoveActions" };
+        var finishActions = new HBoxContainer { Name = "FinishActions" };
+        column.AddChild(_actions);
+        _actions.AddChild(_refreshActions);
+        _actions.AddChild(removeActions);
+        _actions.AddChild(finishActions);
+        _removeCards = new Button { Name = "RemoveCards", Text = "删牌（本轮已删除0张）" };
+        removeActions.AddChild(_removeCards);
+        _removeCards.Pressed += OpenRemovalWindow;
         _study = GetNode<Label>("Panel/Column/Study");
         _finish = GetNode<Button>("Panel/Column/Finish");
+        _finish.Reparent(finishActions);
         _finish.Pressed += FinishDraft;
         Resized += ResizeCards;
         Refresh();
@@ -97,6 +107,7 @@ public partial class DraftBoardController : Control
             grid.AddChild(row);
         }
         ResizeCards();
+        foreach (var child in _refreshActions.GetChildren()) { _refreshActions.RemoveChild(child); child.QueueFree(); }
         if (state.Phase != MatchPhase.Draft || player.Draft.IsCompleted || player.TournamentLife <= 0) return;
         if (legal.Any(a => a.Kind == "refresh"))
             AddAction("刷新候选（1研习点）", () => RunCommand((id, sequence) => new RefreshOffersCommand(id, player.Id, sequence)));
@@ -120,7 +131,7 @@ public partial class DraftBoardController : Control
     {
         var button = new Button { Text = title };
         button.Pressed += action;
-        _offers.AddChild(button);
+        _refreshActions.AddChild(button);
     }
 
     public void OpenRemovalWindow()

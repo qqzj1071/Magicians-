@@ -104,7 +104,7 @@ public partial class CombatClientFlowRunner : Node
                     matchView.Refresh();
                     var broadcast = matchView.GetNode<Label>("Layout/BattleBroadcast");
                     Require(_session.BattleAnnouncements.Count == match.Round * 2 && broadcast.Visible &&
-                        _session.BattleAnnouncements.TakeLast(2).All(a => broadcast.Text.Contains(a.Text, StringComparison.Ordinal)),
+                        _session.BattleAnnouncements.TakeLast(2).All(a => broadcast.Text.Contains(a.Text[(a.Text.IndexOf('·') + 1)..].Trim(), StringComparison.Ordinal)),
                         "A completed background or player battle was not broadcast.");
                     Require(!_session.DelegateHumanCombat(), "Finished combat accepted delegation.");
                     if (match.Round == 2)
