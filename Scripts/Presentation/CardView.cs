@@ -53,12 +53,12 @@ public partial class CardView : PanelContainer
     {
         text = text.Replace("毒附魔层数 +1；", string.Empty, StringComparison.Ordinal)
             .Replace("毒附魔层数+1；", string.Empty, StringComparison.Ordinal);
-        var timing = new[] { "立即", "整场", "下一发", "抽牌前", "下抽", "下一抽牌阶段前", "本次" };
-        var result = text;
-        foreach (var suffix in timing)
-            if (result.EndsWith("；" + suffix, StringComparison.Ordinal))
-                return result[..^(suffix.Length + 1)];
-        return result;
+        var timing = new HashSet<string>(StringComparer.Ordinal)
+            { "立即", "整场", "下一发", "抽牌前", "下抽", "下一抽牌阶段前", "本次", "下一次" };
+        var clauses = text.Split('；').ToList();
+        while (clauses.Count > 1 && clauses[^1].Split('/', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries).All(timing.Contains))
+            clauses.RemoveAt(clauses.Count - 1);
+        return string.Join('；', clauses);
     }
 
     private static Color ElementColor(string element) => element switch
