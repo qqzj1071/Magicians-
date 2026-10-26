@@ -16,7 +16,7 @@ public partial class MatchViewController : Control
     private Button _nextRound = null!;
     private double _tickTime;
     private Label _battleBroadcast = null!;
-    private RichTextLabel _draftBroadcast = null!;
+    private Label _draftBroadcast = null!;
     private BattleReviewPanel _review = null!;
     private Button _reviewButton = null!;
     private bool _reviewOpened;
@@ -35,7 +35,14 @@ public partial class MatchViewController : Control
         var layout = GetNode<VBoxContainer>("Layout");
         layout.AddChild(_battleBroadcast);
         layout.MoveChild(_battleBroadcast, 1);
-        _draftBroadcast = new RichTextLabel { Name = "DraftBroadcast", CustomMinimumSize = new Vector2(0, 72), ScrollFollowing = true };
+        _draftBroadcast = new Label
+        {
+            Name = "DraftBroadcast",
+            CustomMinimumSize = new Vector2(0, 28),
+            SizeFlagsHorizontal = SizeFlags.ExpandFill,
+            AutowrapMode = TextServer.AutowrapMode.Off,
+            ClipText = true
+        };
         layout.AddChild(_draftBroadcast); layout.MoveChild(_draftBroadcast, 2);
         _draftBoard = GetNode<Control>("Layout/Content/DraftBoard");
         _combatBoard = GetNode<Control>("Layout/Content/CombatBoard");

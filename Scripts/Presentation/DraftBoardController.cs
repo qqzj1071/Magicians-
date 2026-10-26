@@ -69,9 +69,10 @@ public partial class DraftBoardController : Control
         var removalAvailableThisRound = state.Round >= 4;
         _removeCards.Visible = removalAvailableThisRound;
         _removeCards.Disabled = !removalAvailableThisRound || state.Phase != MatchPhase.Draft || player.Draft.IsCompleted || player.TournamentLife <= 0;
-        _removeCards.Modulate = !removalAvailableThisRound || player.Draft.FreePurchaseUsed ? Colors.White : new Color("ffd166");
-        _removeCards.TooltipText = !player.Draft.FreePurchaseUsed
-            ? "本轮免费购买资格尚未使用；删牌按钮已高亮"
+        var freeRemovalAvailable = removalAvailableThisRound && player.Draft.RemovalCount == 0;
+        _removeCards.Modulate = freeRemovalAvailable ? new Color("ffd166") : Colors.White;
+        _removeCards.TooltipText = freeRemovalAvailable
+            ? "本轮免费删牌资格尚未使用；删牌按钮已高亮"
             : "查看牌组并删除符合规则的卡牌";
         if (_removeWindow is not null && IsInstanceValid(_removeWindow)) RefreshRemovalWindow();
         var legal = AiObservations.Draft(state, player.Id, session.Cards).LegalActions;
