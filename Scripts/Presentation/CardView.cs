@@ -15,11 +15,11 @@ public partial class CardView : PanelContainer
         GetNode<Label>("Margin/Column/Metadata").Text = $"元素：{CardPresentationCatalog.ElementLabel(profile.Element)}    稀有度：{CardPresentationCatalog.RarityLabel(profile.Rarity)}";
         GetNode<Label>("Margin/Column/Header/Element").Text = CardPresentationCatalog.ElementLabel(profile.Element);
         GetNode<Label>("Margin/Column/Header/Cost").Text = $"{profile.CombatCost} 费用";
-        var rarity = GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Rarity");
+        var rarity = GetNode<Label>("Margin/Column/StatsRarity/Rarity");
         rarity.Text = $"<{CardPresentationCatalog.RarityLabel(profile.Rarity)}>";
         rarity.AddThemeColorOverride("font_color", RarityColor(profile.Rarity));
-        GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Attack").Text = $"攻+{profile.Attack}";
-        GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Defense").Text = $"防+{profile.Defense}";
+        GetNode<Label>("Margin/Column/StatsRarity/Attack").Text = $"攻+{profile.Attack}";
+        GetNode<Label>("Margin/Column/StatsRarity/Defense").Text = $"防+{profile.Defense}";
         var enchantment = GetNode<Label>("Margin/Column/Details/Text/Enchantment");
         enchantment.Text = string.Empty;
         enchantment.Visible = false;
