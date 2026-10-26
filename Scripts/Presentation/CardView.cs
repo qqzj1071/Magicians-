@@ -10,7 +10,7 @@ public partial class CardView : PanelContainer
     {
         GetNode<Label>("Margin/Column/Title").Text = profile.Name;
         var title = GetNode<Label>("Margin/Column/Title");
-        title.AddThemeColorOverride("font_color", profile.FirstEnchantmentLayers > 0 && !enchantmentApplied
+        title.AddThemeColorOverride("font_color", combat && profile.FirstEnchantmentLayers > 0 && !enchantmentApplied
             ? new Color("ffd166") : Colors.White);
         GetNode<Label>("Margin/Column/Metadata").Text = $"元素：{CardPresentationCatalog.ElementLabel(profile.Element)}    稀有度：{CardPresentationCatalog.RarityLabel(profile.Rarity)}";
         GetNode<Label>("Margin/Column/Header/Element").Text = CardPresentationCatalog.ElementLabel(profile.Element);
@@ -18,13 +18,11 @@ public partial class CardView : PanelContainer
         var rarity = GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Rarity");
         rarity.Text = CardPresentationCatalog.RarityLabel(profile.Rarity);
         rarity.AddThemeColorOverride("font_color", RarityColor(profile.Rarity));
-        GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Attack").Text = $"攻击 +{profile.Attack}";
-        GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Defense").Text = $"防御 +{profile.Defense}";
-        GetNode<Label>("Margin/Column/Details/Text/Enchantment").Text = profile.FirstEnchantmentLayers > 0
-            ? enchantmentApplied
-                ? $"附魔已叠加：{CardPresentationCatalog.ElementLabel(profile.Element)} +{profile.FirstEnchantmentLayers}层"
-                : $"首次附魔：{CardPresentationCatalog.ElementLabel(profile.Element)} +{profile.FirstEnchantmentLayers}层（未叠加）"
-            : "无附魔层";
+        GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Attack").Text = $"攻+{profile.Attack}";
+        GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Defense").Text = $"防+{profile.Defense}";
+        var enchantment = GetNode<Label>("Margin/Column/Details/Text/Enchantment");
+        enchantment.Text = string.Empty;
+        enchantment.Visible = false;
         GetNode<Label>("Margin/Column/Details/Text/Rules").Text = FormatRulesText(profile.DisplayRulesText);
         var notes = GetNode<Label>("Margin/Column/Details/Text/RuleNotes");
         notes.Text = string.Join("\n", profile.RuleNotes);
