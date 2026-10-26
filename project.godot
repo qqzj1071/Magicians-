@@ -11,9 +11,9 @@ config_version=5
 [application]
 
 config/name="Magicians!"
-config/features=PackedStringArray("4.7", "Forward Plus")
-config/icon="res://icon.svg"
 run/main_scene="res://Scenes/Boot/Boot.tscn"
+config/features=PackedStringArray("4.7", "C#", "Forward Plus")
+config/icon="res://icon.svg"
 
 [display]
 
@@ -36,3 +36,4 @@ project/assembly_name="Magicians!"
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+

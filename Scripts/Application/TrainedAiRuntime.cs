@@ -44,11 +44,85 @@ public sealed class TrainedAiRuntime : IDisposable
             "releases/deckbuilding-v1.0/pool-counts.json", "releases/deckbuilding-v1.0/economy.json" }
             .ToDictionary(path => path, path => HashFile(Path.Combine(root, path)), StringComparer.Ordinal);
         using var settings = JsonDocument.Parse(File.ReadAllText(Path.Combine(root, "tools", "client_ai", "runtime.json")));
-        _python = Environment.GetEnvironmentVariable("MAGICIANS_PYTHON") ?? settings.RootElement.GetProperty("pythonExecutable").GetString()!;
-        if (!Path.IsPathRooted(_python)) _python = Path.GetFullPath(Path.Combine(root, _python));
-        if (!File.Exists(_python)) throw new FileNotFoundException("AI Python runtime unavailable; set MAGICIANS_PYTHON or tools/client_ai/runtime.json.", _python);
+        _python = ResolvePythonExecutable(root, settings.RootElement);
     }
 
+    private static string ResolvePythonExecutable(string root, JsonElement settings)
+    {
+        var configured = Environment.GetEnvironmentVariable("MAGICIANS_PYTHON");
+        if (string.IsNullOrWhiteSpace(configured) && settings.TryGetProperty("pythonExecutable", out var property))
+            configured = property.GetString();
+
+        var candidates = new List<string>();
+        AddCandidate(candidates, root, configured);
+        AddCandidate(candidates, root, Path.Combine(root, "tools", "client_ai", ".venv", "Scripts", "python.exe"));
+        AddCandidate(candidates, root, Path.Combine(root, ".venv", "Scripts", "python.exe"));
+        AddCandidate(candidates, root, Path.Combine(root, "venv", "Scripts", "python.exe"));
+
+        var localAppData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+        if (!string.IsNullOrWhiteSpace(localAppData))
+        {
+            foreach (var baseDir in new[]
+            {
+                Path.Combine(localAppData, "Python"),
+                Path.Combine(localAppData, "Programs", "Python")
+            })
+            {
+                if (!Directory.Exists(baseDir)) continue;
+                foreach (var versionDir in Directory.EnumerateDirectories(baseDir))
+                    AddCandidate(candidates, root, Path.Combine(versionDir, "python.exe"));
+            }
+        }
+
+        candidates.Add("python");
+        candidates.Add("python3");
+        foreach (var candidate in candidates.Distinct(StringComparer.OrdinalIgnoreCase))
+        {
+            if (Path.IsPathRooted(candidate) && File.Exists(candidate)) return candidate;
+            if (!Path.IsPathRooted(candidate) && CommandAvailable(candidate)) return candidate;
+        }
+
+        throw new FileNotFoundException(
+            "AI Python runtime unavailable. Install Python 3 or set MAGICIANS_PYTHON to python.exe.",
+            configured);
+    }
+
+    private static void AddCandidate(List<string> candidates, string root, string? value)
+    {
+        if (string.IsNullOrWhiteSpace(value)) return;
+        var candidate = value.Trim();
+        if (!Path.IsPathRooted(candidate) &&
+            (candidate.Contains(Path.DirectorySeparatorChar) || candidate.Contains(Path.AltDirectorySeparatorChar)))
+            candidate = Path.GetFullPath(Path.Combine(root, candidate));
+        candidates.Add(candidate);
+    }
+
+    private static bool CommandAvailable(string command)
+    {
+        try
+        {
+            using var probe = Process.Start(new ProcessStartInfo
+            {
+                FileName = command,
+                Arguments = "--version",
+                UseShellExecute = false,
+                CreateNoWindow = true,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true
+            });
+            if (probe is null) return false;
+            if (!probe.WaitForExit(3000))
+            {
+                try { probe.Kill(true); } catch { /* best effort */ }
+                return false;
+            }
+            return probe.ExitCode == 0;
+        }
+        catch
+        {
+            return false;
+        }
+    }
     private static string HashFile(string path) => Convert.ToHexString(SHA256.HashData(File.ReadAllBytes(path))).ToLowerInvariant();
 
     private Process EnsureStarted(string player)
@@ -176,3 +250,4 @@ public sealed class TrainedAiRuntime : IDisposable
             }
     }
 }
+

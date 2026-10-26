@@ -4,7 +4,7 @@
 
 当前仓库包含可运行的 Godot 4.7.2 .NET 单人客户端。Windows 玩家可以：
 
-1. 安装 Godot 4.7.2 .NET/Mono 版本，并准备 .NET 8 SDK。
+1. 安装 Godot 4.7.2 .NET/Mono 版本，并准备 .NET 8 SDK。仓库已携带 Godot SDK 的 NuGet 包，不需要填写某台电脑的安装路径。
 2. 克隆仓库：
 
    ```powershell
@@ -15,7 +15,7 @@
 3. 用 Godot .NET 打开项目根目录中的 `project.godot`，点击运行。
 4. 在主菜单点击“开始单人赛事”。玩家淘汰后可以查看逐轮复盘，或让 AI 自动完成剩余赛事直到冠军产生。
 
-客户端的固定规则数据、卡面展示档案、占位素材和 C# 源码均已包含在仓库中。运行前不需要 Python；Python 运行时只用于训练 AI 的客户端推理适配，项目会从 `tools/client_ai/runtime.json` 读取配置。
+客户端的固定规则数据、卡面展示档案、占位素材、C# 源码和 Windows 便携 Python 运行时均已包含在仓库中。运行前不需要单独安装 Python；Python 只用于客户端推理适配，也可用 `MAGICIANS_PYTHON` 环境变量覆盖内置运行时。
 
 开发者可以在项目根目录运行：
 
@@ -33,3 +33,6 @@ powershell -ExecutionPolicy Bypass -File tools/run_client_regressions.ps1
 完整四人赛事AI已完成[十轮学习与独立终测](docs/ai/tournament-v1-report.md)。固定标准牌组历史六轮先验独立保留；当前标准牌组由decks/active.json指定。卡牌与构筑规则未因训练修改。
 
 共创者请从[上手与协作说明](CONTRIBUTING.md)开始。当前[世界观与美术方向](docs/lore/README.md)为“魔法集会与魔法师大赛”；项目包含设计资料、模拟与AI研究工具，联机和可玩客户端仍待继续开发。
+
+
+
