@@ -16,7 +16,7 @@ public partial class CardView : PanelContainer
         GetNode<Label>("Margin/Column/Header/Element").Text = CardPresentationCatalog.ElementLabel(profile.Element);
         GetNode<Label>("Margin/Column/Header/Cost").Text = $"{profile.CombatCost} 费用";
         var rarity = GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Rarity");
-        rarity.Text = CardPresentationCatalog.RarityLabel(profile.Rarity);
+        rarity.Text = $"<{CardPresentationCatalog.RarityLabel(profile.Rarity)}>";
         rarity.AddThemeColorOverride("font_color", RarityColor(profile.Rarity));
         GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Attack").Text = $"攻+{profile.Attack}";
         GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Defense").Text = $"防+{profile.Defense}";
@@ -51,6 +51,8 @@ public partial class CardView : PanelContainer
 
     public static string FormatRulesText(string text)
     {
+        text = text.Replace("毒附魔层数 +1；", string.Empty, StringComparison.Ordinal)
+            .Replace("毒附魔层数+1；", string.Empty, StringComparison.Ordinal);
         var timing = new[] { "立即", "整场", "下一发", "抽牌前", "下抽", "下一抽牌阶段前", "本次" };
         var result = text;
         foreach (var suffix in timing)
