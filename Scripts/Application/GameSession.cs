@@ -3,6 +3,7 @@ using Magicians.Core.Common;
 using Magicians.Core.Combat;
 using Magicians.Core.Match;
 using Magicians.Core.AI;
+using System.Security.Cryptography;
 
 namespace Magicians.Application;
 
@@ -43,8 +44,8 @@ public sealed class GameSession : IDisposable
         Coordinator = coordinator;
     }
 
-    public static GameSession CreateSlice1(string projectRoot, int seed = 20261024)
-        => CreateSession(projectRoot, seed, null);
+    public static GameSession CreateSlice1(string projectRoot, int? seed = null)
+        => CreateSession(projectRoot, seed ?? RandomNumberGenerator.GetInt32(1, int.MaxValue), null);
 
     internal static GameSession CreateScenario(string projectRoot, Slice1Scenario scenario, int seed = 20261024)
         => CreateSession(projectRoot, seed, scenario);
