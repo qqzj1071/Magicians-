@@ -36,6 +36,7 @@ public partial class DraftBoardController : Control
         _refreshActions = new VBoxContainer { Name = "RefreshActions" };
         var removeActions = new HBoxContainer { Name = "RemoveActions" };
         var finishActions = new HBoxContainer { Name = "FinishActions" };
+        finishActions.SizeFlagsHorizontal = SizeFlags.ExpandFill;
         column.AddChild(_actions);
         _actions.AddChild(_refreshActions);
         _actions.AddChild(removeActions);
@@ -47,6 +48,7 @@ public partial class DraftBoardController : Control
         _finish = GetNode<Button>("Panel/Column/Finish");
         _finish.Reparent(finishActions);
         _finish.CustomMinimumSize = new Vector2(0, 42);
+        _finish.SizeFlagsHorizontal = SizeFlags.ExpandFill;
         _finish.Pressed += FinishDraft;
         Resized += ResizeCards;
         Refresh();
