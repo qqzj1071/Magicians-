@@ -30,7 +30,9 @@ text = "战斗阶段"
 
 [node name="Status" type="Label" parent="Panel/Column"]
 layout_mode = 2
+custom_minimum_size = Vector2(0, 62)
 size_flags_vertical = 3
+vertical_alignment = 0
 text = "等待战斗实例"
 
 [node name="Actions" type="VBoxContainer" parent="Panel/Column"]
@@ -50,8 +52,9 @@ layout_mode = 2
 text = "出牌日志（双方同步结算后公开）"
 
 [node name="EventLog" type="RichTextLabel" parent="Panel/Column/Logs/CardColumn"]
-custom_minimum_size = Vector2(0, 112)
+custom_minimum_size = Vector2(0, 180)
 layout_mode = 2
+scroll_active = true
 scroll_following = true
 
 [node name="MissileColumn" type="VBoxContainer" parent="Panel/Column/Logs"]
@@ -63,7 +66,8 @@ layout_mode = 2
 text = "飞弹发射与结算"
 
 [node name="MissileLog" type="RichTextLabel" parent="Panel/Column/Logs/MissileColumn"]
-custom_minimum_size = Vector2(0, 112)
+custom_minimum_size = Vector2(0, 180)
 layout_mode = 2
+scroll_active = true
 scroll_following = true
 
