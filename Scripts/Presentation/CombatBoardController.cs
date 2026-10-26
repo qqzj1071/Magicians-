@@ -10,9 +10,6 @@ namespace Magicians.Presentation;
 public partial class CombatBoardController : Control
 {
     private Label _status = null!;
-    private ColorRect _human = null!;
-    private ColorRect _ai = null!;
-    private ColorRect _projectile = null!;
     private VBoxContainer _actions = null!;
     private RichTextLabel _eventLog = null!;
     private RichTextLabel _missileLog = null!;
@@ -41,9 +38,6 @@ public partial class CombatBoardController : Control
     public override void _Ready()
     {
         _status = GetNode<Label>("Panel/Column/Status");
-        _human = GetNode<ColorRect>("Panel/Column/Arena/Human");
-        _ai = GetNode<ColorRect>("Panel/Column/Arena/Ai");
-        _projectile = GetNode<ColorRect>("Panel/Column/Arena/Projectile");
         _actions = GetNode<VBoxContainer>("Panel/Column/Actions");
         _cardScene = GD.Load<PackedScene>("res://Scenes/UI/CardView.tscn");
         var column = GetNode<VBoxContainer>("Panel/Column");
@@ -59,17 +53,9 @@ public partial class CombatBoardController : Control
         statusBar.AddChild(_selfStatus); statusBar.AddChild(_opponentStatus); column.AddChild(statusBar);
         _selfStatus.Pressed += () => OpenStatus(true);
         _opponentStatus.Pressed += () => OpenStatus(false);
-        var position = _actions.GetIndex();
-        var scroll = new ScrollContainer { SizeFlagsVertical = SizeFlags.ExpandFill, CustomMinimumSize = new Vector2(0, 320) };
-        column.AddChild(scroll);
-        column.MoveChild(scroll, position);
-        _actions.Reparent(scroll);
+        _actions.SizeFlagsVertical = SizeFlags.ExpandFill;
         _actions.SizeFlagsHorizontal = SizeFlags.ExpandFill;
-        GetNode<Control>("Panel/Column/Arena").CustomMinimumSize = new Vector2(0, 90);
-        GetNode<Control>("Panel/Column/Arena").SizeFlagsVertical = SizeFlags.Fill;
         _status.SizeFlagsVertical = SizeFlags.Fill;
-        _human.CustomMinimumSize = new Vector2(80, 80);
-        _ai.CustomMinimumSize = new Vector2(80, 80);
         _eventLog = GetNode<RichTextLabel>("Panel/Column/Logs/CardColumn/EventLog");
         _missileLog = GetNode<RichTextLabel>("Panel/Column/Logs/MissileColumn/MissileLog");
         Refresh();
@@ -100,12 +86,6 @@ public partial class CombatBoardController : Control
             $"对手  攻击{view.Opponent.Attack} · 防御{view.Opponent.Defense} · 生命{view.Opponent.Life} · 护盾{view.Opponent.Shield}    行动值{view.ActionValue}";
         if (view?.Phase == CombatPhase.Finished && state.Phase == MatchPhase.Combat)
             _status.Text += "\n你的战斗已结束，正在后台结算另一组对战……";
-        _projectile.Visible = view?.Phase == CombatPhase.Decision;
-        if (view is not null)
-        {
-            _human.Modulate = LifeTint(view.Self.Life);
-            _ai.Modulate = LifeTint(view.Opponent.Life);
-        }
         _selfStatus.Visible = view is not null;
         _opponentStatus.Visible = view is not null;
         _eventLog.Text = CombatLogText.Exchanges(_events, new PlayerId("human"));
@@ -126,16 +106,25 @@ public partial class CombatBoardController : Control
             var human = view.Self;
             var battleId = view.Battle;
             var canAct = view.CanAct && !session.IsHumanCombatDelegated;
-            var grid = new GridContainer { Columns = 5, SizeFlagsHorizontal = SizeFlags.ShrinkCenter };
-            grid.AddThemeConstantOverride("h_separation", 12);
-            grid.AddThemeConstantOverride("v_separation", 12);
-            _actions.AddChild(grid);
+            var handScroll = new ScrollContainer
+            {
+                Name = "HandScroll",
+                SizeFlagsHorizontal = SizeFlags.ExpandFill,
+                SizeFlagsVertical = SizeFlags.ExpandFill,
+                HorizontalScrollMode = ScrollContainer.ScrollMode.Auto,
+                VerticalScrollMode = ScrollContainer.ScrollMode.Disabled,
+                CustomMinimumSize = new Vector2(0, 330)
+            };
+            var hand = new HBoxContainer { Name = "Hand", SizeFlagsVertical = SizeFlags.ShrinkCenter };
+            hand.AddThemeConstantOverride("separation", 12);
+            handScroll.AddChild(hand);
+            _actions.AddChild(handScroll);
             foreach (var card in view.OwnCards)
             {
                 var definition = session.Cards.Get(card.CardId);
                 var row = new VBoxContainer();
                 var cardView = _cardScene.Instantiate<CardView>();
-                var width = Mathf.Clamp(Mathf.Min((Size.X - 80) / 5, (Size.Y - 430) / 1.618f), 220, 300);
+                var width = Mathf.Clamp((Size.Y - 360) / 1.618f, 180, 280);
                 cardView.CustomMinimumSize = new Vector2(width, width * 1.618f);
                 row.AddChild(cardView);
                 cardView.Bind(session.CardProfiles.Get(card.CardId), combat: true,
@@ -146,7 +135,7 @@ public partial class CombatBoardController : Control
                 var revision = view.Revision;
                 button.Pressed += () => PlayOrSearch(battleId, instanceId, revision);
                 row.AddChild(button);
-                grid.AddChild(row);
+                hand.AddChild(row);
             }
             var end = new Button { Text = "结束当前出牌窗口" };
             end.Disabled = !canAct;
