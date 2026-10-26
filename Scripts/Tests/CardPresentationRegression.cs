@@ -16,11 +16,11 @@ public static class CardPresentationRegression
             try
             {
                 view.Bind(profile);
-                if (view.GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Rarity").GetThemeColor("font_color") != CardView.RarityColor(profile.Rarity))
+                if (view.GetNode<Label>("Margin/Column/StatsRarity/Rarity").GetThemeColor("font_color") != CardView.RarityColor(profile.Rarity))
                     throw new InvalidDataException("Rarity color was not applied to the visible label: " + profile.CardId);
-                if (view.GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Attack").Text != $"攻+{profile.Attack}" ||
-                    view.GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Defense").Text != $"防+{profile.Defense}" ||
-                    view.GetNode<Label>("Margin/Column/Details/Text/StatsRarity/Rarity").Text != $"<{CardPresentationCatalog.RarityLabel(profile.Rarity)}>" ||
+                if (view.GetNode<Label>("Margin/Column/StatsRarity/Attack").Text != $"攻+{profile.Attack}" ||
+                    view.GetNode<Label>("Margin/Column/StatsRarity/Defense").Text != $"防+{profile.Defense}" ||
+                    view.GetNode<Label>("Margin/Column/StatsRarity/Rarity").Text != $"<{CardPresentationCatalog.RarityLabel(profile.Rarity)}>" ||
                     view.GetNode<Label>("Margin/Column/Details/Text/Enchantment").Visible ||
                     !string.IsNullOrEmpty(view.GetNode<Label>("Margin/Column/Details/Text/Enchantment").Text) ||
                     view.GetNode<Label>("Margin/Column/Title").HorizontalAlignment != HorizontalAlignment.Center)
