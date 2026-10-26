@@ -28,28 +28,6 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 20
 text = "战斗阶段"
 
-[node name="Arena" type="HBoxContainer" parent="Panel/Column"]
-layout_mode = 2
-size_flags_vertical = 3
-alignment = 1
-theme_override_constants/separation = 18
-
-[node name="Human" type="ColorRect" parent="Panel/Column/Arena"]
-custom_minimum_size = Vector2(110, 135)
-layout_mode = 2
-color = Color(0.31, 0.616, 0.412, 1)
-
-[node name="Projectile" type="ColorRect" parent="Panel/Column/Arena"]
-custom_minimum_size = Vector2(150, 60)
-layout_mode = 2
-size_flags_vertical = 4
-color = Color(0.557, 0.839, 1, 1)
-
-[node name="Ai" type="ColorRect" parent="Panel/Column/Arena"]
-custom_minimum_size = Vector2(110, 135)
-layout_mode = 2
-color = Color(0.463, 0.322, 0.659, 1)
-
 [node name="Status" type="Label" parent="Panel/Column"]
 layout_mode = 2
 size_flags_vertical = 3
@@ -88,3 +66,4 @@ text = "飞弹发射与结算"
 custom_minimum_size = Vector2(0, 112)
 layout_mode = 2
 scroll_following = true
+
