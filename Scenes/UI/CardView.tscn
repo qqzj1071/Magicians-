@@ -105,12 +105,13 @@ theme_override_constants/separation = 4
 size_flags_horizontal = 3
 theme_override_font_sizes/font_size = 16
 
-[node name="Defense" type="Label" parent="Margin/Column/Details/Text/StatsRarity"]
+[node name="Rarity" type="Label" parent="Margin/Column/Details/Text/StatsRarity"]
 size_flags_horizontal = 3
 theme_override_font_sizes/font_size = 16
 horizontal_alignment = 2
 
-[node name="Rarity" type="Label" parent="Margin/Column/Details/Text/StatsRarity"]
+[node name="Defense" type="Label" parent="Margin/Column/Details/Text/StatsRarity"]
+size_flags_horizontal = 3
 theme_override_font_sizes/font_size = 16
 horizontal_alignment = 2
 
