@@ -16,6 +16,7 @@
 - [训练、回退与防过拟合方法](tournament-v1-method.md)
 - [真实抓牌、存费和出牌理由示例](tournament-v1-decisions.md)
 - [当前研究检查点指针](current-tournament.json)
+- [卡牌平衡测试计分约定](card-balance-testing.md)
 
 研究候选可用tools/round_robin/tournament_inference.load_release读取research/tournament-v1-training01。实际推荐模型以current-tournament.json中的model与哈希为准；混合赛事若明确退步，保留冻结前AI作为默认。整体是否更强以独立终测与区间为准，不能用自弈胜率、训练次数或Dice代替战力。
 
