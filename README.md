@@ -1,6 +1,14 @@
 # Magicians!
 
-## 下载与试玩
+## Windows 免安装版（v1.0）
+
+**[下载可直接玩的游戏包（内含 Magicians.exe，约 81 MiB）](https://raw.githubusercontent.com/qqzj1071/Magicians-/v1.0/releases/windows-v1.0/Magicians-v1.0-Windows-x64.zip)**
+
+完整解压后，打开其中的 `Magicians-2026.10.27-Windows` 文件夹，双击 `Magicians.exe`。
+包内已经带齐运行环境，无需另外安装 Godot、Python 或 .NET。
+请保留 EXE 旁的资源和运行时文件夹。[查看运行说明和校验信息](releases/windows-v1.0/README.md)。
+
+## 从源码开发与运行
 
 当前仓库包含可运行的 Godot 4.7.2 .NET 单人客户端。Windows 玩家可以：
 
