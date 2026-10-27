@@ -1,0 +1,36 @@
+name: Assemble verified v1.0 Windows package
+
+on:
+  push:
+    branches: [v1.0]
+    paths:
+      - releases/windows-v1.0/upload-manifest.json
+
+permissions:
+  contents: write
+
+concurrency:
+  group: assemble-v1.0-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  assemble:
+    if: github.repository == 'qqzj1071/Magicians-' && github.ref == 'refs/heads/v1.0' && startsWith(github.event.head_commit.message, 'Stage v1.0 portable package assembly')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the approved publication files
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /releases/windows-v1.0/
+            /.github/scripts/assemble-v1.0.py
+            /.github/workflows/assemble-v1.0.yml
+
+      - name: Verify, assemble, and commit the game package
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/assemble-v1.0.py
