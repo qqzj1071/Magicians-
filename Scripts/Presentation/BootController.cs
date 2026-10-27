@@ -12,12 +12,21 @@ public partial class BootController : Node
     {
         try
         {
+            if (!OS.HasFeature("editor"))
+                ReleaseIntegrity.Verify(Path.GetDirectoryName(OS.GetExecutablePath())!);
             DisplayPreferences.Load().Apply();
             ShowMainMenu();
+            if (OS.GetCmdlineUserArgs().Contains("--release-smoke"))
+            {
+                StartGame();
+                AddChild(new Magicians.Tests.ReleaseSmokeRunner());
+            }
         }
         catch (Exception exception)
         {
             GD.PrintErr($"BOOT_FAILED {exception}");
+            if (!DisplayServer.GetName().Equals("headless", StringComparison.Ordinal))
+                OS.Alert(exception.Message, "Magicians! 文件校验失败");
             GetTree().Quit(1);
         }
     }
@@ -40,7 +49,7 @@ public partial class BootController : Node
             _match?.QueueFree();
             _menu?.QueueFree();
             _menu = null;
-            var root = ProjectSettings.GlobalizePath("res://");
+            var root = ClientPaths.DataRoot;
             GameSession.Current = GameSession.CreateSlice1(root);
             GameSession.Current.BeginDraft();
             _match = GD.Load<PackedScene>("res://Scenes/Match/Match.tscn").Instantiate<Control>();
@@ -49,9 +58,11 @@ public partial class BootController : Node
         catch (Exception exception)
         {
             GD.PrintErr($"START_GAME_FAILED {exception}");
+            OS.Alert(exception.Message, "Magicians! 启动失败");
             ShowMainMenu();
         }
     }
 
     public void ExitGame() => GetTree().Quit();
 }
+

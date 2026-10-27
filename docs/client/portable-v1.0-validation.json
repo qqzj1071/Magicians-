@@ -1,0 +1,20 @@
+{
+  "package": "Magicians-v1.0-Portable-20261027.zip",
+  "invalidPythonAndDotnetVariables": "passed",
+  "renderedMenuAndDraft": "passed via Windows GUI",
+  "realBattles": 4,
+  "sourceMain": "bc1f4f75cf30a788dfb925688075742ac9ae79ad",
+  "bytes": 84658907,
+  "separatePhysicalMachine": "not tested",
+  "collaboratorCommit": "0567a049271d21f459f12be4c6b2b202d9b9244d",
+  "irrelevantWorkingDirectory": "passed",
+  "sha256": "a9110a2e7a27499a178d20b2c8dfc1d32384f69c0d5673b5f4ba2821804c0033",
+  "noDeveloperPath": "passed",
+  "zipCrc": "passed",
+  "tamperRejected": "passed exit 1",
+  "relocatedChineseAndSpaces": "passed",
+  "realAiRounds": 2,
+  "zipFiles": 613,
+  "version": "1.0",
+  "integrityFiles": 611
+}

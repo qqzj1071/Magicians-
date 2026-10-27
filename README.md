@@ -1,5 +1,9 @@
 # Magicians!
 
+Windows 试玩版采用正式的免安装 ZIP：完整解压后双击 `Magicians.exe`，无需安装 Godot、.NET SDK 或 Python，也无需联网。请保留 EXE、PCK、data_Magicians!_windows_x86_64 与 runtime-data 的相对位置。包内提供卡牌 DOCX 与可选的桌面快捷方式脚本。发布流程和完整性保护限制见 [Windows 免安装发布](docs/client/portable-release.md)。
+
+以下安装开发环境的步骤仅适用于源码协作。发布包仅在明确要求时构建，不随每次代码提交自动更新。
+
 ## 下载与试玩
 
 当前仓库包含可运行的 Godot 4.7.2 .NET 单人客户端。Windows 玩家可以：
@@ -33,3 +37,4 @@ powershell -ExecutionPolicy Bypass -File tools/run_client_regressions.ps1
 完整四人赛事AI已完成[十轮学习与独立终测](docs/ai/tournament-v1-report.md)。固定标准牌组历史六轮先验独立保留；当前标准牌组由decks/active.json指定。卡牌与构筑规则未因训练修改。
 
 共创者请从[上手与协作说明](CONTRIBUTING.md)开始。当前[世界观与美术方向](docs/lore/README.md)为“魔法集会与魔法师大赛”；项目包含设计资料、模拟与AI研究工具，联机和可玩客户端仍待继续开发。
+

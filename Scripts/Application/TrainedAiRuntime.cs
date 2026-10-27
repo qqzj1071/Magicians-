@@ -49,6 +49,8 @@ public sealed class TrainedAiRuntime : IDisposable
 
     private static string ResolvePythonExecutable(string root, JsonElement settings)
     {
+        var bundled = Path.Combine(root, "tools", "client_ai", "python-runtime", "python.exe");
+        if (File.Exists(bundled)) return bundled;
         var configured = Environment.GetEnvironmentVariable("MAGICIANS_PYTHON");
         if (string.IsNullOrWhiteSpace(configured) && settings.TryGetProperty("pythonExecutable", out var property))
             configured = property.GetString();
@@ -110,6 +112,8 @@ public sealed class TrainedAiRuntime : IDisposable
         start.Environment["PYTHONIOENCODING"] = "utf-8";
         start.Environment["PYTHONHASHSEED"] = "0";
         start.Environment["PYTHONDONTWRITEBYTECODE"] = "1";
+        start.Environment.Remove("PYTHONHOME");
+        start.Environment.Remove("PYTHONPATH");
         start.Environment.Remove("MAGICIANS_CARD_LIBRARY");
         var worker = Process.Start(start) ?? throw new InvalidOperationException("Unable to start AI inference worker.");
         _processes[player] = worker;

@@ -1,5 +1,5 @@
 {
-  "pythonExecutable": "C:\\Users\\33763\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
-  "mode": "inference-only",
-  "checkpointPointer": "docs/ai/current-tournament.json"
+  "checkpointPointer": "docs/ai/current-tournament.json",
+  "pythonExecutable": "tools/client_ai/python-runtime/python.exe",
+  "mode": "inference-only"
 }

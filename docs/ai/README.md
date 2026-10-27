@@ -1,5 +1,7 @@
 # 构筑与战斗AI · 当前入口
 
+免安装发布包优先使用随包测试过的 Python 3.12.10 amd64，忽略开发机的 Python 环境变量并移除 PYTHONHOME、PYTHONPATH，不要求玩家安装 Python。源码开发时保留环境变量、虚拟环境和常见路径探测。发布者使用 tools/installer/build_portable.py 显式构建，详见 docs/client/portable-release.md。
+
 卡牌v1.0与[构筑v1.0](../../releases/deckbuilding-v1.0/README.md)冻结；AI检查点独立演进，不能回写游戏规则。
 
 客户端已通过 `tools/client_ai/inference_worker.py` 接入本页指针指定的检查点，校验 `model_sha256`，直接复用研究版 `Learner`、构筑特征/评分、刷新估值、战斗阶段规划与检索候选评分。仅执行推理，不学习、不修改权重，不改冻结的engine.py、planner.py或policies.json。战斗规则仍由C#引擎权威执行；Python中的条件预演是决策建议，不能作为客户端实际结算或必杀保证。
