@@ -1,5 +1,7 @@
 # Magicians!
 
+当前项目版本：**v1.1.2**。
+
 已经完成火系卡牌命名
 
 **[下载 Windows 独立试玩包（2026-10-29 火系命名版）](https://github.com/qqzj1071/Magicians-/raw/refs/heads/main/releases/windows/Magicians-Fire-Naming-20261029.zip)** · [SHA-256 校验](releases/windows/Magicians-Fire-Naming-20261029.zip.sha256)
@@ -37,7 +39,7 @@ Windows 试玩版采用正式的免安装 ZIP：完整解压后双击 `Magicians
 
 仅试玩请使用上面的独立包。仓库 **Code → Download ZIP** 会下载整个源码仓库；直接下载独立包更方便。开发和修改客户端仍需准备 Godot 4.7.2 .NET 等开发环境。协作者请参考[上手与协作说明](CONTRIBUTING.md)；独立包构建与验收见 [Windows 免安装发布](docs/client/portable-release.md)。
 
-当前卡牌版本与牌组构筑版本均为 **v1.0**。请从[文档入口](docs/README.md)开始。
+当前项目版本为 **v1.1.2**；卡牌与牌组构筑规则仍沿用冻结的 **v1.0**。请从[文档入口](docs/README.md)开始。
 
 唯一卡牌数据：releases/v1.0/cards.json；唯一构筑规则为[构筑v1.0](releases/deckbuilding-v1.0/README.md)。旧规则与实验已压缩标记过时，默认不读取。当前阶段为固定规则下的四人赛事AI学习。
 
