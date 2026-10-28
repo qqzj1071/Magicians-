@@ -112,7 +112,7 @@ public partial class MatchViewController : Control
         _reviewButton.Visible = canReview;
         _review.Visible = canReview && _showReview;
         _reviewButton.Text = _review.Visible ? "返回赛事" : "逐轮出牌复盘";
-        _draftBroadcast.Text = string.Join("\n", DraftBroadcastText.Lines(state, session.Cards));
+        _draftBroadcast.Text = string.Join("\n", DraftBroadcastText.Lines(state, session.Cards, session.CardProfiles));
         _draftBroadcast.Visible = state.Phase == MatchPhase.Draft && _draftBroadcast.Text.Length > 0 && !_review.Visible;
         _battleBroadcast.Text = string.Join("\n", session.BattleAnnouncements.TakeLast(2)
             .GroupBy(a => a.Round).OrderBy(g => g.Key)

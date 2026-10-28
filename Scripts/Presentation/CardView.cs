@@ -8,7 +8,7 @@ public partial class CardView : PanelContainer
 {
     public void Bind(CardPresentationProfile profile, int? studyPrice = null, bool freePurchase = false, bool combat = false, bool enchantmentApplied = false)
     {
-        GetNode<Label>("Margin/Column/Title").Text = profile.Name;
+        GetNode<Label>("Margin/Column/Title").Text = profile.DisplayName;
         var title = GetNode<Label>("Margin/Column/Title");
         title.AddThemeColorOverride("font_color", combat && profile.FirstEnchantmentLayers > 0 && !enchantmentApplied
             ? new Color("ffd166") : Colors.White);

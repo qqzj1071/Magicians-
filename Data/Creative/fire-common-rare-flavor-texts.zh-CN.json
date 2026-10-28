@@ -1,0 +1,194 @@
+{
+  "SchemaVersion": 1,
+  "Language": "zh-CN",
+  "ShowInMatchUi": false,
+  "IntendedUse": "future-card-closeups",
+  "Cards": [
+    {
+      "CardId": "火星",
+      "ProfileId": "card-dfbd8b22727ac5f4",
+      "DisplayName": "指尖火苗",
+      "Element": "fire",
+      "Rarity": "common",
+      "FlavorText": "每一个火系传奇的开端：一小簇火苗。他想去触摸，却不自觉缩了缩手。"
+    },
+    {
+      "CardId": "火苗",
+      "ProfileId": "card-e5ab517e9064bb74",
+      "DisplayName": "掌中火团",
+      "Element": "fire",
+      "Rarity": "common",
+      "FlavorText": "一团火星，温顺地躺在掌心，可以丢出去，也可以挥舞着驱赶黑暗。"
+    },
+    {
+      "CardId": "火花",
+      "ProfileId": "card-9f62cd8bb760dbb3",
+      "DisplayName": "火花",
+      "Element": "fire",
+      "Rarity": "common",
+      "FlavorText": "只是铁匠不慎掉出的火星子，却让孩子捧着高高举起跑过了半条街道。"
+    },
+    {
+      "CardId": "猛火弹",
+      "ProfileId": "card-cad07e433583b339",
+      "DisplayName": "猛火弹",
+      "Element": "fire",
+      "Rarity": "common",
+      "FlavorText": "结构简单，效果却不小，虽然它总是把桌布和窗帘点着。"
+    },
+    {
+      "CardId": "烈焰冲刺",
+      "ProfileId": "card-75c81cc40d718389",
+      "DisplayName": "催火",
+      "Element": "fire",
+      "Rarity": "common",
+      "FlavorText": "“客人还等着回去呢。”后来，对手也听见了这句话。"
+    },
+    {
+      "CardId": "火墙",
+      "ProfileId": "card-70035eb0e11295e5",
+      "DisplayName": "炼身淬骨",
+      "Element": "fire",
+      "Rarity": "common",
+      "FlavorText": "听起来很高级，其实也就是游医在罐子里点上一簇火，吸到身上拔去湿毒罢了。"
+    },
+    {
+      "CardId": "火种翻找",
+      "ProfileId": "card-6b4426ab79f34226",
+      "DisplayName": "逐火",
+      "Element": "fire",
+      "Rarity": "common",
+      "FlavorText": "黑夜总是来得猝不及防，转眼间就伸手不见五指。“妈，灯呢？”“你不是火系魔法师吗？”"
+    },
+    {
+      "CardId": "余火",
+      "ProfileId": "card-50d4e9ce268f7817",
+      "DisplayName": "回灶",
+      "Element": "fire",
+      "Rarity": "rare",
+      "FlavorText": "炉火刚暗下去，她凑到锅边闻了闻，敲了他一下：“没熟！你个傻子！”"
+    },
+    {
+      "CardId": "余烬刻度",
+      "ProfileId": "card-9abc35db34638292",
+      "DisplayName": "试我火候",
+      "Element": "fire",
+      "Rarity": "rare",
+      "FlavorText": "“去年说我火候不够的那位，今年坐近些。”"
+    },
+    {
+      "CardId": "余烬护心",
+      "ProfileId": "card-537bd81812364d61",
+      "DisplayName": "余温护心",
+      "Element": "fire",
+      "Rarity": "rare",
+      "FlavorText": "临行前，母亲替他在咒语书的这一页折了个角。"
+    },
+    {
+      "CardId": "压实火药",
+      "ProfileId": "card-c19dbddaab8d9c42",
+      "DisplayName": "添柴",
+      "Element": "fire",
+      "Rarity": "rare",
+      "FlavorText": "“老师，再加一根？”“一根就好。”他跑出去，抱回来半捆柴火。"
+    },
+    {
+      "CardId": "回火",
+      "ProfileId": "card-46c513b1d011c2fa",
+      "DisplayName": "回炉重造",
+      "Element": "fire",
+      "Rarity": "rare",
+      "FlavorText": "昨夜还在废料筐里的东西，今早已经摆进了橱窗。"
+    },
+    {
+      "CardId": "导火索",
+      "ProfileId": "card-cfd7af92d59b1f1d",
+      "DisplayName": "导火索",
+      "Element": "fire",
+      "Rarity": "rare",
+      "FlavorText": "“哎呀，这场乱子，就坏在他这……欲知后事如何，且听下回分解。”说书先生“啪”一下收起了折扇。"
+    },
+    {
+      "CardId": "战意",
+      "ProfileId": "card-2a717f01fd990958",
+      "DisplayName": "火势",
+      "Element": "fire",
+      "Rarity": "rare",
+      "FlavorText": "看着开始扭曲的空气，对门卖冰棍的摊主默默往箱子里又多添了几块冰。"
+    },
+    {
+      "CardId": "火种库",
+      "ProfileId": "card-938e9bf0eaa85a92",
+      "DisplayName": "火种书签",
+      "Element": "fire",
+      "Rarity": "rare",
+      "FlavorText": "一条条泛黄卷边的书签，昭示着千百次的练习。"
+    },
+    {
+      "CardId": "火舌",
+      "ProfileId": "card-50c78e6d0e8bc939",
+      "DisplayName": "火舌",
+      "Element": "fire",
+      "Rarity": "rare",
+      "FlavorText": "它先舔掉了咒页的一角，又乖乖缩回指缝里。"
+    },
+    {
+      "CardId": "灰烬账本",
+      "ProfileId": "card-e78a572629b003e2",
+      "DisplayName": "灰烬账本",
+      "Element": "fire",
+      "Rarity": "rare",
+      "FlavorText": "账上记着柴、炭、修炉钱，还有准备寄回家的钱款。"
+    },
+    {
+      "CardId": "灼痛",
+      "ProfileId": "card-964a1b1454631bfe",
+      "DisplayName": "浴火",
+      "Element": "fire",
+      "Rarity": "rare",
+      "FlavorText": "“只要还有一丝火苗，我就会继续燃烧。”“哦，那你如果是根废柴呢？”"
+    },
+    {
+      "CardId": "烈焰附身",
+      "ProfileId": "card-8b989f5e0cfdc1e9",
+      "DisplayName": "真火",
+      "Element": "fire",
+      "Rarity": "rare",
+      "FlavorText": "游医检查着伤口，“啧，伤口还烫着呢。”随后是一阵惨叫。"
+    },
+    {
+      "CardId": "燃血",
+      "ProfileId": "card-7c8f94b4ac9f5f84",
+      "DisplayName": "燃血",
+      "Element": "fire",
+      "Rarity": "rare",
+      "FlavorText": "观众本以为这一抹红意来自炉火，直到那红光随着他的脉搏，一下一下亮起。"
+    },
+    {
+      "CardId": "爆裂弹头",
+      "ProfileId": "card-39033d5f447fe903",
+      "DisplayName": "打铁花",
+      "Element": "fire",
+      "Rarity": "rare",
+      "FlavorText": "铁花飞，飘逸不残灰。"
+    },
+    {
+      "CardId": "高压弹仓",
+      "ProfileId": "card-75a0901c3ea7c788",
+      "DisplayName": "高温炉芯",
+      "Element": "fire",
+      "Rarity": "rare",
+      "FlavorText": "当殷红的炉芯开始闪烁，连最爱起哄的人也不敢吱声。"
+    },
+    {
+      "CardId": "高温炉心",
+      "ProfileId": "card-e7069256e9b55856",
+      "DisplayName": "炽红炉膛",
+      "Element": "fire",
+      "Rarity": "rare",
+      "FlavorText": "起炉，添柴，引火，铁匠开始了一天的“叮叮当当”。"
+    }
+  ],
+  "Status": "subset-snapshot",
+  "SupersededBy": "res://Data/Creative/fire-flavor-texts.zh-CN.json"
+}

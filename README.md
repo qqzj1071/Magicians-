@@ -1,5 +1,13 @@
 # Magicians!
 
+已经完成火系卡牌命名
+
+**[下载 Windows 独立试玩包（2026-10-29 火系命名版）](https://github.com/qqzj1071/Magicians-/raw/refs/heads/main/releases/windows/Magicians-Fire-Naming-20261029.zip)** · [SHA-256 校验](releases/windows/Magicians-Fire-Naming-20261029.zip.sha256)
+
+完整解压后双击包内 `Magicians.exe`，无需安装 Godot、Python 或 .NET。分享时请发送整个压缩包，不能只发送快捷方式或 EXE。
+
+本次更新涵盖全部 38 张火系卡牌，30 张采用新显示名，卡牌数值、效果、构筑规则和 AI 模型保持现行版本。38 条小字完整保存在[火系定稿](docs/lore/fire-all-final.txt)与 `Data/Creative/fire-flavor-texts.zh-CN.json`，局内暂不显示；[新旧卡名对照](docs/lore/fire-card-names.txt)随独立包一并提供。包内冻结版卡牌 DOCX 仍使用原名，请结合对照表查阅。
+
 Windows 试玩版采用正式的免安装 ZIP：完整解压后双击 `Magicians.exe`，无需安装 Godot、.NET SDK 或 Python，也无需联网。请保留 EXE、PCK、data_Magicians!_windows_x86_64 与 runtime-data 的相对位置。包内提供卡牌 DOCX 与可选的桌面快捷方式脚本。发布流程和完整性保护限制见 [Windows 免安装发布](docs/client/portable-release.md)。
 
 以下安装开发环境的步骤仅适用于源码协作。发布包仅在明确要求时构建，不随每次代码提交自动更新。

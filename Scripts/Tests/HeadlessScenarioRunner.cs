@@ -17,6 +17,12 @@ public partial class HeadlessScenarioRunner : Node
             var poolPath = ProjectSettings.GlobalizePath("res://Data/slice1/slice1-card-pool.json");
             var scenarioPath = ProjectSettings.GlobalizePath("res://Data/slice1/scenario.json");
             var database = CardDatabase.LoadFromJson(cardsPath);
+            if (OS.GetCmdlineUserArgs().Contains("--card-presentation-only", StringComparer.Ordinal))
+            {
+                CardPresentationRegression.Run(database, ProjectSettings.GlobalizePath("res://"));
+                GetTree().Quit(0);
+                return;
+            }
             var pool = Slice1CardPool.Load(poolPath);
             var fullPool = Slice1CardPool.LoadFull(
                 ProjectSettings.GlobalizePath("res://releases/deckbuilding-v1.0/pool-counts.json"),

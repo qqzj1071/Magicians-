@@ -25,7 +25,11 @@ public sealed record CardPresentationProfile(
     string RulesText,
     string DisplayRulesText,
     string[] RuleNotes,
-    CardArtSlots Art);
+    CardArtSlots Art)
+{
+    // Keep Name/CardId as frozen rule identifiers; only this label is localized.
+    public string DisplayName { get; init; } = Name;
+}
 
 /// <summary>One checked presentation profile per authoritative card. Profiles contain
 /// readable snapshots for artists; stale rule copies fail validation rather than
@@ -37,6 +41,7 @@ public sealed class CardPresentationCatalog
     public IReadOnlyCollection<CardPresentationProfile> All => _profiles.Values.ToArray();
     public CardPresentationProfile Get(string cardId) => _profiles.TryGetValue(cardId, out var profile)
         ? profile : throw new KeyNotFoundException("No card presentation profile: " + cardId);
+    public string NameFor(string cardId) => Get(cardId).DisplayName;
 
     public static CardPresentationCatalog Load(CardDatabase database, string directory)
     {
@@ -47,6 +52,7 @@ public sealed class CardPresentationCatalog
                 ?? throw new InvalidDataException("Empty card presentation profile: " + path);
             var card = database.Get(profile.CardId);
             if (profile.SchemaVersion != 1 || string.IsNullOrWhiteSpace(profile.ProfileId) || profile.Name != card.Name ||
+                string.IsNullOrWhiteSpace(profile.DisplayName) ||
                 profile.Element != card.Element || profile.Rarity != card.Rarity.ToString().ToLowerInvariant() ||
                 profile.CombatCost != card.Cost || profile.Attack != card.Attack || profile.Defense != card.Defense ||
                 profile.FirstEnchantmentLayers != card.Layers || profile.RulesText != card.Text ||
@@ -56,7 +62,8 @@ public sealed class CardPresentationCatalog
             if (!profiles.TryAdd(profile.CardId, profile))
                 throw new InvalidDataException("Duplicate card presentation profile: " + profile.CardId);
         }
-        if (profiles.Count != database.Count || profiles.Values.Select(p => p.ProfileId).Distinct().Count() != database.Count)
+        if (profiles.Count != database.Count || profiles.Values.Select(p => p.ProfileId).Distinct().Count() != database.Count ||
+            profiles.Values.Select(p => p.DisplayName).Distinct(StringComparer.Ordinal).Count() != database.Count)
             throw new InvalidDataException("Card presentation profiles must cover every card exactly once with unique stable IDs.");
         return new(profiles);
     }

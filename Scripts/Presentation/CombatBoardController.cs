@@ -96,7 +96,7 @@ public partial class CombatBoardController : Control
         _opponentStatus.Visible = state.Phase == MatchPhase.Combat;
         _selfStatus.Disabled = view is null;
         _opponentStatus.Disabled = view is null;
-        _eventLog.Text = CombatLogText.Exchanges(_events, new PlayerId("human"));
+        _eventLog.Text = CombatLogText.Exchanges(_events, new PlayerId("human"), session.CardProfiles);
         var missileText = CombatLogText.Missiles(_events, new PlayerId("human"));
         if (_missileLog.Text != missileText) _missileLog.Text = missileText;
         RefreshActions(session, view, state);
@@ -179,14 +179,15 @@ public partial class CombatBoardController : Control
 
     private void PlayOrSearch(BattleId battle, CardInstanceId card, long revision)
     {
-        var manager = GameSession.Current!.EnsureBattleInstances();
+        var session = GameSession.Current!;
+        var manager = session.EnsureBattleInstances();
         var search = manager.GetSearchSession(battle, new PlayerId("human"), card);
         if (search is null || search.Candidates.Count == 0)
         {
             SubmitHuman(battle, new CombatAction(CombatActionKind.PlayCard, card), revision);
             return;
         }
-        var popup = new Window { Title = $"{search.CardId}：按顺序选择至多{search.MaximumSelections}张",
+        var popup = new Window { Title = $"{session.CardProfiles.NameFor(search.CardId)}：按顺序选择至多{search.MaximumSelections}张",
             Size = new Vector2I(560, 480), Transient = true, Exclusive = true };
         var column = new VBoxContainer();
         popup.AddChild(column);
@@ -196,12 +197,12 @@ public partial class CombatBoardController : Control
         column.AddChild(order);
         foreach (var candidate in search.Candidates)
         {
-            var button = new CheckButton { Text = candidate.CardId };
+            var button = new CheckButton { Text = session.CardProfiles.NameFor(candidate.CardId) };
             button.Toggled += enabled =>
             {
                 if (enabled && selected.Count >= search.MaximumSelections) { button.SetPressedNoSignal(false); return; }
                 if (enabled) selected.Add(candidate.InstanceId); else selected.Remove(candidate.InstanceId);
-                order.Text = string.Join(" → ", selected.Select(id => search.Candidates.Single(c => c.InstanceId == id).CardId));
+                order.Text = string.Join(" → ", selected.Select(id => session.CardProfiles.NameFor(search.Candidates.Single(c => c.InstanceId == id).CardId)));
             };
             column.AddChild(button);
         }
