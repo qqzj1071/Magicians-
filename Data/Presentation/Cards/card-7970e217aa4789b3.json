@@ -8,7 +8,7 @@
   "CombatCost": 1,
   "BaseStudyCost": 1,
   "Attack": 1,
-  "Defense": 2,
+  "Defense": 3,
   "FirstEnchantmentLayers": 0,
   "RulesText": "目标攻击 -2（本场，可叠加）；整场",
   "DisplayRulesText": "目标攻击 -2（本场，可叠加）；整场",

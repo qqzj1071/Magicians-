@@ -1,0 +1,95 @@
+{
+  "cards": 189,
+  "stock": 707,
+  "deleted": [
+    "大地之盾",
+    "潮汐恩泽",
+    "穿空"
+  ],
+  "changed_fields": {
+    "熔盾烈焰": {
+      "text": {
+        "before": "本场主弹与加成副弹对护盾造成的伤害乘以1.2，可重复乘算叠加；不放大溢出生命伤害或穿盾部分。",
+        "after": "本场主弹与加成副弹对护盾造成的伤害乘以1.1，可重复乘算叠加；不放大溢出生命伤害或穿盾部分。"
+      }
+    },
+    "深渊": {
+      "cost": {
+        "before": 2,
+        "after": 3
+      }
+    },
+    "山岳壁垒": {
+      "text": {
+        "before": "额外获得1层土附魔；本场每次自身主弹发射前，土附魔产生的普通护盾额外增加40。每次打出使该固定增加量加算40。",
+        "after": "本场每次自身主弹发射前，土附魔产生的普通护盾额外增加40。每次打出使该固定增加量加算40。"
+      }
+    },
+    "层岩结构": {
+      "text": {
+        "before": "本场自身新获得的普通及临时护盾量最终×1.15；每次打出永久乘算叠加。不放大已有护盾，不改变旧盾衰减比例；全部倍率计算后统一向上取整。",
+        "after": "本场自身新获得的普通及临时护盾量最终×1.1；每次打出永久乘算叠加。不放大已有护盾，不改变旧盾衰减比例；全部倍率计算后统一向上取整。"
+      }
+    },
+    "风暴": {
+      "cost": {
+        "before": 2,
+        "after": 3
+      }
+    },
+    "缓释毒素": {
+      "text": {
+        "before": "本场由自身施加的毒，其自然衰减间隔×1.25，每次打出乘算叠加；保留当前已流逝进度，不重置计时，不改变毒伤触发频率。",
+        "after": "本场由自身施加的毒，其自然衰减间隔×1.2，每次打出乘算叠加；保留当前已流逝进度，不重置计时，不改变毒伤触发频率。"
+      }
+    }
+  },
+  "unchanged_cards": 183,
+  "tests_passed": 30,
+  "static_budget_problems": [],
+  "intentional_budget_deviations": [
+    {
+      "name": "深渊",
+      "value": 7.75,
+      "expected": [
+        9.5,
+        11
+      ],
+      "reason": "2026-10-29 user cost-only nerf; retain original panels"
+    },
+    {
+      "name": "风暴",
+      "value": 8.0,
+      "expected": [
+        9.5,
+        11
+      ],
+      "reason": "2026-10-29 user cost-only nerf; retain original panels"
+    }
+  ],
+  "new_tournaments": 0,
+  "hashes": {
+    "tools\\sim_v12\\__init__.py": "0e11ae776df77bb7eea4e2f9b818ecb59c8b14f8d77f6e86a1239cabbdb8ca17",
+    "tools\\sim_v12\\__main__.py": "73ff4a6f263f311557aac79bd940a3f222190ff1a15a2997a45232239cbac94d",
+    "tools\\sim_v12\\analytics.py": "683351248816291c8c9eaa3031fa268d6cac12dbefba5b3aed672ccf67ff420d",
+    "tools\\sim_v12\\catalog.py": "9fa3edcb8f9545fe60de97c46d7226b1249f073ab0a8ae10c8445817c954bf00",
+    "tools\\sim_v12\\cohort.py": "2e919b2a73d0f64d5fbe71c61e8cac4359c695546db73f4faac6385fa094f553",
+    "tools\\sim_v12\\construction.py": "e4bc4522f4dd2236bf8d0997814ef1aea247243ae7b3af0b85c0b0c0d06eff45",
+    "tools\\sim_v12\\construction_templates.py": "fa0f7c50e3c61463fc8e3d43de493ed6428a8bbe4db1eee691094102c9ecb57a",
+    "tools\\sim_v12\\effects.py": "b8ac4b5290fae28d2cbaabcc45a26902dd42f0600d518d3ce9024fb53c9bd26e",
+    "tools\\sim_v12\\engine.py": "f5b4b049cd0878fda2ac13c006c34dabd491b8734acf101b9b8a6ee9e40f7612",
+    "tools\\sim_v12\\learning_policy.py": "ac83afbe8b0c6fe19df8240e1753c68779cc9fc4ca08d04d28ff146b44b33cc6",
+    "tools\\sim_v12\\legacy_policy.py": "8a43832eef486d30546bde863173d52cbe9bb256cbd5b9b24321223296b3611b",
+    "tools\\sim_v12\\locked.py": "ff0d0a6157b094d7a830be7d6a14e49e33b5ff9bec9c1640befa879470f189f1",
+    "tools\\sim_v12\\mechanics.py": "949fe11a0ffe9b77008d344837b0fc3972ed11d17353b0569d21d5358ba90053",
+    "tools\\sim_v12\\model.py": "48aa946c29553e8efa2470855c91532b15301dbb4764c70cbcd0a69611df7719",
+    "tools\\sim_v12\\policy.py": "1796b6872c999764963237c76b2b73637a1cec0d396da7254aca8158bd2b6661",
+    "tools\\sim_v12\\pool.py": "57e5dad528799512c06389018294a182174e62993129d8120d1c1546e40dcafb",
+    "tools\\sim_v12\\quick_test.py": "f7cd04dab9a5e95300e42f9e7b5e36171b06cf23de8518c2c8a2c30f471f4b78",
+    "tools\\sim_v12\\strict.py": "915f690c6f389a6bee01d0334b212719798fe1f4566b81ccbd36ff21a484b6f3",
+    "tools\\sim_v12\\test_current.py": "5ce5b5a4cc08e1d9f4ea0ce13a3eada0a1d17449d23e144ef894f7d309a6354c",
+    "tools\\sim_v12\\thin_train.py": "b5cb399951f36441829aa3456e55000a82205456e967183a45a34805f5dcdaf2",
+    "tools\\sim_v12\\tournament.py": "cfae5e9a0ba1f2853f09a83f01f9c052140603c16ee8f620b8ef33368e972ae1",
+    "tools\\sim_v12\\train.py": "a1dcfee911e61868c06ffe6bcf816259f09c64a8eaf90e976d71d0cf3020678d"
+  }
+}

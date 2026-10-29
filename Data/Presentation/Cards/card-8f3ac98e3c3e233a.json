@@ -8,7 +8,7 @@
   "CombatCost": 2,
   "BaseStudyCost": 2,
   "Attack": 1,
-  "Defense": 5,
+  "Defense": 8,
   "FirstEnchantmentLayers": 1,
   "RulesText": "若毒层 >0，立即 +1 毒层并触发一次毒伤；立即",
   "DisplayRulesText": "若毒层 >0，立即 +1 毒层并触发一次毒伤；立即",

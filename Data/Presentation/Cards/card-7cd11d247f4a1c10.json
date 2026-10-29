@@ -8,10 +8,10 @@
   "CombatCost": 1,
   "BaseStudyCost": 1,
   "Attack": 1,
-  "Defense": 2,
+  "Defense": 3,
   "FirstEnchantmentLayers": 1,
-  "RulesText": "毒附魔层数 +1；随机查看摸牌堆中的 2 张毒系牌，选 1 张置顶，其余位置不变",
-  "DisplayRulesText": "毒附魔层数 +1；随机查看摸牌堆中的 2 张毒系牌，选 1 张置顶，其余位置不变",
+  "RulesText": "随机查看摸牌堆中的 2 张毒系牌，选 1 张置顶，其余位置不变",
+  "DisplayRulesText": "随机查看摸牌堆中的 2 张毒系牌，选 1 张置顶，其余位置不变",
   "RuleNotes": [],
   "Art": {
     "IllustrationTexture": "",

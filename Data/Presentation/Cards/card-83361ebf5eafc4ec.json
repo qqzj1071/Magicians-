@@ -7,7 +7,7 @@
   "Rarity": "rare",
   "CombatCost": 1,
   "BaseStudyCost": 2,
-  "Attack": 8,
+  "Attack": 7,
   "Defense": 1,
   "FirstEnchantmentLayers": 1,
   "RulesText": "所有主弹伤害+25%，持续至本方下次抽牌阶段前；抽牌前",

@@ -7,7 +7,7 @@
   "Rarity": "common",
   "CombatCost": 1,
   "BaseStudyCost": 1,
-  "Attack": 3,
+  "Attack": 4,
   "Defense": 1,
   "FirstEnchantmentLayers": 0,
   "RulesText": "下一发主弹额外获得25%护盾穿透；按效果",

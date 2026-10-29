@@ -88,8 +88,8 @@ public partial class DraftBoardController : Control
             row.AddChild(view);
             var buy = new Button { Text = offer.IsPurchased ? "已购买" : offer.IsSkipped ? "已跳过" : "购买" };
             var definition = session.Cards.Get(offer.Card.CardId);
-            var free = !player.Draft.FreePurchaseUsed && ((state.Round <= 3 && definition.Rarity == Magicians.Core.Cards.CardRarity.Common) ||
-                (state.Round is >= 4 and <= 6 && definition.Rarity is Magicians.Core.Cards.CardRarity.Common or Magicians.Core.Cards.CardRarity.Rare));
+            var free = !player.Draft.FreePurchaseUsed && ((state.Round <= 2 && definition.Rarity == Magicians.Core.Cards.CardRarity.Common) ||
+                (state.Round is >= 3 and <= 4 && definition.Rarity is Magicians.Core.Cards.CardRarity.Common or Magicians.Core.Cards.CardRarity.Rare));
             var purchaseActions = legal.Where(a => a.Kind == "buy" && a.Slot == offer.SlotId).ToArray();
             buy.Disabled = offer.IsResolved || purchaseActions.Length == 0 || player.Draft.IsCompleted;
             buy.TooltipText = definition.Text;
@@ -103,7 +103,7 @@ public partial class DraftBoardController : Control
                 foreach (var action in purchaseActions)
                 {
                     var old = player.Deck.Cards.Single(c => c.InstanceId.Value == action.Replace);
-                    var select = new Button { Text = $"替换 {session.CardProfiles.NameFor(old.CardId)}（{action.Cost}研习点）" }; choices.AddChild(select);
+                    var select = new Button { Text = $"替换 {old.CardId}（{action.Cost}研习点）" }; choices.AddChild(select);
                     select.Pressed += () => { Buy(slot, new CardInstanceId(action.Replace!)); choice.QueueFree(); };
                 }
                 choice.CloseRequested += choice.QueueFree;
@@ -121,13 +121,13 @@ public partial class DraftBoardController : Control
             foreach (var definition in session.Cards.All.Where(c => c.Kind == Magicians.Core.Cards.CardKind.Specialization))
             {
                 if (player.Deck.Cards.Count(c => session.Cards.Get(c.CardId).Element == definition.Element && session.Cards.Get(c.CardId).Layers > 0) < 3) continue;
-                AddAction($"选择专精：{session.CardProfiles.NameFor(definition.Name)}", () => RunCommand((id, sequence) =>
+                AddAction($"选择专精：{definition.Name}", () => RunCommand((id, sequence) =>
                     new ChooseSpecializationCommand(id, player.Id, definition.Element, definition.Name, sequence)));
             }
         if (session.CardPool.StarterCardsConsumePool && player.Draft.SpecializationElement is { } element)
             foreach (var definition in session.Cards.All.Where(c => c.Kind == Magicians.Core.Cards.CardKind.RouteLegendary && c.Element == element &&
                          c.Name != player.Draft.RouteLegendaryId && state.SharedCardInventory.GetValueOrDefault(c.Name) > 0))
-                AddAction($"{(player.Draft.RouteLegendaryId is null ? "选择" : "替换")}路线：{session.CardProfiles.NameFor(definition.Name)}", () => RunCommand((id, sequence) =>
+                AddAction($"{(player.Draft.RouteLegendaryId is null ? "选择" : "替换")}路线：{definition.Name}", () => RunCommand((id, sequence) =>
                     player.Draft.RouteLegendaryId is { } oldRoute
                         ? new ReplaceRouteCommand(id, player.Id, oldRoute, definition.Name, sequence)
                         : new ChooseRouteCommand(id, player.Id, definition.Name, sequence)));
@@ -181,7 +181,7 @@ public partial class DraftBoardController : Control
             view.Bind(session.CardProfiles.Get(card.CardId), combat: true);
             var action = legal.FirstOrDefault(a => a.Kind == "remove" && a.Card == card.InstanceId.Value);
             var button = new Button { Text = "删除", Disabled = action is null || state.Phase != MatchPhase.Draft || player.Draft.IsCompleted,
-                TooltipText = action is null ? "当前不符合删牌规则" : $"删除【{session.CardProfiles.NameFor(card.CardId)}】：{action.Cost}研习点" };
+                TooltipText = action is null ? "当前不符合删牌规则" : $"删除【{card.CardId}】：{action.Cost}研习点" };
             button.SetMeta("card_instance", card.InstanceId.Value);
             button.Pressed += () => RunCommand((id, sequence) => new RemoveCardCommand(id, player.Id, card.InstanceId, sequence));
             row.AddChild(button); grid.AddChild(row);
@@ -249,5 +249,4 @@ public partial class DraftBoardController : Control
     private MatchViewController GetMatchView() =>
         GetParent().GetParent().GetParent<MatchViewController>();
 }
-
 

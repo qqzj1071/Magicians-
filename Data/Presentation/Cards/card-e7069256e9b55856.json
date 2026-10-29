@@ -7,8 +7,8 @@
   "Rarity": "rare",
   "CombatCost": 2,
   "BaseStudyCost": 2,
-  "Attack": 4,
-  "Defense": 3,
+  "Attack": 6,
+  "Defense": 4,
   "FirstEnchantmentLayers": 1,
   "RulesText": "火层 ≥6 时再 +4 攻；整场",
   "DisplayRulesText": "火层 ≥6 时再 +4 攻；整场",
@@ -19,6 +19,5 @@
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
-  },
-  "DisplayName": "炽红炉膛"
+  }
 }

@@ -1,0 +1,8393 @@
+[
+  {
+    "room_seed": 282000,
+    "round": 9,
+    "a": 0,
+    "b": 1,
+    "battle_seed": 15896657510227804651,
+    "hp_verified": [
+      386,
+      -31
+    ],
+    "events": 150,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "余烬之核",
+        "uid": "0:17",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:4",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "潮汐之心",
+        "uid": "1:6",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:15",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:6",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "炽焰王冠",
+        "uid": "0:5",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "活水",
+        "uid": "1:7",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "火种翻找",
+        "uid": "0:1",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "重洗",
+        "uid": "1:0",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "连环潮",
+        "uid": "1:16",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "火种库",
+        "uid": "0:12",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "回流",
+        "uid": "1:13",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "燃页",
+        "uid": "0:11",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "活水",
+        "uid": "1:7",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "水膜",
+        "uid": "1:1",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "猛火弹",
+        "uid": "0:9",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "深流",
+        "uid": "1:9",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "水之低语",
+        "uid": "1:10",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "火墙",
+        "uid": "0:8",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "引火",
+        "uid": "0:13",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "细流",
+        "uid": "1:8",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "火花",
+        "uid": "0:4",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "利刃",
+        "uid": "0:2",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "爆裂弹头",
+        "uid": "0:7",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "生命之泉",
+        "uid": "1:18",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "火舌",
+        "uid": "0:18",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "泉眼",
+        "uid": "1:3",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "战意",
+        "uid": "0:16",
+        "cost": 1,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282021,
+    "round": 9,
+    "a": 0,
+    "b": 1,
+    "battle_seed": 18313006094652787333,
+    "hp_verified": [
+      -8,
+      1000
+    ],
+    "events": 325,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "活水",
+        "uid": "0:4",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "壁垒之心",
+        "uid": "1:18",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻阅",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "活水",
+        "uid": "1:3",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:14",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:4",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "不周山",
+        "uid": "1:7",
+        "cost": 2,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "潮汐回廊",
+        "uid": "0:17",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "泉眼",
+        "uid": "0:12",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "寻岩",
+        "uid": "1:2",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "余震",
+        "uid": "1:20",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "垒石",
+        "uid": "1:5",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "潮汐之心",
+        "uid": "0:9",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:14",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "回流",
+        "uid": "0:15",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "岩核共鸣",
+        "uid": "1:11",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "开岩",
+        "uid": "0:3",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "厚土",
+        "uid": "1:13",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "血偿",
+        "uid": "0:20",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "裂岩护壁",
+        "uid": "1:15",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "润泽",
+        "uid": "0:18",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "岩甲",
+        "uid": "1:6",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:6",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "循毒",
+        "uid": "0:5",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "岩壁",
+        "uid": "1:9",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "水之低语",
+        "uid": "0:8",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "坚岩",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "水膜",
+        "uid": "0:11",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "血潮",
+        "uid": "0:19",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "开岩",
+        "uid": "1:10",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "检索附魔",
+        "uid": "0:0",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "山岳",
+        "uid": "1:16",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "回潮",
+        "uid": "0:2",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "万钧碎盾",
+        "uid": "1:17",
+        "cost": 3,
+        "energy": 0
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "细流",
+        "uid": "0:13",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "重洗",
+        "uid": "0:1",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 1,
+        "name": "大地之盾",
+        "uid": "1:19",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 0,
+        "name": "回流",
+        "uid": "0:15",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 0,
+        "name": "血怒",
+        "uid": "0:21",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 1,
+        "name": "检索附魔",
+        "uid": "1:0",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 800,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻阅",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 800,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:14",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 800,
+        "kind": "play",
+        "seat": 0,
+        "name": "开岩",
+        "uid": "0:3",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 800,
+        "kind": "play",
+        "seat": 1,
+        "name": "寻岩",
+        "uid": "1:2",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 800,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:14",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 800,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:4",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 800,
+        "kind": "play",
+        "seat": 1,
+        "name": "厚土",
+        "uid": "1:13",
+        "cost": 1,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282042,
+    "round": 9,
+    "a": 0,
+    "b": 1,
+    "battle_seed": 2908749213808627539,
+    "hp_verified": [
+      -27,
+      423
+    ],
+    "events": 201,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "不周山",
+        "uid": "0:5",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "风刃",
+        "uid": "1:15",
+        "cost": 1,
+        "energy": 3
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "开岩",
+        "uid": "0:7",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "狂风",
+        "uid": "1:12",
+        "cost": 2,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:5",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "风幕",
+        "uid": "1:4",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "蓄势",
+        "uid": "1:6",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "反震岩核",
+        "uid": "0:16",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "天岚",
+        "uid": "1:11",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "大检索",
+        "uid": "0:2",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "寻风",
+        "uid": "1:14",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "垒石",
+        "uid": "0:11",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "包扎",
+        "uid": "1:3",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "疾风连斩",
+        "uid": "1:20",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "寻岩",
+        "uid": "0:3",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "疾风",
+        "uid": "1:13",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "碎盾术",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "守岩",
+        "uid": "0:12",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "风痕",
+        "uid": "1:17",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:14",
+        "cost": 0,
+        "energy": 3
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "岩壁",
+        "uid": "0:9",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "风眼",
+        "uid": "1:19",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "岩甲",
+        "uid": "0:8",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:1",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "风暴",
+        "uid": "1:18",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:6",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "不动如山",
+        "uid": "0:15",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "疾影",
+        "uid": "1:10",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "坚岩",
+        "uid": "0:4",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "风步",
+        "uid": "1:8",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "重洗",
+        "uid": "0:0",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:14",
+        "cost": 0,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "风卷",
+        "uid": "1:16",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "回震岩甲",
+        "uid": "0:17",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "重洗",
+        "uid": "1:0",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "换页",
+        "uid": "1:7",
+        "cost": 0,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282063,
+    "round": 9,
+    "a": 0,
+    "b": 3,
+    "battle_seed": 4212392771736711357,
+    "hp_verified": [
+      225,
+      -30
+    ],
+    "events": 172,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "穿云箭",
+        "uid": "0:17",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "大检索",
+        "uid": "1:8",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "疾行",
+        "uid": "0:16",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "泉眼",
+        "uid": "1:11",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "细流",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "天岚",
+        "uid": "0:8",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "潮汐之心",
+        "uid": "1:7",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "循毒",
+        "uid": "0:3",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "回流",
+        "uid": "1:13",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:2",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "穿云",
+        "uid": "0:5",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "检索附魔",
+        "uid": "1:0",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "寻风",
+        "uid": "0:11",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "血偿",
+        "uid": "1:19",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:6",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "回潮",
+        "uid": "1:2",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "风驰",
+        "uid": "0:10",
+        "cost": 2,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "深流",
+        "uid": "1:17",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "掠影",
+        "uid": "0:9",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "水之低语",
+        "uid": "1:14",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "风步",
+        "uid": "0:7",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "潮声",
+        "uid": "1:21",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "生命之泉",
+        "uid": "1:20",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "狂风",
+        "uid": "0:14",
+        "cost": 2,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "风暴",
+        "uid": "0:18",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:18",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "轻羽",
+        "uid": "0:13",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "润泽",
+        "uid": "1:4",
+        "cost": 0,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282084,
+    "round": 9,
+    "a": 0,
+    "b": 2,
+    "battle_seed": 9053062584196945845,
+    "hp_verified": [
+      57,
+      -26
+    ],
+    "events": 239,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:4",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "回流",
+        "uid": "1:16",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "枯潮",
+        "uid": "0:9",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "潮汐之心",
+        "uid": "1:11",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:1",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "润泽",
+        "uid": "1:17",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "连环潮",
+        "uid": "1:19",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒涌",
+        "uid": "0:18",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "爆裂",
+        "uid": "0:13",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "穿潮",
+        "uid": "1:21",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "速腐",
+        "uid": "0:17",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "水膜",
+        "uid": "1:4",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒牙",
+        "uid": "0:14",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "重洗",
+        "uid": "1:1",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "潮涌",
+        "uid": "1:10",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒瓶",
+        "uid": "0:8",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒针",
+        "uid": "0:11",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "整理",
+        "uid": "1:9",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "万毒之源",
+        "uid": "0:6",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "回流",
+        "uid": "1:16",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "寻毒",
+        "uid": "0:7",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "检索附魔",
+        "uid": "1:0",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒引",
+        "uid": "0:3",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "换页",
+        "uid": "1:6",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "润泽",
+        "uid": "1:17",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "蚀命",
+        "uid": "0:16",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "濒死回响",
+        "uid": "1:2",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "拆盾弹",
+        "uid": "1:8",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "循毒",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒潮",
+        "uid": "0:12",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "活水",
+        "uid": "1:15",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒甲",
+        "uid": "0:2",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "血偿",
+        "uid": "1:22",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "连环潮",
+        "uid": "1:19",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "重洗",
+        "uid": "0:0",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "水膜",
+        "uid": "1:4",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "战术",
+        "uid": "1:7",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "生命之泉",
+        "uid": "1:20",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "循毒",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "水之低语",
+        "uid": "1:13",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒涌",
+        "uid": "0:18",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒潮",
+        "uid": "0:12",
+        "cost": 1,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282105,
+    "round": 9,
+    "a": 0,
+    "b": 1,
+    "battle_seed": 1670673355637725048,
+    "hp_verified": [
+      31,
+      -334
+    ],
+    "events": 184,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻阅",
+        "uid": "0:4",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "火种库",
+        "uid": "1:5",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "高压弹仓",
+        "uid": "0:14",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "燃页",
+        "uid": "1:4",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "炽焰王冠",
+        "uid": "0:8",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "活水",
+        "uid": "1:15",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "潮汐之心",
+        "uid": "1:10",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "燃页",
+        "uid": "0:12",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "火花",
+        "uid": "0:3",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:1",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "生命之泉",
+        "uid": "1:18",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "火种库",
+        "uid": "0:15",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "重洗",
+        "uid": "1:0",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "回流",
+        "uid": "0:5",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "润泽",
+        "uid": "1:2",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "余烬护心",
+        "uid": "0:18",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:16",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "灼痛",
+        "uid": "0:19",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "灵感涌现",
+        "uid": "1:8",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "火墙",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "燃页",
+        "uid": "1:4",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "引火",
+        "uid": "0:2",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:1",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "灰烬循环",
+        "uid": "0:17",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "活水",
+        "uid": "1:15",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "压实火药",
+        "uid": "0:7",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "火种库",
+        "uid": "1:5",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "余火",
+        "uid": "0:9",
+        "cost": 1,
+        "energy": 3
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "掠影",
+        "uid": "1:7",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻阅",
+        "uid": "1:11",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "燃血",
+        "uid": "0:11",
+        "cost": 0,
+        "energy": 3
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "烈焰冲刺",
+        "uid": "0:16",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "泉眼",
+        "uid": "1:13",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "猛火弹",
+        "uid": "0:13",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:6",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "攻击强化",
+        "uid": "0:0",
+        "cost": 1,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282126,
+    "round": 9,
+    "a": 0,
+    "b": 1,
+    "battle_seed": 13274478876388510371,
+    "hp_verified": [
+      -20,
+      808
+    ],
+    "events": 268,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "静水",
+        "uid": "0:20",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "不周山",
+        "uid": "1:9",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "回潮",
+        "uid": "0:4",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "坚岩",
+        "uid": "1:10",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "重洗",
+        "uid": "0:0",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "换页",
+        "uid": "1:5",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "整理",
+        "uid": "0:7",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "潮汐之心",
+        "uid": "0:14",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "万钧碎盾",
+        "uid": "1:16",
+        "cost": 3,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "预备",
+        "uid": "0:8",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "战术",
+        "uid": "1:4",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "包扎",
+        "uid": "0:11",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "碎盾术",
+        "uid": "1:13",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "反震岩核",
+        "uid": "1:14",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "灵感涌现",
+        "uid": "0:10",
+        "cost": 2,
+        "energy": 3
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "不动如山",
+        "uid": "1:8",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "血刃",
+        "uid": "0:19",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "细流",
+        "uid": "0:13",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:2",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "拆盾弹",
+        "uid": "0:5",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "包扎",
+        "uid": "1:3",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "水之低语",
+        "uid": "0:15",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "开岩",
+        "uid": "1:11",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "血偿",
+        "uid": "0:16",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "寻岩",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:6",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:7",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:1",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "垒石",
+        "uid": "1:1",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "血潮",
+        "uid": "0:18",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "万钧碎盾",
+        "uid": "1:16",
+        "cost": 3,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "回流",
+        "uid": "0:9",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "包扎",
+        "uid": "1:3",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "静水",
+        "uid": "0:20",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "开岩",
+        "uid": "1:11",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "潮涌",
+        "uid": "0:17",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "回岩",
+        "uid": "1:6",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:2",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "换页",
+        "uid": "0:12",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:1",
+        "cost": 0,
+        "energy": 3
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "岩壁",
+        "uid": "1:15",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "静水",
+        "uid": "0:20",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "寻岩",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "拆盾弹",
+        "uid": "0:5",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "碎盾术",
+        "uid": "1:13",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "蓄能",
+        "uid": "0:2",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 0,
+        "name": "灵感涌现",
+        "uid": "0:10",
+        "cost": 2,
+        "energy": 2
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 1,
+        "name": "寻岩",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 0,
+        "name": "重洗",
+        "uid": "0:0",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 1,
+        "name": "不动如山",
+        "uid": "1:8",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 0,
+        "name": "血偿",
+        "uid": "0:16",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 1,
+        "name": "重洗",
+        "uid": "1:0",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 0,
+        "name": "预备",
+        "uid": "0:8",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 1,
+        "name": "换页",
+        "uid": "1:5",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:2",
+        "cost": 0,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282147,
+    "round": 9,
+    "a": 0,
+    "b": 1,
+    "battle_seed": 4862721814448992943,
+    "hp_verified": [
+      220,
+      -167
+    ],
+    "events": 161,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "余火",
+        "uid": "0:17",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "活水",
+        "uid": "1:1",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "灰烬循环",
+        "uid": "0:16",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "深流",
+        "uid": "1:15",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:2",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "泉眼",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "炽焰王冠",
+        "uid": "0:11",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "生命之泉",
+        "uid": "1:18",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "血偿",
+        "uid": "1:20",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "通晓",
+        "uid": "0:9",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "引火",
+        "uid": "0:14",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "火花",
+        "uid": "0:15",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "水之低语",
+        "uid": "1:4",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "燃页",
+        "uid": "0:6",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:3",
+        "cost": 0,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "活水",
+        "uid": "0:8",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "灼痛",
+        "uid": "0:7",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "细流",
+        "uid": "1:6",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "潮汐之心",
+        "uid": "1:7",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "余烬引擎",
+        "uid": "0:13",
+        "cost": 1,
+        "energy": 3
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "静水",
+        "uid": "1:14",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "通晓",
+        "uid": "0:9",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:3",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "余烬刻度",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "引火",
+        "uid": "0:14",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "火花",
+        "uid": "0:15",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "燃页",
+        "uid": "0:6",
+        "cost": 1,
+        "energy": 5
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "潮汐回廊",
+        "uid": "1:11",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "余火",
+        "uid": "0:17",
+        "cost": 1,
+        "energy": 4
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "重洗",
+        "uid": "1:0",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "活水",
+        "uid": "0:8",
+        "cost": 1,
+        "energy": 3
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "战意",
+        "uid": "0:18",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "火墙",
+        "uid": "0:12",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "大检索",
+        "uid": "0:5",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:2",
+        "cost": 0,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282168,
+    "round": 9,
+    "a": 0,
+    "b": 3,
+    "battle_seed": 15058829202225322921,
+    "hp_verified": [
+      -117,
+      461
+    ],
+    "events": 116,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "风痕",
+        "uid": "0:17",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "炽焰王冠",
+        "uid": "1:7",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "穿云",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "燃页",
+        "uid": "1:4",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "引火",
+        "uid": "1:11",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "掠影",
+        "uid": "0:18",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "余火",
+        "uid": "1:9",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:3",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "火种翻找",
+        "uid": "1:6",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "风卷",
+        "uid": "0:6",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:2",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "轻羽",
+        "uid": "0:16",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "火花",
+        "uid": "1:5",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "余烬之核",
+        "uid": "1:16",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "狂风",
+        "uid": "0:13",
+        "cost": 2,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "风痕回廊",
+        "uid": "0:19",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻阅",
+        "uid": "1:8",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "预备",
+        "uid": "1:3",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:4",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "战意",
+        "uid": "1:10",
+        "cost": 1,
+        "energy": 3
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "燃页",
+        "uid": "0:2",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "开岩",
+        "uid": "0:5",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "余烬刻度",
+        "uid": "1:13",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "猛火弹",
+        "uid": "1:18",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "风眼",
+        "uid": "0:14",
+        "cost": 1,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282189,
+    "round": 9,
+    "a": 0,
+    "b": 3,
+    "battle_seed": 12105574217573503096,
+    "hp_verified": [
+      -82,
+      827
+    ],
+    "events": 296,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "万毒之源",
+        "uid": "0:9",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "盾脉",
+        "uid": "1:4",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒涌",
+        "uid": "0:7",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "岩甲",
+        "uid": "1:14",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒龙",
+        "uid": "0:17",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "包扎",
+        "uid": "1:3",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒引",
+        "uid": "0:11",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "壁垒之心",
+        "uid": "1:19",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "燃页",
+        "uid": "0:3",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "寻毒",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "开岩",
+        "uid": "1:6",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "腐溃",
+        "uid": "0:14",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒爆",
+        "uid": "0:16",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "不周山",
+        "uid": "1:7",
+        "cost": 2,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "山岳壁垒",
+        "uid": "1:20",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "循毒",
+        "uid": "0:8",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻阅",
+        "uid": "0:4",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:5",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:2",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "厚土",
+        "uid": "1:18",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒甲",
+        "uid": "0:13",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "不动如山",
+        "uid": "1:17",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:5",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒针",
+        "uid": "0:12",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "寻岩",
+        "uid": "1:15",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "磐岩壁",
+        "uid": "1:10",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒瓶",
+        "uid": "0:1",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒潮",
+        "uid": "0:15",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "岩壁",
+        "uid": "1:1",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "垒石",
+        "uid": "1:16",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "回岩",
+        "uid": "1:12",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒涌",
+        "uid": "0:7",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:2",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "重洗",
+        "uid": "1:0",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "寻毒",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:5",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒龙",
+        "uid": "0:17",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "循毒",
+        "uid": "0:8",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "磐石",
+        "uid": "1:13",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "腐溃",
+        "uid": "0:14",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "厚土",
+        "uid": "1:18",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "重洗",
+        "uid": "0:0",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒引",
+        "uid": "0:11",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:5",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 0,
+        "name": "燃页",
+        "uid": "0:3",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒涌",
+        "uid": "0:7",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 1,
+        "name": "坚岩",
+        "uid": "1:11",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 1,
+        "name": "拆盾弹",
+        "uid": "1:9",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:2",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:5",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 1,
+        "name": "垒石",
+        "uid": "1:16",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒龙",
+        "uid": "0:17",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 1,
+        "name": "包扎",
+        "uid": "1:3",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 800,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻阅",
+        "uid": "0:4",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 800,
+        "kind": "play",
+        "seat": 1,
+        "name": "开岩",
+        "uid": "1:6",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 800,
+        "kind": "play",
+        "seat": 0,
+        "name": "循毒",
+        "uid": "0:8",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 800,
+        "kind": "play",
+        "seat": 1,
+        "name": "不动如山",
+        "uid": "1:17",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 800,
+        "kind": "play",
+        "seat": 1,
+        "name": "利刃",
+        "uid": "1:8",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 800,
+        "kind": "play",
+        "seat": 0,
+        "name": "寻毒",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282210,
+    "round": 9,
+    "a": 0,
+    "b": 1,
+    "battle_seed": 4080804905102706639,
+    "hp_verified": [
+      -113,
+      334
+    ],
+    "events": 170,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "回火",
+        "uid": "0:16",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "回流",
+        "uid": "1:10",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "余烬刻度",
+        "uid": "0:18",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "潮汐之心",
+        "uid": "1:8",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "灼痛",
+        "uid": "0:22",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "引火",
+        "uid": "0:21",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "生命之泉",
+        "uid": "1:18",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "余火",
+        "uid": "0:13",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:6",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "循毒",
+        "uid": "1:6",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "火花",
+        "uid": "0:9",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "润泽",
+        "uid": "1:1",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:3",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "蓄能",
+        "uid": "0:4",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "预备",
+        "uid": "0:8",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "换页",
+        "uid": "0:11",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "炽焰王冠",
+        "uid": "0:14",
+        "cost": 2,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "活水",
+        "uid": "1:9",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "灰烬循环",
+        "uid": "0:20",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "水之低语",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "潮声",
+        "uid": "1:17",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "火种库",
+        "uid": "0:15",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:4",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "燃页",
+        "uid": "0:17",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "潮汐回廊",
+        "uid": "1:14",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "整理",
+        "uid": "0:12",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "连环潮",
+        "uid": "1:15",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "大检索",
+        "uid": "0:5",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "检索附魔",
+        "uid": "0:0",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "细流",
+        "uid": "1:3",
+        "cost": 0,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "大检索",
+        "uid": "1:5",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "燃血",
+        "uid": "0:23",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:2",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "重洗",
+        "uid": "1:0",
+        "cost": 1,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282231,
+    "round": 9,
+    "a": 0,
+    "b": 3,
+    "battle_seed": 5491439126245933831,
+    "hp_verified": [
+      401,
+      -187
+    ],
+    "events": 202,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "深流",
+        "uid": "0:14",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒涌",
+        "uid": "1:15",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "泉眼",
+        "uid": "0:11",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "活水",
+        "uid": "1:2",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:2",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "通晓",
+        "uid": "1:6",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "血潮",
+        "uid": "0:16",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "循毒",
+        "uid": "1:14",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "活水",
+        "uid": "0:9",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "重洗",
+        "uid": "1:0",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "疫病",
+        "uid": "1:18",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "回流",
+        "uid": "0:4",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:4",
+        "cost": 0,
+        "energy": 3
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "潮汐之心",
+        "uid": "0:5",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "固毒",
+        "uid": "1:19",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "腐溃",
+        "uid": "1:16",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒针",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "蚀骨",
+        "uid": "1:17",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "水之低语",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "通晓",
+        "uid": "1:6",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "血之回响",
+        "uid": "0:13",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "细流",
+        "uid": "0:7",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "万毒之源",
+        "uid": "1:8",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:6",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "水膜",
+        "uid": "0:3",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒涌",
+        "uid": "1:15",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒引",
+        "uid": "1:13",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "润泽",
+        "uid": "0:8",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "潮声",
+        "uid": "0:18",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "活水",
+        "uid": "1:2",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "血怒",
+        "uid": "0:17",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "循毒",
+        "uid": "1:14",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "寻毒",
+        "uid": "1:9",
+        "cost": 1,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282252,
+    "round": 9,
+    "a": 0,
+    "b": 3,
+    "battle_seed": 15238196442365523362,
+    "hp_verified": [
+      64,
+      -50
+    ],
+    "events": 228,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "大地之握",
+        "uid": "0:17",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "炽焰王冠",
+        "uid": "1:9",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "开岩",
+        "uid": "0:8",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻阅",
+        "uid": "1:3",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "寻岩",
+        "uid": "0:7",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "追云",
+        "uid": "1:7",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "余烬之核",
+        "uid": "1:17",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "碎盾术",
+        "uid": "0:15",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "裂岩护壁",
+        "uid": "0:14",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "不周山",
+        "uid": "0:6",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "余火",
+        "uid": "1:18",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:2",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "高压弹仓",
+        "uid": "1:10",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "垒石",
+        "uid": "0:5",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "压实火药",
+        "uid": "1:16",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "引火",
+        "uid": "1:11",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "不动如山",
+        "uid": "0:12",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:2",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "坚岩",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "火种翻找",
+        "uid": "1:1",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "烈焰冲刺",
+        "uid": "1:13",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:3",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "火花",
+        "uid": "1:15",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:4",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "厚土",
+        "uid": "0:19",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "燃页",
+        "uid": "1:14",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "岩甲",
+        "uid": "0:1",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "烈焰附身",
+        "uid": "1:6",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "重洗",
+        "uid": "0:0",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "火墙",
+        "uid": "1:8",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "蓄势",
+        "uid": "1:5",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:2",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "燃页",
+        "uid": "1:14",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "碎岩印记",
+        "uid": "0:16",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "余火",
+        "uid": "1:18",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "猛火弹",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "寻岩",
+        "uid": "0:7",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:3",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:4",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "火花",
+        "uid": "1:15",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "岩壁",
+        "uid": "0:9",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "追云",
+        "uid": "1:7",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻阅",
+        "uid": "1:3",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "盾脉",
+        "uid": "0:18",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "火种翻找",
+        "uid": "1:1",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "蓄势",
+        "uid": "1:5",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "引火",
+        "uid": "1:11",
+        "cost": 0,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282273,
+    "round": 9,
+    "a": 0,
+    "b": 2,
+    "battle_seed": 14839222008964587361,
+    "hp_verified": [
+      -286,
+      399
+    ],
+    "events": 140,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "追风",
+        "uid": "0:16",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "火种翻找",
+        "uid": "1:10",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "灰烬账本",
+        "uid": "1:13",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "疾行",
+        "uid": "0:11",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "高温炉心",
+        "uid": "1:19",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "燃页",
+        "uid": "0:7",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "轻羽",
+        "uid": "0:15",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "火花",
+        "uid": "1:12",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "疾风之刃",
+        "uid": "0:18",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "炽焰王冠",
+        "uid": "1:7",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻阅",
+        "uid": "0:6",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "燃页",
+        "uid": "1:8",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "引火",
+        "uid": "1:15",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "灰烬循环",
+        "uid": "1:18",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "掠影",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "重洗",
+        "uid": "0:1",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "余烬护心",
+        "uid": "1:17",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "风步",
+        "uid": "0:14",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "疾行",
+        "uid": "0:11",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:5",
+        "cost": 1,
+        "energy": 3
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "追风",
+        "uid": "0:16",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "穿甲",
+        "uid": "1:3",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "灼痛",
+        "uid": "1:4",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "寻风",
+        "uid": "0:5",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "天岚",
+        "uid": "0:9",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "火种库",
+        "uid": "1:14",
+        "cost": 2,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "战意",
+        "uid": "1:16",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "掠影",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "轻羽",
+        "uid": "0:15",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "余烬刻度",
+        "uid": "1:20",
+        "cost": 1,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282294,
+    "round": 9,
+    "a": 0,
+    "b": 3,
+    "battle_seed": 9296091976418087852,
+    "hp_verified": [
+      -60,
+      955
+    ],
+    "events": 255,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "万毒之源",
+        "uid": "0:8",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "壁垒之心",
+        "uid": "1:9",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "重洗",
+        "uid": "0:0",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻阅",
+        "uid": "1:2",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "换页",
+        "uid": "1:3",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "枯潮",
+        "uid": "0:9",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "岩核共鸣",
+        "uid": "1:7",
+        "cost": 2,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "岩核重压",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒囊",
+        "uid": "0:15",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "岩甲",
+        "uid": "1:6",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "开岩",
+        "uid": "0:6",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "寻岩",
+        "uid": "1:11",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "腐溃",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:1",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒甲",
+        "uid": "0:12",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "岩壁",
+        "uid": "1:5",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒引",
+        "uid": "0:14",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:4",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "蚀骨",
+        "uid": "0:16",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "不周山",
+        "uid": "1:8",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻阅",
+        "uid": "0:4",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:1",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:3",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "换页",
+        "uid": "1:3",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "层岩结构",
+        "uid": "1:10",
+        "cost": 3,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:5",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒涌",
+        "uid": "0:7",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:4",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "万毒蚀骨",
+        "uid": "0:17",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "寻毒",
+        "uid": "0:11",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "岩核共鸣",
+        "uid": "1:7",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "岩核重压",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "蚀刻",
+        "uid": "0:13",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒瓶",
+        "uid": "0:1",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "开岩",
+        "uid": "0:6",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻阅",
+        "uid": "1:2",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:5",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:1",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "腐溃",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "寻岩",
+        "uid": "1:11",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:4",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻阅",
+        "uid": "0:4",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 1,
+        "name": "岩核共鸣",
+        "uid": "1:7",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 1,
+        "name": "岩核重压",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 0,
+        "name": "重洗",
+        "uid": "0:0",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 0,
+        "name": "万毒蚀骨",
+        "uid": "0:17",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 1,
+        "name": "换页",
+        "uid": "1:3",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒引",
+        "uid": "0:14",
+        "cost": 0,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282315,
+    "round": 9,
+    "a": 0,
+    "b": 3,
+    "battle_seed": 14176336186607909517,
+    "hp_verified": [
+      -96,
+      629
+    ],
+    "events": 149,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:4",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "燃页",
+        "uid": "1:6",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "重洗",
+        "uid": "0:0",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "开岩",
+        "uid": "1:1",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:5",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻阅",
+        "uid": "1:8",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "灰烬账本",
+        "uid": "0:16",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "包扎",
+        "uid": "1:4",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "灰烬循环",
+        "uid": "0:17",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "大地之握",
+        "uid": "1:15",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "余火",
+        "uid": "0:9",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "磐岩壁",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:2",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "岩核重压",
+        "uid": "1:16",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "压实火药",
+        "uid": "0:19",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "烈焰附身",
+        "uid": "0:1",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "守岩",
+        "uid": "1:9",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "猛火弹",
+        "uid": "0:12",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "岩甲",
+        "uid": "1:11",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "引火",
+        "uid": "0:11",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "火花",
+        "uid": "0:13",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "炽焰王冠",
+        "uid": "0:8",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "不周山",
+        "uid": "1:10",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "大检索",
+        "uid": "0:6",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "厚土",
+        "uid": "1:3",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:5",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "余烬引擎",
+        "uid": "0:14",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "不动如山",
+        "uid": "1:14",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "燃页",
+        "uid": "0:3",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "岩核重压",
+        "uid": "1:16",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "火种翻找",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "引火",
+        "uid": "0:11",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "整理",
+        "uid": "0:2",
+        "cost": 0,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282336,
+    "round": 9,
+    "a": 0,
+    "b": 2,
+    "battle_seed": 2528383332546659453,
+    "hp_verified": [
+      -43,
+      139
+    ],
+    "events": 208,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "不周山",
+        "uid": "0:9",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "穿甲",
+        "uid": "1:16",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:3",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "疾行",
+        "uid": "1:9",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "岩拳",
+        "uid": "0:8",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "岩甲",
+        "uid": "0:16",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "天岚",
+        "uid": "1:6",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "碎盾术",
+        "uid": "0:6",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "余震",
+        "uid": "0:18",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "烈风",
+        "uid": "1:18",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "坚岩",
+        "uid": "0:12",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "疾风之刃",
+        "uid": "1:17",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:1",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "寻岩",
+        "uid": "0:14",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "穿云",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "大检索",
+        "uid": "0:7",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "垒石",
+        "uid": "0:15",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "反震岩核",
+        "uid": "0:19",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "掠影",
+        "uid": "1:7",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "开岩",
+        "uid": "0:5",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:2",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "追风",
+        "uid": "1:14",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "掠影",
+        "uid": "0:2",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "破风",
+        "uid": "1:19",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "裂风",
+        "uid": "1:15",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "重洗",
+        "uid": "0:0",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "疾风",
+        "uid": "1:3",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "不动如山",
+        "uid": "0:17",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "开岩",
+        "uid": "0:5",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "风刃",
+        "uid": "1:10",
+        "cost": 1,
+        "energy": 3
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "岩壁",
+        "uid": "0:11",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "寻风",
+        "uid": "1:8",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "岩拳",
+        "uid": "0:8",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "大检索",
+        "uid": "1:4",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "余震",
+        "uid": "0:18",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "风卷",
+        "uid": "1:13",
+        "cost": 1,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282357,
+    "round": 9,
+    "a": 0,
+    "b": 2,
+    "battle_seed": 7985554920046446632,
+    "hp_verified": [
+      725,
+      -10
+    ],
+    "events": 225,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒爆",
+        "uid": "1:15",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "握盾",
+        "uid": "0:10",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "坚岩",
+        "uid": "0:3",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻阅",
+        "uid": "1:3",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:2",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "燃页",
+        "uid": "1:5",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "山岳",
+        "uid": "0:7",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒涌",
+        "uid": "1:10",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "万毒蚀骨",
+        "uid": "1:8",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "包扎",
+        "uid": "0:1",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:4",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "大地之握",
+        "uid": "0:13",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "循毒",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "岩壁",
+        "uid": "0:5",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒囊",
+        "uid": "1:17",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "爆裂",
+        "uid": "1:1",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:4",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "不周山",
+        "uid": "0:8",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "通晓",
+        "uid": "1:7",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "开岩",
+        "uid": "0:11",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:2",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "固毒",
+        "uid": "1:6",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒引",
+        "uid": "1:16",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "岩核重压",
+        "uid": "0:12",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "万毒之源",
+        "uid": "1:9",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "寻岩",
+        "uid": "0:9",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "寻毒",
+        "uid": "1:11",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "裂伤",
+        "uid": "0:6",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:2",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "通晓",
+        "uid": "1:7",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "开岩",
+        "uid": "0:11",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒涌",
+        "uid": "1:10",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:4",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "燃页",
+        "uid": "1:5",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒引",
+        "uid": "1:16",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "岩壁",
+        "uid": "0:5",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "包扎",
+        "uid": "0:1",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "层岩结构",
+        "uid": "0:14",
+        "cost": 3,
+        "energy": 0
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒针",
+        "uid": "1:14",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒甲",
+        "uid": "1:13",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:4",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "万毒蚀骨",
+        "uid": "1:8",
+        "cost": 1,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282378,
+    "round": 9,
+    "a": 0,
+    "b": 1,
+    "battle_seed": 10331765903814787578,
+    "hp_verified": [
+      400,
+      -107
+    ],
+    "events": 135,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "追云",
+        "uid": "0:13",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻阅",
+        "uid": "1:4",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "万毒之源",
+        "uid": "1:9",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "狂风",
+        "uid": "0:12",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "追风",
+        "uid": "0:15",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "寻风",
+        "uid": "0:14",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "轻羽",
+        "uid": "0:11",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "天岚",
+        "uid": "0:6",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒爆",
+        "uid": "1:16",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "烈风",
+        "uid": "0:19",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒瓶",
+        "uid": "1:5",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "疾行",
+        "uid": "0:16",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒涌",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "掠影",
+        "uid": "0:8",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:2",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:7",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒囊",
+        "uid": "1:8",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒引",
+        "uid": "1:1",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:2",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "疾风之刃",
+        "uid": "0:18",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "循毒",
+        "uid": "1:10",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "寻毒",
+        "uid": "1:14",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "破风",
+        "uid": "0:9",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒潮",
+        "uid": "1:17",
+        "cost": 1,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282399,
+    "round": 9,
+    "a": 0,
+    "b": 2,
+    "battle_seed": 4578627193598767466,
+    "hp_verified": [
+      0,
+      913
+    ],
+    "events": 172,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "蚀命",
+        "uid": "0:18",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "潮汐之心",
+        "uid": "1:7",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "寻毒",
+        "uid": "0:9",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "活水",
+        "uid": "1:10",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "枯潮",
+        "uid": "0:14",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "水之低语",
+        "uid": "1:4",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "速腐",
+        "uid": "0:17",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "血偿",
+        "uid": "1:19",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒引",
+        "uid": "0:5",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "连环潮",
+        "uid": "1:20",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:4",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:5",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "生命之泉",
+        "uid": "1:18",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "活水",
+        "uid": "0:6",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "循毒",
+        "uid": "0:16",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "回潮",
+        "uid": "1:16",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒囊",
+        "uid": "0:7",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "润泽",
+        "uid": "1:6",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "蚀界",
+        "uid": "0:19",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:2",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒针",
+        "uid": "0:12",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "血刃",
+        "uid": "1:15",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "重洗",
+        "uid": "1:0",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:3",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:2",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "腐溃",
+        "uid": "0:11",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "水膜",
+        "uid": "1:11",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "毒甲",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "泉眼",
+        "uid": "1:1",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "润泽",
+        "uid": "1:6",
+        "cost": 0,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282420,
+    "round": 9,
+    "a": 0,
+    "b": 1,
+    "battle_seed": 8640191124135182384,
+    "hp_verified": [
+      314,
+      -77
+    ],
+    "events": 153,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "余烬之核",
+        "uid": "0:13",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "水之低语",
+        "uid": "1:18",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:1",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "燃页",
+        "uid": "0:14",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "活水",
+        "uid": "1:17",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "潮汐之心",
+        "uid": "1:15",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "余火",
+        "uid": "0:5",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "导火索",
+        "uid": "0:7",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "水膜",
+        "uid": "1:21",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "预备",
+        "uid": "1:11",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "火墙",
+        "uid": "0:11",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "烈焰冲刺",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:3",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "炽焰王冠",
+        "uid": "0:8",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "重洗",
+        "uid": "1:0",
+        "cost": 1,
+        "energy": 3
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "火种翻找",
+        "uid": "0:1",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "潮涌",
+        "uid": "1:14",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "蓄能",
+        "uid": "1:9",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "生命之泉",
+        "uid": "1:20",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "焚心",
+        "uid": "0:15",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "猛火弹",
+        "uid": "0:9",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "活水",
+        "uid": "1:17",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "坚壁",
+        "uid": "1:10",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "包扎",
+        "uid": "1:5",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻阅",
+        "uid": "0:4",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "回流",
+        "uid": "1:16",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "灰烬账本",
+        "uid": "0:12",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "洪流",
+        "uid": "1:13",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:2",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "换页",
+        "uid": "1:6",
+        "cost": 0,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282441,
+    "round": 9,
+    "a": 0,
+    "b": 3,
+    "battle_seed": 6479232404785979930,
+    "hp_verified": [
+      308,
+      -61
+    ],
+    "events": 181,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "风痕",
+        "uid": "0:18",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒爆",
+        "uid": "1:11",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "循毒",
+        "uid": "0:5",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒涌",
+        "uid": "1:16",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:1",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "枯潮",
+        "uid": "1:5",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "掠影",
+        "uid": "0:2",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "疾影",
+        "uid": "0:20",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒龙",
+        "uid": "1:15",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "裂风",
+        "uid": "0:13",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "腐溃",
+        "uid": "1:17",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "轻羽",
+        "uid": "0:12",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "坚壁",
+        "uid": "0:8",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "万毒之源",
+        "uid": "1:9",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "穿云",
+        "uid": "0:16",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "天岚",
+        "uid": "0:10",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:2",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒引",
+        "uid": "1:14",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:3",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:4",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "循毒",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "寻风",
+        "uid": "0:9",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "重洗",
+        "uid": "1:0",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "风痕刻印",
+        "uid": "0:19",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒囊",
+        "uid": "1:6",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "疾行",
+        "uid": "0:15",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "循毒",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "枯潮",
+        "uid": "1:5",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "狂风",
+        "uid": "0:14",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "穿云",
+        "uid": "0:16",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:1",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "毒龙",
+        "uid": "1:15",
+        "cost": 0,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282462,
+    "round": 9,
+    "a": 0,
+    "b": 1,
+    "battle_seed": 3851043442424177673,
+    "hp_verified": [
+      155,
+      -216
+    ],
+    "events": 301,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "不周山",
+        "uid": "0:6",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "天岚",
+        "uid": "1:10",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:4",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "追云",
+        "uid": "1:14",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:7",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "不动如山",
+        "uid": "0:16",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "风驰",
+        "uid": "1:17",
+        "cost": 2,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "疾行",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "裂岩护壁",
+        "uid": "0:17",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "岩甲",
+        "uid": "0:9",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "循毒",
+        "uid": "1:8",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "垒石",
+        "uid": "0:12",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "重洗",
+        "uid": "0:0",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "风幕",
+        "uid": "1:9",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "临时壁垒",
+        "uid": "0:11",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "风蚀",
+        "uid": "1:18",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "风眼",
+        "uid": "1:15",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "穿云",
+        "uid": "1:11",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "开岩",
+        "uid": "0:3",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "风痕",
+        "uid": "1:16",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:4",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "寻岩",
+        "uid": "0:8",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:2",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "垒石",
+        "uid": "0:12",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:7",
+        "cost": 0,
+        "energy": 3
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "速读",
+        "uid": "1:6",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "岩壁",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "寻风",
+        "uid": "1:13",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "裂风",
+        "uid": "1:5",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "坚岩",
+        "uid": "0:14",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "岩甲",
+        "uid": "0:9",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "疾风",
+        "uid": "1:4",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "厚土",
+        "uid": "0:19",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "岩拳",
+        "uid": "0:15",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "检索附魔",
+        "uid": "1:0",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 1,
+        "name": "重洗",
+        "uid": "1:1",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 500,
+        "kind": "play",
+        "seat": 0,
+        "name": "磐石",
+        "uid": "0:13",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "壁垒之心",
+        "uid": "0:18",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "循毒",
+        "uid": "1:8",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 0,
+        "name": "不动如山",
+        "uid": "0:16",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "风驰",
+        "uid": "1:17",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 600,
+        "kind": "play",
+        "seat": 1,
+        "name": "疾行",
+        "uid": "1:12",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 0,
+        "name": "余震",
+        "uid": "0:1",
+        "cost": 1,
+        "energy": 3
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:2",
+        "cost": 0,
+        "energy": 3
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 1,
+        "name": "破甲",
+        "uid": "1:7",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 0,
+        "name": "盾脉",
+        "uid": "0:20",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 1,
+        "name": "裂风",
+        "uid": "1:5",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 0,
+        "name": "裂岩护壁",
+        "uid": "0:17",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 700,
+        "kind": "play",
+        "seat": 1,
+        "name": "利刃",
+        "uid": "1:3",
+        "cost": 1,
+        "energy": 0
+      }
+    ]
+  },
+  {
+    "room_seed": 282483,
+    "round": 9,
+    "a": 0,
+    "b": 3,
+    "battle_seed": 16232989530947931807,
+    "hp_verified": [
+      559,
+      -48
+    ],
+    "events": 163,
+    "play_order": [
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "追云",
+        "uid": "0:16",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "水幕",
+        "uid": "1:15",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "狂风",
+        "uid": "0:14",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "大检索",
+        "uid": "1:13",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "掠影",
+        "uid": "0:8",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "蓄能",
+        "uid": "1:6",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 1,
+        "name": "整理",
+        "uid": "1:11",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 0,
+        "kind": "play",
+        "seat": 0,
+        "name": "速读",
+        "uid": "0:5",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "枯潮",
+        "uid": "1:16",
+        "cost": 2,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "寻风",
+        "uid": "0:1",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "风痕刻印",
+        "uid": "0:9",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "预备",
+        "uid": "1:9",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "风步",
+        "uid": "0:4",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "换页",
+        "uid": "1:3",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "顺风",
+        "uid": "0:17",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "战术",
+        "uid": "1:7",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 0,
+        "name": "翻找",
+        "uid": "0:2",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 100,
+        "kind": "play",
+        "seat": 1,
+        "name": "重洗",
+        "uid": "1:0",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "风痕",
+        "uid": "0:18",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻找",
+        "uid": "1:5",
+        "cost": 0,
+        "energy": 4
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "拆盾弹",
+        "uid": "1:2",
+        "cost": 1,
+        "energy": 3
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 0,
+        "name": "穿云",
+        "uid": "0:13",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "换页",
+        "uid": "1:3",
+        "cost": 0,
+        "energy": 3
+      },
+      {
+        "time": 200,
+        "kind": "play",
+        "seat": 1,
+        "name": "整理",
+        "uid": "1:11",
+        "cost": 0,
+        "energy": 3
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "天岚",
+        "uid": "0:7",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "翻阅",
+        "uid": "1:14",
+        "cost": 1,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 0,
+        "name": "风卷",
+        "uid": "0:11",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "大检索",
+        "uid": "1:13",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "预备",
+        "uid": "1:9",
+        "cost": 0,
+        "energy": 0
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "战术",
+        "uid": "1:7",
+        "cost": 0,
+        "energy": 1
+      },
+      {
+        "time": 300,
+        "kind": "play",
+        "seat": 1,
+        "name": "细流",
+        "uid": "1:4",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "风痕回廊",
+        "uid": "0:19",
+        "cost": 2,
+        "energy": 1
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "破甲",
+        "uid": "1:10",
+        "cost": 1,
+        "energy": 3
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "疾风",
+        "uid": "0:10",
+        "cost": 1,
+        "energy": 0
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 1,
+        "name": "蓄能",
+        "uid": "1:6",
+        "cost": 1,
+        "energy": 2
+      },
+      {
+        "time": 400,
+        "kind": "play",
+        "seat": 0,
+        "name": "轻羽",
+        "uid": "0:15",
+        "cost": 0,
+        "energy": 0
+      }
+    ]
+  }
+]

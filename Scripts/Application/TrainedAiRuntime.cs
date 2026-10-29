@@ -19,6 +19,7 @@ public sealed class TrainedAiRuntime : IDisposable
 {
     private readonly string _root;
     private readonly string _python;
+    public IReadOnlyDictionary<string, string> Styles { get; }
     private readonly object _gate = new();
     private readonly Dictionary<string, Process> _processes = new(StringComparer.Ordinal);
     private readonly Dictionary<string, object> _participantGates = new(StringComparer.Ordinal);
@@ -29,16 +30,21 @@ public sealed class TrainedAiRuntime : IDisposable
     public string ModelHash { get; }
     public IReadOnlyDictionary<string, string> SourceHashes { get; }
 
-    public TrainedAiRuntime(string root)
+    public TrainedAiRuntime(string root, int sessionSeed = 0)
     {
         _root = Path.GetFullPath(root);
+        using var styles = JsonDocument.Parse(File.ReadAllText(Path.Combine(root, "Data", "AI", "single-player-styles.json")));
+        var choices = styles.RootElement.GetProperty("profiles").EnumerateArray().Select(p => p.GetProperty("id").GetString()!)
+            .OrderBy(id => Convert.ToHexString(SHA256.HashData(Encoding.UTF8.GetBytes($"single-player-style-v1:{sessionSeed}:{id}"))), StringComparer.Ordinal).ToArray();
+        if (choices.Distinct().Count() < 6) throw new InvalidDataException("At least six unique AI styles are required.");
+        Styles = Enumerable.Range(1, 3).ToDictionary(i => $"ai-{i}", i => choices[i - 1]);
         using var pointer = JsonDocument.Parse(File.ReadAllText(Path.Combine(root, "docs", "ai", "current-tournament.json")));
         var model = pointer.RootElement.GetProperty("model").GetString()!;
         ModelHash = HashFile(Path.Combine(root, model));
         if (ModelHash != pointer.RootElement.GetProperty("model_sha256").GetString())
             throw new InvalidDataException("Recommended AI checkpoint hash mismatch.");
-        SourceHashes = new[] { model, "releases/v1.0/cards.json", "tools/round_robin/engine.py", "tools/round_robin/planner.py", "tools/round_robin/policies.json",
-            "tools/round_robin/strategic_tournament_ai.py", "tools/round_robin/shared_draft_combat.py", "tools/client_ai/inference_worker.py",
+        SourceHashes = new[] { model, "releases/v1.1/cards.json", "tools/round_robin/engine.py", "tools/round_robin/planner.py", "tools/round_robin/policies.json",
+            "tools/round_robin/strategic_tournament_ai.py", "tools/round_robin/ai_v11_policy.py", "tools/round_robin/tournament_inference.py", "tools/round_robin/shared_draft_combat.py", "tools/client_ai/inference_worker.py",
             "Scripts/Core/AI/AiObservations.cs", "Scripts/Application/TrainedAiRuntime.cs", "Scripts/Core/Combat/Slice1CombatEngine.cs", "Scripts/Core/Match/MatchCoordinator.cs",
             "Scripts/Core/Draft/FrozenDraftRules.cs", "Scripts/Core/Draft/DraftOfferAllocator.cs", "releases/deckbuilding-v1.0/probabilities.json",
             "releases/deckbuilding-v1.0/pool-counts.json", "releases/deckbuilding-v1.0/economy.json" }
@@ -109,6 +115,7 @@ public sealed class TrainedAiRuntime : IDisposable
         };
         start.ArgumentList.Add("-u");
         start.ArgumentList.Add(Path.Combine(_root, "tools", "client_ai", "inference_worker.py"));
+        start.Environment["MAGICIANS_AI_STYLE"] = Styles.GetValueOrDefault(player, "");
         start.Environment["PYTHONIOENCODING"] = "utf-8";
         start.Environment["PYTHONHASHSEED"] = "0";
         start.Environment["PYTHONDONTWRITEBYTECODE"] = "1";
@@ -151,7 +158,7 @@ public sealed class TrainedAiRuntime : IDisposable
                 throw new InvalidOperationException("AI inference failed: " + response.RootElement.GetProperty("error").GetString());
             if (response.RootElement.GetProperty("modelHash").GetString() != ModelHash)
                 throw new InvalidDataException("AI worker loaded an unexpected model.");
-            if (response.RootElement.GetProperty("cardHash").GetString() != SourceHashes["releases/v1.0/cards.json"])
+            if (response.RootElement.GetProperty("cardHash").GetString() != SourceHashes["releases/v1.1/cards.json"])
                 throw new InvalidDataException("AI worker loaded a different card library from the client.");
             var result = response.RootElement.GetProperty("result").Clone();
             lock (_gate)
@@ -224,4 +231,3 @@ public sealed class TrainedAiRuntime : IDisposable
             }
     }
 }
-

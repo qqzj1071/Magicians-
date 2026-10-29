@@ -1,10 +1,10 @@
-﻿param([string]$ProjectRoot = (Join-Path $PSScriptRoot '..'))
+param([string]$ProjectRoot = (Join-Path $PSScriptRoot '..'))
 $ErrorActionPreference = 'Stop'
 $projectPath = [IO.Path]::GetFullPath($ProjectRoot)
-$cardsPath = Join-Path $projectPath 'releases\v1.0\cards.json'
+$cardsPath = Join-Path $projectPath 'releases\v1.1\cards.json'
 $outputPath = Join-Path $projectPath 'Data\Presentation\Cards'
 New-Item -ItemType Directory -Force -Path $outputPath | Out-Null
-$cards = (Get-Content -Raw -Encoding UTF8 -LiteralPath $cardsPath | ConvertFrom-Json).cards
+$cards = (Get-Content -Raw -LiteralPath $cardsPath | ConvertFrom-Json).cards
 $prices = @{ common = 1; rare = 2; epic = 3; legendary = 4; specialization = 0 }
 $profileIndex = [ordered]@{}
 foreach ($entry in ($cards.PSObject.Properties | Sort-Object Name)) {
@@ -15,16 +15,14 @@ foreach ($entry in ($cards.PSObject.Properties | Sort-Object Name)) {
     $id = 'card-' + $hash.Substring(0, 16)
     $filePath = Join-Path $outputPath ($id + '.json')
     $art = [ordered]@{ IllustrationTexture = ''; FrameTexture = ''; ElementIconTexture = ''; EffectScene = ''; Sound = '' }
-    $displayName = $null
     if (Test-Path -LiteralPath $filePath) {
-        $previous = Get-Content -Raw -Encoding UTF8 -LiteralPath $filePath | ConvertFrom-Json
+        $previous = Get-Content -Raw -LiteralPath $filePath | ConvertFrom-Json
         if ($previous.Art) { $art = $previous.Art }
-        if (-not [string]::IsNullOrWhiteSpace($previous.DisplayName)) { $displayName = $previous.DisplayName }
     }
     $notes = @()
     $displayRules = $card.text
     if ($card.name -eq '大地之握') {
-        $notes += '转伤范围：上一发主弹发射后至本发主弹发射前的实际叠盾衰减；包含本行动值发射前的土附魔叠盾。按400%计入本发，发射后清零，不累计整场。'
+        $notes += '转伤范围：上一发主弹发射后至本发主弹发射前的实际叠盾衰减；包含本行动值发射前的土附魔叠盾。按300%计入本发，发射后清零，不累计整场。'
     }
     if ($card.name -in @('焰心屏障', '临时壁垒', '岩潮壁垒')) {
         $displayRules = switch ($card.name) {
@@ -39,9 +37,9 @@ foreach ($entry in ($cards.PSObject.Properties | Sort-Object Name)) {
         BaseStudyCost = $prices[$card.rarity]; Attack = $card.attack; Defense = $card.defense
         FirstEnchantmentLayers = $card.layers; RulesText = $card.text; DisplayRulesText = $displayRules; RuleNotes = @($notes); Art = $art
     }
-    if ($null -ne $displayName) { $profile['DisplayName'] = $displayName }
     $profile | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $filePath -Encoding UTF8
     $profileIndex[$card.name] = [ordered]@{ ProfileId = $id; Path = "res://Data/Presentation/Cards/$id.json" }
 }
 $profileIndex | ConvertTo-Json -Depth 4 | Set-Content -LiteralPath (Join-Path $projectPath 'Data\Presentation\card-profiles-index.json') -Encoding UTF8
 Write-Output "Generated $($cards.PSObject.Properties.Count | Measure-Object -Sum | Select-Object -ExpandProperty Sum) card profiles in $outputPath"
+

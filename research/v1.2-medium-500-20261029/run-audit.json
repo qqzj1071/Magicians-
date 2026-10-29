@@ -1,0 +1,33 @@
+{
+  "games": 500,
+  "battles": 14810,
+  "ledgers": 28095,
+  "unique_seeds": 500,
+  "segments": {
+    "train": 180,
+    "validation": 60,
+    "rolling-holdout": 60,
+    "final-holdout": 200
+  },
+  "sequence_skips": 0,
+  "bank_income_debit_passed": true,
+  "battle_weights_identical": true,
+  "selected_deletion_detail": {
+    "players": 400,
+    "deck_size": 17.0325,
+    "repeatable_size": 14.31,
+    "generic_fraction": 0.31245749497965053,
+    "purchases_per_player": 17.6575,
+    "deletions_per_player": 9.5725,
+    "paid_deletions_per_player": 0.0
+  },
+  "control_deletion_detail": {
+    "players": 400,
+    "deck_size": 9.62,
+    "repeatable_size": 6.8325,
+    "generic_fraction": 0.21871549386071443,
+    "purchases_per_player": 15.305,
+    "deletions_per_player": 14.645,
+    "paid_deletions_per_player": 4.21
+  }
+}

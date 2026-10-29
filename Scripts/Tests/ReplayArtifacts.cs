@@ -26,7 +26,7 @@ public static class ReplayArtifacts
         var artifact = new
         {
             SchemaVersion = 1, Seed = seed, Run = run, Policy = "recommended-trained-python-inference",
-            session.Ai.ModelHash, session.Ai.SourceHashes, Rules = "cards-v1.0/client-current",
+            session.Ai.ModelHash, session.Ai.SourceHashes, Rules = "cards-v1.1/client-current",
             FinalStateHash = StateHasher.Hash(state), EventSummaryHash = eventHash, Rounds = state.Round,
             Champions = TournamentStandings.Champions(state).Select(id => id.Value).ToArray(),
             Standings = TournamentStandings.Calculate(state), TournamentEvents = events, Battles = battleSummary,
@@ -37,7 +37,7 @@ public static class ReplayArtifacts
         var options = new JsonSerializerOptions { WriteIndented = true, Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping };
         var path = Path.Combine(directory, $"run-{run}.json");
         File.WriteAllText(path, JsonSerializer.Serialize(artifact, options));
-        var baselinePath = Path.Combine(root, "Data", "Regression", "trained-ai-baselines.json");
+        var baselinePath = Path.Combine(root, "Data", "Regression", "trained-ai-v1.1-baselines.json");
         if (File.Exists(baselinePath))
         {
             using var baseline = JsonDocument.Parse(File.ReadAllText(baselinePath));

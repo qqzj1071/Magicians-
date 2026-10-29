@@ -7,7 +7,7 @@
   "Rarity": "legendary",
   "CombatCost": 2,
   "BaseStudyCost": 4,
-  "Attack": 12,
+  "Attack": 11,
   "Defense": 5,
   "FirstEnchantmentLayers": 5,
   "RulesText": "首次打出获得本系5层附魔，无额外机制。",

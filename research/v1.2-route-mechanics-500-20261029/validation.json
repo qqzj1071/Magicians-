@@ -1,0 +1,26 @@
+{
+  "cards": 185,
+  "stock": 693,
+  "panel_changes": [
+    "万钧碎盾",
+    "不坏壁垒",
+    "回响之潮",
+    "大地之握",
+    "山岳壁垒",
+    "生命之泉"
+  ],
+  "text_changes": [
+    "大地之握",
+    "潮汐回响",
+    "燃烧血统",
+    "生命之泉",
+    "蚀命",
+    "血潮",
+    "风痕"
+  ],
+  "all_other_card_fields_unchanged": true,
+  "budget_all_pass": true,
+  "catalogue_and_snapshot_match": true,
+  "regressions": 72,
+  "v11_frozen_verified": true
+}

@@ -5,7 +5,7 @@ import math
 from pathlib import Path
 import shared_draft_pool as P
 import simulate_shared_draft as S
-from draft_economy import CURRENT,free_purchase_rarities,deletion_limit,deletion_price
+from draft_economy import PREVIOUS as CURRENT,free_purchase_rarities,deletion_limit,deletion_price
 
 
 def main():

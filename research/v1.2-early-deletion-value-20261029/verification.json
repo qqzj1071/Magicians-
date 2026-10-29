@@ -1,0 +1,16 @@
+{
+  "cards": 189,
+  "stock": 707,
+  "reviewed_immediate_cards": 55,
+  "increased_panels": 51,
+  "unchanged_eligible": 4,
+  "all_noneligible_panels_unchanged": true,
+  "all_flow_panels_unchanged": true,
+  "protected_growth_panels_unchanged": true,
+  "no_cost_text_layer_or_effect_changes": true,
+  "only_economy_changes": [
+    "profile growth-v7",
+    "rounds4to6 deletion 1 point"
+  ],
+  "new_tournaments": 0
+}

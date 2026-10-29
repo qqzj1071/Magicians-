@@ -7,7 +7,7 @@
   "Rarity": "rare",
   "CombatCost": 1,
   "BaseStudyCost": 2,
-  "Attack": 5,
+  "Attack": 4,
   "Defense": 3,
   "FirstEnchantmentLayers": 1,
   "RulesText": "获得 80 护盾；若当前护盾 ≥100，再 +4 防；若本场你的护盾被击碎过，改为获得 110 护盾；立即/整场",

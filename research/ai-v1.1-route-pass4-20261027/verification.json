@@ -1,0 +1,23 @@
+{
+  "active_cards": 252,
+  "changed_panels": 18,
+  "integer_panels": true,
+  "rarity_bands_valid": true,
+  "documentation_rows_matched": 252,
+  "python_tests_passed": 24,
+  "csharp_build": "0 warnings / 0 errors",
+  "csharp_checks": "V11_ROUTE_BALANCE_OK",
+  "cards_sha256": "3e633fe24999f4d143715a643ec96165350ce14268b739b58b7199146df11da0",
+  "ash_specialization_gate_retained": true,
+  "final_interval_rounding": "floor",
+  "changes": "../v1.1-route-pass4-20261027/changes.md",
+  "tournament_audit": {
+    "games": 1000,
+    "settlements": 4000,
+    "unique_players_per_game": 4,
+    "placement_order_valid": true,
+    "points_and_champion_shares_conserved": true,
+    "all_rankings_recomputed_match": true,
+    "snapshot_matches_current_cards": true
+  }
+}

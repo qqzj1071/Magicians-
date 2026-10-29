@@ -6,13 +6,13 @@ namespace Magicians.Presentation;
 
 public static class DraftBroadcastText
 {
-    public static IEnumerable<string> Lines(MatchState state, CardDatabase cards, CardPresentationCatalog? profiles = null) => state.EventLog.OfType<DraftRuleChangedEvent>()
-        .Where(e => e.Action is "Specialization" or "Route" or "ReplaceRoute")
+    public static IEnumerable<string> Lines(MatchState state, CardDatabase cards) => state.EventLog.OfType<DraftRuleChangedEvent>()
+        .Where(e => e.Round == state.Round && (e.Action is "Specialization" or "Route" or "ReplaceRoute"))
         .GroupBy(e => e.Round).OrderBy(g => g.Key).Select(g =>
         {
             var entries = g.Select(e =>
             {
-                var names = string.Join("、", e.CardIds.Select(id => profiles?.NameFor(id) ?? id));
+                var names = string.Join("、", e.CardIds);
                 var action = e.Action == "Specialization" ? $"确定{CardPresentationCatalog.ElementLabel(cards.Get(e.CardIds[0]).Element)}系专精【{names}】" :
                     e.Action == "ReplaceRoute" ? $"替换传奇路线为【{names}】" : $"选择传奇路线【{names}】";
                 return $"{state.Players[e.Player].PublicInfo.DisplayName}{action}";
@@ -20,4 +20,3 @@ public static class DraftBroadcastText
             return $"第{g.Key}轮 · " + string.Join("；", entries);
         });
 }
-

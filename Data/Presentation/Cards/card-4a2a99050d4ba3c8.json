@@ -7,7 +7,7 @@
   "Rarity": "rare",
   "CombatCost": 1,
   "BaseStudyCost": 2,
-  "Attack": 8,
+  "Attack": 7,
   "Defense": 1,
   "FirstEnchantmentLayers": 1,
   "RulesText": "获得 60 护盾；若已打出「不周山」，消耗当前全部护盾，按壁垒公式造成反伤；本次伤害最终×1；立即",

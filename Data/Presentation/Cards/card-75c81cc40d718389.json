@@ -7,11 +7,11 @@
   "Rarity": "common",
   "CombatCost": 1,
   "BaseStudyCost": 1,
-  "Attack": 4,
+  "Attack": 5,
   "Defense": 0,
   "FirstEnchantmentLayers": 1,
-  "RulesText": "下一发飞弹间隔 -20；下一发",
-  "DisplayRulesText": "下一发飞弹间隔 -20；下一发",
+  "RulesText": "下一发飞弹间隔 -10；下一发",
+  "DisplayRulesText": "下一发飞弹间隔 -10；下一发",
   "RuleNotes": [],
   "Art": {
     "IllustrationTexture": "",
@@ -19,6 +19,5 @@
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
-  },
-  "DisplayName": "催火"
+  }
 }

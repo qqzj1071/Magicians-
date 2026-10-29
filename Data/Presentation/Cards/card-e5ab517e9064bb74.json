@@ -7,7 +7,7 @@
   "Rarity": "common",
   "CombatCost": 1,
   "BaseStudyCost": 1,
-  "Attack": 3,
+  "Attack": 4,
   "Defense": 1,
   "FirstEnchantmentLayers": 1,
   "RulesText": "无；整场",
@@ -19,6 +19,5 @@
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
-  },
-  "DisplayName": "掌中火团"
+  }
 }

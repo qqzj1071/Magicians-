@@ -7,7 +7,7 @@
   "Rarity": "rare",
   "CombatCost": 2,
   "BaseStudyCost": 2,
-  "Attack": 7,
+  "Attack": 11,
   "Defense": 1,
   "FirstEnchantmentLayers": 1,
   "RulesText": "若已打出「潮汐之心」，消耗全部潮汐，每消耗 1 点回复 2 生命；不设单次治疗上限，仍受最大生命限制；这次回复不记录潮汐；立即",

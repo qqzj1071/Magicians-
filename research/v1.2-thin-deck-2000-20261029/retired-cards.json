@@ -1,0 +1,557 @@
+{
+  "不动如山": {
+    "card": {
+      "name": "不动如山",
+      "cost": 1,
+      "attack": 3,
+      "defense": 4,
+      "layers": 1,
+      "element": "earth",
+      "rarity": "rare",
+      "text": "直到自身下一发主弹开始发射，受到的普通飞弹伤害的同类减伤增加20个百分点；打出前普通护盾至少150时，持续至自身下一个抽牌阶段开始前。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "余震": {
+    "card": {
+      "name": "余震",
+      "cost": 1,
+      "attack": 4,
+      "defense": 3,
+      "layers": 1,
+      "element": "earth",
+      "rarity": "rare",
+      "text": "本场护盾下一次被敌方伤害击碎时，下次抽牌阶段多抽1张；重复打出增加待触发的抽牌数量，在同一次破盾时一起兑现。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "元素熔炉": {
+    "card": {
+      "name": "元素熔炉",
+      "cost": 2,
+      "attack": 11,
+      "defense": 5,
+      "layers": 0,
+      "element": "generic",
+      "rarity": "legendary",
+      "text": "每张异种附魔牌（无论是否已打出）额外提供1层主系附魔；同一张只计一次，最多额外提供6层。",
+      "kind": "normal",
+      "ability": true
+    },
+    "copies": 2
+  },
+  "压实火药": {
+    "card": {
+      "name": "压实火药",
+      "cost": 1,
+      "attack": 4,
+      "defense": 3,
+      "layers": 1,
+      "element": "fire",
+      "rarity": "rare",
+      "text": "下一发飞弹间隔增加25。从打出后至下一发主弹开始发射前，受到的普通飞弹伤害降低15%，与同类减伤加算。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "厚土": {
+    "card": {
+      "name": "厚土",
+      "cost": 1,
+      "attack": 3,
+      "defense": 4,
+      "layers": 1,
+      "element": "earth",
+      "rarity": "rare",
+      "text": "回复当前普通护盾量50%的生命，最多150，不消耗护盾。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "回潮": {
+    "card": {
+      "name": "回潮",
+      "cost": 1,
+      "attack": 8,
+      "defense": 0,
+      "layers": 1,
+      "element": "water",
+      "rarity": "rare",
+      "text": "回复30生命；本抽牌阶段此前已实际回复过生命时，本次回复记录潮汐的记录量增加50%。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "垒石": {
+    "card": {
+      "name": "垒石",
+      "cost": 0,
+      "attack": 0,
+      "defense": 2,
+      "layers": 1,
+      "element": "earth",
+      "rarity": "common",
+      "text": "获得15普通护盾。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 6
+  },
+  "岩壁": {
+    "card": {
+      "name": "岩壁",
+      "cost": 1,
+      "attack": 1,
+      "defense": 3,
+      "layers": 1,
+      "element": "earth",
+      "rarity": "common",
+      "text": "获得40普通护盾；打出前普通护盾至少100时，本场额外+3防。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 6
+  },
+  "巨岩": {
+    "card": {
+      "name": "巨岩",
+      "cost": 2,
+      "attack": 8,
+      "defense": 5,
+      "layers": 1,
+      "element": "earth",
+      "rarity": "epic",
+      "text": "按打出前当前普通护盾量，每满100点，本场额外+2攻、+1防；每次打出最多兑现5档，不消耗护盾。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 3
+  },
+  "应急整备": {
+    "card": {
+      "name": "应急整备",
+      "cost": 1,
+      "attack": 4,
+      "defense": 4,
+      "layers": 0,
+      "element": "generic",
+      "rarity": "epic",
+      "text": "移除自身全部可净化的非毒负面效果及最多3层毒；回复60生命。永久减攻防及毒机制派生减攻防不直接移除。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "慢燃": {
+    "card": {
+      "name": "慢燃",
+      "cost": 1,
+      "attack": 9,
+      "defense": 1,
+      "layers": 1,
+      "element": "fire",
+      "rarity": "epic",
+      "text": "下一发主弹间隔增加25，普通增伤增加50%。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 3
+  },
+  "毒牙": {
+    "card": {
+      "name": "毒牙",
+      "cost": 1,
+      "attack": 5,
+      "defense": 2,
+      "layers": 1,
+      "element": "poison",
+      "rarity": "rare",
+      "text": "下一发主弹发射时，若目标有护盾，则结算后额外施加1毒层；该发实际伤及生命时再额外施加1毒层。两项独立判断，可合计额外施加2层；该发结算后效果结束。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "毒甲": {
+    "card": {
+      "name": "毒甲",
+      "cost": 1,
+      "attack": 1,
+      "defense": 3,
+      "layers": 1,
+      "element": "poison",
+      "rarity": "common",
+      "text": "获得30普通护盾。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 6
+  },
+  "水膜": {
+    "card": {
+      "name": "水膜",
+      "cost": 1,
+      "attack": 1,
+      "defense": 3,
+      "layers": 1,
+      "element": "water",
+      "rarity": "common",
+      "text": "回复20生命。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 6
+  },
+  "润泽": {
+    "card": {
+      "name": "润泽",
+      "cost": 0,
+      "attack": 1,
+      "defense": 1,
+      "layers": 1,
+      "element": "water",
+      "rarity": "common",
+      "text": "回复10生命。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 6
+  },
+  "渗骨毒素": {
+    "card": {
+      "name": "渗骨毒素",
+      "cost": 1,
+      "attack": 6,
+      "defense": 3,
+      "layers": 1,
+      "element": "poison",
+      "rarity": "epic",
+      "text": "正式打出后，登记下一个抽牌阶段开始时的检查：目标至少3毒层则该阶段额外获得1费。重复打出增加检查次数，不在本轮提前锁定检查结果。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 3
+  },
+  "濒死回响": {
+    "card": {
+      "name": "濒死回响",
+      "cost": 2,
+      "attack": 8,
+      "defense": 3,
+      "layers": 1,
+      "element": "water",
+      "rarity": "rare",
+      "text": "回复60生命；打出前生命不高于最大生命30%时，改为回复120生命。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "火墙": {
+    "card": {
+      "name": "火墙",
+      "cost": 1,
+      "attack": 5,
+      "defense": 0,
+      "layers": 1,
+      "element": "fire",
+      "rarity": "common",
+      "text": "移除自身全部可净化的非毒负面效果及1层毒（不直接移除永久或毒机制派生减攻防）；打出前没有可净化负面效果时，改为获得20普通护盾。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 6
+  },
+  "火舌": {
+    "card": {
+      "name": "火舌",
+      "cost": 1,
+      "attack": 8,
+      "defense": 0,
+      "layers": 1,
+      "element": "fire",
+      "rarity": "rare",
+      "text": "下一发主弹额外获得25%防御穿透。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "焰心屏障": {
+    "card": {
+      "name": "焰心屏障",
+      "cost": 2,
+      "attack": 12,
+      "defense": 2,
+      "layers": 1,
+      "element": "fire",
+      "rarity": "epic",
+      "text": "下一发主弹造成伤害前，获得相当于本次有效攻击力50%的临时护盾。剩余临时护盾在实际获盾后的自身下一个抽牌阶段开始前消失。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 3
+  },
+  "爆裂弹头": {
+    "card": {
+      "name": "爆裂弹头",
+      "cost": 1,
+      "attack": 8,
+      "defense": 0,
+      "layers": 1,
+      "element": "fire",
+      "rarity": "rare",
+      "text": "下一发主弹实际扣血≥120且已激活火专精时，获得1余烬。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "生命洪流": {
+    "card": {
+      "name": "生命洪流",
+      "cost": 2,
+      "attack": 5,
+      "defense": 7,
+      "layers": 1,
+      "element": "water",
+      "rarity": "epic",
+      "text": "消耗至多50潮汐，每消耗1点回复3生命；本次回复不记录潮汐。实际消耗达到50时，本场最大生命增加50，先提高上限再结算回复；提高上限本身不回复生命。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 3
+  },
+  "疾影": {
+    "card": {
+      "name": "疾影",
+      "cost": 1,
+      "attack": 7,
+      "defense": 1,
+      "layers": 1,
+      "element": "wind",
+      "rarity": "rare",
+      "text": "受到的普通飞弹伤害降低20%，持续至自身下一个抽牌阶段开始前。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "疾风": {
+    "card": {
+      "name": "疾风",
+      "cost": 1,
+      "attack": 1,
+      "defense": 3,
+      "layers": 1,
+      "element": "wind",
+      "rarity": "common",
+      "text": "下一发额外发射一段“固定60＋攻击力30%”的加成副弹。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 6
+  },
+  "破风": {
+    "card": {
+      "name": "破风",
+      "cost": 1,
+      "attack": 7,
+      "defense": 1,
+      "layers": 1,
+      "element": "wind",
+      "rarity": "rare",
+      "text": "移除自身可净化的临时攻击降低与防御降低效果，不移除永久或毒机制派生减攻防；每实际移除一种，获得25普通护盾，合并为一次获盾。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "碎岳之心": {
+    "card": {
+      "name": "碎岳之心",
+      "cost": 1,
+      "attack": 9,
+      "defense": 1,
+      "layers": 1,
+      "element": "earth",
+      "rarity": "epic",
+      "text": "消耗当前普通护盾的25%（向上取整）；下一发主弹额外获得实际消耗量200%的直接加伤。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 3
+  },
+  "腐化之躯": {
+    "card": {
+      "name": "腐化之躯",
+      "cost": 1,
+      "attack": 2,
+      "defense": 5,
+      "layers": 1,
+      "element": "poison",
+      "rarity": "epic",
+      "text": "按打出时目标毒层，获得每层2%的普通飞弹减伤，最多25%，持续至自身下一个抽牌阶段开始前；重复打出取较高值，不加算。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 3
+  },
+  "腐骨": {
+    "card": {
+      "name": "腐骨",
+      "cost": 1,
+      "attack": 5,
+      "defense": 2,
+      "layers": 1,
+      "element": "poison",
+      "rarity": "rare",
+      "text": "立即削减目标当前护盾20%，最多80。削盾不是伤害，不触发破盾相关效果，不额外挂毒。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "血之回响": {
+    "card": {
+      "name": "血之回响",
+      "cost": 1,
+      "attack": 3,
+      "defense": 5,
+      "layers": 1,
+      "element": "water",
+      "rarity": "epic",
+      "text": "支付当前生命的10%，再回复支付后已损失生命的10%；另将实际支付量按5%×水层数记录为潮汐。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 3
+  },
+  "血偿": {
+    "card": {
+      "name": "血偿",
+      "cost": 1,
+      "attack": 1,
+      "defense": 5,
+      "layers": 1,
+      "element": "water",
+      "rarity": "rare",
+      "text": "回复已损失生命的10%。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "裂空": {
+    "card": {
+      "name": "裂空",
+      "cost": 0,
+      "attack": 5,
+      "defense": 0,
+      "layers": 1,
+      "element": "wind",
+      "rarity": "epic",
+      "text": "下一发主弹附带一段攻击力20%的真伤，无视盾防。该真伤不叠风痕、不推进天岚计数，也不触发风痕引爆；重复打出各追加一段真伤。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 3
+  },
+  "速腐": {
+    "card": {
+      "name": "速腐",
+      "cost": 1,
+      "attack": 1,
+      "defense": 5,
+      "layers": 1,
+      "element": "poison",
+      "rarity": "rare",
+      "text": "目标下一次实际发生自然毒层衰减后，按衰减后的毒层立即触发一次常规毒伤；不改变常规毒伤周期。可累积次数，每次实际衰减只消耗1次；衰减至0层时消耗次数但不造成毒伤。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "风卷": {
+    "card": {
+      "name": "风卷",
+      "cost": 1,
+      "attack": 4,
+      "defense": 1,
+      "layers": 1,
+      "element": "wind",
+      "rarity": "common",
+      "text": "获得30普通护盾；本抽牌阶段此前每成功打出1张牌，额外获得10普通护盾，最多额外获得40。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 6
+  },
+  "风神之翼": {
+    "card": {
+      "name": "风神之翼",
+      "cost": 1,
+      "attack": 8,
+      "defense": 1,
+      "layers": 1,
+      "element": "wind",
+      "rarity": "epic",
+      "text": "立即抽2张；本抽牌阶段此前每成功打出2张牌，获得1费，最多获得2费。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 3
+  },
+  "高压弹仓": {
+    "card": {
+      "name": "高压弹仓",
+      "cost": 2,
+      "attack": 11,
+      "defense": 1,
+      "layers": 1,
+      "element": "fire",
+      "rarity": "rare",
+      "text": "下一发飞弹间隔增加25；激活火专精后立即获得2余烬。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "魔力契约": {
+    "card": {
+      "name": "魔力契约",
+      "cost": 2,
+      "attack": 11,
+      "defense": 5,
+      "layers": 0,
+      "element": "generic",
+      "rarity": "legendary",
+      "text": "从下阶段开始，每个抽牌阶段少抽1张、多获得1费。",
+      "kind": "normal",
+      "ability": true
+    },
+    "copies": 2
+  },
+  "魔法阵核心": {
+    "card": {
+      "name": "魔法阵核心",
+      "cost": 2,
+      "attack": 11,
+      "defense": 5,
+      "layers": 0,
+      "element": "generic",
+      "rarity": "legendary",
+      "text": "战斗开始时锁定牌组元素种类数N；激活后，从下阶段开始，每个抽牌阶段若N≥3则额外抽1张，若N≥5则再额外获得1费。通用不计元素种类。",
+      "kind": "normal",
+      "ability": true
+    },
+    "copies": 2
+  }
+}

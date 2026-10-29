@@ -7,7 +7,7 @@
   "Rarity": "rare",
   "CombatCost": 2,
   "BaseStudyCost": 2,
-  "Attack": 9,
+  "Attack": 12,
   "Defense": 0,
   "FirstEnchantmentLayers": 1,
   "RulesText": "若本场你的护盾被击碎过，本场 +6 防；整场",

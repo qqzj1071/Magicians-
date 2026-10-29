@@ -7,7 +7,7 @@
   "Rarity": "rare",
   "CombatCost": 1,
   "BaseStudyCost": 2,
-  "Attack": 5,
+  "Attack": 4,
   "Defense": 3,
   "FirstEnchantmentLayers": 1,
   "RulesText": "下一发间隔 +30；该发伤害 +16%；下一发",
@@ -19,6 +19,5 @@
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
-  },
-  "DisplayName": "添柴"
+  }
 }

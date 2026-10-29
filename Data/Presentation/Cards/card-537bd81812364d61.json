@@ -7,7 +7,7 @@
   "Rarity": "rare",
   "CombatCost": 1,
   "BaseStudyCost": 2,
-  "Attack": 9,
+  "Attack": 8,
   "Defense": 0,
   "FirstEnchantmentLayers": 1,
   "RulesText": "消耗 1 余烬，回复 15% 已损失生命；若没有余烬，获得 10 护盾；立即",
@@ -19,6 +19,5 @@
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
-  },
-  "DisplayName": "余温护心"
+  }
 }

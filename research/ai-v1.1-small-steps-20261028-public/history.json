@@ -1,0 +1,732 @@
+[
+  {
+    "batch": 1,
+    "development": {
+      "games": 80,
+      "candidate_mean_points": 0.1875,
+      "baseline_mean_points": -0.1875,
+      "candidate_win_rate": 0.3,
+      "baseline_win_rate": 0.2
+    },
+    "accepted": true,
+    "changes": {
+      "draft.coin": [
+        0.1823444618575668,
+        0.1873444618575668
+      ],
+      "draft.instant": [
+        0.6498503835275703,
+        0.6628473911981217
+      ],
+      "combat.context.13-14.energy": [
+        -0.15900000000000006,
+        0.371
+      ],
+      "combat.context.1-4.energy": [
+        0,
+        0.53
+      ],
+      "combat.context.9-12.energy": [
+        0,
+        0.53
+      ],
+      "combat.context.15-16.energy": [
+        0,
+        0.53
+      ],
+      "combat.context.5-8.energy": [
+        0,
+        0.53
+      ],
+      "combat.context.17+.energy": [
+        0,
+        0.53
+      ],
+      "combat.context.13-14.draw": [
+        0,
+        0.36
+      ],
+      "combat.context.1-4.draw": [
+        0.2160000000000002,
+        0.5760000000000002
+      ],
+      "combat.context.9-12.draw": [
+        0,
+        0.36
+      ],
+      "combat.context.15-16.draw": [
+        0,
+        0.36
+      ],
+      "combat.context.5-8.draw": [
+        0,
+        0.36
+      ],
+      "combat.context.17+.draw": [
+        0,
+        0.36
+      ],
+      "ai_v11.resource_projection": [
+        0,
+        0.1
+      ]
+    }
+  },
+  {
+    "batch": 2,
+    "development": {
+      "games": 80,
+      "candidate_mean_points": 0.0625,
+      "baseline_mean_points": -0.0625,
+      "candidate_win_rate": 0.2625,
+      "baseline_win_rate": 0.2375
+    },
+    "accepted": true,
+    "changes": {
+      "draft.bank": [
+        0.32130647051778943,
+        0.3148803411074336
+      ],
+      "draft.next_counter": [
+        1.0221537747630034,
+        1.0425968502582634
+      ],
+      "combat.context.13-14.core_priority": [
+        0,
+        6.1000000000000005
+      ],
+      "combat.context.1-4.core_priority": [
+        0,
+        6.1000000000000005
+      ],
+      "combat.context.9-12.core_priority": [
+        0,
+        6.1000000000000005
+      ],
+      "combat.context.15-16.core_priority": [
+        0,
+        6.1000000000000005
+      ],
+      "combat.context.5-8.core_priority": [
+        0,
+        6.1000000000000005
+      ],
+      "combat.context.17+.core_priority": [
+        0,
+        6.1000000000000005
+      ],
+      "combat.context.13-14.cost_power": [
+        0,
+        -0.009999999999999998
+      ],
+      "combat.context.1-4.cost_power": [
+        0.0,
+        -0.009999999999999998
+      ],
+      "combat.context.9-12.cost_power": [
+        -0.0030000000000000027,
+        -0.013000000000000001
+      ],
+      "combat.context.15-16.cost_power": [
+        0,
+        -0.009999999999999998
+      ],
+      "combat.context.5-8.cost_power": [
+        0,
+        -0.009999999999999998
+      ],
+      "combat.context.17+.cost_power": [
+        0,
+        -0.009999999999999998
+      ],
+      "ai_v11.resource_projection": [
+        0.1,
+        0.2
+      ]
+    }
+  },
+  {
+    "batch": 3,
+    "development": {
+      "games": 80,
+      "candidate_mean_points": 0.1875,
+      "baseline_mean_points": -0.1875,
+      "candidate_win_rate": 0.24375,
+      "baseline_win_rate": 0.25625
+    },
+    "accepted": false,
+    "changes": {
+      "draft.mana_fit": [
+        0.8,
+        0.784
+      ],
+      "draft.bank": [
+        0.3148803411074336,
+        0.3211779479295823
+      ],
+      "combat.context.13-14.damage": [
+        0,
+        0.013999999999999999
+      ],
+      "combat.context.1-4.damage": [
+        0.0,
+        0.013999999999999999
+      ],
+      "combat.context.9-12.damage": [
+        0,
+        0.013999999999999999
+      ],
+      "combat.context.15-16.damage": [
+        -0.004200000000000003,
+        0.009799999999999996
+      ],
+      "combat.context.5-8.damage": [
+        -0.004200000000000003,
+        0.009799999999999996
+      ],
+      "combat.context.17+.damage": [
+        0,
+        0.013999999999999999
+      ],
+      "combat.context.13-14.tempo_value": [
+        0.006900000000000006,
+        0.029900000000000006
+      ],
+      "combat.context.1-4.tempo_value": [
+        0,
+        0.023
+      ],
+      "combat.context.9-12.tempo_value": [
+        0,
+        0.023
+      ],
+      "combat.context.15-16.tempo_value": [
+        0,
+        0.023
+      ],
+      "combat.context.5-8.tempo_value": [
+        0,
+        0.023
+      ],
+      "combat.context.17+.tempo_value": [
+        0,
+        0.023
+      ],
+      "ai_v11.resource_projection": [
+        0.2,
+        0.30000000000000004
+      ]
+    }
+  },
+  {
+    "batch": 4,
+    "development": {
+      "games": 80,
+      "candidate_mean_points": -0.1625,
+      "baseline_mean_points": 0.1625,
+      "candidate_win_rate": 0.21875,
+      "baseline_win_rate": 0.28125
+    },
+    "accepted": false,
+    "changes": {
+      "draft.bank": [
+        0.3148803411074336,
+        0.3211779479295823
+      ],
+      "draft.next_counter": [
+        1.0425968502582634,
+        1.0634487872634286
+      ],
+      "combat.context.13-14.health": [
+        0,
+        0.013999999999999999
+      ],
+      "combat.context.1-4.health": [
+        -0.004200000000000003,
+        0.009799999999999996
+      ],
+      "combat.context.9-12.health": [
+        0,
+        0.013999999999999999
+      ],
+      "combat.context.15-16.health": [
+        0,
+        0.013999999999999999
+      ],
+      "combat.context.5-8.health": [
+        0,
+        0.013999999999999999
+      ],
+      "combat.context.17+.health": [
+        0,
+        0.013999999999999999
+      ],
+      "combat.context.13-14.sustain_value": [
+        -0.0062999999999999974,
+        0.014700000000000005
+      ],
+      "combat.context.1-4.sustain_value": [
+        0,
+        0.021
+      ],
+      "combat.context.9-12.sustain_value": [
+        0,
+        0.021
+      ],
+      "combat.context.15-16.sustain_value": [
+        0,
+        0.021
+      ],
+      "combat.context.5-8.sustain_value": [
+        0,
+        0.021
+      ],
+      "combat.context.17+.sustain_value": [
+        0,
+        0.021
+      ],
+      "ai_v11.resource_projection": [
+        0.2,
+        0.30000000000000004
+      ]
+    }
+  },
+  {
+    "batch": 5,
+    "development": {
+      "games": 80,
+      "candidate_mean_points": -0.1875,
+      "baseline_mean_points": 0.1875,
+      "candidate_win_rate": 0.23125,
+      "baseline_win_rate": 0.26875
+    },
+    "accepted": false,
+    "changes": {
+      "draft.coin": [
+        0.1873444618575668,
+        0.19234446185756682
+      ],
+      "draft.mana_fit": [
+        0.8,
+        0.784
+      ],
+      "combat.context.13-14.energy": [
+        0.371,
+        0.901
+      ],
+      "combat.context.1-4.energy": [
+        0.53,
+        1.06
+      ],
+      "combat.context.9-12.energy": [
+        0.53,
+        1.06
+      ],
+      "combat.context.15-16.energy": [
+        0.53,
+        1.06
+      ],
+      "combat.context.5-8.energy": [
+        0.53,
+        1.06
+      ],
+      "combat.context.17+.energy": [
+        0.53,
+        1.06
+      ],
+      "combat.context.13-14.budget_fit": [
+        0,
+        0.4
+      ],
+      "combat.context.1-4.budget_fit": [
+        -0.11999999999999997,
+        0.28
+      ],
+      "combat.context.9-12.budget_fit": [
+        0,
+        0.4
+      ],
+      "combat.context.15-16.budget_fit": [
+        0,
+        0.4
+      ],
+      "combat.context.5-8.budget_fit": [
+        -0.23999999999999994,
+        0.1600000000000001
+      ],
+      "combat.context.17+.budget_fit": [
+        0,
+        0.4
+      ],
+      "ai_v11.resource_projection": [
+        0.2,
+        0.30000000000000004
+      ]
+    }
+  },
+  {
+    "batch": 6,
+    "development": {
+      "games": 80,
+      "candidate_mean_points": 0.2,
+      "baseline_mean_points": -0.2,
+      "candidate_win_rate": 0.28125,
+      "baseline_win_rate": 0.21875
+    },
+    "accepted": true,
+    "changes": {
+      "draft.instant": [
+        0.6628473911981217,
+        0.6761043390220842
+      ],
+      "draft.bank": [
+        0.3148803411074336,
+        0.3211779479295823
+      ],
+      "combat.context.13-14.energy": [
+        0.371,
+        -0.15900000000000003
+      ],
+      "combat.context.1-4.energy": [
+        0.53,
+        0.0
+      ],
+      "combat.context.9-12.energy": [
+        0.53,
+        0.0
+      ],
+      "combat.context.15-16.energy": [
+        0.53,
+        0.0
+      ],
+      "combat.context.5-8.energy": [
+        0.53,
+        0.0
+      ],
+      "combat.context.17+.energy": [
+        0.53,
+        0.0
+      ],
+      "combat.context.13-14.draw": [
+        0.36,
+        0.0
+      ],
+      "combat.context.1-4.draw": [
+        0.5760000000000002,
+        0.2160000000000002
+      ],
+      "combat.context.9-12.draw": [
+        0.36,
+        0.0
+      ],
+      "combat.context.15-16.draw": [
+        0.36,
+        0.0
+      ],
+      "combat.context.5-8.draw": [
+        0.36,
+        0.0
+      ],
+      "combat.context.17+.draw": [
+        0.36,
+        0.0
+      ],
+      "ai_v11.resource_projection": [
+        0.2,
+        0.30000000000000004
+      ]
+    }
+  },
+  {
+    "batch": 7,
+    "development": {
+      "games": 80,
+      "candidate_mean_points": -0.2375,
+      "baseline_mean_points": 0.2375,
+      "candidate_win_rate": 0.2,
+      "baseline_win_rate": 0.3
+    },
+    "accepted": false,
+    "changes": {
+      "draft.bank": [
+        0.3211779479295823,
+        0.32760150688817397
+      ],
+      "draft.mana_fit": [
+        0.8,
+        0.8160000000000001
+      ],
+      "combat.context.13-14.core_priority": [
+        6.1000000000000005,
+        12.200000000000001
+      ],
+      "combat.context.1-4.core_priority": [
+        6.1000000000000005,
+        12.200000000000001
+      ],
+      "combat.context.9-12.core_priority": [
+        6.1000000000000005,
+        12.200000000000001
+      ],
+      "combat.context.15-16.core_priority": [
+        6.1000000000000005,
+        12.200000000000001
+      ],
+      "combat.context.5-8.core_priority": [
+        6.1000000000000005,
+        12.200000000000001
+      ],
+      "combat.context.17+.core_priority": [
+        6.1000000000000005,
+        12.200000000000001
+      ],
+      "combat.context.13-14.cost_power": [
+        -0.009999999999999998,
+        0.0
+      ],
+      "combat.context.1-4.cost_power": [
+        -0.009999999999999998,
+        0.0
+      ],
+      "combat.context.9-12.cost_power": [
+        -0.013000000000000001,
+        -0.0030000000000000027
+      ],
+      "combat.context.15-16.cost_power": [
+        -0.009999999999999998,
+        0.0
+      ],
+      "combat.context.5-8.cost_power": [
+        -0.009999999999999998,
+        0.0
+      ],
+      "combat.context.17+.cost_power": [
+        -0.009999999999999998,
+        0.0
+      ],
+      "ai_v11.resource_projection": [
+        0.30000000000000004,
+        0.4
+      ]
+    }
+  },
+  {
+    "batch": 8,
+    "development": {
+      "games": 80,
+      "candidate_mean_points": -0.05,
+      "baseline_mean_points": 0.05,
+      "candidate_win_rate": 0.2375,
+      "baseline_win_rate": 0.2625
+    },
+    "accepted": false,
+    "changes": {
+      "draft.tempo_streak": [
+        0.2521888927866243,
+        0.24714511493089183
+      ],
+      "draft.bank": [
+        0.3211779479295823,
+        0.32760150688817397
+      ],
+      "combat.context.13-14.damage": [
+        0,
+        0.013999999999999999
+      ],
+      "combat.context.1-4.damage": [
+        0.0,
+        0.013999999999999999
+      ],
+      "combat.context.9-12.damage": [
+        0,
+        0.013999999999999999
+      ],
+      "combat.context.15-16.damage": [
+        -0.004200000000000003,
+        0.009799999999999996
+      ],
+      "combat.context.5-8.damage": [
+        -0.004200000000000003,
+        0.009799999999999996
+      ],
+      "combat.context.17+.damage": [
+        0,
+        0.013999999999999999
+      ],
+      "combat.context.13-14.tempo_value": [
+        0.006900000000000006,
+        0.029900000000000006
+      ],
+      "combat.context.1-4.tempo_value": [
+        0,
+        0.023
+      ],
+      "combat.context.9-12.tempo_value": [
+        0,
+        0.023
+      ],
+      "combat.context.15-16.tempo_value": [
+        0,
+        0.023
+      ],
+      "combat.context.5-8.tempo_value": [
+        0,
+        0.023
+      ],
+      "combat.context.17+.tempo_value": [
+        0,
+        0.023
+      ],
+      "ai_v11.resource_projection": [
+        0.30000000000000004,
+        0.4
+      ]
+    }
+  },
+  {
+    "batch": 9,
+    "development": {
+      "games": 80,
+      "candidate_mean_points": 0.125,
+      "baseline_mean_points": -0.125,
+      "candidate_win_rate": 0.26875,
+      "baseline_win_rate": 0.23125
+    },
+    "accepted": true,
+    "changes": {
+      "draft.coin": [
+        0.1873444618575668,
+        0.1823444618575668
+      ],
+      "draft.reserve_plan": [
+        0.5254389959030927,
+        0.5149302159850309
+      ],
+      "combat.context.13-14.health": [
+        0,
+        0.013999999999999999
+      ],
+      "combat.context.1-4.health": [
+        -0.004200000000000003,
+        0.009799999999999996
+      ],
+      "combat.context.9-12.health": [
+        0,
+        0.013999999999999999
+      ],
+      "combat.context.15-16.health": [
+        0,
+        0.013999999999999999
+      ],
+      "combat.context.5-8.health": [
+        0,
+        0.013999999999999999
+      ],
+      "combat.context.17+.health": [
+        0,
+        0.013999999999999999
+      ],
+      "combat.context.13-14.sustain_value": [
+        -0.0062999999999999974,
+        0.014700000000000005
+      ],
+      "combat.context.1-4.sustain_value": [
+        0,
+        0.021
+      ],
+      "combat.context.9-12.sustain_value": [
+        0,
+        0.021
+      ],
+      "combat.context.15-16.sustain_value": [
+        0,
+        0.021
+      ],
+      "combat.context.5-8.sustain_value": [
+        0,
+        0.021
+      ],
+      "combat.context.17+.sustain_value": [
+        0,
+        0.021
+      ],
+      "ai_v11.resource_projection": [
+        0.30000000000000004,
+        0.4
+      ]
+    }
+  },
+  {
+    "batch": 10,
+    "development": {
+      "games": 80,
+      "candidate_mean_points": 0.225,
+      "baseline_mean_points": -0.225,
+      "candidate_win_rate": 0.30625,
+      "baseline_win_rate": 0.19375
+    },
+    "accepted": true,
+    "changes": {
+      "draft.reserve_plan": [
+        0.5149302159850309,
+        0.5046316116653302
+      ],
+      "draft.specialization_jump": [
+        3.5270925690785147,
+        3.4565507176969446
+      ],
+      "combat.context.13-14.energy": [
+        -0.15900000000000003,
+        -0.6890000000000001
+      ],
+      "combat.context.1-4.energy": [
+        0.0,
+        -0.53
+      ],
+      "combat.context.9-12.energy": [
+        0.0,
+        -0.53
+      ],
+      "combat.context.15-16.energy": [
+        0.0,
+        -0.53
+      ],
+      "combat.context.5-8.energy": [
+        0.0,
+        -0.53
+      ],
+      "combat.context.17+.energy": [
+        0.0,
+        -0.53
+      ],
+      "combat.context.13-14.budget_fit": [
+        0,
+        -0.4
+      ],
+      "combat.context.1-4.budget_fit": [
+        -0.11999999999999997,
+        -0.52
+      ],
+      "combat.context.9-12.budget_fit": [
+        0,
+        -0.4
+      ],
+      "combat.context.15-16.budget_fit": [
+        0,
+        -0.4
+      ],
+      "combat.context.5-8.budget_fit": [
+        -0.23999999999999994,
+        -0.6399999999999999
+      ],
+      "combat.context.17+.budget_fit": [
+        0,
+        -0.4
+      ],
+      "ai_v11.resource_projection": [
+        0.4,
+        0.5
+      ]
+    }
+  }
+]

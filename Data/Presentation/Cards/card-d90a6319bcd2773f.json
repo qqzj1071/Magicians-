@@ -7,11 +7,11 @@
   "Rarity": "epic",
   "CombatCost": 2,
   "BaseStudyCost": 3,
-  "Attack": 3,
-  "Defense": 6,
+  "Attack": 6,
+  "Defense": 7,
   "FirstEnchantmentLayers": 1,
-  "RulesText": "洗牌；已打出专精后，仅本场首次打出额外获得1余烬；立即",
-  "DisplayRulesText": "洗牌；已打出专精后，仅本场首次打出额外获得1余烬；立即",
+  "RulesText": "洗牌；已打出火专精牌后，每次打出获得1余烬，不再限制本场首次；立即",
+  "DisplayRulesText": "洗牌；已打出火专精牌后，每次打出获得1余烬，不再限制本场首次；立即",
   "RuleNotes": [],
   "Art": {
     "IllustrationTexture": "",
@@ -19,6 +19,5 @@
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
-  },
-  "DisplayName": "拨灰续火"
+  }
 }

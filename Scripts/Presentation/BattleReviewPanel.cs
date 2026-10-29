@@ -1,6 +1,5 @@
 using Godot;
 using Magicians.Application;
-using Magicians.Core.Cards;
 using Magicians.Core.Common;
 using Magicians.Core.Combat;
 
@@ -84,17 +83,17 @@ public partial class BattleReviewPanel : VBoxContainer
             var values = group.ToArray(); _steps[group.Key] = values;
             var row = _plays.CreateItem(root);
             row.SetText(0, values[0].ActionValue.ToString()); row.SetText(1, group.Key.ToString());
-            row.SetText(2, Names(values.Where(e => e.Player == own), session.CardProfiles));
-            row.SetText(3, Names(values.Where(e => e.Player != own), session.CardProfiles));
+            row.SetText(2, Names(values.Where(e => e.Player == own)));
+            row.SetText(3, Names(values.Where(e => e.Player != own)));
             row.SetMetadata(0, group.Key);
         }
         if (_selected.Plays.Count == 0) _result.Text += "（双方本场均未出牌）";
         if (root.GetFirstChild() is { } first) { first.Select(0); ShowCards(); }
     }
 
-    private static string Names(IEnumerable<CombatEvent> plays, CardPresentationCatalog profiles)
+    private static string Names(IEnumerable<CombatEvent> plays)
     {
-        var names = plays.Select(p => string.IsNullOrEmpty(p.CardId) ? string.Empty : profiles.NameFor(p.CardId)).ToArray();
+        var names = plays.Select(p => p.CardId).ToArray();
         return names.Length == 0 ? "本步未出牌" : string.Join("、", names);
     }
 

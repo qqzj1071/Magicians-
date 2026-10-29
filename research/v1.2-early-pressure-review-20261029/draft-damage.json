@@ -1,0 +1,25 @@
+{
+  "status": "proposal_only_not_applied",
+  "formula": "m+floor(n*ln(max(winner_remaining_battle_hp,1)))",
+  "rounds_1_to_4": {
+    "old": [
+      2,
+      0.8
+    ],
+    "draft": [
+      3,
+      1.0
+    ]
+  },
+  "rounds_5_to_8": {
+    "old": [
+      4,
+      1.8
+    ],
+    "draft": [
+      5,
+      2.0
+    ]
+  },
+  "rounds_9_plus": "unchanged"
+}

@@ -8,7 +8,7 @@
   "CombatCost": 1,
   "BaseStudyCost": 1,
   "Attack": 1,
-  "Defense": 2,
+  "Defense": 3,
   "FirstEnchantmentLayers": 0,
   "RulesText": "洗混摸牌堆与弃牌堆；立即",
   "DisplayRulesText": "洗混摸牌堆与弃牌堆；立即",

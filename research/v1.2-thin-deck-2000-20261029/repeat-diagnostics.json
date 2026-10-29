@@ -1,0 +1,27 @@
+{
+  "repeats": {
+    "selected": {
+      "battles": 11216,
+      "repeat_core_casts": 6809
+    },
+    "selected_vs_fixed-legacy": {
+      "battles": 5566,
+      "repeat_core_casts": 3129
+    },
+    "fixed-legacy": {
+      "battles": 5539,
+      "repeat_core_casts": 247
+    },
+    "fixed-battle-heavy-draft": {
+      "battles": 5401,
+      "repeat_core_casts": 527
+    },
+    "selected_vs_fixed-battle-heavy-draft": {
+      "battles": 5650,
+      "repeat_core_casts": 3680
+    }
+  },
+  "cycles": {
+    "alternative_or_end": 109
+  }
+}

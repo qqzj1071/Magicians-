@@ -1,0 +1,13 @@
+{
+  "training_inputs_verified_at_completion": true,
+  "card_rows_identical_to_training_snapshot": true,
+  "change": "仅修正文档周边过期费用汇总、当前193张数量、strict内核说明；不改变牌面字段、效果源码或训练参数",
+  "sha256": {
+    "docs\\cards-v1.2\\fire.md": "12295734cead54b30f6956b100530dfe2c84de32fa005ba83e8ca8e4d8ac4296",
+    "docs\\cards-v1.2\\water.md": "1a6e0a6bc361fbeccf3a25a93e30abc72a8bdc2be01b1eb48c352532f7f49a59",
+    "docs\\cards-v1.2\\earth.md": "516d8b57be2fa109c07f22a44be34b2a46325290ff56f902c01c4280d9b717ca",
+    "docs\\cards-v1.2\\wind.md": "1f7db2b2c192a1d9708ef9e9407cb53255da3bc01b48c6081ee71c79df912670",
+    "docs\\cards-v1.2\\poison.md": "3b7724272307b6db63376dc54ddc0ba08f610e9409f7648f1637cca58d0e9933",
+    "docs\\cards-v1.2\\generic.md": "fd78ad28add1868f9a6feb961f52482f05a1554f38c62f8f1cc61356a50f2802"
+  }
+}

@@ -36,4 +36,3 @@ public partial class CombatStatusPanel : Window
     }
     private void AddLine(string text) => _body.AddChild(new Label { Text = text, AutowrapMode = TextServer.AutowrapMode.WordSmart });
 }
-

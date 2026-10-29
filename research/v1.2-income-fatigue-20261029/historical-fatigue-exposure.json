@@ -1,0 +1,53 @@
+{
+  "scope": "old frozen 200 rooms;1500-start fatigue, NOT new rule simulation",
+  "metrics": {
+    "medium": {
+      "battles": 5260,
+      "reached1200": 462,
+      "reached1500": 261,
+      "reached1200_fraction": 0.08783269961977186
+    },
+    "unselected": {
+      "battles": 2837,
+      "reached1200": 397,
+      "reached1500": 148,
+      "reached1200_fraction": 0.1399365526965104
+    },
+    "small": {
+      "battles": 5444,
+      "reached1200": 461,
+      "reached1500": 289,
+      "reached1200_fraction": 0.08468038207200587
+    },
+    "wind": {
+      "battles": 2071,
+      "reached1200": 0,
+      "reached1500": 0,
+      "reached1200_fraction": 0.0
+    },
+    "fire": {
+      "battles": 1451,
+      "reached1200": 2,
+      "reached1500": 2,
+      "reached1200_fraction": 0.0013783597518952446
+    },
+    "water": {
+      "battles": 1612,
+      "reached1200": 255,
+      "reached1500": 198,
+      "reached1200_fraction": 0.15818858560794044
+    },
+    "earth": {
+      "battles": 1625,
+      "reached1200": 267,
+      "reached1500": 202,
+      "reached1200_fraction": 0.16430769230769232
+    },
+    "poison": {
+      "battles": 1108,
+      "reached1200": 2,
+      "reached1500": 0,
+      "reached1200_fraction": 0.0018050541516245488
+    }
+  }
+}

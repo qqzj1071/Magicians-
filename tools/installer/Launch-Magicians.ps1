@@ -38,4 +38,3 @@ Set-ItemProperty -LiteralPath $sessionClient -Name IsReadOnly -Value $true -Erro
 $exitCode = $LASTEXITCODE
 Remove-Item -LiteralPath $sessionRoot -Recurse -Force -ErrorAction SilentlyContinue
 exit $exitCode
-

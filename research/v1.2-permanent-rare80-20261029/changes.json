@@ -1,0 +1,59 @@
+{
+  "cards": [
+    {
+      "name": "熔盾烈焰",
+      "element": "fire",
+      "old_attack": 15,
+      "old_defense": 3,
+      "attack": 11,
+      "defense": 2,
+      "old_value": 9.75,
+      "value": 7.0
+    },
+    {
+      "name": "奔流",
+      "element": "water",
+      "old_attack": 9,
+      "old_defense": 7,
+      "attack": 5,
+      "defense": 6,
+      "old_value": 9.75,
+      "value": 7.0
+    },
+    {
+      "name": "层岩结构",
+      "element": "earth",
+      "old_attack": 3,
+      "old_defense": 11,
+      "attack": 2,
+      "defense": 8,
+      "old_value": 9.75,
+      "value": 7.0
+    },
+    {
+      "name": "风暴",
+      "element": "wind",
+      "old_attack": 9,
+      "old_defense": 7,
+      "attack": 5,
+      "defense": 6,
+      "old_value": 9.75,
+      "value": 7.0
+    },
+    {
+      "name": "缓释毒素",
+      "element": "poison",
+      "old_attack": 12,
+      "old_defense": 5,
+      "attack": 8,
+      "defense": 4,
+      "old_value": 9.75,
+      "value": 7.0
+    }
+  ],
+  "excluded_water": "深渊",
+  "target_band": [
+    6,
+    7.2
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "version": "1.1",
+  "card_library": "releases/v1.1/cards.json",
+  "games": 1000,
+  "namespace": "ai-v1.1-round1-20261027-sealed",
+  "scoring": {
+    "first": 3,
+    "second": 1,
+    "third": -1,
+    "fourth": -3,
+    "ties": "average occupied rank points"
+  },
+  "element_ranking": [
+    {
+      "name": "poison",
+      "score": 126.0,
+      "selections": 761
+    },
+    {
+      "name": "wind",
+      "score": 112.0,
+      "selections": 783
+    },
+    {
+      "name": "earth",
+      "score": -37.0,
+      "selections": 817
+    },
+    {
+      "name": "water",
+      "score": -90.0,
+      "selections": 845
+    },
+    {
+      "name": "fire",
+      "score": -113.0,
+      "selections": 794
+    }
+  ],
+  "route_ranking": [
+    {
+      "name": "毒爆",
+      "score": 220.0,
+      "selections": 229
+    },
+    {
+      "name": "穿云箭",
+      "score": 115.0,
+      "selections": 246
+    },
+    {
+      "name": "血潮",
+      "score": 100.0,
+      "selections": 283
+    },
+    {
+      "name": "疾风之刃",
+      "score": 45.0,
+      "selections": 318
+    },
+    {
+      "name": "大地之握",
+      "score": 20.0,
+      "selections": 313
+    },
+    {
+      "name": "壁垒之心",
+      "score": -2.0,
+      "selections": 207
+    },
+    {
+      "name": "灰烬循环",
+      "score": -5.0,
+      "selections": 254
+    },
+    {
+      "name": "燃烧血统",
+      "score": -28.0,
+      "selections": 199
+    },
+    {
+      "name": "蚀命",
+      "score": -42.0,
+      "selections": 282
+    },
+    {
+      "name": "风痕",
+      "score": -49.0,
+      "selections": 210
+    },
+    {
+      "name": "蚀骨",
+      "score": -55.0,
+      "selections": 241
+    },
+    {
+      "name": "反震岩核",
+      "score": -63.0,
+      "selections": 287
+    },
+    {
+      "name": "余烬之核",
+      "score": -79.0,
+      "selections": 334
+    },
+    {
+      "name": "潮汐回响",
+      "score": -91.0,
+      "selections": 331
+    },
+    {
+      "name": "生命之泉",
+      "score": -96.0,
+      "selections": 224
+    }
+  ],
+  "action_value_by_tournament_round": {
+    "1": {
+      "games": 2000,
+      "mean": 601.2485,
+      "median": 584.0,
+      "p25": 576.0,
+      "p75": 626.0
+    },
+    "2": {
+      "games": 2000,
+      "mean": 604.6935,
+      "median": 584.0,
+      "p25": 576.0,
+      "p75": 634.0
+    },
+    "3": {
+      "games": 2000,
+      "mean": 584.0045,
+      "median": 584.0,
+      "p25": 534.0,
+      "p75": 634.0
+    },
+    "4": {
+      "games": 2000,
+      "mean": 572.655,
+      "median": 542.0,
+      "p25": 492.0,
+      "p75": 634.0
+    },
+    "5": {
+      "games": 2000,
+      "mean": 576.771,
+      "median": 532.0,
+      "p25": 471.75,
+      "p75": 634.0
+    },
+    "6": {
+      "games": 2000,
+      "mean": 569.717,
+      "median": 500.0,
+      "p25": 442.0,
+      "p75": 600.0
+    },
+    "7": {
+      "games": 2000,
+      "mean": 573.405,
+      "median": 492.0,
+      "p25": 429.0,
+      "p75": 600.0
+    },
+    "8": {
+      "games": 2000,
+      "mean": 531.367,
+      "median": 450.0,
+      "p25": 400.0,
+      "p75": 542.0
+    },
+    "9": {
+      "games": 2000,
+      "mean": 545.5755,
+      "median": 450.0,
+      "p25": 400.0,
+      "p75": 547.5
+    },
+    "10": {
+      "games": 1994,
+      "mean": 560.1960882647944,
+      "median": 440.0,
+      "p25": 400.0,
+      "p75": 540.0
+    },
+    "11": {
+      "games": 1848,
+      "mean": 564.4691558441558,
+      "median": 430.0,
+      "p25": 400.0,
+      "p75": 525.0
+    },
+    "12": {
+      "games": 1553,
+      "mean": 547.190598840953,
+      "median": 400,
+      "p25": 383.0,
+      "p75": 500.0
+    },
+    "13": {
+      "games": 1267,
+      "mean": 598.0165745856353,
+      "median": 400,
+      "p25": 380.0,
+      "p75": 500.0
+    },
+    "14": {
+      "games": 1022,
+      "mean": 611.9236790606653,
+      "median": 400.0,
+      "p25": 375.25,
+      "p75": 512.5
+    },
+    "15": {
+      "games": 869,
+      "mean": 614.2025316455696,
+      "median": 400,
+      "p25": 367.0,
+      "p75": 525.0
+    },
+    "16": {
+      "games": 529,
+      "mean": 592.703213610586,
+      "median": 400,
+      "p25": 352.0,
+      "p75": 500.0
+    },
+    "17": {
+      "games": 193,
+      "mean": 607.2901554404145,
+      "median": 400,
+      "p25": 348.0,
+      "p75": 500.0
+    },
+    "18": {
+      "games": 26,
+      "mean": 852.9230769230769,
+      "median": 400.0,
+      "p25": 345.5,
+      "p75": 542.5
+    },
+    "19": {
+      "games": 2,
+      "mean": 357,
+      "median": 357.0,
+      "p25": 335.5,
+      "p75": 378.5
+    }
+  },
+  "end_round_distribution": {
+    "13": 20,
+    "14": 114,
+    "15": 337,
+    "16": 336,
+    "17": 167,
+    "18": 24,
+    "19": 2
+  }
+}

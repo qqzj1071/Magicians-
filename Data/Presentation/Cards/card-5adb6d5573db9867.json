@@ -7,7 +7,7 @@
   "Rarity": "rare",
   "CombatCost": 1,
   "BaseStudyCost": 2,
-  "Attack": 9,
+  "Attack": 8,
   "Defense": 0,
   "FirstEnchantmentLayers": 1,
   "RulesText": "若本场已实际回复过生命，再 +4 攻；整场",

@@ -1,0 +1,15 @@
+{
+  "simulator_tests_passed": 50,
+  "economy_compatibility_tests_passed": 6,
+  "v11_frozen_hashes_verified": true,
+  "new_tournaments": 0,
+  "profile": "growth-v6",
+  "income": {
+    "rounds1_3": 2,
+    "rounds4_7": 3,
+    "rounds8_plus": 4
+  },
+  "fatigue_start_av": 1200,
+  "fatigue_formula_unchanged": true,
+  "card_data_unchanged": true
+}

@@ -1,0 +1,20 @@
+{
+  "cards": 189,
+  "stock": 707,
+  "changed_names": [
+    "奔流",
+    "层岩结构",
+    "熔盾烈焰",
+    "缓释毒素",
+    "风暴"
+  ],
+  "all_other_panels_unchanged": true,
+  "abyss_unchanged": true,
+  "all_cost_text_layer_identity_and_effects_unchanged": true,
+  "target_band": [
+    6,
+    7.2
+  ],
+  "selected_value": 7.0,
+  "new_tournaments": 0
+}

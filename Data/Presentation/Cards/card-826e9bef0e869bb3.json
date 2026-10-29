@@ -7,7 +7,7 @@
   "Rarity": "epic",
   "CombatCost": 2,
   "BaseStudyCost": 3,
-  "Attack": 14,
+  "Attack": 15,
   "Defense": 0,
   "FirstEnchantmentLayers": 1,
   "RulesText": "消耗最多 2 余烬；每层回复 15% 已损失生命；若没有余烬，获得 1 余烬；立即",
@@ -19,6 +19,5 @@
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
-  },
-  "DisplayName": "吞烬"
+  }
 }

@@ -1,0 +1,70 @@
+{
+  "card_count": 193,
+  "pool": 722,
+  "groups": {
+    "fire": {
+      "specialization": 1,
+      "legendary": 4,
+      "epic": 9,
+      "rare": 12,
+      "common": 6
+    },
+    "water": {
+      "specialization": 1,
+      "legendary": 4,
+      "epic": 8,
+      "rare": 13,
+      "common": 5
+    },
+    "earth": {
+      "specialization": 1,
+      "legendary": 4,
+      "epic": 9,
+      "rare": 13,
+      "common": 5
+    },
+    "wind": {
+      "specialization": 1,
+      "legendary": 4,
+      "epic": 9,
+      "rare": 14,
+      "common": 5
+    },
+    "poison": {
+      "specialization": 1,
+      "legendary": 4,
+      "epic": 9,
+      "rare": 10,
+      "common": 5
+    },
+    "generic": {
+      "specialization": 0,
+      "legendary": 5,
+      "epic": 6,
+      "rare": 10,
+      "common": 15
+    }
+  },
+  "removed_states": [
+    "poison_energy",
+    "fast_rot",
+    "break_draw",
+    "pre_shield",
+    "ember_hit",
+    "poison_fang",
+    "until_launch_reduce",
+    "poison_reduction",
+    "element_count"
+  ],
+  "violations": [],
+  "retained": [
+    "坚岩",
+    "风蚀",
+    "护命",
+    "复活",
+    "真伤",
+    "破盾返盾",
+    "永恒壁垒",
+    "潮声延迟回复"
+  ]
+}

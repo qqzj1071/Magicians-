@@ -19,13 +19,13 @@ public sealed class ActiveShieldBurstResolver : ICardEffectResolver
         var consumed = source.Shield;
         source = source with { Shield = 0, TemporaryShield = 0 };
         var upgraded = source.EarthSpecialized && source.ShieldBreakReturnPercent > 0;
-        var raw = Math.Max(0m, consumed * source.EarthLayers * (upgraded ? 0.025m : 0.035m)
-            - target.Defense * (upgraded ? 0.20m : 0.50m));
+        var raw = Math.Max(0m, consumed * source.EarthLayers * (upgraded ? 0.045m : 0.03m)
+            - target.Defense * 0.50m);
         // Shield-burst damage uses its own defense formula, then source fire layers.
         // Ordinary projectile bonuses, wind penetration and embers do not apply.
         var damage = CombatMath.Ceiling(raw * (1 + source.FireLayers * (source.FireSpecialized ? 0.02m : 0.01m)));
         var split = CombatMath.SplitShieldBurst(damage, target.Shield,
-            source.EarthSpecialized && source.ShieldDecay.Active ? 50 : 0);
+            0);
         var absorbed = split.Shield;
         var lifeDamage = split.Life;
         target = target with

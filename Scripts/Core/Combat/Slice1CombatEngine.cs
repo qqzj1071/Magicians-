@@ -43,11 +43,11 @@ public sealed class Slice1CombatEngine : ICombatEngine
         var pile = setup.Cards.ToList();
         rng.Shuffle(pile);
         return new(
-            Player: setup.Player, Life: 1000, Attack: 60, Defense: 20, Shield: 0, Energy: 0,
+            Player: setup.Player, Life: 1000, Attack: _cards.Version == "1.1" ? 100 : 60, Defense: _cards.Version == "1.1" ? 40 : 20, Shield: 0, Energy: 0,
             DeckElementCount: setup.Cards.Select(card => _cards.Get(card.CardId).Element).Distinct(StringComparer.Ordinal).Count(),
             PrimaryElement: ResolvePrimaryElement(setup.Cards), ElementForgeActive: false, ElementForgeBonusLayers: 0,
             ElementForgePotentialLayers: ResolveForgePotentialLayers(setup.Cards),
-            NextFire: 100, AttackIntervalModifier: 0, PermanentIntervalMultiplierPercent: 100, TemporaryIntervalMultiplierPercent: 100,
+            NextFire: _cards.Version == "1.1" ? 50 : 100, AttackIntervalModifier: 0, PermanentIntervalMultiplierPercent: 100, TemporaryIntervalMultiplierPercent: 100,
             NextIncomingDamageMultiplierPercent: 100, NextIncomingDamageFlat: 0,
             HealingReductionPercent: 0, HealingReductionUntilActionValue: 0,
             BattleIncomingDamageMultiplierPercent: 100, BattleIncomingDamageUntilActionValue: 0,
@@ -164,7 +164,10 @@ public sealed class Slice1CombatEngine : ICombatEngine
         if (pending.Length < required) return new(true, next, Array.Empty<CombatEvent>(), null);
         var events = new List<CombatEvent>();
         next = next with { Revision = state.Revision + 1 };
-        foreach (var action in pending)
+        // Paired submissions are simultaneous: establish rewind before resolving
+        // any opposing lethal card, independent of submission/AI scheduling order.
+        foreach (var action in pending.OrderByDescending(p => p.Action.Kind == CombatActionKind.PlayCard &&
+                     GetPlayer(next, p.Player).CurrentPool.Any(c => c.InstanceId == p.Action.Card && c.CardId == "时光倒流")))
         {
             if (action.Action.Kind == CombatActionKind.EndWindow)
                 next = next with { EndedWindows = next.EndedWindows.Append(action.Player).ToArray() };
@@ -222,6 +225,7 @@ public sealed class Slice1CombatEngine : ICombatEngine
             targetState = ApplyResources(targetState, mutation.TargetResources);
             events.AddRange(mutation.Events.Select(effectEvent => effectEvent with { Revision = state.Revision }));
         }
+        if (card.CardId == "魔力契约") self = self with { ManaContractActive = true };
         if (CombatCardExecution.Deck.Contains(card.CardId)) switch (card.CardId)
         {
             case "重洗":
@@ -229,8 +233,8 @@ public sealed class Slice1CombatEngine : ICombatEngine
                 break;
             case "灰烬重生":
                 self = ApplyShuffleTransaction(self, events, state);
-                if (self.FireSpecialized && !self.AshRebirthUsed)
-                    self = self with { Embers = self.Embers + 1, AshRebirthUsed = true };
+                if (self.EmberDamageActive)
+                    self = self with { Embers = Math.Min(5, self.Embers + 1) };
                 break;
             case "回火":
                 self = ApplyShuffleTransaction(self, events, state);
@@ -303,8 +307,25 @@ public sealed class Slice1CombatEngine : ICombatEngine
                 self = AdvanceSearchRandom(self, card.CardId);
                 break;
         }
+        if (_cards.Version == "1.1") self = ApplyAshStartupLink(self, card.CardId);
         events.Add(new(state.Revision, state.ActionValue, "CardPlayed", self.Player, card.CardId));
         return new PlayResult(self, targetState);
+    }
+
+    private static CombatantState ApplyAshStartupLink(CombatantState self, string played)
+    {
+        if (played is not ("灰烬循环" or "炽焰王冠")) return self;
+        var owned = self.DrawPile.Concat(self.CurrentPool).Concat(self.DiscardPile).Concat(self.ExhaustedCards);
+        if (!owned.Any(c => c.CardId == "灰烬循环")) return self;
+        var target = played == "灰烬循环" ? "炽焰王冠" : "灰烬循环";
+        if (!self.DrawnThisWindow.Contains(target) && !self.CurrentPool.Any(c => c.CardId == target)
+            && !self.ExhaustedCards.Any(c => c.CardId == target))
+        {
+            var found = self.DrawPile.FirstOrDefault(c => c.CardId == target);
+            if (found is not null)
+                self = self with {DrawPile = new[]{found}.Concat(self.DrawPile.Where(c => c.InstanceId != found.InstanceId)).ToArray()};
+        }
+        return self;
     }
 
     private static CombatantState ApplyResources(CombatantState state, CombatResourceState resources) => state with
@@ -372,8 +393,10 @@ public sealed class Slice1CombatEngine : ICombatEngine
         ,NextDefensePenetrationPercent = resources.NextDefensePenetrationPercent
         ,NextMainTemporaryShieldPercent = resources.NextMainTemporaryShieldPercent
         ,UnredeemedEmbersSpent = resources.UnredeemedEmbersSpent
+        ,AshCyclePendingCredit = resources.AshCyclePendingCredit
         ,ShieldDecay = resources.ShieldDecay
         ,BastionHeartActive = resources.BastionHeartActive
+        ,BurningBloodlineActive = resources.BurningBloodlineActive, LifeSpringActive = resources.LifeSpringActive, NextTideHealingRecordBonusPercent = resources.NextTideHealingRecordBonusPercent
 
         ,BattleAttackReduction = resources.BattleAttackReduction
         ,BattleDefenseReduction = resources.BattleDefenseReduction
@@ -410,8 +433,8 @@ public sealed class Slice1CombatEngine : ICombatEngine
             RandomState = transaction.RandomAfter,
             ShuffleCount = self.ShuffleCount + 1
         };
-        if (next.AshCycleActive && next.FireSpecialized)
-            next = next with { Embers = next.Embers + 1 };
+        if (next.AshCycleActive && next.EmberDamageActive)
+            next = next with { Embers = Math.Min(5, next.Embers + 2) };
         return next;
     }
 
@@ -484,12 +507,13 @@ public sealed class Slice1CombatEngine : ICombatEngine
     {
         if (self.TemporaryShield > 0)
             self = self with { Shield = Math.Max(0, self.Shield - self.TemporaryShield), TemporaryShield = 0 };
-        var drawState = self;
+        var ashCredit = self.AshCycleActive ? Math.Min(3, self.AshCyclePendingCredit) : 0;
+        var drawState = self with { AshCyclePendingCredit = 0 };
         var pile = self.DrawPile.ToList();
         var discard = self.DiscardPile.ToList();
         var pool = new List<CardInstance>();
         var rng = SeededRandom.FromState(self.RandomState);
-        for (var i = 0; i < 5 + self.NextDrawBonus; i++)
+        for (var i = 0; i < 5 + self.NextDrawBonus + ashCredit - (self.ManaContractActive ? 1 : 0); i++)
         {
             if (pile.Count == 0)
             {
@@ -501,7 +525,7 @@ public sealed class Slice1CombatEngine : ICombatEngine
         drawState = CombatTriggerRegistry.Consume(drawState, TemporaryTrigger.NextDraw);
         drawState = drawState with { MainDamageBonusUntilDrawPercent = 0, MainShieldPenetrationUntilDrawPercent = 0 };
         return drawState with { DrawPile = pile.AsReadOnly(), DiscardPile = discard.AsReadOnly(),
-            CurrentPool = pool.AsReadOnly(), Energy = 3 + self.NextEnergyBonus,
+            CurrentPool = pool.AsReadOnly(), DrawnThisWindow = pool.Select(c=>c.CardId).ToArray(), Energy = 3 + self.NextEnergyBonus + ashCredit + (self.ManaContractActive ? 1 : 0),
             RandomState = rng.State };
     }
 
@@ -556,8 +580,8 @@ public sealed class Slice1CombatEngine : ICombatEngine
         }
         if (source.PlagueActive && source.PoisonEnchantmentLayers > 0)
         {
-            var desiredAttack = CombatMath.Floor(2m + 0.3m * source.PoisonEnchantmentLayers * target.PoisonLayers);
-            var desiredDefense = CombatMath.Floor(2m + 0.15m * source.PoisonEnchantmentLayers * target.PoisonLayers);
+            var desiredAttack = CombatMath.Floor(2m + (source.PoisonDecayKeepLast ? 0.6m : 0.4m) * source.PoisonEnchantmentLayers * target.PoisonLayers);
+            var desiredDefense = CombatMath.Floor(2m + (source.PoisonDecayKeepLast ? 0.4m : 0.2m) * source.PoisonEnchantmentLayers * target.PoisonLayers);
             var attackDelta = desiredAttack - target.PlagueAttackReduction;
             var defenseDelta = desiredDefense - target.PlagueDefenseReduction;
             target = target with
@@ -575,7 +599,7 @@ public sealed class Slice1CombatEngine : ICombatEngine
             var ratio = source.PoisonSpecialized ? 0.02m : 0.01m;
             var raw = source.Attack * source.PoisonEnchantmentLayers * target.PoisonLayers * ratio;
             if (source.PlagueLifeDamageActive)
-                raw += 1000m * 0.008m * target.PoisonLayers;
+                raw += 1000m * 0.01m * target.PoisonLayers;
             var damage = CombatMath.PoisonDamage(raw, target.Defense);
             target = target with { Life = target.Life - damage };
             events.Add(new(revision, actionValue, "PoisonDamage", source.Player, Amount: damage, LifeDamage: damage));
@@ -608,7 +632,7 @@ public sealed class Slice1CombatEngine : ICombatEngine
                     target = target with { PoisonLayers = layers,
                         NextPoisonDecayActionValue = CalculatePoisonDecayTime(actionValue, layers, target.PoisonDecayIntervalPercent) };
                     if (source.PoisonExplosionActive)
-                        source = source with { Attack = source.Attack + 4 };
+                        source = source with { Attack = source.Attack + 1 };
                     events.Add(new(revision, actionValue, "PoisonDecay", target.Player, Amount: 1));
                 }
         }
@@ -683,6 +707,7 @@ public sealed class Slice1CombatEngine : ICombatEngine
                 PoisonLayers = bAfter.PoisonLayers + hit.Source.PoisonLayers - b.PoisonLayers,
                 NextPoisonDecayActionValue = bAfter.NextPoisonDecayActionValue,
                 NextDrawBonus = bAfter.NextDrawBonus + hit.Source.NextDrawBonus - b.NextDrawBonus,
+                AshCyclePendingCredit = Math.Min(3, bAfter.AshCyclePendingCredit + hit.Source.AshCyclePendingCredit - b.AshCyclePendingCredit),
                 ShieldBrokenThisBattle = bAfter.ShieldBrokenThisBattle || hit.Source.ShieldBrokenThisBattle,
                 ShieldBreakDefenseMarkerActive = bAfter.ShieldBreakDefenseMarkerActive,
                 ShieldBreakDrawMarkerActive = bAfter.ShieldBreakDrawMarkerActive,
@@ -706,10 +731,10 @@ public sealed class Slice1CombatEngine : ICombatEngine
             var target = source.Player == state.A.Player ? state.B : state.A;
             if (!source.EarthBarrierActive || source.Shield <= 0 || source.Life <= 0 || target.Life <= 0) continue;
             var upgraded = source.EarthSpecialized && source.ShieldBreakReturnPercent > 0;
-            var raw = Math.Max(0, source.Shield * source.EarthLayers * (upgraded ? 0.025m : 0.035m)
-                - target.Defense * (upgraded ? 0.20m : 0.50m));
+            var raw = Math.Max(0, source.Shield * source.EarthLayers * (upgraded ? 0.045m : 0.03m)
+                - target.Defense * 0.50m);
             var damage = CombatMath.Ceiling(raw * (1 + source.FireLayers * (source.FireSpecialized ? 0.02m : 0.01m)));
-            var split = CombatMath.SplitShieldBurst(damage, target.Shield, source.ShieldDecay.Active && source.EarthSpecialized ? 50 : 0);
+            var split = CombatMath.SplitShieldBurst(damage, target.Shield, 0);
             if (split.Life >= target.Life) packets.Add((source.Player, damage, split.Shield, split.Life));
         }
         foreach (var packet in packets)
@@ -738,26 +763,26 @@ public sealed class Slice1CombatEngine : ICombatEngine
         var pendingEarthReflect = 0;
         for (var i = 0; i <= source.PendingSubmissiles; i++)
         {
-            var raw = i == 0 ? source.Attack : 15 + source.Attack * 0.20m;
+            var raw = i == 0 ? source.Attack * (source.BurningBloodlineActive ? 1.8m : 1m) : 15 + source.Attack * 0.20m;
             if (i == 0) raw += source.ShieldDecay.MainDamage;
             raw = (raw * (1 + source.NextMissileBonusPercent / 100m)) + source.NextMissileBonusFlat;
             var defensePenetration = i == 0 ? source.NextDefensePenetrationPercent + source.MainDefensePenetrationPercent : 0;
             if (source.WindArrowActive)
-                defensePenetration += CombatMath.Floor(source.WindLayers * (source.WindSpecialized ? 7m : 3.5m));
-            if (source.WindArrowActive && source.WindGaleActive) defensePenetration += 20;
-            var damage = CombatMath.MissileDamage(raw, target.Defense, defensePenetration);
+                defensePenetration += CombatMath.Floor(source.WindLayers * (source.WindSpecialized ? 2m : 1m));
+            var independentDefenseIgnore = source.WindArrowActive && source.WindGaleActive ? 15 : 0;
+            var damage = CombatMath.MissileDamage(raw, target.Defense, defensePenetration, independentDefenseIgnore);
             if (i == 0 && source.WindChaseActive && source.LastMainMissileActionValue >= 0)
             {
                 var elapsed = Math.Max(0, state.ActionValue - source.LastMainMissileActionValue);
-                var factor = Math.Max(0m, 1m - elapsed / 100m);
-                damage += CombatMath.Floor(source.LastMainMissileActualDamage * factor * 0.30m);
+                var factor = Math.Max(0m, 1m - elapsed / 50m);
+                damage += CombatMath.Floor(source.LastMainMissileActualDamage * factor * 0.20m);
             }
             var tideSpent = 0;
             if (i == 0 && source.TideActive && source.Tides > 0)
             {
                 tideSpent = CombatMath.Floor(source.Tides);
                 damage = CombatMath.Floor(damage + tideSpent * (source.NextTideDamageMultiplierPercent / 100m));
-                source = source with { Tides = source.TideRefundPercent > 0 ? source.Tides * source.TideRefundPercent / 100m : 0m, NextTideDamageMultiplierPercent = 100 };
+                source = source with { Tides = source.TideRefundPercent > 0 ? CombatMath.Ceiling(tideSpent * source.TideRefundPercent / 100m) : 0m, NextTideDamageMultiplierPercent = 100 };
             }
             if (i == 0 && source.BloodTideActive)
             {
@@ -784,17 +809,17 @@ public sealed class Slice1CombatEngine : ICombatEngine
             if (i == 0 && source.EmberDamageActive && source.Embers > 0)
             {
                 emberSpent = source.Embers;
-                damage = CombatMath.Floor(damage * (1 + source.FireLayers * 0.025m * emberSpent));
+                damage = CombatMath.Floor(damage * (1 + source.FireLayers * (source.BurningBloodlineActive ? 0.03m : 0.025m) * emberSpent));
             }
             var shieldBefore = target.Shield;
             var shieldPenetration = i == 0 ? source.NextShieldPenetrationPercent + source.MainShieldPenetrationUntilDrawPercent : 0;
-            if (source.WindArrowActive)
-                shieldPenetration += CombatMath.Floor(source.WindLayers * (source.WindSpecialized ? 1m : 0.5m));
+            // Wind Arrow uses only the base wind shield penetration.
             var split = CombatMath.SplitDamage(damage, target.Shield, source.WindLayers, source.WindSpecialized, shieldPenetration);
             var finalLife = CombatMath.Floor(split.Life * (1 + source.FireLayers * (source.FireSpecialized ? 0.02m : 0.01m)));
             finalLife = split.Life > 0 ? Math.Max(1, finalLife) : 0;
-            var actualShieldDamage = source.NextShieldDamageMultiplierPercent > 0
-                ? Math.Min(target.Shield, CombatMath.Ceiling(split.Shield * (1 + source.NextShieldDamageMultiplierPercent / 100m)))
+            var shieldBonusPercent = source.NextShieldDamageMultiplierPercent + (source.WindArrowActive ? 15 : 0);
+            var actualShieldDamage = shieldBonusPercent > 0
+                ? Math.Min(target.Shield, CombatMath.Ceiling(split.Shield * (1 + shieldBonusPercent / 100m)))
                 : split.Shield;
             target = target with { Shield = target.Shield - actualShieldDamage, Life = target.Life - finalLife };
             target = ResolveShieldHitReactions(source, target, shieldBefore, actualShieldDamage, state, events, ref pendingEarthReflect);
@@ -806,7 +831,7 @@ public sealed class Slice1CombatEngine : ICombatEngine
                 source = source with { WindTraceLayers = traceLayers, WindTraceBonusLayers = 0 };
                 if (traceLayers >= 3)
                 {
-                    var traceDamage = CombatMath.Floor(source.Attack * (0.08m * traceLayers + 0.015m * traceLayers * (traceLayers - 1) / 2m) * (1 + source.WindTraceExplosionMultiplierPercent / 100m));
+                    var traceDamage = CombatMath.Floor(source.Attack * (0.08m * traceLayers + 0.02m * traceLayers * (traceLayers - 1) / 2m) * (1 + source.WindTraceExplosionMultiplierPercent / 100m));
                     target = target with { Life = target.Life - traceDamage };
                     events.Add(new(state.Revision, state.ActionValue, "WindTraceExplosion", source.Player, Amount: traceDamage, LifeDamage: traceDamage));
                     source = source with { WindTraceLayers = 0, WindTraceExplosionMultiplierPercent = 0 };
@@ -859,14 +884,9 @@ public sealed class Slice1CombatEngine : ICombatEngine
                 // remaining missing life after the previous layer resolves.
                 for (var i = 0; i < emberSpent; i++)
                 {
-                    var heal = CombatMath.Ceiling((1000 - source.Life) * 0.07m);
+                    var heal = CombatMath.Ceiling((1000 - source.Life) * 0.10m);
                     source = source with { Life = Math.Min(1000, source.Life + heal) };
                 }
-            }
-            if (source.AshCycleActive)
-            {
-                var quota = Math.Min(2, emberSpent);
-                source = source with { NextDrawBonus = source.NextDrawBonus + quota, NextEnergyBonus = source.NextEnergyBonus + quota };
             }
             events.Add(new(state.Revision, state.ActionValue, "EmberSpent", source.Player, Amount: emberSpent));
         }
@@ -879,15 +899,18 @@ public sealed class Slice1CombatEngine : ICombatEngine
         {
             var raw = source.NextWindSubmissileFlat + source.Attack * (source.NextWindSubmissileAttackPercent / 100m);
             if (raw <= 0) raw = 18 + source.Attack * 0.20m;
-            var damage = CombatMath.MissileDamage(raw, target.Defense);
+            var defensePenetration = source.WindArrowActive ? CombatMath.Floor(source.WindLayers * (source.WindSpecialized ? 2m : 1m)) : 0;
+            var independentDefenseIgnore = source.WindArrowActive && source.WindGaleActive ? 15 : 0;
+            var damage = CombatMath.MissileDamage(raw, target.Defense, defensePenetration, independentDefenseIgnore);
             if (target.BastionHeartActive && target.Shield > 0)
                 damage = Math.Max(1, CombatMath.Floor(damage * 0.85m));
             var shieldBefore = target.Shield;
             var split = CombatMath.SplitDamage(damage, target.Shield, source.WindLayers, source.WindSpecialized);
             var finalLife = CombatMath.Floor(split.Life * (1 + source.FireLayers * (source.FireSpecialized ? 0.02m : 0.01m)));
             finalLife = split.Life > 0 ? Math.Max(1, finalLife) : 0;
-            target = target with { Shield = target.Shield - split.Shield, Life = target.Life - finalLife };
-            target = ResolveShieldHitReactions(source, target, shieldBefore, split.Shield, state, events, ref pendingEarthReflect);
+            var actualShieldDamage = Math.Min(target.Shield, CombatMath.Ceiling(split.Shield * (1 + (source.NextShieldDamageMultiplierPercent + (source.WindArrowActive ? 15 : 0)) / 100m)));
+            target = target with { Shield = target.Shield - actualShieldDamage, Life = target.Life - finalLife };
+            target = ResolveShieldHitReactions(source, target, shieldBefore, actualShieldDamage, state, events, ref pendingEarthReflect);
             if (source.WindTraceActive)
             {
                 var traceLayers = source.WindTraceLayers + 1 + source.WindTraceBonusLayers;
@@ -895,7 +918,7 @@ public sealed class Slice1CombatEngine : ICombatEngine
                 if (traceLayers >= 3)
                 {
                     var traceRaw = Enumerable.Range(1, traceLayers)
-                        .Sum(layer => source.Attack * (0.08m + (layer - 1) * 0.015m));
+                        .Sum(layer => source.Attack * (0.08m + (layer - 1) * 0.02m));
                     var traceDamage = CombatMath.Floor(traceRaw * (1 + source.WindTraceExplosionMultiplierPercent / 100m));
                     target = target with { Life = target.Life - traceDamage };
                     events.Add(new(state.Revision, state.ActionValue, "WindTraceExplosion", source.Player,
@@ -904,12 +927,12 @@ public sealed class Slice1CombatEngine : ICombatEngine
                 }
             }
             events.Add(new(state.Revision, state.ActionValue, "WindSubmissile", source.Player,
-                Amount: damage, ShieldDamage: split.Shield, LifeDamage: finalLife));
+                Amount: damage, ShieldDamage: actualShieldDamage, LifeDamage: finalLife));
         }
         if (pendingEarthReflect > 0)
         {
             var split = CombatMath.SplitShieldBurst(pendingEarthReflect, source.Shield,
-                target.EarthSpecialized && target.ShieldDecay.Active ? 50 : 0);
+                0);
             source = source with { Life = source.Life - split.Life, Shield = source.Shield - split.Shield,
                 TemporaryShield = Math.Max(0, source.TemporaryShield - split.Shield) };
             events.Add(new(state.Revision, state.ActionValue, "EarthReflect", target.Player,
@@ -917,7 +940,7 @@ public sealed class Slice1CombatEngine : ICombatEngine
         }
         if (lifeDamage > 0 && source.PoisonEnchantmentLayers > 0)
         {
-            var addedPoison = source.PoisonEnchantmentLayers;
+            var addedPoison = 1;
             if (source.NextPoisonOnHitCharges > 0)
             {
                 addedPoison += source.NextPoisonOnHitLayers;
@@ -925,26 +948,28 @@ public sealed class Slice1CombatEngine : ICombatEngine
             }
             var nextPoison = target.PoisonLayers + addedPoison;
             if (source.PoisonExplosionActive && addedPoison > 0)
-                source = source with { Attack = source.Attack + addedPoison * 4 };
+                source = source with { Attack = source.Attack + addedPoison };
             target = target with
             {
                 PoisonLayers = nextPoison,
                 NextPoisonDecayActionValue = CalculatePoisonDecayTime(state.ActionValue, nextPoison, target.PoisonDecayIntervalPercent)
             };
-            events.Add(new(state.Revision, state.ActionValue, "PoisonApplied", source.Player, Amount: source.PoisonEnchantmentLayers));
+            events.Add(new(state.Revision, state.ActionValue, "PoisonApplied", source.Player, Amount: addedPoison));
         }
         if (source.WaterLayers > 0)
         {
             var basis = lifeDamage + (shieldDamage * 3 * source.NextWaterShieldHealingMultiplierPercent / 100m);
-            var healing = CombatMath.Ceiling(basis * source.WaterLayers * (source.WaterSpecialized ? 0.04m : 0.02m));
+            var healingRate = source.BloodTideActive && source.WaterSpecialized ? 0.06m : (source.WaterSpecialized ? 0.04m : 0.02m);
+            var healing = CombatMath.Ceiling(basis * source.WaterLayers * healingRate);
             if (source.HealingReductionUntilActionValue > state.ActionValue)
                 healing = CombatMath.Floor(healing * Math.Max(0, 100 - source.HealingReductionPercent) / 100m);
             var actualHealing = Math.Min(1000 - source.Life, healing);
             source = source with { Life = source.Life + actualHealing, ActualHealingThisBattle = source.ActualHealingThisBattle + actualHealing };
             source = source with { NextWaterShieldHealingMultiplierPercent = 100 };
             if (source.TideActive)
-                source = source with { Tides = source.Tides + actualHealing * (source.WaterSpecialized ? 0.065m : 0.05m) };
+                source = source with { Tides = source.Tides + actualHealing * source.WaterLayers * (source.WaterSpecialized && source.TideRefundPercent > 0 ? 0.08m : 0.05m) * (1 + source.NextTideHealingRecordBonusPercent / 100m) };
         }
+        source = source with { NextTideHealingRecordBonusPercent = 0 };
         return (source, target);
     }
 
@@ -961,13 +986,13 @@ public sealed class Slice1CombatEngine : ICombatEngine
             }
             var absorptionReflect = target.EarthBarrierActive && target.EarthSpecialized && target.BastionHeartActive;
             if (absorptionReflect && actualShieldDamage > 0)
-                pendingEarthReflect += CombatMath.Ceiling(Math.Max(0, actualShieldDamage * 0.02m * target.EarthLayers - source.Defense * 0.50m)
+                pendingEarthReflect += CombatMath.Ceiling(Math.Max(0, actualShieldDamage * 0.025m * target.EarthLayers - source.Defense * 0.50m)
                     * (1 + target.FireLayers * (target.FireSpecialized ? 0.02m : 0.01m)));
             if (target.EarthBarrierActive && shieldBefore > 0 && target.Shield == 0 && actualShieldDamage >= shieldBefore)
             {
                 var upgradedReflect = target.EarthSpecialized && target.ShieldBreakReturnPercent > 0;
-                var reflectRate = upgradedReflect ? 0.025m : 0.035m;
-                var defenseRate = upgradedReflect ? 0.20m : 0.50m;
+                var reflectRate = upgradedReflect ? 0.045m : 0.03m;
+                var defenseRate = 0.50m;
                 var reflected = CombatMath.Ceiling(Math.Max(0, shieldBefore * reflectRate * target.EarthLayers - source.Defense * defenseRate)
                     * (1 + target.FireLayers * (target.FireSpecialized ? 0.02m : 0.01m)));
                 if (reflected > 0 && !absorptionReflect)
@@ -985,11 +1010,14 @@ public sealed class Slice1CombatEngine : ICombatEngine
         return target;
     }
 
-    private static CombatantState FinishFire(CombatantState self, int time)
+    private CombatantState FinishFire(CombatantState self, int time)
     {
-        var additive = 100 + self.AttackIntervalModifier + self.NextGapAdjustment;
+        var additive = (_cards.Version == "1.1" ? 50m : 100m) + self.AttackIntervalModifier + self.NextGapAdjustment;
+        if (self.BurningBloodlineActive) additive += 50;
+        if (self.LifeSpringActive) additive -= 4 + 0.5m * self.WaterLayers;
+        if (self.WindGaleActive) additive -= self.WindChaseActive ? 6 + 1.5m * self.WindLayers : 4 + self.WindLayers;
         var nextFire = checked(time + Math.Max(1,
-            additive * self.PermanentIntervalMultiplierPercent * self.TemporaryIntervalMultiplierPercent / 10000));
+            CombatMath.Floor(additive * self.PermanentIntervalMultiplierPercent * self.TemporaryIntervalMultiplierPercent / 10000m)));
         return CombatTriggerRegistry.Consume(self, TemporaryTrigger.NextFire) with
         { NextFire = nextFire, ShieldDecay = self.ShieldDecay.AfterFire() };
     }
@@ -1029,11 +1057,12 @@ public sealed class Slice1CombatEngine : ICombatEngine
             HealingReductionPercent = 0, HealingReductionUntilActionValue = 0,
             BattleIncomingDamageMultiplierPercent = 100, BattleIncomingDamageUntilActionValue = 0,
             NextIncomingDamageMultiplierPercent = 100, NextIncomingDamageFlat = 0,
-            TemporaryShield = 0, Tides = 0m, NextDrawBonus = 0, NextEnergyBonus = 0, NextGapAdjustment = 0,
+            TemporaryShield = 0, Tides = 0m, NextTideHealingRecordBonusPercent = 0, NextDrawBonus = 0, NextEnergyBonus = 0, NextGapAdjustment = 0,
             PendingSubmissiles = 0, PendingWindSubmissiles = 0, NextMissileBonusPercent = 0, NextMissileBonusFlat = 0, NextMissileHealingPercent = 0,
             NextShieldPenetrationPercent = 0, MainShieldPenetrationUntilDrawPercent = 0, MainDefensePenetrationPercent = 0, NextDefensePenetrationPercent = 0, NextMainTemporaryShieldPercent = 0, NextWaterShieldHealingMultiplierPercent = 100,
             RewindSnapshot = null
             ,BastionHeartActive = snapshot.BastionHeartActive
+            ,BurningBloodlineActive = snapshot.BurningBloodlineActive, LifeSpringActive = snapshot.LifeSpringActive
             ,ShieldDecay = new ShieldDecayState(Active: snapshot.ShieldDecayActive)
         };
         events.Add(new(revision, actionValue, "TimeRewind", restored.Player));

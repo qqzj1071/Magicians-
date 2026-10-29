@@ -1,19 +1,434 @@
 {
   "version": "1.1",
   "parent": "1.0",
-  "card_count": 253,
+  "card_count": 252,
   "v10_sha256": "c38a3d456f9de20df5b585045822c7c1e91a76296bcd55fb3fd2f189b4fc201a",
-  "cards_sha256": "b5a5acf3422799094388e7d21313f1d976d7b4cf90a9079db7e83fe1cd35df7f",
+  "cards_sha256": "b8038f7197b3168c42c27b62c8e4431cb380708eaaf11799e6fc03cdd47ce430",
   "changed_cards": [
+    "万毒之源",
+    "万毒爆",
     "万毒蚀骨",
+    "万蚀",
+    "万钧碎盾",
+    "不动如山",
+    "不周山",
+    "临时壁垒",
+    "余火",
+    "余烬之核",
+    "余烬刻度",
+    "余烬引擎",
+    "余烬护心",
+    "余震",
+    "元素熔炉",
+    "利刃",
+    "削弱",
     "剧毒",
+    "压实火药",
+    "压缩爆燃",
+    "厚土",
+    "反震岩核",
+    "回响之潮",
+    "回岩",
+    "回流",
+    "回潮",
+    "回火",
+    "回震岩甲",
+    "固毒",
+    "圣盾",
+    "坚壁",
+    "坚岩",
+    "壁垒之心",
+    "大地之握",
+    "大地之盾",
+    "大检索",
+    "天岚",
+    "奔流",
+    "守护者壁垒",
+    "寻岩",
+    "寻物",
+    "寻风",
+    "导火索",
+    "小检索",
+    "小盾",
+    "山岳",
+    "山岳之躯",
+    "山岳壁垒",
+    "山崩",
+    "岩拳",
+    "岩核爆破",
+    "岩核重压",
+    "应急整备",
+    "延毒",
+    "循环",
+    "愈合",
+    "慢燃",
+    "战意",
+    "战意沸腾",
+    "战术",
+    "战神徽记",
+    "护盾强化",
+    "攻击强化",
+    "攻守兼备",
+    "整理",
+    "断流封印",
+    "时光倒流",
+    "枯潮",
     "毒刺",
+    "毒囊",
+    "毒涌",
+    "毒潮",
+    "毒爆",
+    "毒爆弹",
+    "毒牙",
     "毒瓶",
     "毒雾",
+    "气旋护壁",
+    "水之低语",
+    "水滴",
+    "永恒壁垒",
+    "治愈洪流",
+    "泉心",
+    "洪潮",
+    "涌泉",
+    "深流",
+    "深渊潮",
+    "清泉",
+    "渗骨毒素",
+    "潮声",
+    "潮汐之心",
+    "潮汐回响",
+    "潮汐回廊",
+    "潮汐恩泽",
+    "潮汐风暴",
+    "潮涌",
+    "火墙",
+    "火星",
+    "火种库",
+    "火种翻找",
+    "火花",
+    "灰烬循环",
+    "灰烬账本",
+    "灰烬重生",
+    "灼痛",
+    "炽焰王冠",
+    "烈焰冲刺",
+    "烈焰附身",
+    "烈风",
+    "焚心",
+    "焰心屏障",
+    "燃烧血统",
+    "燎原",
+    "爆燃",
+    "爆裂",
+    "狂战",
+    "狂暴",
+    "生命之泉",
+    "生命祝福",
     "疫病",
+    "疾影",
+    "疾流",
+    "疾行",
+    "疾风之刃",
+    "疾风连斩",
+    "瘟潮",
+    "盾墙",
+    "盾脉",
+    "短促",
+    "石肤",
+    "破军",
+    "破甲",
+    "破障法阵",
+    "破风",
+    "碎盾术",
+    "碎石击",
+    "磐岩壁",
+    "磐石",
+    "禁咒目录",
+    "禁忌知识",
+    "稳固结界",
+    "穿云",
+    "穿云破甲",
+    "穿云箭",
+    "穿潮",
+    "穿甲",
+    "细流",
+    "翻找",
+    "翻阅",
+    "腐息",
     "腐溃",
+    "腐潮",
     "腐蚀",
-    "蚀创"
+    "腐骨",
+    "蓄势",
+    "蓄能",
+    "蚀创",
+    "蚀刻",
+    "蚀命",
+    "蚀界",
+    "蚀骨",
+    "蚀骨之触",
+    "血之回响",
+    "血偿",
+    "血刃",
+    "血怒",
+    "血潮",
+    "血潮汹涌",
+    "裂伤",
+    "裂岩护壁",
+    "裂空",
+    "裂空穿云",
+    "裂风",
+    "连环潮",
+    "追云",
+    "追风",
+    "通晓",
+    "速腐",
+    "铁壁",
+    "锋刃",
+    "镜岩之心",
+    "静水",
+    "顺风",
+    "风刃",
+    "风切",
+    "风卷",
+    "风幕",
+    "风牙",
+    "风痕",
+    "风痕刻印",
+    "风痕回廊",
+    "风眼",
+    "风神之翼",
+    "风蚀",
+    "风驰",
+    "飓风",
+    "高压弹仓",
+    "高温炉心",
+    "魔力契约",
+    "魔法阵核心"
   ],
-  "status": "experimental-poison-only"
+  "status": "frozen",
+  "changed_attributes": {
+    "initial_combat_stats": {
+      "life": 1000,
+      "attack": 100,
+      "defense": 40
+    },
+    "attack_defense_multipliers": {
+      "common": 1.4,
+      "rare": 1.3,
+      "epic": 1.2,
+      "legendary": 1.1,
+      "specialization": 1.1
+    },
+    "value_metric": "(attack+1.5*defense)/(1+(cost-1)/2)",
+    "rounding": "Nearest proportional integer attack/defense pair inside cost-normalized rarity band; preserve zero/nonzero profile",
+    "base_attack_interval": 50,
+    "interval_reduction_scale": 0.5,
+    "special_case": "燃烧血统攻击间隔+100%",
+    "route_mechanics": {
+      "穿云箭": {
+        "wind_defense_penetration_per_layer": 1,
+        "specialized": 2,
+        "shield_damage_bonus_percent": 15,
+        "independent_defense_ignore_percent": 15
+      },
+      "毒爆": {
+        "attack_per_poison_layer_change": 1
+      },
+      "血潮": {
+        "specialized_lifesteal_per_water_layer": 6
+      },
+      "潮汐回响": {
+        "specialized_tide_record_per_water_layer": 8,
+        "tide_refund_percent": 20
+      },
+      "毒系专精": {
+        "plague_attack_coeff": 0.4,
+        "plague_defense_coeff": 0.2
+      },
+      "蚀骨": {
+        "attack_coeff": 0.6,
+        "defense_coeff": 0.4
+      },
+      "生命之泉": {
+        "fixed_gap_reduction": "4+1×水层数"
+      },
+      "余烬之核": {
+        "heal_lost_life_per_ember_percent": 10
+      },
+      "反震岩核": {
+        "shield_break_per_earth_layer": 5,
+        "defense_factor": 0.25,
+        "return_shield_percent": 50
+      },
+      "壁垒之心": {
+        "absorbed_damage_reflect_per_earth_layer": 2.5
+      },
+      "疾风之刃": {
+        "follow_damage_percent": 25,
+        "follow_decay_window": 50
+      },
+      "毒爆支撑牌": {
+        "万毒爆": 2,
+        "毒潮": 2.5,
+        "毒爆弹": 1.5
+      },
+      "燃烧血统": {
+        "main_attack_ratio": 1.8,
+        "specialized_ember_percent": 3
+      },
+      "大地之握": {
+        "decay_loss_damage_percent": 300
+      },
+      "灰烬重生": {
+        "ember_each_play": 1,
+        "requires_specialization": true,
+        "per_battle_limit": null,
+        "specialization_condition": "ability card played, not merely specialization selected"
+      }
+    },
+    "round1_route_adjustment": {
+      "method": "±1 attack on specialization, route legendary and route-supporting epic cards; common and rare unchanged",
+      "source": "research/ai-v1.1-round1-20261027/report.json"
+    },
+    "route_mechanics_followup": {
+      "poison_growth_attack": 1,
+      "blood_lifesteal_per_layer": 6,
+      "bone_attack_coeff": 0.6,
+      "tide_refund_percent": 20,
+      "spring_gap_flat": 4,
+      "spring_gap_layer": 1,
+      "core_heal_percent": 10,
+      "round1_winrate_adjustment": {
+        "source": "research/ai-v1.1-followup-round1-20261027/report.json",
+        "high_route": "穿云箭",
+        "low_routes": [
+          "潮汐回响",
+          "灰烬循环",
+          "燃烧血统"
+        ],
+        "scope": "route legendary and supporting epic attack values ±1; 回响之潮/潮汐风暴 healing 85/55→100/70"
+      }
+    },
+    "route_mechanics_pass3": {
+      "echo_record_per_layer": 8,
+      "wall_reflect_per_layer": 2.5,
+      "bone_def_coeff": 0.4,
+      "blade_follow_percent": 25,
+      "poison_burst_multiplier": 1.5,
+      "all_poison_burst_multiplier": 2,
+      "poison_tide_multiplier": 2.5,
+      "wind_arrow_shield_bonus_percent": 15,
+      "wind_arrow_ignore_percent": 15
+    },
+    "route_pass3_numeric_adjustment": {
+      "source": "research/ai-v1.1-route-pass3-round1-20261027/report.json",
+      "details": "research/ai-v1.1-route-pass3-round1-20261027/adjustments.json",
+      "common_rare_specialization_unchanged": true,
+      "user_requested_mechanics_unchanged": true
+    },
+    "cost_normalized_calibration": {
+      "formula": "(attack+1.5*defense)/(1+(cost-1)/2)",
+      "target_scale": 0.925,
+      "actual_mean_value_scale": 0.9175619762873335,
+      "bands": {
+        "common": [
+          5,
+          6
+        ],
+        "rare": [
+          7.5,
+          9
+        ],
+        "epic": [
+          9.5,
+          11
+        ],
+        "legendary": [
+          11.5,
+          13.5
+        ],
+        "specialization": [
+          14,
+          16
+        ]
+      },
+      "active_cards": 252,
+      "changed_panels": 191,
+      "actual_ranges": {
+        "specialization": [
+          14.75,
+          15.25
+        ],
+        "epic": [
+          9.5,
+          11.0
+        ],
+        "rare": [
+          8.0,
+          9.0
+        ],
+        "legendary": [
+          11.5,
+          13.0
+        ],
+        "common": [
+          5.0,
+          6.0
+        ]
+      },
+      "rounding": "Minimize squared weighted distance from proportional attack/defense target; retain zero/nonzero profile; integers within rarity band.",
+      "mechanic_changes": {
+        "fire_route_ratio": 1.8,
+        "fire_route_ember_percent": 3,
+        "ash_rebirth_every_play": true,
+        "blade_follow_decay_window": 50,
+        "wind_pierce_def_per_layer": 2,
+        "grip_damage_percent": 300
+      }
+    },
+    "attack_defense_multipliers_note": "Historical initial v1.1 uplift only; superseded by cost_normalized_calibration for current panels."
+  },
+  "active_card_count": 252,
+  "retired_cards": [
+    "守势"
+  ],
+  "latest_balance_tests": {
+    "run": "research/ai-v1.1-route-pass7-20261027/report.json",
+    "status": "complete",
+    "games": 500,
+    "seed_namespace": "v11-route-pass3-20261027",
+    "changes": "research/v1.1-route-pass7-20261027/changes.md",
+    "valid_settlements": 2000,
+    "tested_cards_sha256": "dbdc2dd3e7b9e73640df3ec6a2bc2aa83a87774bb753597407bc31151ffe3535"
+  },
+  "route_pass4": {
+    "changed_panels": 18,
+    "all_panels_integer_and_in_rarity_bands": true,
+    "changes": "research/v1.1-route-pass4-20261027/changes.json"
+  },
+  "route_pass5": {
+    "changed_panels": 9,
+    "changes": "research/v1.1-route-pass5-20261027/changes.json"
+  },
+  "route_pass6": {
+    "changed_panels": 8,
+    "cleaned_descriptions": 6,
+    "ash_startup_reward_deferred_until_specialization": true,
+    "changes": "research/v1.1-route-pass6-20261027/changes.json"
+  },
+  "route_pass7": {
+    "startup_reward_removed": true,
+    "mutual_topdeck_retained": true,
+    "changed_panels": 0
+  },
+  "text_only_cleanup_fire": {
+    "cards": [
+      "火舌",
+      "爆燃"
+    ],
+    "removed": "火 +1 层",
+    "mechanics_changed": false
+  },
+  "freeze_manifest": "freeze-manifest.json"
 }

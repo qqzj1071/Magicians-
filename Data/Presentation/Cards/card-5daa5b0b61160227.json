@@ -7,7 +7,7 @@
   "Rarity": "rare",
   "CombatCost": 1,
   "BaseStudyCost": 2,
-  "Attack": 8,
+  "Attack": 7,
   "Defense": 1,
   "FirstEnchantmentLayers": 1,
   "RulesText": "获得 150 临时护盾；这次获得不触发旧盾衰减；下次完整发射组（含副弹与反应）结束后清空全部护盾；立即",

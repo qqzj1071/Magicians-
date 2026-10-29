@@ -1,0 +1,19 @@
+{
+  "kind": "mechanism",
+  "weights": {
+    "panel": 0.369017,
+    "layer": 2.31525,
+    "draw": 3.63109,
+    "fee": 5.271551,
+    "search": 1.811786,
+    "recycle": 2.18715,
+    "discard": 0.753252,
+    "future": 1.544336,
+    "passive": 2.171067,
+    "tempo": 1.681477,
+    "protection": 0.828068,
+    "thinning": 0.947563,
+    "lookahead": 1.021562
+  },
+  "checkpoint": "candidate-06"
+}

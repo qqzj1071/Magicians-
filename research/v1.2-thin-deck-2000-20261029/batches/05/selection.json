@@ -1,0 +1,40 @@
+{
+  "round": 5,
+  "accepted": true,
+  "train_games": 60,
+  "validation_games": 20,
+  "train_delta": 0.1,
+  "validation_delta": 0.4,
+  "selected": "thin-accepted-05",
+  "train_deck": {
+    "players": 120,
+    "deck_size": 8.716666666666667,
+    "repeatable_size": 6.433333333333334,
+    "generic_fraction": 0.11694703444703444,
+    "purchases_per_player": 11.391666666666667,
+    "deletions_per_player": 11.65,
+    "paid_deletions_per_player": 3.191666666666667
+  },
+  "validation_deck": {
+    "players": 40,
+    "deck_size": 8.725,
+    "repeatable_size": 6.45,
+    "generic_fraction": 0.10353826728826729,
+    "purchases_per_player": 11.75,
+    "deletions_per_player": 12.025,
+    "paid_deletions_per_player": 3.225
+  },
+  "gradient": {
+    "target": -0.33193662761199355,
+    "dilution": 0.33193662761199355,
+    "buy_margin": 0.5579924356790268,
+    "point_cost": 0.5579924356790268,
+    "delete_margin": 0.5019501500552347,
+    "delete_pressure": -0.5019501500552347,
+    "starter_bias": -0.7355670403977819,
+    "core_weight": 0.18060687172910594,
+    "first_layer": 0.23524950295463293,
+    "generic_tax": 0.2643823910191765,
+    "flow_scale": -0.0068603877526420744
+  }
+}

@@ -47,6 +47,7 @@ public static class AiObservations
         "PoisonDecayProtectionCharges", "PoisonDecayKeepLast", "NextPoisonDecayActionValue", "WindTraceLayers",
         "WindTraceBonusLayers", "WindMainShotCount", "LastMainMissileActionValue", "LastMainMissileActualDamage",
         "ShieldBreakReturnPercent", "ShieldBreakReturnFlat", "ShieldBrokenThisBattle", "GuardianBarrierActive", "WarGodEmblemActive",
+        "AshCyclePendingCredit", "NextTideDamageMultiplierPercent", "NextTideHealingRecordBonusPercent", "BurningBloodlineActive", "LifeSpringActive",
         "ActualHealingThisBattle", "NextMissileHealingPercent", "UnredeemedEmbersSpent", "AshRebirthUsed", "ShuffleCount", "TemperBonusUses"
     };
 
@@ -95,8 +96,8 @@ public static class AiObservations
         foreach (var offer in own.Draft.Offers.Where(o => !o.IsResolved))
         {
             var card = cards.Get(offer.Card.CardId);
-            var free = !own.Draft.FreePurchaseUsed && ((state.Round <= 3 && card.Rarity == CardRarity.Common) ||
-                (state.Round is >= 4 and <= 6 && card.Rarity is CardRarity.Common or CardRarity.Rare));
+            var free = !own.Draft.FreePurchaseUsed && ((state.Round <= 2 && card.Rarity == CardRarity.Common) ||
+                (state.Round is >= 3 and <= 4 && card.Rarity is CardRarity.Common or CardRarity.Rare));
             var cost = free ? 0 : offer.Cost;
             offers.Add(new(offer.SlotId, card.Name, offer.Cost, free));
             if (own.Deck.Cards.Any(c => c.CardId == card.Name) ||

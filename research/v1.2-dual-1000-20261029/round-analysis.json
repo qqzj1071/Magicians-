@@ -1,0 +1,122 @@
+{
+  "bands": {
+    "1—4": {
+      "battles": 1058,
+      "wins": 476.0,
+      "medium_win_rate": 0.4499054820415879,
+      "room_interval": {
+        "mean": 0.4454166666666666,
+        "low": 0.40901191766902567,
+        "high": 0.4818214156643076,
+        "rooms": 200
+      }
+    },
+    "5—8": {
+      "battles": 1082,
+      "wins": 494.5,
+      "medium_win_rate": 0.4570240295748614,
+      "room_interval": {
+        "mean": 0.46447916666666667,
+        "low": 0.42510646125396717,
+        "high": 0.5038518720793661,
+        "rooms": 200
+      }
+    },
+    "9—10": {
+      "battles": 483,
+      "wins": 203.5,
+      "medium_win_rate": 0.42132505175983437,
+      "room_interval": {
+        "mean": 0.420625,
+        "low": 0.36995845786306963,
+        "high": 0.4712915421369304,
+        "rooms": 200
+      }
+    },
+    "11—12": {
+      "battles": 292,
+      "wins": 144.0,
+      "medium_win_rate": 0.4931506849315068,
+      "room_interval": {
+        "mean": 0.4844559585492228,
+        "low": 0.42229425844830737,
+        "high": 0.5466176586501382,
+        "rooms": 193
+      }
+    },
+    "13+": {
+      "battles": 432,
+      "wins": 219.5,
+      "medium_win_rate": 0.5081018518518519,
+      "room_interval": {
+        "mean": 0.472093023255814,
+        "low": 0.41130913918153833,
+        "high": 0.5328769073300896,
+        "rooms": 172
+      }
+    }
+  },
+  "health": [
+    {
+      "family": "medium",
+      "round": 8,
+      "initial_players_in_rooms": 400,
+      "alive": 398,
+      "eliminated": 2,
+      "alive_mean_hp": 50.836683417085425,
+      "alive_at_1_to_20": 66,
+      "low_fraction_of_alive": 0.1658291457286432
+    },
+    {
+      "family": "medium",
+      "round": 10,
+      "initial_players_in_rooms": 400,
+      "alive": 307,
+      "eliminated": 93,
+      "alive_mean_hp": 45.50814332247557,
+      "alive_at_1_to_20": 68,
+      "low_fraction_of_alive": 0.22149837133550487
+    },
+    {
+      "family": "medium",
+      "round": 12,
+      "initial_players_in_rooms": 400,
+      "alive": 252,
+      "eliminated": 148,
+      "alive_mean_hp": 40.94047619047619,
+      "alive_at_1_to_20": 61,
+      "low_fraction_of_alive": 0.24206349206349206
+    },
+    {
+      "family": "small",
+      "round": 8,
+      "initial_players_in_rooms": 400,
+      "alive": 396,
+      "eliminated": 4,
+      "alive_mean_hp": 56.95959595959596,
+      "alive_at_1_to_20": 46,
+      "low_fraction_of_alive": 0.11616161616161616
+    },
+    {
+      "family": "small",
+      "round": 10,
+      "initial_players_in_rooms": 400,
+      "alive": 324,
+      "eliminated": 76,
+      "alive_mean_hp": 54.04012345679013,
+      "alive_at_1_to_20": 42,
+      "low_fraction_of_alive": 0.12962962962962962
+    },
+    {
+      "family": "small",
+      "round": 12,
+      "initial_players_in_rooms": 400,
+      "alive": 280,
+      "eliminated": 120,
+      "alive_mean_hp": 48.28928571428571,
+      "alive_at_1_to_20": 50,
+      "low_fraction_of_alive": 0.17857142857142858
+    }
+  ],
+  "caveat": "Only rooms reaching the checkpoint; includes earlier eliminations in that room, excludes ghosts. Later rounds have survivor bias."
+}

@@ -30,4 +30,3 @@ $shortcut.Save()
 }
 Write-Output ('MAGICIANS_INSTALLED ' + $InstallRoot)
 
-

@@ -1,3 +1,4 @@
+using System.Text.Json;
 using Magicians.Core.Cards;
 using Magicians.Core.Common;
 using Magicians.Core.Combat;
@@ -9,6 +10,9 @@ namespace Magicians.Application;
 
 public sealed class GameSession : IDisposable
 {
+    private readonly string _recordId = DateTime.Now.ToString("yyyyMMdd-HHmmss") + "-" + Guid.NewGuid().ToString("N")[..8];
+    private string? _savedRecordKey;
+    public string? LocalRecordError { get; private set; }
     public static GameSession? Current { get; set; }
 
     public CardDatabase Cards { get; }
@@ -35,7 +39,7 @@ public sealed class GameSession : IDisposable
 
     private GameSession(string root, CardDatabase cards, CardPresentationCatalog profiles, Slice1CardPool pool, Slice1CardPool fullPool, Slice1Scenario scenario, MatchCoordinator coordinator)
     {
-        Ai = new TrainedAiRuntime(root);
+        Ai = new TrainedAiRuntime(root, coordinator.CurrentState.Seed);
         Cards = cards;
         CardProfiles = profiles;
         CardPool = pool;
@@ -52,7 +56,9 @@ public sealed class GameSession : IDisposable
 
     private static GameSession CreateSession(string projectRoot, int seed, Slice1Scenario? scenarioOverride)
     {
-        var cards = CardDatabase.LoadFromJson(Path.Combine(projectRoot, "releases", "v1.0", "cards.json"));
+        using var frozen = JsonDocument.Parse(File.ReadAllText(Path.Combine(projectRoot, "releases", "v1.1", "freeze-manifest.json")));
+        var cardHash = frozen.RootElement.GetProperty("sha256").GetProperty("releases/v1.1/cards.json").GetString();
+        var cards = CardDatabase.LoadFromJson(Path.Combine(projectRoot, "releases", "v1.1", "cards.json"), cardHash);
         var profiles = CardPresentationCatalog.Load(cards, Path.Combine(projectRoot, "Data", "Presentation", "Cards"));
         var pool = Slice1CardPool.Load(Path.Combine(projectRoot, "Data", "slice1", "slice1-card-pool.json"));
         var fullPool = Slice1CardPool.LoadFull(
@@ -142,6 +148,7 @@ public sealed class GameSession : IDisposable
         var resolution = EnsureBattleInstances().Submit(command);
         if (resolution.Accepted)
             _recordedBattles[(Coordinator.CurrentState.Round, command.Battle)].Append(resolution.Events);
+        SaveLocalRecord();
         return resolution;
     }
 
@@ -155,6 +162,7 @@ public sealed class GameSession : IDisposable
             _battleAnnouncements.Add(BattleResultAnnouncement.Create(result, applied.State, applied.Events));
             _recordedBattles[(applied.State.Round, battle)].Result = result;
         }
+        SaveLocalRecord();
         return applied;
     }
 
@@ -171,6 +179,7 @@ public sealed class GameSession : IDisposable
         var issuer = new PlayerId("human");
         var result = Coordinator.Submit(new AdvanceSettlementCommand(state.Id, issuer, new(state.EventSequence + 1)));
         if (!result.Accepted) throw new InvalidOperationException(result.Rejection?.Message);
+        SaveLocalRecord();
         if (result.State.Phase == MatchPhase.Finished) return;
         BattleInstances = null;
         _delegatedCombatRound = null;
@@ -226,6 +235,7 @@ public sealed class GameSession : IDisposable
     // is serialized per participant, never blocks a UI frame, and cannot mutate authority.
     public IReadOnlyList<CombatEvent> TickAutonomous(int budget = 8)
     {
+        SaveLocalRecord();
         if (AiError is not null) return Array.Empty<CombatEvent>();
         try { return TickAi(budget); }
         catch (Exception error) { AiError = error.Message; throw; }
@@ -294,6 +304,26 @@ public sealed class GameSession : IDisposable
         return events;
     }
 
-    public void Dispose() => Ai.Dispose();
-}
+    public void SaveLocalRecord()
+    {
+        var state = Coordinator.CurrentState;
+        var key = $"{state.EventSequence}:{string.Join(",", RecordedBattles.Select(b => b.Events.Count))}:{state.Phase}";
+        if (_savedRecordKey == key) return;
+        try
+        {
+            var directory = Godot.ProjectSettings.GlobalizePath("user://tournaments");
+            Directory.CreateDirectory(directory);
+            var path = Path.Combine(directory, _recordId + ".json");
+            var data = new { Version = "1.1", state.Seed, state.Round, Phase = state.Phase.ToString(), UpdatedAt = DateTimeOffset.Now,
+                Model = Ai.ModelHash, AiStyles = Ai.Styles, Players = state.Players.Values.Select(p => new { Id = p.Id.Value, Name = p.PublicInfo.DisplayName,
+                    p.TournamentLife, p.Draft.SpecializationElement, p.Draft.RouteLegendaryId, Cards = p.Deck }),
+                MatchEvents = state.EventLog, Battles = RecordedBattles, Results = BattleAnnouncements };
+            File.WriteAllText(path + ".tmp", JsonSerializer.Serialize(data, new JsonSerializerOptions { WriteIndented = true }));
+            File.Move(path + ".tmp", path, true);
+            _savedRecordKey = key; LocalRecordError = null;
+        }
+        catch (Exception e) { LocalRecordError = e.Message; Godot.GD.PrintErr("LOCAL_RECORD_FAILED " + e.Message); }
+    }
 
+    public void Dispose() { SaveLocalRecord(); Ai.Dispose(); }
+}

@@ -10,6 +10,7 @@ PLANNER_VERSION='1.0-learning-1'
 @dataclass(frozen=True)
 class Policy(E.Policy):
     mode: str = 'staged'
+    resource_projection: float = 0.0
     own: str = ''
     opponent: str = ''
     core_priority: float = 280

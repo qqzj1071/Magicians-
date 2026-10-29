@@ -1,0 +1,57 @@
+{
+  "kind": "explorer",
+  "checkpoint": "outcome-accepted-06",
+  "weights": {
+    "panel": 0.405101,
+    "layer": 2.426948,
+    "draw": 3.489724,
+    "fee": 4.935485,
+    "search": 1.597498,
+    "recycle": 1.835498,
+    "discard": 0.701861,
+    "future": 1.468634,
+    "passive": 2.61215,
+    "tempo": 1.697872,
+    "protection": 0.938101,
+    "thinning": 0.852904,
+    "lookahead": 1.111259
+  },
+  "construction": {
+    "dilution": 1.096458,
+    "buy_margin": 0.404539,
+    "point_cost": 0.352651,
+    "delete_margin": 0.461582,
+    "starter_bias": 1.055638,
+    "core_weight": 2.460384,
+    "first_layer": 3.154382,
+    "generic_tax": 1.014036,
+    "flow_scale": 0.826303
+  },
+  "element_weights": {
+    "fire": {
+      "layer": 1.186841,
+      "recycle": 0.995063,
+      "protection": 1.030151
+    },
+    "water": {
+      "layer": 1.187696,
+      "recycle": 0.927362,
+      "protection": 1.044328
+    },
+    "earth": {
+      "layer": 1.155757,
+      "recycle": 0.935542,
+      "protection": 1.061744
+    },
+    "wind": {
+      "layer": 0.979097,
+      "recycle": 1.019498,
+      "protection": 0.960082
+    },
+    "poison": {
+      "layer": 0.982975,
+      "recycle": 1.052538,
+      "protection": 0.971112
+    }
+  }
+}

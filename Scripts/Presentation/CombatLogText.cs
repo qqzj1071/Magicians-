@@ -1,4 +1,3 @@
-using Magicians.Core.Cards;
 using Magicians.Core.Combat;
 using Magicians.Core.Common;
 
@@ -35,14 +34,11 @@ public static class CombatLogText
 
     // Damage/poison/fatigue events must not push the paired played-card names
     // out of the log before the player can read them.
-    public static string Exchanges(IEnumerable<CombatEvent> events, PlayerId viewer, CardPresentationCatalog? profiles = null) => string.Join("\n",
+    public static string Exchanges(IEnumerable<CombatEvent> events, PlayerId viewer) => string.Join("\n",
         events.Where(e => e.Kind == "CardPlayed").GroupBy(e => e.Revision).TakeLast(3).Select(step =>
         {
-            var own = step.Where(e => e.Player == viewer).Select(e => $"【{Name(e.CardId, profiles)}】").ToArray();
-            var enemy = step.Where(e => e.Player != viewer).Select(e => $"【{Name(e.CardId, profiles)}】").ToArray();
+            var own = step.Where(e => e.Player == viewer).Select(e => $"【{e.CardId}】").ToArray();
+            var enemy = step.Where(e => e.Player != viewer).Select(e => $"【{e.CardId}】").ToArray();
             return $"[行动值{step.First().ActionValue}] 你：{(own.Length == 0 ? "本步未出牌" : string.Join("、", own))}；对手AI：{(enemy.Length == 0 ? "本步未出牌" : string.Join("、", enemy))}";
         }));
-
-    private static string Name(string? cardId, CardPresentationCatalog? profiles) =>
-        string.IsNullOrEmpty(cardId) ? string.Empty : profiles?.NameFor(cardId) ?? cardId;
 }

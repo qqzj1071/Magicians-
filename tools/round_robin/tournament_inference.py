@@ -9,7 +9,11 @@ def load_model(checkpoint):
     data=json.loads(Path(checkpoint).read_text(encoding='utf-8'))
     if data.get('construction_profile')=='tournament-v1':
         import strategic_tournament_ai as I
-        I.install();return I.Learner(data)
+        I.install();model=I.Learner(data)
+        if Q.S.C.CARD_VERSION=="1.1":
+            from ai_v11_policy import bind
+            bind(model,data.get("ai_v11",{}))
+        return model
     if data.get('construction_profile')!='survival-v6':raise ValueError('Expected survival-v6 or tournament-v1 checkpoint')
     Q.A.install();model=Q.A.Learner(data);model.w=data['draft'];model.prior=data['prior'];model.updates=data['updates']
     return model

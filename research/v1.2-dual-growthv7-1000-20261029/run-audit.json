@@ -1,0 +1,23 @@
+{
+  "games": 1000,
+  "battles": 28240,
+  "ledgers": 53505,
+  "unique_seeds": 1000,
+  "budgets": {
+    "medium": 500,
+    "small": 500
+  },
+  "segments": {
+    "medium/final-holdout": 100,
+    "small/final-holdout": 100,
+    "medium/train": 300,
+    "medium/validation": 100,
+    "small/train": 300,
+    "small/validation": 100
+  },
+  "sequence_skips": 0,
+  "income_bank_debit_passed": true,
+  "starter_purchase_violations": 0,
+  "pool_total": 707,
+  "input_hashes_verified": true
+}

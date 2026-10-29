@@ -8,7 +8,7 @@
   "CombatCost": 1,
   "BaseStudyCost": 1,
   "Attack": 1,
-  "Defense": 2,
+  "Defense": 3,
   "FirstEnchantmentLayers": 1,
   "RulesText": "目标有盾且0毒时立即施加1层毒；不立即触发毒伤",
   "DisplayRulesText": "目标有盾且0毒时立即施加1层毒；不立即触发毒伤",

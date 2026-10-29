@@ -65,4 +65,3 @@ public partial class BootController : Node
 
     public void ExitGame() => GetTree().Quit();
 }
-

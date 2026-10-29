@@ -7,7 +7,7 @@
   "Rarity": "rare",
   "CombatCost": 2,
   "BaseStudyCost": 2,
-  "Attack": 9,
+  "Attack": 12,
   "Defense": 0,
   "FirstEnchantmentLayers": 1,
   "RulesText": "下一发伤害 +18%；若该发 ≥80，获得 1 余烬；下一发",
@@ -19,6 +19,5 @@
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
-  },
-  "DisplayName": "打铁花"
+  }
 }

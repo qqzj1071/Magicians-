@@ -13,4 +13,3 @@ shortcut.WorkingDirectory = folder
 shortcut.IconLocation = shortcut.TargetPath & ",0"
 shortcut.Save
 MsgBox "Desktop shortcut created. Keep the game folder in this location.", 64, "Magicians!"
-

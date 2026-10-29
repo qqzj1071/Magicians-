@@ -8,7 +8,7 @@
   "CombatCost": 2,
   "BaseStudyCost": 1,
   "Attack": 1,
-  "Defense": 2,
+  "Defense": 5,
   "FirstEnchantmentLayers": 1,
   "RulesText": "获得 130 护盾；若当前护盾 ≥200，再 +4 攻；立即/整场",
   "DisplayRulesText": "获得 130 护盾；若当前护盾 ≥200，再 +4 攻；立即/整场",

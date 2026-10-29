@@ -8,7 +8,7 @@
   "CombatCost": 1,
   "BaseStudyCost": 1,
   "Attack": 1,
-  "Defense": 2,
+  "Defense": 3,
   "FirstEnchantmentLayers": 1,
   "RulesText": "回复20生命；立即/整场",
   "DisplayRulesText": "回复20生命；立即/整场",

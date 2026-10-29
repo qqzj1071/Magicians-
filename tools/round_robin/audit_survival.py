@@ -6,7 +6,7 @@ import json
 import math
 from collections import Counter
 import survival_tournament as Q
-from draft_economy import CURRENT,is_free_purchase,purchase_price,deletion_price,deletion_limit
+from draft_economy import PREVIOUS,is_free_purchase,purchase_price,deletion_price,deletion_limit,study_income
 from shared_draft_pool import copies,assert_uniform_counts
 S=Q.S
 
@@ -25,7 +25,7 @@ def main():
                 if args.partial:break
                 raise
             if not line:break
-            ep=json.loads(line);counts['rooms']+=1;alive=set(range(4));hp={i:100 for i in alive};streak=Counter();banks=Counter()
+            ep=json.loads(line);profile=ep.get('economy',PREVIOUS);counts['rooms']+=1;alive=set(range(4));hp={i:100 for i in alive};streak=Counter();banks=Counter()
             decks={i:Counter(S.START) for i in alive};owned={};previous={};public={str(i):dict(spec='',route='') for i in alive}
             last_seq=0;archive={};last_table=(0,0);coefs=[]
             for row in ep['rounds']:
@@ -66,31 +66,31 @@ def main():
                     pid=ledger['pid'];assert ledger['previous_streak']==streak[pid]
                     bonus=int(abs(streak[pid])>0 and abs(streak[pid])%3==0)
                     assert ledger['bonus']==bonus
-                    points=(2 if r<=2 else 3 if r<=5 else 4)+banks[pid]+bonus
+                    points=study_income(r,profile)+banks[pid]+bonus
                     assert ledger['income']==points;free=False;deleted=0;refreshed=False;deck=decks[pid]
                     for action in ledger['actions']:
                         kind=action['kind'];cost=action['cost']
                         if kind=='refresh':assert not refreshed and cost==1;refreshed=True
                         elif kind=='delete':
-                            name=action['name'];assert deck[name]>0 and cost==deletion_price(r,deleted,CURRENT)
+                            name=action['name'];assert deck[name]>0 and cost==deletion_price(r,deleted,profile)
                             assert S.C.CARDS[name].kind not in ('specialization','route_legendary')
                             deck[name]-=1;deleted+=1
                             found=next((t for t,p in owned.items() if p==pid and tokens[t]==name),None)
                             if found:del owned[found];round_pending.add(found)
                         else:
                             assert kind=='buy';name=action['name'];c=S.C.CARDS[name];assert deck[name]==0
-                            old=action.get('replaced');price=2 if old and c.kind=='route_legendary' else purchase_price(S.RANK[c.rarity]+1,c.rarity,r,free,CURRENT)
+                            old=action.get('replaced');price=2 if old and c.kind=='route_legendary' else purchase_price(S.RANK[c.rarity]+1,c.rarity,r,free,profile)
                             assert cost==price
                             if old:
                                 assert deck[old]>0;deck[old]-=1
                                 found=next(t for t,p in owned.items() if p==pid and tokens[t]==old)
                                 del owned[found];round_pending.add(found)
-                            if cost==0:assert is_free_purchase(c.rarity,r,free,CURRENT);free=True
+                            if cost==0:assert is_free_purchase(c.rarity,r,free,profile);free=True
                             face='second' if refreshed else 'first';t=row[face+'_tokens'][str(pid)][action['slot']]
                             assert round_offer[(face,pid,t)]==name and t not in owned and t not in round_pending
                             owned[t]=pid;deck[name]+=1;counts['purchases']+=1
                         points-=cost;assert points>=0
-                    assert deleted<=deletion_limit(r,CURRENT) and points==ledger['remaining']
+                    assert deleted<=deletion_limit(r,profile) and points==ledger['remaining']
                     assert ledger['bank']==min(2,points);banks[pid]=ledger['bank'];counts['bonus_points']+=bonus
                     current=next(p for p in row['players'] if p['pid']==pid)
                     if current['spec']:

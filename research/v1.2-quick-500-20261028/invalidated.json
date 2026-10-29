@@ -1,0 +1,5 @@
+{
+  "status": "excluded_from_final_sample",
+  "reason": "同时自动斩杀需共同提交，修复前批次作废；完整500局从头重跑",
+  "completed": 185
+}

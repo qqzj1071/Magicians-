@@ -1,0 +1,62 @@
+{
+  "kind": "explorer",
+  "checkpoint": "earth-candidate-05",
+  "weights": {
+    "panel": 0.466728,
+    "layer": 2.689922,
+    "draw": 3.356525,
+    "fee": 5.398127,
+    "search": 1.539027,
+    "recycle": 1.561838,
+    "discard": 0.623477,
+    "future": 1.421408,
+    "passive": 3.190047,
+    "tempo": 1.738135,
+    "protection": 1.317453,
+    "thinning": 0.758296,
+    "lookahead": 1.020362
+  },
+  "construction": {
+    "dilution": 1.057817,
+    "buy_margin": 0.409117,
+    "point_cost": 0.328712,
+    "delete_margin": 0.405621,
+    "starter_bias": 1.187685,
+    "core_weight": 2.677937,
+    "first_layer": 4.260368,
+    "generic_tax": 1.197887,
+    "flow_scale": 0.666341
+  },
+  "element_weights": {
+    "fire": {
+      "layer": 1.259931,
+      "recycle": 0.99976,
+      "protection": 1.006822
+    },
+    "water": {
+      "layer": 1.25023,
+      "recycle": 0.896018,
+      "protection": 1.050998
+    },
+    "earth": {
+      "layer": 1.181675,
+      "recycle": 0.903555,
+      "protection": 1.089835
+    },
+    "wind": {
+      "layer": 1.006319,
+      "recycle": 0.980967,
+      "protection": 0.928134
+    },
+    "poison": {
+      "layer": 1.032608,
+      "recycle": 1.007642,
+      "protection": 0.963516
+    }
+  },
+  "element_intent": "earth",
+  "size_exploration": {
+    "bonus": 6.0,
+    "ceiling": 18
+  }
+}

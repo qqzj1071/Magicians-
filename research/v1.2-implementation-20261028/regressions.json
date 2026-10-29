@@ -1,0 +1,18 @@
+{
+  "tests": 59,
+  "status": "passed",
+  "all_card_contexts": 478,
+  "source_sha256": {
+    "tools\\sim_v12\\catalog.py": "7dee221e9e2bb7d5fefec52380b15893d59b7f57a671dde031f123795f74a5a3",
+    "tools\\sim_v12\\construction_templates.py": "fa0f7c50e3c61463fc8e3d43de493ed6428a8bbe4db1eee691094102c9ecb57a",
+    "tools\\sim_v12\\effects.py": "3a6daee87ddbeadd48ffdaddb2b3b0be0397aa229e167b9a28157aac90065377",
+    "tools\\sim_v12\\engine.py": "2e28dc0678e442d0325fbe2ed1cce46d3425f02bb69839d131fc93cc6b7e0b8f",
+    "tools\\sim_v12\\model.py": "41b5d24a2f7a25b233a83cc45d0e823c7d1a3a1d51d8ff59fef3bdbf65b11cb3",
+    "tools\\sim_v12\\policy.py": "f14d9e0dc28b731d40d16e67627c9f76409a7cd1ba5d30de2ef8ffaea6847626",
+    "tools\\sim_v12\\pool.py": "57e5dad528799512c06389018294a182174e62993129d8120d1c1546e40dcafb",
+    "tools\\sim_v12\\test_rules.py": "556206e218628e7e7bd93d32db7b2585fe783a30b4f5b869f2f35ab367b52837",
+    "tools\\sim_v12\\tournament.py": "44de1a4398719212500baf380ee3075206d23395d4e81d3b9806a22165432384",
+    "tools\\sim_v12\\__init__.py": "0e11ae776df77bb7eea4e2f9b818ecb59c8b14f8d77f6e86a1239cabbdb8ca17",
+    "tools\\sim_v12\\__main__.py": "fd9fe900812ae2270bc830c3ee1daa987855088ac8cbd4b345188ddea667aa51"
+  }
+}

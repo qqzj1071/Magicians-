@@ -188,4 +188,3 @@ public partial class CombatClientFlowRunner : Node
         if (GameSession.Current == _session) GameSession.Current = null;
     }
 }
-

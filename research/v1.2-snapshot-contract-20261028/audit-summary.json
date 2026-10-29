@@ -1,0 +1,27 @@
+{
+  "cards": 185,
+  "unclassified": [],
+  "specific_rules": 94,
+  "role_counts": {
+    "能力与真实事件": 34,
+    "下一阶段或阶段末": 17,
+    "主动治疗或治疗联动": 24,
+    "固定面板与首次层": 10,
+    "手牌与费用运转": 58,
+    "主动参数与状态": 47,
+    "生命或资源支付": 18,
+    "主动护盾或护盾联动": 30,
+    "状态对抗": 8,
+    "即时战斗伤害": 6,
+    "稳定检索与定量资源": 1,
+    "净化跨层": 2,
+    "直接施毒与条件层": 4
+  },
+  "runtime_migrated": true,
+  "quick_test_started": false,
+  "sha256": {
+    "snapshot-contract.md": "5ba4a4b58a4b1f6016ae07201a3b7de9154ddae6fdc4560d7a1b9872047737ea",
+    "snapshot-contract.json": "995e9c7c2e54d5bb4c0f32baf4be9aaa2a6802924202fb5e2ab66b4ab26be630",
+    "snapshot-audit.md": "3a8451a6d18872b67d948e40d360473f99bcf953e031f31d07f6ab54daf77b07"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "changed": 18,
+  "cards": 185,
+  "only_fixed_attack_defense_changed": true,
+  "all_budget_bounds_pass": true,
+  "regressions": 69,
+  "v11_frozen_verified": true
+}

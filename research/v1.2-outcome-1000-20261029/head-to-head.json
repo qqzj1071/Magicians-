@@ -1,0 +1,22 @@
+{
+  "original_small": {
+    "battles": 1697,
+    "win_rate": 0.5816146140247496,
+    "room_weighted_interval": {
+      "games": 100,
+      "mean": 0.5907434123109433,
+      "low": 0.5552503466829433,
+      "high": 0.6262364779389433
+    }
+  },
+  "original_medium": {
+    "battles": 1688,
+    "win_rate": 0.6291469194312796,
+    "room_weighted_interval": {
+      "games": 100,
+      "mean": 0.6378324009208213,
+      "low": 0.6060621260341967,
+      "high": 0.6696026758074458
+    }
+  }
+}

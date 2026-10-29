@@ -7,7 +7,7 @@
   "Rarity": "rare",
   "CombatCost": 2,
   "BaseStudyCost": 2,
-  "Attack": 8,
+  "Attack": 12,
   "Defense": 0,
   "FirstEnchantmentLayers": 1,
   "RulesText": "水 +1 层；回复 60 生命",

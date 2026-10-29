@@ -243,8 +243,8 @@ public sealed class MatchCoordinator
         if (!_effects.IsImplemented(offer.Card.CardId))
             return Reject(command, "UnsupportedInSlice1", $"Card effect is not implemented: {offer.Card.CardId}.");
         var freePurchase = !player.Draft.FreePurchaseUsed &&
-            ((player.Draft.Round <= 3 && definition.Rarity == CardRarity.Common) ||
-             (player.Draft.Round is >= 4 and <= 6 && definition.Rarity is CardRarity.Common or CardRarity.Rare));
+            ((player.Draft.Round <= 2 && definition.Rarity == CardRarity.Common) ||
+             (player.Draft.Round is >= 3 and <= 4 && definition.Rarity is CardRarity.Common or CardRarity.Rare));
         var replaced = command.ReplaceCard is { } replaceId ? player.Deck.Cards.FirstOrDefault(c => c.InstanceId == replaceId) : null;
         if (command.ReplaceCard is not null && replaced is null)
             return Reject(command, "ReplacementUnavailable", "The replacement card is not owned.");
@@ -737,7 +737,7 @@ public sealed class MatchCoordinator
         }
 
         var nextRound = _state.Round + 1;
-        var nextBaseStudy = nextRound <= 2 ? 2 : nextRound <= 5 ? 3 : 4;
+        var nextBaseStudy = nextRound <= 3 ? 2 : nextRound <= 7 ? 3 : 4;
         var nextStudy = survivors.ToDictionary(id => id, id =>
         {
             var player = players[id];

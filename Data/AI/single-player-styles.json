@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "profiles": [
+    {
+      "id": "flame",
+      "name": "烈焰进攻",
+      "element": "fire",
+      "draft": {
+        "element": 1.08,
+        "value": 1.04,
+        "draw": 0.96
+      },
+      "combat": {
+        "finish_ratio": 0.95,
+        "tempo_value": 1.08,
+        "sustain_value": 0.96
+      }
+    },
+    {
+      "id": "tide",
+      "name": "潮汐续航",
+      "element": "water",
+      "draft": {
+        "draw": 1.08,
+        "search": 1.04,
+        "curve": 1.04
+      },
+      "combat": {
+        "sustain_value": 1.1,
+        "draw": 1.06,
+        "finish_ratio": 1.04
+      }
+    },
+    {
+      "id": "bastion",
+      "name": "壁垒反击",
+      "element": "earth",
+      "draft": {
+        "value": 1.08,
+        "element": 1.04
+      },
+      "combat": {
+        "shield_engine": 1.1,
+        "sustain_value": 1.05,
+        "tempo_value": 0.96
+      }
+    },
+    {
+      "id": "gale",
+      "name": "疾风节奏",
+      "element": "wind",
+      "draft": {
+        "cheap": 1.08,
+        "curve": 1.06,
+        "draw": 1.04
+      },
+      "combat": {
+        "tempo_value": 1.1,
+        "energy": 1.06,
+        "sustain_value": 0.96
+      }
+    },
+    {
+      "id": "venom",
+      "name": "毒蚀消耗",
+      "element": "poison",
+      "draft": {
+        "element": 1.08,
+        "search": 1.06,
+        "draw": 1.04
+      },
+      "combat": {
+        "sustain_value": 1.08,
+        "operation_layer": 1.08,
+        "finish_ratio": 1.03
+      }
+    },
+    {
+      "id": "scholar",
+      "name": "灵活研习",
+      "element": "",
+      "draft": {
+        "search": 1.08,
+        "draw": 1.08,
+        "cheap": 1.04
+      },
+      "combat": {
+        "draw": 1.08,
+        "energy": 1.08,
+        "budget_fit": 1.06
+      }
+    }
+  ]
+}

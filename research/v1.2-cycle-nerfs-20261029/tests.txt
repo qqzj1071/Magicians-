@@ -1,0 +1,35 @@
+test_abyss_and_storm_cost_three_and_keep_effects (tools.sim_v12.test_current.CurrentTests.test_abyss_and_storm_cost_three_and_keep_effects) ... ok
+test_all_cards_execute_both_resource_contexts (tools.sim_v12.test_current.CurrentTests.test_all_cards_execute_both_resource_contexts) ... ok
+test_conditional_wind_fee_is_prepared_before_tailwind (tools.sim_v12.test_current.CurrentTests.test_conditional_wind_fee_is_prepared_before_tailwind) ... ok
+test_current_inventory_and_all_card_dispatch (tools.sim_v12.test_current.CurrentTests.test_current_inventory_and_all_card_dispatch) ... ok
+test_cycle_nerf_deleted_cards_have_no_runtime_references (tools.sim_v12.test_current.CurrentTests.test_cycle_nerf_deleted_cards_have_no_runtime_references) ... ok
+test_discard_prefers_unaffordable_filler_to_live_engine (tools.sim_v12.test_current.CurrentTests.test_discard_prefers_unaffordable_filler_to_live_engine) ... ok
+test_earth_execute_spends_shield_and_consumes_existing_guard (tools.sim_v12.test_current.CurrentTests.test_earth_execute_spends_shield_and_consumes_existing_guard) ... ok
+test_existing_revive_truncates_tail_and_keeps_private_prefix (tools.sim_v12.test_current.CurrentTests.test_existing_revive_truncates_tail_and_keeps_private_prefix) ... ok
+test_melt_shield_repeats_at_one_point_one (tools.sim_v12.test_current.CurrentTests.test_melt_shield_repeats_at_one_point_one) ... ok
+test_mountain_wall_keeps_first_layer_and_repeats_only_shield_growth (tools.sim_v12.test_current.CurrentTests.test_mountain_wall_keeps_first_layer_and_repeats_only_shield_growth) ... ok
+test_new_generic_ability_has_nonzero_mechanism_utility (tools.sim_v12.test_current.CurrentTests.test_new_generic_ability_has_nonzero_mechanism_utility) ... ok
+test_new_guard_does_not_protect_current_position (tools.sim_v12.test_current.CurrentTests.test_new_guard_does_not_protect_current_position) ... ok
+test_new_heal_cannot_save_same_position_lethal_damage (tools.sim_v12.test_current.CurrentTests.test_new_heal_cannot_save_same_position_lethal_damage) ... ok
+test_new_revive_cannot_save_same_position_death (tools.sim_v12.test_current.CurrentTests.test_new_revive_cannot_save_same_position_death) ... ok
+test_new_shield_does_not_absorb_current_position (tools.sim_v12.test_current.CurrentTests.test_new_shield_does_not_absorb_current_position) ... ok
+test_old_shield_decay_and_new_shield_are_distinguished (tools.sim_v12.test_current.CurrentTests.test_old_shield_decay_and_new_shield_are_distinguished) ... ok
+test_own_gain_then_consume_retains_explicit_card_order (tools.sim_v12.test_current.CurrentTests.test_own_gain_then_consume_retains_explicit_card_order) ... ok
+test_pierce_is_retired_from_effects_and_ai (tools.sim_v12.test_current.CurrentTests.test_pierce_is_retired_from_effects_and_ai) ... ok
+test_poison_merge_keeps_new_layers (tools.sim_v12.test_current.CurrentTests.test_poison_merge_keeps_new_layers) ... ok
+test_policy_does_not_read_unrevealed_deck_order (tools.sim_v12.test_current.CurrentTests.test_policy_does_not_read_unrevealed_deck_order) ... ok
+test_promised_draw_is_not_lost_at_full_health (tools.sim_v12.test_current.CurrentTests.test_promised_draw_is_not_lost_at_full_health) ... ok
+test_recycling_does_not_repeat_first_layers (tools.sim_v12.test_current.CurrentTests.test_recycling_does_not_repeat_first_layers) ... ok
+test_removed_legendary_components_are_absent (tools.sim_v12.test_current.CurrentTests.test_removed_legendary_components_are_absent) ... ok
+test_retained_cards_and_storm_numeric_change (tools.sim_v12.test_current.CurrentTests.test_retained_cards_and_storm_numeric_change) ... ok
+test_retained_wind_cleanse_clears_poison_and_heals (tools.sim_v12.test_current.CurrentTests.test_retained_wind_cleanse_clears_poison_and_heals) ... ok
+test_revealed_topdeck_tracker_never_reads_future_random_order (tools.sim_v12.test_current.CurrentTests.test_revealed_topdeck_tracker_never_reads_future_random_order) ... ok
+test_slow_poison_repeats_at_one_point_two_and_preserves_progress (tools.sim_v12.test_current.CurrentTests.test_slow_poison_repeats_at_one_point_two_and_preserves_progress) ... ok
+test_source_panels_and_first_layers_are_not_in_own_effect (tools.sim_v12.test_current.CurrentTests.test_source_panels_and_first_layers_are_not_in_own_effect) ... ok
+test_structure_new_shields_use_one_point_one_each_cast (tools.sim_v12.test_current.CurrentTests.test_structure_new_shields_use_one_point_one_each_cast) ... ok
+test_thin_policy_can_skip_a_free_low_value_card (tools.sim_v12.test_current.CurrentTests.test_thin_policy_can_skip_a_free_low_value_card) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 1.421s
+
+OK

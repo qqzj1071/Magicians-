@@ -19,7 +19,7 @@ import cards as C
 from learning_core import DRAW, SEARCH, SHUFFLE
 from shared_draft_pool import Pool, CFG, RANK, ELEMENTS, SPECIAL
 from shared_draft_combat import ENGINE as E, battle
-from draft_economy import REVISED, LEGACY, free_purchase_rarity, purchase_price, deletion_limit, deletion_price,is_free_purchase
+from draft_economy import REVISED, LEGACY, free_purchase_rarity, purchase_price, deletion_limit, deletion_price,is_free_purchase,study_income
 
 TARGETS=copy.deepcopy(C.DECKS)
 IDS=list(TARGETS)
@@ -237,7 +237,7 @@ def simulate_episode(stage,index,model,learn=False,unlimited=False,noncompetitiv
         for p in ps:
             p.decisions=[];p.bought_elements=set();p.free_used=False;p.actions=[];p.current_round=r
             bonus=int(abs(p.streak)>0 and abs(p.streak)%3==0)
-            p.points=(2 if r<=2 else 3 if r<=5 else 4)+p.bank+bonus
+            p.points=study_income(r,economy)+p.bank+bonus
             p.round_income=p.points
             pick_target(p,ps,model.w)
         pairs=[[(0,1),(2,3)],[(0,2),(1,3)],[(0,3),(1,2)]][(r-1)%3]

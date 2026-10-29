@@ -8,7 +8,7 @@
   "CombatCost": 1,
   "BaseStudyCost": 1,
   "Attack": 0,
-  "Defense": 3,
+  "Defense": 4,
   "FirstEnchantmentLayers": 0,
   "RulesText": "若当前护盾 ≥30，再 +2 防；整场",
   "DisplayRulesText": "若当前护盾 ≥30，再 +2 防；整场",

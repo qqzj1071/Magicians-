@@ -1,0 +1,14 @@
+{
+  "active_cards": 252,
+  "changed_panels": 9,
+  "integer_panels": true,
+  "rarity_bands_valid": true,
+  "documentation_rows_matched": 252,
+  "python_tests_passed": 29,
+  "csharp_build": "0 warnings / 0 errors",
+  "csharp_checks": "V11_ROUTE_BALANCE_OK",
+  "cards_sha256": "8f972539c19d15737884ec07e33bd092f136fac1f642d2a22d49e99c5bef769a",
+  "ash_specialization_gate_retained": true,
+  "final_interval_rounding": "floor",
+  "changes": "../v1.1-route-pass5-20261027/changes.md"
+}

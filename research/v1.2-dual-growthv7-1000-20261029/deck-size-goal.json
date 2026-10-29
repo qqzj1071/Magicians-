@@ -1,0 +1,18 @@
+{
+  "small": {
+    "players": 400,
+    "below12": 251,
+    "within12to14": 93,
+    "above14": 56,
+    "fraction12to14": 0.2325,
+    "early_deletions_per_player": 1.75
+  },
+  "medium": {
+    "players": 400,
+    "below12": 0,
+    "within12to14": 0,
+    "above14": 400,
+    "fraction12to14": 0.0,
+    "early_deletions_per_player": 0.0
+  }
+}

@@ -7,11 +7,11 @@
   "Rarity": "legendary",
   "CombatCost": 3,
   "BaseStudyCost": 4,
-  "Attack": 15,
+  "Attack": 20,
   "Defense": 3,
   "FirstEnchantmentLayers": 1,
-  "RulesText": "已激活火专精时，主弹减防增减伤后、含打盾的伤害达到160，结算后获得1余烬；每实际消耗1余烬回复当时已损失生命7%，逐层结算。",
-  "DisplayRulesText": "已激活火专精时，主弹减防增减伤后、含打盾的伤害达到160，结算后获得1余烬；每实际消耗1余烬回复当时已损失生命7%，逐层结算。",
+  "RulesText": "已激活火专精时，主弹减防增减伤后、含打盾的伤害达到160，结算后获得1余烬；每实际消耗1余烬回复当时已损失生命10%，逐层结算。",
+  "DisplayRulesText": "已激活火专精时，主弹减防增减伤后、含打盾的伤害达到160，结算后获得1余烬；每实际消耗1余烬回复当时已损失生命10%，逐层结算。",
   "RuleNotes": [],
   "Art": {
     "IllustrationTexture": "",
@@ -19,6 +19,5 @@
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
-  },
-  "DisplayName": "身为洪炉"
+  }
 }

@@ -10,8 +10,8 @@
   "Attack": 4,
   "Defense": 3,
   "FirstEnchantmentLayers": 1,
-  "RulesText": "下一发飞弹额外造成 `10 + 4 × 当前毒层` 伤害；下一发",
-  "DisplayRulesText": "下一发飞弹额外造成 `10 + 4 × 当前毒层` 伤害；下一发",
+  "RulesText": "攻击力临时增加 `8 + 3.5 × 当前毒层`，持续到下一发飞弹造成伤害后；下一发",
+  "DisplayRulesText": "攻击力临时增加 `8 + 3.5 × 当前毒层`，持续到下一发飞弹造成伤害后；下一发",
   "RuleNotes": [],
   "Art": {
     "IllustrationTexture": "",

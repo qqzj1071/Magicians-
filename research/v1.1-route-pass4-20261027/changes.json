@@ -1,0 +1,567 @@
+{
+  "parameters": {
+    "ash_shuffle_embers": 2,
+    "echo_refund_percent": 25,
+    "echo_tide_bonus_percent": 40,
+    "echo_heal_record_bonus_percent": 50,
+    "life_poison_percent": 1,
+    "rock_defense_percent": 50,
+    "rock_return_percent": 40,
+    "wind_pierce_shield_per_layer": 0,
+    "wind_gap_flat": 4,
+    "spring_gap_layer": 0.5
+  },
+  "changes": [
+    {
+      "name": "万蚀",
+      "before": {
+        "name": "万蚀",
+        "cost": 3,
+        "element": "poison",
+        "rarity": "epic",
+        "attack": 3,
+        "defense": 12,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "立即触发一次毒伤，且这次毒伤额外结算一次（共两次）；立即",
+        "route_support": "蚀命"
+      },
+      "after": {
+        "name": "万蚀",
+        "cost": 3,
+        "element": "poison",
+        "rarity": "epic",
+        "attack": 4,
+        "defense": 12,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "立即触发一次毒伤，且这次毒伤额外结算一次（共两次）；立即",
+        "route_support": "蚀命"
+      }
+    },
+    {
+      "name": "余烬引擎",
+      "before": {
+        "name": "余烬引擎",
+        "cost": 3,
+        "element": "fire",
+        "rarity": "epic",
+        "attack": 5,
+        "defense": 10,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "洗牌；下次抽牌阶段多抽 2；获得 2 费；立即",
+        "route_support": "灰烬循环"
+      },
+      "after": {
+        "name": "余烬引擎",
+        "cost": 3,
+        "element": "fire",
+        "rarity": "epic",
+        "attack": 6,
+        "defense": 10,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "洗牌；下次抽牌阶段多抽 2；获得 2 费；立即",
+        "route_support": "灰烬循环"
+      }
+    },
+    {
+      "name": "反震岩核",
+      "before": {
+        "name": "反震岩核",
+        "cost": 3,
+        "element": "earth",
+        "rarity": "legendary",
+        "attack": 11,
+        "defense": 9,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "已激活土专精时，碎盾每土层系数改为5%，仅扣敌方25%防御；被敌伤破盾后返还碎盾前盾量50%的盾。",
+        "route_support": null
+      },
+      "after": {
+        "name": "反震岩核",
+        "cost": 3,
+        "element": "earth",
+        "rarity": "legendary",
+        "attack": 10,
+        "defense": 9,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "已激活土专精时，碎盾每土层系数改为5%，扣敌方50%防御；被敌伤破盾后返还碎盾前盾量40%的盾。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "回响之潮",
+      "before": {
+        "name": "回响之潮",
+        "cost": 3,
+        "element": "water",
+        "rarity": "epic",
+        "attack": 12,
+        "defense": 6,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "回复 100 生命；若已打出「潮汐之心」，下一发潮汐额外伤害 +35%；这次发射造成的回血记录潮汐时额外提高20%；下一发",
+        "route_support": "潮汐回响"
+      },
+      "after": {
+        "name": "回响之潮",
+        "cost": 3,
+        "element": "water",
+        "rarity": "epic",
+        "attack": 13,
+        "defense": 6,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "回复 100 生命；若已打出「潮汐之心」，下一发潮汐额外伤害 +40%；这次发射造成的回血记录潮汐时额外提高50%；下一发",
+        "route_support": "潮汐回响"
+      }
+    },
+    {
+      "name": "回震岩甲",
+      "before": {
+        "name": "回震岩甲",
+        "cost": 3,
+        "element": "earth",
+        "rarity": "epic",
+        "attack": 19,
+        "defense": 1,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "获得 150 护盾；本场护盾被敌方伤害击碎时额外获得60护盾；每次重复打出返盾数值直接加算（两次为120）；若同时触发反伤，则在反伤结算后统一获盾；立即/整场",
+        "route_support": "反震岩核"
+      },
+      "after": {
+        "name": "回震岩甲",
+        "cost": 3,
+        "element": "earth",
+        "rarity": "epic",
+        "attack": 18,
+        "defense": 1,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "获得 150 护盾；本场护盾被敌方伤害击碎时额外获得60护盾；每次重复打出返盾数值直接加算（两次为120）；若同时触发反伤，则在反伤结算后统一获盾；立即/整场",
+        "route_support": "反震岩核"
+      }
+    },
+    {
+      "name": "天岚",
+      "before": {
+        "name": "天岚",
+        "cost": 3,
+        "element": "wind",
+        "rarity": "specialization",
+        "attack": 22,
+        "defense": 5,
+        "layers": 2,
+        "ability": true,
+        "kind": "specialization",
+        "text": "激活疾风：间隔减少5+1×风层数；此后主弹从0计数，每第三次额外造成攻击力20%的真伤副弹，无视盾防。未激活前不计数、不预存风痕效果。",
+        "route_support": null
+      },
+      "after": {
+        "name": "天岚",
+        "cost": 3,
+        "element": "wind",
+        "rarity": "specialization",
+        "attack": 22,
+        "defense": 5,
+        "layers": 2,
+        "ability": true,
+        "kind": "specialization",
+        "text": "激活疾风：间隔减少4+1×风层数；此后主弹从0计数，每第三次额外造成攻击力20%的真伤副弹，无视盾防。未激活前不计数、不预存风痕效果。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "气旋护壁",
+      "before": {
+        "name": "气旋护壁",
+        "cost": 2,
+        "element": "wind",
+        "rarity": "epic",
+        "attack": 3,
+        "defense": 8,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "双方各获得 100 护盾；本场攻击间隔永久 -1.5；立即/整场",
+        "route_support": "穿云箭"
+      },
+      "after": {
+        "name": "气旋护壁",
+        "cost": 2,
+        "element": "wind",
+        "rarity": "epic",
+        "attack": 4,
+        "defense": 8,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "双方各获得 100 护盾；本场攻击间隔永久 -1；立即/整场",
+        "route_support": "穿云箭"
+      }
+    },
+    {
+      "name": "泉心",
+      "before": {
+        "name": "泉心",
+        "cost": 3,
+        "element": "water",
+        "rarity": "epic",
+        "attack": 11,
+        "defense": 6,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "下一发飞弹间隔 -25；这次发射的飞弹防御穿透60%；下一发",
+        "route_support": "生命之泉"
+      },
+      "after": {
+        "name": "泉心",
+        "cost": 3,
+        "element": "water",
+        "rarity": "epic",
+        "attack": 10,
+        "defense": 6,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "下一发飞弹间隔 -25；这次发射的飞弹防御穿透60%；下一发",
+        "route_support": "生命之泉"
+      }
+    },
+    {
+      "name": "潮汐回响",
+      "before": {
+        "name": "潮汐回响",
+        "cost": 3,
+        "element": "water",
+        "rarity": "legendary",
+        "attack": 14,
+        "defense": 7,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "已激活水专精时，实际回复记录潮汐的每水层系数改为8%；发射消耗潮汐后返还消耗量20%。",
+        "route_support": null
+      },
+      "after": {
+        "name": "潮汐回响",
+        "cost": 3,
+        "element": "water",
+        "rarity": "legendary",
+        "attack": 15,
+        "defense": 7,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "已激活水专精时，实际回复记录潮汐的每水层系数改为8%；发射消耗潮汐后返还消耗量25%。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "灰烬循环",
+      "before": {
+        "name": "灰烬循环",
+        "cost": 3,
+        "element": "fire",
+        "rarity": "legendary",
+        "attack": 16,
+        "defense": 6,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "已激活火专精时，每次洗牌固定获得1余烬；每消耗1余烬产生1下抽资源额度，下抽额外抽牌和费用各最多2，多余不结转。",
+        "route_support": null
+      },
+      "after": {
+        "name": "灰烬循环",
+        "cost": 3,
+        "element": "fire",
+        "rarity": "legendary",
+        "attack": 18,
+        "defense": 6,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "已激活火专精时，每次洗牌固定获得2余烬；每消耗1余烬产生1下抽资源额度，下抽额外抽牌和费用各最多2，多余不结转。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "生命之泉",
+      "before": {
+        "name": "生命之泉",
+        "cost": 3,
+        "element": "water",
+        "rarity": "legendary",
+        "attack": 15,
+        "defense": 7,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "固定间隔减少4+1×水层数；飞弹防御穿透20%；不提高潮汐成分。",
+        "route_support": null
+      },
+      "after": {
+        "name": "生命之泉",
+        "cost": 3,
+        "element": "water",
+        "rarity": "legendary",
+        "attack": 14,
+        "defense": 7,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "固定间隔减少4+0.5×水层数；飞弹防御穿透20%；不提高潮汐成分。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "生命洪流",
+      "before": {
+        "name": "生命洪流",
+        "cost": 2,
+        "element": "water",
+        "rarity": "epic",
+        "attack": 5,
+        "defense": 7,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "回复 60 生命；下一发飞弹间隔 -15；这次发射的飞弹伤害 +17%；立即/下一发",
+        "route_support": "生命之泉"
+      },
+      "after": {
+        "name": "生命洪流",
+        "cost": 2,
+        "element": "water",
+        "rarity": "epic",
+        "attack": 4,
+        "defense": 7,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "回复 60 生命；下一发飞弹间隔 -15；这次发射的飞弹伤害 +17%；立即/下一发",
+        "route_support": "生命之泉"
+      }
+    },
+    {
+      "name": "疾风连斩",
+      "before": {
+        "name": "疾风连斩",
+        "cost": 2,
+        "element": "wind",
+        "rarity": "epic",
+        "attack": 5,
+        "defense": 7,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "本场攻击间隔永久 -1.5；若下一发间隔 ≤25，下一发主飞弹伤害 +20%；整场/下一发",
+        "route_support": "疾风之刃"
+      },
+      "after": {
+        "name": "疾风连斩",
+        "cost": 2,
+        "element": "wind",
+        "rarity": "epic",
+        "attack": 6,
+        "defense": 7,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "本场攻击间隔永久 -1；若下一发间隔 ≤25，下一发主飞弹伤害 +20%；整场/下一发",
+        "route_support": "疾风之刃"
+      }
+    },
+    {
+      "name": "碎岳之心",
+      "before": {
+        "name": "碎岳之心",
+        "cost": 2,
+        "element": "earth",
+        "rarity": "epic",
+        "attack": 14,
+        "defense": 1,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "获得 160 护盾；本场你的护盾下一次被敌方伤害击碎时，给敌方施加 1 层易伤（下一次普通飞弹伤害 +30%）；若同时触发反伤，则在反伤结算后施加；立即",
+        "route_support": "反震岩核"
+      },
+      "after": {
+        "name": "碎岳之心",
+        "cost": 2,
+        "element": "earth",
+        "rarity": "epic",
+        "attack": 13,
+        "defense": 1,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "获得 160 护盾；本场你的护盾下一次被敌方伤害击碎时，给敌方施加 1 层易伤（下一次普通飞弹伤害 +30%）；若同时触发反伤，则在反伤结算后施加；立即",
+        "route_support": "反震岩核"
+      }
+    },
+    {
+      "name": "穿云箭",
+      "before": {
+        "name": "穿云箭",
+        "cost": 2,
+        "element": "wind",
+        "rarity": "legendary",
+        "attack": 14,
+        "defense": 3,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "每风层额外防御穿透1%/选风专精后2%；额外护盾穿透0.5%/1%，与基础1.5%/3%相加，总计2%/4%。飞弹对盾伤害额外+15%；打出天岚后独立无视15%防御，与防穿后的剩余防御乘算。",
+        "route_support": null
+      },
+      "after": {
+        "name": "穿云箭",
+        "cost": 2,
+        "element": "wind",
+        "rarity": "legendary",
+        "attack": 13,
+        "defense": 3,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "每风层额外防御穿透1%/选风专精后2%；护盾穿透保持基础每风层1.5%/选风专精后3%，无额外护盾穿透。飞弹对盾伤害额外+15%；打出天岚后独立无视15%防御，与防穿后的剩余防御乘算。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "蚀命",
+      "before": {
+        "name": "蚀命",
+        "cost": 3,
+        "element": "poison",
+        "rarity": "legendary",
+        "attack": 15,
+        "defense": 7,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "每次非毒爆的常规或额外毒伤，加入目标最大生命×0.8%×毒层数后，整段只扣一次50%防御；不穿盾，不回血，0毒层不触发。",
+        "route_support": null
+      },
+      "after": {
+        "name": "蚀命",
+        "cost": 3,
+        "element": "poison",
+        "rarity": "legendary",
+        "attack": 16,
+        "defense": 7,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "每次非毒爆的常规或额外毒伤，加入目标最大生命×1%×毒层数后，整段只扣一次50%防御；不穿盾，不回血，0毒层不触发。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "蚀界",
+      "before": {
+        "name": "蚀界",
+        "cost": 3,
+        "element": "poison",
+        "rarity": "epic",
+        "attack": 12,
+        "defense": 6,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "立即触发一次毒伤；接下来 2 次主飞弹命中生命各额外 +1 毒层；立即/下一发",
+        "route_support": "蚀命"
+      },
+      "after": {
+        "name": "蚀界",
+        "cost": 3,
+        "element": "poison",
+        "rarity": "epic",
+        "attack": 13,
+        "defense": 6,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "立即触发一次毒伤；接下来 2 次主飞弹命中生命各额外 +1 毒层；立即/下一发",
+        "route_support": "蚀命"
+      }
+    },
+    {
+      "name": "裂空",
+      "before": {
+        "name": "裂空",
+        "cost": 2,
+        "element": "wind",
+        "rarity": "epic",
+        "attack": 14,
+        "defense": 1,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "下一次风痕引爆总伤害 ×1.5；本场攻击间隔永久 -1.5；下一次/整场",
+        "route_support": "风痕"
+      },
+      "after": {
+        "name": "裂空",
+        "cost": 2,
+        "element": "wind",
+        "rarity": "epic",
+        "attack": 15,
+        "defense": 1,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "下一次风痕引爆总伤害 ×1.5；本场攻击间隔永久 -1；下一次/整场",
+        "route_support": "风痕"
+      }
+    },
+    {
+      "name": "风神之翼",
+      "before": {
+        "name": "风神之翼",
+        "cost": 2,
+        "element": "wind",
+        "rarity": "epic",
+        "attack": 12,
+        "defense": 2,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "下一发飞弹额外发射一段“固定 20 + 攻击力 30%”的加成副弹；本场攻击间隔永久 -1.5；下一发/整场",
+        "route_support": "疾风之刃"
+      },
+      "after": {
+        "name": "风神之翼",
+        "cost": 2,
+        "element": "wind",
+        "rarity": "epic",
+        "attack": 13,
+        "defense": 2,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "下一发飞弹额外发射一段“固定 20 + 攻击力 30%”的加成副弹；本场攻击间隔永久 -1；下一发/整场",
+        "route_support": "疾风之刃"
+      }
+    }
+  ]
+}

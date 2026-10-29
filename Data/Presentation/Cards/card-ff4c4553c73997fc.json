@@ -8,7 +8,7 @@
   "CombatCost": 2,
   "BaseStudyCost": 2,
   "Attack": 1,
-  "Defense": 5,
+  "Defense": 8,
   "FirstEnchantmentLayers": 1,
   "RulesText": "获得 140 护盾；这次叠盾时旧盾不衰减；立即/整场",
   "DisplayRulesText": "获得 140 护盾；这次叠盾时旧盾不衰减；立即/整场",

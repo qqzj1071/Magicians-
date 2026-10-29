@@ -70,4 +70,3 @@ custom_minimum_size = Vector2(0, 180)
 layout_mode = 2
 scroll_active = true
 scroll_following = true
-

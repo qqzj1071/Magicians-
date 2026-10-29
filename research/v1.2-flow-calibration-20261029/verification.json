@@ -1,0 +1,13 @@
+{
+  "cards": 189,
+  "stock": 707,
+  "role_counts": {
+    "numeric": 124,
+    "weak": 33,
+    "strong": 32
+  },
+  "changed_panels": 57,
+  "unchanged_costs_effects_layers_and_card_identity": true,
+  "rounds_9_plus_damage_unchanged": true,
+  "new_tournaments": 0
+}

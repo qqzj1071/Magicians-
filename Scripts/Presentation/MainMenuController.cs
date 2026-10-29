@@ -36,4 +36,3 @@ public partial class MainMenuController : Control
         _center.Position = (viewport - size) * 0.5f;
     }
 }
-

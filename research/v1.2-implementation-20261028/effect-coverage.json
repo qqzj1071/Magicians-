@@ -1,0 +1,1920 @@
+{
+  "cards": 239,
+  "regression_tests": 59,
+  "all_card_contexts": 478,
+  "scope": "dry/rich cast execution plus numerical and transaction regressions; not exhaustive interaction coverage",
+  "effects": {
+    "炽焰王冠": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 42,
+      "route_duel_plays": 5,
+      "starter_only": false
+    },
+    "余烬之核": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 15,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "灰烬循环": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 16,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "燃烧血统": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "燎原": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "不灭烈焰": {
+      "handler": "recover",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 1,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "余烬引擎": {
+      "handler": "shuffle",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 16,
+      "route_duel_plays": 6,
+      "starter_only": false
+    },
+    "余烬心脏": {
+      "handler": "embers",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 1,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "压缩爆燃": {
+      "handler": "fire_modifiers",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 5,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "慢燃": {
+      "handler": "fire_modifiers",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 4,
+      "starter_only": false
+    },
+    "灰烬重生": {
+      "handler": "shuffle",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 2,
+      "route_duel_plays": 3,
+      "starter_only": false
+    },
+    "焚心": {
+      "handler": "embers",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 20,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "焰心屏障": {
+      "handler": "fire_modifiers",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "爆燃": {
+      "handler": "fire_modifiers",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 2,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "狂暴": {
+      "handler": "payment",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "熔盾烈焰": {
+      "handler": "fire_modifiers",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "余火": {
+      "handler": "first_and_draw",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 26,
+      "route_duel_plays": 6,
+      "starter_only": false
+    },
+    "余烬刻度": {
+      "handler": "embers",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 15,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "余烬护心": {
+      "handler": "embers",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 19,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "压实火药": {
+      "handler": "fire_modifiers",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 16,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "回火": {
+      "handler": "embers",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 26,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "导火索": {
+      "handler": "fire_modifiers",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 30,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "战意": {
+      "handler": "fire_modifiers",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 6,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "火种库": {
+      "handler": "searches",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 28,
+      "route_duel_plays": 7,
+      "starter_only": false
+    },
+    "火舌": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 4,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "灰烬账本": {
+      "handler": "embers",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 15,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "灼痛": {
+      "handler": "fire_modifiers",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 28,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "烈焰附身": {
+      "handler": "fire_modifiers",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 2,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "燃血": {
+      "handler": "payment",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 7,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "爆裂弹头": {
+      "handler": "fire_modifiers",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 2,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "高压弹仓": {
+      "handler": "fire_modifiers",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 1,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "高温炉心": {
+      "handler": "fire_modifiers",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 8,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "火墙": {
+      "handler": "cleanse",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 25,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "火种翻找": {
+      "handler": "searches",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 42,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "火花": {
+      "handler": "first_and_draw",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 63,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "烈焰冲刺": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 103,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "猛火弹": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 35,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "引火": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 31,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "燃页": {
+      "handler": "payment",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 116,
+      "route_duel_plays": 5,
+      "starter_only": false
+    },
+    "潮汐之心": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 39,
+      "route_duel_plays": 6,
+      "starter_only": false
+    },
+    "深渊潮": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "潮汐回响": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "生命之泉": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 18,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "血潮": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 9,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "回响之潮": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 2,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "奔流": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 17,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "水幕": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 13,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "泉心": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 3,
+      "starter_only": false
+    },
+    "洪潮": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "深渊": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 4,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "潮汐风暴": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 17,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "生命洪流": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "血之回响": {
+      "handler": "payment",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 21,
+      "route_duel_plays": 3,
+      "starter_only": false
+    },
+    "血潮汹涌": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 5,
+      "route_duel_plays": 3,
+      "starter_only": false
+    },
+    "回流": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 69,
+      "route_duel_plays": 8,
+      "starter_only": false
+    },
+    "回潮": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 49,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "洪流": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 7,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "涌泉": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 19,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "深流": {
+      "handler": "searches",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 44,
+      "route_duel_plays": 7,
+      "starter_only": false
+    },
+    "潮声": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 41,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "潮汐回廊": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 1,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "潮汐恩泽": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "濒死回响": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 4,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "疾流": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 11,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "穿潮": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 3,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "血偿": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 22,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "血刃": {
+      "handler": "payment",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 51,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "血怒": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 5,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "连环潮": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 12,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "静水": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 38,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "水之低语": {
+      "handler": "searches",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 71,
+      "route_duel_plays": 6,
+      "starter_only": false
+    },
+    "水膜": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 103,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "泉眼": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 71,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "潮涌": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 13,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "细流": {
+      "handler": "water",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 24,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "润泽": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 56,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "活水": {
+      "handler": "first_and_draw",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 148,
+      "route_duel_plays": 11,
+      "starter_only": false
+    },
+    "不周山": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 47,
+      "route_duel_plays": 6,
+      "starter_only": false
+    },
+    "反震岩核": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 17,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "壁垒之心": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 9,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "大地之握": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 9,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "山崩": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "万钧碎盾": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 4,
+      "route_duel_plays": 3,
+      "starter_only": false
+    },
+    "不坏壁垒": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 12,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "回震岩甲": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 1,
+      "route_duel_plays": 4,
+      "starter_only": false
+    },
+    "山岳之躯": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 12,
+      "starter_only": false
+    },
+    "山岳壁垒": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 5,
+      "route_duel_plays": 7,
+      "starter_only": false
+    },
+    "岩核重压": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "岩潮壁垒": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "巨岩": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "碎岳之心": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "镜岩之心": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 16,
+      "route_duel_plays": 6,
+      "starter_only": false
+    },
+    "层岩结构": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 9,
+      "route_duel_plays": 4,
+      "starter_only": false
+    },
+    "不动如山": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 34,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "临时壁垒": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 42,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "余震": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 22,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "厚土": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 43,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "回岩": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 7,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "大地之盾": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 41,
+      "route_duel_plays": 4,
+      "starter_only": false
+    },
+    "守岩": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 38,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "山岳": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 6,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "岩拳": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 54,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "岩核共鸣": {
+      "handler": "searches",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 16,
+      "route_duel_plays": 11,
+      "starter_only": false
+    },
+    "握盾": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 1,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "盾脉": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 28,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "碎岩印记": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 15,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "碎盾术": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 20,
+      "route_duel_plays": 5,
+      "starter_only": false
+    },
+    "磐岩壁": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 28,
+      "route_duel_plays": 5,
+      "starter_only": false
+    },
+    "裂岩护壁": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 16,
+      "route_duel_plays": 3,
+      "starter_only": false
+    },
+    "坚岩": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 50,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "寻岩": {
+      "handler": "searches",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 64,
+      "route_duel_plays": 10,
+      "starter_only": false
+    },
+    "岩壁": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 97,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "岩甲": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 68,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "磐石": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 24,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "垒石": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 113,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "开岩": {
+      "handler": "earth",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 154,
+      "route_duel_plays": 15,
+      "starter_only": false
+    },
+    "天岚": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 58,
+      "route_duel_plays": 6,
+      "starter_only": false
+    },
+    "疾风之刃": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 8,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "穿云箭": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 8,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "风痕": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 23,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "飓风": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "气旋护壁": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "烈风": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "疾风连斩": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 7,
+      "route_duel_plays": 3,
+      "starter_only": false
+    },
+    "穿云破甲": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 1,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "裂空": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "裂空穿云": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 7,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "风之躯": {
+      "handler": "cleanse",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 15,
+      "route_duel_plays": 5,
+      "starter_only": false
+    },
+    "风暴": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 1,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "风痕回廊": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 9,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "风神之翼": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 12,
+      "route_duel_plays": 6,
+      "starter_only": false
+    },
+    "穿空": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "狂风": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 32,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "疾影": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 7,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "疾行": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 60,
+      "route_duel_plays": 6,
+      "starter_only": false
+    },
+    "破风": {
+      "handler": "cleanse",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 19,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "穿云": {
+      "handler": "searches",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 33,
+      "route_duel_plays": 6,
+      "starter_only": false
+    },
+    "穿甲": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 26,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "裂风": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 7,
+      "route_duel_plays": 3,
+      "starter_only": false
+    },
+    "追云": {
+      "handler": "first_and_draw",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 67,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "追风": {
+      "handler": "first_and_draw",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 17,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "顺风": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 6,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "风刃": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 45,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "风切": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 22,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "风幕": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 12,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "风痕刻印": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 17,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "风蚀": {
+      "handler": "cleanse",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 7,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "风驰": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 51,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "寻风": {
+      "handler": "searches",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 55,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "疾风": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 67,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "风卷": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 48,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "风步": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 56,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "风眼": {
+      "handler": "wind",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 2,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "轻羽": {
+      "handler": "first_and_draw",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 60,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "掠影": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 168,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "万毒之源": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 48,
+      "route_duel_plays": 5,
+      "starter_only": false
+    },
+    "毒爆": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 27,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "瘟潮": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "蚀命": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "蚀骨": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "万毒爆": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "万毒蚀骨": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 5,
+      "route_duel_plays": 4,
+      "starter_only": false
+    },
+    "万蚀": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 4,
+      "starter_only": false
+    },
+    "毒潮": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 8,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "毒龙": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 8,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "渗骨毒素": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 7,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "疫病": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "腐化之躯": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "蚀界": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "蚀骨之触": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "缓释毒素": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "固毒": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 27,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "枯潮": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 45,
+      "route_duel_plays": 7,
+      "starter_only": false
+    },
+    "毒囊": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 22,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "毒涌": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 57,
+      "route_duel_plays": 10,
+      "starter_only": false
+    },
+    "毒牙": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 34,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "爆裂": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 11,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "腐息": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "腐溃": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 30,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "腐潮": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 18,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "腐骨": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 19,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "蚀创": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "蚀刻": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 32,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "速腐": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 25,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "寻毒": {
+      "handler": "searches",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 134,
+      "route_duel_plays": 9,
+      "starter_only": false
+    },
+    "毒瓶": {
+      "handler": "payment",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 65,
+      "route_duel_plays": 2,
+      "starter_only": false
+    },
+    "毒甲": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 43,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "毒针": {
+      "handler": "poison",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 39,
+      "route_duel_plays": 1,
+      "starter_only": false
+    },
+    "毒引": {
+      "handler": "first_and_draw",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 109,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "循毒": {
+      "handler": "recover",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 164,
+      "route_duel_plays": 10,
+      "starter_only": false
+    },
+    "元素熔炉": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "守护者壁垒": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "战神徽记": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "时光倒流": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "禁咒目录": {
+      "handler": "searches",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "禁忌知识": {
+      "handler": "payment",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "魔力契约": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "魔法阵核心": {
+      "handler": "activate",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "命运检索": {
+      "handler": "searches",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "圣盾": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "应急整备": {
+      "handler": "cleanse",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 24,
+      "starter_only": false
+    },
+    "恐惧": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "愈合之光": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "战术大师": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "永恒壁垒": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "治愈洪流": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "灵感涌现": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 13,
+      "route_duel_plays": 35,
+      "starter_only": false
+    },
+    "盾之共鸣": {
+      "handler": "shuffle",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 31,
+      "starter_only": false
+    },
+    "破军": {
+      "handler": "recover",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "破障法阵": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "通晓": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 51,
+      "route_duel_plays": 42,
+      "starter_only": false
+    },
+    "坚壁": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "大检索": {
+      "handler": "searches",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "循环": {
+      "handler": "shuffle",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "战术": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "护盾强化": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "断流封印": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 42,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "狂战": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "盾墙": {
+      "handler": "cleanse",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 7,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "破甲": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "稳固结界": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "翻阅": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 254,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "蓄势": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 26,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "裂伤": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 28,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "利刃": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 141,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "包扎": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "预备": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "攻击强化": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 74,
+      "route_duel_plays": 1,
+      "starter_only": true
+    },
+    "防御强化": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 911,
+      "route_duel_plays": 12,
+      "starter_only": true
+    },
+    "护盾": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 572,
+      "route_duel_plays": 5,
+      "starter_only": true
+    },
+    "拆盾弹": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 81,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "换页": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "整理": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 53,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "检索附魔": {
+      "handler": "searches",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 862,
+      "route_duel_plays": 20,
+      "starter_only": true
+    },
+    "短促": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 628,
+      "route_duel_plays": 13,
+      "starter_only": true
+    },
+    "翻找": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "蓄能": {
+      "handler": "generic",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 0,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "速读": {
+      "handler": "effect",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 750,
+      "route_duel_plays": 0,
+      "starter_only": false
+    },
+    "重洗": {
+      "handler": "shuffle",
+      "module": "tools.sim_v12.effects",
+      "dry_rich_execution_passed": true,
+      "full_tournament_plays": 610,
+      "route_duel_plays": 16,
+      "starter_only": true
+    }
+  }
+}
