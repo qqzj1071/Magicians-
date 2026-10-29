@@ -7,7 +7,7 @@
   "Rarity": "epic",
   "CombatCost": 2,
   "BaseStudyCost": 3,
-  "Attack": 13,
+  "Attack": 15,
   "Defense": 0,
   "FirstEnchantmentLayers": 0,
   "RulesText": "若当前生命 ≥50%，再 +4 攻；整场",

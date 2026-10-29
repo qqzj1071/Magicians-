@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "client_build": "0 warnings, 0 errors",
+  "draft_allocation_cases": 240,
+  "draft_route_cap_cases": 80,
+  "replay_seeds": [
+    20261024,
+    20261026
+  ],
+  "runs_per_seed": 2,
+  "repeat_state_and_event_hashes_equal": true,
+  "research_hidden_mutation": "passed",
+  "client_hidden_mutation": "passed",
+  "flows": [
+    "async AI",
+    "combat delegation",
+    "draft UI",
+    "main menu",
+    "spectator"
+  ],
+  "frozen_release_verification": "passed",
+  "baseline": "Data/Regression/trained-ai-v1.1-baselines.json",
+  "runtime_logs": "../runtime/"
+}

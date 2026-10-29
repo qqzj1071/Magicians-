@@ -33,7 +33,7 @@ public static class BastionHeartRegression
                 EarthBarrierActive = true, EarthSpecialized = true, BastionHeartActive = true },
             B = baseState.B with { NextFire = 50, Attack = 60, Defense = 0 }
         });
-        if (reflected.State.A.Shield != 49 || !reflected.Events.Any(e => e.Kind == "EarthReflect" && e.Amount == 11))
+        if (reflected.State.A.Shield != 49 || !reflected.Events.Any(e => e.Kind == "EarthReflect" && e.Amount == 13))
             throw new InvalidDataException("壁垒之心 must reduce normal damage by 15% and reflect absorbed damage even without shield break.");
         var additive = EndBoth(baseState with
         {

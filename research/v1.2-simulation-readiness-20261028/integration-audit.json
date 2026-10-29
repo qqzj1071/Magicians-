@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "cards": 239,
+  "generic": 49,
+  "shared_pool_copies": 960,
+  "missing_v11_target_references": [
+    "小检索",
+    "微风",
+    "愈合",
+    "战意沸腾",
+    "毒爆弹",
+    "水滴",
+    "清泉",
+    "火星",
+    "石肤",
+    "腐蚀"
+  ],
+  "new_names_vs_v11": 17,
+  "retired_names_vs_v11": 30,
+  "runtime_ready": false,
+  "reason": "v1.2 runtime implementation and smoke tests pending"
+}

@@ -7,7 +7,7 @@
   "Rarity": "rare",
   "CombatCost": 2,
   "BaseStudyCost": 2,
-  "Attack": 9,
+  "Attack": 12,
   "Defense": 0,
   "FirstEnchantmentLayers": 1,
   "RulesText": "下一发累计的盾衰减转伤额外+100%；同类增幅加算，结算该发后清除；下一发",

@@ -1,0 +1,277 @@
+{
+  "fire": {
+    "8": {
+      "players": 34,
+      "score": 42.0,
+      "champions": 15
+    },
+    "9": {
+      "players": 3,
+      "score": 3.0,
+      "champions": 1
+    },
+    "10": {
+      "players": 2,
+      "score": -2.0,
+      "champions": 0
+    },
+    "11": {
+      "players": 3,
+      "score": -1.0,
+      "champions": 1
+    },
+    "12": {
+      "players": 5,
+      "score": -5.0,
+      "champions": 0
+    },
+    "13": {
+      "players": 3,
+      "score": -7.0,
+      "champions": 0
+    },
+    "14": {
+      "players": 5,
+      "score": -7.0,
+      "champions": 0
+    },
+    "16": {
+      "players": 1,
+      "score": -1.0,
+      "champions": 0
+    },
+    "17": {
+      "players": 2,
+      "score": -6.0,
+      "champions": 0
+    },
+    "18": {
+      "players": 2,
+      "score": -6.0,
+      "champions": 0
+    }
+  },
+  "water": {
+    "8": {
+      "players": 18,
+      "score": 24.0,
+      "champions": 7
+    },
+    "9": {
+      "players": 7,
+      "score": 9.0,
+      "champions": 3
+    },
+    "10": {
+      "players": 2,
+      "score": 0.0,
+      "champions": 1
+    },
+    "11": {
+      "players": 5,
+      "score": -3.0,
+      "champions": 1
+    },
+    "12": {
+      "players": 2,
+      "score": 2.0,
+      "champions": 1
+    },
+    "13": {
+      "players": 7,
+      "score": 1.0,
+      "champions": 2
+    },
+    "14": {
+      "players": 2,
+      "score": -6.0,
+      "champions": 0
+    },
+    "15": {
+      "players": 6,
+      "score": -12.0,
+      "champions": 0
+    },
+    "16": {
+      "players": 2,
+      "score": -4.0,
+      "champions": 0
+    },
+    "17": {
+      "players": 3,
+      "score": -9.0,
+      "champions": 0
+    },
+    "18": {
+      "players": 5,
+      "score": -11.0,
+      "champions": 0
+    },
+    "21": {
+      "players": 1,
+      "score": -3.0,
+      "champions": 0
+    }
+  },
+  "earth": {
+    "8": {
+      "players": 30,
+      "score": 50.0,
+      "champions": 16
+    },
+    "9": {
+      "players": 6,
+      "score": 0.0,
+      "champions": 2
+    },
+    "10": {
+      "players": 4,
+      "score": 6.0,
+      "champions": 3
+    },
+    "11": {
+      "players": 6,
+      "score": 8.0,
+      "champions": 4
+    },
+    "12": {
+      "players": 1,
+      "score": 3.0,
+      "champions": 1
+    },
+    "13": {
+      "players": 3,
+      "score": 1.0,
+      "champions": 1
+    },
+    "14": {
+      "players": 2,
+      "score": 0.0,
+      "champions": 1
+    },
+    "15": {
+      "players": 5,
+      "score": 2.0,
+      "champions": 2
+    },
+    "16": {
+      "players": 1,
+      "score": -3.0,
+      "champions": 0
+    },
+    "17": {
+      "players": 1,
+      "score": -3.0,
+      "champions": 0
+    },
+    "18": {
+      "players": 1,
+      "score": -1.0,
+      "champions": 0
+    }
+  },
+  "wind": {
+    "8": {
+      "players": 34,
+      "score": -2.0,
+      "champions": 6
+    },
+    "9": {
+      "players": 7,
+      "score": -3.0,
+      "champions": 1
+    },
+    "10": {
+      "players": 2,
+      "score": -2.0,
+      "champions": 0
+    },
+    "11": {
+      "players": 3,
+      "score": 1.0,
+      "champions": 1
+    },
+    "12": {
+      "players": 1,
+      "score": -3.0,
+      "champions": 0
+    },
+    "13": {
+      "players": 5,
+      "score": -9.0,
+      "champions": 0
+    },
+    "14": {
+      "players": 1,
+      "score": -1.0,
+      "champions": 0
+    },
+    "15": {
+      "players": 3,
+      "score": -9.0,
+      "champions": 0
+    },
+    "16": {
+      "players": 2,
+      "score": -4.0,
+      "champions": 0
+    },
+    "18": {
+      "players": 2,
+      "score": -6.0,
+      "champions": 0
+    }
+  },
+  "poison": {
+    "8": {
+      "players": 24,
+      "score": 16.0,
+      "champions": 5
+    },
+    "9": {
+      "players": 6,
+      "score": 2.0,
+      "champions": 1
+    },
+    "10": {
+      "players": 9,
+      "score": -7.0,
+      "champions": 1
+    },
+    "11": {
+      "players": 3,
+      "score": 1.0,
+      "champions": 1
+    },
+    "12": {
+      "players": 4,
+      "score": 0.0,
+      "champions": 2
+    },
+    "13": {
+      "players": 2,
+      "score": -4.0,
+      "champions": 0
+    },
+    "14": {
+      "players": 5,
+      "score": -11.0,
+      "champions": 0
+    },
+    "16": {
+      "players": 2,
+      "score": -6.0,
+      "champions": 0
+    },
+    "17": {
+      "players": 4,
+      "score": -10.0,
+      "champions": 0
+    },
+    "18": {
+      "players": 1,
+      "score": -3.0,
+      "champions": 0
+    }
+  }
+}

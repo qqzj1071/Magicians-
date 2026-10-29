@@ -1,0 +1,9 @@
+{
+  "training_inputs_verified_at_completion": true,
+  "changes_after_sampling": "仅追加部署质量门槛、测试显式指定候选、输出默认回退配置；卡牌、战斗内核和已评估候选权重不变",
+  "sha256": {
+    "tools/sim_v12/train.py": "a1dcfee911e61868c06ffe6bcf816259f09c64a8eaf90e976d71d0cf3020678d",
+    "tools/sim_v12/test_current.py": "cef23e66fbc40e1d9a82b890d55718f3034ec98a1f478ad72303a80e3c89b0b1",
+    "tools/sim_v12/rules/ai-policy.json": "841ae204cc471003ae0d03ba4830121f67f0cc8a7fb1d8d0eea601638e941c68"
+  }
+}

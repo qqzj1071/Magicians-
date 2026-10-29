@@ -5,7 +5,7 @@ import math
 import random
 from collections import Counter
 import tournament_draft as A
-from draft_economy import CURRENT,deletion_limit
+from draft_economy import CURRENT,deletion_limit,study_income
 T=A.T;S=T.S
 
 
@@ -86,7 +86,7 @@ def simulate(label,index,model,table,config,learn=False,namespace='survival-v6',
         for p in players:
             p.current_round=r;p.decisions=[];p.bought_elements=set();p.free_used=False;p.actions=[];p.explanations=[]
             p.loss_estimate=damage(m,n,500);bonus=int(abs(p.streak)>0 and abs(p.streak)%3==0)
-            p.points=(2 if r<=2 else 3 if r<=5 else 4)+p.bank+bonus;p.round_income=p.points;p.round_bonus=bonus
+            p.points=study_income(r,CURRENT)+p.bank+bonus;p.round_income=p.points;p.round_bonus=bonus
             A.pick_target(p,players,actors[p.pid].w)
         announced=[dict(a=a,b=b,ghost=isinstance(b,str)) for a,b in pairs]
         templates={face:{} for face in (0,1)}
@@ -167,7 +167,7 @@ def simulate(label,index,model,table,config,learn=False,namespace='survival-v6',
     # If all remaining contenders die on the same round, user approved co-champions.
     champions=[snapshot(p) for p in players] if players else records[-1]['eliminated']
     if learn and hasattr(model,'finish_episode'):model.finish_episode(all_players,champions,r)
-    return dict(label=label,index=index,rounds=records,end_round=r,champions=champions,
+    return dict(economy=CURRENT,label=label,index=index,rounds=records,end_round=r,champions=champions,
         tied=not players,eliminated=dead,battles=battles_count,pool_stats=dict(pool.stats))
 
 

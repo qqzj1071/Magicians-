@@ -1,0 +1,875 @@
+{
+  "attempted": 500,
+  "completed": 500,
+  "battles": 14810,
+  "skipped": 0,
+  "accepted_steps": 2,
+  "candidate": {
+    "kind": "explorer",
+    "checkpoint": "medium-accepted-03",
+    "weights": {
+      "panel": 0.375524,
+      "layer": 2.481288,
+      "draw": 3.633811,
+      "fee": 5.399298,
+      "search": 1.700279,
+      "recycle": 2.008997,
+      "discard": 0.733374,
+      "future": 1.539429,
+      "passive": 2.362307,
+      "tempo": 1.750264,
+      "protection": 0.829182,
+      "thinning": 0.899514,
+      "lookahead": 1.038806
+    },
+    "construction": {
+      "dilution": 0.91086,
+      "buy_margin": 0.161621,
+      "point_cost": 0.311217,
+      "delete_margin": 2.417268,
+      "starter_bias": 0.595697,
+      "core_weight": 2.608518,
+      "first_layer": 3.41002,
+      "generic_tax": 1.039064,
+      "flow_scale": 0.913533
+    },
+    "element_weights": {
+      "fire": {
+        "layer": 1.155087,
+        "recycle": 0.989468,
+        "protection": 1.046542
+      },
+      "water": {
+        "layer": 1.156032,
+        "recycle": 0.944241,
+        "protection": 1.04116
+      },
+      "earth": {
+        "layer": 1.13228,
+        "recycle": 0.952829,
+        "protection": 1.056565
+      },
+      "wind": {
+        "layer": 0.961422,
+        "recycle": 1.045545,
+        "protection": 0.970431
+      },
+      "poison": {
+        "layer": 0.959597,
+        "recycle": 1.068241,
+        "protection": 0.979328
+      }
+    },
+    "breadth": {
+      "target": 15.0,
+      "fill_bonus": 4.4352,
+      "retention_bonus": 3.9424,
+      "paid_delete_penalty": 7.5,
+      "quality_floor": 0.68992
+    }
+  },
+  "batches": [
+    {
+      "round": 1,
+      "accepted": false,
+      "selected": "medium-restart",
+      "train": {
+        "games": 60,
+        "mean": -0.041385946653148535,
+        "low": -0.1113683802972105,
+        "high": 0.028596486990913432
+      },
+      "validation": {
+        "games": 20,
+        "mean": -0.1502509769594196,
+        "low": -0.24098634370569183,
+        "high": -0.059515610213147385
+      },
+      "train_decks": {
+        "players": 120,
+        "mean_size": 16.783333333333335,
+        "median": 16,
+        "minimum": 15,
+        "maximum": 24,
+        "histogram": {
+          "15": 41,
+          "16": 23,
+          "17": 15,
+          "18": 18,
+          "19": 12,
+          "20": 10,
+          "24": 1
+        },
+        "flow_fraction": 0.46680104059167526,
+        "main_first_layers": 14.075,
+        "elements": {
+          "fire": {
+            "players": 23,
+            "mean_size": 16.608695652173914,
+            "median": 16,
+            "minimum": 15,
+            "maximum": 24,
+            "histogram": {
+              "15": 11,
+              "16": 3,
+              "17": 4,
+              "18": 1,
+              "19": 1,
+              "20": 2,
+              "24": 1
+            },
+            "flow_fraction": 0.4714985193161933,
+            "main_first_layers": 14.347826086956522
+          },
+          "water": {
+            "players": 23,
+            "mean_size": 16.565217391304348,
+            "median": 16,
+            "minimum": 15,
+            "maximum": 20,
+            "histogram": {
+              "15": 10,
+              "16": 4,
+              "17": 3,
+              "18": 1,
+              "19": 2,
+              "20": 3
+            },
+            "flow_fraction": 0.43515427528753686,
+            "main_first_layers": 14.304347826086957
+          },
+          "earth": {
+            "players": 26,
+            "mean_size": 16.692307692307693,
+            "median": 16,
+            "minimum": 15,
+            "maximum": 20,
+            "histogram": {
+              "15": 9,
+              "16": 5,
+              "17": 2,
+              "18": 7,
+              "19": 1,
+              "20": 2
+            },
+            "flow_fraction": 0.3872752441057395,
+            "main_first_layers": 15.115384615384615
+          },
+          "wind": {
+            "players": 22,
+            "mean_size": 16.045454545454547,
+            "median": 16,
+            "minimum": 15,
+            "maximum": 19,
+            "histogram": {
+              "15": 9,
+              "16": 7,
+              "17": 3,
+              "18": 2,
+              "19": 1
+            },
+            "flow_fraction": 0.557421740626075,
+            "main_first_layers": 13.818181818181818
+          },
+          "poison": {
+            "players": 26,
+            "mean_size": 17.846153846153847,
+            "median": 18,
+            "minimum": 15,
+            "maximum": 20,
+            "histogram": {
+              "15": 2,
+              "16": 4,
+              "17": 3,
+              "18": 7,
+              "19": 7,
+              "20": 3
+            },
+            "flow_fraction": 0.49348753671509094,
+            "main_first_layers": 12.807692307692308
+          }
+        },
+        "purchases_per_player": 16.55,
+        "deletions_per_player": 8.716666666666667,
+        "round_mean_size": {
+          "1": 10.425,
+          "2": 12.433333333333334,
+          "3": 14.425,
+          "4": 16.341666666666665,
+          "5": 17.316666666666666,
+          "6": 17.791666666666668,
+          "7": 17.95,
+          "8": 18.15,
+          "9": 18.141666666666666,
+          "10": 18.18487394957983,
+          "11": 17.606060606060606,
+          "12": 17.41111111111111,
+          "13": 16.853658536585368,
+          "14": 16.242424242424242,
+          "15": 15.87037037037037,
+          "16": 15.5,
+          "17": 15.263157894736842,
+          "18": 15.0,
+          "19": 15.0
+        }
+      },
+      "gradient": {
+        "c.dilution": 0.4258497690999756,
+        "c.buy_margin": -0.5256113159481836,
+        "c.point_cost": -0.5256113159481836,
+        "c.delete_margin": -0.6348415466754586,
+        "c.starter_bias": 0.6348415466754586,
+        "c.core_weight": 0.5041185344768395,
+        "c.first_layer": 0.5233836726062548,
+        "c.generic_tax": 0.6232517888799173,
+        "c.flow_scale": 0.04271755613827539
+      }
+    },
+    {
+      "round": 2,
+      "accepted": true,
+      "selected": "medium-accepted-02",
+      "train": {
+        "games": 60,
+        "mean": 0.060317657463390344,
+        "low": -0.004114446101290158,
+        "high": 0.12474976102807084
+      },
+      "validation": {
+        "games": 20,
+        "mean": 0.01548067520321092,
+        "low": -0.09935492913721644,
+        "high": 0.13031627954363828
+      },
+      "train_decks": {
+        "players": 120,
+        "mean_size": 16.8,
+        "median": 17,
+        "minimum": 15,
+        "maximum": 21,
+        "histogram": {
+          "15": 33,
+          "16": 23,
+          "17": 27,
+          "18": 17,
+          "19": 13,
+          "20": 6,
+          "21": 1
+        },
+        "flow_fraction": 0.44171528699198975,
+        "main_first_layers": 15.858333333333333,
+        "elements": {
+          "fire": {
+            "players": 29,
+            "mean_size": 16.482758620689655,
+            "median": 16,
+            "minimum": 15,
+            "maximum": 21,
+            "histogram": {
+              "15": 12,
+              "16": 6,
+              "17": 3,
+              "18": 3,
+              "19": 4,
+              "21": 1
+            },
+            "flow_fraction": 0.44430563816573215,
+            "main_first_layers": 16.482758620689655
+          },
+          "water": {
+            "players": 27,
+            "mean_size": 16.25925925925926,
+            "median": 16,
+            "minimum": 15,
+            "maximum": 20,
+            "histogram": {
+              "15": 9,
+              "16": 7,
+              "17": 8,
+              "18": 2,
+              "20": 1
+            },
+            "flow_fraction": 0.40107116920842406,
+            "main_first_layers": 16.037037037037038
+          },
+          "earth": {
+            "players": 18,
+            "mean_size": 17.166666666666668,
+            "median": 17,
+            "minimum": 15,
+            "maximum": 20,
+            "histogram": {
+              "15": 4,
+              "17": 8,
+              "18": 2,
+              "19": 3,
+              "20": 1
+            },
+            "flow_fraction": 0.3473722432442763,
+            "main_first_layers": 17.444444444444443
+          },
+          "wind": {
+            "players": 25,
+            "mean_size": 16.84,
+            "median": 16,
+            "minimum": 15,
+            "maximum": 20,
+            "histogram": {
+              "15": 7,
+              "16": 6,
+              "17": 3,
+              "18": 5,
+              "19": 1,
+              "20": 3
+            },
+            "flow_fraction": 0.49965720674234604,
+            "main_first_layers": 16.4
+          },
+          "poison": {
+            "players": 20,
+            "mean_size": 17.55,
+            "median": 18,
+            "minimum": 15,
+            "maximum": 20,
+            "histogram": {
+              "15": 1,
+              "16": 4,
+              "17": 5,
+              "18": 4,
+              "19": 5,
+              "20": 1
+            },
+            "flow_fraction": 0.49406260749914,
+            "main_first_layers": 13.4
+          }
+        },
+        "purchases_per_player": 17.991666666666667,
+        "deletions_per_player": 10.108333333333333,
+        "round_mean_size": {
+          "1": 10.283333333333333,
+          "2": 12.3,
+          "3": 14.383333333333333,
+          "4": 16.1,
+          "5": 17.066666666666666,
+          "6": 17.641666666666666,
+          "7": 17.825,
+          "8": 17.991666666666667,
+          "9": 18.15,
+          "10": 18.23728813559322,
+          "11": 18.02777777777778,
+          "12": 17.931372549019606,
+          "13": 17.447916666666668,
+          "14": 16.88888888888889,
+          "15": 16.507462686567163,
+          "16": 15.75609756097561,
+          "17": 15.56,
+          "18": 16.0
+        }
+      },
+      "gradient": {
+        "c.dilution": 0.5253544002901687,
+        "c.buy_margin": -0.38619985441777105,
+        "c.point_cost": -0.38619985441777105,
+        "c.delete_margin": -0.6186815736456279,
+        "c.starter_bias": 0.6186815736456279,
+        "c.core_weight": 0.4808213288097106,
+        "c.first_layer": 0.5954293523371876,
+        "c.generic_tax": 0.6111633887371649,
+        "c.flow_scale": -0.06357794305284616
+      }
+    },
+    {
+      "round": 3,
+      "accepted": true,
+      "selected": "medium-accepted-03",
+      "train": {
+        "games": 60,
+        "mean": 0.051944357526831915,
+        "low": -0.019503012728480575,
+        "high": 0.12339172778214441
+      },
+      "validation": {
+        "games": 20,
+        "mean": 0.09995055469367115,
+        "low": -0.021965370282433533,
+        "high": 0.22186647966977582
+      },
+      "train_decks": {
+        "players": 120,
+        "mean_size": 16.933333333333334,
+        "median": 17,
+        "minimum": 15,
+        "maximum": 21,
+        "histogram": {
+          "15": 28,
+          "16": 23,
+          "17": 24,
+          "18": 27,
+          "19": 13,
+          "20": 2,
+          "21": 3
+        },
+        "flow_fraction": 0.45369710018510323,
+        "main_first_layers": 15.766666666666667,
+        "elements": {
+          "fire": {
+            "players": 28,
+            "mean_size": 17.035714285714285,
+            "median": 17,
+            "minimum": 15,
+            "maximum": 19,
+            "histogram": {
+              "15": 6,
+              "16": 4,
+              "17": 5,
+              "18": 9,
+              "19": 4
+            },
+            "flow_fraction": 0.4432521254115681,
+            "main_first_layers": 16.607142857142858
+          },
+          "water": {
+            "players": 19,
+            "mean_size": 16.68421052631579,
+            "median": 17,
+            "minimum": 15,
+            "maximum": 19,
+            "histogram": {
+              "15": 5,
+              "16": 4,
+              "17": 3,
+              "18": 6,
+              "19": 1
+            },
+            "flow_fraction": 0.42457543497546757,
+            "main_first_layers": 16.42105263157895
+          },
+          "earth": {
+            "players": 17,
+            "mean_size": 17.352941176470587,
+            "median": 17,
+            "minimum": 15,
+            "maximum": 20,
+            "histogram": {
+              "15": 1,
+              "16": 3,
+              "17": 6,
+              "18": 4,
+              "19": 2,
+              "20": 1
+            },
+            "flow_fraction": 0.39622437726380544,
+            "main_first_layers": 16.647058823529413
+          },
+          "wind": {
+            "players": 32,
+            "mean_size": 16.1875,
+            "median": 16,
+            "minimum": 15,
+            "maximum": 21,
+            "histogram": {
+              "15": 15,
+              "16": 7,
+              "17": 5,
+              "18": 1,
+              "19": 3,
+              "21": 1
+            },
+            "flow_fraction": 0.5067059883163791,
+            "main_first_layers": 16.21875
+          },
+          "poison": {
+            "players": 23,
+            "mean_size": 17.782608695652176,
+            "median": 18,
+            "minimum": 15,
+            "maximum": 21,
+            "histogram": {
+              "15": 1,
+              "16": 4,
+              "17": 5,
+              "18": 7,
+              "19": 3,
+              "20": 1,
+              "21": 2
+            },
+            "flow_fraction": 0.4490327481106859,
+            "main_first_layers": 13.608695652173912
+          }
+        },
+        "purchases_per_player": 17.9,
+        "deletions_per_player": 9.916666666666666,
+        "round_mean_size": {
+          "1": 10.258333333333333,
+          "2": 12.2,
+          "3": 14.3,
+          "4": 16.141666666666666,
+          "5": 17.0,
+          "6": 17.458333333333332,
+          "7": 17.825,
+          "8": 17.991666666666667,
+          "9": 18.066666666666666,
+          "10": 18.161016949152543,
+          "11": 17.971698113207548,
+          "12": 18.020408163265305,
+          "13": 17.54736842105263,
+          "14": 17.037037037037038,
+          "15": 16.573529411764707,
+          "16": 16.257142857142856,
+          "17": 15.6875,
+          "18": 15.0
+        }
+      },
+      "gradient": {
+        "c.dilution": 0.44635538444991524,
+        "c.buy_margin": -0.5365388720112113,
+        "c.point_cost": -0.5365388720112113,
+        "c.delete_margin": -0.6904069751960873,
+        "c.starter_bias": 0.6904069751960873,
+        "c.core_weight": 0.5318492896574419,
+        "c.first_layer": 0.5996129115344332,
+        "c.generic_tax": 0.6078610148457042,
+        "c.flow_scale": -0.05003933748828794
+      }
+    },
+    {
+      "round": 4,
+      "accepted": null,
+      "selected": "medium-accepted-03",
+      "frozen_final_test": true
+    },
+    {
+      "round": 5,
+      "accepted": null,
+      "selected": "medium-accepted-03",
+      "frozen_final_test": true
+    }
+  ],
+  "evaluation": {
+    "games": 200,
+    "selected": {
+      "players": 400,
+      "mean_score": -0.3575,
+      "championship_rate": 0.2125,
+      "battle_count": 5494,
+      "win_rate": 0.49890789952675646,
+      "winner_time": 851.2713754646841,
+      "plays_per_battle": 27.425737167819438,
+      "instant_draw_per_battle": 9.024026210411359,
+      "immediate_fee_per_battle": 1.665089188205315,
+      "discard_per_battle": 0.7317073170731707,
+      "shuffle_per_battle": 2.9155442300691665,
+      "unused_fee_per_stage": 0.020702461380427483
+    },
+    "control": {
+      "players": 400,
+      "mean_score": 0.3575,
+      "championship_rate": 0.2875,
+      "battle_count": 5770,
+      "win_rate": 0.5453206239168111,
+      "winner_time": 789.5305134000646,
+      "plays_per_battle": 24.977469670710573,
+      "instant_draw_per_battle": 9.464124783362218,
+      "immediate_fee_per_battle": 1.9154246100519932,
+      "discard_per_battle": 0.6140381282495667,
+      "shuffle_per_battle": 4.202946273830156,
+      "unused_fee_per_stage": 0.029163840713109193
+    },
+    "paired_win": {
+      "games": 200,
+      "mean": -0.04778407790300533,
+      "low": -0.08285150049629787,
+      "high": -0.01271665530971279
+    },
+    "paired_score": {
+      "mean": -0.715,
+      "low": -1.076613734063457,
+      "high": -0.35338626593654304,
+      "games": 200
+    },
+    "selected_decks": {
+      "players": 400,
+      "mean_size": 17.0325,
+      "median": 17,
+      "minimum": 15,
+      "maximum": 22,
+      "histogram": {
+        "15": 75,
+        "16": 91,
+        "17": 85,
+        "18": 77,
+        "19": 47,
+        "20": 19,
+        "21": 4,
+        "22": 2
+      },
+      "flow_fraction": 0.4491645760178074,
+      "main_first_layers": 15.5875,
+      "elements": {
+        "fire": {
+          "players": 73,
+          "mean_size": 17.041095890410958,
+          "median": 17,
+          "minimum": 15,
+          "maximum": 22,
+          "histogram": {
+            "15": 11,
+            "16": 22,
+            "17": 16,
+            "18": 11,
+            "19": 7,
+            "20": 4,
+            "22": 2
+          },
+          "flow_fraction": 0.4560526487145512,
+          "main_first_layers": 16.52054794520548
+        },
+        "water": {
+          "players": 62,
+          "mean_size": 16.64516129032258,
+          "median": 16,
+          "minimum": 15,
+          "maximum": 20,
+          "histogram": {
+            "15": 10,
+            "16": 26,
+            "17": 10,
+            "18": 10,
+            "19": 4,
+            "20": 2
+          },
+          "flow_fraction": 0.41428365347270774,
+          "main_first_layers": 15.693548387096774
+        },
+        "earth": {
+          "players": 76,
+          "mean_size": 16.973684210526315,
+          "median": 17,
+          "minimum": 15,
+          "maximum": 20,
+          "histogram": {
+            "15": 13,
+            "16": 18,
+            "17": 16,
+            "18": 17,
+            "19": 11,
+            "20": 1
+          },
+          "flow_fraction": 0.35297348279108504,
+          "main_first_layers": 16.763157894736842
+        },
+        "wind": {
+          "players": 91,
+          "mean_size": 16.560439560439562,
+          "median": 16,
+          "minimum": 15,
+          "maximum": 20,
+          "histogram": {
+            "15": 33,
+            "16": 13,
+            "17": 21,
+            "18": 12,
+            "19": 9,
+            "20": 3
+          },
+          "flow_fraction": 0.5038837194796947,
+          "main_first_layers": 15.934065934065934
+        },
+        "poison": {
+          "players": 96,
+          "mean_size": 17.739583333333332,
+          "median": 18,
+          "minimum": 15,
+          "maximum": 21,
+          "histogram": {
+            "15": 8,
+            "16": 12,
+            "17": 22,
+            "18": 26,
+            "19": 15,
+            "20": 9,
+            "21": 4
+          },
+          "flow_fraction": 0.4865398727107802,
+          "main_first_layers": 13.875
+        }
+      },
+      "purchases_per_player": 17.6575,
+      "deletions_per_player": 9.5725,
+      "round_mean_size": {
+        "1": 10.2925,
+        "2": 12.17,
+        "3": 14.18,
+        "4": 16.0175,
+        "5": 16.955,
+        "6": 17.3775,
+        "7": 17.71,
+        "8": 17.8525,
+        "9": 17.9225,
+        "10": 18.035443037974684,
+        "11": 17.839650145772595,
+        "12": 17.74916387959866,
+        "13": 17.37593984962406,
+        "14": 16.934782608695652,
+        "15": 16.572192513368982,
+        "16": 16.304347826086957,
+        "17": 15.893617021276595,
+        "18": 16.11111111111111,
+        "19": 16.333333333333332
+      }
+    },
+    "control_decks": {
+      "players": 400,
+      "mean_size": 9.62,
+      "median": 8,
+      "minimum": 8,
+      "maximum": 18,
+      "histogram": {
+        "8": 231,
+        "9": 33,
+        "10": 21,
+        "11": 28,
+        "12": 21,
+        "13": 28,
+        "14": 16,
+        "15": 13,
+        "16": 4,
+        "17": 4,
+        "18": 1
+      },
+      "flow_fraction": 0.3373312233110027,
+      "main_first_layers": 10.9325,
+      "elements": {
+        "fire": {
+          "players": 83,
+          "mean_size": 9.710843373493976,
+          "median": 8,
+          "minimum": 8,
+          "maximum": 17,
+          "histogram": {
+            "8": 50,
+            "9": 6,
+            "10": 5,
+            "11": 5,
+            "12": 1,
+            "13": 4,
+            "14": 3,
+            "15": 5,
+            "16": 2,
+            "17": 2
+          },
+          "flow_fraction": 0.4022186029184612,
+          "main_first_layers": 11.228915662650602
+        },
+        "water": {
+          "players": 83,
+          "mean_size": 8.72289156626506,
+          "median": 8,
+          "minimum": 8,
+          "maximum": 15,
+          "histogram": {
+            "8": 63,
+            "9": 5,
+            "10": 4,
+            "11": 4,
+            "12": 2,
+            "13": 4,
+            "15": 1
+          },
+          "flow_fraction": 0.25187416331994644,
+          "main_first_layers": 11.409638554216867
+        },
+        "earth": {
+          "players": 73,
+          "mean_size": 10.082191780821917,
+          "median": 9,
+          "minimum": 8,
+          "maximum": 18,
+          "histogram": {
+            "8": 35,
+            "9": 4,
+            "10": 4,
+            "11": 11,
+            "12": 6,
+            "13": 3,
+            "14": 5,
+            "15": 4,
+            "18": 1
+          },
+          "flow_fraction": 0.27250781942562763,
+          "main_first_layers": 12.068493150684931
+        },
+        "wind": {
+          "players": 91,
+          "mean_size": 8.538461538461538,
+          "median": 8,
+          "minimum": 8,
+          "maximum": 14,
+          "histogram": {
+            "8": 71,
+            "9": 11,
+            "10": 2,
+            "12": 3,
+            "13": 2,
+            "14": 2
+          },
+          "flow_fraction": 0.33877987092272804,
+          "main_first_layers": 9.197802197802197
+        },
+        "poison": {
+          "players": 67,
+          "mean_size": 11.626865671641792,
+          "median": 12,
+          "minimum": 8,
+          "maximum": 17,
+          "histogram": {
+            "8": 10,
+            "9": 7,
+            "10": 5,
+            "11": 8,
+            "12": 9,
+            "13": 15,
+            "14": 6,
+            "15": 3,
+            "16": 2,
+            "17": 2
+          },
+          "flow_fraction": 0.41598135305334605,
+          "main_first_layers": 11.582089552238806
+        }
+      },
+      "purchases_per_player": 15.305,
+      "deletions_per_player": 14.645,
+      "round_mean_size": {
+        "1": 9.665,
+        "2": 11.0025,
+        "3": 12.8475,
+        "4": 14.325,
+        "5": 14.9075,
+        "6": 15.36,
+        "7": 15.0175,
+        "8": 14.715,
+        "9": 14.1125,
+        "10": 13.777777777777779,
+        "11": 12.92134831460674,
+        "12": 12.196374622356496,
+        "13": 10.908227848101266,
+        "14": 9.702508960573477,
+        "15": 8.759493670886076,
+        "16": 8.237804878048781,
+        "17": 8.027397260273972,
+        "18": 8.0,
+        "19": 8.0
+      }
+    }
+  },
+  "final_test_games": 200,
+  "input_hashes_verified": true,
+  "battle_weights_identical": true,
+  "train_games": 180,
+  "validation_games": 60,
+  "rolling_holdout_games": 60,
+  "final_holdout_games": 200,
+  "default_changed": false,
+  "significantly_better": false
+}

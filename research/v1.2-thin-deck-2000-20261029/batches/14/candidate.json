@@ -1,0 +1,32 @@
+{
+  "kind": "thin",
+  "weights": {
+    "panel": 0.374116,
+    "layer": 2.431013,
+    "draw": 3.656155,
+    "fee": 5.412196,
+    "search": 1.767287,
+    "recycle": 2.088702,
+    "discard": 0.734719,
+    "future": 1.505356,
+    "passive": 2.239645,
+    "tempo": 1.725301,
+    "protection": 0.840361,
+    "thinning": 0.923146,
+    "lookahead": 1.034645
+  },
+  "construction": {
+    "target": 16.036169,
+    "dilution": 0.918494,
+    "buy_margin": 0.77358,
+    "point_cost": 0.595061,
+    "delete_margin": 1.102272,
+    "delete_pressure": 0.225966,
+    "starter_bias": 0.85796,
+    "core_weight": 3.081745,
+    "first_layer": 1.677422,
+    "generic_tax": 1.121701,
+    "flow_scale": 0.609349
+  },
+  "checkpoint": "thin-candidate-14"
+}

@@ -88,8 +88,8 @@ public partial class DraftBoardController : Control
             row.AddChild(view);
             var buy = new Button { Text = offer.IsPurchased ? "已购买" : offer.IsSkipped ? "已跳过" : "购买" };
             var definition = session.Cards.Get(offer.Card.CardId);
-            var free = !player.Draft.FreePurchaseUsed && ((state.Round <= 3 && definition.Rarity == Magicians.Core.Cards.CardRarity.Common) ||
-                (state.Round is >= 4 and <= 6 && definition.Rarity is Magicians.Core.Cards.CardRarity.Common or Magicians.Core.Cards.CardRarity.Rare));
+            var free = !player.Draft.FreePurchaseUsed && ((state.Round <= 2 && definition.Rarity == Magicians.Core.Cards.CardRarity.Common) ||
+                (state.Round is >= 3 and <= 4 && definition.Rarity is Magicians.Core.Cards.CardRarity.Common or Magicians.Core.Cards.CardRarity.Rare));
             var purchaseActions = legal.Where(a => a.Kind == "buy" && a.Slot == offer.SlotId).ToArray();
             buy.Disabled = offer.IsResolved || purchaseActions.Length == 0 || player.Draft.IsCompleted;
             buy.TooltipText = definition.Text;

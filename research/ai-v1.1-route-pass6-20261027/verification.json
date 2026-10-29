@@ -1,0 +1,26 @@
+{
+  "active_cards": 252,
+  "changed_panels": 8,
+  "cleaned_descriptions": 6,
+  "integer_panels": true,
+  "rarity_bands_valid": true,
+  "documentation_rows_matched": 252,
+  "python_tests_passed": 36,
+  "csharp_build": "0 warnings / 0 errors",
+  "csharp_checks": "V11_ROUTE_BALANCE_OK",
+  "cards_sha256": "286a7b939dfe78ba18393961f7f20b2c66c079ecc061059c500ac6936db275da",
+  "ash_specialization_gate_retained": true,
+  "startup_pending_reward_supported": true,
+  "final_interval_rounding": "floor",
+  "changes": "../v1.1-route-pass6-20261027/changes.md",
+  "research_adapter_integration": "passed",
+  "tournament_audit": {
+    "games": 1000,
+    "settlements": 4000,
+    "unique_players_per_game": 4,
+    "placement_order_valid": true,
+    "points_and_champion_shares_conserved": true,
+    "all_rankings_recomputed_match": true,
+    "snapshot_matches_current_cards": true
+  }
+}

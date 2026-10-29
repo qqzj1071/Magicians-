@@ -1,0 +1,451 @@
+{
+  "scope": "仅供用户审阅的约20%精简建议；不修改卡表；1000局为混合策略训练样本，不是删卡因果试验",
+  "eligible": 165,
+  "proposed": 34,
+  "after_count_if_accepted": 196,
+  "cards": [
+    {
+      "name": "焰心屏障",
+      "element": "fire",
+      "rarity": "epic",
+      "same_element_carry_rate": 0.045990566037735846,
+      "old_carry_rate": 0.0332541567695962,
+      "carriers": 39,
+      "exposed": 699,
+      "championship_rate": 0.1282051282051282,
+      "mean_score": -0.23076923076923078,
+      "support_routes": {}
+    },
+    {
+      "name": "慢燃",
+      "element": "fire",
+      "rarity": "epic",
+      "same_element_carry_rate": 0.05306603773584906,
+      "old_carry_rate": 0.171021377672209,
+      "carriers": 45,
+      "exposed": 687,
+      "championship_rate": 0.13333333333333333,
+      "mean_score": 0.5111111111111111,
+      "support_routes": {
+        "燃烧血统": {
+          "holders": 26,
+          "route_players": 47
+        }
+      }
+    },
+    {
+      "name": "压实火药",
+      "element": "fire",
+      "rarity": "rare",
+      "same_element_carry_rate": 0.40212264150943394,
+      "old_carry_rate": 0.7030878859857482,
+      "carriers": 341,
+      "exposed": 923,
+      "championship_rate": 0.07917888563049853,
+      "mean_score": -0.533724340175953,
+      "support_routes": {}
+    },
+    {
+      "name": "高压弹仓",
+      "element": "fire",
+      "rarity": "rare",
+      "same_element_carry_rate": 0.5731132075471698,
+      "old_carry_rate": 0.66270783847981,
+      "carriers": 486,
+      "exposed": 836,
+      "championship_rate": 0.10905349794238683,
+      "mean_score": -0.36419753086419754,
+      "support_routes": {}
+    },
+    {
+      "name": "爆裂弹头",
+      "element": "fire",
+      "rarity": "rare",
+      "same_element_carry_rate": 0.33490566037735847,
+      "old_carry_rate": 0.6223277909738717,
+      "carriers": 284,
+      "exposed": 838,
+      "championship_rate": 0.1056338028169014,
+      "mean_score": -0.33098591549295775,
+      "support_routes": {
+        "余烬之核": {
+          "holders": 118,
+          "route_players": 182
+        }
+      }
+    },
+    {
+      "name": "火舌",
+      "element": "fire",
+      "rarity": "rare",
+      "same_element_carry_rate": 0.31485849056603776,
+      "old_carry_rate": 0.6128266033254157,
+      "carriers": 267,
+      "exposed": 886,
+      "championship_rate": 0.149812734082397,
+      "mean_score": -0.1198501872659176,
+      "support_routes": {}
+    },
+    {
+      "name": "火墙",
+      "element": "fire",
+      "rarity": "common",
+      "same_element_carry_rate": 0.875,
+      "old_carry_rate": 0.9216152019002375,
+      "carriers": 742,
+      "exposed": 1588,
+      "championship_rate": 0.09568733153638814,
+      "mean_score": -0.5525606469002695,
+      "support_routes": {}
+    },
+    {
+      "name": "生命洪流",
+      "element": "water",
+      "rarity": "epic",
+      "same_element_carry_rate": 0.08519553072625698,
+      "old_carry_rate": 0.06801007556675064,
+      "carriers": 61,
+      "exposed": 644,
+      "championship_rate": 0.32786885245901637,
+      "mean_score": 0.9016393442622951,
+      "support_routes": {}
+    },
+    {
+      "name": "血之回响",
+      "element": "water",
+      "rarity": "epic",
+      "same_element_carry_rate": 0.10474860335195531,
+      "old_carry_rate": 0.33249370277078083,
+      "carriers": 75,
+      "exposed": 648,
+      "championship_rate": 0.18666666666666668,
+      "mean_score": 0.4666666666666667,
+      "support_routes": {
+        "血潮": {
+          "holders": 56,
+          "route_players": 94
+        }
+      }
+    },
+    {
+      "name": "血偿",
+      "element": "water",
+      "rarity": "rare",
+      "same_element_carry_rate": 0.36731843575418993,
+      "old_carry_rate": 0.7808564231738035,
+      "carriers": 263,
+      "exposed": 763,
+      "championship_rate": 0.3155893536121673,
+      "mean_score": 0.9923954372623575,
+      "support_routes": {
+        "血潮": {
+          "holders": 69,
+          "route_players": 94
+        }
+      }
+    },
+    {
+      "name": "回潮",
+      "element": "water",
+      "rarity": "rare",
+      "same_element_carry_rate": 0.3547486033519553,
+      "old_carry_rate": 0.6297229219143576,
+      "carriers": 254,
+      "exposed": 905,
+      "championship_rate": 0.37401574803149606,
+      "mean_score": 1.1574803149606299,
+      "support_routes": {}
+    },
+    {
+      "name": "濒死回响",
+      "element": "water",
+      "rarity": "rare",
+      "same_element_carry_rate": 0.7178770949720671,
+      "old_carry_rate": 0.7229219143576826,
+      "carriers": 515,
+      "exposed": 807,
+      "championship_rate": 0.3766990291262136,
+      "mean_score": 1.192233009708738,
+      "support_routes": {}
+    },
+    {
+      "name": "水膜",
+      "element": "water",
+      "rarity": "common",
+      "same_element_carry_rate": 0.861731843575419,
+      "old_carry_rate": 0.9546599496221663,
+      "carriers": 618,
+      "exposed": 1433,
+      "championship_rate": 0.36893203883495146,
+      "mean_score": 1.0275080906148868,
+      "support_routes": {}
+    },
+    {
+      "name": "润泽",
+      "element": "water",
+      "rarity": "common",
+      "same_element_carry_rate": 0.7402234636871509,
+      "old_carry_rate": 0.924433249370277,
+      "carriers": 530,
+      "exposed": 1311,
+      "championship_rate": 0.39433962264150946,
+      "mean_score": 1.2075471698113207,
+      "support_routes": {}
+    },
+    {
+      "name": "巨岩",
+      "element": "earth",
+      "rarity": "epic",
+      "same_element_carry_rate": 0.024423337856173677,
+      "old_carry_rate": 0.07532467532467532,
+      "carriers": 18,
+      "exposed": 636,
+      "championship_rate": 0.3888888888888889,
+      "mean_score": 0.7777777777777778,
+      "support_routes": {}
+    },
+    {
+      "name": "碎岳之心",
+      "element": "earth",
+      "rarity": "epic",
+      "same_element_carry_rate": 0.036635006784260515,
+      "old_carry_rate": 0.16623376623376623,
+      "carriers": 27,
+      "exposed": 628,
+      "championship_rate": 0.18518518518518517,
+      "mean_score": 0.4074074074074074,
+      "support_routes": {}
+    },
+    {
+      "name": "余震",
+      "element": "earth",
+      "rarity": "rare",
+      "same_element_carry_rate": 0.2835820895522388,
+      "old_carry_rate": 0.7636363636363637,
+      "carriers": 209,
+      "exposed": 902,
+      "championship_rate": 0.33014354066985646,
+      "mean_score": 0.9569377990430622,
+      "support_routes": {}
+    },
+    {
+      "name": "厚土",
+      "element": "earth",
+      "rarity": "rare",
+      "same_element_carry_rate": 0.2876526458616011,
+      "old_carry_rate": 0.8103896103896104,
+      "carriers": 212,
+      "exposed": 888,
+      "championship_rate": 0.3018867924528302,
+      "mean_score": 0.9198113207547169,
+      "support_routes": {}
+    },
+    {
+      "name": "不动如山",
+      "element": "earth",
+      "rarity": "rare",
+      "same_element_carry_rate": 0.30257801899592945,
+      "old_carry_rate": 0.8155844155844156,
+      "carriers": 223,
+      "exposed": 930,
+      "championship_rate": 0.273542600896861,
+      "mean_score": 0.8161434977578476,
+      "support_routes": {}
+    },
+    {
+      "name": "岩壁",
+      "element": "earth",
+      "rarity": "common",
+      "same_element_carry_rate": 0.835820895522388,
+      "old_carry_rate": 0.9688311688311688,
+      "carriers": 616,
+      "exposed": 1359,
+      "championship_rate": 0.25,
+      "mean_score": 0.650974025974026,
+      "support_routes": {}
+    },
+    {
+      "name": "坚岩",
+      "element": "earth",
+      "rarity": "common",
+      "same_element_carry_rate": 0.8398914518317503,
+      "old_carry_rate": 0.9506493506493506,
+      "carriers": 619,
+      "exposed": 1484,
+      "championship_rate": 0.25040387722132473,
+      "mean_score": 0.6155088852988692,
+      "support_routes": {}
+    },
+    {
+      "name": "风神之翼",
+      "element": "wind",
+      "rarity": "epic",
+      "same_element_carry_rate": 0.7087967644084934,
+      "old_carry_rate": 0.5665024630541872,
+      "carriers": 715,
+      "exposed": 828,
+      "championship_rate": 0.5706293706293706,
+      "mean_score": 1.6363636363636365,
+      "support_routes": {
+        "疾风之刃": {
+          "holders": 347,
+          "route_players": 443
+        }
+      }
+    },
+    {
+      "name": "裂空",
+      "element": "wind",
+      "rarity": "epic",
+      "same_element_carry_rate": 0.025278058645096056,
+      "old_carry_rate": 0.07635467980295567,
+      "carriers": 25,
+      "exposed": 882,
+      "championship_rate": 0.64,
+      "mean_score": 1.48,
+      "support_routes": {}
+    },
+    {
+      "name": "疾影",
+      "element": "wind",
+      "rarity": "rare",
+      "same_element_carry_rate": 0.2224469160768453,
+      "old_carry_rate": 0.6305418719211823,
+      "carriers": 220,
+      "exposed": 1123,
+      "championship_rate": 0.55,
+      "mean_score": 1.6272727272727272,
+      "support_routes": {}
+    },
+    {
+      "name": "风蚀",
+      "element": "wind",
+      "rarity": "rare",
+      "same_element_carry_rate": 0.23761375126390294,
+      "old_carry_rate": 0.541871921182266,
+      "carriers": 236,
+      "exposed": 978,
+      "championship_rate": 0.5635593220338984,
+      "mean_score": 1.694915254237288,
+      "support_routes": {}
+    },
+    {
+      "name": "破风",
+      "element": "wind",
+      "rarity": "rare",
+      "same_element_carry_rate": 0.34782608695652173,
+      "old_carry_rate": 0.6009852216748769,
+      "carriers": 345,
+      "exposed": 1116,
+      "championship_rate": 0.5768115942028985,
+      "mean_score": 1.6434782608695653,
+      "support_routes": {}
+    },
+    {
+      "name": "疾风",
+      "element": "wind",
+      "rarity": "common",
+      "same_element_carry_rate": 0.7482305358948432,
+      "old_carry_rate": 0.9039408866995073,
+      "carriers": 740,
+      "exposed": 1579,
+      "championship_rate": 0.5391891891891892,
+      "mean_score": 1.5162162162162163,
+      "support_routes": {}
+    },
+    {
+      "name": "风卷",
+      "element": "wind",
+      "rarity": "common",
+      "same_element_carry_rate": 0.7765419615773509,
+      "old_carry_rate": 0.916256157635468,
+      "carriers": 769,
+      "exposed": 1571,
+      "championship_rate": 0.5435630689206762,
+      "mean_score": 1.4993498049414824,
+      "support_routes": {}
+    },
+    {
+      "name": "渗骨毒素",
+      "element": "poison",
+      "rarity": "epic",
+      "same_element_carry_rate": 0.06474820143884892,
+      "old_carry_rate": 0.09254498714652956,
+      "carriers": 45,
+      "exposed": 440,
+      "championship_rate": 0.0,
+      "mean_score": -1.9777777777777779,
+      "support_routes": {}
+    },
+    {
+      "name": "腐化之躯",
+      "element": "poison",
+      "rarity": "epic",
+      "same_element_carry_rate": 0.07194244604316546,
+      "old_carry_rate": 0.061696658097686374,
+      "carriers": 50,
+      "exposed": 446,
+      "championship_rate": 0.04,
+      "mean_score": -1.6,
+      "support_routes": {
+        "蚀骨": {
+          "holders": 41,
+          "route_players": 120
+        }
+      }
+    },
+    {
+      "name": "腐骨",
+      "element": "poison",
+      "rarity": "rare",
+      "same_element_carry_rate": 0.2647482014388489,
+      "old_carry_rate": 0.532133676092545,
+      "carriers": 184,
+      "exposed": 772,
+      "championship_rate": 0.016304347826086956,
+      "mean_score": -1.940217391304348,
+      "support_routes": {}
+    },
+    {
+      "name": "毒牙",
+      "element": "poison",
+      "rarity": "rare",
+      "same_element_carry_rate": 0.302158273381295,
+      "old_carry_rate": 0.5681233933161953,
+      "carriers": 210,
+      "exposed": 844,
+      "championship_rate": 0.014285714285714285,
+      "mean_score": -2.0904761904761906,
+      "support_routes": {}
+    },
+    {
+      "name": "速腐",
+      "element": "poison",
+      "rarity": "rare",
+      "same_element_carry_rate": 0.3899280575539568,
+      "old_carry_rate": 0.6118251928020566,
+      "carriers": 271,
+      "exposed": 733,
+      "championship_rate": 0.007380073800738007,
+      "mean_score": -2.2214022140221403,
+      "support_routes": {
+        "蚀命": {
+          "holders": 171,
+          "route_players": 307
+        }
+      }
+    },
+    {
+      "name": "毒甲",
+      "element": "poison",
+      "rarity": "common",
+      "same_element_carry_rate": 0.883453237410072,
+      "old_carry_rate": 0.9305912596401028,
+      "carriers": 614,
+      "exposed": 1488,
+      "championship_rate": 0.006514657980456026,
+      "mean_score": -2.3355048859934855,
+      "support_routes": {}
+    }
+  ]
+}

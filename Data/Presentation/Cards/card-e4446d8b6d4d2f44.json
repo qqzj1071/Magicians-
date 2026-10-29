@@ -7,7 +7,7 @@
   "Rarity": "rare",
   "CombatCost": 1,
   "BaseStudyCost": 2,
-  "Attack": 6,
+  "Attack": 5,
   "Defense": 2,
   "FirstEnchantmentLayers": 1,
   "RulesText": "立即削减目标当前盾量20%，最多80；不是伤害，不触发破盾反伤；立即",

@@ -1,0 +1,33 @@
+{
+  "role_fractions": {
+    "numeric": 0.7415998833897433,
+    "strong": 0.14054481623038195,
+    "weak": 0.11785530037987493
+  },
+  "health": {
+    "4": {
+      "players": 400,
+      "alive": 400,
+      "at_most20_alive": 0,
+      "mean_alive": 87.19
+    },
+    "8": {
+      "players": 400,
+      "alive": 398,
+      "at_most20_alive": 30,
+      "mean_alive": 61.36683417085427
+    },
+    "10": {
+      "players": 400,
+      "alive": 353,
+      "at_most20_alive": 42,
+      "mean_alive": 55.0
+    },
+    "12": {
+      "players": 400,
+      "alive": 313,
+      "at_most20_alive": 51,
+      "mean_alive": 49.760383386581466
+    }
+  }
+}

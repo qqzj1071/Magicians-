@@ -1,5 +1,16 @@
 # Magicians!
 
+## 合作者卡牌查阅入口（2026-10-29）
+
+当前 v1.2 设计包含185张卡牌、693份流通库存。请从 [v1.2 卡牌说明](docs/cards-v1.2/README.md) 和 [全部卡牌总表](docs/cards-v1.2/catalogue.md) 开始。
+
+- [火系选名与机制](docs/cards-v1.2/fire.md)：31张逐卡选名、旧名对照与理由；传奇及专精含对应风味文案。选名尚未同步为运行数据名称。
+- [水系](docs/cards-v1.2/water.md) · [土系](docs/cards-v1.2/earth.md) · [风系](docs/cards-v1.2/wind.md) · [毒系](docs/cards-v1.2/poison.md) · [通用](docs/cards-v1.2/generic.md)
+- [命名与文案指南](docs/lore/naming-guide.md) · [世界观](docs/lore/README.md) · [构筑 v1.2](releases/deckbuilding-v1.2/README.md)
+
+客户端规则基线为冻结的 [v1.1](releases/v1.1/README.md)；v1.2 由[独立模拟器](tools/sim_v12/README.md)执行。下方 v1.0 介绍与研究报告保留历史背景，当前版本以本入口及[文档说明](docs/README.md)为准。
+
+
 ## 下载与试玩
 
 当前仓库包含可运行的 Godot 4.7.2 .NET 单人客户端。Windows 玩家可以：

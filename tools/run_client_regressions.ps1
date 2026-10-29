@@ -12,7 +12,7 @@ New-Item -ItemType Directory -Force -Path $env:APPDATA | Out-Null
 if ($LASTEXITCODE -ne 0) { throw 'Client build failed.' }
 & $Godot --headless --log-file (Join-Path $runtimePath 'draft-quick-audit.log') --path $projectPath 'res://Scenes/Tests/DraftAuditRunner.tscn'
 if ($LASTEXITCODE -ne 0) { throw 'Draft allocation or display settings audit failed.' }
-& $Godot --headless --log-file (Join-Path $runtimePath 'trained-ai-regression.log') --path $projectPath 'res://Scenes/Tests/HeadlessScenarioRunner.tscn'
+& $Godot --headless --log-file (Join-Path $runtimePath 'trained-ai-regression.log') --path $projectPath 'res://Scenes/Tests/V11ClientIntegrationRunner.tscn'
 if ($LASTEXITCODE -ne 0) { throw 'Client fixed-seed regression failed.' }
 & $Godot --headless --log-file (Join-Path $runtimePath 'ai-async-flow.log') --path $projectPath 'res://Scenes/Tests/AiAsyncFlowRunner.tscn'
 if ($LASTEXITCODE -ne 0) { throw 'Asynchronous AI client flow failed.' }

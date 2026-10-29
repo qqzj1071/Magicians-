@@ -7,7 +7,7 @@
   "Rarity": "common",
   "CombatCost": 0,
   "BaseStudyCost": 1,
-  "Attack": 3,
+  "Attack": 1,
   "Defense": 1,
   "FirstEnchantmentLayers": 0,
   "RulesText": "下次抽牌阶段多抽 2 张；该抽牌阶段少获得 1 费；下抽",

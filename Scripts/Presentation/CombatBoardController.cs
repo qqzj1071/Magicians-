@@ -104,7 +104,7 @@ public partial class CombatBoardController : Control
 
     private void RefreshActions(GameSession session, CombatPlayerView? view, MatchState match)
     {
-        var key = $"{match.Round}:{match.Phase}:{view?.Revision}:{view?.CanAct}:{session.IsHumanCombatDelegated}";
+        var key = $"{(int)Size.Y}:{match.Round}:{match.Phase}:{view?.Revision}:{view?.CanAct}:{session.IsHumanCombatDelegated}";
         if (_actionViewKey == key) return;
         _actionViewKey = key;
         foreach (var child in _actions.GetChildren()) { _actions.RemoveChild(child); child.QueueFree(); }
@@ -121,7 +121,7 @@ public partial class CombatBoardController : Control
                 SizeFlagsVertical = SizeFlags.ExpandFill,
                 HorizontalScrollMode = ScrollContainer.ScrollMode.Auto,
                 VerticalScrollMode = ScrollContainer.ScrollMode.Disabled,
-                CustomMinimumSize = new Vector2(0, 330)
+                CustomMinimumSize = new Vector2(0, 280)
             };
             var hand = new HBoxContainer { Name = "Hand", SizeFlagsVertical = SizeFlags.ShrinkCenter };
             hand.AddThemeConstantOverride("separation", 12);
@@ -132,7 +132,7 @@ public partial class CombatBoardController : Control
                 var definition = session.Cards.Get(card.CardId);
                 var row = new VBoxContainer();
                 var cardView = _cardScene.Instantiate<CardView>();
-                var width = Mathf.Clamp((Size.Y - 360) / 1.618f, 180, 280);
+                var width = Mathf.Clamp((Size.Y - 490) / 1.618f, 160, 240);
                 cardView.CustomMinimumSize = new Vector2(width, width * 1.618f);
                 row.AddChild(cardView);
                 cardView.Bind(session.CardProfiles.Get(card.CardId), combat: true,
@@ -186,38 +186,13 @@ public partial class CombatBoardController : Control
             SubmitHuman(battle, new CombatAction(CombatActionKind.PlayCard, card), revision);
             return;
         }
-        var popup = new Window { Title = $"{search.CardId}：按顺序选择至多{search.MaximumSelections}张",
-            Size = new Vector2I(560, 480), Transient = true, Exclusive = true };
-        var column = new VBoxContainer();
-        popup.AddChild(column);
-        column.SetAnchorsAndOffsetsPreset(LayoutPreset.FullRect);
-        var selected = new List<CardInstanceId>();
-        var order = new Label { Text = "选择顺序决定置顶顺序" };
-        column.AddChild(order);
-        foreach (var candidate in search.Candidates)
-        {
-            var button = new CheckButton { Text = candidate.CardId };
-            button.Toggled += enabled =>
-            {
-                if (enabled && selected.Count >= search.MaximumSelections) { button.SetPressedNoSignal(false); return; }
-                if (enabled) selected.Add(candidate.InstanceId); else selected.Remove(candidate.InstanceId);
-                order.Text = string.Join(" → ", selected.Select(id => search.Candidates.Single(c => c.InstanceId == id).CardId));
-            };
-            column.AddChild(button);
-        }
-        var confirm = new Button { Text = "确认出牌" };
-        confirm.Pressed += () =>
-        {
-            if (search.MaximumSelections == 1 && selected.Count != 1) return;
-            popup.QueueFree();
-            SubmitHuman(battle, search.MaximumSelections > 1
-                ? new CombatAction(CombatActionKind.PlayCard, card, SearchTargets: selected.ToArray())
-                : new CombatAction(CombatActionKind.PlayCard, card, selected[0]), revision);
-        };
-        column.AddChild(confirm);
-        popup.CloseRequested += () => popup.QueueFree();
+        var popup = new SearchSelectionPanel();
         AddChild(popup);
-        popup.PopupCentered();
+        popup.Open(GameSession.Current!, search, selected =>
+            SubmitHuman(battle, search.MaximumSelections > 1
+                ? new CombatAction(CombatActionKind.PlayCard, card, SearchTargets: selected)
+                : new CombatAction(CombatActionKind.PlayCard, card, selected[0]), revision));
+
     }
 
     private void SubmitHuman(BattleId battleId, CombatAction action, long? expectedRevision = null)

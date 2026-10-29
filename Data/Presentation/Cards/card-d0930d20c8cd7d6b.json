@@ -7,7 +7,7 @@
   "Rarity": "rare",
   "CombatCost": 2,
   "BaseStudyCost": 2,
-  "Attack": 8,
+  "Attack": 12,
   "Defense": 0,
   "FirstEnchantmentLayers": 0,
   "RulesText": "若当前生命 ≤50%，再 +6 攻；整场",

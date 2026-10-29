@@ -1,0 +1,54 @@
+{
+  "灼痛": {
+    "name": "灼痛",
+    "cost": 1,
+    "attack": 6,
+    "defense": 2,
+    "layers": 1,
+    "element": "fire",
+    "rarity": "rare",
+    "text": "下一发主弹实际扣血≥120时，回复已损失生命的10%。",
+    "kind": "normal",
+    "ability": false,
+    "copies": 4
+  },
+  "蚀界": {
+    "name": "蚀界",
+    "cost": 2,
+    "attack": 10,
+    "defense": 3,
+    "layers": 1,
+    "element": "poison",
+    "rarity": "epic",
+    "text": "接下来3次主弹每次实际造成盾伤或生命伤害后，额外施加1毒层；每发最多触发一次，不要求伤及生命。",
+    "kind": "normal",
+    "ability": false,
+    "copies": 3
+  },
+  "镜岩之心": {
+    "name": "镜岩之心",
+    "cost": 1,
+    "attack": 8,
+    "defense": 2,
+    "layers": 1,
+    "element": "earth",
+    "rarity": "epic",
+    "text": "获得60普通护盾；下一次受到的普通飞弹伤害的同类减伤增加30个百分点（最多减至1）。",
+    "kind": "normal",
+    "ability": false,
+    "copies": 3
+  },
+  "风幕": {
+    "name": "风幕",
+    "cost": 1,
+    "attack": 3,
+    "defense": 4,
+    "layers": 1,
+    "element": "wind",
+    "rarity": "rare",
+    "text": "获得60临时护盾；剩余临时量在自身下一个抽牌阶段开始前消失。",
+    "kind": "normal",
+    "ability": false,
+    "copies": 4
+  }
+}

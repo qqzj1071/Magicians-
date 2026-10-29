@@ -1,0 +1,3843 @@
+{
+  "formula": "(attack+1.5*defense)/(1+(cost-1)/2)",
+  "target_scale": 0.925,
+  "actual_mean_value_scale": 0.9175619762873335,
+  "bands": {
+    "common": [
+      5,
+      6
+    ],
+    "rare": [
+      7.5,
+      9
+    ],
+    "epic": [
+      9.5,
+      11
+    ],
+    "legendary": [
+      11.5,
+      13.5
+    ],
+    "specialization": [
+      14,
+      16
+    ]
+  },
+  "active_cards": 252,
+  "changed_panels": 191,
+  "actual_ranges": {
+    "specialization": [
+      14.75,
+      15.25
+    ],
+    "epic": [
+      9.5,
+      11.0
+    ],
+    "rare": [
+      8.0,
+      9.0
+    ],
+    "legendary": [
+      11.5,
+      13.0
+    ],
+    "common": [
+      5.0,
+      6.0
+    ]
+  },
+  "rounding": "Minimize squared weighted distance from proportional attack/defense target; retain zero/nonzero profile; integers within rarity band.",
+  "mechanic_changes": {
+    "fire_route_ratio": 1.8,
+    "fire_route_ember_percent": 3,
+    "ash_rebirth_every_play": true,
+    "blade_follow_decay_window": 50,
+    "wind_pierce_def_per_layer": 2,
+    "grip_damage_percent": 300
+  },
+  "changes": [
+    {
+      "name": "万毒之源",
+      "rarity": "specialization",
+      "cost": 3,
+      "before": {
+        "attack": 15,
+        "defense": 7,
+        "value": 12.75
+      },
+      "after": {
+        "attack": 18,
+        "defense": 8,
+        "value": 15.0
+      }
+    },
+    {
+      "name": "万毒爆",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 15,
+        "defense": 0,
+        "value": 10.0
+      },
+      "after": {
+        "attack": 15,
+        "defense": 0,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "万毒蚀骨",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 2,
+        "defense": 8,
+        "value": 9.333333333333334
+      },
+      "after": {
+        "attack": 2,
+        "defense": 9,
+        "value": 10.333333333333334
+      }
+    },
+    {
+      "name": "万蚀",
+      "rarity": "epic",
+      "cost": 3,
+      "before": {
+        "attack": 2,
+        "defense": 8,
+        "value": 7.0
+      },
+      "after": {
+        "attack": 3,
+        "defense": 12,
+        "value": 10.5
+      }
+    },
+    {
+      "name": "万钧碎盾",
+      "rarity": "epic",
+      "cost": 3,
+      "before": {
+        "attack": 14,
+        "defense": 1,
+        "value": 7.75
+      },
+      "after": {
+        "attack": 19,
+        "defense": 1,
+        "value": 10.25
+      }
+    },
+    {
+      "name": "不动如山",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 4,
+        "defense": 5,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 3,
+        "defense": 4,
+        "value": 9.0
+      }
+    },
+    {
+      "name": "不周山",
+      "rarity": "specialization",
+      "cost": 3,
+      "before": {
+        "attack": 13,
+        "defense": 9,
+        "value": 13.25
+      },
+      "after": {
+        "attack": 15,
+        "defense": 10,
+        "value": 15.0
+      }
+    },
+    {
+      "name": "不坏壁垒",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 14,
+        "defense": 1,
+        "value": 10.333333333333334
+      },
+      "after": {
+        "attack": 14,
+        "defense": 1,
+        "value": 10.333333333333334
+      }
+    },
+    {
+      "name": "不灭烈焰",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 8,
+        "defense": 5,
+        "value": 10.333333333333334
+      },
+      "after": {
+        "attack": 8,
+        "defense": 5,
+        "value": 10.333333333333334
+      }
+    },
+    {
+      "name": "临时壁垒",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 10,
+        "defense": 1,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 7,
+        "defense": 1,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "余火",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 3,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "余烬之核",
+      "rarity": "legendary",
+      "cost": 3,
+      "before": {
+        "attack": 18,
+        "defense": 3,
+        "value": 11.25
+      },
+      "after": {
+        "attack": 20,
+        "defense": 3,
+        "value": 12.25
+      }
+    },
+    {
+      "name": "余烬刻度",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 3,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "余烬引擎",
+      "rarity": "epic",
+      "cost": 3,
+      "before": {
+        "attack": 4,
+        "defense": 8,
+        "value": 8.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 10,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "余烬心脏",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 3,
+        "defense": 8,
+        "value": 10.0
+      },
+      "after": {
+        "attack": 3,
+        "defense": 8,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "余烬护心",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 12,
+        "defense": 0,
+        "value": 12.0
+      },
+      "after": {
+        "attack": 8,
+        "defense": 0,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "余震",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 3,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "元素熔炉",
+      "rarity": "legendary",
+      "cost": 2,
+      "before": {
+        "attack": 13,
+        "defense": 6,
+        "value": 14.666666666666666
+      },
+      "after": {
+        "attack": 11,
+        "defense": 5,
+        "value": 12.333333333333334
+      }
+    },
+    {
+      "name": "利刃",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "削弱",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 3,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "剧毒",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "包扎",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "压实火药",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 7,
+        "defense": 4,
+        "value": 13.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 3,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "压缩爆燃",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 15,
+        "defense": 2,
+        "value": 12.0
+      },
+      "after": {
+        "attack": 13,
+        "defense": 2,
+        "value": 10.666666666666666
+      }
+    },
+    {
+      "name": "厚土",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 4,
+        "defense": 5,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 3,
+        "defense": 4,
+        "value": 9.0
+      }
+    },
+    {
+      "name": "反震岩核",
+      "rarity": "legendary",
+      "cost": 3,
+      "before": {
+        "attack": 10,
+        "defense": 8,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 11,
+        "defense": 9,
+        "value": 12.25
+      }
+    },
+    {
+      "name": "命运检索",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 6,
+        "defense": 6,
+        "value": 10.0
+      },
+      "after": {
+        "attack": 6,
+        "defense": 6,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "回响之潮",
+      "rarity": "epic",
+      "cost": 3,
+      "before": {
+        "attack": 10,
+        "defense": 5,
+        "value": 8.75
+      },
+      "after": {
+        "attack": 12,
+        "defense": 6,
+        "value": 10.5
+      }
+    },
+    {
+      "name": "回岩",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "回流",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 7,
+        "defense": 3,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 5,
+        "defense": 2,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "回潮",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 12,
+        "defense": 0,
+        "value": 12.0
+      },
+      "after": {
+        "attack": 8,
+        "defense": 0,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "回火",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 7,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 5,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "回震岩甲",
+      "rarity": "epic",
+      "cost": 3,
+      "before": {
+        "attack": 15,
+        "defense": 1,
+        "value": 8.25
+      },
+      "after": {
+        "attack": 19,
+        "defense": 1,
+        "value": 10.25
+      }
+    },
+    {
+      "name": "固毒",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 7,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 5,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "圣盾",
+      "rarity": "epic",
+      "cost": 3,
+      "before": {
+        "attack": 6,
+        "defense": 6,
+        "value": 7.5
+      },
+      "after": {
+        "attack": 8,
+        "defense": 8,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "坚壁",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 7,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 5,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "坚岩",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "壁垒之心",
+      "rarity": "legendary",
+      "cost": 3,
+      "before": {
+        "attack": 10,
+        "defense": 8,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 11,
+        "defense": 9,
+        "value": 12.25
+      }
+    },
+    {
+      "name": "壁障",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 0,
+        "defense": 4,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 0,
+        "defense": 4,
+        "value": 6.0
+      }
+    },
+    {
+      "name": "大地之握",
+      "rarity": "legendary",
+      "cost": 3,
+      "before": {
+        "attack": 10,
+        "defense": 8,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 11,
+        "defense": 9,
+        "value": 12.25
+      }
+    },
+    {
+      "name": "大地之盾",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "大检索",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "天岚",
+      "rarity": "specialization",
+      "cost": 3,
+      "before": {
+        "attack": 17,
+        "defense": 4,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 22,
+        "defense": 5,
+        "value": 14.75
+      }
+    },
+    {
+      "name": "奔流",
+      "rarity": "epic",
+      "cost": 3,
+      "before": {
+        "attack": 7,
+        "defense": 6,
+        "value": 8.0
+      },
+      "after": {
+        "attack": 9,
+        "defense": 8,
+        "value": 10.5
+      }
+    },
+    {
+      "name": "威吓",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "守岩",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 7,
+        "defense": 4,
+        "value": 8.666666666666666
+      },
+      "after": {
+        "attack": 7,
+        "defense": 4,
+        "value": 8.666666666666666
+      }
+    },
+    {
+      "name": "守护者壁垒",
+      "rarity": "legendary",
+      "cost": 2,
+      "before": {
+        "attack": 13,
+        "defense": 6,
+        "value": 14.666666666666666
+      },
+      "after": {
+        "attack": 11,
+        "defense": 5,
+        "value": 12.333333333333334
+      }
+    },
+    {
+      "name": "寻岩",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "寻毒",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "寻物",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "寻风",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "导火索",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 7,
+        "defense": 4,
+        "value": 13.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 3,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "小检索",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 3,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "小治疗",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "小盾",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "山岳",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "山岳之躯",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 10,
+        "defense": 5,
+        "value": 11.666666666666666
+      },
+      "after": {
+        "attack": 9,
+        "defense": 4,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "山岳壁垒",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 2,
+        "defense": 8,
+        "value": 9.333333333333334
+      },
+      "after": {
+        "attack": 2,
+        "defense": 9,
+        "value": 10.333333333333334
+      }
+    },
+    {
+      "name": "山崩",
+      "rarity": "legendary",
+      "cost": 2,
+      "before": {
+        "attack": 10,
+        "defense": 8,
+        "value": 14.666666666666666
+      },
+      "after": {
+        "attack": 9,
+        "defense": 7,
+        "value": 13.0
+      }
+    },
+    {
+      "name": "岩壁",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "岩拳",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 3,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "岩核爆破",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 9,
+        "defense": 1,
+        "value": 7.0
+      },
+      "after": {
+        "attack": 11,
+        "defense": 1,
+        "value": 8.333333333333334
+      }
+    },
+    {
+      "name": "岩核重压",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 17,
+        "defense": 0,
+        "value": 11.333333333333334
+      },
+      "after": {
+        "attack": 15,
+        "defense": 0,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "岩潮壁垒",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 6,
+        "defense": 7,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 6,
+        "defense": 7,
+        "value": 11.0
+      }
+    },
+    {
+      "name": "岩甲",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "巨岩",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 8,
+        "defense": 5,
+        "value": 10.333333333333334
+      },
+      "after": {
+        "attack": 8,
+        "defense": 5,
+        "value": 10.333333333333334
+      }
+    },
+    {
+      "name": "应急整备",
+      "rarity": "epic",
+      "cost": 1,
+      "before": {
+        "attack": 7,
+        "defense": 5,
+        "value": 14.5
+      },
+      "after": {
+        "attack": 5,
+        "defense": 4,
+        "value": 11.0
+      }
+    },
+    {
+      "name": "延毒",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "循环",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "微风",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "恐惧",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 6,
+        "defense": 6,
+        "value": 10.0
+      },
+      "after": {
+        "attack": 6,
+        "defense": 6,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "愈合",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 3,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "愈合之光",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 6,
+        "defense": 6,
+        "value": 10.0
+      },
+      "after": {
+        "attack": 6,
+        "defense": 6,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "慢燃",
+      "rarity": "epic",
+      "cost": 1,
+      "before": {
+        "attack": 15,
+        "defense": 2,
+        "value": 18.0
+      },
+      "after": {
+        "attack": 9,
+        "defense": 1,
+        "value": 10.5
+      }
+    },
+    {
+      "name": "战意",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 12,
+        "defense": 0,
+        "value": 12.0
+      },
+      "after": {
+        "attack": 8,
+        "defense": 0,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "战意沸腾",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 16,
+        "defense": 0,
+        "value": 10.666666666666666
+      },
+      "after": {
+        "attack": 15,
+        "defense": 0,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "战术",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 3,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "战术大师",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 8,
+        "defense": 5,
+        "value": 10.333333333333334
+      },
+      "after": {
+        "attack": 8,
+        "defense": 5,
+        "value": 10.333333333333334
+      }
+    },
+    {
+      "name": "战神徽记",
+      "rarity": "legendary",
+      "cost": 2,
+      "before": {
+        "attack": 13,
+        "defense": 6,
+        "value": 14.666666666666666
+      },
+      "after": {
+        "attack": 11,
+        "defense": 5,
+        "value": 12.333333333333334
+      }
+    },
+    {
+      "name": "护盾",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "护盾强化",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 3,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "拆盾弹",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "握盾",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 12,
+        "defense": 0,
+        "value": 8.0
+      },
+      "after": {
+        "attack": 12,
+        "defense": 0,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "攻击强化",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "攻守",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "攻守兼备",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "整理",
+      "rarity": "common",
+      "cost": 0,
+      "before": {
+        "attack": 4,
+        "defense": 1,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 1,
+        "defense": 1,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "断流封印",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 7,
+        "defense": 3,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 5,
+        "defense": 2,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "时光倒流",
+      "rarity": "legendary",
+      "cost": 3,
+      "before": {
+        "attack": 13,
+        "defense": 6,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 15,
+        "defense": 7,
+        "value": 12.75
+      }
+    },
+    {
+      "name": "枯潮",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 1,
+        "defense": 7,
+        "value": 7.666666666666667
+      },
+      "after": {
+        "attack": 1,
+        "defense": 8,
+        "value": 8.666666666666666
+      }
+    },
+    {
+      "name": "检索附魔",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "毒刺",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "毒囊",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 10,
+        "defense": 1,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 7,
+        "defense": 1,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "毒涌",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "毒潮",
+      "rarity": "epic",
+      "cost": 3,
+      "before": {
+        "attack": 15,
+        "defense": 0,
+        "value": 7.5
+      },
+      "after": {
+        "attack": 20,
+        "defense": 0,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "毒爆",
+      "rarity": "legendary",
+      "cost": 2,
+      "before": {
+        "attack": 11,
+        "defense": 5,
+        "value": 12.333333333333334
+      },
+      "after": {
+        "attack": 11,
+        "defense": 5,
+        "value": 12.333333333333334
+      }
+    },
+    {
+      "name": "毒爆弹",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 12,
+        "defense": 0,
+        "value": 8.0
+      },
+      "after": {
+        "attack": 12,
+        "defense": 0,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "毒牙",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 8,
+        "defense": 3,
+        "value": 12.5
+      },
+      "after": {
+        "attack": 5,
+        "defense": 2,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "毒瓶",
+      "rarity": "common",
+      "cost": 2,
+      "before": {
+        "attack": 4,
+        "defense": 1,
+        "value": 3.6666666666666665
+      },
+      "after": {
+        "attack": 6,
+        "defense": 1,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "毒甲",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "毒针",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "毒雾",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "毒龙",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 10,
+        "defense": 4,
+        "value": 10.666666666666666
+      },
+      "after": {
+        "attack": 10,
+        "defense": 4,
+        "value": 10.666666666666666
+      }
+    },
+    {
+      "name": "气旋护壁",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 3,
+        "defense": 7,
+        "value": 9.0
+      },
+      "after": {
+        "attack": 3,
+        "defense": 8,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "水之低语",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "水幕",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 7,
+        "defense": 5,
+        "value": 9.666666666666666
+      },
+      "after": {
+        "attack": 7,
+        "defense": 5,
+        "value": 9.666666666666666
+      }
+    },
+    {
+      "name": "水滴",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "水膜",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "永恒壁垒",
+      "rarity": "epic",
+      "cost": 3,
+      "before": {
+        "attack": 2,
+        "defense": 8,
+        "value": 7.0
+      },
+      "after": {
+        "attack": 3,
+        "defense": 12,
+        "value": 10.5
+      }
+    },
+    {
+      "name": "治愈洪流",
+      "rarity": "epic",
+      "cost": 3,
+      "before": {
+        "attack": 6,
+        "defense": 6,
+        "value": 7.5
+      },
+      "after": {
+        "attack": 8,
+        "defense": 8,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "泉心",
+      "rarity": "epic",
+      "cost": 3,
+      "before": {
+        "attack": 9,
+        "defense": 5,
+        "value": 8.25
+      },
+      "after": {
+        "attack": 11,
+        "defense": 6,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "泉眼",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "洪流",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 8,
+        "defense": 3,
+        "value": 8.333333333333334
+      },
+      "after": {
+        "attack": 8,
+        "defense": 3,
+        "value": 8.333333333333334
+      }
+    },
+    {
+      "name": "洪潮",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 11,
+        "defense": 4,
+        "value": 11.333333333333334
+      },
+      "after": {
+        "attack": 10,
+        "defense": 4,
+        "value": 10.666666666666666
+      }
+    },
+    {
+      "name": "涌泉",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 3,
+        "defense": 5,
+        "value": 7.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 6,
+        "value": 8.666666666666666
+      }
+    },
+    {
+      "name": "深流",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 9,
+        "defense": 1,
+        "value": 10.5
+      },
+      "after": {
+        "attack": 7,
+        "defense": 1,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "深渊",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 7,
+        "value": 10.333333333333334
+      },
+      "after": {
+        "attack": 5,
+        "defense": 7,
+        "value": 10.333333333333334
+      }
+    },
+    {
+      "name": "深渊潮",
+      "rarity": "legendary",
+      "cost": 2,
+      "before": {
+        "attack": 13,
+        "defense": 6,
+        "value": 14.666666666666666
+      },
+      "after": {
+        "attack": 11,
+        "defense": 5,
+        "value": 12.333333333333334
+      }
+    },
+    {
+      "name": "清泉",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "渗骨毒素",
+      "rarity": "epic",
+      "cost": 3,
+      "before": {
+        "attack": 10,
+        "defense": 5,
+        "value": 8.75
+      },
+      "after": {
+        "attack": 12,
+        "defense": 6,
+        "value": 10.5
+      }
+    },
+    {
+      "name": "潮声",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 7,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 5,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "潮汐之心",
+      "rarity": "specialization",
+      "cost": 3,
+      "before": {
+        "attack": 20,
+        "defense": 2,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 26,
+        "defense": 3,
+        "value": 15.25
+      }
+    },
+    {
+      "name": "潮汐回响",
+      "rarity": "legendary",
+      "cost": 3,
+      "before": {
+        "attack": 13,
+        "defense": 7,
+        "value": 11.75
+      },
+      "after": {
+        "attack": 14,
+        "defense": 7,
+        "value": 12.25
+      }
+    },
+    {
+      "name": "潮汐回廊",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 9,
+        "defense": 1,
+        "value": 7.0
+      },
+      "after": {
+        "attack": 11,
+        "defense": 1,
+        "value": 8.333333333333334
+      }
+    },
+    {
+      "name": "潮汐恩泽",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 10,
+        "defense": 0,
+        "value": 6.666666666666667
+      },
+      "after": {
+        "attack": 12,
+        "defense": 0,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "潮汐风暴",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 6,
+        "defense": 7,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 6,
+        "defense": 7,
+        "value": 11.0
+      }
+    },
+    {
+      "name": "潮涌",
+      "rarity": "common",
+      "cost": 2,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 4.0
+      },
+      "after": {
+        "attack": 8,
+        "defense": 0,
+        "value": 5.333333333333333
+      }
+    },
+    {
+      "name": "濒死回响",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 8,
+        "defense": 3,
+        "value": 8.333333333333334
+      },
+      "after": {
+        "attack": 8,
+        "defense": 3,
+        "value": 8.333333333333334
+      }
+    },
+    {
+      "name": "火墙",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "火星",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "火种库",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 7,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 5,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "火种翻找",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "火舌",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 8,
+        "defense": 3,
+        "value": 8.333333333333334
+      },
+      "after": {
+        "attack": 8,
+        "defense": 3,
+        "value": 8.333333333333334
+      }
+    },
+    {
+      "name": "火花",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "火苗",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "灰烬循环",
+      "rarity": "legendary",
+      "cost": 3,
+      "before": {
+        "attack": 15,
+        "defense": 6,
+        "value": 12.0
+      },
+      "after": {
+        "attack": 16,
+        "defense": 6,
+        "value": 12.5
+      }
+    },
+    {
+      "name": "灰烬账本",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 7,
+        "defense": 3,
+        "value": 7.666666666666667
+      },
+      "after": {
+        "attack": 8,
+        "defense": 3,
+        "value": 8.333333333333334
+      }
+    },
+    {
+      "name": "灰烬重生",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 6,
+        "defense": 7,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 6,
+        "defense": 7,
+        "value": 11.0
+      }
+    },
+    {
+      "name": "灵感涌现",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 8,
+        "defense": 5,
+        "value": 10.333333333333334
+      },
+      "after": {
+        "attack": 8,
+        "defense": 5,
+        "value": 10.333333333333334
+      }
+    },
+    {
+      "name": "灼痛",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 9,
+        "defense": 1,
+        "value": 10.5
+      },
+      "after": {
+        "attack": 7,
+        "defense": 1,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "炽焰王冠",
+      "rarity": "specialization",
+      "cost": 3,
+      "before": {
+        "attack": 22,
+        "defense": 0,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 30,
+        "defense": 0,
+        "value": 15.0
+      }
+    },
+    {
+      "name": "烈焰冲刺",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "烈焰附身",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 7,
+        "defense": 3,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 5,
+        "defense": 2,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "烈风",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 11,
+        "defense": 4,
+        "value": 11.333333333333334
+      },
+      "after": {
+        "attack": 10,
+        "defense": 4,
+        "value": 10.666666666666666
+      }
+    },
+    {
+      "name": "焚心",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 18,
+        "defense": 0,
+        "value": 12.0
+      },
+      "after": {
+        "attack": 15,
+        "defense": 0,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "焰心屏障",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 2,
+        "defense": 8,
+        "value": 9.333333333333334
+      },
+      "after": {
+        "attack": 2,
+        "defense": 9,
+        "value": 10.333333333333334
+      }
+    },
+    {
+      "name": "燃烧血统",
+      "rarity": "legendary",
+      "cost": 3,
+      "before": {
+        "attack": 20,
+        "defense": 3,
+        "value": 12.25
+      },
+      "after": {
+        "attack": 20,
+        "defense": 3,
+        "value": 12.25
+      }
+    },
+    {
+      "name": "燃血",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 12,
+        "defense": 0,
+        "value": 8.0
+      },
+      "after": {
+        "attack": 12,
+        "defense": 0,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "燎原",
+      "rarity": "legendary",
+      "cost": 2,
+      "before": {
+        "attack": 17,
+        "defense": 3,
+        "value": 14.333333333333334
+      },
+      "after": {
+        "attack": 15,
+        "defense": 3,
+        "value": 13.0
+      }
+    },
+    {
+      "name": "爆燃",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 11,
+        "defense": 4,
+        "value": 11.333333333333334
+      },
+      "after": {
+        "attack": 10,
+        "defense": 4,
+        "value": 10.666666666666666
+      }
+    },
+    {
+      "name": "爆裂",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 12,
+        "defense": 0,
+        "value": 12.0
+      },
+      "after": {
+        "attack": 8,
+        "defense": 0,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "爆裂弹头",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 12,
+        "defense": 0,
+        "value": 8.0
+      },
+      "after": {
+        "attack": 12,
+        "defense": 0,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "狂战",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 10,
+        "defense": 0,
+        "value": 6.666666666666667
+      },
+      "after": {
+        "attack": 12,
+        "defense": 0,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "狂暴",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 17,
+        "defense": 0,
+        "value": 11.333333333333334
+      },
+      "after": {
+        "attack": 15,
+        "defense": 0,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "狂风",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 8,
+        "defense": 3,
+        "value": 8.333333333333334
+      },
+      "after": {
+        "attack": 8,
+        "defense": 3,
+        "value": 8.333333333333334
+      }
+    },
+    {
+      "name": "猛火弹",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "生命之泉",
+      "rarity": "legendary",
+      "cost": 3,
+      "before": {
+        "attack": 14,
+        "defense": 6,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 15,
+        "defense": 7,
+        "value": 12.75
+      }
+    },
+    {
+      "name": "生命洪流",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 7,
+        "value": 10.333333333333334
+      },
+      "after": {
+        "attack": 5,
+        "defense": 7,
+        "value": 10.333333333333334
+      }
+    },
+    {
+      "name": "生命祝福",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "疫病",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 7,
+        "defense": 6,
+        "value": 10.666666666666666
+      },
+      "after": {
+        "attack": 7,
+        "defense": 6,
+        "value": 10.666666666666666
+      }
+    },
+    {
+      "name": "疾影",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 10,
+        "defense": 1,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 7,
+        "defense": 1,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "疾流",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 7,
+        "defense": 3,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 5,
+        "defense": 2,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "疾行",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 3,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "疾风",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "疾风之刃",
+      "rarity": "legendary",
+      "cost": 3,
+      "before": {
+        "attack": 18,
+        "defense": 2,
+        "value": 10.5
+      },
+      "after": {
+        "attack": 21,
+        "defense": 2,
+        "value": 12.0
+      }
+    },
+    {
+      "name": "疾风连斩",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 6,
+        "value": 9.333333333333334
+      },
+      "after": {
+        "attack": 5,
+        "defense": 7,
+        "value": 10.333333333333334
+      }
+    },
+    {
+      "name": "瘟潮",
+      "rarity": "legendary",
+      "cost": 2,
+      "before": {
+        "attack": 13,
+        "defense": 6,
+        "value": 14.666666666666666
+      },
+      "after": {
+        "attack": 11,
+        "defense": 5,
+        "value": 12.333333333333334
+      }
+    },
+    {
+      "name": "盾之共鸣",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 6,
+        "defense": 6,
+        "value": 10.0
+      },
+      "after": {
+        "attack": 6,
+        "defense": 6,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "盾墙",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "盾脉",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 1,
+        "defense": 7,
+        "value": 7.666666666666667
+      },
+      "after": {
+        "attack": 1,
+        "defense": 8,
+        "value": 8.666666666666666
+      }
+    },
+    {
+      "name": "短促",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "石肤",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "破军",
+      "rarity": "epic",
+      "cost": 3,
+      "before": {
+        "attack": 16,
+        "defense": 0,
+        "value": 8.0
+      },
+      "after": {
+        "attack": 20,
+        "defense": 0,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "破甲",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "破障法阵",
+      "rarity": "epic",
+      "cost": 1,
+      "before": {
+        "attack": 10,
+        "defense": 5,
+        "value": 17.5
+      },
+      "after": {
+        "attack": 6,
+        "defense": 3,
+        "value": 10.5
+      }
+    },
+    {
+      "name": "破风",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 10,
+        "defense": 1,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 7,
+        "defense": 1,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "碎岩印记",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 12,
+        "defense": 0,
+        "value": 8.0
+      },
+      "after": {
+        "attack": 12,
+        "defense": 0,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "碎岳之心",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 14,
+        "defense": 1,
+        "value": 10.333333333333334
+      },
+      "after": {
+        "attack": 14,
+        "defense": 1,
+        "value": 10.333333333333334
+      }
+    },
+    {
+      "name": "碎盾术",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 10,
+        "defense": 1,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 7,
+        "defense": 1,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "碎石击",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "磐岩壁",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 3,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "磐石",
+      "rarity": "common",
+      "cost": 2,
+      "before": {
+        "attack": 1,
+        "defense": 3,
+        "value": 3.6666666666666665
+      },
+      "after": {
+        "attack": 1,
+        "defense": 5,
+        "value": 5.666666666666667
+      }
+    },
+    {
+      "name": "禁咒目录",
+      "rarity": "legendary",
+      "cost": 1,
+      "before": {
+        "attack": 13,
+        "defense": 6,
+        "value": 22.0
+      },
+      "after": {
+        "attack": 7,
+        "defense": 3,
+        "value": 11.5
+      }
+    },
+    {
+      "name": "禁忌知识",
+      "rarity": "legendary",
+      "cost": 0,
+      "before": {
+        "attack": 13,
+        "defense": 6,
+        "value": 44.0
+      },
+      "after": {
+        "attack": 3,
+        "defense": 2,
+        "value": 12.0
+      }
+    },
+    {
+      "name": "稳固结界",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 7,
+        "defense": 3,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 5,
+        "defense": 2,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "穿云",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 3,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "穿云破甲",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 13,
+        "defense": 1,
+        "value": 9.666666666666666
+      },
+      "after": {
+        "attack": 14,
+        "defense": 1,
+        "value": 10.333333333333334
+      }
+    },
+    {
+      "name": "穿云箭",
+      "rarity": "legendary",
+      "cost": 2,
+      "before": {
+        "attack": 15,
+        "defense": 3,
+        "value": 13.0
+      },
+      "after": {
+        "attack": 14,
+        "defense": 3,
+        "value": 12.333333333333334
+      }
+    },
+    {
+      "name": "穿潮",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "穿甲",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 10,
+        "defense": 1,
+        "value": 7.666666666666667
+      },
+      "after": {
+        "attack": 11,
+        "defense": 1,
+        "value": 8.333333333333334
+      }
+    },
+    {
+      "name": "细流",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "翻找",
+      "rarity": "common",
+      "cost": 0,
+      "before": {
+        "attack": 4,
+        "defense": 1,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 1,
+        "defense": 1,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "翻阅",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 3,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "腐化之躯",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 7,
+        "value": 10.333333333333334
+      },
+      "after": {
+        "attack": 5,
+        "defense": 7,
+        "value": 10.333333333333334
+      }
+    },
+    {
+      "name": "腐息",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "腐溃",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 3,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "腐潮",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "腐蚀",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "腐骨",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 8,
+        "defense": 3,
+        "value": 12.5
+      },
+      "after": {
+        "attack": 5,
+        "defense": 2,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "蓄势",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "蓄能",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "蚀创",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "蚀刻",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "蚀命",
+      "rarity": "legendary",
+      "cost": 3,
+      "before": {
+        "attack": 13,
+        "defense": 6,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 15,
+        "defense": 7,
+        "value": 12.75
+      }
+    },
+    {
+      "name": "蚀界",
+      "rarity": "epic",
+      "cost": 3,
+      "before": {
+        "attack": 10,
+        "defense": 5,
+        "value": 8.75
+      },
+      "after": {
+        "attack": 12,
+        "defense": 6,
+        "value": 10.5
+      }
+    },
+    {
+      "name": "蚀骨",
+      "rarity": "legendary",
+      "cost": 3,
+      "before": {
+        "attack": 13,
+        "defense": 6,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 15,
+        "defense": 7,
+        "value": 12.75
+      }
+    },
+    {
+      "name": "蚀骨之触",
+      "rarity": "epic",
+      "cost": 3,
+      "before": {
+        "attack": 2,
+        "defense": 8,
+        "value": 7.0
+      },
+      "after": {
+        "attack": 3,
+        "defense": 12,
+        "value": 10.5
+      }
+    },
+    {
+      "name": "血之回响",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 6,
+        "value": 9.333333333333334
+      },
+      "after": {
+        "attack": 5,
+        "defense": 7,
+        "value": 10.333333333333334
+      }
+    },
+    {
+      "name": "血偿",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 7,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 5,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "血刃",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 3,
+        "defense": 5,
+        "value": 10.5
+      },
+      "after": {
+        "attack": 2,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "血怒",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 10,
+        "defense": 0,
+        "value": 6.666666666666667
+      },
+      "after": {
+        "attack": 12,
+        "defense": 0,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "血潮",
+      "rarity": "legendary",
+      "cost": 3,
+      "before": {
+        "attack": 12,
+        "defense": 6,
+        "value": 10.5
+      },
+      "after": {
+        "attack": 14,
+        "defense": 7,
+        "value": 12.25
+      }
+    },
+    {
+      "name": "血潮汹涌",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 6,
+        "defense": 5,
+        "value": 9.0
+      },
+      "after": {
+        "attack": 7,
+        "defense": 6,
+        "value": 10.666666666666666
+      }
+    },
+    {
+      "name": "裂伤",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "裂岩护壁",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 7,
+        "defense": 4,
+        "value": 13.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 3,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "裂空",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 15,
+        "defense": 1,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 14,
+        "defense": 1,
+        "value": 10.333333333333334
+      }
+    },
+    {
+      "name": "裂空穿云",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 13,
+        "defense": 1,
+        "value": 9.666666666666666
+      },
+      "after": {
+        "attack": 14,
+        "defense": 1,
+        "value": 10.333333333333334
+      }
+    },
+    {
+      "name": "裂风",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 10,
+        "defense": 1,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 7,
+        "defense": 1,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "连环潮",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "追云",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 3,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "追风",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 3,
+        "defense": 5,
+        "value": 10.5
+      },
+      "after": {
+        "attack": 2,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "通晓",
+      "rarity": "epic",
+      "cost": 1,
+      "before": {
+        "attack": 11,
+        "defense": 4,
+        "value": 17.0
+      },
+      "after": {
+        "attack": 7,
+        "defense": 2,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "速腐",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 7,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 5,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "速读",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "重洗",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "铁壁",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 1,
+        "defense": 7,
+        "value": 7.666666666666667
+      },
+      "after": {
+        "attack": 1,
+        "defense": 8,
+        "value": 8.666666666666666
+      }
+    },
+    {
+      "name": "锋刃",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 12,
+        "defense": 0,
+        "value": 12.0
+      },
+      "after": {
+        "attack": 8,
+        "defense": 0,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "镜岩之心",
+      "rarity": "epic",
+      "cost": 1,
+      "before": {
+        "attack": 12,
+        "defense": 2,
+        "value": 15.0
+      },
+      "after": {
+        "attack": 8,
+        "defense": 1,
+        "value": 9.5
+      }
+    },
+    {
+      "name": "防御强化",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "静水",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 7,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 5,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "顺风",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 8,
+        "defense": 3,
+        "value": 12.5
+      },
+      "after": {
+        "attack": 5,
+        "defense": 2,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "风之躯",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 14,
+        "defense": 1,
+        "value": 10.333333333333334
+      },
+      "after": {
+        "attack": 14,
+        "defense": 1,
+        "value": 10.333333333333334
+      }
+    },
+    {
+      "name": "风刃",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 8,
+        "defense": 3,
+        "value": 12.5
+      },
+      "after": {
+        "attack": 5,
+        "defense": 2,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "风切",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 3,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "风卷",
+      "rarity": "common",
+      "cost": 2,
+      "before": {
+        "attack": 4,
+        "defense": 1,
+        "value": 3.6666666666666665
+      },
+      "after": {
+        "attack": 6,
+        "defense": 1,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "风幕",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 4,
+        "defense": 5,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 3,
+        "defense": 4,
+        "value": 9.0
+      }
+    },
+    {
+      "name": "风暴",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 7,
+        "defense": 6,
+        "value": 10.666666666666666
+      },
+      "after": {
+        "attack": 7,
+        "defense": 6,
+        "value": 10.666666666666666
+      }
+    },
+    {
+      "name": "风步",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 4,
+        "defense": 1,
+        "value": 5.5
+      }
+    },
+    {
+      "name": "风牙",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "风痕",
+      "rarity": "legendary",
+      "cost": 3,
+      "before": {
+        "attack": 20,
+        "defense": 2,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 22,
+        "defense": 2,
+        "value": 12.5
+      }
+    },
+    {
+      "name": "风痕刻印",
+      "rarity": "rare",
+      "cost": 1,
+      "before": {
+        "attack": 10,
+        "defense": 1,
+        "value": 11.5
+      },
+      "after": {
+        "attack": 7,
+        "defense": 1,
+        "value": 8.5
+      }
+    },
+    {
+      "name": "风痕回廊",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 18,
+        "defense": 0,
+        "value": 12.0
+      },
+      "after": {
+        "attack": 15,
+        "defense": 0,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "风眼",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 6,
+        "defense": 0,
+        "value": 6.0
+      },
+      "after": {
+        "attack": 5,
+        "defense": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "风神之翼",
+      "rarity": "epic",
+      "cost": 2,
+      "before": {
+        "attack": 12,
+        "defense": 2,
+        "value": 10.0
+      },
+      "after": {
+        "attack": 12,
+        "defense": 2,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "风蚀",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 10,
+        "defense": 1,
+        "value": 7.666666666666667
+      },
+      "after": {
+        "attack": 11,
+        "defense": 1,
+        "value": 8.333333333333334
+      }
+    },
+    {
+      "name": "风驰",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 3,
+        "defense": 5,
+        "value": 7.0
+      },
+      "after": {
+        "attack": 4,
+        "defense": 6,
+        "value": 8.666666666666666
+      }
+    },
+    {
+      "name": "飓风",
+      "rarity": "legendary",
+      "cost": 2,
+      "before": {
+        "attack": 19,
+        "defense": 2,
+        "value": 14.666666666666666
+      },
+      "after": {
+        "attack": 16,
+        "defense": 2,
+        "value": 12.666666666666666
+      }
+    },
+    {
+      "name": "高压弹仓",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 9,
+        "defense": 1,
+        "value": 7.0
+      },
+      "after": {
+        "attack": 11,
+        "defense": 1,
+        "value": 8.333333333333334
+      }
+    },
+    {
+      "name": "高温炉心",
+      "rarity": "rare",
+      "cost": 2,
+      "before": {
+        "attack": 5,
+        "defense": 4,
+        "value": 7.333333333333333
+      },
+      "after": {
+        "attack": 6,
+        "defense": 4,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "魔力契约",
+      "rarity": "legendary",
+      "cost": 3,
+      "before": {
+        "attack": 13,
+        "defense": 6,
+        "value": 11.0
+      },
+      "after": {
+        "attack": 15,
+        "defense": 7,
+        "value": 12.75
+      }
+    },
+    {
+      "name": "魔法阵核心",
+      "rarity": "legendary",
+      "cost": 2,
+      "before": {
+        "attack": 13,
+        "defense": 6,
+        "value": 14.666666666666666
+      },
+      "after": {
+        "attack": 11,
+        "defense": 5,
+        "value": 12.333333333333334
+      }
+    },
+    {
+      "name": "鼓舞",
+      "rarity": "common",
+      "cost": 1,
+      "before": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      },
+      "after": {
+        "attack": 1,
+        "defense": 3,
+        "value": 5.5
+      }
+    }
+  ],
+  "clarification": "灰烬重生每次获得1余烬仍要求火专精能力牌已打出；仅取消每场首次限制。"
+}

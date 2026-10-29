@@ -8,10 +8,10 @@
   "CombatCost": 2,
   "BaseStudyCost": 3,
   "Attack": 2,
-  "Defense": 7,
+  "Defense": 9,
   "FirstEnchantmentLayers": 1,
-  "RulesText": "下一发飞弹额外造成 `5 × 当前毒层 + 2 × (目标当前攻击减少 + 目标当前防御减少)` 伤害；按打出时计算；下一发",
-  "DisplayRulesText": "下一发飞弹额外造成 `5 × 当前毒层 + 2 × (目标当前攻击减少 + 目标当前防御减少)` 伤害；按打出时计算；下一发",
+  "RulesText": "攻击力临时增加 `4 × 当前毒层 + 1.5 × (目标当前攻击减少 + 目标当前防御减少)`，持续到下一发飞弹造成伤害后；按打出时计算；下一发",
+  "DisplayRulesText": "攻击力临时增加 `4 × 当前毒层 + 1.5 × (目标当前攻击减少 + 目标当前防御减少)`，持续到下一发飞弹造成伤害后；按打出时计算；下一发",
   "RuleNotes": [],
   "Art": {
     "IllustrationTexture": "",

@@ -1,0 +1,18 @@
+{
+  "SchemaVersion": 1,
+  "ModelHash": "ee1bfd8f0fdee0c085e86891c0d1f514da97b019f4a7073e8c52db741766277a",
+  "CardLibraryHash": "b8038f7197b3168c42c27b62c8e4431cb380708eaaf11799e6fc03cdd47ce430",
+  "RevisionReason": "2026-10-28 frozen v1.1 cards/combat and 10x100 small-step AI checkpoint; two seeds repeated, state and event digests reviewed equal.",
+  "Seeds": {
+    "20261024": {
+      "FinalStateHash": "404fa71fbfc927f2a7f911dd0aa7253d9374eb9061f4ea11eafad8fe03580f54",
+      "EventSummaryHash": "6992554ae23eb1d1ba185edf659be99a0746cd92c09df737f823e7efafd9b4ab",
+      "Rounds": 17
+    },
+    "20261026": {
+      "FinalStateHash": "aeadc88b50afe9427e5d6cb4fc77795420d488917331bc4d70a281d4976f157c",
+      "EventSummaryHash": "019ed0478d421d383dac8145e451cb8601e3b9da56b0d479dc734cd6aaa89ed8",
+      "Rounds": 15
+    }
+  }
+}

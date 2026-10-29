@@ -1,0 +1,10 @@
+Preflight (before the 1000-room run):
+python -m unittest tools.sim_v12.test_current tools.sim_v12.test_economy tools.sim_v12.test_exploration tools.sim_v12.test_panel_budget tools.sim_v12.test_fatigue tools.sim_v12.test_early_deletion tools.sim_v12.test_outcome_train -q
+Ran 58 tests in 1.400s
+OK
+
+Frozen v1.1 check (during training; no gameplay source changed):
+python tools/verify_v11.py
+V11_RELEASE_VERIFIED cards=252 base_interval=50 integer_panels=true frozen_hashes=true
+
+Full run audit and final-model observation checks are written separately by build_report.py.

@@ -1,6 +1,6 @@
 {
   "id": "slice1-basic-pool",
-  "sourceVersion": "1.0",
+  "sourceVersion": "1.1",
   "supportedCardIds": [
     "攻击强化",
     "防御强化",
@@ -32,3 +32,4 @@
     { "cardId": "微风", "count": 6 }
   ]
 }
+

@@ -1,0 +1,74 @@
+{
+  "games": 1500,
+  "battles": 42292,
+  "ledgers": 80767,
+  "per_element": {
+    "earth": 300,
+    "fire": 300,
+    "water": 300,
+    "wind": 300,
+    "poison": 300
+  },
+  "segments": {
+    "('earth', 'train', 'internal')": 90,
+    "('earth', 'train', 'external')": 90,
+    "('earth', 'validation', 'internal')": 30,
+    "('earth', 'validation', 'external')": 30,
+    "('fire', 'final-holdout', 'internal')": 30,
+    "('fire', 'final-holdout', 'external')": 30,
+    "('water', 'final-holdout', 'internal')": 30,
+    "('water', 'final-holdout', 'external')": 30,
+    "('earth', 'final-holdout', 'internal')": 30,
+    "('earth', 'final-holdout', 'external')": 30,
+    "('wind', 'final-holdout', 'internal')": 30,
+    "('wind', 'final-holdout', 'external')": 30,
+    "('poison', 'final-holdout', 'internal')": 30,
+    "('poison', 'final-holdout', 'external')": 30,
+    "('fire', 'train', 'internal')": 90,
+    "('fire', 'train', 'external')": 90,
+    "('fire', 'validation', 'internal')": 30,
+    "('fire', 'validation', 'external')": 30,
+    "('poison', 'train', 'internal')": 90,
+    "('poison', 'train', 'external')": 90,
+    "('poison', 'validation', 'internal')": 30,
+    "('poison', 'validation', 'external')": 30,
+    "('water', 'train', 'internal')": 90,
+    "('water', 'train', 'external')": 90,
+    "('water', 'validation', 'internal')": 30,
+    "('water', 'validation', 'external')": 30,
+    "('wind', 'train', 'internal')": 90,
+    "('wind', 'train', 'external')": 90,
+    "('wind', 'validation', 'internal')": 30,
+    "('wind', 'validation', 'external')": 30
+  },
+  "intent_counts": {
+    "earth": {
+      "反震岩核": 100,
+      "壁垒之心": 100,
+      "大地之握": 100
+    },
+    "fire": {
+      "余烬之核": 100,
+      "灰烬循环": 100,
+      "燃烧血统": 100
+    },
+    "water": {
+      "潮汐回响": 100,
+      "生命之泉": 100,
+      "血潮": 100
+    },
+    "wind": {
+      "疾风之刃": 100,
+      "穿云箭": 100,
+      "风痕": 100
+    },
+    "poison": {
+      "毒爆": 100,
+      "蚀命": 100,
+      "蚀骨": 100
+    }
+  },
+  "source_hashes_verified": true,
+  "stock": 693,
+  "sequence_skips": 0
+}

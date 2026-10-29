@@ -9,7 +9,7 @@ public sealed record ShieldDecayState(bool Active = false, int PendingDamage = 0
     {
         if (!Active) return this;
         var lost = Math.Max(0, oldShield - CombatMath.Ceiling(oldShield * 0.75m));
-        return this with { PendingDamage = checked(PendingDamage + lost * 4) };
+        return this with { PendingDamage = checked(PendingDamage + lost * 3) };
     }
 
     public int MainDamage => CombatMath.Floor(PendingDamage * (1 + NextBonusPercent / 100m));

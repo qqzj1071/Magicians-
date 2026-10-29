@@ -7,7 +7,7 @@
   "Rarity": "rare",
   "CombatCost": 1,
   "BaseStudyCost": 2,
-  "Attack": 9,
+  "Attack": 8,
   "Defense": 0,
   "FirstEnchantmentLayers": 1,
   "RulesText": "火层 ≥6 时再 +4 攻；整场",

@@ -8,6 +8,7 @@ public static class DamageFormulaRegression
     {
         Require(CombatMath.MissileDamage(100, 20) == 80, "Base missile damage must subtract effective defense.");
         Require(CombatMath.MissileDamage(100, 20, 50) == 90, "Defense penetration must reduce only effective defense.");
+        Require(CombatMath.MissileDamage(200, 100, 8, 15) == 121, "Independent defense ignore must multiply the remaining defense after penetration.");
         Require(CombatMath.MissileDamage(5, 20) == 1, "Ordinary missile damage must retain the nonzero floor.");
         Require(CombatMath.PoisonDamage(100, 20) == 90, "Poison must use 50% defense.");
         Require(CombatMath.SplitDamage(100, 50, 0) is (50, 50), "Shield split must absorb before life.");

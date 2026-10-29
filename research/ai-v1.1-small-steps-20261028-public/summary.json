@@ -1,0 +1,21 @@
+{
+  "games": 1000,
+  "batches": 10,
+  "accepted_batches": 5,
+  "sealed_cohort": {
+    "games": 200,
+    "candidate_mean_points": -0.015,
+    "baseline_mean_points": 0.015,
+    "candidate_win_rate": 0.2625,
+    "baseline_win_rate": 0.2375
+  },
+  "independent_final_model_improvement": "not established: sealed rooms evaluate evolving candidates against their incumbents",
+  "validation": {
+    "settlements": 4000,
+    "points_conserved": true,
+    "winner_shares_conserved": true,
+    "inventory_audited": true,
+    "frozen_hashes_unchanged": true
+  },
+  "model_sha256": "ee1bfd8f0fdee0c085e86891c0d1f514da97b019f4a7073e8c52db741766277a"
+}

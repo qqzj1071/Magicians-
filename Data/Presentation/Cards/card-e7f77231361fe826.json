@@ -10,8 +10,8 @@
   "Attack": 4,
   "Defense": 3,
   "FirstEnchantmentLayers": 1,
-  "RulesText": "下一发飞弹额外发射一段“固定 12 + 攻击力 25%”的加成副弹；下一发飞弹间隔 -15；下一发",
-  "DisplayRulesText": "下一发飞弹额外发射一段“固定 12 + 攻击力 25%”的加成副弹；下一发飞弹间隔 -15；下一发",
+  "RulesText": "下一发飞弹额外发射一段“固定 12 + 攻击力 25%”的加成副弹；下一发飞弹间隔 -7.5；下一发",
+  "DisplayRulesText": "下一发飞弹额外发射一段“固定 12 + 攻击力 25%”的加成副弹；下一发飞弹间隔 -7.5；下一发",
   "RuleNotes": [],
   "Art": {
     "IllustrationTexture": "",

@@ -1,0 +1,417 @@
+{
+  "parameters": {
+    "ash_resource_cap": 3,
+    "wind_mark_step": 2,
+    "grip_shield_pen_percent": 0,
+    "earth_reflect_per_layer": 3,
+    "rock_reflect_per_layer": 4.5
+  },
+  "changes": [
+    {
+      "name": "不周山",
+      "before": {
+        "name": "不周山",
+        "cost": 3,
+        "element": "earth",
+        "rarity": "specialization",
+        "attack": 15,
+        "defense": 10,
+        "layers": 2,
+        "ability": true,
+        "kind": "specialization",
+        "text": "激活壁垒：敌方伤害破盾时，碎盾伤害=max(0,ceil(碎盾前盾量×3.5%×土层数−敌方防御×50%))。满足穿盾分配后的斩杀条件时，事务反应窗口自动碎盾并使自身防御归零。",
+        "route_support": null
+      },
+      "after": {
+        "name": "不周山",
+        "cost": 3,
+        "element": "earth",
+        "rarity": "specialization",
+        "attack": 15,
+        "defense": 10,
+        "layers": 2,
+        "ability": true,
+        "kind": "specialization",
+        "text": "激活壁垒：敌方伤害破盾时，碎盾伤害=max(0,ceil(碎盾前盾量×3%×土层数−敌方防御×50%))。满足穿盾分配后的斩杀条件时，事务反应窗口自动碎盾并使自身防御归零。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "不坏壁垒",
+      "before": {
+        "name": "不坏壁垒",
+        "cost": 2,
+        "element": "earth",
+        "rarity": "epic",
+        "attack": 14,
+        "defense": 1,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "获得200护盾；仅本次获盾不触发旧盾衰减，不改变之后叠盾的0.75留存率；立即",
+        "route_support": "壁垒之心"
+      },
+      "after": {
+        "name": "不坏壁垒",
+        "cost": 2,
+        "element": "earth",
+        "rarity": "epic",
+        "attack": 13,
+        "defense": 1,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "获得190护盾；仅本次获盾不触发旧盾衰减，不改变之后叠盾的0.75留存率；立即",
+        "route_support": "壁垒之心"
+      }
+    },
+    {
+      "name": "余烬引擎",
+      "before": {
+        "name": "余烬引擎",
+        "cost": 3,
+        "element": "fire",
+        "rarity": "epic",
+        "attack": 6,
+        "defense": 10,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "洗牌；下次抽牌阶段多抽 2；获得 2 费；立即",
+        "route_support": "灰烬循环"
+      },
+      "after": {
+        "name": "余烬引擎",
+        "cost": 3,
+        "element": "fire",
+        "rarity": "epic",
+        "attack": 7,
+        "defense": 10,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "洗牌；下次抽牌阶段多抽 2；获得 2 费；立即",
+        "route_support": "灰烬循环"
+      }
+    },
+    {
+      "name": "反震岩核",
+      "before": {
+        "name": "反震岩核",
+        "cost": 3,
+        "element": "earth",
+        "rarity": "legendary",
+        "attack": 10,
+        "defense": 9,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "已激活土专精时，碎盾每土层系数改为5%，扣敌方50%防御；被敌伤破盾后返还碎盾前盾量40%的盾。",
+        "route_support": null
+      },
+      "after": {
+        "name": "反震岩核",
+        "cost": 3,
+        "element": "earth",
+        "rarity": "legendary",
+        "attack": 10,
+        "defense": 9,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "已激活土专精时，碎盾每土层系数改为4.5%，扣敌方50%防御；被敌伤破盾后返还碎盾前盾量40%的盾。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "壁垒之心",
+      "before": {
+        "name": "壁垒之心",
+        "cost": 3,
+        "element": "earth",
+        "rarity": "legendary",
+        "attack": 11,
+        "defense": 9,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "随机查看摸牌堆最多5张护盾牌，选至多2张置顶；下抽+1费。有盾时普通飞弹减伤15%。已激活土专精时，反应反伤改为每段普通飞弹实际被盾吸收量×2.5%×土层数−敌方防御50%；自动碎盾斩杀仍使用护盾量公式。",
+        "route_support": null
+      },
+      "after": {
+        "name": "壁垒之心",
+        "cost": 3,
+        "element": "earth",
+        "rarity": "legendary",
+        "attack": 10,
+        "defense": 9,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "随机查看摸牌堆最多5张护盾牌，选至多2张置顶；下抽+1费。有盾时普通飞弹减伤15%。已激活土专精时，反应反伤改为每段普通飞弹实际被盾吸收量×2.5%×土层数−敌方防御50%；自动碎盾斩杀仍使用护盾量公式。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "大地之握",
+      "before": {
+        "name": "大地之握",
+        "cost": 3,
+        "element": "earth",
+        "rarity": "legendary",
+        "attack": 11,
+        "defense": 9,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "普通叠盾时旧盾实际衰减损失×300%累计到下一发主弹直接加伤，发射前土附魔叠盾的损失也计入本发；主动耗盾、敌方削盾与免衰减盾不计。激活土专精后，碎盾伤害50%穿盾；主弹盾损转伤不继承该穿盾。",
+        "route_support": null
+      },
+      "after": {
+        "name": "大地之握",
+        "cost": 3,
+        "element": "earth",
+        "rarity": "legendary",
+        "attack": 11,
+        "defense": 9,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "普通叠盾时旧盾实际衰减损失×300%累计到下一发主弹直接加伤，发射前土附魔叠盾的损失也计入本发；主动耗盾、敌方削盾与免衰减盾不计。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "岩核重压",
+      "before": {
+        "name": "岩核重压",
+        "cost": 2,
+        "element": "earth",
+        "rarity": "epic",
+        "attack": 15,
+        "defense": 0,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "对敌方造成碎盾反伤（不消耗护盾）：`max(0, ceil(当前护盾量 × 25% - 50% × 敌方当前防御))`；先由敌方护盾吸收，溢出扣生命。反震岩核/大地之握的专精升级按各自文本修改防御减免与穿透；立即/整场",
+        "route_support": "壁垒之心"
+      },
+      "after": {
+        "name": "岩核重压",
+        "cost": 2,
+        "element": "earth",
+        "rarity": "epic",
+        "attack": 15,
+        "defense": 0,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "对敌方造成碎盾反伤（不消耗护盾）：`max(0, ceil(当前护盾量 × 25% - 50% × 敌方当前防御))`；先由敌方护盾吸收，溢出扣生命。无额外穿盾或路线防御减免；立即/整场",
+        "route_support": "壁垒之心"
+      }
+    },
+    {
+      "name": "泉心",
+      "before": {
+        "name": "泉心",
+        "cost": 3,
+        "element": "water",
+        "rarity": "epic",
+        "attack": 10,
+        "defense": 6,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "下一发飞弹间隔 -25；这次发射的飞弹防御穿透60%；下一发",
+        "route_support": "生命之泉"
+      },
+      "after": {
+        "name": "泉心",
+        "cost": 3,
+        "element": "water",
+        "rarity": "epic",
+        "attack": 11,
+        "defense": 6,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "下一发飞弹间隔 -25；这次发射的飞弹防御穿透60%；下一发",
+        "route_support": "生命之泉"
+      }
+    },
+    {
+      "name": "灰烬循环",
+      "before": {
+        "name": "灰烬循环",
+        "cost": 3,
+        "element": "fire",
+        "rarity": "legendary",
+        "attack": 18,
+        "defense": 6,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "已激活火专精时，每次洗牌固定获得2余烬；每消耗1余烬产生1下抽资源额度，下抽额外抽牌和费用各最多2，多余不结转。",
+        "route_support": null
+      },
+      "after": {
+        "name": "灰烬循环",
+        "cost": 3,
+        "element": "fire",
+        "rarity": "legendary",
+        "attack": 18,
+        "defense": 6,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "已激活火专精时，每次洗牌固定获得2余烬；每实际消耗1余烬，下次抽牌阶段额外获得1费并额外抽1牌；每个抽牌阶段累计最多额外3费、3牌，多余不结转。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "灰烬账本",
+      "before": {
+        "name": "灰烬账本",
+        "cost": 2,
+        "element": "fire",
+        "rarity": "rare",
+        "attack": 8,
+        "defense": 3,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "每累计消耗3层尚未兑换的余烬，可获得1余烬；每次打出至多兑换一次，否则下次抽牌阶段多抽2；立即/下抽",
+        "route_support": "灰烬循环"
+      },
+      "after": {
+        "name": "灰烬账本",
+        "cost": 2,
+        "element": "fire",
+        "rarity": "rare",
+        "attack": 9,
+        "defense": 3,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "每累计消耗3层尚未兑换的余烬，可获得1余烬；每次打出至多兑换一次，否则下次抽牌阶段多抽2；立即/下抽",
+        "route_support": "灰烬循环"
+      }
+    },
+    {
+      "name": "生命之泉",
+      "before": {
+        "name": "生命之泉",
+        "cost": 3,
+        "element": "water",
+        "rarity": "legendary",
+        "attack": 14,
+        "defense": 7,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "固定间隔减少4+0.5×水层数；飞弹防御穿透20%；不提高潮汐成分。",
+        "route_support": null
+      },
+      "after": {
+        "name": "生命之泉",
+        "cost": 3,
+        "element": "water",
+        "rarity": "legendary",
+        "attack": 15,
+        "defense": 7,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "固定间隔减少4+0.5×水层数；飞弹防御穿透20%；不提高潮汐成分。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "生命洪流",
+      "before": {
+        "name": "生命洪流",
+        "cost": 2,
+        "element": "water",
+        "rarity": "epic",
+        "attack": 4,
+        "defense": 7,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "回复 60 生命；下一发飞弹间隔 -15；这次发射的飞弹伤害 +17%；立即/下一发",
+        "route_support": "生命之泉"
+      },
+      "after": {
+        "name": "生命洪流",
+        "cost": 2,
+        "element": "water",
+        "rarity": "epic",
+        "attack": 5,
+        "defense": 7,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "回复 65 生命；下一发飞弹间隔 -15；这次发射的飞弹伤害 +17%；立即/下一发",
+        "route_support": "生命之泉"
+      }
+    },
+    {
+      "name": "风痕",
+      "before": {
+        "name": "风痕",
+        "cost": 3,
+        "element": "wind",
+        "rarity": "legendary",
+        "attack": 22,
+        "defense": 2,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "激活天岚后，命中的主弹及加成副弹叠风痕，第三次真伤副弹引爆并清空。第k层伤害=攻击力×(8%+(k−1)×1.5%)，各层求和为一段真伤；不额外提高天岚真伤副弹本身的系数。",
+        "route_support": null
+      },
+      "after": {
+        "name": "风痕",
+        "cost": 3,
+        "element": "wind",
+        "rarity": "legendary",
+        "attack": 23,
+        "defense": 2,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "激活天岚后，命中的主弹及加成副弹叠风痕，第三次真伤副弹引爆并清空。第k层伤害=攻击力×(8%+(k−1)×2%)，各层求和为一段真伤；不额外提高天岚真伤副弹本身的系数。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "风痕回廊",
+      "before": {
+        "name": "风痕回廊",
+        "cost": 2,
+        "element": "wind",
+        "rarity": "epic",
+        "attack": 15,
+        "defense": 0,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "下一发飞弹额外发射两段“固定 15 + 攻击力 15%”的加成副弹；若已打出「风痕」，每段副弹命中叠 1 层后，再额外叠 1 层，两段共 4 层；下一发",
+        "route_support": "风痕"
+      },
+      "after": {
+        "name": "风痕回廊",
+        "cost": 2,
+        "element": "wind",
+        "rarity": "epic",
+        "attack": 16,
+        "defense": 0,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "下一发飞弹额外发射两段“固定 15 + 攻击力 15%”的加成副弹；若已打出「风痕」，每段副弹命中叠 1 层后，再额外叠 1 层，两段共 4 层；下一发",
+        "route_support": "风痕"
+      }
+    }
+  ]
+}

@@ -128,12 +128,13 @@ public partial class DraftUiRevisionRunner : Node
         var route = session.Cards.All.First(c => c.Kind == CardKind.RouteLegendary);
         var events = state.Players.Values.SelectMany((p, i) => new GameEvent[]
         {
-            new DraftRuleChangedEvent(state.Id, 1, i * 3 + 1, "", p.Id, "Specialization", new[] { spec.Name }),
-            new DraftRuleChangedEvent(state.Id, 1, i * 3 + 2, "", p.Id, "Route", new[] { route.Name }),
-            new DraftRuleChangedEvent(state.Id, 1, i * 3 + 3, "", p.Id, "ReplaceRoute", new[] { route.Name })
+            new DraftRuleChangedEvent(state.Id, state.Round, i * 3 + 1, "", p.Id, "Specialization", new[] { spec.Name }),
+            new DraftRuleChangedEvent(state.Id, state.Round, i * 3 + 2, "", p.Id, "Route", new[] { route.Name }),
+            new DraftRuleChangedEvent(state.Id, state.Round, i * 3 + 3, "", p.Id, "ReplaceRoute", new[] { route.Name })
         }).ToArray();
         var lines = DraftBroadcastText.Lines(state with { EventLog = events }, session.Cards).ToArray();
         Accept(lines.Length == 1 && state.Players.Values.All(p => lines.Count(l => l.Contains(p.PublicInfo.DisplayName, StringComparison.Ordinal)) == 1), "All four participants' choices need broadcasts");
+        Accept(!DraftBroadcastText.Lines(state with { Round = state.Round + 1, EventLog = events }, session.Cards).Any(), "Previous-round choices must disappear");
     }
 
     private static void Accept(bool condition, string message)

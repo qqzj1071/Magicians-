@@ -7,7 +7,7 @@
   "Rarity": "rare",
   "CombatCost": 1,
   "BaseStudyCost": 2,
-  "Attack": 9,
+  "Attack": 8,
   "Defense": 0,
   "FirstEnchantmentLayers": 0,
   "RulesText": "若本次打出前攻击 ≥70，再 +3 攻；整场",

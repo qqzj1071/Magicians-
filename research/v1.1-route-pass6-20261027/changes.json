@@ -1,0 +1,506 @@
+{
+  "changes": [
+    {
+      "name": "反震岩核",
+      "before": {
+        "name": "反震岩核",
+        "cost": 3,
+        "element": "earth",
+        "rarity": "legendary",
+        "attack": 10,
+        "defense": 9,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "已激活土专精时，碎盾每土层系数改为4.5%，扣敌方50%防御；被敌伤破盾后返还碎盾前盾量40%的盾。",
+        "route_support": null
+      },
+      "after": {
+        "name": "反震岩核",
+        "cost": 3,
+        "element": "earth",
+        "rarity": "legendary",
+        "attack": 11,
+        "defense": 9,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "已激活土专精时，碎盾每土层系数改为4.5%，扣敌方50%防御；被敌伤破盾后返还碎盾前盾量40%的盾。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "回响之潮",
+      "before": {
+        "name": "回响之潮",
+        "cost": 3,
+        "element": "water",
+        "rarity": "epic",
+        "attack": 13,
+        "defense": 6,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "回复 100 生命；若已打出「潮汐之心」，下一发潮汐额外伤害 +40%；这次发射造成的回血记录潮汐时额外提高50%；下一发",
+        "route_support": "潮汐回响"
+      },
+      "after": {
+        "name": "回响之潮",
+        "cost": 3,
+        "element": "water",
+        "rarity": "epic",
+        "attack": 12,
+        "defense": 6,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "回复 100 生命；若已打出「潮汐之心」，下一发潮汐额外伤害 +40%；这次发射造成的回血记录潮汐时额外提高50%；下一发",
+        "route_support": "潮汐回响"
+      }
+    },
+    {
+      "name": "回震岩甲",
+      "before": {
+        "name": "回震岩甲",
+        "cost": 3,
+        "element": "earth",
+        "rarity": "epic",
+        "attack": 18,
+        "defense": 1,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "获得 150 护盾；本场护盾被敌方伤害击碎时额外获得60护盾；每次重复打出返盾数值直接加算（两次为120）；若同时触发反伤，则在反伤结算后统一获盾；立即/整场",
+        "route_support": "反震岩核"
+      },
+      "after": {
+        "name": "回震岩甲",
+        "cost": 3,
+        "element": "earth",
+        "rarity": "epic",
+        "attack": 19,
+        "defense": 1,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "获得 150 护盾；本场护盾被敌方伤害击碎时额外获得60护盾；每次重复打出返盾数值直接加算（两次为120）；若同时触发反伤，则在反伤结算后统一获盾；立即/整场",
+        "route_support": "反震岩核"
+      }
+    },
+    {
+      "name": "寻毒",
+      "before": {
+        "name": "寻毒",
+        "cost": 1,
+        "element": "poison",
+        "rarity": "common",
+        "attack": 1,
+        "defense": 3,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "毒附魔层数 +1；随机查看摸牌堆中的 2 张毒系牌，选 1 张置顶，其余位置不变",
+        "route_support": null
+      },
+      "after": {
+        "name": "寻毒",
+        "cost": 1,
+        "element": "poison",
+        "rarity": "common",
+        "attack": 1,
+        "defense": 3,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "随机查看摸牌堆中的 2 张毒系牌，选 1 张置顶，其余位置不变",
+        "route_support": null
+      }
+    },
+    {
+      "name": "毒刺",
+      "before": {
+        "name": "毒刺",
+        "cost": 1,
+        "element": "poison",
+        "rarity": "common",
+        "attack": 5,
+        "defense": 0,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "毒附魔层数 +1；攻击力临时增加 6.5，持续到下一发飞弹造成伤害后",
+        "route_support": null
+      },
+      "after": {
+        "name": "毒刺",
+        "cost": 1,
+        "element": "poison",
+        "rarity": "common",
+        "attack": 5,
+        "defense": 0,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "攻击力临时增加 6.5，持续到下一发飞弹造成伤害后",
+        "route_support": null
+      }
+    },
+    {
+      "name": "毒瓶",
+      "before": {
+        "name": "毒瓶",
+        "cost": 2,
+        "element": "poison",
+        "rarity": "common",
+        "attack": 6,
+        "defense": 1,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "毒附魔层数 +1；攻击力临时增加 19.5；若毒层 >0，再额外增加 6.5；持续到下一发飞弹造成伤害后",
+        "route_support": null
+      },
+      "after": {
+        "name": "毒瓶",
+        "cost": 2,
+        "element": "poison",
+        "rarity": "common",
+        "attack": 6,
+        "defense": 1,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "攻击力临时增加 19.5；若毒层 >0，再额外增加 6.5；持续到下一发飞弹造成伤害后",
+        "route_support": null
+      }
+    },
+    {
+      "name": "毒甲",
+      "before": {
+        "name": "毒甲",
+        "cost": 1,
+        "element": "poison",
+        "rarity": "common",
+        "attack": 1,
+        "defense": 3,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "毒附魔层数 +1；获得 30 护盾",
+        "route_support": null
+      },
+      "after": {
+        "name": "毒甲",
+        "cost": 1,
+        "element": "poison",
+        "rarity": "common",
+        "attack": 1,
+        "defense": 3,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "获得 30 护盾",
+        "route_support": null
+      }
+    },
+    {
+      "name": "毒雾",
+      "before": {
+        "name": "毒雾",
+        "cost": 1,
+        "element": "poison",
+        "rarity": "common",
+        "attack": 4,
+        "defense": 1,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "毒附魔层数 +1；若毒层 >0，攻击力临时增加 10；持续到下一发飞弹造成伤害后",
+        "route_support": null
+      },
+      "after": {
+        "name": "毒雾",
+        "cost": 1,
+        "element": "poison",
+        "rarity": "common",
+        "attack": 4,
+        "defense": 1,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "若毒层 >0，攻击力临时增加 10；持续到下一发飞弹造成伤害后",
+        "route_support": null
+      }
+    },
+    {
+      "name": "泉心",
+      "before": {
+        "name": "泉心",
+        "cost": 3,
+        "element": "water",
+        "rarity": "epic",
+        "attack": 11,
+        "defense": 6,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "下一发飞弹间隔 -25；这次发射的飞弹防御穿透60%；下一发",
+        "route_support": "生命之泉"
+      },
+      "after": {
+        "name": "泉心",
+        "cost": 3,
+        "element": "water",
+        "rarity": "epic",
+        "attack": 12,
+        "defense": 6,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "下一发飞弹间隔 -25；这次发射的飞弹防御穿透60%；下一发",
+        "route_support": "生命之泉"
+      }
+    },
+    {
+      "name": "潮汐回响",
+      "before": {
+        "name": "潮汐回响",
+        "cost": 3,
+        "element": "water",
+        "rarity": "legendary",
+        "attack": 15,
+        "defense": 7,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "已激活水专精时，实际回复记录潮汐的每水层系数改为8%；发射消耗潮汐后返还消耗量25%。",
+        "route_support": null
+      },
+      "after": {
+        "name": "潮汐回响",
+        "cost": 3,
+        "element": "water",
+        "rarity": "legendary",
+        "attack": 14,
+        "defense": 7,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "已激活水专精时，实际回复记录潮汐的每水层系数改为8%；发射消耗潮汐后返还消耗量25%。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "灰烬循环",
+      "before": {
+        "name": "灰烬循环",
+        "cost": 3,
+        "element": "fire",
+        "rarity": "legendary",
+        "attack": 18,
+        "defense": 6,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "已激活火专精时，每次洗牌固定获得2余烬；每实际消耗1余烬，下次抽牌阶段额外获得1费并额外抽1牌；每个抽牌阶段累计最多额外3费、3牌，多余不结转。",
+        "route_support": null
+      },
+      "after": {
+        "name": "灰烬循环",
+        "cost": 3,
+        "element": "fire",
+        "rarity": "legendary",
+        "attack": 18,
+        "defense": 6,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "打出火专精牌时，若本抽牌回合未抽到本牌，将摸牌堆中的本牌置顶；打出本牌时，若本抽牌回合未抽到火专精牌，将摸牌堆中的火专精牌置顶。已移出本场的牌不取回。打出本牌与火专精牌时各额外获得2余烬；专精激活前的奖励暂存，激活时一并发放，余烬上限5。已激活火专精时，每次洗牌固定获得2余烬；每实际消耗1余烬，下次抽牌阶段额外获得1费并额外抽1牌；每个抽牌阶段累计最多额外3费、3牌，多余不结转。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "生命之泉",
+      "before": {
+        "name": "生命之泉",
+        "cost": 3,
+        "element": "water",
+        "rarity": "legendary",
+        "attack": 15,
+        "defense": 7,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "固定间隔减少4+0.5×水层数；飞弹防御穿透20%；不提高潮汐成分。",
+        "route_support": null
+      },
+      "after": {
+        "name": "生命之泉",
+        "cost": 3,
+        "element": "water",
+        "rarity": "legendary",
+        "attack": 16,
+        "defense": 7,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "固定间隔减少4+0.5×水层数；飞弹防御穿透20%；不提高潮汐成分。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "生命洪流",
+      "before": {
+        "name": "生命洪流",
+        "cost": 2,
+        "element": "water",
+        "rarity": "epic",
+        "attack": 5,
+        "defense": 7,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "回复 65 生命；下一发飞弹间隔 -15；这次发射的飞弹伤害 +17%；立即/下一发",
+        "route_support": "生命之泉"
+      },
+      "after": {
+        "name": "生命洪流",
+        "cost": 2,
+        "element": "water",
+        "rarity": "epic",
+        "attack": 5,
+        "defense": 7,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "回复 70 生命；下一发飞弹间隔 -15；这次发射的飞弹伤害 +17%；立即/下一发",
+        "route_support": "生命之泉"
+      }
+    },
+    {
+      "name": "疾风之刃",
+      "before": {
+        "name": "疾风之刃",
+        "cost": 3,
+        "element": "wind",
+        "rarity": "legendary",
+        "attack": 21,
+        "defense": 2,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "激活天岚后间隔减少改为6+1.5×风层数；主弹追加上次主弹实际伤害×max(0,1−距上发行动值/50)×25%的追击直接加伤。",
+        "route_support": null
+      },
+      "after": {
+        "name": "疾风之刃",
+        "cost": 3,
+        "element": "wind",
+        "rarity": "legendary",
+        "attack": 21,
+        "defense": 2,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "激活天岚后间隔减少改为6+1.5×风层数；主弹追加上次主弹实际伤害×max(0,1−距上发行动值/50)×20%的追击直接加伤。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "腐蚀",
+      "before": {
+        "name": "腐蚀",
+        "cost": 1,
+        "element": "poison",
+        "rarity": "common",
+        "attack": 5,
+        "defense": 0,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "毒附魔层数 +1；攻击力临时增加 11，持续到下一发飞弹造成伤害后",
+        "route_support": null
+      },
+      "after": {
+        "name": "腐蚀",
+        "cost": 1,
+        "element": "poison",
+        "rarity": "common",
+        "attack": 5,
+        "defense": 0,
+        "layers": 1,
+        "ability": false,
+        "kind": "normal",
+        "text": "攻击力临时增加 11，持续到下一发飞弹造成伤害后",
+        "route_support": null
+      }
+    },
+    {
+      "name": "蚀骨",
+      "before": {
+        "name": "蚀骨",
+        "cost": 3,
+        "element": "poison",
+        "rarity": "legendary",
+        "attack": 15,
+        "defense": 7,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "自然衰减保留最后1毒，主动消耗可清空；毒衰减按原间隔和延毒修正取整后最终×2。激活万毒之源后减攻/减防系数改为0.6/0.4。",
+        "route_support": null
+      },
+      "after": {
+        "name": "蚀骨",
+        "cost": 3,
+        "element": "poison",
+        "rarity": "legendary",
+        "attack": 16,
+        "defense": 7,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "自然衰减保留最后1毒，主动消耗可清空；毒衰减按原间隔和延毒修正取整后最终×2。激活万毒之源后减攻/减防系数改为0.6/0.4。",
+        "route_support": null
+      }
+    },
+    {
+      "name": "风痕",
+      "before": {
+        "name": "风痕",
+        "cost": 3,
+        "element": "wind",
+        "rarity": "legendary",
+        "attack": 23,
+        "defense": 2,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "激活天岚后，命中的主弹及加成副弹叠风痕，第三次真伤副弹引爆并清空。第k层伤害=攻击力×(8%+(k−1)×2%)，各层求和为一段真伤；不额外提高天岚真伤副弹本身的系数。",
+        "route_support": null
+      },
+      "after": {
+        "name": "风痕",
+        "cost": 3,
+        "element": "wind",
+        "rarity": "legendary",
+        "attack": 24,
+        "defense": 2,
+        "layers": 1,
+        "ability": true,
+        "kind": "route_legendary",
+        "text": "激活天岚后，命中的主弹及加成副弹叠风痕，第三次真伤副弹引爆并清空。第k层伤害=攻击力×(8%+(k−1)×2%)，各层求和为一段真伤；不额外提高天岚真伤副弹本身的系数。",
+        "route_support": null
+      }
+    }
+  ],
+  "description_cleanup": [
+    "寻毒",
+    "毒刺",
+    "毒瓶",
+    "毒甲",
+    "毒雾",
+    "腐蚀"
+  ],
+  "startup_order": "defer pre-specialization reward; grant 4 on specialization when route played first"
+}

@@ -7,7 +7,7 @@
   "Rarity": "epic",
   "CombatCost": 2,
   "BaseStudyCost": 3,
-  "Attack": 14,
+  "Attack": 16,
   "Defense": 0,
   "FirstEnchantmentLayers": 1,
   "RulesText": "下一发飞弹额外发射两段“固定 15 + 攻击力 15%”的加成副弹；若已打出「风痕」，每段副弹命中叠 1 层后，再额外叠 1 层，两段共 4 层；下一发",

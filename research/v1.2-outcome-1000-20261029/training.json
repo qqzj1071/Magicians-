@@ -1,0 +1,4032 @@
+{
+  "completed": 1000,
+  "attempted": 1000,
+  "battles": 28238,
+  "skipped": 0,
+  "batches": [
+    {
+      "round": 1,
+      "accepted": true,
+      "selected": "outcome-accepted-01",
+      "train": {
+        "composite": {
+          "games": 60,
+          "mean": 0.06354273466747958,
+          "low": -0.038196583291302405,
+          "high": 0.16528205262626156
+        },
+        "championship": {
+          "games": 60,
+          "mean": 0.08333333333333333,
+          "low": -0.04246730409210993,
+          "high": 0.2091339707587766
+        },
+        "win": {
+          "games": 60,
+          "mean": 0.04618375955799429,
+          "low": -0.02047607961304935,
+          "high": 0.11284359872903793
+        },
+        "normalized_score": {
+          "games": 60,
+          "mean": 0.06111111111111111,
+          "low": -0.06646614578152729,
+          "high": 0.18868836800374952
+        }
+      },
+      "validation": {
+        "composite": {
+          "games": 20,
+          "mean": 0.07782507368746808,
+          "low": -0.07990793512979075,
+          "high": 0.2355580825047269
+        },
+        "championship": {
+          "games": 20,
+          "mean": 0.05,
+          "low": -0.17370045761428854,
+          "high": 0.2737004576142886
+        },
+        "win": {
+          "games": 20,
+          "mean": 0.08347522106240428,
+          "low": -0.02358845429134264,
+          "high": 0.19053889641615118
+        },
+        "normalized_score": {
+          "games": 20,
+          "mean": 0.1,
+          "low": -0.07797851240302292,
+          "high": 0.27797851240302296
+        }
+      },
+      "validation_stages": {
+        "1-4": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.3,
+            "championship_rate": 0.275,
+            "battle_count": 160,
+            "win_rate": 0.565625,
+            "winner_time": 1330.159090909091,
+            "plays_per_battle": 42.8125,
+            "instant_draw_per_battle": 10.53125,
+            "immediate_fee_per_battle": 0.39375,
+            "discard_per_battle": 0.85,
+            "shuffle_per_battle": 5.45,
+            "unused_fee_per_stage": 0.0014058106841611997
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.3,
+            "championship_rate": 0.225,
+            "battle_count": 160,
+            "win_rate": 0.434375,
+            "winner_time": 1241.28125,
+            "plays_per_battle": 46.4875,
+            "instant_draw_per_battle": 9.06875,
+            "immediate_fee_per_battle": 0.175,
+            "discard_per_battle": 0.43125,
+            "shuffle_per_battle": 5.9125,
+            "unused_fee_per_stage": 0.003463203463203463
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.13125,
+            "low": -0.04423334566352202,
+            "high": 0.30673334566352206
+          }
+        },
+        "5-8": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.3,
+            "championship_rate": 0.275,
+            "battle_count": 160,
+            "win_rate": 0.559375,
+            "winner_time": 620.0674157303371,
+            "plays_per_battle": 21.26875,
+            "instant_draw_per_battle": 10.875,
+            "immediate_fee_per_battle": 1.275,
+            "discard_per_battle": 0.96875,
+            "shuffle_per_battle": 2.48125,
+            "unused_fee_per_stage": 0.00950734658599827
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.3,
+            "championship_rate": 0.225,
+            "battle_count": 160,
+            "win_rate": 0.440625,
+            "winner_time": 851.5428571428571,
+            "plays_per_battle": 24.58125,
+            "instant_draw_per_battle": 10.175,
+            "immediate_fee_per_battle": 0.80625,
+            "discard_per_battle": 1.09375,
+            "shuffle_per_battle": 2.54375,
+            "unused_fee_per_stage": 0.011424219345011425
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.11875,
+            "low": -0.053095047629359515,
+            "high": 0.2905950476293595
+          }
+        },
+        "9-12": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.3,
+            "championship_rate": 0.275,
+            "battle_count": 150,
+            "win_rate": 0.56,
+            "winner_time": 512.0361445783133,
+            "plays_per_battle": 16.326666666666668,
+            "instant_draw_per_battle": 9.88,
+            "immediate_fee_per_battle": 1.7466666666666666,
+            "discard_per_battle": 0.7266666666666667,
+            "shuffle_per_battle": 2.1333333333333333,
+            "unused_fee_per_stage": 0.0418552036199095
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.3,
+            "championship_rate": 0.225,
+            "battle_count": 130,
+            "win_rate": 0.5230769230769231,
+            "winner_time": 589.0298507462686,
+            "plays_per_battle": 17.615384615384617,
+            "instant_draw_per_battle": 8.638461538461538,
+            "immediate_fee_per_battle": 1.1923076923076923,
+            "discard_per_battle": 0.9307692307692308,
+            "shuffle_per_battle": 1.9384615384615385,
+            "unused_fee_per_stage": 0.056831922611850064
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.03294642857142857,
+            "low": -0.11033325512274672,
+            "high": 0.17622611226560386
+          }
+        },
+        "13+": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.3,
+            "championship_rate": 0.275,
+            "battle_count": 97,
+            "win_rate": 0.5876288659793815,
+            "winner_time": 481.8070175438597,
+            "plays_per_battle": 13.0,
+            "instant_draw_per_battle": 6.412371134020619,
+            "immediate_fee_per_battle": 2.845360824742268,
+            "discard_per_battle": 0.20618556701030927,
+            "shuffle_per_battle": 2.463917525773196,
+            "unused_fee_per_stage": 0.11516314779270634
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.3,
+            "championship_rate": 0.225,
+            "battle_count": 66,
+            "win_rate": 0.5757575757575758,
+            "winner_time": 503.0,
+            "plays_per_battle": 14.303030303030303,
+            "instant_draw_per_battle": 5.7727272727272725,
+            "immediate_fee_per_battle": 1.7424242424242424,
+            "discard_per_battle": 0.6212121212121212,
+            "shuffle_per_battle": 2.1666666666666665,
+            "unused_fee_per_stage": 0.14795918367346939
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": -0.014702380952380956,
+            "low": -0.26346462150460265,
+            "high": 0.2340598595998407
+          }
+        }
+      },
+      "gradient": {
+        "w.panel": 0.1903030632169574,
+        "w.layer": 0.42903278749091983,
+        "w.draw": -0.22773427669572552,
+        "w.fee": 0.11520700099080473,
+        "w.search": -0.2515979437041645,
+        "w.recycle": -0.4047159341693743,
+        "w.discard": -0.4507517563113018,
+        "w.future": 0.02279785439386399,
+        "w.passive": 0.4181225811931408,
+        "w.tempo": 0.019056116835267478,
+        "w.protection": 0.10333301110857598,
+        "w.thinning": -0.4522893891993796,
+        "w.lookahead": -0.14699510009573172,
+        "c.dilution": 0.289417892182358,
+        "c.buy_margin": -0.1587771776608996,
+        "c.point_cost": -0.1587771776608996,
+        "c.delete_margin": -0.5235128884647862,
+        "c.starter_bias": 0.5235128884647862,
+        "c.core_weight": 0.4181225811931408,
+        "c.first_layer": 0.4363571076150772,
+        "c.generic_tax": 0.4534941871451484,
+        "c.flow_scale": -0.23005453263038073,
+        "fire.layer": 0.5191083396703189,
+        "fire.recycle": -0.14099545529966653,
+        "fire.protection": -0.2546440357453243,
+        "water.layer": 0.42911707965908885,
+        "water.recycle": -0.42632908151033294,
+        "water.protection": 0.376548896978486,
+        "earth.layer": 0.1459929685257419,
+        "earth.recycle": -0.4394044259361507,
+        "earth.protection": 0.27374888592911084,
+        "wind.layer": 0.5036310910859567,
+        "wind.recycle": -0.49062588382849287,
+        "wind.protection": -0.3078738560093408,
+        "poison.layer": 0.4339556578004639,
+        "poison.recycle": -0.57858788264061,
+        "poison.protection": 0.09642517213506326
+      }
+    },
+    {
+      "round": 2,
+      "accepted": false,
+      "selected": "outcome-accepted-01",
+      "train": {
+        "composite": {
+          "games": 60,
+          "mean": 0.056679274545442984,
+          "low": -0.04516098989993532,
+          "high": 0.15851953899082127
+        },
+        "championship": {
+          "games": 60,
+          "mean": 0.03333333333333333,
+          "low": -0.09396796118360151,
+          "high": 0.16063462785026816
+        },
+        "win": {
+          "games": 60,
+          "mean": 0.06448226808077341,
+          "low": -0.0033148910120078257,
+          "high": 0.13227942717355465
+        },
+        "normalized_score": {
+          "games": 60,
+          "mean": 0.07222222222222222,
+          "low": -0.0549764194957886,
+          "high": 0.19942086394023303
+        }
+      },
+      "validation": {
+        "composite": {
+          "games": 20,
+          "mean": -0.04243375376421492,
+          "low": -0.19998058429206617,
+          "high": 0.11511307676363632
+        },
+        "championship": {
+          "games": 20,
+          "mean": -0.1,
+          "low": -0.3202849828840144,
+          "high": 0.12028498288401443
+        },
+        "win": {
+          "games": 20,
+          "mean": 0.006032072040688554,
+          "low": -0.10513142723912049,
+          "high": 0.11719557132049759
+        },
+        "normalized_score": {
+          "games": 20,
+          "mean": -0.03333333333333333,
+          "low": -0.21004507865795094,
+          "high": 0.1433784119912843
+        }
+      },
+      "validation_stages": {
+        "1-4": {
+          "selected": {
+            "players": 40,
+            "mean_score": -0.1,
+            "championship_rate": 0.2,
+            "battle_count": 160,
+            "win_rate": 0.51875,
+            "winner_time": 1241.3164556962026,
+            "plays_per_battle": 40.0125,
+            "instant_draw_per_battle": 11.225,
+            "immediate_fee_per_battle": 0.5,
+            "discard_per_battle": 1.0375,
+            "shuffle_per_battle": 5.66875,
+            "unused_fee_per_stage": 0.0
+          },
+          "control": {
+            "players": 40,
+            "mean_score": 0.1,
+            "championship_rate": 0.3,
+            "battle_count": 160,
+            "win_rate": 0.48125,
+            "winner_time": 1044.380281690141,
+            "plays_per_battle": 42.01875,
+            "instant_draw_per_battle": 9.4625,
+            "immediate_fee_per_battle": 0.125,
+            "discard_per_battle": 1.00625,
+            "shuffle_per_battle": 4.76875,
+            "unused_fee_per_stage": 0.009615384615384616
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.0375,
+            "low": -0.08318123518723111,
+            "high": 0.1581812351872311
+          }
+        },
+        "5-8": {
+          "selected": {
+            "players": 40,
+            "mean_score": -0.1,
+            "championship_rate": 0.2,
+            "battle_count": 160,
+            "win_rate": 0.54375,
+            "winner_time": 685.6395348837209,
+            "plays_per_battle": 21.49375,
+            "instant_draw_per_battle": 11.475,
+            "immediate_fee_per_battle": 1.29375,
+            "discard_per_battle": 1.15,
+            "shuffle_per_battle": 2.66875,
+            "unused_fee_per_stage": 0.005847953216374269
+          },
+          "control": {
+            "players": 40,
+            "mean_score": 0.1,
+            "championship_rate": 0.3,
+            "battle_count": 160,
+            "win_rate": 0.45625,
+            "winner_time": 731.5,
+            "plays_per_battle": 22.5625,
+            "instant_draw_per_battle": 7.7125,
+            "immediate_fee_per_battle": 0.4625,
+            "discard_per_battle": 0.98125,
+            "shuffle_per_battle": 1.85625,
+            "unused_fee_per_stage": 0.02564102564102564
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.0875,
+            "low": -0.07157632229778721,
+            "high": 0.2465763222977872
+          }
+        },
+        "9-12": {
+          "selected": {
+            "players": 40,
+            "mean_score": -0.1,
+            "championship_rate": 0.2,
+            "battle_count": 138,
+            "win_rate": 0.5217391304347826,
+            "winner_time": 529.1666666666666,
+            "plays_per_battle": 18.108695652173914,
+            "instant_draw_per_battle": 11.31159420289855,
+            "immediate_fee_per_battle": 2.1739130434782608,
+            "discard_per_battle": 1.4202898550724639,
+            "shuffle_per_battle": 2.9565217391304346,
+            "unused_fee_per_stage": 0.03986710963455149
+          },
+          "control": {
+            "players": 40,
+            "mean_score": 0.1,
+            "championship_rate": 0.3,
+            "battle_count": 134,
+            "win_rate": 0.6044776119402985,
+            "winner_time": 600.8395061728395,
+            "plays_per_battle": 17.402985074626866,
+            "instant_draw_per_battle": 6.731343283582089,
+            "immediate_fee_per_battle": 0.47761194029850745,
+            "discard_per_battle": 0.7985074626865671,
+            "shuffle_per_battle": 1.462686567164179,
+            "unused_fee_per_stage": 0.05263157894736842
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": -0.09029761904761904,
+            "low": -0.23860218845469275,
+            "high": 0.05800695035945466
+          }
+        },
+        "13+": {
+          "selected": {
+            "players": 40,
+            "mean_score": -0.1,
+            "championship_rate": 0.2,
+            "battle_count": 78,
+            "win_rate": 0.5512820512820513,
+            "winner_time": 522.8604651162791,
+            "plays_per_battle": 15.371794871794872,
+            "instant_draw_per_battle": 6.051282051282051,
+            "immediate_fee_per_battle": 2.9358974358974357,
+            "discard_per_battle": 0.782051282051282,
+            "shuffle_per_battle": 2.3076923076923075,
+            "unused_fee_per_stage": 0.13825757575757575
+          },
+          "control": {
+            "players": 40,
+            "mean_score": 0.1,
+            "championship_rate": 0.3,
+            "battle_count": 76,
+            "win_rate": 0.6052631578947368,
+            "winner_time": 646.3695652173913,
+            "plays_per_battle": 15.81578947368421,
+            "instant_draw_per_battle": 5.2368421052631575,
+            "immediate_fee_per_battle": 1.355263157894737,
+            "discard_per_battle": 0.47368421052631576,
+            "shuffle_per_battle": 1.4605263157894737,
+            "unused_fee_per_stage": 0.12955465587044535
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": -0.11446428571428573,
+            "low": -0.3831187687811607,
+            "high": 0.1541901973525892
+          }
+        }
+      },
+      "gradient": {
+        "w.panel": 0.2151230036498517,
+        "w.layer": 0.4404966157103379,
+        "w.draw": -0.21036074074663824,
+        "w.fee": 0.13541123306515507,
+        "w.search": -0.1774522091048389,
+        "w.recycle": -0.37129374098728857,
+        "w.discard": -0.3696741409617315,
+        "w.future": 0.15648066537533095,
+        "w.passive": 0.40477035284227775,
+        "w.tempo": 0.0740681086193463,
+        "w.protection": 0.07834314968619813,
+        "w.thinning": -0.3706587198260647,
+        "w.lookahead": -0.10752587162716953,
+        "c.dilution": 0.2446848669790757,
+        "c.buy_margin": -0.21399442528073043,
+        "c.point_cost": -0.21399442528073043,
+        "c.delete_margin": -0.48157514985801303,
+        "c.starter_bias": 0.48157514985801303,
+        "c.core_weight": 0.40477035284227775,
+        "c.first_layer": 0.4288637624343369,
+        "c.generic_tax": 0.3972968362524266,
+        "c.flow_scale": -0.20361792535648085,
+        "fire.layer": 0.6006755866185828,
+        "fire.recycle": 0.20691531815293823,
+        "fire.protection": -0.30285112556096794,
+        "water.layer": 0.4864940122366225,
+        "water.recycle": -0.4769034103434855,
+        "water.protection": 0.1657187826029365,
+        "earth.layer": 0.44259698374081796,
+        "earth.recycle": -0.36785960551806657,
+        "earth.protection": 0.11881029259100859,
+        "wind.layer": 0.3374779074560122,
+        "wind.recycle": -0.48505546365553437,
+        "wind.protection": -0.2997840395416014,
+        "poison.layer": 0.496706806473067,
+        "poison.recycle": -0.5092997015335043,
+        "poison.protection": -0.1577362627427427
+      }
+    },
+    {
+      "round": 3,
+      "accepted": true,
+      "selected": "outcome-accepted-03",
+      "train": {
+        "composite": {
+          "games": 60,
+          "mean": 0.12375102173216952,
+          "low": 0.03439560516748537,
+          "high": 0.21310643829685366
+        },
+        "championship": {
+          "games": 60,
+          "mean": 0.1,
+          "low": -0.025007389612083014,
+          "high": 0.22500738961208303
+        },
+        "win": {
+          "games": 60,
+          "mean": 0.11014195408539748,
+          "low": 0.04916425685237268,
+          "high": 0.17111965131842227
+        },
+        "normalized_score": {
+          "games": 60,
+          "mean": 0.1611111111111111,
+          "low": 0.05752834107185183,
+          "high": 0.26469388115037035
+        }
+      },
+      "validation": {
+        "composite": {
+          "games": 20,
+          "mean": 0.11767472667181914,
+          "low": -0.04338846568817992,
+          "high": 0.2787379190318182
+        },
+        "championship": {
+          "games": 20,
+          "mean": 0.1,
+          "low": -0.12028498288401443,
+          "high": 0.3202849828840144
+        },
+        "win": {
+          "games": 20,
+          "mean": 0.08635751334879076,
+          "low": -0.021107163954783528,
+          "high": 0.19382219065236506
+        },
+        "normalized_score": {
+          "games": 20,
+          "mean": 0.16666666666666666,
+          "low": -0.019938586388643265,
+          "high": 0.3532719197219766
+        }
+      },
+      "validation_stages": {
+        "1-4": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.5,
+            "championship_rate": 0.3,
+            "battle_count": 160,
+            "win_rate": 0.546875,
+            "winner_time": 1161.8588235294117,
+            "plays_per_battle": 37.5375,
+            "instant_draw_per_battle": 8.925,
+            "immediate_fee_per_battle": 0.4375,
+            "discard_per_battle": 0.6625,
+            "shuffle_per_battle": 5.4875,
+            "unused_fee_per_stage": 0.0005260389268805891
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.5,
+            "championship_rate": 0.2,
+            "battle_count": 160,
+            "win_rate": 0.453125,
+            "winner_time": 1146.0285714285715,
+            "plays_per_battle": 42.8875,
+            "instant_draw_per_battle": 10.35,
+            "immediate_fee_per_battle": 0.23125,
+            "discard_per_battle": 0.68125,
+            "shuffle_per_battle": 4.76875,
+            "unused_fee_per_stage": 0.005828071879553181
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.09375,
+            "low": -0.05375953359020563,
+            "high": 0.24125953359020563
+          }
+        },
+        "5-8": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.5,
+            "championship_rate": 0.3,
+            "battle_count": 160,
+            "win_rate": 0.5625,
+            "winner_time": 678.6477272727273,
+            "plays_per_battle": 20.39375,
+            "instant_draw_per_battle": 9.95,
+            "immediate_fee_per_battle": 1.25,
+            "discard_per_battle": 0.76875,
+            "shuffle_per_battle": 2.9,
+            "unused_fee_per_stage": 0.005199306759098787
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.5,
+            "championship_rate": 0.2,
+            "battle_count": 160,
+            "win_rate": 0.4375,
+            "winner_time": 624.2388059701492,
+            "plays_per_battle": 20.5,
+            "instant_draw_per_battle": 8.4625,
+            "immediate_fee_per_battle": 0.725,
+            "discard_per_battle": 0.5625,
+            "shuffle_per_battle": 2.0625,
+            "unused_fee_per_stage": 0.009208103130755065
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.125,
+            "low": -0.011525975935948368,
+            "high": 0.2615259759359484
+          }
+        },
+        "9-12": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.5,
+            "championship_rate": 0.3,
+            "battle_count": 146,
+            "win_rate": 0.5787671232876712,
+            "winner_time": 530.6547619047619,
+            "plays_per_battle": 15.246575342465754,
+            "instant_draw_per_battle": 7.876712328767123,
+            "immediate_fee_per_battle": 1.5342465753424657,
+            "discard_per_battle": 0.5273972602739726,
+            "shuffle_per_battle": 2.143835616438356,
+            "unused_fee_per_stage": 0.05658198614318707
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.5,
+            "championship_rate": 0.2,
+            "battle_count": 125,
+            "win_rate": 0.548,
+            "winner_time": 541.5294117647059,
+            "plays_per_battle": 17.368,
+            "instant_draw_per_battle": 8.672,
+            "immediate_fee_per_battle": 1.424,
+            "discard_per_battle": 0.432,
+            "shuffle_per_battle": 1.68,
+            "unused_fee_per_stage": 0.038821954484605084
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.042708333333333334,
+            "low": -0.10878133776526468,
+            "high": 0.19419800443193136
+          }
+        },
+        "13+": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.5,
+            "championship_rate": 0.3,
+            "battle_count": 106,
+            "win_rate": 0.5943396226415094,
+            "winner_time": 447.73015873015873,
+            "plays_per_battle": 13.39622641509434,
+            "instant_draw_per_battle": 5.5,
+            "immediate_fee_per_battle": 2.7358490566037736,
+            "discard_per_battle": 0.1509433962264151,
+            "shuffle_per_battle": 2.9339622641509435,
+            "unused_fee_per_stage": 0.13949275362318841
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.5,
+            "championship_rate": 0.2,
+            "battle_count": 75,
+            "win_rate": 0.56,
+            "winner_time": 462.0952380952381,
+            "plays_per_battle": 13.8,
+            "instant_draw_per_battle": 6.24,
+            "immediate_fee_per_battle": 1.8933333333333333,
+            "discard_per_battle": 0.16,
+            "shuffle_per_battle": 1.96,
+            "unused_fee_per_stage": 0.09254498714652956
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.10285714285714284,
+            "low": -0.09948515527657681,
+            "high": 0.3051994409908625
+          }
+        }
+      },
+      "gradient": {
+        "w.panel": 0.23462429737253673,
+        "w.layer": 0.479748041679886,
+        "w.draw": -0.17415056174274768,
+        "w.fee": 0.1548883369800308,
+        "w.search": -0.25495706148041203,
+        "w.recycle": -0.26623446730426603,
+        "w.discard": -0.414636859576478,
+        "w.future": 0.13305519012141462,
+        "w.passive": 0.36909280854805954,
+        "w.tempo": 0.016276394446432148,
+        "w.protection": 0.048144140377917664,
+        "w.thinning": -0.4234495663745935,
+        "w.lookahead": -0.1310828509816762,
+        "c.dilution": 0.3038026434151066,
+        "c.buy_margin": -0.18034607765374674,
+        "c.point_cost": -0.18034607765374674,
+        "c.delete_margin": -0.5066044198658605,
+        "c.starter_bias": 0.5066044198658605,
+        "c.core_weight": 0.36909280854805954,
+        "c.first_layer": 0.48398905180663143,
+        "c.generic_tax": 0.46731220852166455,
+        "c.flow_scale": -0.14599692486478666,
+        "fire.layer": 0.5805557917350663,
+        "fire.recycle": 0.004731445566252057,
+        "fire.protection": -0.1942771237510206,
+        "water.layer": 0.506337945877091,
+        "water.recycle": -0.32026522938029445,
+        "water.protection": 0.10300512414781356,
+        "earth.layer": 0.18722176133859608,
+        "earth.recycle": -0.02257857387833029,
+        "earth.protection": 0.004630075771049031,
+        "wind.layer": 0.47155949649537704,
+        "wind.recycle": -0.5259523660266799,
+        "wind.protection": -0.3910645672100803,
+        "poison.layer": 0.6703973283647252,
+        "poison.recycle": -0.47644473288074346,
+        "poison.protection": -0.17057915949259267
+      }
+    },
+    {
+      "round": 4,
+      "accepted": false,
+      "selected": "outcome-accepted-03",
+      "train": {
+        "composite": {
+          "games": 60,
+          "mean": 0.06458144391475872,
+          "low": -0.034930888532276466,
+          "high": 0.1640937763617939
+        },
+        "championship": {
+          "games": 60,
+          "mean": 0.1,
+          "low": -0.025007389612083014,
+          "high": 0.22500738961208303
+        },
+        "win": {
+          "games": 60,
+          "mean": 0.03541099841094282,
+          "low": -0.03545326379545109,
+          "high": 0.10627526061733673
+        },
+        "normalized_score": {
+          "games": 60,
+          "mean": 0.058333333333333334,
+          "low": -0.06065115662743467,
+          "high": 0.17731782329410134
+        }
+      },
+      "validation": {
+        "composite": {
+          "games": 20,
+          "mean": -0.12306893587235675,
+          "low": -0.27001871921456067,
+          "high": 0.023880847469847158
+        },
+        "championship": {
+          "games": 20,
+          "mean": -0.2,
+          "low": -0.40605773335083595,
+          "high": 0.006057733350835898
+        },
+        "win": {
+          "games": 20,
+          "mean": -0.035873474283736904,
+          "low": -0.14437602247327014,
+          "high": 0.07262907390579634
+        },
+        "normalized_score": {
+          "games": 20,
+          "mean": -0.13333333333333333,
+          "low": -0.30023814564942264,
+          "high": 0.033571478982755976
+        }
+      },
+      "validation_stages": {
+        "1-4": {
+          "selected": {
+            "players": 40,
+            "mean_score": -0.4,
+            "championship_rate": 0.15,
+            "battle_count": 160,
+            "win_rate": 0.471875,
+            "winner_time": 1094.1466666666668,
+            "plays_per_battle": 37.56875,
+            "instant_draw_per_battle": 8.66875,
+            "immediate_fee_per_battle": 0.29375,
+            "discard_per_battle": 1.31875,
+            "shuffle_per_battle": 4.98125,
+            "unused_fee_per_stage": 0.0010706638115631692
+          },
+          "control": {
+            "players": 40,
+            "mean_score": 0.4,
+            "championship_rate": 0.35,
+            "battle_count": 160,
+            "win_rate": 0.528125,
+            "winner_time": 1197.7831325301204,
+            "plays_per_battle": 42.1375,
+            "instant_draw_per_battle": 8.6875,
+            "immediate_fee_per_battle": 0.45625,
+            "discard_per_battle": 1.3,
+            "shuffle_per_battle": 4.83125,
+            "unused_fee_per_stage": 0.01031434184675835
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": -0.05625,
+            "low": -0.22901180552242564,
+            "high": 0.11651180552242565
+          }
+        },
+        "5-8": {
+          "selected": {
+            "players": 40,
+            "mean_score": -0.4,
+            "championship_rate": 0.15,
+            "battle_count": 160,
+            "win_rate": 0.496875,
+            "winner_time": 657.8974358974359,
+            "plays_per_battle": 19.59375,
+            "instant_draw_per_battle": 8.55625,
+            "immediate_fee_per_battle": 0.6875,
+            "discard_per_battle": 1.125,
+            "shuffle_per_battle": 2.225,
+            "unused_fee_per_stage": 0.01008249312557287
+          },
+          "control": {
+            "players": 40,
+            "mean_score": 0.4,
+            "championship_rate": 0.35,
+            "battle_count": 160,
+            "win_rate": 0.503125,
+            "winner_time": 679.746835443038,
+            "plays_per_battle": 22.30625,
+            "instant_draw_per_battle": 9.18125,
+            "immediate_fee_per_battle": 0.9375,
+            "discard_per_battle": 1.00625,
+            "shuffle_per_battle": 2.125,
+            "unused_fee_per_stage": 0.008396305625524769
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": -0.00625,
+            "low": -0.1312707745894552,
+            "high": 0.1187707745894552
+          }
+        },
+        "9-12": {
+          "selected": {
+            "players": 40,
+            "mean_score": -0.4,
+            "championship_rate": 0.15,
+            "battle_count": 126,
+            "win_rate": 0.5634920634920635,
+            "winner_time": 559.0704225352113,
+            "plays_per_battle": 16.071428571428573,
+            "instant_draw_per_battle": 7.920634920634921,
+            "immediate_fee_per_battle": 1.1428571428571428,
+            "discard_per_battle": 0.6031746031746031,
+            "shuffle_per_battle": 1.880952380952381,
+            "unused_fee_per_stage": 0.032722513089005235
+          },
+          "control": {
+            "players": 40,
+            "mean_score": 0.4,
+            "championship_rate": 0.35,
+            "battle_count": 140,
+            "win_rate": 0.5714285714285714,
+            "winner_time": 541.6835443037975,
+            "plays_per_battle": 18.22142857142857,
+            "instant_draw_per_battle": 7.7214285714285715,
+            "immediate_fee_per_battle": 1.2142857142857142,
+            "discard_per_battle": 0.7785714285714286,
+            "shuffle_per_battle": 1.4785714285714286,
+            "unused_fee_per_stage": 0.03257328990228013
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.002976190476190477,
+            "low": -0.12808248684272955,
+            "high": 0.13403486779511048
+          }
+        },
+        "13+": {
+          "selected": {
+            "players": 40,
+            "mean_score": -0.4,
+            "championship_rate": 0.15,
+            "battle_count": 72,
+            "win_rate": 0.5,
+            "winner_time": 670.3055555555555,
+            "plays_per_battle": 14.472222222222221,
+            "instant_draw_per_battle": 5.263888888888889,
+            "immediate_fee_per_battle": 2.3472222222222223,
+            "discard_per_battle": 0.20833333333333334,
+            "shuffle_per_battle": 3.1944444444444446,
+            "unused_fee_per_stage": 0.16594827586206898
+          },
+          "control": {
+            "players": 40,
+            "mean_score": 0.4,
+            "championship_rate": 0.35,
+            "battle_count": 84,
+            "win_rate": 0.6309523809523809,
+            "winner_time": 497.60377358490564,
+            "plays_per_battle": 16.38095238095238,
+            "instant_draw_per_battle": 5.238095238095238,
+            "immediate_fee_per_battle": 2.4285714285714284,
+            "discard_per_battle": 0.42857142857142855,
+            "shuffle_per_battle": 1.369047619047619,
+            "unused_fee_per_stage": 0.09854014598540146
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": -0.11220238095238096,
+            "low": -0.38967351308447623,
+            "high": 0.16526875117971435
+          }
+        }
+      },
+      "gradient": {
+        "w.panel": 0.2685491622465803,
+        "w.layer": 0.4985595505377225,
+        "w.draw": -0.20080640608231112,
+        "w.fee": 0.14049838157596545,
+        "w.search": -0.23817426178500692,
+        "w.recycle": -0.3512525711779717,
+        "w.discard": -0.3757353376480009,
+        "w.future": -0.014138862541135505,
+        "w.passive": 0.479519347935634,
+        "w.tempo": 0.0014079852286560809,
+        "w.protection": 0.09531449604720037,
+        "w.thinning": -0.3786373904488441,
+        "w.lookahead": -0.12131413635642374,
+        "c.dilution": 0.26778194445306963,
+        "c.buy_margin": -0.20942961464981527,
+        "c.point_cost": -0.20942961464981527,
+        "c.delete_margin": -0.5112529954101092,
+        "c.starter_bias": 0.5112529954101092,
+        "c.core_weight": 0.479519347935634,
+        "c.first_layer": 0.4757359237519128,
+        "c.generic_tax": 0.467567423754893,
+        "c.flow_scale": -0.1907713167364041,
+        "fire.layer": 0.471005545664463,
+        "fire.recycle": 0.04123358982344631,
+        "fire.protection": -0.2608539589565912,
+        "water.layer": 0.5687429071185996,
+        "water.recycle": -0.41676077023372327,
+        "water.protection": 0.19798115281241713,
+        "earth.layer": 0.2826202806284988,
+        "earth.recycle": -0.27329919203699293,
+        "earth.protection": 0.18523946125456756,
+        "wind.layer": 0.5718379412542374,
+        "wind.recycle": -0.5418536452698827,
+        "wind.protection": -0.43334149444720665,
+        "poison.layer": 0.47764670958400146,
+        "poison.recycle": -0.3112058684457278,
+        "poison.protection": -0.19913104528182665
+      }
+    },
+    {
+      "round": 5,
+      "accepted": false,
+      "selected": "outcome-accepted-03",
+      "train": {
+        "composite": {
+          "games": 60,
+          "mean": 0.13186906573984372,
+          "low": 0.05049903730752099,
+          "high": 0.21323909417216647
+        },
+        "championship": {
+          "games": 60,
+          "mean": 0.1,
+          "low": -0.025007389612083014,
+          "high": 0.22500738961208303
+        },
+        "win": {
+          "games": 60,
+          "mean": 0.12060719721953118,
+          "low": 0.06505342932415961,
+          "high": 0.17616096511490276
+        },
+        "normalized_score": {
+          "games": 60,
+          "mean": 0.175,
+          "low": 0.0866661265695366,
+          "high": 0.2633338734304634
+        }
+      },
+      "validation": {
+        "composite": {
+          "games": 20,
+          "mean": 0.0045619724440581055,
+          "low": -0.1627086629192322,
+          "high": 0.17183260780734838
+        },
+        "championship": {
+          "games": 20,
+          "mean": 0.1,
+          "low": -0.12028498288401443,
+          "high": 0.3202849828840144
+        },
+        "win": {
+          "games": 20,
+          "mean": -0.03631408266782567,
+          "low": -0.1463462844616812,
+          "high": 0.07371811912602984
+        },
+        "normalized_score": {
+          "games": 20,
+          "mean": -0.05,
+          "low": -0.2580919162630665,
+          "high": 0.1580919162630665
+        }
+      },
+      "validation_stages": {
+        "1-4": {
+          "selected": {
+            "players": 40,
+            "mean_score": -0.15,
+            "championship_rate": 0.3,
+            "battle_count": 160,
+            "win_rate": 0.4625,
+            "winner_time": 1073.5753424657535,
+            "plays_per_battle": 34.4875,
+            "instant_draw_per_battle": 9.1625,
+            "immediate_fee_per_battle": 0.2125,
+            "discard_per_battle": 0.95625,
+            "shuffle_per_battle": 4.65625,
+            "unused_fee_per_stage": 0.0011806375442739079
+          },
+          "control": {
+            "players": 40,
+            "mean_score": 0.15,
+            "championship_rate": 0.2,
+            "battle_count": 160,
+            "win_rate": 0.5375,
+            "winner_time": 963.1529411764706,
+            "plays_per_battle": 34.8375,
+            "instant_draw_per_battle": 7.56875,
+            "immediate_fee_per_battle": 0.33125,
+            "discard_per_battle": 0.76875,
+            "shuffle_per_battle": 4.0,
+            "unused_fee_per_stage": 0.007523148148148148
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": -0.075,
+            "low": -0.23732010285073651,
+            "high": 0.08732010285073653
+          }
+        },
+        "5-8": {
+          "selected": {
+            "players": 40,
+            "mean_score": -0.15,
+            "championship_rate": 0.3,
+            "battle_count": 160,
+            "win_rate": 0.45,
+            "winner_time": 604.7361111111111,
+            "plays_per_battle": 19.0375,
+            "instant_draw_per_battle": 9.8375,
+            "immediate_fee_per_battle": 0.9375,
+            "discard_per_battle": 0.8,
+            "shuffle_per_battle": 2.05,
+            "unused_fee_per_stage": 0.0137524557956778
+          },
+          "control": {
+            "players": 40,
+            "mean_score": 0.15,
+            "championship_rate": 0.2,
+            "battle_count": 160,
+            "win_rate": 0.55,
+            "winner_time": 665.5795454545455,
+            "plays_per_battle": 21.54375,
+            "instant_draw_per_battle": 7.975,
+            "immediate_fee_per_battle": 0.8125,
+            "discard_per_battle": 0.875,
+            "shuffle_per_battle": 1.9375,
+            "unused_fee_per_stage": 0.021885521885521887
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": -0.1,
+            "low": -0.24828386717090264,
+            "high": 0.048283867170902633
+          }
+        },
+        "9-12": {
+          "selected": {
+            "players": 40,
+            "mean_score": -0.15,
+            "championship_rate": 0.3,
+            "battle_count": 132,
+            "win_rate": 0.5568181818181818,
+            "winner_time": 514.0410958904109,
+            "plays_per_battle": 16.40909090909091,
+            "instant_draw_per_battle": 9.295454545454545,
+            "immediate_fee_per_battle": 1.6893939393939394,
+            "discard_per_battle": 0.5454545454545454,
+            "shuffle_per_battle": 1.4393939393939394,
+            "unused_fee_per_stage": 0.038944723618090454
+          },
+          "control": {
+            "players": 40,
+            "mean_score": 0.15,
+            "championship_rate": 0.2,
+            "battle_count": 143,
+            "win_rate": 0.548951048951049,
+            "winner_time": 581.0,
+            "plays_per_battle": 17.132867132867133,
+            "instant_draw_per_battle": 6.979020979020979,
+            "immediate_fee_per_battle": 1.0909090909090908,
+            "discard_per_battle": 0.8391608391608392,
+            "shuffle_per_battle": 1.5734265734265733,
+            "unused_fee_per_stage": 0.03824521934758155
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": -0.02252976190476191,
+            "low": -0.20589477331267944,
+            "high": 0.16083524950315561
+          }
+        },
+        "13+": {
+          "selected": {
+            "players": 40,
+            "mean_score": -0.15,
+            "championship_rate": 0.3,
+            "battle_count": 64,
+            "win_rate": 0.6328125,
+            "winner_time": 494.6,
+            "plays_per_battle": 13.671875,
+            "instant_draw_per_battle": 5.671875,
+            "immediate_fee_per_battle": 2.6875,
+            "discard_per_battle": 0.25,
+            "shuffle_per_battle": 1.9375,
+            "unused_fee_per_stage": 0.13019390581717452
+          },
+          "control": {
+            "players": 40,
+            "mean_score": 0.15,
+            "championship_rate": 0.2,
+            "battle_count": 76,
+            "win_rate": 0.48026315789473684,
+            "winner_time": 531.0,
+            "plays_per_battle": 14.368421052631579,
+            "instant_draw_per_battle": 4.473684210526316,
+            "immediate_fee_per_battle": 1.4078947368421053,
+            "discard_per_battle": 0.3157894736842105,
+            "shuffle_per_battle": 0.8289473684210527,
+            "unused_fee_per_stage": 0.1210762331838565
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.1087797619047619,
+            "low": -0.1410051914750234,
+            "high": 0.35856471528454725
+          }
+        }
+      },
+      "gradient": {
+        "w.panel": 0.22533334008367992,
+        "w.layer": 0.4720621990665463,
+        "w.draw": -0.273727275280644,
+        "w.fee": 0.05661022608505667,
+        "w.search": -0.2337379925630542,
+        "w.recycle": -0.30071045647177413,
+        "w.discard": -0.41432876461793305,
+        "w.future": 0.15318523798612324,
+        "w.passive": 0.43223633796715527,
+        "w.tempo": 0.0010504209172469867,
+        "w.protection": 0.07716074484230331,
+        "w.thinning": -0.4072540492031258,
+        "w.lookahead": -0.209346428599592,
+        "c.dilution": 0.3248435096112259,
+        "c.buy_margin": -0.1436669087940831,
+        "c.point_cost": -0.1436669087940831,
+        "c.delete_margin": -0.5399800465611988,
+        "c.starter_bias": 0.5399800465611988,
+        "c.core_weight": 0.43223633796715527,
+        "c.first_layer": 0.4789783557967862,
+        "c.generic_tax": 0.45913558886727074,
+        "c.flow_scale": -0.2524515625011785,
+        "fire.layer": 0.4915591847145941,
+        "fire.recycle": 0.019177002313472254,
+        "fire.protection": -0.3260780574842589,
+        "water.layer": 0.6017908017735829,
+        "water.recycle": -0.24097074435529842,
+        "water.protection": -0.04381716070392239,
+        "earth.layer": 0.3825214111492973,
+        "earth.recycle": -0.3611707410501506,
+        "earth.protection": 0.0770246623762802,
+        "wind.layer": 0.3945820729257734,
+        "wind.recycle": -0.5177178125219734,
+        "wind.protection": -0.12774083809039313,
+        "poison.layer": 0.47192862263755997,
+        "poison.recycle": -0.07972856160771855,
+        "poison.protection": -0.1785503513407266
+      }
+    },
+    {
+      "round": 6,
+      "accepted": true,
+      "selected": "outcome-accepted-06",
+      "train": {
+        "composite": {
+          "games": 60,
+          "mean": 0.17304157605922205,
+          "low": 0.08483807128840529,
+          "high": 0.26124508083003883
+        },
+        "championship": {
+          "games": 60,
+          "mean": 0.18333333333333332,
+          "low": 0.064634201102019,
+          "high": 0.30203246556464763
+        },
+        "win": {
+          "games": 60,
+          "mean": 0.13856917262211058,
+          "low": 0.0789657364889296,
+          "high": 0.19817260875529155
+        },
+        "normalized_score": {
+          "games": 60,
+          "mean": 0.19722222222222222,
+          "low": 0.08893712600306039,
+          "high": 0.305507318441384
+        }
+      },
+      "validation": {
+        "composite": {
+          "games": 20,
+          "mean": 0.16435892871048788,
+          "low": 0.022306849322769412,
+          "high": 0.3064110080982063
+        },
+        "championship": {
+          "games": 20,
+          "mean": 0.2,
+          "low": -0.006057733350835898,
+          "high": 0.40605773335083595
+        },
+        "win": {
+          "games": 20,
+          "mean": 0.13474345279813027,
+          "low": 0.03567887350056091,
+          "high": 0.2338080320956996
+        },
+        "normalized_score": {
+          "games": 20,
+          "mean": 0.15833333333333333,
+          "low": -0.0014805020761958776,
+          "high": 0.31814716874286253
+        }
+      },
+      "validation_stages": {
+        "1-4": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.475,
+            "championship_rate": 0.35,
+            "battle_count": 160,
+            "win_rate": 0.55,
+            "winner_time": 1101.8720930232557,
+            "plays_per_battle": 37.125,
+            "instant_draw_per_battle": 8.83125,
+            "immediate_fee_per_battle": 0.4375,
+            "discard_per_battle": 1.025,
+            "shuffle_per_battle": 5.425,
+            "unused_fee_per_stage": 0.0015957446808510637
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.475,
+            "championship_rate": 0.15,
+            "battle_count": 160,
+            "win_rate": 0.45,
+            "winner_time": 1054.7826086956522,
+            "plays_per_battle": 38.20625,
+            "instant_draw_per_battle": 8.90625,
+            "immediate_fee_per_battle": 0.4375,
+            "discard_per_battle": 0.7625,
+            "shuffle_per_battle": 4.2,
+            "unused_fee_per_stage": 0.003723404255319149
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.1,
+            "low": 0.0016781600531890067,
+            "high": 0.19832183994681102
+          }
+        },
+        "5-8": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.475,
+            "championship_rate": 0.35,
+            "battle_count": 160,
+            "win_rate": 0.5625,
+            "winner_time": 584.5222222222222,
+            "plays_per_battle": 18.29375,
+            "instant_draw_per_battle": 8.50625,
+            "immediate_fee_per_battle": 1.025,
+            "discard_per_battle": 0.90625,
+            "shuffle_per_battle": 1.99375,
+            "unused_fee_per_stage": 0.0058309037900874635
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.475,
+            "championship_rate": 0.15,
+            "battle_count": 160,
+            "win_rate": 0.4375,
+            "winner_time": 639.2,
+            "plays_per_battle": 20.25625,
+            "instant_draw_per_battle": 8.8,
+            "immediate_fee_per_battle": 1.1375,
+            "discard_per_battle": 0.8375,
+            "shuffle_per_battle": 1.74375,
+            "unused_fee_per_stage": 0.013901760889712697
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.125,
+            "low": -0.035951937906287645,
+            "high": 0.28595193790628765
+          }
+        },
+        "9-12": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.475,
+            "championship_rate": 0.35,
+            "battle_count": 136,
+            "win_rate": 0.6654411764705882,
+            "winner_time": 504.39325842696627,
+            "plays_per_battle": 15.198529411764707,
+            "instant_draw_per_battle": 8.0,
+            "immediate_fee_per_battle": 1.6102941176470589,
+            "discard_per_battle": 0.5588235294117647,
+            "shuffle_per_battle": 1.8014705882352942,
+            "unused_fee_per_stage": 0.030534351145038167
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.475,
+            "championship_rate": 0.15,
+            "battle_count": 127,
+            "win_rate": 0.452755905511811,
+            "winner_time": 578.6140350877193,
+            "plays_per_battle": 18.062992125984252,
+            "instant_draw_per_battle": 8.598425196850394,
+            "immediate_fee_per_battle": 1.6062992125984252,
+            "discard_per_battle": 0.7480314960629921,
+            "shuffle_per_battle": 1.6141732283464567,
+            "unused_fee_per_stage": 0.04342581423401689
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.24098214285714287,
+            "low": 0.08488467439564695,
+            "high": 0.3970796113186388
+          }
+        },
+        "13+": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.475,
+            "championship_rate": 0.35,
+            "battle_count": 91,
+            "win_rate": 0.5824175824175825,
+            "winner_time": 512.0769230769231,
+            "plays_per_battle": 13.164835164835164,
+            "instant_draw_per_battle": 4.252747252747253,
+            "immediate_fee_per_battle": 2.7032967032967035,
+            "discard_per_battle": 0.15384615384615385,
+            "shuffle_per_battle": 2.791208791208791,
+            "unused_fee_per_stage": 0.13068181818181818
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.475,
+            "championship_rate": 0.15,
+            "battle_count": 60,
+            "win_rate": 0.5583333333333333,
+            "winner_time": 516.060606060606,
+            "plays_per_battle": 14.516666666666667,
+            "instant_draw_per_battle": 5.6,
+            "immediate_fee_per_battle": 2.066666666666667,
+            "discard_per_battle": 0.16666666666666666,
+            "shuffle_per_battle": 1.1333333333333333,
+            "unused_fee_per_stage": 0.12571428571428572
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.1861309523809524,
+            "low": -0.12709299406735947,
+            "high": 0.49935489882926426
+          }
+        }
+      },
+      "gradient": {
+        "w.panel": 0.25608800238280305,
+        "w.layer": 0.4279686944678466,
+        "w.draw": -0.19842427579022157,
+        "w.fee": 0.11060146629848555,
+        "w.search": -0.37713236743251377,
+        "w.recycle": -0.29017796475450647,
+        "w.discard": -0.3995538538740961,
+        "w.future": 0.17474747049140774,
+        "w.passive": 0.45721800981572447,
+        "w.tempo": 0.008878446762488399,
+        "w.protection": 0.09244513165195982,
+        "w.thinning": -0.4049869309532051,
+        "w.lookahead": -0.16111973355210954,
+        "c.dilution": 0.42534062266553585,
+        "c.buy_margin": 0.02346881082265421,
+        "c.point_cost": 0.02346881082265421,
+        "c.delete_margin": -0.5467333348272879,
+        "c.starter_bias": 0.5467333348272879,
+        "c.core_weight": 0.45721800981572447,
+        "c.first_layer": 0.488521845043366,
+        "c.generic_tax": 0.41984037499848614,
+        "c.flow_scale": -0.17880221266828317,
+        "fire.layer": 0.568902905663009,
+        "fire.recycle": 0.06031482972581188,
+        "fire.protection": -0.4079795305402887,
+        "water.layer": 0.6505798358030861,
+        "water.recycle": -0.3641419906918024,
+        "water.protection": 0.11652882718886505,
+        "earth.layer": 0.36436066663924066,
+        "earth.recycle": -0.40782556773323647,
+        "earth.protection": 0.34214437603372594,
+        "wind.layer": 0.1740616280697643,
+        "wind.recycle": -0.17866931469234476,
+        "wind.protection": -0.2467423008289746,
+        "poison.layer": 0.41894057515920324,
+        "poison.recycle": -0.3774262546199959,
+        "poison.protection": -0.2180272224725753
+      }
+    },
+    {
+      "round": 7,
+      "accepted": true,
+      "selected": "outcome-accepted-07",
+      "train": {
+        "composite": {
+          "games": 60,
+          "mean": 0.14571499951958983,
+          "low": 0.0658313304668642,
+          "high": 0.22559866857231547
+        },
+        "championship": {
+          "games": 60,
+          "mean": 0.2,
+          "low": 0.08306629431415541,
+          "high": 0.3169337056858446
+        },
+        "win": {
+          "games": 60,
+          "mean": 0.10936722078099172,
+          "low": 0.05633240890045,
+          "high": 0.16240203266153344
+        },
+        "normalized_score": {
+          "games": 60,
+          "mean": 0.12777777777777777,
+          "low": 0.034484220654066686,
+          "high": 0.22107133490148884
+        }
+      },
+      "validation": {
+        "composite": {
+          "games": 20,
+          "mean": 0.18564684226907804,
+          "low": 0.037478150640457536,
+          "high": 0.3338155338976986
+        },
+        "championship": {
+          "games": 20,
+          "mean": 0.25,
+          "low": 0.055293743511438564,
+          "high": 0.44470625648856144
+        },
+        "win": {
+          "games": 20,
+          "mean": 0.1069405268072341,
+          "low": -0.004574719518694079,
+          "high": 0.21845577313316228
+        },
+        "normalized_score": {
+          "games": 20,
+          "mean": 0.2,
+          "low": 0.020138064645479598,
+          "high": 0.3798619353545204
+        }
+      },
+      "validation_stages": {
+        "1-4": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.6,
+            "championship_rate": 0.375,
+            "battle_count": 160,
+            "win_rate": 0.528125,
+            "winner_time": 1120.4512195121952,
+            "plays_per_battle": 38.01875,
+            "instant_draw_per_battle": 9.3875,
+            "immediate_fee_per_battle": 0.65,
+            "discard_per_battle": 1.18125,
+            "shuffle_per_battle": 5.70625,
+            "unused_fee_per_stage": 0.0
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.6,
+            "championship_rate": 0.125,
+            "battle_count": 160,
+            "win_rate": 0.471875,
+            "winner_time": 1206.5416666666667,
+            "plays_per_battle": 41.89375,
+            "instant_draw_per_battle": 9.11875,
+            "immediate_fee_per_battle": 0.4875,
+            "discard_per_battle": 1.24375,
+            "shuffle_per_battle": 5.11875,
+            "unused_fee_per_stage": 0.002449779519843214
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.05625,
+            "low": -0.08311013314619903,
+            "high": 0.19561013314619902
+          }
+        },
+        "5-8": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.6,
+            "championship_rate": 0.375,
+            "battle_count": 160,
+            "win_rate": 0.5625,
+            "winner_time": 596.4555555555555,
+            "plays_per_battle": 19.14375,
+            "instant_draw_per_battle": 10.30625,
+            "immediate_fee_per_battle": 1.5375,
+            "discard_per_battle": 0.8625,
+            "shuffle_per_battle": 2.5375,
+            "unused_fee_per_stage": 0.012416427889207259
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.6,
+            "championship_rate": 0.125,
+            "battle_count": 160,
+            "win_rate": 0.4375,
+            "winner_time": 625.5652173913044,
+            "plays_per_battle": 20.35,
+            "instant_draw_per_battle": 8.4625,
+            "immediate_fee_per_battle": 0.9375,
+            "discard_per_battle": 0.85625,
+            "shuffle_per_battle": 2.10625,
+            "unused_fee_per_stage": 0.018604651162790697
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.125,
+            "low": -0.061417048011907116,
+            "high": 0.3114170480119071
+          }
+        },
+        "9-12": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.6,
+            "championship_rate": 0.375,
+            "battle_count": 140,
+            "win_rate": 0.6107142857142858,
+            "winner_time": 508.96385542168673,
+            "plays_per_battle": 16.464285714285715,
+            "instant_draw_per_battle": 9.728571428571428,
+            "immediate_fee_per_battle": 1.9642857142857142,
+            "discard_per_battle": 0.75,
+            "shuffle_per_battle": 2.7214285714285715,
+            "unused_fee_per_stage": 0.0462085308056872
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.6,
+            "championship_rate": 0.125,
+            "battle_count": 134,
+            "win_rate": 0.5261194029850746,
+            "winner_time": 538.1142857142858,
+            "plays_per_battle": 16.76865671641791,
+            "instant_draw_per_battle": 7.82089552238806,
+            "immediate_fee_per_battle": 1.1567164179104477,
+            "discard_per_battle": 0.7388059701492538,
+            "shuffle_per_battle": 1.8805970149253732,
+            "unused_fee_per_stage": 0.03855721393034826
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.07592261904761906,
+            "low": -0.08228811431556267,
+            "high": 0.2341333524108008
+          }
+        },
+        "13+": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.6,
+            "championship_rate": 0.375,
+            "battle_count": 93,
+            "win_rate": 0.6397849462365591,
+            "winner_time": 597.8103448275862,
+            "plays_per_battle": 15.946236559139784,
+            "instant_draw_per_battle": 5.860215053763441,
+            "immediate_fee_per_battle": 3.5591397849462365,
+            "discard_per_battle": 0.0967741935483871,
+            "shuffle_per_battle": 2.935483870967742,
+            "unused_fee_per_stage": 0.11198738170347003
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.6,
+            "championship_rate": 0.125,
+            "battle_count": 67,
+            "win_rate": 0.48507462686567165,
+            "winner_time": 483.84375,
+            "plays_per_battle": 15.880597014925373,
+            "instant_draw_per_battle": 6.298507462686567,
+            "immediate_fee_per_battle": 2.970149253731343,
+            "discard_per_battle": 0.3283582089552239,
+            "shuffle_per_battle": 1.7164179104477613,
+            "unused_fee_per_stage": 0.09595959595959595
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.321765873015873,
+            "low": 0.14219599588831874,
+            "high": 0.5013357501434272
+          }
+        }
+      },
+      "gradient": {
+        "w.panel": 0.23156085985433522,
+        "w.layer": 0.37304202110907986,
+        "w.draw": -0.2738974366461045,
+        "w.fee": 0.029933532921295084,
+        "w.search": -0.24288228356918476,
+        "w.recycle": -0.26525614847765056,
+        "w.discard": -0.35768172880554616,
+        "w.future": 0.13578990241235675,
+        "w.passive": 0.4205460544298844,
+        "w.tempo": 0.13421601295907068,
+        "w.protection": 0.0936080959219844,
+        "w.thinning": -0.3420505093770549,
+        "w.lookahead": -0.1972484627788582,
+        "c.dilution": 0.26277093961403014,
+        "c.buy_margin": -0.08982722769318814,
+        "c.point_cost": -0.08982722769318814,
+        "c.delete_margin": -0.46264146772702125,
+        "c.starter_bias": 0.46264146772702125,
+        "c.core_weight": 0.4205460544298844,
+        "c.first_layer": 0.37705931175044205,
+        "c.generic_tax": 0.394574781688459,
+        "c.flow_scale": -0.2520640092736181,
+        "fire.layer": 0.6043751743775464,
+        "fire.recycle": -0.04958147174983756,
+        "fire.protection": -0.08061687304924722,
+        "water.layer": 0.35603292687171667,
+        "water.recycle": -0.336493586337499,
+        "water.protection": 0.05096114155281346,
+        "earth.layer": 0.16642864684004685,
+        "earth.recycle": -0.28359786085639277,
+        "earth.protection": 0.3496000783563261,
+        "wind.layer": 0.20363246594598627,
+        "wind.recycle": -0.34041140000125214,
+        "wind.protection": -0.3063095883688962,
+        "poison.layer": 0.5017638992542514,
+        "poison.recycle": -0.2511329475191812,
+        "poison.protection": 0.025043519178069282
+      }
+    },
+    {
+      "round": 8,
+      "accepted": true,
+      "selected": "outcome-accepted-08",
+      "train": {
+        "composite": {
+          "games": 60,
+          "mean": 0.19946897699792282,
+          "low": 0.10676019141637248,
+          "high": 0.29217776257947314
+        },
+        "championship": {
+          "games": 60,
+          "mean": 0.2,
+          "low": 0.08306629431415541,
+          "high": 0.3169337056858446
+        },
+        "win": {
+          "games": 60,
+          "mean": 0.1372958198826573,
+          "low": 0.07052411896100781,
+          "high": 0.2040675208043068
+        },
+        "normalized_score": {
+          "games": 60,
+          "mean": 0.2611111111111111,
+          "low": 0.15011104984458845,
+          "high": 0.3721111723776338
+        }
+      },
+      "validation": {
+        "composite": {
+          "games": 20,
+          "mean": 0.019061171391865226,
+          "low": -0.1414202919411595,
+          "high": 0.17954263472488993
+        },
+        "championship": {
+          "games": 20,
+          "mean": 0.0,
+          "low": -0.22482741919315052,
+          "high": 0.22482741919315052
+        },
+        "win": {
+          "games": 20,
+          "mean": 0.04051684750892898,
+          "low": -0.0719157567227932,
+          "high": 0.15294945174065117
+        },
+        "normalized_score": {
+          "games": 20,
+          "mean": 0.016666666666666666,
+          "low": -0.175718120758817,
+          "high": 0.2090514540921503
+        }
+      },
+      "validation_stages": {
+        "1-4": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.05,
+            "championship_rate": 0.25,
+            "battle_count": 160,
+            "win_rate": 0.53125,
+            "winner_time": 1169.641975308642,
+            "plays_per_battle": 39.34375,
+            "instant_draw_per_battle": 6.8875,
+            "immediate_fee_per_battle": 0.65,
+            "discard_per_battle": 0.5875,
+            "shuffle_per_battle": 5.43125,
+            "unused_fee_per_stage": 0.0009900990099009901
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.05,
+            "championship_rate": 0.25,
+            "battle_count": 160,
+            "win_rate": 0.46875,
+            "winner_time": 1132.3918918918919,
+            "plays_per_battle": 41.49375,
+            "instant_draw_per_battle": 8.775,
+            "immediate_fee_per_battle": 0.4625,
+            "discard_per_battle": 0.6375,
+            "shuffle_per_battle": 5.18125,
+            "unused_fee_per_stage": 0.005472636815920398
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.0625,
+            "low": -0.10844647515646835,
+            "high": 0.23344647515646835
+          }
+        },
+        "5-8": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.05,
+            "championship_rate": 0.25,
+            "battle_count": 160,
+            "win_rate": 0.51875,
+            "winner_time": 717.7831325301205,
+            "plays_per_battle": 21.04375,
+            "instant_draw_per_battle": 8.875,
+            "immediate_fee_per_battle": 1.51875,
+            "discard_per_battle": 0.75,
+            "shuffle_per_battle": 2.525,
+            "unused_fee_per_stage": 0.004862236628849271
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.05,
+            "championship_rate": 0.25,
+            "battle_count": 160,
+            "win_rate": 0.48125,
+            "winner_time": 751.7662337662338,
+            "plays_per_battle": 24.45625,
+            "instant_draw_per_battle": 10.1875,
+            "immediate_fee_per_battle": 1.01875,
+            "discard_per_battle": 0.7625,
+            "shuffle_per_battle": 2.45,
+            "unused_fee_per_stage": 0.009389671361502348
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.0375,
+            "low": -0.1102502782970039,
+            "high": 0.1852502782970039
+          }
+        },
+        "9-12": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.05,
+            "championship_rate": 0.25,
+            "battle_count": 135,
+            "win_rate": 0.5851851851851851,
+            "winner_time": 609.6153846153846,
+            "plays_per_battle": 16.48148148148148,
+            "instant_draw_per_battle": 7.192592592592592,
+            "immediate_fee_per_battle": 1.962962962962963,
+            "discard_per_battle": 0.4074074074074074,
+            "shuffle_per_battle": 2.2666666666666666,
+            "unused_fee_per_stage": 0.06477272727272727
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.05,
+            "championship_rate": 0.25,
+            "battle_count": 137,
+            "win_rate": 0.5255474452554745,
+            "winner_time": 532.5142857142857,
+            "plays_per_battle": 17.861313868613138,
+            "instant_draw_per_battle": 8.175182481751825,
+            "immediate_fee_per_battle": 1.2627737226277371,
+            "discard_per_battle": 0.5036496350364964,
+            "shuffle_per_battle": 1.6131386861313868,
+            "unused_fee_per_stage": 0.06378132118451026
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.07160714285714286,
+            "low": -0.09369062934246074,
+            "high": 0.23690491505674643
+          }
+        },
+        "13+": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.05,
+            "championship_rate": 0.25,
+            "battle_count": 80,
+            "win_rate": 0.55,
+            "winner_time": 541.7674418604652,
+            "plays_per_battle": 13.35,
+            "instant_draw_per_battle": 3.675,
+            "immediate_fee_per_battle": 2.7625,
+            "discard_per_battle": 0.225,
+            "shuffle_per_battle": 2.225,
+            "unused_fee_per_stage": 0.13219616204690832
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.05,
+            "championship_rate": 0.25,
+            "battle_count": 65,
+            "win_rate": 0.5769230769230769,
+            "winner_time": 554.4864864864865,
+            "plays_per_battle": 15.353846153846154,
+            "instant_draw_per_battle": 5.969230769230769,
+            "immediate_fee_per_battle": 2.3692307692307693,
+            "discard_per_battle": 0.4461538461538462,
+            "shuffle_per_battle": 1.9384615384615385,
+            "unused_fee_per_stage": 0.21800947867298578
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.044404761904761905,
+            "low": -0.2473748211501861,
+            "high": 0.3361843449597099
+          }
+        }
+      },
+      "gradient": {
+        "w.panel": 0.2857328382250327,
+        "w.layer": 0.4235221698217744,
+        "w.draw": -0.2732383644316741,
+        "w.fee": 0.08246392107211578,
+        "w.search": -0.2927489170884883,
+        "w.recycle": -0.38487589786106896,
+        "w.discard": -0.40255847657343485,
+        "w.future": -0.0005180234509281207,
+        "w.passive": 0.5232515933493759,
+        "w.tempo": 0.00674687523585036,
+        "w.protection": 0.09378172297252817,
+        "w.thinning": -0.4016489846439124,
+        "w.lookahead": -0.2047372234102228,
+        "c.dilution": 0.4088147629707119,
+        "c.buy_margin": 0.013581144726847119,
+        "c.point_cost": 0.013581144726847119,
+        "c.delete_margin": -0.5625628958885661,
+        "c.starter_bias": 0.5625628958885661,
+        "c.core_weight": 0.5232515933493759,
+        "c.first_layer": 0.46944976106702857,
+        "c.generic_tax": 0.4566385182794065,
+        "c.flow_scale": -0.26200066106040654,
+        "fire.layer": 0.46521943056753856,
+        "fire.recycle": -0.009019889973308822,
+        "fire.protection": -0.2653100186312692,
+        "water.layer": 0.6061432047255642,
+        "water.recycle": -0.18932462201436584,
+        "water.protection": 0.05514577499204843,
+        "earth.layer": 0.33284599048575453,
+        "earth.recycle": -0.462532013312285,
+        "earth.protection": 0.26731157450341037,
+        "wind.layer": 0.34623957098083774,
+        "wind.recycle": -0.5393941223926905,
+        "wind.protection": -0.4160467455184811,
+        "poison.layer": 0.5485074120944494,
+        "poison.recycle": -0.6838153613117897,
+        "poison.protection": -0.012718780469409233
+      }
+    },
+    {
+      "round": 9,
+      "accepted": true,
+      "selected": "outcome-accepted-09",
+      "train": {
+        "composite": {
+          "games": 60,
+          "mean": 0.14276927277912504,
+          "low": 0.05605004219755329,
+          "high": 0.22948850336069682
+        },
+        "championship": {
+          "games": 60,
+          "mean": 0.16666666666666666,
+          "low": 0.04637824992795242,
+          "high": 0.2869550834053809
+        },
+        "win": {
+          "games": 60,
+          "mean": 0.1005300405595974,
+          "low": 0.04044995047543343,
+          "high": 0.16061013064376137
+        },
+        "normalized_score": {
+          "games": 60,
+          "mean": 0.1611111111111111,
+          "low": 0.05869902590800813,
+          "high": 0.26352319631421406
+        }
+      },
+      "validation": {
+        "composite": {
+          "games": 20,
+          "mean": 0.20315065668422375,
+          "low": 0.043473440831934274,
+          "high": 0.3628278725365132
+        },
+        "championship": {
+          "games": 20,
+          "mean": 0.15,
+          "low": -0.06447168872174691,
+          "high": 0.3644716887217469
+        },
+        "win": {
+          "games": 20,
+          "mean": 0.15945197005267137,
+          "low": 0.03687615470853085,
+          "high": 0.2820277853968119
+        },
+        "normalized_score": {
+          "games": 20,
+          "mean": 0.3,
+          "low": 0.12976342570390412,
+          "high": 0.4702365742960959
+        }
+      },
+      "validation_stages": {
+        "1-4": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.9,
+            "championship_rate": 0.325,
+            "battle_count": 160,
+            "win_rate": 0.56875,
+            "winner_time": 1027.911111111111,
+            "plays_per_battle": 37.13125,
+            "instant_draw_per_battle": 6.6625,
+            "immediate_fee_per_battle": 0.34375,
+            "discard_per_battle": 0.5875,
+            "shuffle_per_battle": 5.025,
+            "unused_fee_per_stage": 0.0005347593582887701
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.9,
+            "championship_rate": 0.175,
+            "battle_count": 160,
+            "win_rate": 0.43125,
+            "winner_time": 1275.8382352941176,
+            "plays_per_battle": 39.8625,
+            "instant_draw_per_battle": 7.53125,
+            "immediate_fee_per_battle": 0.2,
+            "discard_per_battle": 0.41875,
+            "shuffle_per_battle": 4.75625,
+            "unused_fee_per_stage": 0.0020242914979757085
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.1375,
+            "low": 0.0058031291583825195,
+            "high": 0.2691968708416175
+          }
+        },
+        "5-8": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.9,
+            "championship_rate": 0.325,
+            "battle_count": 160,
+            "win_rate": 0.59375,
+            "winner_time": 697.4736842105264,
+            "plays_per_battle": 21.39375,
+            "instant_draw_per_battle": 7.6875,
+            "immediate_fee_per_battle": 1.0,
+            "discard_per_battle": 0.75,
+            "shuffle_per_battle": 2.41875,
+            "unused_fee_per_stage": 0.006568144499178982
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.9,
+            "championship_rate": 0.175,
+            "battle_count": 160,
+            "win_rate": 0.40625,
+            "winner_time": 670.0153846153846,
+            "plays_per_battle": 21.63125,
+            "instant_draw_per_battle": 8.14375,
+            "immediate_fee_per_battle": 0.76875,
+            "discard_per_battle": 0.5375,
+            "shuffle_per_battle": 2.0125,
+            "unused_fee_per_stage": 0.01138353765323993
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.1875,
+            "low": 0.025082612092372197,
+            "high": 0.34991738790762783
+          }
+        },
+        "9-12": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.9,
+            "championship_rate": 0.325,
+            "battle_count": 152,
+            "win_rate": 0.625,
+            "winner_time": 551.7578947368421,
+            "plays_per_battle": 15.677631578947368,
+            "instant_draw_per_battle": 6.572368421052632,
+            "immediate_fee_per_battle": 1.8092105263157894,
+            "discard_per_battle": 0.5263157894736842,
+            "shuffle_per_battle": 2.4078947368421053,
+            "unused_fee_per_stage": 0.045454545454545456
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.9,
+            "championship_rate": 0.175,
+            "battle_count": 117,
+            "win_rate": 0.452991452991453,
+            "winner_time": 498.0566037735849,
+            "plays_per_battle": 16.77777777777778,
+            "instant_draw_per_battle": 7.2905982905982905,
+            "immediate_fee_per_battle": 1.2735042735042734,
+            "discard_per_battle": 0.4358974358974359,
+            "shuffle_per_battle": 1.5811965811965811,
+            "unused_fee_per_stage": 0.05788712011577424
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.20249999999999999,
+            "low": 0.021519880740310388,
+            "high": 0.3834801192596896
+          }
+        },
+        "13+": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.9,
+            "championship_rate": 0.325,
+            "battle_count": 83,
+            "win_rate": 0.5542168674698795,
+            "winner_time": 575.5869565217391,
+            "plays_per_battle": 12.975903614457831,
+            "instant_draw_per_battle": 3.0843373493975905,
+            "immediate_fee_per_battle": 1.1686746987951808,
+            "discard_per_battle": 0.12048192771084337,
+            "shuffle_per_battle": 1.8674698795180722,
+            "unused_fee_per_stage": 0.14314115308151093
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.9,
+            "championship_rate": 0.175,
+            "battle_count": 46,
+            "win_rate": 0.5652173913043478,
+            "winner_time": 476.61538461538464,
+            "plays_per_battle": 15.804347826086957,
+            "instant_draw_per_battle": 5.130434782608695,
+            "immediate_fee_per_battle": 2.8260869565217392,
+            "discard_per_battle": 0.10869565217391304,
+            "shuffle_per_battle": 1.065217391304348,
+            "unused_fee_per_stage": 0.11379310344827587
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.10166666666666666,
+            "low": -0.16858279097705395,
+            "high": 0.37191612431038723
+          }
+        }
+      },
+      "gradient": {
+        "w.panel": 0.21998990199755628,
+        "w.layer": 0.4287482916324899,
+        "w.draw": -0.293573645063083,
+        "w.fee": -0.0334912564161526,
+        "w.search": -0.2605097141041372,
+        "w.recycle": -0.2709815982656317,
+        "w.discard": -0.38226533098955373,
+        "w.future": 0.08991437509496349,
+        "w.passive": 0.4707271524097861,
+        "w.tempo": 0.01249291135013094,
+        "w.protection": 0.06790378213006115,
+        "w.thinning": -0.3865473022881961,
+        "w.lookahead": -0.2510802770229071,
+        "c.dilution": 0.345108798285046,
+        "c.buy_margin": -0.061297281651609956,
+        "c.point_cost": -0.061297281651609956,
+        "c.delete_margin": -0.5533300280807139,
+        "c.starter_bias": 0.5533300280807139,
+        "c.core_weight": 0.4707271524097861,
+        "c.first_layer": 0.474525091470881,
+        "c.generic_tax": 0.44224752553680524,
+        "c.flow_scale": -0.27805357769386413,
+        "fire.layer": 0.7705348923581872,
+        "fire.recycle": 0.1871458697188422,
+        "fire.protection": -0.15899418386679653,
+        "water.layer": 0.4536639896651426,
+        "water.recycle": -0.47895207308837173,
+        "water.protection": 0.03228968294898893,
+        "earth.layer": 0.026833274094042875,
+        "earth.recycle": -0.2311650620015172,
+        "earth.protection": 0.08943872799073528,
+        "wind.layer": 0.37717238258945096,
+        "wind.recycle": -0.47425472730851354,
+        "wind.protection": -0.3786997574133993,
+        "poison.layer": 0.5134724826551643,
+        "poison.recycle": -0.42054369512456846,
+        "poison.protection": -0.10767487097668657
+      }
+    },
+    {
+      "round": 10,
+      "accepted": true,
+      "selected": "outcome-accepted-10",
+      "train": {
+        "composite": {
+          "games": 60,
+          "mean": 0.1421139397087648,
+          "low": 0.05253969764931711,
+          "high": 0.2316881817682125
+        },
+        "championship": {
+          "games": 60,
+          "mean": 0.15,
+          "low": 0.02829154034109882,
+          "high": 0.27170845965890117
+        },
+        "win": {
+          "games": 60,
+          "mean": 0.10967515245962775,
+          "low": 0.048656045128994393,
+          "high": 0.1706942597902611
+        },
+        "normalized_score": {
+          "games": 60,
+          "mean": 0.16666666666666666,
+          "low": 0.0574092864068282,
+          "high": 0.27592404692650513
+        }
+      },
+      "validation": {
+        "composite": {
+          "games": 20,
+          "mean": 0.22009902350610733,
+          "low": 0.06582485691776171,
+          "high": 0.3743731900944529
+        },
+        "championship": {
+          "games": 20,
+          "mean": 0.2,
+          "low": -0.006057733350835898,
+          "high": 0.40605773335083595
+        },
+        "win": {
+          "games": 20,
+          "mean": 0.21029707051832208,
+          "low": 0.0957850145784145,
+          "high": 0.3248091264582297
+        },
+        "normalized_score": {
+          "games": 20,
+          "mean": 0.25,
+          "low": 0.07344723963363686,
+          "high": 0.42655276036636314
+        }
+      },
+      "validation_stages": {
+        "1-4": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.75,
+            "championship_rate": 0.35,
+            "battle_count": 160,
+            "win_rate": 0.65625,
+            "winner_time": 1088.0384615384614,
+            "plays_per_battle": 37.6375,
+            "instant_draw_per_battle": 4.20625,
+            "immediate_fee_per_battle": 0.15,
+            "discard_per_battle": 0.525,
+            "shuffle_per_battle": 5.59375,
+            "unused_fee_per_stage": 0.0005065856129685917
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.75,
+            "championship_rate": 0.15,
+            "battle_count": 160,
+            "win_rate": 0.34375,
+            "winner_time": 1344.5098039215686,
+            "plays_per_battle": 41.19375,
+            "instant_draw_per_battle": 9.1,
+            "immediate_fee_per_battle": 0.3125,
+            "discard_per_battle": 0.525,
+            "shuffle_per_battle": 5.1125,
+            "unused_fee_per_stage": 0.0004734848484848485
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.3125,
+            "low": 0.1675560453140594,
+            "high": 0.45744395468594057
+          }
+        },
+        "5-8": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.75,
+            "championship_rate": 0.35,
+            "battle_count": 160,
+            "win_rate": 0.6,
+            "winner_time": 650.7291666666666,
+            "plays_per_battle": 20.35,
+            "instant_draw_per_battle": 5.54375,
+            "immediate_fee_per_battle": 0.84375,
+            "discard_per_battle": 0.34375,
+            "shuffle_per_battle": 2.48125,
+            "unused_fee_per_stage": 0.005780346820809248
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.75,
+            "championship_rate": 0.15,
+            "battle_count": 160,
+            "win_rate": 0.4,
+            "winner_time": 772.515625,
+            "plays_per_battle": 21.41875,
+            "instant_draw_per_battle": 8.06875,
+            "immediate_fee_per_battle": 0.96875,
+            "discard_per_battle": 0.625,
+            "shuffle_per_battle": 1.9625,
+            "unused_fee_per_stage": 0.012573344509639563
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.2,
+            "low": 0.05086636159047431,
+            "high": 0.3491336384095257
+          }
+        },
+        "9-12": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.75,
+            "championship_rate": 0.35,
+            "battle_count": 147,
+            "win_rate": 0.6292517006802721,
+            "winner_time": 475.20652173913044,
+            "plays_per_battle": 13.761904761904763,
+            "instant_draw_per_battle": 4.35374149659864,
+            "immediate_fee_per_battle": 0.9795918367346939,
+            "discard_per_battle": 0.14965986394557823,
+            "shuffle_per_battle": 1.4829931972789117,
+            "unused_fee_per_stage": 0.060786650774731825
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.75,
+            "championship_rate": 0.15,
+            "battle_count": 120,
+            "win_rate": 0.4708333333333333,
+            "winner_time": 560.4909090909091,
+            "plays_per_battle": 15.083333333333334,
+            "instant_draw_per_battle": 6.15,
+            "immediate_fee_per_battle": 1.0166666666666666,
+            "discard_per_battle": 0.4166666666666667,
+            "shuffle_per_battle": 0.9166666666666666,
+            "unused_fee_per_stage": 0.046511627906976744
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.16211309523809525,
+            "low": -0.0009575987539126585,
+            "high": 0.32518378923010316
+          }
+        },
+        "13+": {
+          "selected": {
+            "players": 40,
+            "mean_score": 0.75,
+            "championship_rate": 0.35,
+            "battle_count": 96,
+            "win_rate": 0.5572916666666666,
+            "winner_time": 475.61538461538464,
+            "plays_per_battle": 12.364583333333334,
+            "instant_draw_per_battle": 2.3958333333333335,
+            "immediate_fee_per_battle": 1.0833333333333333,
+            "discard_per_battle": 0.0,
+            "shuffle_per_battle": 1.65625,
+            "unused_fee_per_stage": 0.2053742802303263
+          },
+          "control": {
+            "players": 40,
+            "mean_score": -0.75,
+            "championship_rate": 0.15,
+            "battle_count": 57,
+            "win_rate": 0.5263157894736842,
+            "winner_time": 480.3333333333333,
+            "plays_per_battle": 13.596491228070175,
+            "instant_draw_per_battle": 5.807017543859649,
+            "immediate_fee_per_battle": 1.6140350877192982,
+            "discard_per_battle": 0.24561403508771928,
+            "shuffle_per_battle": 1.1578947368421053,
+            "unused_fee_per_stage": 0.1254125412541254
+          },
+          "paired_win": {
+            "games": 20,
+            "mean": 0.1832738095238095,
+            "low": -0.06925657226830317,
+            "high": 0.4358041913159222
+          }
+        }
+      },
+      "gradient": {
+        "w.panel": 0.23124484409747353,
+        "w.layer": 0.39880029887415447,
+        "w.draw": -0.2593149865050614,
+        "w.fee": 0.07001815997842688,
+        "w.search": -0.26413697051387025,
+        "w.recycle": -0.2977844000216141,
+        "w.discard": -0.3555034691223867,
+        "w.future": 0.10634589443154387,
+        "w.passive": 0.40992063786285365,
+        "w.tempo": -0.07257711738645295,
+        "w.protection": 0.0939770353790393,
+        "w.thinning": -0.3671634201701524,
+        "w.lookahead": -0.2005905710464011,
+        "c.dilution": 0.3274948596142896,
+        "c.buy_margin": -0.05535629508887546,
+        "c.point_cost": -0.05535629508887546,
+        "c.delete_margin": -0.5339202209376693,
+        "c.starter_bias": 0.5339202209376693,
+        "c.core_weight": 0.40992063786285365,
+        "c.first_layer": 0.3993798346380851,
+        "c.generic_tax": 0.3778973780350705,
+        "c.flow_scale": -0.2402889004850879,
+        "fire.layer": 0.5013950449695848,
+        "fire.recycle": 0.047596771255834405,
+        "fire.protection": -0.19716444398882405,
+        "water.layer": 0.5243707349221303,
+        "water.recycle": -0.2092532845562702,
+        "water.protection": 0.04299875179163055,
+        "earth.layer": 0.1753616260456308,
+        "earth.recycle": -0.3551708984192788,
+        "earth.protection": 0.21759751263071733,
+        "wind.layer": 0.4267101179663868,
+        "wind.recycle": -0.4474340063314256,
+        "wind.protection": -0.2173750386193643,
+        "poison.layer": 0.5243442600174283,
+        "poison.recycle": -0.3707202576893229,
+        "poison.protection": -0.13167871457304633
+      }
+    }
+  ],
+  "accepted_rounds": [
+    1,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "evaluation": {
+    "original_small": {
+      "games": 100,
+      "selected": {
+        "players": 200,
+        "mean_score": 0.54,
+        "championship_rate": 0.33,
+        "battle_count": 2797,
+        "win_rate": 0.5734715766893099,
+        "winner_time": 712.4492113564669,
+        "plays_per_battle": 22.247407937075437,
+        "instant_draw_per_battle": 5.079728280300322,
+        "immediate_fee_per_battle": 0.8684304612084376,
+        "discard_per_battle": 0.40078655702538435,
+        "shuffle_per_battle": 2.770468358956024,
+        "unused_fee_per_stage": 0.03730565447754712
+      },
+      "control": {
+        "players": 200,
+        "mean_score": -0.54,
+        "championship_rate": 0.17,
+        "battle_count": 2585,
+        "win_rate": 0.4671179883945841,
+        "winner_time": 784.6201680672269,
+        "plays_per_battle": 25.107543520309477,
+        "instant_draw_per_battle": 10.380657640232108,
+        "immediate_fee_per_battle": 1.495551257253385,
+        "discard_per_battle": 0.9620889748549323,
+        "shuffle_per_battle": 3.4638297872340424,
+        "unused_fee_per_stage": 0.023335363853615107
+      },
+      "objective": {
+        "composite": {
+          "games": 100,
+          "mean": 0.15038396352546116,
+          "low": 0.08676820570213238,
+          "high": 0.21399972134878992
+        },
+        "championship": {
+          "games": 100,
+          "mean": 0.16,
+          "low": 0.06668533520037342,
+          "high": 0.2533146647996266
+        },
+        "win": {
+          "games": 100,
+          "mean": 0.11115189057638347,
+          "low": 0.0671271137898746,
+          "high": 0.15517666736289235
+        },
+        "normalized_score": {
+          "games": 100,
+          "mean": 0.18,
+          "low": 0.10604878120718522,
+          "high": 0.2539512187928148
+        }
+      },
+      "paired_win": {
+        "games": 100,
+        "mean": 0.11115189057638347,
+        "low": 0.0671271137898746,
+        "high": 0.15517666736289235
+      },
+      "paired_score": {
+        "mean": 1.08,
+        "low": 0.6362926872431115,
+        "high": 1.5237073127568888,
+        "games": 100
+      },
+      "stages": {
+        "1-4": {
+          "selected": {
+            "players": 200,
+            "mean_score": 0.54,
+            "championship_rate": 0.33,
+            "battle_count": 800,
+            "win_rate": 0.5425,
+            "winner_time": 1136.1591448931117,
+            "plays_per_battle": 38.62375,
+            "instant_draw_per_battle": 5.42,
+            "immediate_fee_per_battle": 0.4475,
+            "discard_per_battle": 0.57,
+            "shuffle_per_battle": 5.3725,
+            "unused_fee_per_stage": 0.0003915810083210964
+          },
+          "control": {
+            "players": 200,
+            "mean_score": -0.54,
+            "championship_rate": 0.17,
+            "battle_count": 800,
+            "win_rate": 0.4575,
+            "winner_time": 1166.9577464788733,
+            "plays_per_battle": 38.9725,
+            "instant_draw_per_battle": 10.13125,
+            "immediate_fee_per_battle": 0.38375,
+            "discard_per_battle": 0.89625,
+            "shuffle_per_battle": 5.3225,
+            "unused_fee_per_stage": 0.00187207488299532
+          },
+          "paired_win": {
+            "games": 100,
+            "mean": 0.085,
+            "low": 0.015714035703579557,
+            "high": 0.15428596429642044
+          }
+        },
+        "5-8": {
+          "selected": {
+            "players": 200,
+            "mean_score": 0.54,
+            "championship_rate": 0.33,
+            "battle_count": 800,
+            "win_rate": 0.565625,
+            "winner_time": 639.3942093541202,
+            "plays_per_battle": 19.06375,
+            "instant_draw_per_battle": 6.155,
+            "immediate_fee_per_battle": 0.84,
+            "discard_per_battle": 0.50875,
+            "shuffle_per_battle": 2.08,
+            "unused_fee_per_stage": 0.007284079084287201
+          },
+          "control": {
+            "players": 200,
+            "mean_score": -0.54,
+            "championship_rate": 0.17,
+            "battle_count": 800,
+            "win_rate": 0.434375,
+            "winner_time": 691.1627906976744,
+            "plays_per_battle": 21.17375,
+            "instant_draw_per_battle": 11.3375,
+            "immediate_fee_per_battle": 1.29125,
+            "discard_per_battle": 1.15375,
+            "shuffle_per_battle": 2.56375,
+            "unused_fee_per_stage": 0.011938702779757662
+          },
+          "paired_win": {
+            "games": 100,
+            "mean": 0.13125,
+            "low": 0.06450506961331647,
+            "high": 0.19799493038668353
+          }
+        },
+        "9-12": {
+          "selected": {
+            "players": 200,
+            "mean_score": 0.54,
+            "championship_rate": 0.33,
+            "battle_count": 727,
+            "win_rate": 0.6079779917469051,
+            "winner_time": 509.45351473922904,
+            "plays_per_battle": 13.771664374140302,
+            "instant_draw_per_battle": 4.987620357634113,
+            "immediate_fee_per_battle": 1.079779917469051,
+            "discard_per_battle": 0.31911966987620355,
+            "shuffle_per_battle": 1.3878954607977991,
+            "unused_fee_per_stage": 0.07137724550898203
+          },
+          "control": {
+            "players": 200,
+            "mean_score": -0.54,
+            "championship_rate": 0.17,
+            "battle_count": 644,
+            "win_rate": 0.49145962732919257,
+            "winner_time": 546.2158730158731,
+            "plays_per_battle": 17.470496894409937,
+            "instant_draw_per_battle": 11.059006211180124,
+            "immediate_fee_per_battle": 1.9627329192546583,
+            "discard_per_battle": 0.984472049689441,
+            "shuffle_per_battle": 2.4316770186335406,
+            "unused_fee_per_stage": 0.04422730779120596
+          },
+          "paired_win": {
+            "games": 100,
+            "mean": 0.1277559523809524,
+            "low": 0.0627238043223443,
+            "high": 0.19278810043956046
+          }
+        },
+        "13+": {
+          "selected": {
+            "players": 196,
+            "mean_score": 0.5306122448979592,
+            "championship_rate": 0.32653061224489793,
+            "battle_count": 470,
+            "win_rate": 0.5861702127659575,
+            "winner_time": 507.8540145985401,
+            "plays_per_battle": 12.902127659574468,
+            "instant_draw_per_battle": 2.8127659574468087,
+            "immediate_fee_per_battle": 1.3063829787234043,
+            "discard_per_battle": 0.05531914893617021,
+            "shuffle_per_battle": 1.6553191489361703,
+            "unused_fee_per_stage": 0.1794425087108014
+          },
+          "control": {
+            "players": 196,
+            "mean_score": -0.5306122448979592,
+            "championship_rate": 0.17346938775510204,
+            "battle_count": 341,
+            "win_rate": 0.5205278592375366,
+            "winner_time": 622.7840909090909,
+            "plays_per_battle": 16.2316715542522,
+            "instant_draw_per_battle": 7.439882697947214,
+            "immediate_fee_per_battle": 3.7008797653958942,
+            "discard_per_battle": 0.624633431085044,
+            "shuffle_per_battle": 3.164222873900293,
+            "unused_fee_per_stage": 0.10831460674157303
+          },
+          "paired_win": {
+            "games": 98,
+            "mean": 0.1592169876608652,
+            "low": 0.042276046365250425,
+            "high": 0.27615792895647995
+          }
+        }
+      },
+      "selected_decks": {
+        "players": 200,
+        "mean_size": 9.555,
+        "median": 8,
+        "minimum": 8,
+        "maximum": 19,
+        "histogram": {
+          "8": 118,
+          "9": 12,
+          "10": 19,
+          "11": 15,
+          "12": 9,
+          "13": 7,
+          "14": 9,
+          "15": 5,
+          "16": 1,
+          "17": 3,
+          "18": 1,
+          "19": 1
+        },
+        "flow_fraction": 0.1815056492355254,
+        "main_first_layers": 12.735,
+        "elements": {
+          "fire": {
+            "players": 47,
+            "mean_size": 10.148936170212766,
+            "median": 8,
+            "minimum": 8,
+            "maximum": 19,
+            "histogram": {
+              "8": 25,
+              "9": 3,
+              "10": 2,
+              "11": 3,
+              "12": 3,
+              "13": 2,
+              "14": 6,
+              "15": 1,
+              "17": 1,
+              "19": 1
+            },
+            "flow_fraction": 0.23425442440658828,
+            "main_first_layers": 13.76595744680851
+          },
+          "water": {
+            "players": 43,
+            "mean_size": 8.44186046511628,
+            "median": 8,
+            "minimum": 8,
+            "maximum": 12,
+            "histogram": {
+              "8": 34,
+              "9": 3,
+              "10": 3,
+              "11": 2,
+              "12": 1
+            },
+            "flow_fraction": 0.07885247827108292,
+            "main_first_layers": 12.209302325581396
+          },
+          "earth": {
+            "players": 36,
+            "mean_size": 9.027777777777779,
+            "median": 8,
+            "minimum": 8,
+            "maximum": 14,
+            "histogram": {
+              "8": 21,
+              "9": 2,
+              "10": 7,
+              "11": 5,
+              "14": 1
+            },
+            "flow_fraction": 0.11769881353214687,
+            "main_first_layers": 12.916666666666666
+          },
+          "wind": {
+            "players": 42,
+            "mean_size": 8.714285714285714,
+            "median": 8,
+            "minimum": 8,
+            "maximum": 18,
+            "histogram": {
+              "8": 34,
+              "9": 1,
+              "10": 3,
+              "11": 2,
+              "15": 1,
+              "18": 1
+            },
+            "flow_fraction": 0.21616161616161614,
+            "main_first_layers": 11.547619047619047
+          },
+          "poison": {
+            "players": 32,
+            "mean_size": 11.875,
+            "median": 12,
+            "minimum": 8,
+            "maximum": 17,
+            "histogram": {
+              "8": 4,
+              "9": 3,
+              "10": 4,
+              "11": 3,
+              "12": 5,
+              "13": 5,
+              "14": 2,
+              "15": 3,
+              "16": 1,
+              "17": 2
+            },
+            "flow_fraction": 0.2682678177623031,
+            "main_first_layers": 13.28125
+          }
+        },
+        "purchases_per_player": 13.675,
+        "deletions_per_player": 13.065,
+        "round_mean_size": {
+          "1": 9.3,
+          "2": 10.47,
+          "3": 12.47,
+          "4": 14.185,
+          "5": 15.29,
+          "6": 15.94,
+          "7": 15.37,
+          "8": 15.105,
+          "9": 14.222222222222221,
+          "10": 13.851063829787234,
+          "11": 12.443181818181818,
+          "12": 11.4,
+          "13": 10.066666666666666,
+          "14": 8.992248062015504,
+          "15": 8.33,
+          "16": 8.145454545454545,
+          "17": 8.038461538461538,
+          "18": 8.0,
+          "19": 8.0
+        }
+      },
+      "control_decks": {
+        "players": 200,
+        "mean_size": 11.725,
+        "median": 11,
+        "minimum": 8,
+        "maximum": 21,
+        "histogram": {
+          "8": 53,
+          "9": 10,
+          "10": 22,
+          "11": 17,
+          "12": 22,
+          "13": 16,
+          "14": 14,
+          "15": 18,
+          "16": 8,
+          "17": 9,
+          "18": 6,
+          "19": 4,
+          "21": 1
+        },
+        "flow_fraction": 0.37699439112229355,
+        "main_first_layers": 12.075,
+        "elements": {
+          "fire": {
+            "players": 35,
+            "mean_size": 12.428571428571429,
+            "median": 12,
+            "minimum": 8,
+            "maximum": 19,
+            "histogram": {
+              "8": 4,
+              "9": 3,
+              "10": 4,
+              "11": 3,
+              "12": 7,
+              "13": 2,
+              "14": 1,
+              "15": 6,
+              "16": 1,
+              "18": 3,
+              "19": 1
+            },
+            "flow_fraction": 0.41322074959293004,
+            "main_first_layers": 13.82857142857143
+          },
+          "water": {
+            "players": 35,
+            "mean_size": 10.257142857142858,
+            "median": 10,
+            "minimum": 8,
+            "maximum": 16,
+            "histogram": {
+              "8": 13,
+              "9": 2,
+              "10": 6,
+              "11": 3,
+              "12": 6,
+              "13": 1,
+              "14": 2,
+              "15": 1,
+              "16": 1
+            },
+            "flow_fraction": 0.3135599321313607,
+            "main_first_layers": 12.0
+          },
+          "earth": {
+            "players": 37,
+            "mean_size": 11.567567567567568,
+            "median": 11,
+            "minimum": 8,
+            "maximum": 18,
+            "histogram": {
+              "8": 9,
+              "9": 4,
+              "10": 4,
+              "11": 3,
+              "12": 2,
+              "13": 5,
+              "14": 2,
+              "15": 2,
+              "16": 3,
+              "17": 2,
+              "18": 1
+            },
+            "flow_fraction": 0.24945980093038916,
+            "main_first_layers": 13.486486486486486
+          },
+          "wind": {
+            "players": 45,
+            "mean_size": 10.133333333333333,
+            "median": 8,
+            "minimum": 8,
+            "maximum": 19,
+            "histogram": {
+              "8": 25,
+              "9": 1,
+              "10": 6,
+              "11": 2,
+              "12": 1,
+              "13": 2,
+              "14": 2,
+              "15": 3,
+              "17": 1,
+              "18": 1,
+              "19": 1
+            },
+            "flow_fraction": 0.3983061942453067,
+            "main_first_layers": 10.777777777777779
+          },
+          "poison": {
+            "players": 46,
+            "mean_size": 14.065217391304348,
+            "median": 14,
+            "minimum": 8,
+            "maximum": 21,
+            "histogram": {
+              "8": 2,
+              "11": 6,
+              "12": 6,
+              "13": 6,
+              "14": 7,
+              "15": 6,
+              "16": 3,
+              "17": 6,
+              "18": 1,
+              "19": 2,
+              "21": 1
+            },
+            "flow_fraction": 0.4675600649705509,
+            "main_first_layers": 11.456521739130435
+          }
+        },
+        "purchases_per_player": 15.25,
+        "deletions_per_player": 12.48,
+        "round_mean_size": {
+          "1": 9.795,
+          "2": 11.285,
+          "3": 13.205,
+          "4": 15.115,
+          "5": 16.095,
+          "6": 16.83,
+          "7": 16.44,
+          "8": 16.275,
+          "9": 15.55,
+          "10": 15.301775147928995,
+          "11": 14.346938775510203,
+          "12": 13.6015625,
+          "13": 12.131578947368421,
+          "14": 10.708333333333334,
+          "15": 9.444444444444445,
+          "16": 8.777777777777779,
+          "17": 8.578947368421053,
+          "18": 8.75
+        }
+      },
+      "selected_actions": {
+        "players": 200,
+        "deck_size": 9.555,
+        "repeatable_size": 6.98,
+        "generic_fraction": 0.11174577258826485,
+        "purchases_per_player": 13.675,
+        "deletions_per_player": 13.065,
+        "paid_deletions_per_player": 6.235
+      },
+      "control_actions": {
+        "players": 200,
+        "deck_size": 11.725,
+        "repeatable_size": 9.095,
+        "generic_fraction": 0.2325736443424137,
+        "purchases_per_player": 15.25,
+        "deletions_per_player": 12.48,
+        "paid_deletions_per_player": 6.0
+      }
+    },
+    "original_medium": {
+      "games": 100,
+      "selected": {
+        "players": 200,
+        "mean_score": 0.8,
+        "championship_rate": 0.395,
+        "battle_count": 2803,
+        "win_rate": 0.6029254370317517,
+        "winner_time": 715.5143369175627,
+        "plays_per_battle": 22.887977167320727,
+        "instant_draw_per_battle": 5.269354263289332,
+        "immediate_fee_per_battle": 0.9297181591152337,
+        "discard_per_battle": 0.3692472351052444,
+        "shuffle_per_battle": 2.937566892615055,
+        "unused_fee_per_stage": 0.03312316462256003
+      },
+      "control": {
+        "players": 200,
+        "mean_score": -0.8,
+        "championship_rate": 0.105,
+        "battle_count": 2531,
+        "win_rate": 0.43224022125642036,
+        "winner_time": 844.9330855018587,
+        "plays_per_battle": 26.462267878308968,
+        "instant_draw_per_battle": 8.435796128012644,
+        "immediate_fee_per_battle": 0.8937178980640064,
+        "discard_per_battle": 0.6467799288818649,
+        "shuffle_per_battle": 2.583958909521928,
+        "unused_fee_per_stage": 0.01558714631805092
+      },
+      "objective": {
+        "composite": {
+          "games": 100,
+          "mean": 0.2442717852008612,
+          "low": 0.1888131342135779,
+          "high": 0.29973043618814454
+        },
+        "championship": {
+          "games": 100,
+          "mean": 0.29,
+          "low": 0.20976540457489484,
+          "high": 0.3702345954251051
+        },
+        "win": {
+          "games": 100,
+          "mean": 0.17614868893591698,
+          "low": 0.13708509260177873,
+          "high": 0.21521228527005523
+        },
+        "normalized_score": {
+          "games": 100,
+          "mean": 0.26666666666666666,
+          "low": 0.1990630155257188,
+          "high": 0.3342703178076145
+        }
+      },
+      "paired_win": {
+        "games": 100,
+        "mean": 0.17614868893591698,
+        "low": 0.13708509260177873,
+        "high": 0.21521228527005523
+      },
+      "paired_score": {
+        "mean": 1.6,
+        "low": 1.1943780931543129,
+        "high": 2.005621906845687,
+        "games": 100
+      },
+      "stages": {
+        "1-4": {
+          "selected": {
+            "players": 200,
+            "mean_score": 0.8,
+            "championship_rate": 0.395,
+            "battle_count": 800,
+            "win_rate": 0.564375,
+            "winner_time": 1159.7042889390518,
+            "plays_per_battle": 39.38875,
+            "instant_draw_per_battle": 5.52625,
+            "immediate_fee_per_battle": 0.45,
+            "discard_per_battle": 0.50625,
+            "shuffle_per_battle": 5.42,
+            "unused_fee_per_stage": 9.670244657189827e-05
+          },
+          "control": {
+            "players": 200,
+            "mean_score": -0.8,
+            "championship_rate": 0.105,
+            "battle_count": 800,
+            "win_rate": 0.435625,
+            "winner_time": 1254.3510324483775,
+            "plays_per_battle": 41.93375,
+            "instant_draw_per_battle": 9.585,
+            "immediate_fee_per_battle": 0.4175,
+            "discard_per_battle": 0.75625,
+            "shuffle_per_battle": 4.815,
+            "unused_fee_per_stage": 0.007165995877098263
+          },
+          "paired_win": {
+            "games": 100,
+            "mean": 0.12875,
+            "low": 0.06709744407962351,
+            "high": 0.1904025559203765
+          }
+        },
+        "5-8": {
+          "selected": {
+            "players": 200,
+            "mean_score": 0.8,
+            "championship_rate": 0.395,
+            "battle_count": 800,
+            "win_rate": 0.59,
+            "winner_time": 642.0085287846482,
+            "plays_per_battle": 19.56625,
+            "instant_draw_per_battle": 6.58875,
+            "immediate_fee_per_battle": 1.04375,
+            "discard_per_battle": 0.49375,
+            "shuffle_per_battle": 2.32125,
+            "unused_fee_per_stage": 0.007286606523247745
+          },
+          "control": {
+            "players": 200,
+            "mean_score": -0.8,
+            "championship_rate": 0.105,
+            "battle_count": 800,
+            "win_rate": 0.41,
+            "winner_time": 765.141975308642,
+            "plays_per_battle": 22.805,
+            "instant_draw_per_battle": 9.09375,
+            "immediate_fee_per_battle": 1.02875,
+            "discard_per_battle": 0.7475,
+            "shuffle_per_battle": 2.03375,
+            "unused_fee_per_stage": 0.013157894736842105
+          },
+          "paired_win": {
+            "games": 100,
+            "mean": 0.18,
+            "low": 0.11623340699207473,
+            "high": 0.24376659300792525
+          }
+        },
+        "9-12": {
+          "selected": {
+            "players": 200,
+            "mean_score": 0.8,
+            "championship_rate": 0.395,
+            "battle_count": 737,
+            "win_rate": 0.6492537313432836,
+            "winner_time": 510.25840336134456,
+            "plays_per_battle": 14.59158751696065,
+            "instant_draw_per_battle": 5.199457259158752,
+            "immediate_fee_per_battle": 1.1194029850746268,
+            "discard_per_battle": 0.3039348710990502,
+            "shuffle_per_battle": 1.6689280868385346,
+            "unused_fee_per_stage": 0.06480627306273062
+          },
+          "control": {
+            "players": 200,
+            "mean_score": -0.8,
+            "championship_rate": 0.105,
+            "battle_count": 649,
+            "win_rate": 0.43836671802773497,
+            "winner_time": 587.085409252669,
+            "plays_per_battle": 17.05855161787365,
+            "instant_draw_per_battle": 7.141756548536209,
+            "immediate_fee_per_battle": 1.1063174114021572,
+            "discard_per_battle": 0.5192604006163328,
+            "shuffle_per_battle": 1.3682588597842835,
+            "unused_fee_per_stage": 0.024072216649949848
+          },
+          "paired_win": {
+            "games": 100,
+            "mean": 0.21586904761904763,
+            "low": 0.1620670138549856,
+            "high": 0.26967108138310963
+          }
+        },
+        "13+": {
+          "selected": {
+            "players": 198,
+            "mean_score": 0.797979797979798,
+            "championship_rate": 0.3939393939393939,
+            "battle_count": 466,
+            "win_rate": 0.6180257510729614,
+            "winner_time": 489.63986013986016,
+            "plays_per_battle": 13.38412017167382,
+            "instant_draw_per_battle": 2.6738197424892705,
+            "immediate_fee_per_battle": 1.257510729613734,
+            "discard_per_battle": 0.023605150214592276,
+            "shuffle_per_battle": 1.740343347639485,
+            "unused_fee_per_stage": 0.16316758747697974
+          },
+          "control": {
+            "players": 198,
+            "mean_score": -0.797979797979798,
+            "championship_rate": 0.10606060606060606,
+            "battle_count": 282,
+            "win_rate": 0.4716312056737589,
+            "winner_time": 538.2272727272727,
+            "plays_per_battle": 14.588652482269504,
+            "instant_draw_per_battle": 6.287234042553192,
+            "immediate_fee_per_battle": 1.372340425531915,
+            "discard_per_battle": 0.34397163120567376,
+            "shuffle_per_battle": 0.6134751773049646,
+            "unused_fee_per_stage": 0.05886157826649418
+          },
+          "paired_win": {
+            "games": 99,
+            "mean": 0.27813743495561677,
+            "low": 0.17526689895547068,
+            "high": 0.3810079709557629
+          }
+        }
+      },
+      "selected_decks": {
+        "players": 200,
+        "mean_size": 9.155,
+        "median": 8,
+        "minimum": 8,
+        "maximum": 18,
+        "histogram": {
+          "8": 134,
+          "9": 16,
+          "10": 10,
+          "11": 8,
+          "12": 14,
+          "13": 7,
+          "14": 3,
+          "15": 4,
+          "16": 3,
+          "18": 1
+        },
+        "flow_fraction": 0.1776477827727828,
+        "main_first_layers": 12.235,
+        "elements": {
+          "fire": {
+            "players": 53,
+            "mean_size": 8.735849056603774,
+            "median": 8,
+            "minimum": 8,
+            "maximum": 16,
+            "histogram": {
+              "8": 41,
+              "9": 4,
+              "11": 2,
+              "12": 4,
+              "13": 1,
+              "16": 1
+            },
+            "flow_fraction": 0.21667784521558106,
+            "main_first_layers": 12.415094339622641
+          },
+          "water": {
+            "players": 40,
+            "mean_size": 8.825,
+            "median": 8,
+            "minimum": 8,
+            "maximum": 14,
+            "histogram": {
+              "8": 27,
+              "9": 4,
+              "10": 3,
+              "11": 3,
+              "12": 2,
+              "14": 1
+            },
+            "flow_fraction": 0.10132215007215006,
+            "main_first_layers": 12.2
+          },
+          "earth": {
+            "players": 33,
+            "mean_size": 8.666666666666666,
+            "median": 8,
+            "minimum": 8,
+            "maximum": 14,
+            "histogram": {
+              "8": 26,
+              "9": 1,
+              "10": 3,
+              "12": 1,
+              "13": 1,
+              "14": 1
+            },
+            "flow_fraction": 0.12492599992599993,
+            "main_first_layers": 12.727272727272727
+          },
+          "wind": {
+            "players": 35,
+            "mean_size": 8.17142857142857,
+            "median": 8,
+            "minimum": 8,
+            "maximum": 12,
+            "histogram": {
+              "8": 32,
+              "9": 2,
+              "12": 1
+            },
+            "flow_fraction": 0.18571428571428572,
+            "main_first_layers": 11.085714285714285
+          },
+          "poison": {
+            "players": 39,
+            "mean_size": 11.35897435897436,
+            "median": 11,
+            "minimum": 8,
+            "maximum": 18,
+            "histogram": {
+              "8": 8,
+              "9": 5,
+              "10": 4,
+              "11": 3,
+              "12": 6,
+              "13": 5,
+              "14": 1,
+              "15": 4,
+              "16": 2,
+              "18": 1
+            },
+            "flow_fraction": 0.24026119891504508,
+            "main_first_layers": 12.64102564102564
+          }
+        },
+        "purchases_per_player": 13.505,
+        "deletions_per_player": 13.29,
+        "round_mean_size": {
+          "1": 9.29,
+          "2": 10.355,
+          "3": 12.28,
+          "4": 13.965,
+          "5": 14.945,
+          "6": 15.575,
+          "7": 15.01,
+          "8": 14.685,
+          "9": 13.865,
+          "10": 13.609375,
+          "11": 12.32768361581921,
+          "12": 11.345238095238095,
+          "13": 9.9125,
+          "14": 8.840909090909092,
+          "15": 8.273684210526316,
+          "16": 8.01923076923077,
+          "17": 8.0,
+          "18": 8.0,
+          "19": 8.0,
+          "20": 8.0
+        }
+      },
+      "control_decks": {
+        "players": 200,
+        "mean_size": 19.29,
+        "median": 20,
+        "minimum": 15,
+        "maximum": 23,
+        "histogram": {
+          "15": 3,
+          "16": 10,
+          "17": 17,
+          "18": 35,
+          "19": 30,
+          "20": 54,
+          "21": 39,
+          "22": 11,
+          "23": 1
+        },
+        "flow_fraction": 0.40954949409727137,
+        "main_first_layers": 15.465,
+        "elements": {
+          "fire": {
+            "players": 31,
+            "mean_size": 19.483870967741936,
+            "median": 20,
+            "minimum": 16,
+            "maximum": 22,
+            "histogram": {
+              "16": 1,
+              "17": 3,
+              "18": 3,
+              "19": 7,
+              "20": 9,
+              "21": 6,
+              "22": 2
+            },
+            "flow_fraction": 0.4165218675318046,
+            "main_first_layers": 14.741935483870968
+          },
+          "water": {
+            "players": 39,
+            "mean_size": 18.17948717948718,
+            "median": 18,
+            "minimum": 15,
+            "maximum": 21,
+            "histogram": {
+              "15": 2,
+              "16": 6,
+              "17": 4,
+              "18": 11,
+              "19": 6,
+              "20": 7,
+              "21": 3
+            },
+            "flow_fraction": 0.36674204994638426,
+            "main_first_layers": 16.05128205128205
+          },
+          "earth": {
+            "players": 41,
+            "mean_size": 19.146341463414632,
+            "median": 19,
+            "minimum": 15,
+            "maximum": 23,
+            "histogram": {
+              "15": 1,
+              "16": 1,
+              "17": 4,
+              "18": 8,
+              "19": 10,
+              "20": 9,
+              "21": 5,
+              "22": 2,
+              "23": 1
+            },
+            "flow_fraction": 0.3417034817651304,
+            "main_first_layers": 16.975609756097562
+          },
+          "wind": {
+            "players": 50,
+            "mean_size": 19.74,
+            "median": 20,
+            "minimum": 16,
+            "maximum": 22,
+            "histogram": {
+              "16": 2,
+              "17": 3,
+              "18": 9,
+              "19": 5,
+              "20": 11,
+              "21": 13,
+              "22": 7
+            },
+            "flow_fraction": 0.47071449010226096,
+            "main_first_layers": 16.02
+          },
+          "poison": {
+            "players": 37,
+            "mean_size": 19.945945945945947,
+            "median": 20,
+            "minimum": 17,
+            "maximum": 21,
+            "histogram": {
+              "17": 2,
+              "18": 3,
+              "19": 2,
+              "20": 18,
+              "21": 12
+            },
+            "flow_fraction": 0.4294876698901467,
+            "main_first_layers": 13.864864864864865
+          }
+        },
+        "purchases_per_player": 16.98,
+        "deletions_per_player": 6.645,
+        "round_mean_size": {
+          "1": 10.39,
+          "2": 12.45,
+          "3": 14.41,
+          "4": 16.995,
+          "5": 18.65,
+          "6": 19.995,
+          "7": 20.1,
+          "8": 20.195,
+          "9": 20.436548223350254,
+          "10": 20.49438202247191,
+          "11": 20.308724832214764,
+          "12": 20.152,
+          "13": 19.564814814814813,
+          "14": 18.948051948051948,
+          "15": 18.307692307692307,
+          "16": 17.76,
+          "17": 17.133333333333333,
+          "18": 16.666666666666668,
+          "19": 16.0,
+          "20": 15.0
+        }
+      },
+      "selected_actions": {
+        "players": 200,
+        "deck_size": 9.155,
+        "repeatable_size": 6.5,
+        "generic_fraction": 0.12941344766344767,
+        "purchases_per_player": 13.505,
+        "deletions_per_player": 13.29,
+        "paid_deletions_per_player": 6.345
+      },
+      "control_actions": {
+        "players": 200,
+        "deck_size": 19.29,
+        "repeatable_size": 16.71,
+        "generic_fraction": 0.3880473635019503,
+        "purchases_per_player": 16.98,
+        "deletions_per_player": 6.645,
+        "paid_deletions_per_player": 0.0
+      }
+    }
+  },
+  "final_test_games": 200,
+  "overall_final": {
+    "games": 200,
+    "selected": {
+      "players": 400,
+      "mean_score": 0.67,
+      "championship_rate": 0.3625,
+      "battle_count": 5600,
+      "win_rate": 0.5882142857142857,
+      "winner_time": 714.0236268794108,
+      "plays_per_battle": 22.568035714285713,
+      "instant_draw_per_battle": 5.1746428571428575,
+      "immediate_fee_per_battle": 0.8991071428571429,
+      "discard_per_battle": 0.385,
+      "shuffle_per_battle": 2.854107142857143,
+      "unused_fee_per_stage": 0.03520852280109133
+    },
+    "control": {
+      "players": 400,
+      "mean_score": -0.67,
+      "championship_rate": 0.1375,
+      "battle_count": 5116,
+      "win_rate": 0.4498631743549648,
+      "winner_time": 813.2594880847308,
+      "plays_per_battle": 25.777756059421424,
+      "instant_draw_per_battle": 9.41849100860047,
+      "immediate_fee_per_battle": 1.197810789679437,
+      "discard_per_battle": 0.8060985144644254,
+      "shuffle_per_battle": 3.0285379202501956,
+      "unused_fee_per_stage": 0.01941320745985469
+    },
+    "objective": {
+      "composite": {
+        "games": 200,
+        "mean": 0.19732787436316118,
+        "low": 0.1547338536537993,
+        "high": 0.23992189507252307
+      },
+      "championship": {
+        "games": 200,
+        "mean": 0.225,
+        "low": 0.16296098650059063,
+        "high": 0.2870390134994094
+      },
+      "win": {
+        "games": 200,
+        "mean": 0.1436502897561502,
+        "low": 0.1139505787448562,
+        "high": 0.17335000076744422
+      },
+      "normalized_score": {
+        "games": 200,
+        "mean": 0.22333333333333333,
+        "low": 0.17300047278556321,
+        "high": 0.2736661938811034
+      }
+    },
+    "paired_win": {
+      "games": 200,
+      "mean": 0.1436502897561502,
+      "low": 0.1139505787448562,
+      "high": 0.17335000076744422
+    },
+    "paired_score": {
+      "mean": 1.34,
+      "low": 1.0380028367133796,
+      "high": 1.6419971632866206,
+      "games": 200
+    },
+    "stages": {
+      "1-4": {
+        "selected": {
+          "players": 400,
+          "mean_score": 0.67,
+          "championship_rate": 0.3625,
+          "battle_count": 1600,
+          "win_rate": 0.5534375,
+          "winner_time": 1148.2314814814815,
+          "plays_per_battle": 39.00625,
+          "instant_draw_per_battle": 5.473125,
+          "immediate_fee_per_battle": 0.44875,
+          "discard_per_battle": 0.538125,
+          "shuffle_per_battle": 5.39625,
+          "unused_fee_per_stage": 0.00024323798404358825
+        },
+        "control": {
+          "players": 400,
+          "mean_score": -0.67,
+          "championship_rate": 0.1375,
+          "battle_count": 1600,
+          "win_rate": 0.4465625,
+          "winner_time": 1209.6469740634006,
+          "plays_per_battle": 40.453125,
+          "instant_draw_per_battle": 9.858125,
+          "immediate_fee_per_battle": 0.400625,
+          "discard_per_battle": 0.82625,
+          "shuffle_per_battle": 5.06875,
+          "unused_fee_per_stage": 0.004595495404504595
+        },
+        "paired_win": {
+          "games": 200,
+          "mean": 0.106875,
+          "low": 0.060519556602943725,
+          "high": 0.15323044339705627
+        }
+      },
+      "5-8": {
+        "selected": {
+          "players": 400,
+          "mean_score": 0.67,
+          "championship_rate": 0.3625,
+          "battle_count": 1600,
+          "win_rate": 0.5778125,
+          "winner_time": 640.7298474945534,
+          "plays_per_battle": 19.315,
+          "instant_draw_per_battle": 6.371875,
+          "immediate_fee_per_battle": 0.941875,
+          "discard_per_battle": 0.50125,
+          "shuffle_per_battle": 2.200625,
+          "unused_fee_per_stage": 0.007285342584562012
+        },
+        "control": {
+          "players": 400,
+          "mean_score": -0.67,
+          "championship_rate": 0.1375,
+          "battle_count": 1600,
+          "win_rate": 0.4221875,
+          "winner_time": 727.0449101796407,
+          "plays_per_battle": 21.989375,
+          "instant_draw_per_battle": 10.215625,
+          "immediate_fee_per_battle": 1.16,
+          "discard_per_battle": 0.950625,
+          "shuffle_per_battle": 2.29875,
+          "unused_fee_per_stage": 0.01257647858599592
+        },
+        "paired_win": {
+          "games": 200,
+          "mean": 0.155625,
+          "low": 0.10946191111121606,
+          "high": 0.20178808888878397
+        }
+      },
+      "9-12": {
+        "selected": {
+          "players": 400,
+          "mean_score": 0.67,
+          "championship_rate": 0.3625,
+          "battle_count": 1464,
+          "win_rate": 0.6287568306010929,
+          "winner_time": 509.8713195201745,
+          "plays_per_battle": 14.184426229508198,
+          "instant_draw_per_battle": 5.094262295081967,
+          "immediate_fee_per_battle": 1.099726775956284,
+          "discard_per_battle": 0.3114754098360656,
+          "shuffle_per_battle": 1.5293715846994536,
+          "unused_fee_per_stage": 0.06802960874162849
+        },
+        "control": {
+          "players": 400,
+          "mean_score": -0.67,
+          "championship_rate": 0.1375,
+          "battle_count": 1293,
+          "win_rate": 0.4648105181747873,
+          "winner_time": 565.4848993288591,
+          "plays_per_battle": 17.263727764887857,
+          "instant_draw_per_battle": 9.092807424593968,
+          "immediate_fee_per_battle": 1.5328692962103634,
+          "discard_per_battle": 0.7509667440061871,
+          "shuffle_per_battle": 1.8979118329466358,
+          "unused_fee_per_stage": 0.03402310524311286
+        },
+        "paired_win": {
+          "games": 200,
+          "mean": 0.17181250000000003,
+          "low": 0.12927451799068554,
+          "high": 0.21435048200931453
+        }
+      },
+      "13+": {
+        "selected": {
+          "players": 394,
+          "mean_score": 0.6649746192893401,
+          "championship_rate": 0.3604060913705584,
+          "battle_count": 936,
+          "win_rate": 0.6020299145299145,
+          "winner_time": 498.5517857142857,
+          "plays_per_battle": 13.142094017094017,
+          "instant_draw_per_battle": 2.7435897435897436,
+          "immediate_fee_per_battle": 1.2820512820512822,
+          "discard_per_battle": 0.03952991452991453,
+          "shuffle_per_battle": 1.6976495726495726,
+          "unused_fee_per_stage": 0.17153088630259625
+        },
+        "control": {
+          "players": 394,
+          "mean_score": -0.6649746192893401,
+          "championship_rate": 0.13959390862944163,
+          "battle_count": 623,
+          "win_rate": 0.4983948635634029,
+          "winner_time": 586.5454545454545,
+          "plays_per_battle": 15.487961476725522,
+          "instant_draw_per_battle": 6.918138041733547,
+          "immediate_fee_per_battle": 2.6468699839486356,
+          "discard_per_battle": 0.49759229534510435,
+          "shuffle_per_battle": 2.009630818619583,
+          "unused_fee_per_stage": 0.08804030761071334
+        },
+        "paired_win": {
+          "games": 197,
+          "mean": 0.21897903985467437,
+          "low": 0.1409082796727693,
+          "high": 0.29704980003657944
+        }
+      }
+    },
+    "selected_decks": {
+      "players": 400,
+      "mean_size": 9.355,
+      "median": 8,
+      "minimum": 8,
+      "maximum": 19,
+      "histogram": {
+        "8": 252,
+        "9": 28,
+        "10": 29,
+        "11": 23,
+        "12": 23,
+        "13": 14,
+        "14": 12,
+        "15": 9,
+        "16": 4,
+        "17": 3,
+        "18": 2,
+        "19": 1
+      },
+      "flow_fraction": 0.1795767160041541,
+      "main_first_layers": 12.485,
+      "elements": {
+        "fire": {
+          "players": 100,
+          "mean_size": 9.4,
+          "median": 8,
+          "minimum": 8,
+          "maximum": 19,
+          "histogram": {
+            "8": 66,
+            "9": 7,
+            "10": 2,
+            "11": 5,
+            "12": 7,
+            "13": 3,
+            "14": 6,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "19": 1
+          },
+          "flow_fraction": 0.22493883743535445,
+          "main_first_layers": 13.05
+        },
+        "water": {
+          "players": 83,
+          "mean_size": 8.626506024096386,
+          "median": 8,
+          "minimum": 8,
+          "maximum": 14,
+          "histogram": {
+            "8": 61,
+            "9": 7,
+            "10": 6,
+            "11": 5,
+            "12": 3,
+            "14": 1
+          },
+          "flow_fraction": 0.08968123576557312,
+          "main_first_layers": 12.204819277108435
+        },
+        "earth": {
+          "players": 69,
+          "mean_size": 8.855072463768115,
+          "median": 8,
+          "minimum": 8,
+          "maximum": 14,
+          "histogram": {
+            "8": 47,
+            "9": 3,
+            "10": 10,
+            "11": 5,
+            "12": 1,
+            "13": 1,
+            "14": 2
+          },
+          "flow_fraction": 0.12115529398138095,
+          "main_first_layers": 12.826086956521738
+        },
+        "wind": {
+          "players": 77,
+          "mean_size": 8.467532467532468,
+          "median": 8,
+          "minimum": 8,
+          "maximum": 18,
+          "histogram": {
+            "8": 66,
+            "9": 3,
+            "10": 3,
+            "11": 2,
+            "12": 1,
+            "15": 1,
+            "18": 1
+          },
+          "flow_fraction": 0.20232192050373868,
+          "main_first_layers": 11.337662337662337
+        },
+        "poison": {
+          "players": 71,
+          "mean_size": 11.591549295774648,
+          "median": 12,
+          "minimum": 8,
+          "maximum": 18,
+          "histogram": {
+            "8": 12,
+            "9": 8,
+            "10": 8,
+            "11": 6,
+            "12": 11,
+            "13": 10,
+            "14": 3,
+            "15": 7,
+            "16": 3,
+            "17": 2,
+            "18": 1
+          },
+          "flow_fraction": 0.2528839003673304,
+          "main_first_layers": 12.929577464788732
+        }
+      },
+      "purchases_per_player": 13.59,
+      "deletions_per_player": 13.1775,
+      "round_mean_size": {
+        "1": 9.295,
+        "2": 10.4125,
+        "3": 12.375,
+        "4": 14.075,
+        "5": 15.1175,
+        "6": 15.7575,
+        "7": 15.19,
+        "8": 14.895,
+        "9": 14.042713567839195,
+        "10": 13.728947368421053,
+        "11": 12.385269121813032,
+        "12": 11.372372372372372,
+        "13": 9.987096774193548,
+        "14": 8.915708812260537,
+        "15": 8.302564102564103,
+        "16": 8.08411214953271,
+        "17": 8.020833333333334,
+        "18": 8.0,
+        "19": 8.0,
+        "20": 8.0
+      }
+    },
+    "control_decks": {
+      "players": 400,
+      "mean_size": 15.5075,
+      "median": 17,
+      "minimum": 8,
+      "maximum": 23,
+      "histogram": {
+        "8": 53,
+        "9": 10,
+        "10": 22,
+        "11": 17,
+        "12": 22,
+        "13": 16,
+        "14": 14,
+        "15": 21,
+        "16": 18,
+        "17": 26,
+        "18": 41,
+        "19": 34,
+        "20": 54,
+        "21": 40,
+        "22": 11,
+        "23": 1
+      },
+      "flow_fraction": 0.39327194260978243,
+      "main_first_layers": 13.77,
+      "elements": {
+        "fire": {
+          "players": 66,
+          "mean_size": 15.742424242424242,
+          "median": 17,
+          "minimum": 8,
+          "maximum": 22,
+          "histogram": {
+            "8": 4,
+            "9": 3,
+            "10": 4,
+            "11": 3,
+            "12": 7,
+            "13": 2,
+            "14": 1,
+            "15": 6,
+            "16": 2,
+            "17": 3,
+            "18": 6,
+            "19": 8,
+            "20": 9,
+            "21": 6,
+            "22": 2
+          },
+          "flow_fraction": 0.41477127468543173,
+          "main_first_layers": 14.257575757575758
+        },
+        "water": {
+          "players": 74,
+          "mean_size": 14.432432432432432,
+          "median": 16,
+          "minimum": 8,
+          "maximum": 21,
+          "histogram": {
+            "8": 13,
+            "9": 2,
+            "10": 6,
+            "11": 3,
+            "12": 6,
+            "13": 1,
+            "14": 2,
+            "15": 3,
+            "16": 7,
+            "17": 4,
+            "18": 11,
+            "19": 6,
+            "20": 7,
+            "21": 3
+          },
+          "flow_fraction": 0.3415883455744137,
+          "main_first_layers": 14.135135135135135
+        },
+        "earth": {
+          "players": 78,
+          "mean_size": 15.551282051282051,
+          "median": 17,
+          "minimum": 8,
+          "maximum": 23,
+          "histogram": {
+            "8": 9,
+            "9": 4,
+            "10": 4,
+            "11": 3,
+            "12": 2,
+            "13": 5,
+            "14": 2,
+            "15": 3,
+            "16": 4,
+            "17": 6,
+            "18": 9,
+            "19": 10,
+            "20": 9,
+            "21": 5,
+            "22": 2,
+            "23": 1
+          },
+          "flow_fraction": 0.29794686393326597,
+          "main_first_layers": 15.320512820512821
+        },
+        "wind": {
+          "players": 95,
+          "mean_size": 15.189473684210526,
+          "median": 17,
+          "minimum": 8,
+          "maximum": 22,
+          "histogram": {
+            "8": 25,
+            "9": 1,
+            "10": 6,
+            "11": 2,
+            "12": 1,
+            "13": 2,
+            "14": 2,
+            "15": 3,
+            "16": 2,
+            "17": 4,
+            "18": 10,
+            "19": 6,
+            "20": 11,
+            "21": 13,
+            "22": 7
+          },
+          "flow_fraction": 0.43641582364370374,
+          "main_first_layers": 13.536842105263158
+        },
+        "poison": {
+          "players": 83,
+          "mean_size": 16.686746987951807,
+          "median": 17,
+          "minimum": 8,
+          "maximum": 21,
+          "histogram": {
+            "8": 2,
+            "11": 6,
+            "12": 6,
+            "13": 6,
+            "14": 7,
+            "15": 6,
+            "16": 3,
+            "17": 8,
+            "18": 4,
+            "19": 4,
+            "20": 18,
+            "21": 13
+          },
+          "flow_fraction": 0.450588033428684,
+          "main_first_layers": 12.53012048192771
+        }
+      },
+      "purchases_per_player": 16.115,
+      "deletions_per_player": 9.5625,
+      "round_mean_size": {
+        "1": 10.0925,
+        "2": 11.8675,
+        "3": 13.8075,
+        "4": 16.055,
+        "5": 17.3725,
+        "6": 18.4125,
+        "7": 18.27,
+        "8": 18.235,
+        "9": 17.974811083123427,
+        "10": 17.965417867435157,
+        "11": 17.347972972972972,
+        "12": 16.83794466403162,
+        "13": 15.747747747747749,
+        "14": 14.375722543352602,
+        "15": 13.161290322580646,
+        "16": 12.459016393442623,
+        "17": 12.352941176470589,
+        "18": 12.142857142857142,
+        "19": 16.0,
+        "20": 15.0
+      }
+    },
+    "selected_actions": {
+      "players": 400,
+      "deck_size": 9.355,
+      "repeatable_size": 6.74,
+      "generic_fraction": 0.12057961012585626,
+      "purchases_per_player": 13.59,
+      "deletions_per_player": 13.1775,
+      "paid_deletions_per_player": 6.29
+    },
+    "control_actions": {
+      "players": 400,
+      "deck_size": 15.5075,
+      "repeatable_size": 12.9025,
+      "generic_fraction": 0.31031050392218196,
+      "purchases_per_player": 16.115,
+      "deletions_per_player": 9.5625,
+      "paid_deletions_per_player": 3.0
+    }
+  },
+  "robust_improvement_gate": true,
+  "input_hashes_verified": true,
+  "default_changed": false
+}

@@ -1,0 +1,6 @@
+{
+  "promoted": false,
+  "candidate": "accepted-08",
+  "applied": "deployment-fallback-legacy",
+  "reason": "终测均分及战斗胜率门槛未通过；保留候选权重，不使用终测重调参数"
+}

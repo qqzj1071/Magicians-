@@ -8,10 +8,10 @@
   "CombatCost": 2,
   "BaseStudyCost": 3,
   "Attack": 14,
-  "Defense": 0,
+  "Defense": 1,
   "FirstEnchantmentLayers": 1,
-  "RulesText": "下一发飞弹额外发射一段“固定 40 + 攻击力 25%”的加成副弹；本场敌方防御永久 -4；本场攻击间隔永久 -2；下一发/整场",
-  "DisplayRulesText": "下一发飞弹额外发射一段“固定 40 + 攻击力 25%”的加成副弹；本场敌方防御永久 -4；本场攻击间隔永久 -2；下一发/整场",
+  "RulesText": "下一发飞弹额外发射一段“固定 35 + 攻击力 25%”的加成副弹；本场敌方防御永久 -4；本场攻击间隔永久 -1；下一发/整场",
+  "DisplayRulesText": "下一发飞弹额外发射一段“固定 35 + 攻击力 25%”的加成副弹；本场敌方防御永久 -4；本场攻击间隔永久 -1；下一发/整场",
   "RuleNotes": [],
   "Art": {
     "IllustrationTexture": "",

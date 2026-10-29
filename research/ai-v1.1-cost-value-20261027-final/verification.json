@@ -1,0 +1,26 @@
+{
+  "active_cards": 252,
+  "changed_panels": 191,
+  "integer_panels": true,
+  "all_rarity_bands_pass": true,
+  "all_rarity_spreads_le_20_percent": true,
+  "actual_mean_value_scale": 0.9175619762873339,
+  "zero_nonzero_profiles_preserved": true,
+  "cost_rarity_layers_unchanged": true,
+  "retired_card_unchanged": true,
+  "document_rows_matched": 252,
+  "python_tests_passed": 17,
+  "csharp_build": "0 warnings / 0 errors",
+  "csharp_formula_checks": "V11_ROUTE_BALANCE_OK",
+  "cards_sha256": "18bfc3b6d321a9350a52d5eb055e7d6caa96bccb60baeaee6a13aaa8a69c7544",
+  "ash_rebirth_requires_played_specialization": true,
+  "pre_specialization_ember_assertion_retained": true,
+  "tournament_audit": {
+    "games": 1000,
+    "unique_players_per_game": 4,
+    "placement_order_valid": true,
+    "points_conserved": true,
+    "champion_shares_conserved": true,
+    "all_rankings_recomputed_match": true
+  }
+}

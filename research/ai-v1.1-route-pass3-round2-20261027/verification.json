@@ -1,0 +1,22 @@
+{
+  "document_rows": 252,
+  "document_mismatches": [],
+  "python_checks_passed": 11,
+  "csharp_build": {
+    "warnings": 0,
+    "errors": 0
+  },
+  "csharp_formula_checks": "V11_ROUTE_BALANCE_OK",
+  "common_rare_specialization_unchanged_since_round1": true,
+  "user_requested_mechanics_unchanged_since_round1": true,
+  "engine_text_identical_between_rounds": true,
+  "cards_sha256": "44ac7eef4703c9904cafdbf19dc389193995a7337636dc7f4e882f1a1d0a7e71",
+  "tournament_audit": {
+    "games": 1000,
+    "unique_players_per_game": 4,
+    "placement_order_valid": true,
+    "points_conserved": true,
+    "champion_shares_conserved": true,
+    "all_rankings_recomputed_match": true
+  }
+}

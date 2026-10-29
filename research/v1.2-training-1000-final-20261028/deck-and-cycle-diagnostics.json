@@ -1,0 +1,19 @@
+{
+  "True": {
+    "cards": 26.01,
+    "generic_fraction": 0.2895021038444445,
+    "avg_cost": 1.2110945980796566,
+    "potential_layers": 22.8275,
+    "instant_draw_density": 0.33312143355757556
+  },
+  "False": {
+    "cards": 26.4975,
+    "generic_fraction": 0.16484493084618124,
+    "avg_cost": 1.176227997102232,
+    "potential_layers": 23.3375,
+    "instant_draw_density": 0.29282130644223775
+  },
+  "cycle_decisions": {
+    "alternative_or_end": 13
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "promoted": false,
+  "deployed": "fixed-legacy",
+  "criterion": "both100room paired win95%lower>0, no skipped games"
+}

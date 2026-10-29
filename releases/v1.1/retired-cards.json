@@ -1,0 +1,15 @@
+{
+  "守势": {
+    "name": "守势",
+    "cost": 1,
+    "element": "generic",
+    "rarity": "common",
+    "attack": 1,
+    "defense": 3,
+    "layers": 0,
+    "ability": false,
+    "kind": "normal",
+    "text": "无；整场",
+    "route_support": null
+  }
+}

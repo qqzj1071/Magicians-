@@ -1,0 +1,19 @@
+{
+  "unique_games": 1000,
+  "battles": 28238,
+  "ledgers": 53417,
+  "segments": {
+    "train": 600,
+    "validation": 200,
+    "final-holdout": 200
+  },
+  "pool": 707,
+  "cards": 189,
+  "input_hashes_verified": true,
+  "source_hashes_verified": true,
+  "starter_purchase_violations": 0,
+  "sequence_skips": 0,
+  "fees_income_bank_valid": true,
+  "no_size_or_role_preference": true,
+  "frozen_model_unchanged": true
+}

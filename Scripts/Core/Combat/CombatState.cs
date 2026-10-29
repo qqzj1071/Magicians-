@@ -26,13 +26,16 @@ public sealed record CombatRewindSnapshot(
     int WindLayers, int WaterLayers, int EarthLayers, int FireLayers,
     int Embers, bool EmberDamageActive,
     bool EarthBarrierActive, int ShieldBreakReturnPercent, int ShieldBreakReturnFlat,
-    int AttackIntervalModifier, int PermanentIntervalMultiplierPercent,
+    decimal AttackIntervalModifier, int PermanentIntervalMultiplierPercent,
     bool WindTraceActive, bool WindGaleActive, bool WindArrowActive,
     bool WindChaseActive, bool TideActive, int TideRefundPercent,
     int ActionValue, int ExpiresAtActionValue)
 {
     public bool ShieldDecayActive { get; init; }
+    public bool ManaContractActive { get; init; }
     public bool BastionHeartActive { get; init; }
+    public bool BurningBloodlineActive { get; init; }
+    public bool LifeSpringActive { get; init; }
 }
 
 public sealed record CombatantState(
@@ -48,7 +51,7 @@ public sealed record CombatantState(
     int ElementForgeBonusLayers,
     int ElementForgePotentialLayers,
     int NextFire,
-    int AttackIntervalModifier,
+    decimal AttackIntervalModifier,
     int PermanentIntervalMultiplierPercent,
     int TemporaryIntervalMultiplierPercent,
     int NextIncomingDamageMultiplierPercent,
@@ -79,7 +82,7 @@ public sealed record CombatantState(
     int BattleIncomingDamageUntilActionValue,
     int NextDrawBonus,
     int NextEnergyBonus,
-    int NextGapAdjustment,
+    decimal NextGapAdjustment,
     int WindLayers,
     int WaterLayers,
     int EarthLayers,
@@ -148,8 +151,14 @@ public sealed record CombatantState(
 {
     // Historical consumption is independent of temporary resources and rewinds.
     public int UnredeemedEmbersSpent { get; init; }
+    public int AshCyclePendingCredit { get; init; }
+    public IReadOnlyList<string> DrawnThisWindow { get; init; } = Array.Empty<string>();
     public ShieldDecayState ShieldDecay { get; init; } = new();
+    public bool ManaContractActive { get; init; }
     public bool BastionHeartActive { get; init; }
+    public bool BurningBloodlineActive { get; init; }
+    public bool LifeSpringActive { get; init; }
+    public int NextTideHealingRecordBonusPercent { get; init; }
 }
 
 public sealed record PendingAction(PlayerId Player, CombatAction Action);

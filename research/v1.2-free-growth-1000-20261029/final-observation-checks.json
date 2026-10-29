@@ -1,0 +1,22 @@
+[
+  {
+    "element": "fire",
+    "unrevealed_pile_permutation_preserves_choice": true
+  },
+  {
+    "element": "water",
+    "unrevealed_pile_permutation_preserves_choice": true
+  },
+  {
+    "element": "earth",
+    "unrevealed_pile_permutation_preserves_choice": true
+  },
+  {
+    "element": "wind",
+    "unrevealed_pile_permutation_preserves_choice": true
+  },
+  {
+    "element": "poison",
+    "unrevealed_pile_permutation_preserves_choice": true
+  }
+]

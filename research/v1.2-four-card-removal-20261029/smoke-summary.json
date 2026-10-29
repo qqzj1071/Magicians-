@@ -1,0 +1,31 @@
+{
+  "games": 4,
+  "battles": 111,
+  "sequence_skips": {},
+  "rooms": [
+    {
+      "seed": 297000,
+      "battles": 26,
+      "pool": 693,
+      "winner": 2
+    },
+    {
+      "seed": 297001,
+      "battles": 28,
+      "pool": 693,
+      "winner": 1
+    },
+    {
+      "seed": 297002,
+      "battles": 27,
+      "pool": 693,
+      "winner": 0
+    },
+    {
+      "seed": 297003,
+      "battles": 30,
+      "pool": 693,
+      "winner": 0
+    }
+  ]
+}

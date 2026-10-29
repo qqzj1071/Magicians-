@@ -1,0 +1,12 @@
+{
+  "reason": "preflight found stale display aliases in two snapshot card_text fields; interrupted initial run; not balance samples",
+  "cards": [
+    "灰烬循环",
+    "爆燃"
+  ],
+  "excluded_saved_rooms": 53,
+  "formal_seeds": [
+    303000,
+    303499
+  ]
+}

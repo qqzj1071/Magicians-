@@ -7,7 +7,7 @@
   "Rarity": "common",
   "CombatCost": 1,
   "BaseStudyCost": 1,
-  "Attack": 4,
+  "Attack": 5,
   "Defense": 0,
   "FirstEnchantmentLayers": 1,
   "RulesText": "随机查看摸牌堆中的 2 张火系牌，选 1 张置顶，其余位置不变（不足 2 张则全看）；立即",

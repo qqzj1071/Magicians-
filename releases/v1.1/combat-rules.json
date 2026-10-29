@@ -1,0 +1,13 @@
+{
+  "card_version": "1.1",
+  "status": "frozen",
+  "date": "2026-10-28",
+  "active_cards": 252,
+  "initial_life": 1000,
+  "initial_attack": 100,
+  "initial_defense": 40,
+  "base_missile_interval": 50,
+  "final_interval_rounding": "floor",
+  "deckbuilding_version": "1.0",
+  "training_may_change": "AI parameters and decision logic only"
+}

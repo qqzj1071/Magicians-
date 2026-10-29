@@ -1,0 +1,290 @@
+[
+  {
+    "name": "焚心",
+    "element": "fire",
+    "before": [
+      15,
+      0
+    ],
+    "after": [
+      16,
+      0
+    ],
+    "old_v": 10.0,
+    "new_v": 10.666666666666666,
+    "delta": 0.06666666666666665,
+    "previous_conversion": 0.0449438202247191
+  },
+  {
+    "name": "余烬心脏",
+    "element": "fire",
+    "before": [
+      12,
+      1
+    ],
+    "after": [
+      13,
+      1
+    ],
+    "old_v": 9.0,
+    "new_v": 9.666666666666666,
+    "delta": 0.07407407407407418,
+    "previous_conversion": 0.04533333333333334
+  },
+  {
+    "name": "高温炉心",
+    "element": "fire",
+    "before": [
+      8,
+      0
+    ],
+    "after": [
+      9,
+      0
+    ],
+    "old_v": 8.0,
+    "new_v": 9.0,
+    "delta": 0.125,
+    "previous_conversion": 0.09815950920245399
+  },
+  {
+    "name": "火种库",
+    "element": "fire",
+    "before": [
+      8,
+      0
+    ],
+    "after": [
+      9,
+      0
+    ],
+    "old_v": 5.333333333333333,
+    "new_v": 6.0,
+    "delta": 0.125,
+    "previous_conversion": 0.4202626641651032
+  },
+  {
+    "name": "血潮汹涌",
+    "element": "water",
+    "before": [
+      4,
+      4
+    ],
+    "after": [
+      5,
+      4
+    ],
+    "old_v": 10.0,
+    "new_v": 11.0,
+    "delta": 0.10000000000000009,
+    "previous_conversion": 0.05141388174807198
+  },
+  {
+    "name": "血刃",
+    "element": "water",
+    "before": [
+      2,
+      4
+    ],
+    "after": [
+      3,
+      4
+    ],
+    "old_v": 8.0,
+    "new_v": 9.0,
+    "delta": 0.125,
+    "previous_conversion": 0.10077519379844961
+  },
+  {
+    "name": "血怒",
+    "element": "water",
+    "before": [
+      12,
+      0
+    ],
+    "after": [
+      13,
+      0
+    ],
+    "old_v": 8.0,
+    "new_v": 8.666666666666666,
+    "delta": 0.08333333333333326,
+    "previous_conversion": 0.30134357005758156
+  },
+  {
+    "name": "风痕回廊",
+    "element": "wind",
+    "before": [
+      11,
+      0
+    ],
+    "after": [
+      10,
+      1
+    ],
+    "old_v": 7.333333333333333,
+    "new_v": 7.666666666666667,
+    "delta": 0.045454545454545414,
+    "previous_conversion": 0.20918367346938777
+  },
+  {
+    "name": "风痕刻印",
+    "element": "wind",
+    "before": [
+      7,
+      1
+    ],
+    "after": [
+      6,
+      2
+    ],
+    "old_v": 8.5,
+    "new_v": 9.0,
+    "delta": 0.05882352941176472,
+    "previous_conversion": 0.5103305785123967
+  },
+  {
+    "name": "裂空穿云",
+    "element": "wind",
+    "before": [
+      14,
+      1
+    ],
+    "after": [
+      15,
+      1
+    ],
+    "old_v": 10.333333333333334,
+    "new_v": 11.0,
+    "delta": 0.06451612903225801,
+    "previous_conversion": 0.03125
+  },
+  {
+    "name": "腐息",
+    "element": "poison",
+    "before": [
+      6,
+      4
+    ],
+    "after": [
+      7,
+      4
+    ],
+    "old_v": 8.0,
+    "new_v": 8.666666666666666,
+    "delta": 0.08333333333333326,
+    "previous_conversion": 0.36666666666666664
+  },
+  {
+    "name": "裂岩护壁",
+    "element": "earth",
+    "before": [
+      3,
+      4
+    ],
+    "after": [
+      2,
+      4
+    ],
+    "old_v": 9.0,
+    "new_v": 8.0,
+    "delta": -0.11111111111111116,
+    "previous_conversion": 0.4665314401622718
+  },
+  {
+    "name": "握盾",
+    "element": "earth",
+    "before": [
+      12,
+      0
+    ],
+    "after": [
+      10,
+      1
+    ],
+    "old_v": 8.0,
+    "new_v": 7.666666666666667,
+    "delta": -0.04166666666666663,
+    "previous_conversion": 0.17704280155642024
+  },
+  {
+    "name": "盾脉",
+    "element": "earth",
+    "before": [
+      1,
+      8
+    ],
+    "after": [
+      1,
+      7
+    ],
+    "old_v": 8.666666666666666,
+    "new_v": 7.666666666666667,
+    "delta": -0.11538461538461542,
+    "previous_conversion": 0.17450980392156862
+  },
+  {
+    "name": "山岳",
+    "element": "earth",
+    "before": [
+      7,
+      4
+    ],
+    "after": [
+      6,
+      4
+    ],
+    "old_v": 8.666666666666666,
+    "new_v": 8.0,
+    "delta": -0.07692307692307687,
+    "previous_conversion": 0.614963503649635
+  },
+  {
+    "name": "水幕",
+    "element": "water",
+    "before": [
+      5,
+      4
+    ],
+    "after": [
+      4,
+      4
+    ],
+    "old_v": 11.0,
+    "new_v": 10.0,
+    "delta": -0.09090909090909094,
+    "previous_conversion": 0.1319796954314721
+  },
+  {
+    "name": "穿潮",
+    "element": "water",
+    "before": [
+      7,
+      4
+    ],
+    "after": [
+      6,
+      4
+    ],
+    "old_v": 8.666666666666666,
+    "new_v": 8.0,
+    "delta": -0.07692307692307687,
+    "previous_conversion": 0.3140655105973025
+  },
+  {
+    "name": "回响之潮",
+    "element": "water",
+    "before": [
+      11,
+      7
+    ],
+    "after": [
+      10,
+      7
+    ],
+    "old_v": 10.75,
+    "new_v": 10.25,
+    "delta": -0.046511627906976716,
+    "previous_conversion": 0.2702020202020202
+  }
+]

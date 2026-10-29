@@ -1,7 +1,7 @@
 param([string]$ProjectRoot = (Join-Path $PSScriptRoot '..'))
 $ErrorActionPreference = 'Stop'
 $projectPath = [IO.Path]::GetFullPath($ProjectRoot)
-$cardsPath = Join-Path $projectPath 'releases\v1.0\cards.json'
+$cardsPath = Join-Path $projectPath 'releases\v1.1\cards.json'
 $outputPath = Join-Path $projectPath 'Data\Presentation\Cards'
 New-Item -ItemType Directory -Force -Path $outputPath | Out-Null
 $cards = (Get-Content -Raw -LiteralPath $cardsPath | ConvertFrom-Json).cards
@@ -22,7 +22,7 @@ foreach ($entry in ($cards.PSObject.Properties | Sort-Object Name)) {
     $notes = @()
     $displayRules = $card.text
     if ($card.name -eq '大地之握') {
-        $notes += '转伤范围：上一发主弹发射后至本发主弹发射前的实际叠盾衰减；包含本行动值发射前的土附魔叠盾。按400%计入本发，发射后清零，不累计整场。'
+        $notes += '转伤范围：上一发主弹发射后至本发主弹发射前的实际叠盾衰减；包含本行动值发射前的土附魔叠盾。按300%计入本发，发射后清零，不累计整场。'
     }
     if ($card.name -in @('焰心屏障', '临时壁垒', '岩潮壁垒')) {
         $displayRules = switch ($card.name) {
@@ -42,3 +42,4 @@ foreach ($entry in ($cards.PSObject.Properties | Sort-Object Name)) {
 }
 $profileIndex | ConvertTo-Json -Depth 4 | Set-Content -LiteralPath (Join-Path $projectPath 'Data\Presentation\card-profiles-index.json') -Encoding UTF8
 Write-Output "Generated $($cards.PSObject.Properties.Count | Measure-Object -Sum | Select-Object -ExpandProperty Sum) card profiles in $outputPath"
+

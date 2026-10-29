@@ -31,8 +31,8 @@ class State:
     element: str
     specialization_selected: bool = True
     hp: int = 1000
-    attack: int = 60
-    defense: int = 20
+    attack: int = 100 if CARD_VERSION == '1.1' else 60
+    defense: int = 40 if CARD_VERSION == '1.1' else 20
     atk_debuff: int = 0
     def_debuff: int = 0
     shield: Q = Q(0)
@@ -46,6 +46,7 @@ class State:
     ember: int = 0
     spent_ember: int = 0
     ash_credit: int = 0
+    ash_cycle_owned: bool = False
     shuffles: int = 0
     ash_rebirth_claims: int = 0
     ash_return_claims: int = 0
@@ -152,22 +153,27 @@ def reflection_rate(s):
     return param('earth_reflect_per_layer',5)
 
 
+def shield_burst_rate(s):
+    return param('rock_reflect_per_layer',8) if s.route=='反震岩核' else param('earth_reflect_per_layer',5)
+
+
 def ember_factor(s, consumed):
     if s.element!='fire' or not s.spec:return Q(1)
-    return 1+s.layers*param('ember_percent',3)*consumed/100
+    rate=param('fire_route_ember_percent',param('ember_percent',3)) if s.route=='燃烧血统' else param('ember_percent',3)
+    return 1+s.layers*rate*consumed/100
 
 
 def gap(s, temporary=True):
-    fixed = 100+s.permanent_delay+(s.delay if temporary else 0)
-    if s.element=='fire' and s.route=='燃烧血统': fixed += 100
-    if s.element=='water' and s.route=='生命之泉': fixed -= param('spring_gap_flat',10)+param('spring_gap_layer',1)*s.layers
+    fixed = 50+s.permanent_delay+(s.delay if temporary else 0)
+    if s.element=='fire' and s.route=='燃烧血统': fixed += 50
+    if s.element=='water' and s.route=='生命之泉': fixed -= param('spring_gap_flat',4)+param('spring_gap_layer',1)*s.layers
     if s.element=='wind' and s.spec:
-        fixed -= 12+param('blade_gap_per_layer',2.5)*s.layers if s.route=='疾风之刃' else 10+param('wind_gap_per_layer',2)*s.layers
-    return max(1,ceil(fixed*s.interval_factor))
+        fixed -= 6+param('blade_gap_per_layer',1.5)*s.layers if s.route=='疾风之刃' else param('wind_gap_flat',5)+param('wind_gap_per_layer',1)*s.layers
+    return max(1,math.floor(fixed*s.interval_factor))
 
 
 def shield_pen(s, kind='missile'):
-    if kind=='shield': return Q(1,2) if s.route=='大地之握' and s.spec else Q(0)
+    if kind=='shield': return param('grip_shield_pen_percent',50)/100 if s.route=='大地之握' and s.spec else Q(0)
     if kind=='missile' and s.element=='wind':
         return min(Q(1),s.layers*(layer_rate(s,'wind_layer_pen',5)+(layer_rate(s,'wind_pierce_shield_per_layer',0) if s.route=='穿云箭' else 0))/100)
     return Q(0)
@@ -205,7 +211,7 @@ def gain_ember(s,n):
 
 def shuffled(s):
     s.shuffles+=1
-    if s.spec and s.route=='灰烬循环':gain_ember(s,1)
+    if s.spec and s.route=='灰烬循环':gain_ember(s,int(param('ash_shuffle_embers',1)))
 
 
 def schedule_poison(states,target,t):
@@ -219,7 +225,7 @@ def schedule_poison(states,target,t):
 def change_poison(states,target,delta,t):
     s,owner=states[target],states[1-target]
     old=s.poison;s.poison=max(0,s.poison+delta)
-    if owner.route=='毒爆':owner.attack+=int(param('poison_growth_attack',2))*abs(old-s.poison)
+    if owner.route=='毒爆':owner.attack+=int(param('poison_growth_attack',1))*abs(old-s.poison)
     if s.poison!=old:schedule_poison(states,target,t)
 
 
@@ -238,10 +244,10 @@ def packet(states,source,raw,kind='missile',final=None,main=False,marks=0):
     s,e=states[source],states[1-source]
     ec=reflection_rate(e)
     ec=ec*e.layers/100 if e.element=='earth' and e.spec else Q(0)
-    defense=stats(states,source)[1]*Q(20 if e.route=='反震岩核' and e.spec else 50,100)
+    defense=stats(states,source)[1]*(param('rock_defense_percent',25)/100 if e.route=='反震岩核' and e.spec else Q(1,2))
     return Packet(source,Q(raw),kind,fire_factor(s) if final is None else final,
                   shield_pen(s,'shield' if kind=='shield' else kind),
-                  Q(100+s.shield_bonus+(20 if s.route=='穿云箭' else 0),100) if kind=='missile' else Q(1),
+                  Q(100+s.shield_bonus+(param('wind_arrow_shield_bonus_percent',20) if s.route=='穿云箭' else 0),100) if kind=='missile' else Q(1),
                   main,marks,True,ec,defense,shield_pen(e,'shield'),
                   e.route=='壁垒之心' and e.spec,e.route=='反震岩核')
 
@@ -307,8 +313,8 @@ def card_plan(snapshot,i,name,t):
         n=e.poison;p.packets.append(poison_packet(states,i,mult,True));change_poison(states,1-i,-n,t)
     def shieldblast():
         if not s.spec:return
-        n=spendshield();coeff=reflection_rate(s)*s.layers/100
-        df=Q(20 if s.route=='反震岩核' else 50,100)*stats(states,1-i)[1]
+        n=spendshield();coeff=shield_burst_rate(s)*s.layers/100
+        df=(param('rock_defense_percent',25)/100 if s.route=='反震岩核' else Q(1,2))*stats(states,1-i)[1]
         p.consume_packet=len(p.packets)
         p.consume_coeff=coeff;p.consume_defense=df
         p.packets.append(packet(states,i,n*coeff-df,'shield'))
@@ -358,10 +364,10 @@ def card_plan(snapshot,i,name,t):
     elif name in ('火星','火苗'):pass
     elif name=='火花':s.bonus+=10
     elif name=='火种翻找':p.search=('element',2,1)
-    elif name=='烈焰冲刺':s.delay-=20
+    elif name=='烈焰冲刺':s.delay-=10
     elif name=='猛火弹':s.bonus+=30
     elif name=='压实火药':s.delay+=30;s.bonus+=20
-    elif name=='导火索':s.bonus+=20 if gap(s)>=150 else 10
+    elif name=='导火索':s.bonus+=20 if gap(s)>=75 else 10
     elif name=='余烬刻度':
         if s.layers>=6:gain_ember(s,1)
         else:s.next_draw+=1
@@ -397,14 +403,15 @@ def card_plan(snapshot,i,name,t):
             gain_ember(s,1);s.ash_return_claims+=1
     elif name=='灰烬重生':
         shuffled(s);p.shuffle=True
-        if s.spec and s.ash_rebirth_claims<int(param('ash_rebirth_cap',1000000)):
+        if PARAMS.get('ash_rebirth_every_play',False):gain_ember(s,1)
+        elif s.spec and s.ash_rebirth_claims<int(param('ash_rebirth_cap',1000000)):
             gain_ember(s,1 if 'ash_rebirth_cap' in PARAMS else (2 if s.layers>=9 else 1));s.ash_rebirth_claims+=1
     elif name=='余烬引擎':shuffled(s);p.shuffle=True;s.next_draw+=2;s.energy+=2
     elif name in HEALS:
         heal(s,HEALS[name])
         if name in ('细流','潮声'):s.bonus+=10
         elif name=='潮涌':s.bonus+=25
-        elif name=='生命洪流':s.delay-=30;s.bonus+=20
+        elif name=='生命洪流':s.delay-=15;s.bonus+=20
         elif name=='潮汐风暴' and s.spec:s.tide_bonus+=int(param('storm_tide_bonus_percent',100))
         elif name=='回响之潮' and s.spec:s.tide_bonus+=int(param('echo_tide_bonus_percent',50));s.tide_record_bonus+=int(param('echo_heal_record_bonus_percent',25))
         elif name=='水幕':s.main_pen+=int(param('water_main_pen',35))
@@ -426,13 +433,13 @@ def card_plan(snapshot,i,name,t):
         n=pay(s,10);low=s.hp<=300;heal(s,Q(1000-s.hp,10))
         if low:s.bonus+=30
         if s.spec:s.tide+=Q(n*5*s.layers,100)
-    elif name=='疾流':s.delay-=20
+    elif name=='疾流':s.delay-=10
     elif name=='回流':
         s.next_draw+=1
-        if gap(s)<=70:s.attack+=3
+        if gap(s)<=35:s.attack+=3
     elif name=='穿潮':s.def_pen+=40
-    elif name=='连环潮':s.delay-=30;s.bonus+=15
-    elif name=='泉心':s.delay-=50;s.def_pen+=60
+    elif name=='连环潮':s.delay-=15;s.bonus+=15
+    elif name=='泉心':s.delay-=25;s.def_pen+=60
     elif name=='奔流':s.interval_factor*=Q(9,10)
     elif name=='回潮':
         if s.healed_before:s.attack+=4
@@ -467,42 +474,42 @@ def card_plan(snapshot,i,name,t):
     elif name=='不动如山':
         if s.shield>=50:s.defense+=2
     elif name=='岩核重压':
-        df=Q(20 if s.route=='反震岩核' and s.spec else 50,100)*stats(states,1-i)[1]
+        df=Q(25 if s.route=='反震岩核' and s.spec else 50,100)*stats(states,1-i)[1]
         p.packets.append(packet(states,i,s.shield*param('heavy_shield_percent',25)/100-df,'shield'))
     elif name in SUB:
         fixed,ratio=SUB[name];marks=1
-        if name=='风卷':s.delay-=10
-        elif name=='疾行':s.delay-=20
+        if name=='风卷':s.delay-=5
+        elif name=='疾行':s.delay-=10
         elif name=='风痕刻印':
             if s.route=='风痕' and s.spec:marks=3
-            elif s.route!='风痕':s.delay-=10
-        elif name=='风切' and gap(s)<=70:fixed+=8
-        elif name=='顺风':s.permanent_delay-=2
-        elif name=='追风':s.permanent_delay-=1
-        elif name=='风驰' and gap(s)<=60:fixed+=12;s.delay-=10
-        elif name=='追云':s.delay-=15
+            elif s.route!='风痕':s.delay-=5
+        elif name=='风切' and gap(s)<=35:fixed+=8
+        elif name=='顺风':s.permanent_delay-=1
+        elif name=='追风':s.permanent_delay-=Q(1,2)
+        elif name=='风驰' and gap(s)<=30:fixed+=12;s.delay-=5
+        elif name=='追云':s.delay-=Q(15,2)
         elif name=='破风':e.def_debuff+=2
         elif name=='风蚀':e.def_debuff+=4
-        elif name=='穿甲':e.def_debuff+=3;s.delay-=10
-        elif name=='风神之翼':s.permanent_delay-=3
-        elif name=='穿云破甲':e.def_debuff+=4;s.permanent_delay-=2
+        elif name=='穿甲':e.def_debuff+=3;s.delay-=5
+        elif name=='风神之翼':s.permanent_delay-=Q(1)
+        elif name=='穿云破甲':e.def_debuff+=4;s.permanent_delay-=1
         s.subs+=((fixed,ratio,marks),)
-    elif name=='风步':s.delay-=15
+    elif name=='风步':s.delay-=Q(15,2)
     elif name=='风眼':s.negative_guard=1
     elif name=='寻风':p.search=('element',2,1)
     elif name=='风痕回廊':s.subs+=((15,15,2 if s.spec and s.route=='风痕' else 1),)*2
     elif name=='裂空':
-        s.permanent_delay-=3
+        s.permanent_delay-=Q(1)
         if s.spec and s.route=='风痕':s.detonate_bonus+=50
     elif name=='疾风连斩':
-        s.permanent_delay-=3
-        if gap(s)<=50:s.bonus+=20
+        s.permanent_delay-=Q(1)
+        if gap(s)<=25:s.bonus+=20
     elif name=='裂空穿云':e.def_debuff+=4;s.shield_bonus+=30
     elif name in ('风幕','气旋护壁'):
         n=60 if name=='风幕' else 100
         addshield(n);addshield(n,1-i)
-        if name=='风幕':s.delay-=20
-        else:s.permanent_delay-=3
+        if name=='风幕':s.delay-=10
+        else:s.permanent_delay-=Q(1)
     elif name=='毒针':
         if e.shield>0 and e.poison==0:change_poison(states,1-i,1,t)
     elif name in ('腐蚀','毒雾','毒刺','毒瓶'):
@@ -532,20 +539,20 @@ def card_plan(snapshot,i,name,t):
     elif name=='蚀骨之触':
         e.def_debuff+=math.floor(2+Q(e.poison,2))
         amount=e.shield*min(Q(3,5),Q(8*e.poison,100));p.shields[1-i].cut+=amount;e.shield-=amount
-    elif name=='毒囊':s.delay-=20
-    elif name=='爆裂':s.delay-=15+(10 if e.poison>=3 else 0)
-    elif name=='毒爆弹':explode(Q(18,10))
+    elif name=='毒囊':s.delay-=10
+    elif name=='爆裂':s.delay-=Q(15,2)+(5 if e.poison>=3 else 0)
+    elif name=='毒爆弹':explode(param('poison_burst_multiplier',Q(18,10)))
     elif name=='毒涌':
-        n=min(2,e.poison);change_poison(states,1-i,-n,t);s.next_draw+=n;s.delay-=15
-    elif name=='万毒爆':explode(Q(22,10));s.delay-=20
+        n=min(2,e.poison);change_poison(states,1-i,-n,t);s.next_draw+=n;s.delay-=Q(15,2)
+    elif name=='万毒爆':explode(param('all_poison_burst_multiplier',Q(22,10)));s.delay-=10
     elif name=='毒潮':
-        n=e.poison;explode(Q(28,10));s.delay-=min(20,2*n)
+        n=e.poison;explode(param('poison_tide_multiplier',Q(28,10)));s.delay-=min(10,n)
     elif name=='命运检索':p.search=('any',7,3)
     elif name=='大检索':p.search=('any',5,2)
     elif name=='过牌':s.next_draw+=1
     elif name=='翻阅':s.next_draw+=1
     elif name=='洗牌':shuffled(s);p.shuffle=True
-    elif name=='战术大师':s.next_energy+=1;s.bonus+=20
+    elif name=='战术大师':s.next_energy+=1;s.bonus+=18
     elif name=='战术':s.next_energy+=1
     elif name=='整理':s.next_draw+=2;s.next_energy-=1
     elif name=='速读':s.next_draw+=1
@@ -555,7 +562,7 @@ def card_plan(snapshot,i,name,t):
     elif name=='重洗':shuffled(s);p.shuffle=True
     elif name=='利刃':s.attack+=2 if stats(states,i)[0]>=60 else 0
     elif name=='壁障':s.defense+=2 if s.shield>=30 else 0
-    elif name=='短促':s.delay-=15
+    elif name=='短促':s.delay-=Q(15,2)
     elif name=='威吓':e.atk_debuff+=2
     elif name=='鼓舞':s.next_energy+=1
     elif name=='蓄能':s.bonus+=15
@@ -590,7 +597,7 @@ def card_plan(snapshot,i,name,t):
     return p
 
 
-BOOL_FIELDS = {'specialization_selected','spec','contract','badge','guardian','temporary_shield','retention80',
+BOOL_FIELDS = {'ash_cycle_owned','specialization_selected','spec','contract','badge','guardian','temporary_shield','retention80',
                'shield_broken','grip30','healed_before','revived'}
 MERGE_SKIP = BOOL_FIELDS | {'element','shield','shield_loss','seen','route','rewind','subs',
                             'poison_due','poison_generation'}
@@ -698,7 +705,7 @@ def apply_wave(states,packets,t,log=None,reactions=None):
                 elif broke:reflect=max(Q(0),old*p.reflect_coeff-p.reflect_defense)
             if reflect or broke:
                 reactions.append(Reaction(target,reflect,p.reflect_pen,
-                                  Q(ceil(old*Q(2,5))) if broke and p.rock_return else Q(0),broke))
+                                  Q(ceil(old*param('rock_return_percent',50)/100)) if broke and p.rock_return else Q(0),broke))
         if p.main:
             s.last_main=absorbed+p.actual
             if s.element=='poison' and s.layers and p.actual>0:
@@ -735,8 +742,8 @@ def execute_auto(states,t,log=None):
     for i,s in enumerate(snapshot):
         e=snapshot[1-i]
         if s.element!='earth' or not s.spec or s.hp<=0 or s.shield<=0 or e.hp<=0:continue
-        coeff=reflection_rate(s)*s.layers/100
-        defense=Q(20 if s.route=='反震岩核' else 50,100)*stats(snapshot,1-i)[1]
+        coeff=shield_burst_rate(s)*s.layers/100
+        defense=(param('rock_defense_percent',20)/100 if s.route=='反震岩核' else Q(1,2))*stats(snapshot,1-i)[1]
         p=packet(snapshot,i,s.shield*coeff-defense,'shield');p.reaction=False
         amount=max(0,ceil(p.raw*p.final))
         penetrated=amount*p.penetration
@@ -806,7 +813,7 @@ def missile(states,i,t,base_ratio=Q(1),fixed=Q(0),main=False,marks=1,ember=0):
     s=states[i]
     a=stats(states,i)[0];d=stats(states,1-i)[1]
     pen=s.def_pen+(s.main_def_pen if main else 0)+(20 if s.route=='生命之泉' else 0)+(s.layers*layer_rate(s,'wind_pierce_def_per_layer',5) if s.route=='穿云箭' else 0)
-    ignore=20 if s.route=='穿云箭' and s.spec else 0
+    ignore=param('wind_arrow_ignore_percent',20) if s.route=='穿云箭' and s.spec else 0
     defense=Q(d)*max(Q(0),1-Q(pen)/100)*(1-Q(ignore,100))
     if s.route=='生命之泉':defense=Q(math.floor(defense))
     if CARD_VERSION=='1.1' and s.element=='poison' and main:
@@ -849,7 +856,7 @@ def launch(states,due,t,log=None):
         s=snapshot[i];a=stats(snapshot,i)[0]
         extra=s.extra+blood[i]+grip[i]+ceil(tides[i])*Q(100+s.tide_bonus,100)
         if s.route=='疾风之刃' and s.last_time>=0:
-            extra+=s.last_main*max(Q(0),1-Q(t-s.last_time,100))*param('blade_follow_percent',50)/100
+            extra+=s.last_main*max(Q(0),1-Q(t-s.last_time)/param('blade_follow_decay_window',100))*param('blade_follow_percent',50)/100
         ratio=param('fire_route_ratio',1.8) if s.route=='燃烧血统' else Q(1)
         sequences[i].append(missile(snapshot,i,t,ratio,extra,True,1,embers[i]))
         for fixed,ratio,marks in s.subs:
@@ -876,7 +883,7 @@ def launch(states,due,t,log=None):
     if detonations:apply_wave(states,detonations,t,log,reactions)
     for i in due:
         s=states[i]
-        if s.route=='潮汐回响' and s.spec:s.tide+=ceil(tides[i]*Q(15,100))
+        if s.route=='潮汐回响' and s.spec:s.tide+=ceil(tides[i]*param('echo_refund_percent',20)/100)
         s.bonus=0;s.extra=Q(0);s.delay=Q(0);s.subs=();s.def_pen=0;s.shield_bonus=0
         if CARD_VERSION=='1.1' and s.element=='poison':s.window_bonus=0
         s.tide_bonus=0;s.tide_record_bonus=0;s.main_pen=0;s.main_def_pen=0;s.last_time=t;s.next_fire=t+intervals[i]
@@ -929,10 +936,10 @@ def estimate(states,i,t,horizon):
     if s.route=='血潮':extra+=max(0,s.hp)*.032
     if s.route=='大地之握':extra+=float(s.shield_loss)*(1+s.grip_bonus/100)*float(param('grip_damage_percent',100))/100
     if s.route=='疾风之刃' and s.last_time>=0:
-        extra+=float(s.last_main)*max(0,1-(s.next_fire-s.last_time)/100)*float(param('blade_follow_percent',50))/100
+        extra+=float(s.last_main)*max(0,1-(s.next_fire-s.last_time)/float(param('blade_follow_decay_window',100)))*float(param('blade_follow_percent',50))/100
     ratio=float(param('fire_route_ratio',1.8)) if s.route=='燃烧血统' else 1
     pen=min(1,float(s.def_pen+s.main_def_pen+(20 if s.route=='生命之泉' else 0)+(s.layers*layer_rate(s,'wind_pierce_def_per_layer',5) if s.route=='穿云箭' else 0))/100)
-    ignore=.2 if s.route=='穿云箭' and s.spec else 0
+    ignore=float(param('wind_arrow_ignore_percent',20))/100 if s.route=='穿云箭' and s.spec else 0
     active=s.next_fire<(t//100+1)*100
     if CARD_VERSION=='1.1' and s.element=='poison':
         raw=max(1,((a+Q(s.window_bonus,2))*ratio+extra)*(1+s.bonus/100)-d*(1-pen)*(1-ignore))
@@ -958,7 +965,7 @@ def estimate(states,i,t,horizon):
         pd=max(1,a*float(layer_rate(s,'poison_damage_per_layer',2.5))/100*s.layers*e.poison+(10*float(param('life_poison_percent',2))*e.poison if s.route=='蚀命' else 0)-d*.5)
         offense+=pd*horizon/100
     if s.element=='earth' and s.spec:
-        offense+=max(0,float(s.shield)*s.layers*float(reflection_rate(s))/100-d*(.2 if s.route=='反震岩核' else .5))
+        offense+=max(0,float(s.shield)*s.layers*float(shield_burst_rate(s))/100-d*(float(param('rock_defense_percent',25))/100 if s.route=='反震岩核' else .5))
     return min(6000,offense)
 
 
@@ -1047,6 +1054,7 @@ class Fighter:
     removed: list = field(default_factory=list)
     plays: Counter = field(default_factory=Counter)
     activations: dict = field(default_factory=dict)
+    drawn_this_window: frozenset = frozenset()
     wasted: int = 0
     granted: int = 0
     identity: str = ''
@@ -1069,6 +1077,7 @@ def make_fighter(deck_id,seed,identity=None):
     back=[n for n in opening if not CARDS[n].ability]
     if back:p.pile.extend(back);rng.shuffle(p.pile)
     p.pool=keep+[p.pile.pop(0) for _ in back]
+    p.drawn_this_window=frozenset(p.pool)
     return p,State(deck['element'])
 
 
@@ -1087,6 +1096,16 @@ def draw_player(p,s,t):
             if p.pile:p.rng.shuffle(p.pile);shuffled(s)
         if not p.pile:break
         p.pool.append(p.pile.pop(0))
+    p.drawn_this_window=frozenset(p.pool)
+
+
+def ash_link_topdeck(p,name,t,log=None):
+    if not PARAMS.get("ash_startup_link",False):return
+    target={"炽焰王冠":"灰烬循环","灰烬循环":"炽焰王冠"}.get(name)
+    if target is None or target in p.drawn_this_window or target in p.pool or target in p.removed:return
+    if target in p.pile:
+        p.pile.remove(target);p.pile.insert(0,target)
+        if log is not None:log.append(dict(t=t,phase="ash_link_topdeck",played=name,target=target))
 
 
 def search(p,states,i,request,policy,t,log):
@@ -1130,6 +1149,8 @@ def simulate(deck_a,deck_b,seed,policy_a=BASELINE,policy_b=BASELINE,trace=False,
     identities=(deck_a,deck_b) if deck_a!=deck_b else (deck_a+'@A',deck_b+'@B')
     streams=identities[::-1] if stream_swap else identities
     fa,sa=make_fighter(deck_a,seed,streams[0]);fb,sb=make_fighter(deck_b,seed,streams[1])
+    sa.ash_cycle_owned=any(e['name']=='灰烬循环' for e in DECKS[deck_a]['entries'])
+    sb.ash_cycle_owned=any(e['name']=='灰烬循环' for e in DECKS[deck_b]['entries'])
     fa.identity,fb.identity=identities
     players=[fa,fb];states=[sa,sb];policies=[policy_a,policy_b]
     log=[] if trace else None;t=0
@@ -1188,6 +1209,7 @@ def simulate(deck_a,deck_b,seed,policy_a=BASELINE,policy_b=BASELINE,trace=False,
                     if c.ability:p.removed.append(name);p.activations[name]=t
                     else:p.discard.append(name)
                     if plan.shuffle:p.pile.extend(p.discard);p.discard=[];p.rng.shuffle(p.pile)
+                    ash_link_topdeck(p,name,t,log)
                     if plan.search:
                         # Enemy input remains this step's start; own card projection
                         # includes its ordered changes. No post-opponent inspection.

@@ -1,0 +1,20 @@
+{
+  "cards": 185,
+  "pool_copies": 693,
+  "removed": [
+    "灼痛",
+    "蚀界",
+    "镜岩之心",
+    "风幕"
+  ],
+  "removed_copies": 14,
+  "remaining_185_cards_identical": true,
+  "removed_unique_states": [
+    "heal_hit",
+    "next_reduce",
+    "poison_three"
+  ],
+  "removed_unproduced_modifier_read": "reduce",
+  "shared_shields_and_wall_reduction_preserved": true,
+  "no_active_card_or_state_references": true
+}

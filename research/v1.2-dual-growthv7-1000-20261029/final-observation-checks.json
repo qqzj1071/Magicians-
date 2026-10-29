@@ -1,0 +1,52 @@
+[
+  {
+    "family": "medium",
+    "element": "fire",
+    "hidden_order_permutation_unchanged": true
+  },
+  {
+    "family": "medium",
+    "element": "water",
+    "hidden_order_permutation_unchanged": true
+  },
+  {
+    "family": "medium",
+    "element": "earth",
+    "hidden_order_permutation_unchanged": true
+  },
+  {
+    "family": "medium",
+    "element": "wind",
+    "hidden_order_permutation_unchanged": true
+  },
+  {
+    "family": "medium",
+    "element": "poison",
+    "hidden_order_permutation_unchanged": true
+  },
+  {
+    "family": "small",
+    "element": "fire",
+    "hidden_order_permutation_unchanged": true
+  },
+  {
+    "family": "small",
+    "element": "water",
+    "hidden_order_permutation_unchanged": true
+  },
+  {
+    "family": "small",
+    "element": "earth",
+    "hidden_order_permutation_unchanged": true
+  },
+  {
+    "family": "small",
+    "element": "wind",
+    "hidden_order_permutation_unchanged": true
+  },
+  {
+    "family": "small",
+    "element": "poison",
+    "hidden_order_permutation_unchanged": true
+  }
+]

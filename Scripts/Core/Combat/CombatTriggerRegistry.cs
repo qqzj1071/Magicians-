@@ -62,33 +62,35 @@ public static class CombatTriggerRegistry
     public static IReadOnlyList<TemporaryTrigger> OrderedTriggers =>
         Enum.GetValues<TemporaryTrigger>().OrderBy(Priority).ToArray();
 
-    public static CombatResourceState Apply(CombatResourceState state, string id, int amount)
+    public static CombatResourceState Apply(CombatResourceState state, string id, int amount) => Apply(state, id, (decimal)amount);
+
+    public static CombatResourceState Apply(CombatResourceState state, string id, decimal amount)
     {
         if (!Definitions.ContainsKey(id))
             throw new KeyNotFoundException($"Unknown temporary combat effect '{id}'.");
         return id switch
         {
-            "next.damage.percent" => state with { NextMissileBonusPercent = state.NextMissileBonusPercent + amount },
-            "next.damage.flat" => state with { NextMissileBonusFlat = state.NextMissileBonusFlat + amount },
+            "next.damage.percent" => state with { NextMissileBonusPercent = state.NextMissileBonusPercent + (int)amount },
+            "next.damage.flat" => state with { NextMissileBonusFlat = state.NextMissileBonusFlat + (int)amount },
             "next.fire.gap" => state with { NextGapAdjustment = state.NextGapAdjustment + amount },
             "battle.interval.modifier" => state with { AttackIntervalModifier = state.AttackIntervalModifier + amount },
-            "battle.interval.multiplier" => state with { PermanentIntervalMultiplierPercent = state.PermanentIntervalMultiplierPercent * amount / 100 },
-            "next.interval.multiplier" => state with { TemporaryIntervalMultiplierPercent = state.TemporaryIntervalMultiplierPercent * amount / 100 },
-            "next.incoming.damage.multiplier" => state with { NextIncomingDamageMultiplierPercent = state.NextIncomingDamageMultiplierPercent * amount / 100 },
-            "next.incoming.damage.flat" => state with { NextIncomingDamageFlat = state.NextIncomingDamageFlat + amount },
-            "battle.healing.reduction" => state with { HealingReductionPercent = state.HealingReductionPercent + amount, HealingReductionUntilActionValue = Math.Max(state.HealingReductionUntilActionValue, amount == 0 ? 0 : 100) },
-            "battle.incoming.damage.multiplier" => state with { BattleIncomingDamageMultiplierPercent = state.BattleIncomingDamageMultiplierPercent + amount, BattleIncomingDamageUntilActionValue = Math.Max(state.BattleIncomingDamageUntilActionValue, 100) },
-            "next.shield.penetration" => state with { NextShieldPenetrationPercent = state.NextShieldPenetrationPercent + amount },
-            "next.defense.penetration" => state with { NextDefensePenetrationPercent = state.NextDefensePenetrationPercent + amount },
-            "next.submissiles" => state with { PendingSubmissiles = state.PendingSubmissiles + amount },
-            "next.wind.submissiles" => state with { PendingWindSubmissiles = state.PendingWindSubmissiles + amount },
-            "next.wind.flat" => state with { NextWindSubmissileFlat = state.NextWindSubmissileFlat + amount },
-            "next.wind.attack.percent" => state with { NextWindSubmissileAttackPercent = state.NextWindSubmissileAttackPercent + amount },
-            "next.draw" => state with { NextDrawBonus = state.NextDrawBonus + amount },
-            "next.energy" => state with { NextEnergyBonus = state.NextEnergyBonus + amount },
-            "temporary.attack.reduction" => state with { TemporaryAttackReduction = state.TemporaryAttackReduction + amount },
-            "temporary.defense.reduction" => state with { TemporaryDefenseReduction = state.TemporaryDefenseReduction + amount },
-            "temporary.poison" => state with { TemporaryPoisonLayers = state.TemporaryPoisonLayers + amount },
+            "battle.interval.multiplier" => state with { PermanentIntervalMultiplierPercent = state.PermanentIntervalMultiplierPercent * (int)amount / 100 },
+            "next.interval.multiplier" => state with { TemporaryIntervalMultiplierPercent = state.TemporaryIntervalMultiplierPercent * (int)amount / 100 },
+            "next.incoming.damage.multiplier" => state with { NextIncomingDamageMultiplierPercent = state.NextIncomingDamageMultiplierPercent * (int)amount / 100 },
+            "next.incoming.damage.flat" => state with { NextIncomingDamageFlat = state.NextIncomingDamageFlat + (int)amount },
+            "battle.healing.reduction" => state with { HealingReductionPercent = state.HealingReductionPercent + (int)amount, HealingReductionUntilActionValue = Math.Max(state.HealingReductionUntilActionValue, amount == 0 ? 0 : 100) },
+            "battle.incoming.damage.multiplier" => state with { BattleIncomingDamageMultiplierPercent = state.BattleIncomingDamageMultiplierPercent + (int)amount, BattleIncomingDamageUntilActionValue = Math.Max(state.BattleIncomingDamageUntilActionValue, 100) },
+            "next.shield.penetration" => state with { NextShieldPenetrationPercent = state.NextShieldPenetrationPercent + (int)amount },
+            "next.defense.penetration" => state with { NextDefensePenetrationPercent = state.NextDefensePenetrationPercent + (int)amount },
+            "next.submissiles" => state with { PendingSubmissiles = state.PendingSubmissiles + (int)amount },
+            "next.wind.submissiles" => state with { PendingWindSubmissiles = state.PendingWindSubmissiles + (int)amount },
+            "next.wind.flat" => state with { NextWindSubmissileFlat = state.NextWindSubmissileFlat + (int)amount },
+            "next.wind.attack.percent" => state with { NextWindSubmissileAttackPercent = state.NextWindSubmissileAttackPercent + (int)amount },
+            "next.draw" => state with { NextDrawBonus = state.NextDrawBonus + (int)amount },
+            "next.energy" => state with { NextEnergyBonus = state.NextEnergyBonus + (int)amount },
+            "temporary.attack.reduction" => state with { TemporaryAttackReduction = state.TemporaryAttackReduction + (int)amount },
+            "temporary.defense.reduction" => state with { TemporaryDefenseReduction = state.TemporaryDefenseReduction + (int)amount },
+            "temporary.poison" => state with { TemporaryPoisonLayers = state.TemporaryPoisonLayers + (int)amount },
             _ => state
         };
     }

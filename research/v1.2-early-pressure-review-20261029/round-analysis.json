@@ -1,0 +1,198 @@
+{
+  "rooms": 200,
+  "bands": [
+    {
+      "policy": "medium",
+      "rounds": "11—12",
+      "battles": 642,
+      "win_share": 319.5,
+      "head_battles": 369,
+      "head_win_share": 137.0,
+      "win_rate": 0.4976635514018692,
+      "head_win_rate": 0.3712737127371274,
+      "room_weighted_head_mean": 0.39729166666666665,
+      "room95low": 0.3399146906621859,
+      "room95high": 0.4546686426711474,
+      "rooms": 200
+    },
+    {
+      "policy": "medium",
+      "rounds": "13+",
+      "battles": 857,
+      "win_share": 494.5,
+      "head_battles": 523,
+      "head_win_share": 257.5,
+      "win_rate": 0.5770128354725788,
+      "head_win_rate": 0.49235181644359466,
+      "room_weighted_head_mean": 0.46539855072463765,
+      "room95low": 0.4128322667667397,
+      "room95high": 0.5179648346825356,
+      "rooms": 184
+    },
+    {
+      "policy": "medium",
+      "rounds": "1—4",
+      "battles": 1600,
+      "win_share": 807.5,
+      "head_battles": 1038,
+      "head_win_share": 526.5,
+      "win_rate": 0.5046875,
+      "head_win_rate": 0.5072254335260116,
+      "room_weighted_head_mean": 0.5152083333333334,
+      "room95low": 0.48041927212636487,
+      "room95high": 0.5499973945403018,
+      "rooms": 200
+    },
+    {
+      "policy": "medium",
+      "rounds": "5—8",
+      "battles": 1600,
+      "win_share": 765.0,
+      "head_battles": 1072,
+      "head_win_share": 501.0,
+      "win_rate": 0.478125,
+      "head_win_rate": 0.4673507462686567,
+      "room_weighted_head_mean": 0.46145833333333336,
+      "room95low": 0.4210584616955412,
+      "room95high": 0.5018582049711255,
+      "rooms": 200
+    },
+    {
+      "policy": "medium",
+      "rounds": "9—10",
+      "battles": 795,
+      "win_share": 354.5,
+      "head_battles": 545,
+      "head_win_share": 227.5,
+      "win_rate": 0.4459119496855346,
+      "head_win_rate": 0.41743119266055045,
+      "room_weighted_head_mean": 0.4139583333333334,
+      "room95low": 0.3671442489388179,
+      "room95high": 0.4607724177278488,
+      "rooms": 200
+    },
+    {
+      "policy": "small",
+      "rounds": "11—12",
+      "battles": 687,
+      "win_share": 443.5,
+      "head_battles": 369,
+      "head_win_share": 232.0,
+      "win_rate": 0.6455604075691412,
+      "head_win_rate": 0.6287262872628726
+    },
+    {
+      "policy": "small",
+      "rounds": "13+",
+      "battles": 1087,
+      "win_share": 630.0,
+      "head_battles": 523,
+      "head_win_share": 265.5,
+      "win_rate": 0.5795768169273229,
+      "head_win_rate": 0.5076481835564054
+    },
+    {
+      "policy": "small",
+      "rounds": "1—4",
+      "battles": 1600,
+      "win_share": 792.5,
+      "head_battles": 1038,
+      "head_win_share": 511.5,
+      "win_rate": 0.4953125,
+      "head_win_rate": 0.49277456647398843
+    },
+    {
+      "policy": "small",
+      "rounds": "5—8",
+      "battles": 1600,
+      "win_share": 835.0,
+      "head_battles": 1072,
+      "head_win_share": 571.0,
+      "win_rate": 0.521875,
+      "head_win_rate": 0.5326492537313433
+    },
+    {
+      "policy": "small",
+      "rounds": "9—10",
+      "battles": 796,
+      "win_share": 445.5,
+      "head_battles": 545,
+      "head_win_share": 317.5,
+      "win_rate": 0.5596733668341709,
+      "head_win_rate": 0.5825688073394495
+    }
+  ],
+  "health": [
+    {
+      "policy": "medium",
+      "round": 4,
+      "players": 400,
+      "actual_mean": 89.5575,
+      "actual_le20": 0,
+      "fixed_history_draft_mean": 85.6925,
+      "fixed_history_draft_le20": 0,
+      "fixed_history_draft_le0": 0
+    },
+    {
+      "policy": "medium",
+      "round": 8,
+      "players": 400,
+      "actual_mean": 61.025,
+      "actual_le20": 8,
+      "fixed_history_draft_mean": 52.835,
+      "fixed_history_draft_le20": 55,
+      "fixed_history_draft_le0": 3
+    },
+    {
+      "policy": "small",
+      "round": 4,
+      "players": 400,
+      "actual_mean": 89.34,
+      "actual_le20": 0,
+      "fixed_history_draft_mean": 85.3925,
+      "fixed_history_draft_le20": 0,
+      "fixed_history_draft_le0": 0
+    },
+    {
+      "policy": "small",
+      "round": 8,
+      "players": 400,
+      "actual_mean": 63.48,
+      "actual_le20": 7,
+      "fixed_history_draft_mean": 55.5825,
+      "fixed_history_draft_le20": 54,
+      "fixed_history_draft_le0": 3
+    }
+  ],
+  "loss_means": [
+    {
+      "policy": "medium",
+      "rounds": "1—4",
+      "losses": 822,
+      "old": 5.081508515815085,
+      "draft": 6.962287104622871
+    },
+    {
+      "policy": "medium",
+      "rounds": "5—8",
+      "losses": 838,
+      "old": 13.619331742243437,
+      "draft": 15.683770883054892
+    },
+    {
+      "policy": "small",
+      "rounds": "1—4",
+      "losses": 837,
+      "old": 5.094384707287933,
+      "draft": 6.980884109916368
+    },
+    {
+      "policy": "small",
+      "rounds": "5—8",
+      "losses": 767,
+      "old": 13.486310299869622,
+      "draft": 15.546284224250327
+    }
+  ],
+  "caveat": "HP alternative uses fixed historical battles. It is NOT a resimulated tournament: changed health changes later eliminations, ghosts, opponents and choices."
+}

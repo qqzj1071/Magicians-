@@ -1,0 +1,170 @@
+{
+  "changes": [
+    {
+      "name": "穿云箭",
+      "old": {
+        "attack": 18,
+        "defense": 2
+      },
+      "new": {
+        "attack": 17,
+        "defense": 2
+      },
+      "delta": -1
+    },
+    {
+      "name": "气旋护壁",
+      "old": {
+        "attack": 5,
+        "defense": 7
+      },
+      "new": {
+        "attack": 4,
+        "defense": 7
+      },
+      "delta": -1
+    },
+    {
+      "name": "穿云破甲",
+      "old": {
+        "attack": 16,
+        "defense": 0
+      },
+      "new": {
+        "attack": 15,
+        "defense": 0
+      },
+      "delta": -1
+    },
+    {
+      "name": "裂空穿云",
+      "old": {
+        "attack": 16,
+        "defense": 0
+      },
+      "new": {
+        "attack": 15,
+        "defense": 0
+      },
+      "delta": -1
+    },
+    {
+      "name": "潮汐回响",
+      "old": {
+        "attack": 12,
+        "defense": 7
+      },
+      "new": {
+        "attack": 13,
+        "defense": 7
+      },
+      "delta": 1
+    },
+    {
+      "name": "回响之潮",
+      "old": {
+        "attack": 8,
+        "defense": 5
+      },
+      "new": {
+        "attack": 9,
+        "defense": 5
+      },
+      "delta": 1
+    },
+    {
+      "name": "潮汐风暴",
+      "old": {
+        "attack": 5,
+        "defense": 7
+      },
+      "new": {
+        "attack": 6,
+        "defense": 7
+      },
+      "delta": 1
+    },
+    {
+      "name": "灰烬循环",
+      "old": {
+        "attack": 13,
+        "defense": 6
+      },
+      "new": {
+        "attack": 14,
+        "defense": 6
+      },
+      "delta": 1
+    },
+    {
+      "name": "余烬引擎",
+      "old": {
+        "attack": 2,
+        "defense": 8
+      },
+      "new": {
+        "attack": 3,
+        "defense": 8
+      },
+      "delta": 1
+    },
+    {
+      "name": "灰烬重生",
+      "old": {
+        "attack": 4,
+        "defense": 7
+      },
+      "new": {
+        "attack": 5,
+        "defense": 7
+      },
+      "delta": 1
+    },
+    {
+      "name": "燃烧血统",
+      "old": {
+        "attack": 17,
+        "defense": 3
+      },
+      "new": {
+        "attack": 18,
+        "defense": 3
+      },
+      "delta": 1
+    },
+    {
+      "name": "压缩爆燃",
+      "old": {
+        "attack": 12,
+        "defense": 2
+      },
+      "new": {
+        "attack": 13,
+        "defense": 2
+      },
+      "delta": 1
+    },
+    {
+      "name": "慢燃",
+      "old": {
+        "attack": 12,
+        "defense": 2
+      },
+      "new": {
+        "attack": 13,
+        "defense": 2
+      },
+      "delta": 1
+    }
+  ],
+  "healing": {
+    "回响之潮": {
+      "old": 85,
+      "new": 100
+    },
+    "潮汐风暴": {
+      "old": 55,
+      "new": 70
+    }
+  }
+}

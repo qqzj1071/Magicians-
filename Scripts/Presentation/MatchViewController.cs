@@ -1,4 +1,5 @@
 using Godot;
+using Magicians.Core.Cards;
 using Magicians.Application;
 using Magicians.Core.Common;
 using Magicians.Core.Combat;
@@ -8,6 +9,7 @@ namespace Magicians.Presentation;
 
 public partial class MatchViewController : Control
 {
+    private Label _standings = null!;
     private Label _phaseLabel = null!;
     private Label _lifeLabel = null!;
     private Label _pairingLabel = null!;
@@ -31,7 +33,7 @@ public partial class MatchViewController : Control
         _phaseLabel = GetNode<Label>("Layout/Header/Phase");
         _lifeLabel = GetNode<Label>("Layout/Header/Life");
         _pairingLabel = GetNode<Label>("Layout/Header/Pairings");
-        _battleBroadcast = new Label { Name = "BattleBroadcast", AutowrapMode = TextServer.AutowrapMode.WordSmart };
+        _battleBroadcast = new Label { Name = "BattleBroadcast", AutowrapMode = TextServer.AutowrapMode.Off, ClipText = true, CustomMinimumSize = new Vector2(0, 28) };
         var layout = GetNode<VBoxContainer>("Layout");
         layout.AddChild(_battleBroadcast);
         layout.MoveChild(_battleBroadcast, 1);
@@ -44,6 +46,8 @@ public partial class MatchViewController : Control
             ClipText = true
         };
         layout.AddChild(_draftBroadcast); layout.MoveChild(_draftBroadcast, 2);
+        _standings = new Label { Name = "FinalStandings", AutowrapMode = TextServer.AutowrapMode.WordSmart };
+        layout.AddChild(_standings); layout.MoveChild(_standings, 3);
         _draftBoard = GetNode<Control>("Layout/Content/DraftBoard");
         _combatBoard = GetNode<Control>("Layout/Content/CombatBoard");
         _review = new BattleReviewPanel { Name = "BattleReview", SizeFlagsHorizontal = SizeFlags.ExpandFill, SizeFlagsVertical = SizeFlags.ExpandFill };
@@ -101,6 +105,7 @@ public partial class MatchViewController : Control
     {
         var session = GameSession.Current;
         if (session is null) return;
+        session.SaveLocalRecord();
         var state = session.Coordinator.CurrentState;
         if (state.Phase == MatchPhase.Settlement && state.Players.Values.Count(p => p.TournamentLife > 0) <= 1)
         {
@@ -114,10 +119,11 @@ public partial class MatchViewController : Control
         _reviewButton.Text = _review.Visible ? "返回赛事" : "逐轮出牌复盘";
         _draftBroadcast.Text = string.Join("\n", DraftBroadcastText.Lines(state, session.Cards));
         _draftBroadcast.Visible = state.Phase == MatchPhase.Draft && _draftBroadcast.Text.Length > 0 && !_review.Visible;
-        _battleBroadcast.Text = string.Join("\n", session.BattleAnnouncements.TakeLast(2)
-            .GroupBy(a => a.Round).OrderBy(g => g.Key)
-            .Select(g => $"第{g.Key}轮 · " + string.Join("；", g.Select(a => a.Text[(a.Text.IndexOf('·') + 1)..].Trim()))));
-        _battleBroadcast.Visible = session.BattleAnnouncements.Count > 0;
+        var resultRound = state.Phase == MatchPhase.Combat ? state.Round - 1 :
+            session.BattleAnnouncements.LastOrDefault()?.Round;
+        var results = session.BattleAnnouncements.Where(a => a.Round == resultRound).ToArray();
+        _battleBroadcast.Text = string.Join("；", results.Select(a => a.Text));
+        _battleBroadcast.Visible = results.Length > 0 && !_review.Visible;
         _phaseLabel.Text = $"第{state.Round}轮 · 阶段：{state.Phase}";
         _nextRound.Visible = state.Phase == MatchPhase.Settlement;
         _watchAi.Visible = canReview && state.Phase != MatchPhase.Finished;
@@ -125,17 +131,21 @@ public partial class MatchViewController : Control
         _exit.Visible = state.Phase == MatchPhase.Finished || canReview;
         _watchAi.Disabled = _watchingAi;
         if (_watchingAi) _watchAi.Text = "AI观战进行中";
+        _standings.Visible = state.Phase == MatchPhase.Finished;
+        if (_standings.Visible)
+            _standings.Text = string.Join("\n", TournamentStandings.Calculate(state).Select(p =>
+                $"第{p.Place}名 {state.Players[p.Player].PublicInfo.DisplayName} · " +
+                (p.EliminatedRound is { } round ? $"第{round}轮淘汰，淘汰结算血量 {p.RemainingLife}" : $"存活夺冠，剩余血量 {p.RemainingLife}")));
         if (state.Phase == MatchPhase.Finished)
         {
             var champions = TournamentStandings.Champions(state);
             _phaseLabel.Text = (champions.Count == 1 ? "冠军：" : "并列冠军：") +
                 string.Join("、", champions.Select(id => state.Players[id].PublicInfo.DisplayName));
-            _pairingLabel.Text = string.Join(" / ", TournamentStandings.Calculate(state).Select(p =>
-                $"第{p.Place}名 {state.Players[p.Player].PublicInfo.DisplayName}（{p.RemainingLife}血）"));
+            _pairingLabel.Text = "赛事已结束";
         }
         _lifeLabel.Text = string.Join("   ", state.Players.Values
             .OrderBy(player => player.Id.Value, StringComparer.Ordinal)
-            .Select(player => $"{player.PublicInfo.DisplayName} {player.TournamentLife}"));
+            .Select(player => $"{player.PublicInfo.DisplayName}{(player.Draft.SpecializationElement is { } element ? "·" + CardPresentationCatalog.ElementLabel(element) : "")}{(player.Draft.RouteLegendaryId is { } route ? "·" + route : "")} {player.TournamentLife}"));
         if (state.Phase != MatchPhase.Finished) _pairingLabel.Text = state.Pairings.Count == 0
             ? "配对：等待公布"
             : "配对：" + string.Join(" / ", state.Pairings.Select(pair => $"{pair.PlayerA} vs {pair.PlayerB}"));

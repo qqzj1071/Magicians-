@@ -1,0 +1,62 @@
+{
+  "kind": "explorer",
+  "checkpoint": "wind-candidate-01",
+  "weights": {
+    "panel": 0.433182,
+    "layer": 2.523107,
+    "draw": 3.944383,
+    "fee": 6.210195,
+    "search": 1.475385,
+    "recycle": 1.691429,
+    "discard": 0.638029,
+    "future": 1.53296,
+    "passive": 2.740372,
+    "tempo": 2.105141,
+    "protection": 1.033101,
+    "thinning": 0.732695,
+    "lookahead": 1.197714
+  },
+  "construction": {
+    "dilution": 1.143722,
+    "buy_margin": 0.384479,
+    "point_cost": 0.335165,
+    "delete_margin": 0.421297,
+    "starter_bias": 1.059921,
+    "core_weight": 2.631298,
+    "first_layer": 3.81471,
+    "generic_tax": 1.163737,
+    "flow_scale": 0.686588
+  },
+  "element_weights": {
+    "fire": {
+      "layer": 1.259931,
+      "recycle": 0.99976,
+      "protection": 1.006822
+    },
+    "water": {
+      "layer": 1.25023,
+      "recycle": 0.896018,
+      "protection": 1.050998
+    },
+    "earth": {
+      "layer": 1.181675,
+      "recycle": 0.903555,
+      "protection": 1.089835
+    },
+    "wind": {
+      "layer": 1.006319,
+      "recycle": 0.980967,
+      "protection": 0.928134
+    },
+    "poison": {
+      "layer": 1.032608,
+      "recycle": 1.007642,
+      "protection": 0.963516
+    }
+  },
+  "element_intent": "wind",
+  "size_exploration": {
+    "bonus": 0.0,
+    "ceiling": 14
+  }
+}

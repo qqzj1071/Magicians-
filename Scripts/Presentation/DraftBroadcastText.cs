@@ -7,7 +7,7 @@ namespace Magicians.Presentation;
 public static class DraftBroadcastText
 {
     public static IEnumerable<string> Lines(MatchState state, CardDatabase cards) => state.EventLog.OfType<DraftRuleChangedEvent>()
-        .Where(e => e.Action is "Specialization" or "Route" or "ReplaceRoute")
+        .Where(e => e.Round == state.Round && (e.Action is "Specialization" or "Route" or "ReplaceRoute"))
         .GroupBy(e => e.Round).OrderBy(g => g.Key).Select(g =>
         {
             var entries = g.Select(e =>

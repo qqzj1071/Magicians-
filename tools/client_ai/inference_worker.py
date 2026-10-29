@@ -3,6 +3,7 @@
 Frozen research sources and checkpoints are imported unchanged. The C# engine
 remains authoritative; research projections are advice, not game simulation.
 """
+import os
 import hashlib
 import json
 import random
@@ -13,6 +14,7 @@ from fractions import Fraction
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
+os.environ["MAGICIANS_CARD_LIBRARY"] = str(ROOT / "decks/trained-v1.1-poison.json")
 sys.path.insert(0, str(ROOT / "tools/round_robin"))
 import strategic_tournament_ai as I
 import tournament_inference as inference
@@ -24,22 +26,32 @@ if MODEL_HASH != POINTER["model_sha256"]:
     raise ValueError("Recommended AI checkpoint hash mismatch")
 MODEL = inference.load_model(CHECKPOINT)
 BOUND_ACTOR = None
+STYLE_ID = os.environ.get("MAGICIANS_AI_STYLE", "")
+STYLES = json.loads((ROOT / "Data/AI/single-player-styles.json").read_text(encoding="utf-8"))["profiles"]
+STYLE = next((s for s in STYLES if s["id"] == STYLE_ID), None)
+if STYLE_ID and STYLE is None:
+    raise ValueError("Unknown single-player AI style")
+if STYLE:
+    for key, factor in STYLE["draft"].items():
+        if key in MODEL.w: MODEL.w[key] *= factor
 S, T, J = I.A.T.S, I.A.T, I.J
 E, C = J.E, S.C
 CARD_HASH = hashlib.sha256(C.CARD_LIBRARY_PATH.read_bytes()).hexdigest()
-if C.CARD_LIBRARY_PATH.resolve() != (ROOT / "releases/v1.0/cards.json").resolve():
-    raise ValueError("Client inference must use the authoritative v1.0 card library")
+if C.CARD_LIBRARY_PATH.resolve() != (ROOT / "releases/v1.1/cards.json").resolve():
+    raise ValueError("Client inference must use the authoritative v1.1 card library")
 
 
 def draft(view):
     public = view["publicPlayers"]
     index = next(i for i, p in enumerate(public) if p["id"] == view["player"])
     own_public = public[index]
-    p = S.Player(index, sorted(S.TARGETS)[0])
+    affinities = sorted(k for k, v in S.TARGETS.items() if not STYLE or not STYLE["element"] or v["element"] == STYLE["element"])
+    affinity = affinities[int(hashlib.sha256(STYLE_ID.encode()).hexdigest()[:8], 16) % len(affinities)] if STYLE else sorted(S.TARGETS)[0]
+    p = S.Player(index, affinity)
     p.deck = [(c["name"], c["id"]) for c in view["deck"]]
     p.spec, p.current_round, p.points = view["spec"], view["round"], view["points"]
     p.free_used = view["freeUsed"]
-    p.economy = "growth-v3"
+    p.economy = "growth-v4"
     p.tournament_hp = own_public["life"]
     p.loss_estimate = view["lossEstimate"]
     p.streak = view["winStreak"] or -view["lossStreak"]
@@ -100,6 +112,7 @@ def draft(view):
 ALIASES = {
     "Life": "hp", "Attack": "attack", "Defense": "defense", "Shield": "shield", "Energy": "energy", "NextFire": "next_fire",
     "Embers": "ember", "Tides": "tide", "UnredeemedEmbersSpent": "spent_ember", "ShuffleCount": "shuffles",
+    "AshCyclePendingCredit": "ash_credit", "NextTideHealingRecordBonusPercent": "tide_record_bonus",
     "AshRebirthUsed": "ash_rebirth_claims", "TemperBonusUses": "ash_return_claims",
     "NextDrawBonus": "next_draw", "NextEnergyBonus": "next_energy", "NextGapAdjustment": "delay",
     "AttackIntervalModifier": "permanent_delay", "NextMissileBonusPercent": "bonus", "NextMissileBonusFlat": "extra",
@@ -134,7 +147,9 @@ def visible_state(resources, element, selected, route, deck_id, seen=()):
     state.route = route if resources.get("RouteActivated", False) else ""
     state.seen = frozenset(seen)
     state.interval_factor = Fraction(str(resources.get("PermanentIntervalMultiplierPercent", 100))) * Fraction(str(resources.get("TemporaryIntervalMultiplierPercent", 100))) / 10000
-    state.shield_loss = Fraction(str(resources.get("ShieldDecayDamage", 0))) / 4
+    state.shield_loss = Fraction(str(resources.get("ShieldDecayDamage", 0))) / 3
+    state.tide_bonus = max(0, resources.get("NextTideDamageMultiplierPercent", 100) - 100)
+    if state.route == "生命之泉": state.main_def_pen = max(0, state.main_def_pen - 20)
     state.negative_guard = int(resources.get("NegativeSuppressedUntilActionValue", 0) > resources.get("ObservationTime", 0))
     state.heal_block = resources.get("HealingReductionPercent", 0) if resources.get("HealingReductionUntilActionValue", 0) > resources.get("ObservationTime", 0) else 0
     multiplier = resources.get("NextIncomingDamageMultiplierPercent", 100)
@@ -160,6 +175,9 @@ def combat_context(view):
     register_deck("client-self", view["ownDeck"], own_element, view["ownRoute"], view["ownSpec"])
     register_deck("client-public-enemy", enemy_names, enemy_element, view["opponentRoute"], view["opponentSpec"])
     policy = MODEL.combat.policy("client-self", "client-public-enemy", view["round"])
+    if STYLE:
+        from dataclasses import replace
+        policy = replace(policy, **{k: getattr(policy, k) * factor for k, factor in STYLE["combat"].items()})
     snapshot = [visible_state(view["self"], own_element, view["ownSpec"], view["ownRoute"], "client-self", view["ownPlayed"]),
                 visible_state(view["opponent"], enemy_element, view["opponentSpec"], view["opponentRoute"], "client-public-enemy")]
     # The client expires poison on its window boundary. An observed due marker
@@ -198,7 +216,7 @@ def search(view):
 def handle(request):
     kind = request["kind"]
     if kind == "metadata":
-        return dict(model=POINTER["model"], modelHash=MODEL_HASH, mode="inference_only", planner=J.P.PLANNER_VERSION)
+        return dict(model=POINTER["model"], modelHash=MODEL_HASH, mode="inference_only", planner=J.P.PLANNER_VERSION, style=STYLE_ID)
     return {"draft": draft, "combat": combat, "search": search}[kind](request["view"])
 
 

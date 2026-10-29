@@ -8,7 +8,7 @@
   "CombatCost": 2,
   "BaseStudyCost": 3,
   "Attack": 2,
-  "Defense": 7,
+  "Defense": 9,
   "FirstEnchantmentLayers": 1,
   "RulesText": "下一发主弹造成伤害前获得本次有效攻击力50%的临时护盾；本次完整发射组结束清空全部护盾；下一发",
   "DisplayRulesText": "下一发主弹造成伤害前，获得本次有效攻击力50%的临时护盾。剩余临时护盾在获得后的下一个抽牌阶段前消失。",

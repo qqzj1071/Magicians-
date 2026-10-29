@@ -1,0 +1,19 @@
+{
+  "games": 1000,
+  "unique_seeds": 1000,
+  "battles": 29598,
+  "ledgers": 56253,
+  "segments": {
+    "train": 480,
+    "validation": 160,
+    "rolling-holdout": 160,
+    "final-holdout": 200
+  },
+  "pool_total": 707,
+  "sequence_skips": 0,
+  "cycle_decisions": {},
+  "income_bank_debit_checks": true,
+  "starters_never_bought": true,
+  "four_players_and_zero_sum_rank_scores": true,
+  "input_hashes_verified": true
+}

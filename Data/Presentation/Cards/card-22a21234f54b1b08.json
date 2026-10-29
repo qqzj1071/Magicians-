@@ -7,7 +7,7 @@
   "Rarity": "legendary",
   "CombatCost": 2,
   "BaseStudyCost": 4,
-  "Attack": 12,
+  "Attack": 11,
   "Defense": 5,
   "FirstEnchantmentLayers": 0,
   "RulesText": "每张异种附魔牌（无论是否已打出）额外提供 1 层主系附魔层数；同一张只计一次，最多额外提供 6 层",

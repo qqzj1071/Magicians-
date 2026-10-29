@@ -1,0 +1,6 @@
+{
+  "status": "diagnostic_only_not_final_training",
+  "reason": "第9批284872发现正费用互抽无限循环；加入共同AI自愿换牌/结束决策后完整1000局重跑",
+  "saved_rooms": 879,
+  "final_run": "research\\v1.2-training-1000-final-20261028"
+}

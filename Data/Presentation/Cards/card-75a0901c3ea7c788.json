@@ -7,7 +7,7 @@
   "Rarity": "rare",
   "CombatCost": 2,
   "BaseStudyCost": 2,
-  "Attack": 7,
+  "Attack": 11,
   "Defense": 1,
   "FirstEnchantmentLayers": 1,
   "RulesText": "下一发间隔 +30；获得 1 余烬；该发伤害 +14%；下一发/立即",

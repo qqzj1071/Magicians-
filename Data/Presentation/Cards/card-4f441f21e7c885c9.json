@@ -7,7 +7,7 @@
   "Rarity": "specialization",
   "CombatCost": 3,
   "BaseStudyCost": 0,
-  "Attack": 20,
+  "Attack": 30,
   "Defense": 0,
   "FirstEnchantmentLayers": 2,
   "RulesText": "激活余烬：从下次抽牌阶段起每阶段获得1层，上限5；发射消耗全部。主弹余烬倍率=1+火层数×2.5%×实际消耗层数，与火附魔倍率相乘。未打出本牌不获得或预存余烬。",

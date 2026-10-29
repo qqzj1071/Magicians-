@@ -1,0 +1,215 @@
+{
+  "rationale": "根据首轮1000局完整赛事夺冠率，削弱毒爆38.4%、穿云箭37.6%、疾风之刃37.6%，并轻调反震岩核34.9%的护盾支撑；加强燃烧血统2.4%、灰烬循环6.5%、潮汐回响13.5%，少量补偿风痕17.1%。用户本次指定的八项机制参数不变。普通、稀有和专精面板不变；调整限于传奇、支撑史诗的整数攻防、固定盾/回血、既有增伤数值。保持史诗V=15—20、传奇V=21—27，V=攻击+2×防御。",
+  "source": "report.json",
+  "changes": [
+    {
+      "name": "毒爆",
+      "field": "attack",
+      "old": 13,
+      "new": 11
+    },
+    {
+      "name": "毒爆",
+      "field": "defense",
+      "old": 4,
+      "new": 5
+    },
+    {
+      "name": "万毒爆",
+      "field": "attack",
+      "old": 16,
+      "new": 15
+    },
+    {
+      "name": "毒潮",
+      "field": "attack",
+      "old": 16,
+      "new": 15
+    },
+    {
+      "name": "穿云箭",
+      "field": "attack",
+      "old": 17,
+      "new": 15
+    },
+    {
+      "name": "穿云箭",
+      "field": "defense",
+      "old": 2,
+      "new": 3
+    },
+    {
+      "name": "气旋护壁",
+      "field": "attack",
+      "old": 4,
+      "new": 3
+    },
+    {
+      "name": "穿云破甲",
+      "field": "attack",
+      "old": 15,
+      "new": 13
+    },
+    {
+      "name": "穿云破甲",
+      "field": "defense",
+      "old": 0,
+      "new": 1
+    },
+    {
+      "name": "裂空穿云",
+      "field": "attack",
+      "old": 15,
+      "new": 13
+    },
+    {
+      "name": "裂空穿云",
+      "field": "defense",
+      "old": 0,
+      "new": 1
+    },
+    {
+      "name": "疾风之刃",
+      "field": "attack",
+      "old": 19,
+      "new": 18
+    },
+    {
+      "name": "疾风连斩",
+      "field": "attack",
+      "old": 6,
+      "new": 5
+    },
+    {
+      "name": "风神之翼",
+      "field": "attack",
+      "old": 13,
+      "new": 12
+    },
+    {
+      "name": "反震岩核",
+      "field": "attack",
+      "old": 11,
+      "new": 10
+    },
+    {
+      "name": "燃烧血统",
+      "field": "attack",
+      "old": 18,
+      "new": 20
+    },
+    {
+      "name": "压缩爆燃",
+      "field": "attack",
+      "old": 13,
+      "new": 15
+    },
+    {
+      "name": "慢燃",
+      "field": "attack",
+      "old": 13,
+      "new": 15
+    },
+    {
+      "name": "灰烬循环",
+      "field": "attack",
+      "old": 14,
+      "new": 15
+    },
+    {
+      "name": "余烬引擎",
+      "field": "attack",
+      "old": 3,
+      "new": 4
+    },
+    {
+      "name": "灰烬重生",
+      "field": "attack",
+      "old": 5,
+      "new": 6
+    },
+    {
+      "name": "回响之潮",
+      "field": "attack",
+      "old": 9,
+      "new": 10
+    },
+    {
+      "name": "风痕",
+      "field": "attack",
+      "old": 19,
+      "new": 20
+    },
+    {
+      "name": "风痕回廊",
+      "field": "attack",
+      "old": 17,
+      "new": 18
+    },
+    {
+      "name": "裂空",
+      "field": "attack",
+      "old": 14,
+      "new": 15
+    },
+    {
+      "name": "回震岩甲",
+      "field": "固定护盾",
+      "old": 180,
+      "new": 150
+    },
+    {
+      "name": "潮汐风暴",
+      "field": "固定回血",
+      "old": 70,
+      "new": 85
+    },
+    {
+      "name": "回响之潮",
+      "field": "下次潮汐增伤百分数",
+      "old": 30,
+      "new": 35
+    },
+    {
+      "name": "潮汐风暴",
+      "field": "下次潮汐增伤百分数",
+      "old": 60,
+      "new": 70
+    },
+    {
+      "name": "慢燃",
+      "field": "增伤缩放（实际24%→30%）",
+      "old": 0.8,
+      "new": 1
+    },
+    {
+      "name": "压缩爆燃",
+      "field": "增伤缩放（高档41%→45%）",
+      "old": 0.9,
+      "new": 1
+    },
+    {
+      "name": "穿云破甲",
+      "field": "加成副弹固定伤害",
+      "old": 40,
+      "new": 35
+    },
+    {
+      "name": "风神之翼",
+      "field": "加成副弹攻击百分数",
+      "old": 35,
+      "new": 30
+    }
+  ],
+  "unchanged_user_mechanics": {
+    "echo_record_per_layer": 8,
+    "wall_reflect_per_layer": 2.5,
+    "bone_def_coeff": 0.4,
+    "blade_follow_percent": 25,
+    "poison_burst_multiplier": 1.5,
+    "all_poison_burst_multiplier": 2,
+    "poison_tide_multiplier": 2.5,
+    "wind_arrow_shield_bonus_percent": 15,
+    "wind_arrow_ignore_percent": 15
+  }
+}

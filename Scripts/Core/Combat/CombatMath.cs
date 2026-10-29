@@ -7,8 +7,9 @@ public static class CombatMath
     public static int AddOrdinaryShield(int oldShield, int gain) => Ceiling(oldShield * 0.75m) + gain;
 
     // Supported slice has no fire multiplier, defense penetration, vulnerability or mitigation.
-    public static int MissileDamage(decimal rawAttack, int defense, int defensePenetrationPercent = 0) =>
-        Math.Max(1, Floor(rawAttack - defense * Math.Max(0, 100 - defensePenetrationPercent) / 100m));
+    public static int MissileDamage(decimal rawAttack, int defense, int defensePenetrationPercent = 0, int independentDefenseIgnorePercent = 0) =>
+        Math.Max(1, Floor(rawAttack - defense * Math.Max(0, 100 - defensePenetrationPercent) / 100m
+            * (100 - Math.Clamp(independentDefenseIgnorePercent, 0, 100)) / 100m));
 
     public static int PoisonDamage(decimal rawDamage, int defense) =>
         Math.Max(1, Floor(rawDamage - defense * 0.5m));

@@ -32,7 +32,7 @@ public sealed record CombatResourceState(
     bool ElementForgeActive,
     int ElementForgeBonusLayers,
     int ElementForgePotentialLayers,
-    int AttackIntervalModifier,
+    decimal AttackIntervalModifier,
     int PermanentIntervalMultiplierPercent,
     int TemporaryIntervalMultiplierPercent,
     int NextIncomingDamageMultiplierPercent,
@@ -81,7 +81,7 @@ public sealed record CombatResourceState(
     int PoisonLayers,
     int NextDrawBonus,
     int NextEnergyBonus,
-    int NextGapAdjustment,
+    decimal NextGapAdjustment,
     int PendingSubmissiles,
     int PendingWindSubmissiles,
     int NextWindSubmissileFlat,
@@ -128,8 +128,12 @@ public sealed record CombatResourceState(
 )
 {
     public int UnredeemedEmbersSpent { get; init; }
+    public int AshCyclePendingCredit { get; init; }
     public ShieldDecayState ShieldDecay { get; init; } = new();
     public bool BastionHeartActive { get; init; }
+    public bool BurningBloodlineActive { get; init; }
+    public bool LifeSpringActive { get; init; }
+    public int NextTideHealingRecordBonusPercent { get; init; }
 
     public static CombatResourceState From(CombatantState state) => new(
         state.Life, state.Shield, state.Attack, state.Defense, state.Energy, state.DeckElementCount, state.PrimaryElement,
@@ -163,7 +167,7 @@ public sealed record CombatResourceState(
         state.EarthSpecialized, state.WindSpecialized,
         new Dictionary<string, int>(StringComparer.Ordinal),
         new HashSet<string>(StringComparer.Ordinal))
-        { UnredeemedEmbersSpent = state.UnredeemedEmbersSpent, ShieldDecay = state.ShieldDecay, BastionHeartActive = state.BastionHeartActive };
+        { UnredeemedEmbersSpent = state.UnredeemedEmbersSpent, AshCyclePendingCredit = state.AshCyclePendingCredit, ShieldDecay = state.ShieldDecay, BastionHeartActive = state.BastionHeartActive, BurningBloodlineActive = state.BurningBloodlineActive, LifeSpringActive = state.LifeSpringActive, NextTideHealingRecordBonusPercent = state.NextTideHealingRecordBonusPercent };
 }
 
 public sealed record EffectContext(
@@ -209,44 +213,44 @@ public sealed class BasicImmediateEffectResolver : ICardEffectResolver
             case "鼓舞": source = CombatTriggerRegistry.Apply(source, "next.energy", 1); break;
             case "整理": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.draw", 2), "next.energy", -1); break;
             case "循环": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.draw", 1), "next.energy", 1); break;
-            case "短促": source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -15); break;
+            case "短促": source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -7.5m); break;
             case "微风": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.submissiles", 1), "next.wind.flat", 15), "next.wind.attack.percent", 20); break;
             case "蓄能": source = CombatTriggerRegistry.Apply(source, "next.damage.percent", 14); break;
             case "疾风": source = CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1); break;
             case "穿甲":
                 source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 22), "next.wind.attack.percent", 20);
-                source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -10);
+                source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -5);
                 target = target with { Defense = Math.Max(0, target.Defense - 3), BattleDefenseReduction = target.BattleDefenseReduction + 3 }; break;
             case "穿云": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 25), "next.wind.attack.percent", 30); break;
             case "穿云破甲":
-                source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 40), "next.wind.attack.percent", 25);
-                source = CombatTriggerRegistry.Apply(source, "battle.interval.modifier", -2);
+                source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 35), "next.wind.attack.percent", 25);
+                source = CombatTriggerRegistry.Apply(source, "battle.interval.modifier", -1);
                 target = target with { Defense = Math.Max(0, target.Defense - 4), BattleDefenseReduction = target.BattleDefenseReduction + 4 }; break;
             case "风暴": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 30), "next.wind.attack.percent", 30); break;
             case "风驰": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 12), "next.wind.attack.percent", 30); break;
             case "风痕刻印":
                 source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 15), "next.wind.attack.percent", 15);
-                source = source.WindTraceActive ? source with { WindTraceBonusLayers = source.WindTraceBonusLayers + 2 } : CombatTriggerRegistry.Apply(source, "next.fire.gap", -10);
+                source = source.WindTraceActive ? source with { WindTraceBonusLayers = source.WindTraceBonusLayers + 2 } : CombatTriggerRegistry.Apply(source, "next.fire.gap", -5);
                 break;
             case "风卷": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 25), "next.wind.attack.percent", 25); break;
             case "风切": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 15), "next.wind.attack.percent", 15); break;
             case "风牙": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 10), "next.wind.attack.percent", 15); break;
-            case "疾行": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 18), "next.wind.attack.percent", 15); source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -20); break;
+            case "疾行": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 18), "next.wind.attack.percent", 15); source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -10); break;
             case "裂风": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 22), "next.wind.attack.percent", 20); break;
             case "破风":
                 source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 18), "next.wind.attack.percent", 20);
                 target = target with { Defense = Math.Max(0, target.Defense - 2), BattleDefenseReduction = target.BattleDefenseReduction + 2 }; break;
-            case "顺风": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 12), "next.wind.attack.percent", 25), "battle.interval.modifier", -2); break;
-            case "追风": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 15), "next.wind.attack.percent", 35), "battle.interval.modifier", -1); break;
-            case "追云": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 12), "next.wind.attack.percent", 25); source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -15); break;
-            case "风神之翼": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 20), "next.wind.attack.percent", 35), "battle.interval.modifier", -3); break;
+            case "顺风": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 12), "next.wind.attack.percent", 25), "battle.interval.modifier", -1m); break;
+            case "追风": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 15), "next.wind.attack.percent", 35), "battle.interval.modifier", -0.5m); break;
+            case "追云": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 12), "next.wind.attack.percent", 25); source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -7.5m); break;
+            case "风神之翼": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 20), "next.wind.attack.percent", 30), "battle.interval.modifier", -1m); break;
             case "风蚀":
                 source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 1), "next.wind.flat", 25), "next.wind.attack.percent", 25);
                 target = target with { Defense = Math.Max(0, target.Defense - 4), BattleDefenseReduction = target.BattleDefenseReduction + 4 }; break;
             case "风痕": source = source with { WindTraceActive = true }; break;
-            case "天岚": source = CombatTriggerRegistry.Apply(source with { WindGaleActive = true, WindMainShotCount = 0 }, "battle.interval.modifier", -10 - 2 * source.WindLayers); break;
-            case "裂空": source = CombatTriggerRegistry.Apply(source with { WindTraceExplosionMultiplierPercent = source.WindTraceExplosionMultiplierPercent + 50 }, "battle.interval.modifier", -3); break;
-            case "疾风连斩": source = CombatTriggerRegistry.Apply(source, "battle.interval.modifier", -3); break;
+            case "天岚": source = source with { WindGaleActive = true, WindMainShotCount = 0 }; break;
+            case "裂空": source = CombatTriggerRegistry.Apply(source with { WindTraceExplosionMultiplierPercent = source.WindTraceExplosionMultiplierPercent + 50 }, "battle.interval.modifier", -1m); break;
+            case "疾风连斩": source = CombatTriggerRegistry.Apply(source, "battle.interval.modifier", -1m); break;
             case "疾风之刃": source = source with { WindChaseActive = true, LastMainMissileActionValue = -1, LastMainMissileActualDamage = 0 }; break;
             case "疾影": source = source with { MainDamageBonusUntilDrawPercent = 25 }; break;
             case "穿云箭": source = source with { WindArrowActive = true }; break;
@@ -254,15 +258,15 @@ public sealed class BasicImmediateEffectResolver : ICardEffectResolver
                 target = target with { Defense = Math.Max(0, target.Defense - 4), BattleDefenseReduction = target.BattleDefenseReduction + 4 };
                 source = CombatTriggerRegistry.Apply(source, "next.shield.penetration", 0) with { NextShieldDamageMultiplierPercent = source.NextShieldDamageMultiplierPercent + 30 };
                 break;
-            case "风步": source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -15); break;
+            case "风步": source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -7.5m); break;
             case "风幕":
-                source = CombatTriggerRegistry.Apply(source with { ShieldDecay = source.ShieldDecay.OnOrdinaryGain(source.Shield), Shield = CombatMath.AddOrdinaryShield(source.Shield, 60) }, "next.fire.gap", -20);
+                source = CombatTriggerRegistry.Apply(source with { ShieldDecay = source.ShieldDecay.OnOrdinaryGain(source.Shield), Shield = CombatMath.AddOrdinaryShield(source.Shield, 60) }, "next.fire.gap", -10);
                 target = target with { ShieldDecay = target.ShieldDecay.OnOrdinaryGain(target.Shield), Shield = CombatMath.AddOrdinaryShield(target.Shield, 60) };
                 break;
             case "气旋护壁":
                 source = source with { ShieldDecay = source.ShieldDecay.OnOrdinaryGain(source.Shield), Shield = CombatMath.AddOrdinaryShield(source.Shield, 100) };
                 target = target with { ShieldDecay = target.ShieldDecay.OnOrdinaryGain(target.Shield), Shield = CombatMath.AddOrdinaryShield(target.Shield, 100) };
-                source = CombatTriggerRegistry.Apply(source, "battle.interval.modifier", -3);
+                source = CombatTriggerRegistry.Apply(source, "battle.interval.modifier", -1m);
                 break;
             case "风痕回廊":
                 source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.wind.submissiles", 2), "next.wind.flat", 15), "next.wind.attack.percent", 15);
@@ -310,7 +314,7 @@ public sealed class BasicImmediateEffectResolver : ICardEffectResolver
                 var consumed = Math.Min(2, source.PoisonLayers);
                 source = CombatTriggerRegistry.Apply(
                     CombatTriggerRegistry.Apply(source with { PoisonLayers = source.PoisonLayers - consumed }, "next.draw", consumed),
-                    "next.fire.gap", -15);
+                    "next.fire.gap", -7.5m);
                 break;
             }
             case "延毒": source = source with { PoisonDecayIntervalPercent = source.PoisonDecayIntervalPercent + 15 }; break;
@@ -318,7 +322,7 @@ public sealed class BasicImmediateEffectResolver : ICardEffectResolver
             case "蚀骨": source = source with { PoisonDecayIntervalPercent = source.PoisonDecayIntervalPercent + 100, PoisonDecayKeepLast = true }; break;
             case "不周山": source = source with { EarthBarrierActive = true }; break;
             case "反震岩核": source = source with { EarthBarrierActive = true, ShieldBreakReturnPercent = source.ShieldBreakReturnPercent + 40 }; break;
-            case "回震岩甲": source = source with { ShieldBreakReturnFlat = source.ShieldBreakReturnFlat + 60 }; break;
+            case "回震岩甲": source = source with { ShieldDecay = source.ShieldDecay.OnOrdinaryGain(source.Shield), Shield = CombatMath.AddOrdinaryShield(source.Shield, 150), ShieldBreakReturnFlat = source.ShieldBreakReturnFlat + 60 }; break;
             case "焚心":
             {
                 var consumed = Math.Min(2, source.Embers);
@@ -349,8 +353,7 @@ public sealed class BasicImmediateEffectResolver : ICardEffectResolver
             case "燃烧血统":
                 source = source with
                 {
-                    Attack = CombatMath.Floor(source.Attack * 1.50m),
-                    AttackIntervalModifier = source.AttackIntervalModifier + 100
+                    BurningBloodlineActive = true
                 };
                 break;
             case "裂岩护壁":
@@ -367,7 +370,7 @@ public sealed class BasicImmediateEffectResolver : ICardEffectResolver
             case "生命之泉":
                 source = source with
                 {
-                    AttackIntervalModifier = source.AttackIntervalModifier - CombatMath.Ceiling(8 + source.WaterLayers * 0.8m),
+                    LifeSpringActive = true,
                     MainDefensePenetrationPercent = source.MainDefensePenetrationPercent + 20
                 };
                 break;
@@ -383,12 +386,12 @@ public sealed class BasicImmediateEffectResolver : ICardEffectResolver
                     : CombatTriggerRegistry.Apply(source, "next.draw", 1);
                 break;
             case "火花": source = CombatTriggerRegistry.Apply(source, "next.damage.percent", 9); break;
-            case "烈焰冲刺": source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -20); break;
+            case "烈焰冲刺": source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -10); break;
             case "猛火弹": source = CombatTriggerRegistry.Apply(source, "next.damage.percent", 27); break;
             case "压实火药": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.fire.gap", 30), "next.damage.percent", 16); break;
             case "高压弹仓": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source with { Embers = source.Embers + 1 }, "next.fire.gap", 30), "next.damage.percent", 14); break;
-            case "导火索": source = CombatTriggerRegistry.Apply(source, "next.damage.percent", source.NextGapAdjustment >= 150 ? 16 : 8); break;
-            case "慢燃": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.fire.gap", 50), "next.damage.percent", 24); break;
+            case "导火索": source = CombatTriggerRegistry.Apply(source, "next.damage.percent", source.NextGapAdjustment >= 75 ? 16 : 8); break;
+            case "慢燃": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.fire.gap", 50), "next.damage.percent", 30); break;
             case "燃血": source = source with { Life = Math.Max(1, source.Life - CombatMath.Ceiling(source.Life * 0.05m)), Embers = source.Embers + 1 };
                 source = CombatTriggerRegistry.Apply(source, "next.draw", 1); break;
             case "余烬心脏":
@@ -401,7 +404,7 @@ public sealed class BasicImmediateEffectResolver : ICardEffectResolver
             case "涌泉": source = source with { Life = Math.Min(1000, source.Life + 65) }; break;
             case "潮声": source = CombatTriggerRegistry.Apply(source with { Life = Math.Min(1000, source.Life + 25) }, "next.damage.percent", 9); break;
             case "潮涌": source = CombatTriggerRegistry.Apply(source with { Life = Math.Min(1000, source.Life + 35) }, "next.damage.percent", 23); break;
-            case "疾流": source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -20); break;
+            case "疾流": source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -10); break;
             case "穿潮": source = CombatTriggerRegistry.Apply(source, "next.defense.penetration", 40); break;
             case "水幕": source = CombatTriggerRegistry.Apply(source with { WaterLayers = source.WaterLayers + 1, Life = Math.Min(1000, source.Life + 50) }, "next.shield.penetration", 55); break;
             case "翻阅": source = CombatTriggerRegistry.Apply(source, "next.draw", 1); break;
@@ -424,7 +427,7 @@ public sealed class BasicImmediateEffectResolver : ICardEffectResolver
             case "铁壁": if (source.Shield >= 50) source = source with { Defense = source.Defense + 3 }; break;
             case "裂伤": target = CombatTriggerRegistry.Apply(target, "next.damage.percent", 45); break;
             case "蓄势": source = CombatTriggerRegistry.Apply(source, "next.damage.percent", 18); break;
-            case "战术大师": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.draw", 1), "next.damage.percent", 18); break;
+            case "战术大师": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.energy", 1), "next.damage.percent", 18); break;
             case "稳固结界": target = CombatTriggerRegistry.Apply(target, "next.incoming.damage.multiplier", 70); break;
             case "镜岩之心":
                 source = source with { ShieldDecay = source.ShieldDecay.OnOrdinaryGain(source.Shield), Shield = CombatMath.AddOrdinaryShield(source.Shield, 60) };
@@ -468,9 +471,9 @@ public sealed class BasicImmediateEffectResolver : ICardEffectResolver
             case "潮汐回廊":
                 source = source with { Life = Math.Min(1000, source.Life + CombatMath.Ceiling(source.Tides * 2m)), Tides = 0m };
                 break;
-            case "潮汐回响": source = source with { TideActive = true, TideRefundPercent = 15 }; break;
-            case "回响之潮": source = CombatTriggerRegistry.Apply(source with { Life = Math.Min(1000, source.Life + 85) }, "next.damage.percent", 0) with { NextTideDamageMultiplierPercent = source.TideActive ? source.NextTideDamageMultiplierPercent + 30 : source.NextTideDamageMultiplierPercent }; break;
-            case "潮汐风暴": source = source with { Life = Math.Min(1000, source.Life + 55), NextTideDamageMultiplierPercent = source.TideActive ? source.NextTideDamageMultiplierPercent + 60 : source.NextTideDamageMultiplierPercent }; break;
+            case "潮汐回响": source = source with { TideActive = true, TideRefundPercent = 25 }; break;
+            case "回响之潮": source = CombatTriggerRegistry.Apply(source with { Life = Math.Min(1000, source.Life + 100) }, "next.damage.percent", 0) with { NextTideDamageMultiplierPercent = source.TideActive ? source.NextTideDamageMultiplierPercent + 40 : source.NextTideDamageMultiplierPercent, NextTideHealingRecordBonusPercent = source.TideActive ? source.NextTideHealingRecordBonusPercent + 50 : source.NextTideHealingRecordBonusPercent }; break;
+            case "潮汐风暴": source = source with { Life = Math.Min(1000, source.Life + 85), NextTideDamageMultiplierPercent = source.TideActive ? source.NextTideDamageMultiplierPercent + 70 : source.NextTideDamageMultiplierPercent }; break;
             case "血潮": source = source with { BloodTideActive = true }; break;
             case "静水": source = source with { NextWaterShieldHealingMultiplierPercent = 300 }; break;
             case "奔流": source = CombatTriggerRegistry.Apply(source, "battle.interval.multiplier", 90); break;
@@ -478,7 +481,7 @@ public sealed class BasicImmediateEffectResolver : ICardEffectResolver
                 source = source with { Life = Math.Max(1, source.Life - CombatMath.Ceiling(source.Life * 0.05m)) };
                 source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.draw", 3), "next.energy", 1);
                 break;
-            case "魔力契约": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.draw", -1), "next.energy", 1); break;
+            case "魔力契约": break; // Persistent effect is tracked by the combat authority.
             case "爆裂弹头": source = CombatTriggerRegistry.Apply(source, "next.damage.percent", 18); break;
             case "压缩爆燃":
             {
@@ -528,22 +531,22 @@ public sealed class BasicImmediateEffectResolver : ICardEffectResolver
                         source.WindTraceActive, source.WindGaleActive, source.WindArrowActive,
                         source.WindChaseActive, source.TideActive, source.TideRefundPercent,
                         context.ActionValue, context.ActionValue + 200)
-                        { ShieldDecayActive = source.ShieldDecay.Active, BastionHeartActive = source.BastionHeartActive }
+                        { ShieldDecayActive = source.ShieldDecay.Active, BastionHeartActive = source.BastionHeartActive, BurningBloodlineActive = source.BurningBloodlineActive, LifeSpringActive = source.LifeSpringActive }
                 };
                 break;
             case "毒针":
                 if (target.Shield > 0 && target.PoisonLayers == 0)
                 {
                     target = target with { PoisonLayers = 1 };
-                    if (source.PoisonExplosionActive) source = source with { Attack = source.Attack + 4 };
+                    if (source.PoisonExplosionActive) source = source with { Attack = source.Attack + 1 };
                 }
                 break;
-            case "毒囊": source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -20); break;
+            case "毒囊": source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -10); break;
             case "枯潮":
                 if (target.PoisonLayers > 0)
                 {
                     target = target with { PoisonLayers = target.PoisonLayers + 1 };
-                    if (source.PoisonExplosionActive) source = source with { Attack = source.Attack + 4 };
+                    if (source.PoisonExplosionActive) source = source with { Attack = source.Attack + 1 };
                 }
                 break;
             case "蚀刻":
@@ -553,19 +556,19 @@ public sealed class BasicImmediateEffectResolver : ICardEffectResolver
                 target = ApplyImmediatePoisonDamage(source, target, 2m);
                 break;
             case "毒爆弹":
-                if (source.PoisonExplosionActive) source = source with { Attack = source.Attack + target.PoisonLayers * 4 };
-                target = ApplyPoisonBurst(source, target, 1.8m);
+                if (source.PoisonExplosionActive) source = source with { Attack = source.Attack + target.PoisonLayers };
+                target = ApplyPoisonBurst(source, target, 1.5m);
                 source = CombatTriggerRegistry.Apply(source, "next.fire.gap", 0);
                 break;
             case "毒潮":
-                if (source.PoisonExplosionActive) source = source with { Attack = source.Attack + target.PoisonLayers * 4 };
-                source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -Math.Min(20, target.PoisonLayers * 2));
-                target = ApplyPoisonBurst(source, target, 2.8m);
+                if (source.PoisonExplosionActive) source = source with { Attack = source.Attack + target.PoisonLayers };
+                source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -Math.Min(10, target.PoisonLayers));
+                target = ApplyPoisonBurst(source, target, 2.5m);
                 break;
             case "万毒爆":
-                if (source.PoisonExplosionActive) source = source with { Attack = source.Attack + target.PoisonLayers * 4 };
-                source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -20);
-                target = ApplyPoisonBurst(source, target, 2.2m);
+                if (source.PoisonExplosionActive) source = source with { Attack = source.Attack + target.PoisonLayers };
+                source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -10);
+                target = ApplyPoisonBurst(source, target, 2m);
                 break;
             case "疫病":
                 source = CombatTriggerRegistry.Apply(source, "next.damage.flat", 40);
@@ -598,11 +601,11 @@ public sealed class BasicImmediateEffectResolver : ICardEffectResolver
             case "万毒之源": source = source with { PlagueActive = true }; break;
             case "岩核重压":
             {
-                var defenseRate = source.EarthSpecialized && source.ShieldBreakReturnPercent > 0 ? 0.20m : 0.50m;
+                var defenseRate = 0.50m;
                 var raw = CombatMath.Ceiling(Math.Max(0, source.Shield * 0.25m - target.Defense * defenseRate)
                     * (1 + source.FireLayers * (source.FireSpecialized ? 0.02m : 0.01m)));
                 var split = CombatMath.SplitShieldBurst(raw, target.Shield,
-                    source.EarthSpecialized && source.ShieldDecay.Active ? 50 : 0);
+                    0);
                 target = target with { Shield = target.Shield - split.Shield, Life = target.Life - split.Life };
                 break;
             }
@@ -643,16 +646,16 @@ public sealed class BasicImmediateEffectResolver : ICardEffectResolver
                 if (source.TideActive) source = source with { Tides = source.Tides + (1000 - source.Life) * 0.003m * source.WaterLayers };
                 break;
             case "细流": source = CombatTriggerRegistry.Apply(source with { Life = Math.Min(1000, source.Life + 8) }, "next.damage.percent", 9); break;
-            case "连环潮": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.fire.gap", -30), "next.damage.percent", 14); break;
+            case "连环潮": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.fire.gap", -15), "next.damage.percent", 14); break;
             case "回潮": if (source.ActualHealingThisBattle > 0m) source = source with { Attack = source.Attack + 4 }; break;
             case "回流":
                 source = CombatTriggerRegistry.Apply(source, "next.draw", 1);
-                if (source.NextGapAdjustment <= -30) source = source with { Attack = source.Attack + 3 };
+                if (source.NextGapAdjustment <= -15) source = source with { Attack = source.Attack + 3 };
                 break;
             case "潮汐恩泽": source = Heal(source with { WaterLayers = source.WaterLayers + 1 }, 60); break;
             case "血偿": source = source with { Life = Math.Min(1000, source.Life + CombatMath.Ceiling((1000 - source.Life) * 0.06m)) }; break;
-            case "泉心": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.fire.gap", -50), "next.defense.penetration", 60); break;
-            case "生命洪流": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source with { Life = Math.Min(1000, source.Life + 60) }, "next.fire.gap", -30), "next.damage.percent", 17); break;
+            case "泉心": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.fire.gap", -25), "next.defense.penetration", 60); break;
+            case "生命洪流": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source with { Life = Math.Min(1000, source.Life + 70) }, "next.fire.gap", -15), "next.damage.percent", 17); break;
             case "余烬护心":
                 source = source.Embers > 0
                     ? source with { Embers = source.Embers - 1, Life = Math.Min(1000, source.Life + CombatMath.Ceiling((1000 - source.Life) * 0.15m)) }
@@ -687,7 +690,7 @@ public sealed class BasicImmediateEffectResolver : ICardEffectResolver
             case "剧毒": source = CombatTriggerRegistry.Apply(source, "next.damage.flat", 30); break;
             case "腐溃": source = CombatTriggerRegistry.Apply(source, "next.damage.flat", 10 + 4 * source.PoisonLayers); break;
             case "蚀创": source = CombatTriggerRegistry.Apply(source, "next.damage.flat", 20 + 6 * source.PoisonLayers); break;
-            case "爆裂": source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -15 - (source.PoisonLayers >= 3 ? 10 : 0)); break;
+            case "爆裂": source = CombatTriggerRegistry.Apply(source, "next.fire.gap", -7.5m - (source.PoisonLayers >= 3 ? 5 : 0)); break;
             case "拆盾弹": source = CombatTriggerRegistry.Apply(source, "next.shield.penetration", 25); break;
              case "破障法阵": source = CombatTriggerRegistry.Apply(CombatTriggerRegistry.Apply(source, "next.shield.penetration", 60), "next.defense.penetration", 25); break;
             case "圣盾": source = source with { ShieldDecay = source.ShieldDecay.OnOrdinaryGain(source.Shield), Shield = CombatMath.AddOrdinaryShield(source.Shield, 200) }; break;
@@ -699,7 +702,7 @@ public sealed class BasicImmediateEffectResolver : ICardEffectResolver
                 source = source with { ShieldDecay = source.ShieldDecay.OnOrdinaryGain(source.Shield), Shield = CombatMath.AddOrdinaryShield(source.Shield, 150) };
                 if (source.Shield >= 200) source = source with { Defense = source.Defense + 5 };
                 break;
-            case "不坏壁垒": source = source with { Shield = source.Shield + 200 }; break;
+            case "不坏壁垒": source = source with { Shield = source.Shield + 190 }; break;
             case "山岳壁垒": source = source with { ShieldDecay = source.ShieldDecay.OnOrdinaryGain(source.Shield), Shield = CombatMath.AddOrdinaryShield(source.Shield, 190), Defense = source.Defense + 6 }; break;
             case "岩壁":
                 source = source with { ShieldDecay = source.ShieldDecay.OnOrdinaryGain(source.Shield), Shield = CombatMath.AddOrdinaryShield(source.Shield, 30) };
@@ -733,7 +736,7 @@ public sealed class BasicImmediateEffectResolver : ICardEffectResolver
         TemporaryPoisonLayers = 0,
         PoisonLayers = poisonLayers,
         NegativeSuppressedUntilActionValue = 0
-        } with { Attack = state.Attack + state.BattleAttackReduction + state.TemporaryAttackReduction + (state.PoisonExplosionActive ? removed * 4 : 0) };
+        } with { Attack = state.Attack + state.BattleAttackReduction + state.TemporaryAttackReduction + (state.PoisonExplosionActive ? removed : 0) };
     }
 
     private static CombatResourceState Heal(CombatResourceState state, int amount)

@@ -1,0 +1,16 @@
+{
+  "authoritative_startup_run": "research\\v1.2-verified-startup-20261028",
+  "games": 5,
+  "battles": 154,
+  "round_counts": [
+    16,
+    16,
+    16,
+    15,
+    17
+  ],
+  "executed_cards": 172,
+  "inputs_hashes_reverified": true,
+  "ledger_replay": true,
+  "no_starter_purchases": true
+}

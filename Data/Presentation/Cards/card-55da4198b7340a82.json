@@ -7,7 +7,7 @@
   "Rarity": "rare",
   "CombatCost": 2,
   "BaseStudyCost": 2,
-  "Attack": 8,
+  "Attack": 11,
   "Defense": 1,
   "FirstEnchantmentLayers": 1,
   "RulesText": "下一发飞弹额外发射一段“固定 25 + 攻击力 25%”的加成副弹；本场敌方防御永久 -4；下一发/整场",

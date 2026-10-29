@@ -1,8 +1,8 @@
 # 构筑与战斗AI · 当前入口
 
-卡牌v1.0与[构筑v1.0](../../releases/deckbuilding-v1.0/README.md)冻结；AI检查点独立演进，不能回写游戏规则。
+卡牌v1.1与[构筑v1.0](../../releases/deckbuilding-v1.0/README.md)冻结；AI检查点独立演进，不能回写游戏规则。
 
-客户端已通过 `tools/client_ai/inference_worker.py` 接入本页指针指定的检查点，校验 `model_sha256`，直接复用研究版 `Learner`、构筑特征/评分、刷新估值、战斗阶段规划与检索候选评分。仅执行推理，不学习、不修改权重，不改冻结的engine.py、planner.py或policies.json。战斗规则仍由C#引擎权威执行；Python中的条件预演是决策建议，不能作为客户端实际结算或必杀保证。
+客户端已通过 `tools/client_ai/inference_worker.py` 接入本页指针指定的检查点，校验 `model_sha256`，直接复用研究版 `Learner`、构筑特征/评分、刷新估值、战斗阶段规划与检索候选评分。仅执行推理，不学习、不修改权重，不改冻结的战斗规则；AI评估扩展位于ai_v11_policy.py。战斗规则仍由C#引擎权威执行；Python中的条件预演是决策建议，不能作为客户端实际结算或必杀保证。
 
 `Scripts/Core/AI/AiObservations.cs` 是唯一的新AI观察边界：自身已知牌组组成、当前手牌和弃牌区、可见战斗数值、当前构筑候选与自身经济状态，以及全场公开的专精/路线/赛事血量和下一对手。禁止传递摸牌顺序、随机状态、对手私有牌组/手牌/候选/经济状态、隐藏库存、未来候选及对手待提交动作。检索候选在确定要打出哪张检索卡之后单独发送，不能提前看所有检索结果再选牌。
 
@@ -10,7 +10,7 @@
 
 本机Python路径位于 `tools/client_ai/runtime.json`，可用 `MAGICIANS_PYTHON` 环境变量覆盖。每次赛事独立管理并释放推理进程，无网络依赖。程序使用当前已安装的Python运行时，不额外下载安装。
 
-运行 `tools/run_client_regressions.ps1` 可执行构建、完整多轮回放、隐私边界变异测试和异步客户端流程测试。结果保存在工作区 `runtime/regressions/trained-ai/`：每个种子两份run JSON、逐轮/逐战事件摘要、观察哈希、决策理由、模型与源文件哈希、最终状态哈希及总事件摘要哈希。`summary.json` 仅在重复回放的两种哈希一致后生成。固定基线位于 `Data/Regression/trained-ai-baselines.json`，模型或行为变化须明确审查并更新，测试不会自动接受新的基线。
+运行 `tools/run_client_regressions.ps1` 可执行构建、完整多轮回放、隐私边界变异测试和异步客户端流程测试。结果保存在工作区 `runtime/regressions/trained-ai/`：每个种子两份run JSON、逐轮/逐战事件摘要、观察哈希、决策理由、模型与源文件哈希、最终状态哈希及总事件摘要哈希。`summary.json` 仅在重复回放的两种哈希一致后生成。v1.1固定基线位于 `Data/Regression/trained-ai-v1.1-baselines.json`，模型或行为变化须明确审查并更新，测试不会自动接受新的基线；原v1.0基线另行保留。
 
 - [十轮四人赛事学习及独立终测](tournament-v1-report.md)
 - [训练、回退与防过拟合方法](tournament-v1-method.md)
@@ -23,3 +23,11 @@
 后续训练必须换新的研究名称与种子空间；工具默认接当前推荐检查点继续学习，也可显式指定checkpoint。不覆盖本次结果，不重用终测种子调参。
 
 冻结前策略仍保留于releases/deckbuilding-v1.0/initial-ai.json，旧构筑规则与实验已压缩且过时，默认禁止解压。固定15套标准牌组的历史战斗先验仍见[报告](training-v1/report.md)、[共性](training-v1/common.md)与[历史构筑课程](training-v1/construction.md)，不把它们作为现行赛事规则。
+
+## v1.1 小步长训练（2026-10-28）
+
+[本次1000局训练报告](../../research/ai-v1.1-small-steps-20261028-public/report.md)。
+
+当前卡牌、飞弹基础间隔50及战斗规则以releases/v1.1/freeze-manifest.json冻结。客户端与推理器都读取同一v1.1卡牌库。训练入口tools/round_robin/train_v11_small_steps.py；延续既有检查点，以小幅候选参数与上一版同场竞争，每批100局、共10批。每批80局用于选择，20局在全部更新结束前不查看；构筑权重每次约2%、战斗参数每次允许范围1%，灰烬待兑现资源的AI价值权重每次0.1。每局2候选席位对2上一版席位并轮换座位，按最终名次积分及夺冠份额接受或回退。
+
+这属于有回退的参数搜索，卡牌与规则不参与搜索。保留的200局评估的是各批候选相对当批基线的表现，不是最终单一模型相对最初模型的独立终测；报告必须明确这个限制。

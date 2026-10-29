@@ -1,0 +1,28 @@
+{
+  "phase": "requested_mechanics",
+  "python_unit_checks": {
+    "passed": 10,
+    "command": "python -m unittest discover -s tools/round_robin -p test_v11_*.py"
+  },
+  "csharp_build": {
+    "warnings": 0,
+    "errors": 0
+  },
+  "csharp_formula_checks": "V11_ROUTE_BALANCE_OK",
+  "document_card_rows": 252,
+  "document_mismatches": [],
+  "new_parameters_half_unit_grid": true,
+  "integer_attack_defense": true,
+  "notes": [
+    "Godot formula checks were deterministic scenarios, not extra tournaments.",
+    "Archived card records contain the retired 守势; it is not regenerated into the current 252-card document set."
+  ],
+  "tournament_audit": {
+    "games": 1000,
+    "unique_players_per_game": 4,
+    "placement_order_valid": true,
+    "points_conserved": true,
+    "champion_shares_conserved": true,
+    "all_rankings_recomputed_match": true
+  }
+}

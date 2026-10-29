@@ -7,7 +7,7 @@
   "Rarity": "epic",
   "CombatCost": 1,
   "BaseStudyCost": 3,
-  "Attack": 6,
+  "Attack": 5,
   "Defense": 4,
   "FirstEnchantmentLayers": 0,
   "RulesText": "移除自身全部非毒负面效果及2层毒，回复100生命，下次抽牌阶段多抽1张；按效果",

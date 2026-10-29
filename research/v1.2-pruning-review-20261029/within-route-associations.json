@@ -1,0 +1,995 @@
+{
+  "scope": "1000局训练混合策略；仅看主系且实际见过该卡，按路线/风格/策略族分层，有/无携带各至少3人；仍非随机因果估计",
+  "cards": {
+    "不灭烈焰": {
+      "adjusted_score_difference": 0.6020923837892082,
+      "overlap_noncarriers": 278,
+      "overlap_carriers": 281,
+      "strata": 13
+    },
+    "余烬引擎": {
+      "adjusted_score_difference": 1.039013257285561,
+      "overlap_noncarriers": 50,
+      "overlap_carriers": 462,
+      "strata": 11
+    },
+    "余烬心脏": {
+      "adjusted_score_difference": 0.32174216247324805,
+      "overlap_noncarriers": 317,
+      "overlap_carriers": 227,
+      "strata": 12
+    },
+    "压缩爆燃": {
+      "adjusted_score_difference": 0.743914114042551,
+      "overlap_noncarriers": 286,
+      "overlap_carriers": 73,
+      "strata": 6
+    },
+    "慢燃": {
+      "adjusted_score_difference": -0.857021847315851,
+      "overlap_noncarriers": 124,
+      "overlap_carriers": 7,
+      "strata": 2
+    },
+    "灰烬重生": {
+      "adjusted_score_difference": 1.3967160885546392,
+      "overlap_noncarriers": 183,
+      "overlap_carriers": 292,
+      "strata": 10
+    },
+    "焚心": {
+      "adjusted_score_difference": 0.4657207209893682,
+      "overlap_noncarriers": 221,
+      "overlap_carriers": 106,
+      "strata": 9
+    },
+    "焰心屏障": {
+      "adjusted_score_difference": -0.15463212518604935,
+      "overlap_noncarriers": 147,
+      "overlap_carriers": 27,
+      "strata": 5
+    },
+    "爆燃": {
+      "adjusted_score_difference": 0.5157917291622028,
+      "overlap_noncarriers": 147,
+      "overlap_carriers": 18,
+      "strata": 5
+    },
+    "狂暴": {
+      "adjusted_score_difference": 0.6783099348424801,
+      "overlap_noncarriers": 66,
+      "overlap_carriers": 15,
+      "strata": 4
+    },
+    "熔盾烈焰": {
+      "adjusted_score_difference": 0.49175187372583623,
+      "overlap_noncarriers": 294,
+      "overlap_carriers": 220,
+      "strata": 13
+    },
+    "余火": {
+      "adjusted_score_difference": 1.1782438590726092,
+      "overlap_noncarriers": 43,
+      "overlap_carriers": 443,
+      "strata": 9
+    },
+    "余烬刻度": {
+      "adjusted_score_difference": 0.34960963692560215,
+      "overlap_noncarriers": 219,
+      "overlap_carriers": 411,
+      "strata": 15
+    },
+    "余烬护心": {
+      "adjusted_score_difference": 0.689273687882559,
+      "overlap_noncarriers": 235,
+      "overlap_carriers": 414,
+      "strata": 16
+    },
+    "压实火药": {
+      "adjusted_score_difference": 0.019518226195915027,
+      "overlap_noncarriers": 345,
+      "overlap_carriers": 277,
+      "strata": 15
+    },
+    "回火": {
+      "adjusted_score_difference": 0.5590059233815994,
+      "overlap_noncarriers": 164,
+      "overlap_carriers": 425,
+      "strata": 12
+    },
+    "导火索": {
+      "adjusted_score_difference": 0.2610186647874846,
+      "overlap_noncarriers": 379,
+      "overlap_carriers": 236,
+      "strata": 14
+    },
+    "战意": {
+      "adjusted_score_difference": 0.4485392698265757,
+      "overlap_noncarriers": 398,
+      "overlap_carriers": 228,
+      "strata": 17
+    },
+    "火种库": {
+      "adjusted_score_difference": -0.10821900425804917,
+      "overlap_noncarriers": 17,
+      "overlap_carriers": 302,
+      "strata": 5
+    },
+    "火舌": {
+      "adjusted_score_difference": 0.27071827603067483,
+      "overlap_noncarriers": 400,
+      "overlap_carriers": 208,
+      "strata": 14
+    },
+    "灰烬账本": {
+      "adjusted_score_difference": 0.8867594893364567,
+      "overlap_noncarriers": 73,
+      "overlap_carriers": 512,
+      "strata": 13
+    },
+    "灼痛": {
+      "adjusted_score_difference": 0.4956171083293721,
+      "overlap_noncarriers": 284,
+      "overlap_carriers": 296,
+      "strata": 13
+    },
+    "烈焰附身": {
+      "adjusted_score_difference": -0.08266083750187848,
+      "overlap_noncarriers": 461,
+      "overlap_carriers": 171,
+      "strata": 16
+    },
+    "燃血": {
+      "adjusted_score_difference": 0.16447746052612766,
+      "overlap_noncarriers": 417,
+      "overlap_carriers": 187,
+      "strata": 15
+    },
+    "爆裂弹头": {
+      "adjusted_score_difference": 0.19796950437999264,
+      "overlap_noncarriers": 360,
+      "overlap_carriers": 227,
+      "strata": 15
+    },
+    "高压弹仓": {
+      "adjusted_score_difference": 0.19455824102262217,
+      "overlap_noncarriers": 186,
+      "overlap_carriers": 421,
+      "strata": 15
+    },
+    "高温炉心": {
+      "adjusted_score_difference": 0.5386319215713634,
+      "overlap_noncarriers": 370,
+      "overlap_carriers": 203,
+      "strata": 15
+    },
+    "火墙": {
+      "adjusted_score_difference": 0.15735646378376875,
+      "overlap_noncarriers": 33,
+      "overlap_carriers": 505,
+      "strata": 8
+    },
+    "火种翻找": {
+      "adjusted_score_difference": 1.4328652377432864,
+      "overlap_noncarriers": 7,
+      "overlap_carriers": 96,
+      "strata": 2
+    },
+    "火花": {
+      "adjusted_score_difference": 0.5756528173982824,
+      "overlap_noncarriers": 72,
+      "overlap_carriers": 499,
+      "strata": 9
+    },
+    "烈焰冲刺": {
+      "adjusted_score_difference": 0.18292682926829273,
+      "overlap_noncarriers": 4,
+      "overlap_carriers": 82,
+      "strata": 1
+    },
+    "猛火弹": {
+      "adjusted_score_difference": 0.8408891934511973,
+      "overlap_noncarriers": 40,
+      "overlap_carriers": 454,
+      "strata": 9
+    },
+    "引火": {
+      "adjusted_score_difference": 0.4332771103809295,
+      "overlap_noncarriers": 76,
+      "overlap_carriers": 515,
+      "strata": 10
+    },
+    "燃页": {
+      "adjusted_score_difference": 0.6773418734987992,
+      "overlap_noncarriers": 6,
+      "overlap_carriers": 147,
+      "strata": 2
+    },
+    "回响之潮": {
+      "adjusted_score_difference": 0.6639869152320268,
+      "overlap_noncarriers": 63,
+      "overlap_carriers": 440,
+      "strata": 11
+    },
+    "奔流": {
+      "adjusted_score_difference": 0.3909057757330109,
+      "overlap_noncarriers": 91,
+      "overlap_carriers": 401,
+      "strata": 9
+    },
+    "水幕": {
+      "adjusted_score_difference": 0.8069276484757212,
+      "overlap_noncarriers": 100,
+      "overlap_carriers": 351,
+      "strata": 6
+    },
+    "泉心": {
+      "adjusted_score_difference": 0.22512202410598664,
+      "overlap_noncarriers": 76,
+      "overlap_carriers": 27,
+      "strata": 4
+    },
+    "洪潮": {
+      "adjusted_score_difference": -0.0224617878455989,
+      "overlap_noncarriers": 140,
+      "overlap_carriers": 33,
+      "strata": 5
+    },
+    "深渊": {
+      "adjusted_score_difference": 0.6671659866083718,
+      "overlap_noncarriers": 202,
+      "overlap_carriers": 309,
+      "strata": 13
+    },
+    "潮汐风暴": {
+      "adjusted_score_difference": 0.2519341353198411,
+      "overlap_noncarriers": 311,
+      "overlap_carriers": 82,
+      "strata": 7
+    },
+    "生命洪流": {
+      "adjusted_score_difference": 0.04643746673537186,
+      "overlap_noncarriers": 345,
+      "overlap_carriers": 52,
+      "strata": 7
+    },
+    "血之回响": {
+      "adjusted_score_difference": 0.10820830494779708,
+      "overlap_noncarriers": 235,
+      "overlap_carriers": 35,
+      "strata": 6
+    },
+    "血潮汹涌": {
+      "adjusted_score_difference": 0.2693605304998643,
+      "overlap_noncarriers": 161,
+      "overlap_carriers": 36,
+      "strata": 6
+    },
+    "回流": {
+      "adjusted_score_difference": 1.015412811931273,
+      "overlap_noncarriers": 40,
+      "overlap_carriers": 374,
+      "strata": 6
+    },
+    "回潮": {
+      "adjusted_score_difference": 0.07301312406958871,
+      "overlap_noncarriers": 326,
+      "overlap_carriers": 205,
+      "strata": 12
+    },
+    "洪流": {
+      "adjusted_score_difference": 0.3644363926224646,
+      "overlap_noncarriers": 180,
+      "overlap_carriers": 380,
+      "strata": 15
+    },
+    "涌泉": {
+      "adjusted_score_difference": 0.7726038663042111,
+      "overlap_noncarriers": 60,
+      "overlap_carriers": 446,
+      "strata": 10
+    },
+    "深流": {
+      "adjusted_score_difference": 0.759866170399965,
+      "overlap_noncarriers": 151,
+      "overlap_carriers": 370,
+      "strata": 12
+    },
+    "潮声": {
+      "adjusted_score_difference": 0.9789576982309065,
+      "overlap_noncarriers": 112,
+      "overlap_carriers": 440,
+      "strata": 15
+    },
+    "潮汐回廊": {
+      "adjusted_score_difference": 0.48948281569558577,
+      "overlap_noncarriers": 140,
+      "overlap_carriers": 372,
+      "strata": 10
+    },
+    "潮汐恩泽": {
+      "adjusted_score_difference": 0.6871262271867191,
+      "overlap_noncarriers": 210,
+      "overlap_carriers": 300,
+      "strata": 11
+    },
+    "濒死回响": {
+      "adjusted_score_difference": 0.5272215817989123,
+      "overlap_noncarriers": 95,
+      "overlap_carriers": 400,
+      "strata": 9
+    },
+    "疾流": {
+      "adjusted_score_difference": 0.9937133095488996,
+      "overlap_noncarriers": 86,
+      "overlap_carriers": 388,
+      "strata": 8
+    },
+    "穿潮": {
+      "adjusted_score_difference": 0.8363576327703557,
+      "overlap_noncarriers": 107,
+      "overlap_carriers": 437,
+      "strata": 15
+    },
+    "血偿": {
+      "adjusted_score_difference": 0.07215231323380758,
+      "overlap_noncarriers": 311,
+      "overlap_carriers": 162,
+      "strata": 8
+    },
+    "血刃": {
+      "adjusted_score_difference": 0.26791051226039503,
+      "overlap_noncarriers": 376,
+      "overlap_carriers": 89,
+      "strata": 8
+    },
+    "血怒": {
+      "adjusted_score_difference": 0.3549646391984879,
+      "overlap_noncarriers": 255,
+      "overlap_carriers": 211,
+      "strata": 8
+    },
+    "连环潮": {
+      "adjusted_score_difference": 0.0948028794228079,
+      "overlap_noncarriers": 316,
+      "overlap_carriers": 173,
+      "strata": 11
+    },
+    "静水": {
+      "adjusted_score_difference": 0.5273271899872927,
+      "overlap_noncarriers": 329,
+      "overlap_carriers": 138,
+      "strata": 10
+    },
+    "水之低语": {
+      "adjusted_score_difference": 0.42672881680607877,
+      "overlap_noncarriers": 14,
+      "overlap_carriers": 213,
+      "strata": 3
+    },
+    "水膜": {
+      "adjusted_score_difference": 0.44311594222192385,
+      "overlap_noncarriers": 31,
+      "overlap_carriers": 374,
+      "strata": 5
+    },
+    "泉眼": {
+      "adjusted_score_difference": 0.3095714427224117,
+      "overlap_noncarriers": 32,
+      "overlap_carriers": 448,
+      "strata": 6
+    },
+    "潮涌": {
+      "adjusted_score_difference": 0.42922681058672085,
+      "overlap_noncarriers": 36,
+      "overlap_carriers": 321,
+      "strata": 6
+    },
+    "细流": {
+      "adjusted_score_difference": 0.10201100916164033,
+      "overlap_noncarriers": 56,
+      "overlap_carriers": 427,
+      "strata": 7
+    },
+    "润泽": {
+      "adjusted_score_difference": 0.7324359469532093,
+      "overlap_noncarriers": 104,
+      "overlap_carriers": 413,
+      "strata": 10
+    },
+    "活水": {
+      "adjusted_score_difference": null,
+      "overlap_noncarriers": 0,
+      "overlap_carriers": 0,
+      "strata": 0
+    },
+    "万钧碎盾": {
+      "adjusted_score_difference": 0.22770981770326357,
+      "overlap_noncarriers": 220,
+      "overlap_carriers": 216,
+      "strata": 12
+    },
+    "不坏壁垒": {
+      "adjusted_score_difference": 0.4850226485840373,
+      "overlap_noncarriers": 248,
+      "overlap_carriers": 243,
+      "strata": 15
+    },
+    "回震岩甲": {
+      "adjusted_score_difference": 0.584725272807697,
+      "overlap_noncarriers": 282,
+      "overlap_carriers": 206,
+      "strata": 15
+    },
+    "山岳之躯": {
+      "adjusted_score_difference": 0.052631578947368474,
+      "overlap_noncarriers": 57,
+      "overlap_carriers": 3,
+      "strata": 1
+    },
+    "山岳壁垒": {
+      "adjusted_score_difference": 0.7013079373683242,
+      "overlap_noncarriers": 105,
+      "overlap_carriers": 369,
+      "strata": 16
+    },
+    "岩核重压": {
+      "adjusted_score_difference": 0.5407272154520157,
+      "overlap_noncarriers": 73,
+      "overlap_carriers": 81,
+      "strata": 7
+    },
+    "岩潮壁垒": {
+      "adjusted_score_difference": 0.3728097996321703,
+      "overlap_noncarriers": 222,
+      "overlap_carriers": 55,
+      "strata": 7
+    },
+    "巨岩": {
+      "adjusted_score_difference": -1.2413793103448276,
+      "overlap_noncarriers": 29,
+      "overlap_carriers": 3,
+      "strata": 1
+    },
+    "碎岳之心": {
+      "adjusted_score_difference": -0.4983388704318936,
+      "overlap_noncarriers": 25,
+      "overlap_carriers": 8,
+      "strata": 2
+    },
+    "镜岩之心": {
+      "adjusted_score_difference": 0.8684075919500378,
+      "overlap_noncarriers": 114,
+      "overlap_carriers": 220,
+      "strata": 8
+    },
+    "层岩结构": {
+      "adjusted_score_difference": 0.6718150697428175,
+      "overlap_noncarriers": 93,
+      "overlap_carriers": 394,
+      "strata": 15
+    },
+    "不动如山": {
+      "adjusted_score_difference": 0.1254313034275692,
+      "overlap_noncarriers": 376,
+      "overlap_carriers": 150,
+      "strata": 15
+    },
+    "临时壁垒": {
+      "adjusted_score_difference": 0.8076871765395802,
+      "overlap_noncarriers": 164,
+      "overlap_carriers": 363,
+      "strata": 15
+    },
+    "余震": {
+      "adjusted_score_difference": 0.2903957327618162,
+      "overlap_noncarriers": 400,
+      "overlap_carriers": 138,
+      "strata": 14
+    },
+    "厚土": {
+      "adjusted_score_difference": 0.17655611709070615,
+      "overlap_noncarriers": 367,
+      "overlap_carriers": 142,
+      "strata": 14
+    },
+    "回岩": {
+      "adjusted_score_difference": 0.43756128734368066,
+      "overlap_noncarriers": 86,
+      "overlap_carriers": 393,
+      "strata": 15
+    },
+    "大地之盾": {
+      "adjusted_score_difference": -0.18557879378611192,
+      "overlap_noncarriers": 56,
+      "overlap_carriers": 394,
+      "strata": 11
+    },
+    "守岩": {
+      "adjusted_score_difference": 0.530065972138419,
+      "overlap_noncarriers": 245,
+      "overlap_carriers": 324,
+      "strata": 18
+    },
+    "山岳": {
+      "adjusted_score_difference": 0.6752703909637499,
+      "overlap_noncarriers": 27,
+      "overlap_carriers": 246,
+      "strata": 7
+    },
+    "岩拳": {
+      "adjusted_score_difference": 0.4101767577251527,
+      "overlap_noncarriers": 297,
+      "overlap_carriers": 242,
+      "strata": 16
+    },
+    "岩核共鸣": {
+      "adjusted_score_difference": 0.4756248018920169,
+      "overlap_noncarriers": 68,
+      "overlap_carriers": 390,
+      "strata": 12
+    },
+    "握盾": {
+      "adjusted_score_difference": 0.3732282837263877,
+      "overlap_noncarriers": 166,
+      "overlap_carriers": 323,
+      "strata": 14
+    },
+    "盾脉": {
+      "adjusted_score_difference": 0.6129299805362559,
+      "overlap_noncarriers": 166,
+      "overlap_carriers": 264,
+      "strata": 10
+    },
+    "碎岩印记": {
+      "adjusted_score_difference": 0.9280607934214774,
+      "overlap_noncarriers": 129,
+      "overlap_carriers": 356,
+      "strata": 14
+    },
+    "碎盾术": {
+      "adjusted_score_difference": 0.4086081536082362,
+      "overlap_noncarriers": 312,
+      "overlap_carriers": 203,
+      "strata": 16
+    },
+    "磐岩壁": {
+      "adjusted_score_difference": 0.7538206760793728,
+      "overlap_noncarriers": 163,
+      "overlap_carriers": 374,
+      "strata": 18
+    },
+    "裂岩护壁": {
+      "adjusted_score_difference": 0.7243069393495417,
+      "overlap_noncarriers": 219,
+      "overlap_carriers": 254,
+      "strata": 15
+    },
+    "坚岩": {
+      "adjusted_score_difference": 0.29502598951277703,
+      "overlap_noncarriers": 40,
+      "overlap_carriers": 315,
+      "strata": 7
+    },
+    "寻岩": {
+      "adjusted_score_difference": 0.999259918994943,
+      "overlap_noncarriers": 24,
+      "overlap_carriers": 285,
+      "strata": 6
+    },
+    "岩壁": {
+      "adjusted_score_difference": 0.22638055366806706,
+      "overlap_noncarriers": 40,
+      "overlap_carriers": 345,
+      "strata": 9
+    },
+    "岩甲": {
+      "adjusted_score_difference": 0.39144768192621715,
+      "overlap_noncarriers": 71,
+      "overlap_carriers": 419,
+      "strata": 12
+    },
+    "磐石": {
+      "adjusted_score_difference": -0.14471914013337764,
+      "overlap_noncarriers": 12,
+      "overlap_carriers": 93,
+      "strata": 3
+    },
+    "垒石": {
+      "adjusted_score_difference": 0.48149827990863087,
+      "overlap_noncarriers": 106,
+      "overlap_carriers": 407,
+      "strata": 13
+    },
+    "开岩": {
+      "adjusted_score_difference": -0.6222222222222221,
+      "overlap_noncarriers": 4,
+      "overlap_carriers": 45,
+      "strata": 1
+    },
+    "气旋护壁": {
+      "adjusted_score_difference": 0.5666724625913508,
+      "overlap_noncarriers": 504,
+      "overlap_carriers": 234,
+      "strata": 15
+    },
+    "烈风": {
+      "adjusted_score_difference": 0.5066287334972156,
+      "overlap_noncarriers": 351,
+      "overlap_carriers": 378,
+      "strata": 16
+    },
+    "疾风连斩": {
+      "adjusted_score_difference": 0.5380086490321302,
+      "overlap_noncarriers": 219,
+      "overlap_carriers": 434,
+      "strata": 13
+    },
+    "穿云破甲": {
+      "adjusted_score_difference": 0.7211647798961225,
+      "overlap_noncarriers": 105,
+      "overlap_carriers": 68,
+      "strata": 8
+    },
+    "裂空": {
+      "adjusted_score_difference": 0.18818835475071918,
+      "overlap_noncarriers": 162,
+      "overlap_carriers": 13,
+      "strata": 4
+    },
+    "裂空穿云": {
+      "adjusted_score_difference": 0.6170662558828522,
+      "overlap_noncarriers": 472,
+      "overlap_carriers": 145,
+      "strata": 15
+    },
+    "风之躯": {
+      "adjusted_score_difference": 0.4822538633850336,
+      "overlap_noncarriers": 420,
+      "overlap_carriers": 292,
+      "strata": 17
+    },
+    "风暴": {
+      "adjusted_score_difference": 1.066210710864197,
+      "overlap_noncarriers": 200,
+      "overlap_carriers": 501,
+      "strata": 17
+    },
+    "风痕回廊": {
+      "adjusted_score_difference": 0.3533982217528878,
+      "overlap_noncarriers": 152,
+      "overlap_carriers": 494,
+      "strata": 17
+    },
+    "风神之翼": {
+      "adjusted_score_difference": 0.4713804525103385,
+      "overlap_noncarriers": 67,
+      "overlap_carriers": 476,
+      "strata": 13
+    },
+    "穿空": {
+      "adjusted_score_difference": 0.42258602147256036,
+      "overlap_noncarriers": 461,
+      "overlap_carriers": 125,
+      "strata": 13
+    },
+    "狂风": {
+      "adjusted_score_difference": 1.75,
+      "overlap_noncarriers": 4,
+      "overlap_carriers": 64,
+      "strata": 1
+    },
+    "疾影": {
+      "adjusted_score_difference": 0.03517525397220641,
+      "overlap_noncarriers": 630,
+      "overlap_carriers": 187,
+      "strata": 20
+    },
+    "疾行": {
+      "adjusted_score_difference": 1.008022076891972,
+      "overlap_noncarriers": 56,
+      "overlap_carriers": 356,
+      "strata": 9
+    },
+    "破风": {
+      "adjusted_score_difference": 0.19682500054649496,
+      "overlap_noncarriers": 509,
+      "overlap_carriers": 309,
+      "strata": 20
+    },
+    "穿云": {
+      "adjusted_score_difference": 0.7630226449847463,
+      "overlap_noncarriers": 157,
+      "overlap_carriers": 637,
+      "strata": 17
+    },
+    "穿甲": {
+      "adjusted_score_difference": 0.18948998722667612,
+      "overlap_noncarriers": 36,
+      "overlap_carriers": 457,
+      "strata": 9
+    },
+    "裂风": {
+      "adjusted_score_difference": 0.5747049018686524,
+      "overlap_noncarriers": 386,
+      "overlap_carriers": 434,
+      "strata": 20
+    },
+    "追云": {
+      "adjusted_score_difference": 1.1226900230466608,
+      "overlap_noncarriers": 59,
+      "overlap_carriers": 513,
+      "strata": 10
+    },
+    "追风": {
+      "adjusted_score_difference": 0.615394300942512,
+      "overlap_noncarriers": 125,
+      "overlap_carriers": 599,
+      "strata": 17
+    },
+    "顺风": {
+      "adjusted_score_difference": 1.2813353925329012,
+      "overlap_noncarriers": 204,
+      "overlap_carriers": 612,
+      "strata": 20
+    },
+    "风刃": {
+      "adjusted_score_difference": 1.389420595686601,
+      "overlap_noncarriers": 58,
+      "overlap_carriers": 450,
+      "strata": 10
+    },
+    "风切": {
+      "adjusted_score_difference": 0.027393368796066415,
+      "overlap_noncarriers": 624,
+      "overlap_carriers": 161,
+      "strata": 19
+    },
+    "风幕": {
+      "adjusted_score_difference": 0.22384526887976341,
+      "overlap_noncarriers": 472,
+      "overlap_carriers": 345,
+      "strata": 22
+    },
+    "风痕刻印": {
+      "adjusted_score_difference": 0.953203881484126,
+      "overlap_noncarriers": 174,
+      "overlap_carriers": 554,
+      "strata": 18
+    },
+    "风蚀": {
+      "adjusted_score_difference": 0.09135490130391818,
+      "overlap_noncarriers": 564,
+      "overlap_carriers": 203,
+      "strata": 19
+    },
+    "风驰": {
+      "adjusted_score_difference": 0.1746177566687796,
+      "overlap_noncarriers": 9,
+      "overlap_carriers": 178,
+      "strata": 3
+    },
+    "寻风": {
+      "adjusted_score_difference": 0.5387411457758992,
+      "overlap_noncarriers": 48,
+      "overlap_carriers": 545,
+      "strata": 12
+    },
+    "疾风": {
+      "adjusted_score_difference": -0.05359757570512044,
+      "overlap_noncarriers": 140,
+      "overlap_carriers": 651,
+      "strata": 17
+    },
+    "风卷": {
+      "adjusted_score_difference": 0.18443822114127073,
+      "overlap_noncarriers": 112,
+      "overlap_carriers": 664,
+      "strata": 16
+    },
+    "风步": {
+      "adjusted_score_difference": 0.2710704685347661,
+      "overlap_noncarriers": 46,
+      "overlap_carriers": 468,
+      "strata": 10
+    },
+    "风眼": {
+      "adjusted_score_difference": 0.2126519457857951,
+      "overlap_noncarriers": 146,
+      "overlap_carriers": 623,
+      "strata": 17
+    },
+    "轻羽": {
+      "adjusted_score_difference": 0.2186224507617233,
+      "overlap_noncarriers": 236,
+      "overlap_carriers": 543,
+      "strata": 18
+    },
+    "掠影": {
+      "adjusted_score_difference": -0.36828578768146697,
+      "overlap_noncarriers": 17,
+      "overlap_carriers": 275,
+      "strata": 5
+    },
+    "万毒爆": {
+      "adjusted_score_difference": 0.3841540703316892,
+      "overlap_noncarriers": 160,
+      "overlap_carriers": 179,
+      "strata": 15
+    },
+    "万毒蚀骨": {
+      "adjusted_score_difference": 0.9958161932556895,
+      "overlap_noncarriers": 93,
+      "overlap_carriers": 46,
+      "strata": 8
+    },
+    "万蚀": {
+      "adjusted_score_difference": 0.15999035121292646,
+      "overlap_noncarriers": 99,
+      "overlap_carriers": 67,
+      "strata": 6
+    },
+    "毒潮": {
+      "adjusted_score_difference": 0.3540967754753448,
+      "overlap_noncarriers": 87,
+      "overlap_carriers": 65,
+      "strata": 7
+    },
+    "毒龙": {
+      "adjusted_score_difference": 0.538896633940403,
+      "overlap_noncarriers": 117,
+      "overlap_carriers": 94,
+      "strata": 9
+    },
+    "渗骨毒素": {
+      "adjusted_score_difference": 0.13408339634482927,
+      "overlap_noncarriers": 116,
+      "overlap_carriers": 30,
+      "strata": 6
+    },
+    "疫病": {
+      "adjusted_score_difference": 0.9822545208720636,
+      "overlap_noncarriers": 25,
+      "overlap_carriers": 22,
+      "strata": 4
+    },
+    "腐化之躯": {
+      "adjusted_score_difference": -0.17523364485981313,
+      "overlap_noncarriers": 31,
+      "overlap_carriers": 30,
+      "strata": 5
+    },
+    "蚀界": {
+      "adjusted_score_difference": 0.4822315011877162,
+      "overlap_noncarriers": 115,
+      "overlap_carriers": 83,
+      "strata": 8
+    },
+    "蚀骨之触": {
+      "adjusted_score_difference": 0.5202296299804469,
+      "overlap_noncarriers": 60,
+      "overlap_carriers": 57,
+      "strata": 7
+    },
+    "缓释毒素": {
+      "adjusted_score_difference": 0.4958109869718364,
+      "overlap_noncarriers": 121,
+      "overlap_carriers": 205,
+      "strata": 16
+    },
+    "固毒": {
+      "adjusted_score_difference": 0.5101809419972881,
+      "overlap_noncarriers": 205,
+      "overlap_carriers": 276,
+      "strata": 17
+    },
+    "枯潮": {
+      "adjusted_score_difference": -0.14367526283017917,
+      "overlap_noncarriers": 41,
+      "overlap_carriers": 234,
+      "strata": 9
+    },
+    "毒囊": {
+      "adjusted_score_difference": 0.4582584633700123,
+      "overlap_noncarriers": 276,
+      "overlap_carriers": 249,
+      "strata": 19
+    },
+    "毒涌": {
+      "adjusted_score_difference": 0.25722098842250046,
+      "overlap_noncarriers": 37,
+      "overlap_carriers": 236,
+      "strata": 8
+    },
+    "毒牙": {
+      "adjusted_score_difference": 0.17171991598060168,
+      "overlap_noncarriers": 337,
+      "overlap_carriers": 161,
+      "strata": 17
+    },
+    "爆裂": {
+      "adjusted_score_difference": 0.2345426986844845,
+      "overlap_noncarriers": 337,
+      "overlap_carriers": 167,
+      "strata": 18
+    },
+    "腐息": {
+      "adjusted_score_difference": 0.43908530780242444,
+      "overlap_noncarriers": 160,
+      "overlap_carriers": 339,
+      "strata": 17
+    },
+    "腐溃": {
+      "adjusted_score_difference": 0.5022314317913346,
+      "overlap_noncarriers": 270,
+      "overlap_carriers": 184,
+      "strata": 15
+    },
+    "腐潮": {
+      "adjusted_score_difference": 0.392315462895089,
+      "overlap_noncarriers": 169,
+      "overlap_carriers": 304,
+      "strata": 18
+    },
+    "腐骨": {
+      "adjusted_score_difference": 0.36294940435242345,
+      "overlap_noncarriers": 286,
+      "overlap_carriers": 137,
+      "strata": 15
+    },
+    "蚀创": {
+      "adjusted_score_difference": 0.18960975502482358,
+      "overlap_noncarriers": 164,
+      "overlap_carriers": 270,
+      "strata": 16
+    },
+    "蚀刻": {
+      "adjusted_score_difference": 0.08662892301678281,
+      "overlap_noncarriers": 279,
+      "overlap_carriers": 191,
+      "strata": 17
+    },
+    "速腐": {
+      "adjusted_score_difference": 0.389460730705281,
+      "overlap_noncarriers": 198,
+      "overlap_carriers": 224,
+      "strata": 15
+    },
+    "寻毒": {
+      "adjusted_score_difference": -0.0814517830765984,
+      "overlap_noncarriers": 9,
+      "overlap_carriers": 104,
+      "strata": 3
+    },
+    "毒瓶": {
+      "adjusted_score_difference": 0.5311825287289171,
+      "overlap_noncarriers": 20,
+      "overlap_carriers": 112,
+      "strata": 3
+    },
+    "毒甲": {
+      "adjusted_score_difference": -0.5256410256410255,
+      "overlap_noncarriers": 4,
+      "overlap_carriers": 39,
+      "strata": 1
+    },
+    "毒针": {
+      "adjusted_score_difference": -0.1100967000595818,
+      "overlap_noncarriers": 18,
+      "overlap_carriers": 151,
+      "strata": 5
+    },
+    "毒引": {
+      "adjusted_score_difference": 0.3627410564776692,
+      "overlap_noncarriers": 58,
+      "overlap_carriers": 339,
+      "strata": 10
+    },
+    "循毒": {
+      "adjusted_score_difference": null,
+      "overlap_noncarriers": 0,
+      "overlap_carriers": 0,
+      "strata": 0
+    }
+  }
+}

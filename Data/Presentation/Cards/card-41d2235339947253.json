@@ -7,7 +7,7 @@
   "Rarity": "common",
   "CombatCost": 0,
   "BaseStudyCost": 1,
-  "Attack": 3,
+  "Attack": 1,
   "Defense": 1,
   "FirstEnchantmentLayers": 0,
   "RulesText": "查看摸牌堆顶 3 张，选 1 张置顶，其余放底；立即",

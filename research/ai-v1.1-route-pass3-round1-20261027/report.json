@@ -1,0 +1,328 @@
+{
+  "version": "1.1",
+  "card_library": "releases/v1.1/cards.json",
+  "games": 1000,
+  "namespace": "v11-route-pass3-20261027",
+  "scoring": {
+    "first": 3,
+    "second": 1,
+    "third": -1,
+    "fourth": -3,
+    "ties": "average occupied rank points"
+  },
+  "element_ranking": [
+    {
+      "name": "earth",
+      "score": 408.0,
+      "selections": 797,
+      "wins": 255.0,
+      "win_rate": 0.3199498117942284,
+      "mean_score": 0.5119196988707654
+    },
+    {
+      "name": "wind",
+      "score": 406.0,
+      "selections": 783,
+      "wins": 251.0,
+      "win_rate": 0.3205619412515964,
+      "mean_score": 0.5185185185185185
+    },
+    {
+      "name": "poison",
+      "score": 31.0,
+      "selections": 774,
+      "wins": 200.0,
+      "win_rate": 0.25839793281653745,
+      "mean_score": 0.040051679586563305
+    },
+    {
+      "name": "water",
+      "score": -122.0,
+      "selections": 824,
+      "wins": 183.0,
+      "win_rate": 0.2220873786407767,
+      "mean_score": -0.14805825242718446
+    },
+    {
+      "name": "fire",
+      "score": -717.0,
+      "selections": 820,
+      "wins": 111.0,
+      "win_rate": 0.1353658536585366,
+      "mean_score": -0.874390243902439
+    }
+  ],
+  "route_ranking": [
+    {
+      "name": "疾风之刃",
+      "score": 262.0,
+      "selections": 322,
+      "wins": 121.0,
+      "win_rate": 0.37577639751552794,
+      "mean_score": 0.8136645962732919
+    },
+    {
+      "name": "反震岩核",
+      "score": 229.0,
+      "selections": 295,
+      "wins": 103.0,
+      "win_rate": 0.34915254237288135,
+      "mean_score": 0.7762711864406779
+    },
+    {
+      "name": "穿云箭",
+      "score": 212.0,
+      "selections": 250,
+      "wins": 94.0,
+      "win_rate": 0.376,
+      "mean_score": 0.848
+    },
+    {
+      "name": "大地之握",
+      "score": 176.0,
+      "selections": 298,
+      "wins": 100.0,
+      "win_rate": 0.33557046979865773,
+      "mean_score": 0.5906040268456376
+    },
+    {
+      "name": "毒爆",
+      "score": 160.0,
+      "selections": 232,
+      "wins": 89.0,
+      "win_rate": 0.38362068965517243,
+      "mean_score": 0.6896551724137931
+    },
+    {
+      "name": "生命之泉",
+      "score": 112.0,
+      "selections": 215,
+      "wins": 66.0,
+      "win_rate": 0.30697674418604654,
+      "mean_score": 0.5209302325581395
+    },
+    {
+      "name": "余烬之核",
+      "score": 66.0,
+      "selections": 355,
+      "wins": 90.0,
+      "win_rate": 0.2535211267605634,
+      "mean_score": 0.18591549295774648
+    },
+    {
+      "name": "壁垒之心",
+      "score": 11.0,
+      "selections": 200,
+      "wins": 52.0,
+      "win_rate": 0.26,
+      "mean_score": 0.055
+    },
+    {
+      "name": "血潮",
+      "score": 10.0,
+      "selections": 288,
+      "wins": 74.0,
+      "win_rate": 0.2569444444444444,
+      "mean_score": 0.034722222222222224
+    },
+    {
+      "name": "蚀骨",
+      "score": -39.0,
+      "selections": 268,
+      "wins": 55.0,
+      "win_rate": 0.20522388059701493,
+      "mean_score": -0.1455223880597015
+    },
+    {
+      "name": "风痕",
+      "score": -58.0,
+      "selections": 205,
+      "wins": 35.0,
+      "win_rate": 0.17073170731707318,
+      "mean_score": -0.28292682926829266
+    },
+    {
+      "name": "蚀命",
+      "score": -86.0,
+      "selections": 268,
+      "wins": 55.0,
+      "win_rate": 0.20522388059701493,
+      "mean_score": -0.3208955223880597
+    },
+    {
+      "name": "潮汐回响",
+      "score": -227.0,
+      "selections": 312,
+      "wins": 42.0,
+      "win_rate": 0.1346153846153846,
+      "mean_score": -0.7275641025641025
+    },
+    {
+      "name": "灰烬循环",
+      "score": -354.0,
+      "selections": 246,
+      "wins": 16.0,
+      "win_rate": 0.06504065040650407,
+      "mean_score": -1.4390243902439024
+    },
+    {
+      "name": "燃烧血统",
+      "score": -413.0,
+      "selections": 211,
+      "wins": 5.0,
+      "win_rate": 0.023696682464454975,
+      "mean_score": -1.957345971563981
+    }
+  ],
+  "win_rate_definition": "Tournament first-place share / selections; tied champions split one win",
+  "inputs_sha256": {
+    "releases\\v1.1\\cards.json": "bd8a4647c8d736cb83fad54b33c0982453e554251308adeb2a50d3b75d60fe22",
+    "decks\\trained-v1.1-poison.json": "6bb6ca9aa9465af92f536ff3592a32634ae375cb4a46a6d08b94f6a2d248c8e0",
+    "research\\tournament-v1-training01\\selected-model.json": "61acb2f2ff3cb8ed07965d0aa423a007d5cb8fd364c7cb4f6560625137808e31",
+    "releases\\deckbuilding-v1.0\\damage.json": "8e0271aba44af8ff977151ebaab28748a922a6b118a57fbaaf2735b21e0df091",
+    "releases\\deckbuilding-v1.0\\probabilities.json": "9df33e1ac808b967eecab9e7367156337c8a1f172508419dc2c20cfd35ddcb27",
+    "tools\\round_robin\\run_v11_balance_test.py": "e8c04f13afdefb947035ff56e605c7d25ace0b1bb6147ad29d63996c2d22b1ec",
+    "tools\\round_robin\\engine.py": "cb3ae95f7d16fae043d71adff78b0e8fe6d4252de353fff6f72af139bd885f79"
+  },
+  "validation": {
+    "players": 4000,
+    "total_points": 0.0,
+    "total_wins": 1000.0
+  },
+  "action_value_by_tournament_round": {
+    "1": {
+      "games": 2000,
+      "mean": 600.6535,
+      "median": 584.0,
+      "p25": 576.0,
+      "p75": 626.0
+    },
+    "2": {
+      "games": 2000,
+      "mean": 601.86,
+      "median": 584.0,
+      "p25": 576.0,
+      "p75": 634.0
+    },
+    "3": {
+      "games": 2000,
+      "mean": 584.1055,
+      "median": 584.0,
+      "p25": 534.0,
+      "p75": 634.0
+    },
+    "4": {
+      "games": 2000,
+      "mean": 575.5,
+      "median": 542.0,
+      "p25": 492.0,
+      "p75": 634.0
+    },
+    "5": {
+      "games": 2000,
+      "mean": 578.541,
+      "median": 532.0,
+      "p25": 475.75,
+      "p75": 632.0
+    },
+    "6": {
+      "games": 2000,
+      "mean": 570.059,
+      "median": 500.0,
+      "p25": 442.0,
+      "p75": 592.0
+    },
+    "7": {
+      "games": 2000,
+      "mean": 573.9945,
+      "median": 492.0,
+      "p25": 432.0,
+      "p75": 592.0
+    },
+    "8": {
+      "games": 2000,
+      "mean": 537.8025,
+      "median": 453.0,
+      "p25": 400.0,
+      "p75": 536.25
+    },
+    "9": {
+      "games": 2000,
+      "mean": 538.5115,
+      "median": 450.0,
+      "p25": 400.0,
+      "p75": 541.25
+    },
+    "10": {
+      "games": 1995,
+      "mean": 549.1944862155389,
+      "median": 440,
+      "p25": 400.0,
+      "p75": 525.0
+    },
+    "11": {
+      "games": 1841,
+      "mean": 560.8234655078761,
+      "median": 432,
+      "p25": 400.0,
+      "p75": 500.0
+    },
+    "12": {
+      "games": 1587,
+      "mean": 541.7674858223062,
+      "median": 400,
+      "p25": 391.0,
+      "p75": 500.0
+    },
+    "13": {
+      "games": 1311,
+      "mean": 580.4218154080854,
+      "median": 410,
+      "p25": 394.0,
+      "p75": 500.0
+    },
+    "14": {
+      "games": 1043,
+      "mean": 572.261744966443,
+      "median": 406,
+      "p25": 389.5,
+      "p75": 525.0
+    },
+    "15": {
+      "games": 886,
+      "mean": 599.0857787810384,
+      "median": 401.5,
+      "p25": 384.25,
+      "p75": 500.0
+    },
+    "16": {
+      "games": 497,
+      "mean": 604.0603621730382,
+      "median": 400,
+      "p25": 374.0,
+      "p75": 500.0
+    },
+    "17": {
+      "games": 180,
+      "mean": 664.4444444444445,
+      "median": 400.0,
+      "p25": 374.25,
+      "p75": 535.0
+    },
+    "18": {
+      "games": 22,
+      "mean": 902.7727272727273,
+      "median": 400.0,
+      "p25": 382.5,
+      "p75": 519.0
+    }
+  },
+  "end_round_distribution": {
+    "13": 14,
+    "14": 104,
+    "15": 385,
+    "16": 317,
+    "17": 158,
+    "18": 22
+  }
+}

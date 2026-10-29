@@ -1,0 +1,304 @@
+{
+  "basis": "round1 route score",
+  "changes": [
+    {
+      "name": "毒爆",
+      "rarity": "legendary",
+      "old": {
+        "attack": 14,
+        "defense": 4
+      },
+      "new": {
+        "attack": 13,
+        "defense": 4
+      },
+      "delta": -1
+    },
+    {
+      "name": "万毒爆",
+      "rarity": "epic",
+      "old": {
+        "attack": 17,
+        "defense": 0
+      },
+      "new": {
+        "attack": 16,
+        "defense": 0
+      },
+      "delta": -1
+    },
+    {
+      "name": "毒潮",
+      "rarity": "epic",
+      "old": {
+        "attack": 17,
+        "defense": 0
+      },
+      "new": {
+        "attack": 16,
+        "defense": 0
+      },
+      "delta": -1
+    },
+    {
+      "name": "穿云箭",
+      "rarity": "legendary",
+      "old": {
+        "attack": 19,
+        "defense": 2
+      },
+      "new": {
+        "attack": 18,
+        "defense": 2
+      },
+      "delta": -1
+    },
+    {
+      "name": "天岚",
+      "rarity": "specialization",
+      "old": {
+        "attack": 18,
+        "defense": 4
+      },
+      "new": {
+        "attack": 17,
+        "defense": 4
+      },
+      "delta": -1
+    },
+    {
+      "name": "穿云破甲",
+      "rarity": "epic",
+      "old": {
+        "attack": 17,
+        "defense": 0
+      },
+      "new": {
+        "attack": 16,
+        "defense": 0
+      },
+      "delta": -1
+    },
+    {
+      "name": "裂空穿云",
+      "rarity": "epic",
+      "old": {
+        "attack": 17,
+        "defense": 0
+      },
+      "new": {
+        "attack": 16,
+        "defense": 0
+      },
+      "delta": -1
+    },
+    {
+      "name": "血潮",
+      "rarity": "legendary",
+      "old": {
+        "attack": 13,
+        "defense": 6
+      },
+      "new": {
+        "attack": 12,
+        "defense": 6
+      },
+      "delta": -1
+    },
+    {
+      "name": "血潮汹涌",
+      "rarity": "epic",
+      "old": {
+        "attack": 7,
+        "defense": 5
+      },
+      "new": {
+        "attack": 6,
+        "defense": 5
+      },
+      "delta": -1
+    },
+    {
+      "name": "血之回响",
+      "rarity": "epic",
+      "old": {
+        "attack": 6,
+        "defense": 6
+      },
+      "new": {
+        "attack": 5,
+        "defense": 6
+      },
+      "delta": -1
+    },
+    {
+      "name": "生命之泉",
+      "rarity": "legendary",
+      "old": {
+        "attack": 13,
+        "defense": 6
+      },
+      "new": {
+        "attack": 14,
+        "defense": 6
+      },
+      "delta": 1
+    },
+    {
+      "name": "奔流",
+      "rarity": "epic",
+      "old": {
+        "attack": 6,
+        "defense": 6
+      },
+      "new": {
+        "attack": 7,
+        "defense": 6
+      },
+      "delta": 1
+    },
+    {
+      "name": "泉心",
+      "rarity": "epic",
+      "old": {
+        "attack": 8,
+        "defense": 5
+      },
+      "new": {
+        "attack": 9,
+        "defense": 5
+      },
+      "delta": 1
+    },
+    {
+      "name": "生命洪流",
+      "rarity": "epic",
+      "old": {
+        "attack": 4,
+        "defense": 7
+      },
+      "new": {
+        "attack": 5,
+        "defense": 7
+      },
+      "delta": 1
+    },
+    {
+      "name": "潮汐回响",
+      "rarity": "legendary",
+      "old": {
+        "attack": 11,
+        "defense": 7
+      },
+      "new": {
+        "attack": 12,
+        "defense": 7
+      },
+      "delta": 1
+    },
+    {
+      "name": "回响之潮",
+      "rarity": "epic",
+      "old": {
+        "attack": 7,
+        "defense": 5
+      },
+      "new": {
+        "attack": 8,
+        "defense": 5
+      },
+      "delta": 1
+    },
+    {
+      "name": "潮汐风暴",
+      "rarity": "epic",
+      "old": {
+        "attack": 4,
+        "defense": 7
+      },
+      "new": {
+        "attack": 5,
+        "defense": 7
+      },
+      "delta": 1
+    },
+    {
+      "name": "余烬之核",
+      "rarity": "legendary",
+      "old": {
+        "attack": 17,
+        "defense": 3
+      },
+      "new": {
+        "attack": 18,
+        "defense": 3
+      },
+      "delta": 1
+    },
+    {
+      "name": "余烬心脏",
+      "rarity": "epic",
+      "old": {
+        "attack": 2,
+        "defense": 8
+      },
+      "new": {
+        "attack": 3,
+        "defense": 8
+      },
+      "delta": 1
+    },
+    {
+      "name": "焚心",
+      "rarity": "epic",
+      "old": {
+        "attack": 17,
+        "defense": 0
+      },
+      "new": {
+        "attack": 18,
+        "defense": 0
+      },
+      "delta": 1
+    },
+    {
+      "name": "反震岩核",
+      "rarity": "legendary",
+      "old": {
+        "attack": 10,
+        "defense": 8
+      },
+      "new": {
+        "attack": 11,
+        "defense": 8
+      },
+      "delta": 1
+    },
+    {
+      "name": "回震岩甲",
+      "rarity": "epic",
+      "old": {
+        "attack": 14,
+        "defense": 1
+      },
+      "new": {
+        "attack": 15,
+        "defense": 1
+      },
+      "delta": 1
+    },
+    {
+      "name": "碎岳之心",
+      "rarity": "epic",
+      "old": {
+        "attack": 13,
+        "defense": 1
+      },
+      "new": {
+        "attack": 14,
+        "defense": 1
+      },
+      "delta": 1
+    }
+  ]
+}

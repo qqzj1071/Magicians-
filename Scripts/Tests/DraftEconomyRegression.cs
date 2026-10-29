@@ -18,10 +18,10 @@ public static class DraftEconomyRegression
             var coordinator = Fixture(round, new[] { rare, commons[0], commons[1] });
             var before = coordinator.CurrentState.Players[Human].Draft.StudyPoints;
             Buy(coordinator, rare);
-            Check(before - Player(coordinator).Draft.StudyPoints == (round is >= 4 and <= 6 ? 0 : 2), "Rare free window");
+            Check(before - Player(coordinator).Draft.StudyPoints == (round is >= 3 and <= 4 ? 0 : 2), "Rare free window");
             before = Player(coordinator).Draft.StudyPoints;
             Buy(coordinator, commons[0]);
-            Check(before - Player(coordinator).Draft.StudyPoints == (round <= 3 ? 0 : 1), "Common free window/shared free flag");
+            Check(before - Player(coordinator).Draft.StudyPoints == (round <= 2 ? 0 : 1), "Common free window/shared free flag");
             before = Player(coordinator).Draft.StudyPoints; Buy(coordinator, commons[1]);
             Check(before - Player(coordinator).Draft.StudyPoints == 1, "Only one free purchase per round");
             var remove = Player(coordinator).Deck.Cards.Last();
@@ -50,7 +50,7 @@ public static class DraftEconomyRegression
                     p.PlayerA == Human || p.PlayerB == Human ? (win ? Human : p.PlayerA == Human ? p.PlayerB : p.PlayerA) : p.PlayerA, 1, false)).ToArray();
                 c = MatchCoordinator.Restore(cards, pool, state with { Phase = MatchPhase.Settlement, Players = participants, Pairings = pairings, BattleResults = results });
                 Accept(c, new AdvanceSettlementCommand(state.Id, Human, Next(c)));
-                var income = round + 1 <= 2 ? 2 : round + 1 <= 5 ? 3 : 4;
+                var income = round + 1 <= 3 ? 2 : round + 1 <= 7 ? 3 : 4;
                 Check(Player(c).Draft.StudyPoints == income + 2 + ((streak + 1) % 3 == 0 ? 1 : 0), "Income/carry/streak reward");
             }
         }

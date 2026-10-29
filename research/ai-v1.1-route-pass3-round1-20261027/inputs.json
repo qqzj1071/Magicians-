@@ -1,0 +1,12 @@
+{
+  "namespace": "v11-route-pass3-20261027",
+  "sha256": {
+    "releases\\v1.1\\cards.json": "bd8a4647c8d736cb83fad54b33c0982453e554251308adeb2a50d3b75d60fe22",
+    "decks\\trained-v1.1-poison.json": "6bb6ca9aa9465af92f536ff3592a32634ae375cb4a46a6d08b94f6a2d248c8e0",
+    "research\\tournament-v1-training01\\selected-model.json": "61acb2f2ff3cb8ed07965d0aa423a007d5cb8fd364c7cb4f6560625137808e31",
+    "releases\\deckbuilding-v1.0\\damage.json": "8e0271aba44af8ff977151ebaab28748a922a6b118a57fbaaf2735b21e0df091",
+    "releases\\deckbuilding-v1.0\\probabilities.json": "9df33e1ac808b967eecab9e7367156337c8a1f172508419dc2c20cfd35ddcb27",
+    "tools\\round_robin\\run_v11_balance_test.py": "e8c04f13afdefb947035ff56e605c7d25ace0b1bb6147ad29d63996c2d22b1ec",
+    "tools\\round_robin\\engine.py": "cb3ae95f7d16fae043d71adff78b0e8fe6d4252de353fff6f72af139bd885f79"
+  }
+}

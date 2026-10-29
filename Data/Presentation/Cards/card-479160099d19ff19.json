@@ -8,7 +8,7 @@
   "CombatCost": 1,
   "BaseStudyCost": 1,
   "Attack": 1,
-  "Defense": 2,
+  "Defense": 3,
   "FirstEnchantmentLayers": 0,
   "RulesText": "无；整场",
   "DisplayRulesText": "无；整场",

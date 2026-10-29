@@ -1,0 +1,137 @@
+{
+  "圣盾": {
+    "card": {
+      "name": "圣盾",
+      "cost": 3,
+      "attack": 8,
+      "defense": 8,
+      "layers": 0,
+      "element": "generic",
+      "rarity": "epic",
+      "text": "获得160普通护盾；下阶段额外抽1张。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "愈合之光": {
+    "card": {
+      "name": "愈合之光",
+      "cost": 1,
+      "attack": 4,
+      "defense": 4,
+      "layers": 0,
+      "element": "generic",
+      "rarity": "epic",
+      "text": "回复80生命；若回复前生命不高于最大生命50%，改为回复当时已损失生命的20%。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "战术大师": {
+    "card": {
+      "name": "战术大师",
+      "cost": 1,
+      "attack": 4,
+      "defense": 4,
+      "layers": 0,
+      "element": "generic",
+      "rarity": "epic",
+      "text": "选择2张手牌直接弃置（不足2张则全部弃置）；每实际弃置1张，立即获得1费。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "治愈洪流": {
+    "card": {
+      "name": "治愈洪流",
+      "cost": 3,
+      "attack": 8,
+      "defense": 8,
+      "layers": 0,
+      "element": "generic",
+      "rarity": "epic",
+      "text": "回复60生命；下阶段再回复40生命并额外抽1张。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "盾墙": {
+    "card": {
+      "name": "盾墙",
+      "cost": 2,
+      "attack": 6,
+      "defense": 4,
+      "layers": 0,
+      "element": "generic",
+      "rarity": "rare",
+      "text": "获得90普通护盾；移除自身可净化的临时攻击降低与防御降低效果，不移除永久或毒机制派生的减攻防。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 6
+  },
+  "破军": {
+    "card": {
+      "name": "破军",
+      "cost": 2,
+      "attack": 6,
+      "defense": 6,
+      "layers": 0,
+      "element": "generic",
+      "rarity": "epic",
+      "text": "从弃牌堆选择2张附魔牌取回当前手牌（不足2张则全部取回），仍需支付费用才能打出；取回不视为抽牌。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "破障法阵": {
+    "card": {
+      "name": "破障法阵",
+      "cost": 1,
+      "attack": 4,
+      "defense": 4,
+      "layers": 0,
+      "element": "generic",
+      "rarity": "epic",
+      "text": "下一发主弹额外获得40%护盾穿透与15%防御穿透；副弹不继承。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 4
+  },
+  "稳固结界": {
+    "card": {
+      "name": "稳固结界",
+      "cost": 1,
+      "attack": 4,
+      "defense": 3,
+      "layers": 0,
+      "element": "generic",
+      "rarity": "rare",
+      "text": "下一段承受的普通飞弹伤害的同类减伤增加20个百分点（同区加算，伤害最低1），结算后消失；无论主弹或加成副弹均可消耗。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 6
+  },
+  "蓄势": {
+    "card": {
+      "name": "蓄势",
+      "cost": 0,
+      "attack": 1,
+      "defense": 2,
+      "layers": 0,
+      "element": "generic",
+      "rarity": "rare",
+      "text": "下阶段额外抽1张；本阶段不能提前兑现。",
+      "kind": "normal",
+      "ability": false
+    },
+    "copies": 6
+  }
+}

@@ -11,7 +11,7 @@ public partial class DraftAuditRunner : Node
         try
         {
             var root = ProjectSettings.GlobalizePath("res://");
-            var cards = CardDatabase.LoadFromJson(Path.Combine(root, "releases/v1.0/cards.json"));
+            var cards = CardDatabase.LoadFromJson(Path.Combine(root, "releases/v1.1/cards.json"));
             var pool = Slice1CardPool.LoadFull(Path.Combine(root, "releases/deckbuilding-v1.0/pool-counts.json"),
                 Path.Combine(root, "releases/deckbuilding-v1.0/economy.json"), cards);
             DraftAllocationRegression.Run(cards, pool, root);
