@@ -7,8 +7,15 @@ namespace Magicians.Presentation;
 // Stable runtime card IDs remain independent of future localized names/copy.
 public static class V12CardPresentation
 {
-    public static Func<string, string, string> DisplayName { get; set; } = (_, original) => original;
-    public static Func<string, string, string> DisplayRules { get; set; } = (_, original) => original;
+    private static readonly Lazy<CardDisplayNames> Copy = new(() => CardDisplayNames.Load(
+        Path.Combine(Magicians.Application.ClientPaths.DataRoot, "Data", "Presentation", "card-display.json")));
+    public static Func<string, string, string> DisplayName { get; set; } = (id, original) => Copy.Value.Name(id, original);
+    public static Func<string, string, string> DisplayRules { get; set; } = (id, original) => Copy.Value.Rules(id, original);
+
+    // These helpers take raw simulator IDs, never already-translated labels.
+    public static string Name(string? originalId) => string.IsNullOrEmpty(originalId) ? "" : DisplayName(originalId, originalId);
+    public static string Rules(JsonElement rawCard) => DisplayRules(
+        rawCard.GetProperty("name").GetString()!, rawCard.GetProperty("text").GetString()!);
     private static Dictionary<string, CardArtSlots>? _art;
 
     public static CardPresentationProfile Profile(JsonElement card)

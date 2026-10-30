@@ -167,11 +167,11 @@ public partial class V12MatchController : Control
         var round = data.GetProperty("round").GetInt32();
         _title.Text = $"Magicians! · v1.2 · 第 {round} 轮";
         _standings.Text = string.Join("    |    ", data.GetProperty("standings").EnumerateArray().OrderBy(x => x.GetProperty("pid").GetInt32()).Select(p =>
-            $"{PlayerName(p.GetProperty("pid"))} 赛事生命 {p.GetProperty("hp")} · {Element(p.GetProperty("spec").GetString())} · {p.GetProperty("route").GetString()}"));
+            $"{PlayerName(p.GetProperty("pid"))} 赛事生命 {p.GetProperty("hp")} · {Element(p.GetProperty("spec").GetString())} · {V12CardPresentation.Name(p.GetProperty("route").GetString())}"));
         _standings.Text += "\n本轮配对：" + string.Join("；", data.GetProperty("pairs").EnumerateArray().Select(pair => PlayerName(pair[0]) + " 对 " + PlayerName(pair[1])));
         _standings.Text += "\n" + string.Join("；", data.GetProperty("events").EnumerateArray()
             .Where(e => e.GetProperty("kind").GetString() is "specialization" or "route").Select(e =>
-                PlayerName(e.GetProperty("pid")) + (e.GetProperty("kind").GetString() == "route" ? " 选择路线 " + e.GetProperty("name").GetString() : " 获得" + Element(e.GetProperty("element").GetString()) + "系专精")));
+                PlayerName(e.GetProperty("pid")) + (e.GetProperty("kind").GetString() == "route" ? " 选择路线 " + V12CardPresentation.Name(e.GetProperty("name").GetString()) : " 获得" + Element(e.GetProperty("element").GetString()) + "系专精")));
         if (data.TryGetProperty("previous_battles", out var previous) && previous.GetArrayLength() > 0)
             _standings.Text += "\n上轮赛果：" + string.Join("；", previous.EnumerateArray().Select(b =>
                 $"{PlayerName(b.GetProperty("a"))} 对 {PlayerName(b.GetProperty("b"))}：" +
@@ -188,7 +188,7 @@ public partial class V12MatchController : Control
             _deck.AddChild(new Label { Text = "你的咒语书" });
             foreach (var card in own.GetProperty("deck").EnumerateArray())
             {
-                var label = new Label { Text = $"{card.GetProperty("name")}  {card.GetProperty("cost")}费", TooltipText = CardText(card) };
+                var label = new Label { Text = $"{V12CardPresentation.Name(card.GetProperty("name").GetString())}  {card.GetProperty("cost")}费", TooltipText = CardText(card) };
                 _deck.AddChild(label);
             }
         }
@@ -196,7 +196,7 @@ public partial class V12MatchController : Control
         {
             _status.Text = "赛事结束";
             foreach (var p in data.GetProperty("placements").EnumerateArray())
-                _actions.AddChild(new Label { Text = $"第 {p.GetProperty("rank")} 名 · {PlayerName(p.GetProperty("pid"))} · 赛事生命 {p.GetProperty("hp")} · {Element(p.GetProperty("spec").GetString())} {p.GetProperty("route").GetString()}" });
+                _actions.AddChild(new Label { Text = $"第 {p.GetProperty("rank")} 名 · {PlayerName(p.GetProperty("pid"))} · 赛事生命 {p.GetProperty("hp")} · {Element(p.GetProperty("spec").GetString())} {V12CardPresentation.Name(p.GetProperty("route").GetString())}" });
             ShowRoundLog(data); return;
         }
         Button(_toolbar, "交给 AI 直到赛事结束", () => _ = SubmitAsync("delegate_match"));
@@ -212,7 +212,7 @@ public partial class V12MatchController : Control
                 CardOptions(d.GetProperty("offers").EnumerateArray().ToArray(), card => {
                     var slot = card.GetProperty("slot").GetInt32();
                     var price = card.GetProperty("price"); var replaces = card.GetProperty("replaces");
-                    return ($"购买 · {price}研习" + (replaces.ValueKind == JsonValueKind.Null ? "" : " · 替换" + replaces.GetString()),
+                    return ($"购买 · {price}研习" + (replaces.ValueKind == JsonValueKind.Null ? "" : " · 替换" + V12CardPresentation.Name(replaces.GetString())),
                         (Action)(() => _ = SubmitAsync("buy", slot: slot)), !card.GetProperty("affordable").GetBoolean());
                 });
                 var draftControls = new HBoxContainer(); _actions.AddChild(draftControls);
@@ -255,7 +255,7 @@ public partial class V12MatchController : Control
                     return ("选择 / 取消", (Action)(() => {
                         if (_selected.Contains(uid)) _selected.Remove(uid); else if (_selected.Count < maximum) _selected.Add(uid);
                         UpdateSelectionBorders();
-                        order.Text = "选择顺序：" + string.Join(" → ", _selected.Select(id => d.GetProperty("candidates").EnumerateArray().First(c => c.GetProperty("uid").GetString() == id).GetProperty("name").GetString()));
+                        order.Text = "选择顺序：" + string.Join(" → ", _selected.Select(id => V12CardPresentation.Name(d.GetProperty("candidates").EnumerateArray().First(c => c.GetProperty("uid").GetString() == id).GetProperty("name").GetString())));
                     }), false);
                 });
                 Button(_actions, "确认选择", () => {
@@ -286,7 +286,7 @@ public partial class V12MatchController : Control
             var participant = combat.GetProperty("participants")[state.GetProperty("seat").GetInt32()];
             _status.Text += $"   |   {LogPlayerName(participant)} 攻{state.GetProperty("attack")} 防{state.GetProperty("defense")} 血{state.GetProperty("hp")} 盾{state.GetProperty("shield")}";
         }
-        _status.Text += "\n已规划：" + string.Join(" → ", combat.GetProperty("planned").EnumerateArray().Select(x => x.GetString()));
+        _status.Text += "\n已规划：" + string.Join(" → ", combat.GetProperty("planned").EnumerateArray().Select(x => V12CardPresentation.Name(x.GetString())));
         var events = combat.GetProperty("log").EnumerateArray().ToArray();
         _log.Text = string.Join("\n", events.Where(e => !IsMissile(e)).Select(e => EventText(e, combat.GetProperty("participants")[0], combat.GetProperty("participants")[1])));
         _missileLog.Text = string.Join("\n", events.Where(IsMissile).Select(e => EventText(e, combat.GetProperty("participants")[0], combat.GetProperty("participants")[1])));
@@ -497,7 +497,7 @@ public partial class V12MatchController : Control
         {
             var column = new VBoxContainer { SizeFlagsHorizontal = SizeFlags.ExpandFill }; columns.AddChild(column);
             column.AddChild(new Label { Text = s.GetProperty("seat").GetInt32() == combat.GetProperty("human_seat").GetInt32() ? "你的状态" : "对手状态", Theme = new Theme { DefaultFontSize = 28 } });
-            var text = $"生命 {s.GetProperty("hp")}   护盾 {s.GetProperty("shield")}\n攻击 {s.GetProperty("attack")}   防御 {s.GetProperty("defense")}\n当前能量 {s.GetProperty("energy")}\n附魔：{LayerText(s.GetProperty("layers"))}\n余烬 {s.GetProperty("ember")}   潮汐 {s.GetProperty("tide")}\n目标毒层 {s.GetProperty("poison")}\n下一次发射行动值 {s.GetProperty("next_fire")}\n已激活能力：\n{string.Join("、", s.GetProperty("active").EnumerateArray().Select(x => x.GetString()))}";
+            var text = $"生命 {s.GetProperty("hp")}   护盾 {s.GetProperty("shield")}\n攻击 {s.GetProperty("attack")}   防御 {s.GetProperty("defense")}\n当前能量 {s.GetProperty("energy")}\n附魔：{LayerText(s.GetProperty("layers"))}\n余烬 {s.GetProperty("ember")}   潮汐 {s.GetProperty("tide")}\n目标毒层 {s.GetProperty("poison")}\n下一次发射行动值 {s.GetProperty("next_fire")}\n已激活能力：\n{string.Join("、", s.GetProperty("active").EnumerateArray().Select(x => V12CardPresentation.Name(x.GetString())))}";
             text += "\n持续效果：" + string.Join("、", s.GetProperty("modifiers").EnumerateArray().Select(m => StatusLabel(m.GetProperty("kind").GetString()!) + " " + m.GetProperty("value")));
             text += "\n飞弹修正：" + string.Join("、", s.GetProperty("missile_bonuses").EnumerateObject().Select(m => StatusLabel(m.Name) + " " + m.Value));
             column.AddChild(new Label { Text = text, AutowrapMode = TextServer.AutowrapMode.WordSmart, Theme = new Theme { DefaultFontSize = 22 } });
@@ -511,7 +511,7 @@ public partial class V12MatchController : Control
         var side = LogPlayerName(e.GetProperty("seat").GetInt32() == 0 ? a : b);
         var prefix = $"[{e.GetProperty("time")}] {side}";
         return e.GetProperty("kind").GetString() switch {
-            "play" => $"{prefix} 打出 {e.GetProperty("name")}",
+            "play" => $"{prefix} 打出 {V12CardPresentation.Name(e.GetProperty("name").GetString())}",
             "damage" => $"{prefix} 造成 {e.GetProperty("amount")} 伤害（生命 {e.GetProperty("life")}，护盾 {e.GetProperty("shield")}）",
             "heal" => $"{prefix} 回复 {e.GetProperty("amount")} 生命",
             "shield" => $"{prefix} 护盾变为 {e.GetProperty("ordinary")}，临时护盾 {e.GetProperty("temporary")}",
@@ -520,7 +520,7 @@ public partial class V12MatchController : Control
     }
 
     private static string LogPlayerName(JsonElement id) => id.ValueKind == JsonValueKind.String ? (id.GetString() == "g0" ? "玩家（幽灵）" : "AI " + id.GetString()![1..] + "（幽灵）") : id.GetInt32() == 0 ? "玩家" : "AI " + id.GetInt32();
-    private static string CardText(JsonElement card) => $"{card.GetProperty("name")} · {Element(card.GetProperty("element").GetString())} · {Rarity(card.GetProperty("rarity").GetString())} · {card.GetProperty("cost")}费 · 攻{card.GetProperty("attack")}/防{card.GetProperty("defense")}/首次层{card.GetProperty("layers")}\n{card.GetProperty("text").GetString()}";
+    private static string CardText(JsonElement card) => $"{V12CardPresentation.Name(card.GetProperty("name").GetString())} · {Element(card.GetProperty("element").GetString())} · {Rarity(card.GetProperty("rarity").GetString())} · {card.GetProperty("cost")}费 · 攻{card.GetProperty("attack")}/防{card.GetProperty("defense")}/首次层{card.GetProperty("layers")}\n{V12CardPresentation.Rules(card)}";
     private static string LayerText(JsonElement layers) => string.Join(" / ", layers.EnumerateObject().Select(x => Element(x.Name) + x.Value));
     private static string PlayerName(JsonElement id) => id.ValueKind == JsonValueKind.String ? "幽灵 " + id.GetString()![1..] : id.GetInt32() == 0 ? "你" : "AI " + id.GetInt32();
     private static string Element(string? value) => value switch { "fire" => "火", "water" => "水", "earth" => "土", "wind" => "风", "poison" => "毒", "generic" => "通用", _ => "未专精" };

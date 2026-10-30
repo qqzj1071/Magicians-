@@ -3,7 +3,7 @@
 v1.2 已于 2026-10-30 验收，完全替代 v1.1。主入口 Scenes/Boot/Boot.tscn → MainMenu → Scenes/V12/SinglePlayer.tscn。不存在旧客户端回退入口。
 
 - 权威规则：tools/sim_v12，183张卡牌、677份库存；客户端 tools/client_v12/match.py 在独立常驻 Python 进程暂停/恢复四人赛事。C# 只负责界面与输入。
-- 卡牌：releases/v1.2/cards.json 与 docs/cards-v1.2。使用旧运行卡名，未来通过 V12CardPresentation 的 DisplayName/DisplayRules 接口替换。全部火系卡（含专精/传奇）属于火系附魔牌；ability 与打出后移出规则独立。
+- 卡牌：releases/v1.2/cards.json 与 docs/cards-v1.2。保留稳定运行卡名作为规则 ID；五系定稿显示名已通过 V12CardPresentation 接入 Data/Presentation/card-display.json。该显示资料由 tools/build_v12_presentation.py 从五系 *-name-map.json 生成，新增或修改展示名后先运行生成脚本；不得直接替换规则内核的卡名键。小字保留 display_in_match=false，不在局内显示。全部火系卡（含专精/传奇）属于火系附魔牌；ability 与打出后移出规则独立。
 - AI：releases/ai-v1.2-six-styles-20261029，恰好六模型。不要把战略 style ID 当战术名，不擅改规则和模型。
 - 规则修改需用户授权，并维护 freeze-manifest.json 的当前执行哈希；历史冻结 ZIP 是溯源基线，不代表最新执行修正。保留校验，禁止绕过。
 - 回归：powershell -File tools/run_v12_client_regressions.ps1；图形过渡测试另运行 Scenes/Tests/V12TransitionRunner.tscn（需图形后端）。Python3.12、Godot4.7.2.NET、.NET8；TEMP/TMP 使用工作区 runtime/v12-temp。

@@ -33,7 +33,7 @@ def main():
     shutil.copytree(a.licenses,out/'licenses')
     info=dict(version='1.2',cards=183,pool=677,python='bundled 3.12.10',cards_sha256=sha(data/'releases/v1.2/cards.json'),models_sha256=sha(data/'releases/ai-v1.2-six-styles-20261029/manifest.json'))
     (out/'BUILD-INFO.json').write_text(json.dumps(info,indent=2),encoding='utf-8')
-    (out/'README.txt').write_text('Magicians! v1.2 正式客户端\n双击 Magicians.exe，选择开始单人赛事。自带Python与AI模型，无需安装依赖。\n卡面保留旧名称。支持当前牌组、抽牌堆、弃牌堆弹窗。\n',encoding='utf-8')
+    (out/'README.txt').write_text('Magicians! v1.2 正式客户端\n双击 Magicians.exe，选择开始单人赛事。自带Python与AI模型，无需安装依赖。\n卡面、路线与日志采用五系定稿显示名，规则运行ID保留。小字暂不在局内显示。支持当前牌组、抽牌堆、弃牌堆弹窗。\n',encoding='utf-8')
     hashes={f.relative_to(out).as_posix():sha(f) for f in sorted(out.rglob('*')) if f.is_file()}
     (out/'integrity.json').write_text(json.dumps(hashes,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps(dict(client=str(out/'Magicians.exe')),ensure_ascii=False))

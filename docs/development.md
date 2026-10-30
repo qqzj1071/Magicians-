@@ -10,7 +10,8 @@ Godot 4.7.2 .NET、.NET 8 SDK、Python 3.12。用 Godot 打开 project.godot。�
 - tools/client_v12/match.py：常驻赛事适配器；tools/sim_v12 为唯一战斗与构筑规则内核。
 - releases/v1.2：卡牌快照、校验清单；releases/ai-v1.2-six-styles-20261029：六风格发布模型。
 - Data/Presentation/card-art.json：纯美术槽位，不包含旧版规则副本。
-- docs/cards-v1.2/*-name-map.json：保留 GitHub 最新命名定稿；客户端暂用旧运行标识，不自动应用新名称。
+- docs/cards-v1.2/*-name-map.json：五系定稿展示名来源；运行卡名继续作为稳定规则 ID。新增或修改展示名后，先运行 `python tools/build_v12_presentation.py`，由五系映射生成 Data/Presentation/card-display.json，再验证客户端。
+- Data/Presentation/card-display.json：通过 V12CardPresentation 接入卡面、路线、日志与卡牌提示；显示名与规则 ID 分开。小字保留 display_in_match=false，不在局内显示。
 
 ## 验证
 

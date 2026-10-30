@@ -11,6 +11,6 @@
 - [世界观与创作](docs/lore/README.md)
 - [项目约束](AGENTS.md)
 
-卡牌共183张、库存677份。客户端仍使用旧运行卡名；新名称与文案保留替换接口。所有火系卡（含专精、传奇）统一计作火系附魔牌。
+卡牌共183张、库存677份。运行卡名保留为稳定规则 ID，五系定稿显示名已接入客户端；显示资料位于 Data/Presentation/card-display.json，由 tools/build_v12_presentation.py 从五系 *-name-map.json 生成，新增或改名后先运行生成脚本。小字保留 display_in_match=false，暂不在局内显示。所有火系卡（含专精、传奇）统一计作火系附魔牌。
 
 旧版本和历史研究报告已移出活动项目并压缩归档。GitHub 的旧提交仅供追溯，不是当前开发依据。

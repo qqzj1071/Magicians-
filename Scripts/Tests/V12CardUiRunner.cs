@@ -31,13 +31,35 @@ public partial class V12CardUiRunner : Node
         {
             var scene = GD.Load<PackedScene>("res://Scenes/V12/SinglePlayer.tscn").Instantiate<V12MatchController>(); scene.AutoStart = false; AddChild(scene);
             using var cards = JsonDocument.Parse(File.ReadAllText(ProjectSettings.GlobalizePath("res://releases/v1.2/cards.json")));
-            foreach (var row in cards.RootElement.GetProperty("cards").EnumerateObject())
+            var rawCards = cards.RootElement.GetProperty("cards");
+            var expected = rawCards.EnumerateObject().ToDictionary(row => row.Name, row => row.Name, StringComparer.Ordinal);
+            foreach (var element in new[] { "fire", "water", "poison", "wind", "earth" })
+            {
+                using var map = JsonDocument.Parse(File.ReadAllText(ProjectSettings.GlobalizePath($"res://docs/cards-v1.2/{element}-name-map.json")));
+                foreach (var row in map.RootElement.GetProperty("cards").EnumerateObject())
+                    expected[row.Name] = row.Value.GetProperty("display_name").GetString()!;
+            }
+            foreach (var row in rawCards.EnumerateObject())
             {
                 var p = V12CardPresentation.Profile(row.Value);
-                if (p.Name != row.Name || p.CombatCost != row.Value.GetProperty("cost").GetInt32() || p.RulesText != row.Value.GetProperty("text").GetString() || p.DisplayRulesText != p.RulesText)
+                if (p.CardId != row.Name || p.ProfileId != "v12:" + row.Name || p.Name != expected[row.Name] || p.CombatCost != row.Value.GetProperty("cost").GetInt32() || p.RulesText != row.Value.GetProperty("text").GetString() || p.RuleNotes.Length != 0)
                     throw new Exception("Stale card presentation: " + row.Name);
+                var face = V12CardPresentation.Face(row.Value, 320, 650);
+                AddChild(face);
+                var view = Walk(face).OfType<CardView>().Single();
+                if (view.GetNode<Label>("Margin/Column/Title").Text != expected[row.Name] || view.GetNode<Label>("Margin/Column/Details/Text/Rules").Text != p.DisplayRulesText || face.TooltipText != p.Name + "\n" + p.DisplayRulesText)
+                    throw new Exception("Visible card copy differs from approved name: " + row.Name);
+                face.QueueFree();
             }
+            foreach (var (id, name) in new[] { ("潮涌", "回流"), ("回流", "观潮"), ("泉眼", "润物"), ("泉心", "泉眼"), ("风蚀", "浴风"), ("穿云破甲", "风蚀"), ("万毒爆", "毒爆"), ("毒爆", "以毒淬锋") })
+                if (V12CardPresentation.Name(id) != name) throw new Exception("Cascaded display name: " + id);
+            string Rules(string id) => V12CardPresentation.Rules(rawCards.GetProperty(id));
+            if (!Rules("细流").Contains("浴血狂澜主弹") || !Rules("蚀命").Contains("毒爆与烈性反应") || !Rules("风痕回廊").Contains("已激活积风成灾") || !Rules("风痕回廊").Contains("2层风痕") || !Rules("风痕刻印").Contains("2层风痕") || !Rules("穿云破甲").Contains("风痕引爆") || !Rules("时光倒流").Contains("风痕"))
+                throw new Exception("Card references or unchanged mechanic names were mistranslated");
+            if (V12CardPresentation.Name("未知扩展牌") != "未知扩展牌") throw new Exception("Unknown card fallback changed");
+            GD.Print("V12_DISPLAY_COPY_OK profiles=183 final-names=OK references=OK stable-ids=OK flavor-hidden=OK");
             await scene.StartMatchAsync(334020, new[] { "fire", "water", "earth" });
+            if (scene.LastError is not null) throw new Exception("Match startup failed: " + scene.LastError);
             await ToSignal(GetTree(), SceneTree.SignalName.ProcessFrame); await ToSignal(GetTree(), SceneTree.SignalName.ProcessFrame);
             var finish = Walk(scene).OfType<Button>().Single(b => b.Text == "结束本面购买");
             var display = new DisplaySettingsDialog(); scene.AddChild(display); display.PopupCentered(new Vector2I(560,300));

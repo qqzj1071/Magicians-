@@ -6,7 +6,7 @@
 |---|---:|---:|---:|---:|---:|---:|
 |卡牌数|31|30|30|30|28|34|
 
-[总表](catalogue.md) · [火](fire.md) · [水](water.md) · [土](earth.md) · [风](wind.md) · [毒](poison.md) · [通用](generic.md) · [火系展示别名](fire-names.md)
+[总表](catalogue.md) · [火](fire.md) · [水](water.md) · [土](earth.md) · [风](wind.md) · [毒](poison.md) · [通用](generic.md) · [火系展示别名](fire-names.md) · [风系命名定稿](wind-names.md) · [土系命名定稿](earth-names.md) · [风系传奇与专精小字](wind.md#传奇与专精小字) · [土系传奇与专精小字](earth.md#传奇与专精小字) · [毒系传奇与专精小字](poison.md#传奇与专精小字) · [水系传奇与专精小字](water.md#传奇与专精小字)
 
 ## 统一术语
 
