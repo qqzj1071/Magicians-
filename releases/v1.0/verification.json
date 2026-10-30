@@ -1,9 +1,0 @@
-{
-  "version": "1.0",
-  "cards": 253,
-  "card_numeric_identity": true,
-  "transaction_parity_checks": 253,
-  "deterministic_battle_parity_checks": 15,
-  "policy_bindings": 225,
-  "numeric_grid_and_budgets": true
-}

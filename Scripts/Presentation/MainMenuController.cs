@@ -20,8 +20,14 @@ public partial class MainMenuController : Control
             AutowrapMode = TextServer.AutowrapMode.WordSmart, HorizontalAlignment = HorizontalAlignment.Center });
         var start = new Button { Name = "Start", Text = "开始单人赛事", CustomMinimumSize = new Vector2(0, 64) };
         var exit = new Button { Name = "Exit", Text = "退出游戏", CustomMinimumSize = new Vector2(0, 48) };
-        center.AddChild(start); center.AddChild(exit); AddChild(center);
-        start.Pressed += () => StartRequested?.Invoke();
+        var settings = new Button { Text = "显示设置", CustomMinimumSize = new Vector2(0, 48) };
+        settings.Pressed += () => { var dialog = new DisplaySettingsDialog(); AddChild(dialog); dialog.PopupCentered(new Vector2I(560, 300)); };
+        center.AddChild(start); center.AddChild(settings); center.AddChild(exit); AddChild(center);
+        start.Pressed += () =>
+        {
+            StartRequested?.Invoke();
+            if (StartRequested is null) GetTree().ChangeSceneToFile("res://Scenes/V12/SinglePlayer.tscn");
+        };
         exit.Pressed += () => GetTree().Quit();
         Resized += CenterMenu;
         CenterMenu();
@@ -36,4 +42,3 @@ public partial class MainMenuController : Control
         _center.Position = (viewport - size) * 0.5f;
     }
 }
-

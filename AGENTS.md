@@ -1,16 +1,12 @@
-# Magicians! 当前约束
+# Magicians! v1.2 — 当前项目约束
 
-- 先读docs/README.md。唯一卡牌releases/v1.0/cards.json（252张）；唯一现行构筑规则releases/deckbuilding-v1.0/README.md及manifest校验数据。用户已接受冻结，AI训练不得改变卡牌、概率、份数、经济、保底、扣血。
-- 旧规则、报告、shared-draft原始实验压缩为archives/obsolete-deckbuilding-pre-v1.0.zip，已过时。默认不解压不检索不引用为当前规则；archives/pre-v1.0同理。只在用户明确要求历史追溯时恢复指定文件到独立目录，不能覆盖现行数据。
-- 非传奇按普通/稀有/史诗×附魔/通用六类等份数6/8、4/6、3/4，共1052份；同类不能逐卡偏置。通用传奇2份、路线/叠层1份。玩家同名唯一，初始攻防各2例外。实体库存不能超发，删除/替换/淘汰下轮回池。
-- 专精3同系立即赠卡并提升已有附魔收益。专精前同面同系最多1张，专精后本系65%软目标，无新异种。研习growth-v3兼容实现，继承≤2，刷新每轮1次1点。8/10/12首面前三传奇尽量2路线；刷新面最低稀有度启用位补1传奇。
-- 专精和选择/替换路线即时全场播报。构筑AI只看自己的牌组、已展示候选、下一对手及公开信息，不看对手私有牌组、未来候选、随机数。唯一路线被抢及时重评目标。
-- 四人初始100赛事血，构筑前公布配对，一轮一战，能避免时不连遇。三人用淘汰快照幽灵。3/6/9…连胜败下轮+1点；双死中断且各扣基础。淘汰停购下轮回池，直到≤1活人，2026-10-26用户明确修订：同轮淘汰按结算后赛事血量（保留负数与0）降序排名；最后同时全灭也按该血量，最高者夺冠，最高血量相同才并列冠军。
-- 扣血m+floor(ln(max(x,1))*n)，1—4=(2,.8)、5—8=(4,1.8)、9—12=(7,2)、13—14=(9,3.2)、15—16=(10,4.5)、17以后=(11,6)恒定。当前已接受，不因历史节奏目标未达自行调参。
-- decks/active.json指向15套现行标准牌组；Dice不是战力。AI学习分训练/验证/终测，双方学习，完整赛事，固定规则，有回退和关键决策理由。不能用自弈50%胜率或训练场数证明提升；不能承诺所有决策最优。
-- 数值规范docs/combat/numeric-standards.md。冻结engine.py/planner.py/policies.json不擅改；适配层独立验证。完成训练需verify_v1.py及赛事库存/公开信息边界回放。最新AI入口docs/ai/README.md。
+v1.2 已于 2026-10-30 验收，完全替代 v1.1。主入口 Scenes/Boot/Boot.tscn → MainMenu → Scenes/V12/SinglePlayer.tscn。不存在旧客户端回退入口。
 
-
-- 2026-10-26用户确认移除重复普通牌“守势”，保留“防御强化”。当前252张、共享池1052份；原发布manifest/压缩包及历史研究保留，现行校验补丁见releases/v1.0/current-manifest.json。不得重新生成已退役卡面。
-
-- 2026-10-26用户修订：已有传奇路线的玩家在第10和12轮各至多新展示1张路线传奇，首面与刷新共用上限，已有展示记录计数；未持有路线者及第8轮原保底不变。
+- 权威规则：tools/sim_v12，183张卡牌、677份库存；客户端 tools/client_v12/match.py 在独立常驻 Python 进程暂停/恢复四人赛事。C# 只负责界面与输入。
+- 卡牌：releases/v1.2/cards.json 与 docs/cards-v1.2。使用旧运行卡名，未来通过 V12CardPresentation 的 DisplayName/DisplayRules 接口替换。全部火系卡（含专精/传奇）属于火系附魔牌；ability 与打出后移出规则独立。
+- AI：releases/ai-v1.2-six-styles-20261029，恰好六模型。不要把战略 style ID 当战术名，不擅改规则和模型。
+- 规则修改需用户授权，并维护 freeze-manifest.json 的当前执行哈希；历史冻结 ZIP 是溯源基线，不代表最新执行修正。保留校验，禁止绕过。
+- 回归：powershell -File tools/run_v12_client_regressions.ps1；图形过渡测试另运行 Scenes/Tests/V12TransitionRunner.tscn（需图形后端）。Python3.12、Godot4.7.2.NET、.NET8；TEMP/TMP 使用工作区 runtime/v12-temp。
+- 当前发行：releases/client-v1.2.json；构建见 docs/development.md。发布前验证导出日志、内置Python烟测、integrity.json。
+- 旧版源码、研究报告及旧发行包已压缩归档到项目外 D:/Magicians!/_history。日常任务不扫描、解压或引用旧归档。只以本文件、README、当前规则与源码为准。
+- 不提交本机缓存、日志、用户配置、密钥、历史大包。不要恢复被清理的旧客户端/文档。

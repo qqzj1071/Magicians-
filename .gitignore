@@ -16,3 +16,13 @@ runtime/
 
 # Uploaded losslessly as verified parts; retain the original archive locally.
 /archives/pre-v1.0.zip
+
+# Machine-local .NET SDK cache
+/.dotnet-home/
+
+# Current generated outputs and local history
+/research/
+/archives/
+*.zip
+!releases/Magicians-cards-combat-v1.2.zip
+*.zip.part*

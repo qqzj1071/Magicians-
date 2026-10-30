@@ -1,1 +1,0 @@
-Actual experiment executed sources/ snapshots. Postflight contains independent analysis/audit and the trainer with future-checkpoint continuation support added after this run; it does not rewrite the recorded ten-cycle results.

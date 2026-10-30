@@ -6,8 +6,6 @@ namespace Magicians.Presentation;
 public partial class BootController : Node
 {
     private Control? _menu;
-    private Control? _match;
-    public override void _ExitTree() => GameSession.Current?.Dispose();
     public override void _Ready()
     {
         try
@@ -18,8 +16,7 @@ public partial class BootController : Node
             ShowMainMenu();
             if (OS.GetCmdlineUserArgs().Contains("--release-smoke"))
             {
-                StartGame();
-                AddChild(new Magicians.Tests.ReleaseSmokeRunner());
+                Callable.From(() => GetTree().ChangeSceneToFile("res://Scenes/Tests/V12PackagedRunner.tscn")).CallDeferred();
             }
         }
         catch (Exception exception)
@@ -37,32 +34,9 @@ public partial class BootController : Node
         var scene = GD.Load<PackedScene>("res://Scenes/MainMenu/MainMenu.tscn");
         _menu = scene.Instantiate<Control>();
         AddChild(_menu);
-        if (_menu is MainMenuController menu) menu.StartRequested += StartGame;
-    }
-
-    public void StartGame()
-    {
-        try
-        {
-            GameSession.Current?.Dispose();
-            GameSession.Current = null;
-            _match?.QueueFree();
-            _menu?.QueueFree();
-            _menu = null;
-            var root = ClientPaths.DataRoot;
-            GameSession.Current = GameSession.CreateSlice1(root);
-            GameSession.Current.BeginDraft();
-            _match = GD.Load<PackedScene>("res://Scenes/Match/Match.tscn").Instantiate<Control>();
-            AddChild(_match);
-        }
-        catch (Exception exception)
-        {
-            GD.PrintErr($"START_GAME_FAILED {exception}");
-            OS.Alert(exception.Message, "Magicians! 启动失败");
-            ShowMainMenu();
-        }
+        if (_menu is MainMenuController menu)
+            menu.StartRequested += () => GetTree().ChangeSceneToFile("res://Scenes/V12/SinglePlayer.tscn");
     }
 
     public void ExitGame() => GetTree().Quit();
 }
-

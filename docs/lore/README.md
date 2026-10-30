@@ -29,15 +29,12 @@
 | [人物设定](characters.md) | 主办者、五位老朋友、玩家身份、关系与剧情示例 |
 | [美术方向](visual-guide.md) | 生活化魔法、五系视觉、场景、素材规格与首批样张计划 |
 | [命名与文案](naming-guide.md) | 通俗术语、卡名方向、效果表达边界、后续逐卡改稿流程 |
-| [火系卡牌完整定稿](fire-all-final.txt) | 全部38张火系卡名与小字的合并总稿；小字保留供后续单张卡特写使用，暂不进入局内UI |
-| [火系普通与稀有分卷](fire-common-rare-final.txt) | 23张普通、稀有卡牌的分卷记录，最新整合内容以完整定稿为准 |
 | [产品概念](../game-concept.md) | 给首次了解项目的合作者阅读的简明介绍 |
 | [旧版归档说明](archive/v0.1/ARCHIVED.md) | 仅供创作溯源，不再作为现行世界观使用 |
 
 ## 规则来源与关键边界
 
-- 卡牌唯一数据：[cards.json](../../releases/v1.0/cards.json)，252张。内部卡牌ID沿用冻结数据；全部38张火系牌的局内名称存放在卡面档案的DisplayName字段。
-- 小字资料：[火系完整创作数据](../../Data/Creative/fire-flavor-texts.zh-CN.json)，使用稳定CardId与ProfileId关联全部38张火系卡牌，ShowInMatchUi为false，仅供后续卡牌特写使用。旧普通、稀有资料保留为分卷快照。
+- 卡牌唯一数据：[cards.json](../../releases/v1.0/cards.json)，253张。当前卡名仅是现有名称，不等于已完成新世界观改名。
 - 构筑与赛事唯一规则：[构筑v1.0](../../releases/deckbuilding-v1.0/README.md)。四人各100赛事生命；可发生最终同时淘汰、并列冠军。
 - 战斗与时序：[同步结算](../combat/resolution-order.md)、[伤害](../combat/damage-model.md)、[数值规范](../combat/numeric-standards.md)。战斗生命与赛事生命独立。
 - 收集三张同系附魔确定专精；打出专精牌才激活对应专精机制。收藏牌、战斗附魔层和机制资源不能混为一谈。

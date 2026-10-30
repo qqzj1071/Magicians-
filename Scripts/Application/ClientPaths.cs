@@ -8,4 +8,3 @@ public static class ClientPaths
         ? ProjectSettings.GlobalizePath("res://")
         : Path.Combine(Path.GetDirectoryName(OS.GetExecutablePath())!, "runtime-data");
 }
-

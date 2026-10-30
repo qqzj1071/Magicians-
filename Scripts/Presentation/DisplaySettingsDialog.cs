@@ -12,10 +12,15 @@ public partial class DisplaySettingsDialog : ConfirmationDialog
     {
         Title = "显示设置"; GetOkButton().Text = "应用并保存"; GetCancelButton().Text = "取消";
         var column = new VBoxContainer(); AddChild(column);
+        // AcceptDialog owns its content rectangle; FullRect anchors here create
+        // a minimum-size feedback loop and stretch the dialog vertically.
+        column.CustomMinimumSize = new Vector2(480, 160);
+        column.Theme = new Theme { DefaultFontSize = 22 };
         column.AddChild(new Label { Text = "窗口分辨率（全屏时使用当前显示器分辨率）" });
-        _resolution = new OptionButton(); column.AddChild(_resolution);
+        _resolution = new OptionButton { Alignment = HorizontalAlignment.Center }; column.AddChild(_resolution);
         foreach (var size in _sizes) _resolution.AddItem($"{size.X} × {size.Y}");
         _fullscreen = new CheckBox { Text = "全屏" }; column.AddChild(_fullscreen);
+        column.AddChild(new Label { Text = "窗口自动适配屏幕；界面保持比例。" });
         var feedback = new Label(); column.AddChild(feedback);
         AboutToPopup += () =>
         {

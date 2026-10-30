@@ -1,9 +1,0 @@
-{
-  "status": "verified",
-  "files": 616,
-  "original_bytes": 77712349,
-  "archive_bytes": 46293106,
-  "archive_sha256": "e39cfeb7d80a94504be5826a6274b5ff8dbf66b35f573ef965fa6057a9381ef2",
-  "default_access": "do_not_extract_or_search",
-  "current": "releases/deckbuilding-v1.0"
-}

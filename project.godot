@@ -10,8 +10,9 @@ config_version=5
 
 [application]
 
-config/name="Magicians!"
-config/features=PackedStringArray("4.7", "C#", "GL Compatibility")
+config/name="Magicians! v1.2"
+config/version="1.2"
+config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 run/main_scene="res://Scenes/Boot/Boot.tscn"
 
@@ -23,7 +24,7 @@ window/size/window_width_override=1920
 window/size/window_height_override=1080
 window/size/resizable=true
 window/stretch/mode="canvas_items"
-window/stretch/aspect="expand"
+window/stretch/aspect="keep"
 
 [dotnet]
 
@@ -35,6 +36,4 @@ project/assembly_name="Magicians!"
 
 [rendering]
 
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
-
+rendering_device/driver.windows="d3d12"

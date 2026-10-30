@@ -1,7 +1,0 @@
-{
-  "report_tournament_v1.py": "03be2cc0f38e08bc760c83745dfe6547c094b0deb1c8cdc2461eab583c5e0e72",
-  "audit_tournament_v1.py": "3a19d486d74f6e21e6597e1b04a250566ea5a3fedecc663561a72e407d8cf794",
-  "train_tournament_v1.py": "b661ee45b1d0ed561725433975bc4ec34978376eedcfa03f8e52b34276dfc028",
-  "tournament_inference.py": "326729a540da0cb0392a09e610ff49e101d3729e422ba8da56f591a7c32633b1",
-  "verify_construction_v1.py": "5f33627d8525c002b6fa782b56ee578b127b1579e27b3b18e33a97c13a81f88e"
-}

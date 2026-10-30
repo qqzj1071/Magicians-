@@ -1,5 +1,0 @@
-{
-  "checkpointPointer": "docs/ai/current-tournament.json",
-  "pythonExecutable": "tools/client_ai/python-runtime/python.exe",
-  "mode": "inference-only"
-}

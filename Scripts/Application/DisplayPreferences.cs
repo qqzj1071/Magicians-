@@ -12,13 +12,18 @@ public sealed record DisplayPreferences(int Width = 1920, int Height = 1080, boo
     {
         var config = new ConfigFile();
         if (config.Load(path) != Error.Ok) return new();
-        try { return new DisplayPreferences((int)config.GetValue("display", "width", 1920),
+        // Migrate old playtest defaults once. Explicit settings saved by this
+        // version remain authoritative on subsequent launches.
+        try {
+            if ((int)config.GetValue("display", "version", 0) < 2) return new();
+            return new DisplayPreferences((int)config.GetValue("display", "width", 1920),
             (int)config.GetValue("display", "height", 1080), (bool)config.GetValue("display", "fullscreen", false)).Validated(); }
         catch (Exception) { return new(); }
     }
     public Error Save(string path = SettingsPath)
     {
         var value = Validated(); var config = new ConfigFile();
+        config.SetValue("display", "version", 2);
         config.SetValue("display", "width", value.Width); config.SetValue("display", "height", value.Height);
         config.SetValue("display", "fullscreen", value.Fullscreen); return config.Save(path);
     }
@@ -29,10 +34,12 @@ public sealed record DisplayPreferences(int Width = 1920, int Height = 1080, boo
         DisplayServer.WindowSetMode(DisplayServer.WindowMode.Windowed);
         DisplayServer.WindowSetFlag(DisplayServer.WindowFlags.ResizeDisabled, false);
         DisplayServer.WindowSetMinSize(new Vector2I(960, 540));
-        DisplayServer.WindowSetSize(new Vector2I(value.Width, value.Height));
         var screen = DisplayServer.WindowGetCurrentScreen();
-        DisplayServer.WindowSetPosition(DisplayServer.ScreenGetPosition(screen) +
-            (DisplayServer.ScreenGetSize(screen) - new Vector2I(value.Width, value.Height)) / 2);
+        var usable = DisplayServer.ScreenGetUsableRect(screen);
+        var scale = Math.Min(1.0, Math.Min((double)usable.Size.X / value.Width, (double)Math.Max(540, usable.Size.Y - 40) / value.Height));
+        var size = new Vector2I((int)(value.Width * scale), (int)(value.Height * scale));
+        DisplayServer.WindowSetSize(size);
+        DisplayServer.WindowSetPosition(usable.Position + (usable.Size - size) / 2);
         if (value.Fullscreen) DisplayServer.WindowSetMode(DisplayServer.WindowMode.Fullscreen);
     }
 }
