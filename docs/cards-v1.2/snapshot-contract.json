@@ -38,7 +38,8 @@
       ],
       "specific_rule": "P可预演本位后的合法余烬机制；C到位才激活，从下一个抽牌阶段起的阶段末回烬不提前。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "聚烬成焰"
     },
     "余烬之核": {
       "element": "fire",
@@ -58,7 +59,8 @@
       ],
       "specific_rule": "P可预计主动耗烬治疗供预算；C按真实耗烬逐层治疗/实际恢复记资源，真实主弹≥160才回烬，不预支或双发。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "身为洪炉"
     },
     "灰烬循环": {
       "element": "fire",
@@ -78,7 +80,8 @@
       ],
       "specific_rule": "置顶与洗牌用锁定动作；卡牌耗烬的可确定下阶段奖励供P预算，正式只计已到位事件；主弹未来耗烬奖励不预支。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "灰烬循环"
     },
     "燃烧血统": {
       "element": "fire",
@@ -93,7 +96,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "焚天神兵"
     },
     "燎原": {
       "element": "fire",
@@ -108,7 +112,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "星火燎原"
     },
     "不灭烈焰": {
       "element": "fire",
@@ -123,7 +128,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "拾火"
     },
     "余烬引擎": {
       "element": "fire",
@@ -138,7 +144,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "回炉重造"
     },
     "余烬心脏": {
       "element": "fire",
@@ -163,7 +170,8 @@
       ],
       "specific_rule": "P锁30%生命混合分支及下阶段抽牌承诺；C沿已锁分支处理余烬/治疗，治疗量按正式失血计算，不临时改分支。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "烬中搏动"
     },
     "压缩爆燃": {
       "element": "fire",
@@ -178,7 +186,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "聚爆"
     },
     "灰烬重生": {
       "element": "fire",
@@ -193,7 +202,8 @@
       ],
       "specific_rule": "P洗牌动作与可确定洗牌奖励登记一次；C正式激活门槛成立后提交资源，不再次随机洗牌。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "拨灰续火"
     },
     "焚心": {
       "element": "fire",
@@ -218,7 +228,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "吞烬"
     },
     "爆燃": {
       "element": "fire",
@@ -233,7 +244,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "炽焰"
     },
     "狂暴": {
       "element": "fire",
@@ -253,7 +265,8 @@
       ],
       "specific_rule": "P只预演生命支出；C按正式当前生命支付5%保1，本位加临时30攻击，不提前为前位卡加攻。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "怒焰"
     },
     "熔盾烈焰": {
       "element": "fire",
@@ -268,7 +281,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "高温炼化"
     },
     "余火": {
       "element": "fire",
@@ -283,7 +297,8 @@
       ],
       "specific_rule": "P锁抽到实例、首次资格和本阶段−1费；未到位尾段的首次不能先写入真实状态。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "添柴"
     },
     "余烬刻度": {
       "element": "fire",
@@ -308,7 +323,8 @@
       ],
       "specific_rule": "P锁火层≥6给余烬或下阶段抽1；不得因C状态变化改分支。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "试我火候"
     },
     "余烬护心": {
       "element": "fire",
@@ -338,7 +354,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "余温护心"
     },
     "回火": {
       "element": "fire",
@@ -353,7 +370,8 @@
       ],
       "specific_rule": "P检查本阶段此前洗牌与火专精前缀激活；未到位的洗牌/能力不倒算到早位。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "回灶"
     },
     "导火索": {
       "element": "fire",
@@ -373,7 +391,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "导火索"
     },
     "战意": {
       "element": "fire",
@@ -388,7 +407,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "火势"
     },
     "火种库": {
       "element": "fire",
@@ -403,7 +423,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "火种书签"
     },
     "灰烬账本": {
       "element": "fire",
@@ -423,7 +444,8 @@
       ],
       "specific_rule": "P锁兑换或下阶段抽2的混合分支；C兑换不超过真实可用次数，未真实兑换不补造余烬，也不切换为另一分支抽牌。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "灰烬账本"
     },
     "烈焰附身": {
       "element": "fire",
@@ -438,7 +460,8 @@
       ],
       "specific_rule": "从正式位次起影响真实治疗及真实潮汐，不能追回对方已锁手牌/费用。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "火毒"
     },
     "燃血": {
       "element": "fire",
@@ -458,7 +481,8 @@
       ],
       "specific_rule": "C按正式当前生命支付5%保1，按本位真实激活状态获余烬并登记下一发+15%；P只预算，不额外发资源。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "燃血"
     },
     "高温炉心": {
       "element": "fire",
@@ -473,7 +497,8 @@
       ],
       "specific_rule": "下一发按C本发实耗余烬及有效攻击计算直接加伤；P不预支消费收益。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "高温炉芯"
     },
     "火种翻找": {
       "element": "fire",
@@ -488,7 +513,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "逐火"
     },
     "火花": {
       "element": "fire",
@@ -503,7 +529,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "火花"
     },
     "烈焰冲刺": {
       "element": "fire",
@@ -518,7 +545,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "催火"
     },
     "猛火弹": {
       "element": "fire",
@@ -533,7 +561,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "猛火弹"
     },
     "引火": {
       "element": "fire",
@@ -548,7 +577,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "指尖火苗"
     },
     "燃页": {
       "element": "fire",
@@ -568,7 +598,8 @@
       ],
       "specific_rule": "P锁抽1；C到位按当时生命支付3%并保1，实付0仍抽1，不虚记支付；本位登记下一发+10%。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "燃页"
     },
     "潮汐之心": {
       "element": "water",
@@ -598,7 +629,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "沧海横流"
     },
     "潮汐回响": {
       "element": "water",
@@ -646,9 +678,10 @@
           "formal": "到位才按C原公式支付，不超当前存量，生命保留1；纯战斗收益依实耗，手牌/费用承诺不追缴。"
         }
       ],
-      "specific_rule": "主弹前生命支付是C事件，按当时实际支付100%转伤并保1；不在P先扣、不触发仅限卡牌支付的细流。",
+      "specific_rule": "主弹前生命支付是C事件，按当时实际支付100%转伤并保1；不在P先扣、不触发仅限卡牌支付的溯洄。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "浴血狂澜"
     },
     "回响之潮": {
       "element": "water",
@@ -678,7 +711,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "湍流"
     },
     "水幕": {
       "element": "water",
@@ -693,7 +727,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "浸润"
     },
     "泉心": {
       "element": "water",
@@ -708,7 +743,8 @@
       ],
       "specific_rule": "P预估失血治疗用于预算；C按真实失血15%恢复，实际恢复记录潮汐时增加100%，只记真实事件一次。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "泉眼"
     },
     "洪潮": {
       "element": "water",
@@ -758,7 +794,8 @@
       ],
       "specific_rule": "纯伤害兑换读C真实耗潮，0不伤；不享受主弹增益/吸血，不改变锁定的后续运转。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "风暴潮"
     },
     "血潮汹涌": {
       "element": "water",
@@ -793,7 +830,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "观潮"
     },
     "洪流": {
       "element": "water",
@@ -808,7 +846,8 @@
       ],
       "specific_rule": "P只预算后续运转；C按本位正式激活的潮汐之心决定给潮汐或治疗，实际资源只记一次。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "巨浪奔涌"
     },
     "涌泉": {
       "element": "water",
@@ -843,7 +882,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "深潜"
     },
     "潮声": {
       "element": "water",
@@ -863,7 +903,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "听潮"
     },
     "潮汐回廊": {
       "element": "water",
@@ -903,7 +944,8 @@
       ],
       "specific_rule": "P锁耗潮换下阶段2费/否则治疗分支；C兑现同一分支，兑换最多实耗30，少耗仍兑现承诺费，深渊只认实耗，不造30潮汐。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "凭潮"
     },
     "穿潮": {
       "element": "water",
@@ -918,7 +960,8 @@
       ],
       "specific_rule": "本位登记下一发状态；主弹发射时按C该发实耗潮汐≥50判40%/65%，不预判未来耗潮。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "破浪"
     },
     "血刃": {
       "element": "water",
@@ -953,7 +996,8 @@
       ],
       "specific_rule": "C按正式50%生命门槛与真实水层给5倍/10倍潮汐；P只作预算，不增发差额。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "背水"
     },
     "连环潮": {
       "element": "water",
@@ -986,9 +1030,10 @@
           "formal": "所有正式治疗按C原公式、减治疗与失血上限恢复，潮汐等只按真实有效恢复记一次；不补造P预算。"
         }
       ],
-      "specific_rule": "P只预算预计首次有效恢复的潮汐，用于锁后续手牌/费用；C恢复>0才消费真实静水，0不消费，P不预占真实触发权、不重复发资源。",
+      "specific_rule": "P只预算预计首次有效恢复的潮汐，用于锁后续手牌/费用；C恢复>0才消费真实涟漪，0不消费，P不预占真实触发权、不重复发资源。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "涟漪"
     },
     "水之低语": {
       "element": "water",
@@ -1003,7 +1048,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "塑水"
     },
     "泉眼": {
       "element": "water",
@@ -1018,7 +1064,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "润物"
     },
     "潮涌": {
       "element": "water",
@@ -1038,7 +1085,8 @@
       ],
       "specific_rule": "主动35治疗依P/C分层；附加盾在真实下一发主弹耗潮后按实耗50%获得，不能在本轮P提前用该未来盾。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "回流"
     },
     "细流": {
       "element": "water",
@@ -1051,9 +1099,10 @@
           "formal": "所有正式治疗按C原公式、减治疗与失血上限恢复，潮汐等只按真实有效恢复记一次；不补造P预算。"
         }
       ],
-      "specific_rule": "P预计后续卡牌支付及恢复以锁后续运转；C只认本阶段真实卡牌支付，按实付50%恢复，实付0不消费细流；不预留真实触发权，主弹支付不触发。",
+      "specific_rule": "P预计后续卡牌支付及恢复以锁后续运转；C只认本阶段真实卡牌支付，按实付50%恢复，实付0不消费溯洄；不预留真实触发权，主弹支付不触发。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "溯洄"
     },
     "活水": {
       "element": "water",
@@ -2098,7 +2147,8 @@
       ],
       "specific_rule": "正式激活后按真实毒层动态派生减攻防；不能用P末态毒层覆盖真实净化结果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "瘟疫领主"
     },
     "毒爆": {
       "element": "poison",
@@ -2113,7 +2163,8 @@
       ],
       "specific_rule": "正式激活后每层真实增减+2攻击；P可演算自己确定的主动变化但其攻击预测不复制到C；净化/消耗去重。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "以毒淬锋"
     },
     "瘟潮": {
       "element": "poison",
@@ -2128,7 +2179,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "瘟疫之潮"
     },
     "蚀命": {
       "element": "poison",
@@ -2143,12 +2195,13 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "蚕食生机"
     },
     "蚀骨": {
       "element": "poison",
       "rarity": "legendary",
-      "card_text": "自然衰减保留最后1毒层，主动消耗和净化仍可清空；毒层自然衰减间隔增加100%，与其他同类增幅加算。激活万毒之源后，其减攻/减防系数改为1.0/0.6。",
+      "card_text": "自然衰减保留最后1毒层，主动消耗和净化仍可清空；毒层自然衰减间隔增加100%，与其他同类增幅加算。激活瘟疫领主后，其减攻/减防系数改为1.0/0.6。",
       "roles": [
         {
           "role": "能力与真实事件",
@@ -2158,7 +2211,8 @@
       ],
       "specific_rule": "保最后1层及延迟衰减只对真实时间线生效；P不额外推进自然衰减。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "附骨之毒"
     },
     "万毒爆": {
       "element": "poison",
@@ -2178,7 +2232,8 @@
       ],
       "specific_rule": "按Ck确认全部耗毒、消耗前真实攻击/防御计算4倍原值；Ck无毒不伤。同位净化不取消已确认伤害，真实减层合并去重，不提交P预测成长。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "毒爆"
     },
     "万毒蚀骨": {
       "element": "poison",
@@ -2206,9 +2261,10 @@
           "formal": "本位提交真实消耗和伤害；双方同位已提交效果完成后检查死亡/复活；耗量为0不制造兑换伤害。"
         }
       ],
-      "specific_rule": "C按真实毒层触发常规毒伤，0层不伤；实际才能消耗腐息额外次数，不预演真实伤害。",
+      "specific_rule": "C按真实毒层触发常规毒伤，0层不伤；实际才能消耗溃败额外次数，不预演真实伤害。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "蚀心"
     },
     "毒潮": {
       "element": "poison",
@@ -2228,7 +2284,8 @@
       ],
       "specific_rule": "按Ck确认的至多2层算2倍原值；同位净化不追溯取消本位消费资格，前位净化可以削弱。真实毒层减少不重复统计。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "烈性反应"
     },
     "毒龙": {
       "element": "poison",
@@ -2243,7 +2300,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "蛇吻"
     },
     "疫病": {
       "element": "poison",
@@ -2273,7 +2331,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "毒入膏肓"
     },
     "缓释毒素": {
       "element": "poison",
@@ -2288,7 +2347,8 @@
       ],
       "specific_rule": "本位正式生效后更新真实衰减间隔并保留进度，不补跳或提前触发下阶段毒伤。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "慢性毒药"
     },
     "固毒": {
       "element": "poison",
@@ -2318,7 +2378,8 @@
       ],
       "specific_rule": "P锁3层回1费、6层额外抽1的两道门槛；C被净化不追回费或牌。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "毒物滋养"
     },
     "毒囊": {
       "element": "poison",
@@ -2373,7 +2434,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "催命"
     },
     "腐息": {
       "element": "poison",
@@ -2388,7 +2450,8 @@
       ],
       "specific_rule": "只有真实毒伤触发才一并消费额外次数；额外段不递归；P不制造毒伤或提前扣次数。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "溃败"
     },
     "腐溃": {
       "element": "poison",
@@ -2403,7 +2466,8 @@
       ],
       "specific_rule": "C按正式当前毒层记录8+3.5×毒层主弹临攻；发射后清除，不传给副弹。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "催枯"
     },
     "腐潮": {
       "element": "poison",
@@ -2418,7 +2482,8 @@
       ],
       "specific_rule": "C按正式毒层及真实失血计算治疗，受减疗与上限；P预计只用于运转承诺。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "彼毒我药"
     },
     "蚀创": {
       "element": "poison",
@@ -2453,7 +2518,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "入髓"
     },
     "寻毒": {
       "element": "poison",
@@ -2468,7 +2534,8 @@
       ],
       "specific_rule": "按本卡原文数值执行上述角色绑定；固定面板、首次层和能力仅正式到位生效，死亡截断尾段无效果。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "寻药"
     },
     "毒瓶": {
       "element": "poison",
@@ -2488,7 +2555,8 @@
       ],
       "specific_rule": "P可预算直接施毒供后续运转；C按正式生命支付5%保1并直接施毒2；实际变化才计成长。",
       "commit_scope": "reached_prefix_only",
-      "runtime_migrated": true
+      "runtime_migrated": true,
+      "display_name": "涂毒"
     },
     "毒针": {
       "element": "poison",
@@ -2511,7 +2579,7 @@
           "formal": "只由正式前缀建立；阶段末次数按真实成功出牌统计，死后尾段不计数；下一阶段按新S0兑现。"
         }
       ],
-      "specific_rule": "正式到位才登记下阶段施毒；在下一阶段常规毒伤之前施加，当前P不把未来毒层用于枯潮/循毒。",
+      "specific_rule": "正式到位才登记下阶段施毒；在下一阶段常规毒伤之前施加，当前P不把未来毒层用于毒物滋养/循毒。",
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
