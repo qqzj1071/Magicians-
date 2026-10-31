@@ -135,5 +135,13 @@
     "bytes": 73428275,
     "sha256": "c24bda9e1f5d07ae696713fafbaacfcf9750b587d87d2f26681555b58705ad52"
   },
-  "historical_evidence": "Frozen ZIPs contain retired source only; no interpreter or executable Python is used or distributed."
+  "historical_evidence": "Frozen ZIPs contain retired source only; no interpreter or executable Python is used or distributed.",
+  "active_csharp_source_files": 64,
+  "cleanup": {
+    "deleted_targets": 300,
+    "deleted_bytes": 4153362690.0,
+    "old_programs_removed": true,
+    "embedded_python_environments_removed": true,
+    "evidence_directory": "runtime/validation-20261031"
+  }
 }

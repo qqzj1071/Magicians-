@@ -48,6 +48,6 @@
 
 本地验证包：`D:/Magicians!/_installers/Magicians-v1.2-CSharp-Windows-x64/Magicians.exe`。当前发行清单已更新，完整验证摘要见validation-20261031.json。回归入口和桌面快捷方式也统一改为C#命令，已移除剩余PowerShell源码。构建和使用方式见development.md。
 
-主要日志位于外层工作区runtime：canonical-native-test-offline.log、canonical-client-regressions-direct.log、canonical-transition.log、canonical-flavor.log、canonical-training-smoke、canonical-build-portable.log。源码迁移前的原项目快照为runtime/pre-csharp-source.zip，不属于活动代码或分发包。
+主要验证证据已整理到外层runtime/validation-20261031，包括客户端回归、图形截图、358局训练摘要、发行包审计和cleanup-manifest.json。旧混合版程序、临时源码、过渡备份与嵌入式Python环境已删除；当前源码由Git main和源码ZIP保存，规则来源由只读冻结证据保存。
 
 以上为有限回归和小预算训练，不代表穷尽所有组合或完成原大规模训练；本次未调整规则、数值或模型，也未接入实时联机。
