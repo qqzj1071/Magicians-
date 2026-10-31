@@ -27,6 +27,9 @@ public partial class CardView : PanelContainer
         var notes = GetNode<Label>("Margin/Column/Details/Text/RuleNotes");
         notes.Text = string.Join("\n", profile.RuleNotes);
         notes.Visible = profile.RuleNotes.Length > 0;
+        var flavor = GetNode<Label>("Margin/Column/Details/Text/Flavor");
+        flavor.Text = profile.FlavorText;
+        flavor.Visible = profile.FlavorText.Length > 0;
         GetNode<Label>("Margin/Column/Price").Text = profile.Rarity == "specialization" ? "专精赠牌（不出售）" : freePurchase
             ? $"本轮免费 · 原价{studyPrice ?? profile.BaseStudyCost}研习点"
             : $"购买：{studyPrice ?? profile.BaseStudyCost} 研习点";

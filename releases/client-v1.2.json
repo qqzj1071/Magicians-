@@ -1,24 +1,35 @@
 {
   "version": "1.2",
+  "edition": "canonical-csharp",
   "status": "accepted",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "platform": "windows-x86_64",
-  "package": "Magicians-v1.2-Windows-20261030.zip",
-  "sha256": "2cd39f6a2a0e9ebb7836730f7840a5f8cb6faf988e4bf3e95930e02f69611bdb",
-  "size_bytes": 84604201,
+  "package": "Magicians-v1.2-CSharp-Windows-x64.zip",
+  "sha256": "c24bda9e1f5d07ae696713fafbaacfcf9750b587d87d2f26681555b58705ad52",
+  "size_bytes": 73428275,
   "entry_point": "Magicians.exe",
-  "python": "bundled 3.12.10",
+  "runtime": "native-csharp",
+  "python_required": false,
   "cards": 183,
   "stock": 677,
   "models": "ai-v1.2-six-styles-20261029",
-  "supersedes": [
-    "1.0",
-    "1.1"
-  ],
-  "historical_archive": {
-    "source_archive": "project-before-v1.2-promotion-20261030.zip",
-    "source_sha256": "8b52b5cbe82a4aacee2585519418879465f2f911e80e0609377d4b5ae2a09583",
-    "location": "D:/Magicians!/_history",
-    "installer_archive": "obsolete-installers-20261030.zip"
+  "release_tag": "v1.2-csharp-canonical-20261031",
+  "download_url": "https://github.com/qqzj1071/Magicians-/releases/download/v1.2-csharp-canonical-20261031/Magicians-v1.2-CSharp-Windows-x64.zip",
+  "source_url": "https://github.com/qqzj1071/Magicians-/releases/download/v1.2-csharp-canonical-20261031/Magicians-v1.2-CSharp-Source.zip",
+  "content": "Latest canonical runtime card names; 25 elemental legendary/specialization flavor texts; native C# game and tools",
+  "validation": {
+    "card_scenarios": 366,
+    "battles": 15,
+    "tournaments": 7,
+    "business_operations": 1214,
+    "protocol_requests": 27,
+    "training_parity_checks": 41647,
+    "training_smoke_episodes": 358,
+    "manual_tournament_steps": 609,
+    "godot_scenes": 7,
+    "graphical_transitions": true,
+    "flavor_cards": 25,
+    "packaged_python_disabled_smoke": true,
+    "package_integrity": true
   }
 }

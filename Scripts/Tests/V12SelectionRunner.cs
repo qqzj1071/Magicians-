@@ -17,6 +17,13 @@ public partial class V12SelectionRunner : Node
                 if(kind=="select")
                 {
                     if(d.GetProperty("candidates").GetArrayLength()<2)throw new Exception("Trivial choice should auto-complete");
+                    foreach(var pair in Walk(scene).OfType<CardView>().Zip(d.GetProperty("candidates").EnumerateArray()))
+                    {
+                        var applied=pair.Second.GetProperty("enchantment_applied").GetBoolean();
+                        var expected=!applied && pair.Second.GetProperty("layers").GetInt32()>0 ? new Color("ffd166") : Colors.White;
+                        if(pair.First.GetNode<Label>("Margin/Column/Title").GetThemeColor("font_color")!=expected)
+                            throw new Exception("Selection first enchantment highlight incorrect");
+                    }
                     var button=Walk(scene).OfType<Button>().First(b=>b.Text=="选择 / 取消");button.EmitSignal(Button.SignalName.Pressed);
                     var selected=Walk(scene).OfType<CardView>().Where(c=>((StyleBoxFlat)c.GetThemeStylebox("panel")).BorderColor==new Color("ffd166")).ToArray();
                     if(selected.Length!=1)throw new Exception("Selected border not highlighted");

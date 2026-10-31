@@ -3,7 +3,7 @@
   "game_version": "1.2",
   "card_count": 183,
   "pool_copies": 677,
-  "cards_sha256": "200c31d068acc74780a7ec19c2e00c6ae88c21941333cfd01fa98d3363d28f35",
+  "cards_sha256": "b243096c26223f137b6a791c5951656a2fd3c6cf7ac1842f58b5c3e6286b102a",
   "selection": "validation-selected before sealed final; no global optimality claim",
   "research": "research\\v1.2-six-style-1000-20261029",
   "default_client_changed": false,

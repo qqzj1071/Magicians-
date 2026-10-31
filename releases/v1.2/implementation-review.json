@@ -1,7 +1,7 @@
 {
-  "炽焰王冠": {
+  "聚烬成焰": {
     "card": {
-      "name": "炽焰王冠",
+      "name": "聚烬成焰",
       "cost": 2,
       "attack": 22,
       "defense": 0,
@@ -19,16 +19,16 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "余烬之核": {
+  "身为洪炉": {
     "card": {
-      "name": "余烬之核",
+      "name": "身为洪炉",
       "cost": 2,
       "attack": 15,
       "defense": 3,
       "layers": 1,
       "element": "fire",
       "rarity": "legendary",
-      "text": "已激活炽焰王冠时，主弹完成防御与增减伤结算后的待分配伤害达到140，结算后获得1余烬，包含盾伤部分。每实际消耗1余烬，回复当时已损失生命的10%，逐层结算。",
+      "text": "已激活聚烬成焰时，主弹完成防御与增减伤结算后的待分配伤害达到140，结算后获得1余烬，包含盾伤部分。每实际消耗1余烬，回复当时已损失生命的10%，逐层结算。",
       "kind": "route_legendary",
       "ability": true
     },
@@ -48,7 +48,7 @@
       "layers": 1,
       "element": "fire",
       "rarity": "legendary",
-      "text": "打出本牌或炽焰王冠时，若另一张仍在摸牌堆且本阶段尚未抽到，将其置顶。已激活炽焰王冠时，每次洗牌获得2余烬；每实际消耗1余烬，下个抽牌阶段多抽1张、多获得1费。每个抽牌阶段累计最多奖励3张、3费，超出部分不结转。",
+      "text": "打出本牌或聚烬成焰时，若另一张仍在摸牌堆且本阶段尚未抽到，将其置顶。已激活聚烬成焰时，每次洗牌获得2余烬；每实际消耗1余烬，下个抽牌阶段多抽1张、多获得1费。每个抽牌阶段累计最多奖励3张、3费，超出部分不结转。",
       "kind": "route_legendary",
       "ability": true
     },
@@ -59,16 +59,16 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "燃烧血统": {
+  "焚天神兵": {
     "card": {
-      "name": "燃烧血统",
+      "name": "焚天神兵",
       "cost": 2,
       "attack": 13,
       "defense": 3,
       "layers": 1,
       "element": "fire",
       "rarity": "legendary",
-      "text": "本场主弹的攻击力成分乘以1.8；攻击间隔的百分比修正增加100%。已激活炽焰王冠时，主弹余烬增伤系数改为每火附魔层、每实际消耗余烬3%。",
+      "text": "本场主弹的攻击力成分乘以1.8；攻击间隔的百分比修正增加100%。已激活聚烬成焰时，主弹余烬增伤系数改为每火附魔层、每实际消耗余烬3%。",
       "kind": "route_legendary",
       "ability": true
     },
@@ -79,9 +79,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "燎原": {
+  "星火燎原": {
     "card": {
-      "name": "燎原",
+      "name": "星火燎原",
       "cost": 2,
       "attack": 14,
       "defense": 3,
@@ -99,9 +99,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "不灭烈焰": {
+  "拾火": {
     "card": {
-      "name": "不灭烈焰",
+      "name": "拾火",
       "cost": 1,
       "attack": 8,
       "defense": 1,
@@ -119,9 +119,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "余烬引擎": {
+  "回炉重造": {
     "card": {
-      "name": "余烬引擎",
+      "name": "回炉重造",
       "cost": 1,
       "attack": 6,
       "defense": 1,
@@ -139,9 +139,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "余烬心脏": {
+  "烬中搏动": {
     "card": {
-      "name": "余烬心脏",
+      "name": "烬中搏动",
       "cost": 2,
       "attack": 13,
       "defense": 1,
@@ -159,9 +159,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "压缩爆燃": {
+  "聚爆": {
     "card": {
-      "name": "压缩爆燃",
+      "name": "聚爆",
       "cost": 2,
       "attack": 13,
       "defense": 1,
@@ -179,16 +179,16 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "灰烬重生": {
+  "拨灰续火": {
     "card": {
-      "name": "灰烬重生",
+      "name": "拨灰续火",
       "cost": 1,
       "attack": 8,
       "defense": 1,
       "layers": 1,
       "element": "fire",
       "rarity": "epic",
-      "text": "洗混摸牌堆与弃牌堆；已激活炽焰王冠时，获得1余烬。",
+      "text": "洗混摸牌堆与弃牌堆；已激活聚烬成焰时，获得1余烬。",
       "kind": "normal",
       "ability": false
     },
@@ -199,9 +199,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "焚心": {
+  "吞烬": {
     "card": {
-      "name": "焚心",
+      "name": "吞烬",
       "cost": 2,
       "attack": 16,
       "defense": 0,
@@ -219,9 +219,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "爆燃": {
+  "炽焰": {
     "card": {
-      "name": "爆燃",
+      "name": "炽焰",
       "cost": 1,
       "attack": 8,
       "defense": 1,
@@ -239,9 +239,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "狂暴": {
+  "怒焰": {
     "card": {
-      "name": "狂暴",
+      "name": "怒焰",
       "cost": 1,
       "attack": 11,
       "defense": 0,
@@ -259,9 +259,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "熔盾烈焰": {
+  "高温炼化": {
     "card": {
-      "name": "熔盾烈焰",
+      "name": "高温炼化",
       "cost": 3,
       "attack": 11,
       "defense": 2,
@@ -279,9 +279,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "余火": {
+  "添柴": {
     "card": {
-      "name": "余火",
+      "name": "添柴",
       "cost": 1,
       "attack": 6,
       "defense": 0,
@@ -299,9 +299,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "余烬刻度": {
+  "试我火候": {
     "card": {
-      "name": "余烬刻度",
+      "name": "试我火候",
       "cost": 1,
       "attack": 3,
       "defense": 3,
@@ -319,9 +319,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "余烬护心": {
+  "余温护心": {
     "card": {
-      "name": "余烬护心",
+      "name": "余温护心",
       "cost": 1,
       "attack": 8,
       "defense": 0,
@@ -339,16 +339,16 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "回火": {
+  "回灶": {
     "card": {
-      "name": "回火",
+      "name": "回灶",
       "cost": 1,
       "attack": 0,
       "defense": 6,
       "layers": 1,
       "element": "fire",
       "rarity": "rare",
-      "text": "本阶段此前已洗牌且已激活炽焰王冠时，获得1余烬。",
+      "text": "本阶段此前已洗牌且已激活聚烬成焰时，获得1余烬。",
       "kind": "normal",
       "ability": false
     },
@@ -379,9 +379,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "战意": {
+  "火势": {
     "card": {
-      "name": "战意",
+      "name": "火势",
       "cost": 1,
       "attack": 8,
       "defense": 0,
@@ -399,9 +399,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "火种库": {
+  "火种书签": {
     "card": {
-      "name": "火种库",
+      "name": "火种书签",
       "cost": 2,
       "attack": 9,
       "defense": 0,
@@ -439,9 +439,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "烈焰附身": {
+  "火毒": {
     "card": {
-      "name": "烈焰附身",
+      "name": "火毒",
       "cost": 1,
       "attack": 6,
       "defense": 2,
@@ -468,7 +468,7 @@
       "layers": 1,
       "element": "fire",
       "rarity": "rare",
-      "text": "支付当前生命的5%，向上取整且至少保留1生命；已激活炽焰王冠时获得1余烬；下一发主弹普通增伤增加15%。",
+      "text": "支付当前生命的5%，向上取整且至少保留1生命；已激活聚烬成焰时获得1余烬；下一发主弹普通增伤增加15%。",
       "kind": "normal",
       "ability": false
     },
@@ -479,9 +479,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "高温炉心": {
+  "高温炉芯": {
     "card": {
-      "name": "高温炉心",
+      "name": "高温炉芯",
       "cost": 1,
       "attack": 9,
       "defense": 0,
@@ -499,9 +499,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "火种翻找": {
+  "逐火": {
     "card": {
-      "name": "火种翻找",
+      "name": "逐火",
       "cost": 1,
       "attack": 5,
       "defense": 0,
@@ -539,9 +539,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "烈焰冲刺": {
+  "催火": {
     "card": {
-      "name": "烈焰冲刺",
+      "name": "催火",
       "cost": 1,
       "attack": 6,
       "defense": 0,
@@ -579,9 +579,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "引火": {
+  "指尖火苗": {
     "card": {
-      "name": "引火",
+      "name": "指尖火苗",
       "cost": 0,
       "attack": 3,
       "defense": 0,
@@ -639,9 +639,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "深渊潮": {
+  "沧海横流": {
     "card": {
-      "name": "深渊潮",
+      "name": "沧海横流",
       "cost": 2,
       "attack": 11,
       "defense": 5,
@@ -699,9 +699,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "血潮": {
+  "浴血狂澜": {
     "card": {
-      "name": "血潮",
+      "name": "浴血狂澜",
       "cost": 2,
       "attack": 9,
       "defense": 6,
@@ -739,9 +739,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "奔流": {
+  "湍流": {
     "card": {
-      "name": "奔流",
+      "name": "湍流",
       "cost": 3,
       "attack": 5,
       "defense": 6,
@@ -759,9 +759,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "水幕": {
+  "浸润": {
     "card": {
-      "name": "水幕",
+      "name": "浸润",
       "cost": 1,
       "attack": 7,
       "defense": 2,
@@ -779,9 +779,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "泉心": {
+  "泉眼": {
     "card": {
-      "name": "泉心",
+      "name": "泉眼",
       "cost": 1,
       "attack": 5,
       "defense": 4,
@@ -839,9 +839,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "潮汐风暴": {
+  "风暴潮": {
     "card": {
-      "name": "潮汐风暴",
+      "name": "风暴潮",
       "cost": 2,
       "attack": 6,
       "defense": 7,
@@ -879,9 +879,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "回流": {
+  "观潮": {
     "card": {
-      "name": "回流",
+      "name": "观潮",
       "cost": 1,
       "attack": 4,
       "defense": 1,
@@ -899,9 +899,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "洪流": {
+  "巨浪奔涌": {
     "card": {
-      "name": "洪流",
+      "name": "巨浪奔涌",
       "cost": 2,
       "attack": 8,
       "defense": 3,
@@ -939,9 +939,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "深流": {
+  "深潜": {
     "card": {
-      "name": "深流",
+      "name": "深潜",
       "cost": 1,
       "attack": 6,
       "defense": 1,
@@ -959,9 +959,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "潮声": {
+  "听潮": {
     "card": {
-      "name": "潮声",
+      "name": "听潮",
       "cost": 1,
       "attack": 3,
       "defense": 3,
@@ -999,9 +999,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "疾流": {
+  "凭潮": {
     "card": {
-      "name": "疾流",
+      "name": "凭潮",
       "cost": 1,
       "attack": 4,
       "defense": 2,
@@ -1019,9 +1019,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "穿潮": {
+  "破浪": {
     "card": {
-      "name": "穿潮",
+      "name": "破浪",
       "cost": 2,
       "attack": 7,
       "defense": 4,
@@ -1059,9 +1059,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "血怒": {
+  "背水": {
     "card": {
-      "name": "血怒",
+      "name": "背水",
       "cost": 2,
       "attack": 12,
       "defense": 0,
@@ -1099,9 +1099,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "静水": {
+  "涟漪": {
     "card": {
-      "name": "静水",
+      "name": "涟漪",
       "cost": 1,
       "attack": 1,
       "defense": 5,
@@ -1119,9 +1119,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "水之低语": {
+  "塑水": {
     "card": {
-      "name": "水之低语",
+      "name": "塑水",
       "cost": 1,
       "attack": 5,
       "defense": 0,
@@ -1139,9 +1139,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "泉眼": {
+  "润物": {
     "card": {
-      "name": "泉眼",
+      "name": "润物",
       "cost": 1,
       "attack": 3,
       "defense": 2,
@@ -1159,9 +1159,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "潮涌": {
+  "回流": {
     "card": {
-      "name": "潮涌",
+      "name": "回流",
       "cost": 2,
       "attack": 9,
       "defense": 0,
@@ -1179,16 +1179,16 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "细流": {
+  "溯洄": {
     "card": {
-      "name": "细流",
+      "name": "溯洄",
       "cost": 1,
       "attack": 5,
       "defense": 0,
       "layers": 1,
       "element": "water",
       "rarity": "common",
-      "text": "回复30生命；本阶段下一次通过卡牌实际支付生命后，回复实际支付量50%的生命。重复打出的回复比例相加，在同一次有效支付后一并结算并清除；支付量为0不消耗，血潮主弹支付不触发。",
+      "text": "回复30生命；本阶段下一次通过卡牌实际支付生命后，回复实际支付量50%的生命。重复打出的回复比例相加，在同一次有效支付后一并结算并清除；支付量为0不消耗，浴血狂澜主弹支付不触发。",
       "kind": "normal",
       "ability": false
     },
@@ -1239,9 +1239,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "反震岩核": {
+  "破而后立": {
     "card": {
-      "name": "反震岩核",
+      "name": "破而后立",
       "cost": 2,
       "attack": 6,
       "defense": 8,
@@ -1259,9 +1259,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "壁垒之心": {
+  "以守为攻": {
     "card": {
-      "name": "壁垒之心",
+      "name": "以守为攻",
       "cost": 2,
       "attack": 7,
       "defense": 6,
@@ -1279,9 +1279,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "大地之握": {
+  "聚砾成锋": {
     "card": {
-      "name": "大地之握",
+      "name": "聚砾成锋",
       "cost": 2,
       "attack": 6,
       "defense": 8,
@@ -1299,9 +1299,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "山崩": {
+  "重峦叠嶂": {
     "card": {
-      "name": "山崩",
+      "name": "重峦叠嶂",
       "cost": 2,
       "attack": 8,
       "defense": 7,
@@ -1339,9 +1339,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "不坏壁垒": {
+  "固若金汤": {
     "card": {
-      "name": "不坏壁垒",
+      "name": "固若金汤",
       "cost": 2,
       "attack": 13,
       "defense": 1,
@@ -1359,9 +1359,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "回震岩甲": {
+  "屡毁屡筑": {
     "card": {
-      "name": "回震岩甲",
+      "name": "屡毁屡筑",
       "cost": 2,
       "attack": 13,
       "defense": 1,
@@ -1379,9 +1379,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "山岳之躯": {
+  "卸甲养伤": {
     "card": {
-      "name": "山岳之躯",
+      "name": "卸甲养伤",
       "cost": 1,
       "attack": 5,
       "defense": 4,
@@ -1399,9 +1399,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "山岳壁垒": {
+  "步步为营": {
     "card": {
-      "name": "山岳壁垒",
+      "name": "步步为营",
       "cost": 2,
       "attack": 1,
       "defense": 9,
@@ -1419,9 +1419,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "岩核重压": {
+  "挟山一击": {
     "card": {
-      "name": "岩核重压",
+      "name": "挟山一击",
       "cost": 1,
       "attack": 8,
       "defense": 1,
@@ -1439,9 +1439,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "岩潮壁垒": {
+  "流沙成岩": {
     "card": {
-      "name": "岩潮壁垒",
+      "name": "流沙成岩",
       "cost": 1,
       "attack": 5,
       "defense": 4,
@@ -1459,9 +1459,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "层岩结构": {
+  "积土成山": {
     "card": {
-      "name": "层岩结构",
+      "name": "积土成山",
       "cost": 3,
       "attack": 2,
       "defense": 8,
@@ -1479,9 +1479,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "临时壁垒": {
+  "沙堡": {
     "card": {
-      "name": "临时壁垒",
+      "name": "沙堡",
       "cost": 1,
       "attack": 7,
       "defense": 1,
@@ -1499,9 +1499,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "回岩": {
+  "补墙": {
     "card": {
-      "name": "回岩",
+      "name": "补墙",
       "cost": 2,
       "attack": 7,
       "defense": 3,
@@ -1519,9 +1519,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "守岩": {
+  "固守": {
     "card": {
-      "name": "守岩",
+      "name": "固守",
       "cost": 1,
       "attack": 3,
       "defense": 4,
@@ -1539,9 +1539,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "山岳": {
+  "平地起垒": {
     "card": {
-      "name": "山岳",
+      "name": "平地起垒",
       "cost": 2,
       "attack": 7,
       "defense": 3,
@@ -1559,9 +1559,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "岩拳": {
+  "铺路": {
     "card": {
-      "name": "岩拳",
+      "name": "铺路",
       "cost": 1,
       "attack": 3,
       "defense": 2,
@@ -1579,9 +1579,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "岩核共鸣": {
+  "问山": {
     "card": {
-      "name": "岩核共鸣",
+      "name": "问山",
       "cost": 2,
       "attack": 11,
       "defense": 0,
@@ -1599,16 +1599,16 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "握盾": {
+  "碎石借势": {
     "card": {
-      "name": "握盾",
+      "name": "碎石借势",
       "cost": 2,
       "attack": 10,
       "defense": 1,
       "layers": 1,
       "element": "earth",
       "rarity": "rare",
-      "text": "获得80普通护盾；已激活大地之握时，下一发主弹的盾衰减转伤增幅增加100个百分点。同类增幅加算，本发结算后清除。",
+      "text": "获得80普通护盾；已激活聚砾成锋时，下一发主弹的盾衰减转伤增幅增加100个百分点。同类增幅加算，本发结算后清除。",
       "kind": "normal",
       "ability": false
     },
@@ -1619,9 +1619,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "盾脉": {
+  "夯实": {
     "card": {
-      "name": "盾脉",
+      "name": "夯实",
       "cost": 2,
       "attack": 1,
       "defense": 7,
@@ -1679,9 +1679,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "磐岩壁": {
+  "倚石养息": {
     "card": {
-      "name": "磐岩壁",
+      "name": "倚石养息",
       "cost": 1,
       "attack": 2,
       "defense": 4,
@@ -1699,16 +1699,16 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "裂岩护壁": {
+  "砺石": {
     "card": {
-      "name": "裂岩护壁",
+      "name": "砺石",
       "cost": 1,
       "attack": 3,
       "defense": 3,
       "layers": 1,
       "element": "earth",
       "rarity": "rare",
-      "text": "获得40普通护盾；下一发主弹额外获得本牌本次叠盾造成的旧盾实际衰减损失200%的直接加伤，无需激活大地之握；已激活时与该路线的转伤分别加算。",
+      "text": "获得40普通护盾；下一发主弹额外获得本牌本次叠盾造成的旧盾实际衰减损失200%的直接加伤，无需激活聚砾成锋；已激活时与该路线的转伤分别加算。",
       "kind": "normal",
       "ability": false
     },
@@ -1719,9 +1719,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "坚岩": {
+  "垒土": {
     "card": {
-      "name": "坚岩",
+      "name": "垒土",
       "cost": 1,
       "attack": 6,
       "defense": 0,
@@ -1739,9 +1739,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "寻岩": {
+  "探脉": {
     "card": {
-      "name": "寻岩",
+      "name": "探脉",
       "cost": 1,
       "attack": 5,
       "defense": 0,
@@ -1759,9 +1759,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "岩甲": {
+  "披坚": {
     "card": {
-      "name": "岩甲",
+      "name": "披坚",
       "cost": 1,
       "attack": 0,
       "defense": 4,
@@ -1779,9 +1779,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "磐石": {
+  "压阵": {
     "card": {
-      "name": "磐石",
+      "name": "压阵",
       "cost": 2,
       "attack": 0,
       "defense": 6,
@@ -1799,9 +1799,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "开岩": {
+  "凿石": {
     "card": {
-      "name": "开岩",
+      "name": "凿石",
       "cost": 1,
       "attack": 1,
       "defense": 2,
@@ -1839,9 +1839,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "疾风之刃": {
+  "长风不息": {
     "card": {
-      "name": "疾风之刃",
+      "name": "长风不息",
       "cost": 2,
       "attack": 13,
       "defense": 3,
@@ -1859,9 +1859,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "穿云箭": {
+  "穿云破阵": {
     "card": {
-      "name": "穿云箭",
+      "name": "穿云破阵",
       "cost": 2,
       "attack": 14,
       "defense": 4,
@@ -1879,16 +1879,16 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "风痕": {
+  "积风成灾": {
     "card": {
-      "name": "风痕",
+      "name": "积风成灾",
       "cost": 2,
       "attack": 16,
       "defense": 1,
       "layers": 1,
       "element": "wind",
       "rarity": "legendary",
-      "text": "已激活天岚时，主弹及普通加成副弹每段实际造成生命或护盾伤害后，叠加1层风痕，特定副弹按其词条叠层。天岚每第三发的真伤副弹位于本组全部普通副弹之后，攻击系数改为40%；该段结算后引爆并清空全部风痕。第k层伤害＝本次发射时有效攻击力×(12%＋(k−1)×2%)，各层合为一段真伤。",
+      "text": "已激活天岚时，主弹及普通加成副弹每段实际造成生命或护盾伤害后，叠加1层积风成灾，特定副弹按其词条叠层。天岚每第三发的真伤副弹位于本组全部普通副弹之后，攻击系数改为40%；该段结算后引爆并清空全部积风成灾。第k层伤害＝本次发射时有效攻击力×(12%＋(k−1)×2%)，各层合为一段真伤。",
       "kind": "route_legendary",
       "ability": true
     },
@@ -1899,9 +1899,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "飓风": {
+  "大风起兮": {
     "card": {
-      "name": "飓风",
+      "name": "大风起兮",
       "cost": 2,
       "attack": 16,
       "defense": 2,
@@ -1919,9 +1919,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "气旋护壁": {
+  "一息尚存": {
     "card": {
-      "name": "气旋护壁",
+      "name": "一息尚存",
       "cost": 0,
       "attack": 2,
       "defense": 2,
@@ -1979,16 +1979,16 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "穿云破甲": {
+  "风蚀": {
     "card": {
-      "name": "穿云破甲",
+      "name": "风蚀",
       "cost": 1,
       "attack": 9,
       "defense": 1,
       "layers": 1,
       "element": "wind",
       "rarity": "epic",
-      "text": "下一发射组的主弹、普通加成副弹及天岚真伤副弹，每段实际造成生命或护盾伤害后，使目标本场防御减少6；风痕引爆不触发。重复打出使每段减防量相加，本组发射后清除该资格，已造成的减防保留。",
+      "text": "下一发射组的主弹、普通加成副弹及天岚真伤副弹，每段实际造成生命或护盾伤害后，使目标本场防御减少6；积风成灾引爆不触发。重复打出使每段减防量相加，本组发射后清除该资格，已造成的减防保留。",
       "kind": "normal",
       "ability": false
     },
@@ -2028,7 +2028,7 @@
       "layers": 1,
       "element": "wind",
       "rarity": "epic",
-      "text": "移除自身全部毒层、风痕和可净化的临时负面效果；立即抽1张。毒层清空时，其派生的攻防减少自然解除；永久减防不被本牌移除。",
+      "text": "移除自身全部毒层、积风成灾和可净化的临时负面效果；立即抽1张。毒层清空时，其派生的攻防减少自然解除；永久减防不被本牌移除。",
       "kind": "normal",
       "ability": false
     },
@@ -2059,16 +2059,16 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "风痕回廊": {
+  "风过留痕": {
     "card": {
-      "name": "风痕回廊",
+      "name": "风过留痕",
       "cost": 2,
       "attack": 11,
       "defense": 0,
       "layers": 1,
       "element": "wind",
       "rarity": "epic",
-      "text": "下一发额外发射两段“固定100＋攻击力30%”的普通加成副弹。已激活风痕时，每段命中共叠2层风痕；计划时尚未激活风痕，则另锁定立即抽2张。",
+      "text": "下一发额外发射两段“固定100＋攻击力30%”的普通加成副弹。已激活积风成灾时，每段命中共叠2层积风成灾；计划时尚未激活积风成灾，则另锁定立即抽2张。",
       "kind": "normal",
       "ability": false
     },
@@ -2099,9 +2099,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "疾行": {
+  "神行": {
     "card": {
-      "name": "疾行",
+      "name": "神行",
       "cost": 1,
       "attack": 3,
       "defense": 2,
@@ -2119,9 +2119,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "穿云": {
+  "捕风": {
     "card": {
-      "name": "穿云",
+      "name": "捕风",
       "cost": 1,
       "attack": 3,
       "defense": 2,
@@ -2219,9 +2219,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "风刃": {
+  "借风": {
     "card": {
-      "name": "风刃",
+      "name": "借风",
       "cost": 1,
       "attack": 4,
       "defense": 1,
@@ -2239,9 +2239,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "风切": {
+  "回风": {
     "card": {
-      "name": "风切",
+      "name": "回风",
       "cost": 1,
       "attack": 3,
       "defense": 4,
@@ -2268,7 +2268,7 @@
       "layers": 1,
       "element": "wind",
       "rarity": "rare",
-      "text": "下一发额外发射一段“固定60＋攻击力30%”的加成副弹；已激活风痕时，该副弹命中共叠2层风痕；否则下一发主弹发射后的攻击间隔减少10。",
+      "text": "下一发额外发射一段“固定60＋攻击力30%”的加成副弹；已激活积风成灾时，该副弹命中共叠2层积风成灾；否则下一发主弹发射后的攻击间隔减少10。",
       "kind": "normal",
       "ability": false
     },
@@ -2279,16 +2279,16 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "风蚀": {
+  "浴风": {
     "card": {
-      "name": "风蚀",
+      "name": "浴风",
       "cost": 1,
       "attack": 6,
       "defense": 2,
       "layers": 1,
       "element": "wind",
       "rarity": "rare",
-      "text": "移除自身可净化的非毒负面效果及最多3层毒。每实际移除1层毒、每清除一种其他负面效果，回复20生命；风痕计一种，同类负面叠加计一种，毒层派生的攻防减少不另计。",
+      "text": "移除自身可净化的非毒负面效果及最多3层毒。每实际移除1层毒、每清除一种其他负面效果，回复20生命；积风成灾计一种，同类负面叠加计一种，毒层派生的攻防减少不另计。",
       "kind": "normal",
       "ability": false
     },
@@ -2319,9 +2319,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "寻风": {
+  "听风": {
     "card": {
-      "name": "寻风",
+      "name": "听风",
       "cost": 1,
       "attack": 5,
       "defense": 0,
@@ -2339,9 +2339,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "风步": {
+  "迅捷": {
     "card": {
-      "name": "风步",
+      "name": "迅捷",
       "cost": 1,
       "attack": 3,
       "defense": 2,
@@ -2359,9 +2359,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "风眼": {
+  "避风港": {
     "card": {
-      "name": "风眼",
+      "name": "避风港",
       "cost": 1,
       "attack": 5,
       "defense": 0,
@@ -2379,9 +2379,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "轻羽": {
+  "风起": {
     "card": {
-      "name": "轻羽",
+      "name": "风起",
       "cost": 0,
       "attack": 1,
       "defense": 1,
@@ -2419,9 +2419,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "万毒之源": {
+  "瘟疫领主": {
     "card": {
-      "name": "万毒之源",
+      "name": "瘟疫领主",
       "cost": 2,
       "attack": 13,
       "defense": 6,
@@ -2439,9 +2439,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "毒爆": {
+  "以毒淬锋": {
     "card": {
-      "name": "毒爆",
+      "name": "以毒淬锋",
       "cost": 2,
       "attack": 10,
       "defense": 6,
@@ -2459,9 +2459,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "瘟潮": {
+  "瘟疫之潮": {
     "card": {
-      "name": "瘟潮",
+      "name": "瘟疫之潮",
       "cost": 2,
       "attack": 11,
       "defense": 5,
@@ -2479,16 +2479,16 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "蚀命": {
+  "蚕食生机": {
     "card": {
-      "name": "蚀命",
+      "name": "蚕食生机",
       "cost": 2,
       "attack": 11,
       "defense": 6,
       "layers": 1,
       "element": "poison",
       "rarity": "legendary",
-      "text": "每次常规或额外触发的常规毒伤，其原值额外加入目标当前生命×1%×自身毒附魔层数×目标毒层数；整段只扣一次目标50%防御。万毒爆与毒潮的爆炸伤害不获得此加伤。",
+      "text": "每次常规或额外触发的常规毒伤，其原值额外加入目标当前生命×1%×自身毒附魔层数×目标毒层数；整段只扣一次目标50%防御。毒爆与烈性反应的爆炸伤害不获得此加伤。",
       "kind": "route_legendary",
       "ability": true
     },
@@ -2499,16 +2499,16 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "蚀骨": {
+  "附骨之毒": {
     "card": {
-      "name": "蚀骨",
+      "name": "附骨之毒",
       "cost": 2,
       "attack": 11,
       "defense": 6,
       "layers": 1,
       "element": "poison",
       "rarity": "legendary",
-      "text": "自然衰减保留最后1毒层，主动消耗和净化仍可清空；激活万毒之源后，其减攻/减防系数改为1.2/0.9。",
+      "text": "自然衰减保留最后1毒层，主动消耗和净化仍可清空；激活瘟疫领主后，其减攻/减防系数改为1.2/0.9。",
       "kind": "route_legendary",
       "ability": true
     },
@@ -2519,16 +2519,16 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "万毒爆": {
+  "毒爆": {
     "card": {
-      "name": "万毒爆",
+      "name": "毒爆",
       "cost": 3,
       "attack": 21,
       "defense": 0,
       "layers": 1,
       "element": "poison",
       "rarity": "epic",
-      "text": "消耗目标全部毒层，立即造成4倍基础毒伤原值的爆炸伤害。毒层与消耗资格按本位次开始时确认，伤害不包含蚀命加伤。",
+      "text": "消耗目标全部毒层，立即造成4倍基础毒伤原值的爆炸伤害。毒层与消耗资格按本位次开始时确认，伤害不包含蚕食生机加伤。",
       "kind": "normal",
       "ability": false
     },
@@ -2559,9 +2559,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "万蚀": {
+  "蚀心": {
     "card": {
-      "name": "万蚀",
+      "name": "蚀心",
       "cost": 1,
       "attack": 2,
       "defense": 6,
@@ -2579,16 +2579,16 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "毒潮": {
+  "烈性反应": {
     "card": {
-      "name": "毒潮",
+      "name": "烈性反应",
       "cost": 1,
       "attack": 9,
       "defense": 1,
       "layers": 1,
       "element": "poison",
       "rarity": "epic",
-      "text": "消耗目标最多3层毒，立即造成2.5倍基础毒伤原值的爆炸伤害。按本位次开始时确认的消耗层数计算，其余毒层保留，伤害不包含蚀命加伤。",
+      "text": "消耗目标最多3层毒，立即造成2.5倍基础毒伤原值的爆炸伤害。按本位次开始时确认的消耗层数计算，其余毒层保留，伤害不包含蚕食生机加伤。",
       "kind": "normal",
       "ability": false
     },
@@ -2599,9 +2599,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "毒龙": {
+  "蛇吻": {
     "card": {
-      "name": "毒龙",
+      "name": "蛇吻",
       "cost": 0,
       "attack": 5,
       "defense": 0,
@@ -2639,9 +2639,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "蚀骨之触": {
+  "毒入膏肓": {
     "card": {
-      "name": "蚀骨之触",
+      "name": "毒入膏肓",
       "cost": 2,
       "attack": 2,
       "defense": 9,
@@ -2659,9 +2659,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "缓释毒素": {
+  "慢性毒药": {
     "card": {
-      "name": "缓释毒素",
+      "name": "慢性毒药",
       "cost": 3,
       "attack": 8,
       "defense": 4,
@@ -2688,7 +2688,7 @@
       "layers": 1,
       "element": "poison",
       "rarity": "rare",
-      "text": "抵消目标下一次自然毒层衰减，并额外施加1毒层；重复打出累积保护次数，每次衰减事件仅消耗1次。蚀骨使最后1层不产生自然衰减事件时，不消耗保护。",
+      "text": "抵消目标下一次自然毒层衰减，并额外施加1毒层；重复打出累积保护次数，每次衰减事件仅消耗1次。附骨之毒使最后1层不产生自然衰减事件时，不消耗保护。",
       "kind": "normal",
       "ability": false
     },
@@ -2699,9 +2699,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "枯潮": {
+  "毒物滋养": {
     "card": {
-      "name": "枯潮",
+      "name": "毒物滋养",
       "cost": 2,
       "attack": 1,
       "defense": 5,
@@ -2759,9 +2759,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "爆裂": {
+  "催命": {
     "card": {
-      "name": "爆裂",
+      "name": "催命",
       "cost": 1,
       "attack": 9,
       "defense": 0,
@@ -2779,9 +2779,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "腐息": {
+  "溃败": {
     "card": {
-      "name": "腐息",
+      "name": "溃败",
       "cost": 2,
       "attack": 7,
       "defense": 4,
@@ -2799,9 +2799,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "腐溃": {
+  "催枯": {
     "card": {
-      "name": "腐溃",
+      "name": "催枯",
       "cost": 1,
       "attack": 3,
       "defense": 4,
@@ -2819,9 +2819,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "腐潮": {
+  "彼毒我药": {
     "card": {
-      "name": "腐潮",
+      "name": "彼毒我药",
       "cost": 2,
       "attack": 7,
       "defense": 4,
@@ -2859,16 +2859,16 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "蚀刻": {
+  "入髓": {
     "card": {
-      "name": "蚀刻",
+      "name": "入髓",
       "cost": 1,
       "attack": 3,
       "defense": 4,
       "layers": 1,
       "element": "poison",
       "rarity": "rare",
-      "text": "目标受到的治疗减少30%；打出时目标至少有3毒层，则改为50%。持续至自身下一个抽牌阶段开始前；多次蚀刻取较高值，再与其他减疗相加，总减疗最多60%。",
+      "text": "目标受到的治疗减少30%；打出时目标至少有3毒层，则改为50%。持续至自身下一个抽牌阶段开始前；多次入髓取较高值，再与其他减疗相加，总减疗最多60%。",
       "kind": "normal",
       "ability": false
     },
@@ -2879,9 +2879,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "寻毒": {
+  "寻药": {
     "card": {
-      "name": "寻毒",
+      "name": "寻药",
       "cost": 1,
       "attack": 2,
       "defense": 2,
@@ -2899,9 +2899,9 @@
     "review": "card and explicit handler reviewed; passives additionally use engine/locked/strict hooks",
     "regression": "test_current.test_all_cards_execute_both_resource_contexts"
   },
-  "毒瓶": {
+  "涂毒": {
     "card": {
-      "name": "毒瓶",
+      "name": "涂毒",
       "cost": 1,
       "attack": 1,
       "defense": 3,
@@ -3028,7 +3028,7 @@
       "layers": 0,
       "element": "generic",
       "rarity": "legendary",
-      "text": "记录打出时的有效攻击、有效防御、生命与总护盾。此后200行动值内首次死亡时恢复四项，护盾恢复为普通护盾；保留死亡时附魔层，移除毒、风痕及可净化临时负面，清零临时通用攻击、深渊层数与本场减防，保留其他已登记效果。记录前仍有效的常驻攻击修正按现行公式继续计算。每场最多复活一次，复活仍终止本阶段剩余牌序。",
+      "text": "记录打出时的有效攻击、有效防御、生命与总护盾。此后200行动值内首次死亡时恢复四项，护盾恢复为普通护盾；保留死亡时附魔层，移除毒、积风成灾及可净化临时负面，清零临时通用攻击、深渊层数与本场减防，保留其他已登记效果。记录前仍有效的常驻攻击修正按现行公式继续计算。每场最多复活一次，复活仍终止本阶段剩余牌序。",
       "kind": "normal",
       "ability": true
     },

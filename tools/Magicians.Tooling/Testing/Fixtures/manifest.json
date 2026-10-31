@@ -1,0 +1,22 @@
+{
+  "authority": "Current canonical Python source captured before migration; business fixtures are identity-translated collaborator reference with original RNG pre-states",
+  "baseline_archive": "releases/v1.2/python-migration-baseline.zip",
+  "baseline_archive_sha256": "b873aaf45dc8f0baffae90ae2ab8825806f0227e5ac788a15d0e9b912b194006",
+  "reference_fixture_sha256_before_identity_translation": {
+    "business-coverage.json": "8d1ef71463eb5505822e3c1b7de07bf9390c0c170d0f6874be0b206cb1781b48",
+    "coverage-matrix.json": "c5218ec008009393b62ba64475b4307d100f97b55e19a888742022b14ff30803",
+    "foundation.json": "399cf73ac7e2e6fcf221941571e565106fe8b22b3640ae79eaa3f019d7081a20",
+    "business-operations.jsonl.gz": "edd435b9abf3290af43011577386955513ff03bca56275795b0c48487dd80851",
+    "protocol.jsonl.gz": "9acf084b98c5515ba39798908a44aa654d9fa67c172c1e0e5fb7ad9ad5722ad6",
+    "reference-oracle.jsonl.gz": "502c6ef1f9fde8f464964f64cb8973637f4947d82b27bf8803e3fe2c8e38c5d4"
+  },
+  "sha256": {
+    "business-coverage.json": "a1db58a577d988c87f4c52a8183fbbe366256268d7ba5ec4c822394130fe1108",
+    "business-operations.jsonl.gz": "b3f29d285058917e4eb2b313071ca8a1bfea6976907913bd6f4d579ef8a4f9de",
+    "coverage-matrix.json": "1f1b1caacf1179335677929f68273f99efeed2bbd7fe9f1dabe4b4d4590c9eef",
+    "foundation.json": "f54264b34f79c5212571f44b4b0eacaacc68e1dd66d509febc4abd7f32eed48e",
+    "protocol.jsonl.gz": "09f65c7122d0977af278105186e4096bd6a0a6285d0e5f2f67d6bfb6d82d6b22",
+    "reference-oracle.jsonl.gz": "4f9f71cae41af563056c3ae4780c934d03f24c87bc29ff84b320c23a447ae9e2"
+  },
+  "canonical_protocol_producer": "Current Python MatchSession before migration"
+}

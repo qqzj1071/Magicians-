@@ -211,8 +211,8 @@
 
 #### 卡牌与视觉
 
-- 专精环相：**炽焰王冠**。
-- 偏好路线：**燃烧血统**（长间隔、高单发、压缩燃烧）。
+- 专精环相：**聚烬成焰**。
+- 偏好路线：**焚天神兵**（长间隔、高单发、压缩燃烧）。
 - 视觉关键词：`female blacksmith, tall muscular, auburn hair, soot, brass gauntlet, red-orange poncho, leather apron, portable hammer, ember earrings, forge, fireworks, grin`
 - 场景点子：她在环宴前夜独自试放烟火；火星落在她的护腕上，她连眼皮都不眨。
 
@@ -330,7 +330,7 @@
 #### 卡牌与视觉
 
 - 专精环相：**不周山**。
-- 偏好路线：**壁垒之心**（大盾、减伤、打盾即反）。
+- 偏好路线：**以守为攻**（大盾、减伤、打盾即反）。
 - 视觉关键词：`male architect, broad tall, brown short hair, stone-dust apron, layered wool shawl, granite pauldron, round glasses, folding stool, chisel and mallet, calm, limestone, moss`
 - 场景点子：环斗前，他蹲下来检查咏台的石缝，顺手把一块松动的石头敲紧。
 
@@ -389,7 +389,7 @@
 #### 卡牌与视觉
 
 - 专精环相：**天岚**。
-- 偏好路线：**疾风之刃**（短间隔、追击、速度滚雪球）。
+- 偏好路线：**长风不息**（短间隔、追击、速度滚雪球）。
 - 视觉关键词：`female courier dancer, slender, short silver hair, windblown white scarf, sky-blue short cloak, feathered boots, silver bells, goggles, mail satchel, letters, kite, smirk`
 - 场景点子：她在环斗中途从观众席上方掠过，把一封迟到十年的信丢给对手，然后落地开打。
 
@@ -447,8 +447,8 @@
 
 #### 卡牌与视觉
 
-- 专精环相：**万毒之源**。
-- 偏好路线：**蚀骨**（长线残毒、维持最后一层毒、持续减益）。
+- 专精环相：**瘟疫领主**。
+- 偏好路线：**附骨之毒**（长线残毒、维持最后一层毒、持续减益）。
 - 视觉关键词：`female apothecary gardener, soft smile, wide-brim hat, layered plum and olive shawls, glass jars, mushrooms, sickle, lace half-mask pushed up, spore freckles, jam, warm and slightly eerie`
 - 场景点子：她在环宴摊位后搅一锅菌汤，旁边排队的人一边害怕一边伸碗。
 
@@ -582,16 +582,16 @@
 
 | 角色 | 元素 | 专精环相 | 偏好路线 | 备用路线 | 视觉关键词 |
 |---|---|---|---|---|---|
-| 伊格娜 | 火 | 炽焰王冠 | 燃烧血统 | 余烬之核 / 灰烬循环 | 余烬、黄铜、锻锤、烟火 |
-| 玛琳 | 水 | 潮汐之心 | 生命之泉 | 潮汐回响 / 血潮 | 潮玻璃、茶、珍珠、雨 |
-| 奥仑 | 土 | 不周山 | 壁垒之心 | 反震岩核 / 大地之握 | 花岗岩、苔藓、折尺、石缝 |
-| 塞拉 | 风 | 天岚 | 疾风之刃 | 风痕 / 穿云箭 | 羽毛、银铃、邮包、风口 |
-| 薇尔 | 毒 | 万毒之源 | 蚀骨 | 蚀命 / 毒爆 | 菌菇、玻璃罐、果酱、孢子 |
+| 伊格娜 | 火 | 聚烬成焰 | 焚天神兵 | 身为洪炉 / 灰烬循环 | 余烬、黄铜、锻锤、烟火 |
+| 玛琳 | 水 | 潮汐之心 | 生命之泉 | 潮汐回响 / 浴血狂澜 | 潮玻璃、茶、珍珠、雨 |
+| 奥仑 | 土 | 不周山 | 以守为攻 | 破而后立 / 聚砾成锋 | 花岗岩、苔藓、折尺、石缝 |
+| 塞拉 | 风 | 天岚 | 长风不息 | 积风成灾 / 穿云破阵 | 羽毛、银铃、邮包、风口 |
+| 薇尔 | 毒 | 瘟疫领主 | 附骨之毒 | 蚕食生机 / 以毒淬锋 | 菌菇、玻璃罐、果酱、孢子 |
 
 说明：
 
 - “偏好路线”只用于剧情、卡牌风味与宣传；玩家可以自由选择任何路线。
-- 五层特殊传奇（燎原、深渊潮、山崩、飓风、瘟潮）是天地异象，不属于任何角色。
+- 五层特殊传奇（星火燎原、沧海横流、重峦叠嶂、大风起兮、瘟疫之潮）是天地异象，不属于任何角色。
 - 通用传奇（禁忌知识、禁咒目录等）是环藏秘典，不属于任何角色。
 
 ---

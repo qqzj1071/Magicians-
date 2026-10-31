@@ -20,7 +20,7 @@
   },
   "specific_rules": 108,
   "records": {
-    "炽焰王冠": {
+    "聚烬成焰": {
       "element": "fire",
       "rarity": "specialization",
       "card_text": "激活余烬机制。自下一个抽牌阶段起，每个抽牌阶段结束时获得1余烬。主弹发射时消耗全部余烬，使该发主弹完整伤害乘以1＋火附魔层数×2.5%×实际消耗余烬数；与火附魔最终增伤乘算。",
@@ -40,10 +40,10 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "余烬之核": {
+    "身为洪炉": {
       "element": "fire",
       "rarity": "legendary",
-      "card_text": "已激活炽焰王冠时，主弹完成防御与增减伤结算后的待分配伤害达到140，结算后获得1余烬，包含盾伤部分。每实际消耗1余烬，回复当时已损失生命的10%，逐层结算。",
+      "card_text": "已激活聚烬成焰时，主弹完成防御与增减伤结算后的待分配伤害达到140，结算后获得1余烬，包含盾伤部分。每实际消耗1余烬，回复当时已损失生命的10%，逐层结算。",
       "roles": [
         {
           "role": "主动治疗或治疗联动",
@@ -63,7 +63,7 @@
     "灰烬循环": {
       "element": "fire",
       "rarity": "legendary",
-      "card_text": "打出本牌或炽焰王冠时，若另一张仍在摸牌堆且本阶段尚未抽到，将其置顶。已激活炽焰王冠时，每次洗牌获得2余烬；每实际消耗1余烬，下个抽牌阶段多抽1张、多获得1费。每个抽牌阶段累计最多奖励3张、3费，超出部分不结转。",
+      "card_text": "打出本牌或聚烬成焰时，若另一张仍在摸牌堆且本阶段尚未抽到，将其置顶。已激活聚烬成焰时，每次洗牌获得2余烬；每实际消耗1余烬，下个抽牌阶段多抽1张、多获得1费。每个抽牌阶段累计最多奖励3张、3费，超出部分不结转。",
       "roles": [
         {
           "role": "能力与真实事件",
@@ -80,10 +80,10 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "燃烧血统": {
+    "焚天神兵": {
       "element": "fire",
       "rarity": "legendary",
-      "card_text": "本场主弹的攻击力成分乘以1.8；攻击间隔的百分比修正增加100%。已激活炽焰王冠时，主弹余烬增伤系数改为每火附魔层、每实际消耗余烬3%。",
+      "card_text": "本场主弹的攻击力成分乘以1.8；攻击间隔的百分比修正增加100%。已激活聚烬成焰时，主弹余烬增伤系数改为每火附魔层、每实际消耗余烬3%。",
       "roles": [
         {
           "role": "能力与真实事件",
@@ -95,7 +95,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "燎原": {
+    "星火燎原": {
       "element": "fire",
       "rarity": "legendary",
       "card_text": "首次打出获得5层火附魔。",
@@ -110,7 +110,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "不灭烈焰": {
+    "拾火": {
       "element": "fire",
       "rarity": "epic",
       "card_text": "从弃牌堆选择1张火附魔牌加入手牌，仍需支付费用才能打出。取回保留首次打出记录，取回不算抽牌。",
@@ -125,7 +125,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "余烬引擎": {
+    "回炉重造": {
       "element": "fire",
       "rarity": "epic",
       "card_text": "洗混摸牌堆与弃牌堆，再立即抽2张。正在结算的本牌不参与洗牌。",
@@ -140,7 +140,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "余烬心脏": {
+    "烬中搏动": {
       "element": "fire",
       "rarity": "epic",
       "card_text": "规划时锁定生命分支：不高于最大生命30%时获得2余烬，并按正式已损失生命20%回复；否则获得1余烬，下阶段多抽1张。正式不切换分支。",
@@ -165,7 +165,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "压缩爆燃": {
+    "聚爆": {
       "element": "fire",
       "rarity": "epic",
       "card_text": "下一发主弹普通增伤增加30%；打出时有效攻击≥135，额外增加20个百分点；打出时余烬≥2，再增加30个百分点。与其他同类增伤加算。",
@@ -180,10 +180,10 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "灰烬重生": {
+    "拨灰续火": {
       "element": "fire",
       "rarity": "epic",
-      "card_text": "洗混摸牌堆与弃牌堆；已激活炽焰王冠时，获得1余烬。",
+      "card_text": "洗混摸牌堆与弃牌堆；已激活聚烬成焰时，获得1余烬。",
       "roles": [
         {
           "role": "主动参数与状态",
@@ -195,7 +195,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "焚心": {
+    "吞烬": {
       "element": "fire",
       "rarity": "epic",
       "card_text": "消耗最多2余烬，每消耗1余烬回复已损失生命的20%；没有余烬时，改为获得1余烬。",
@@ -220,7 +220,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "爆燃": {
+    "炽焰": {
       "element": "fire",
       "rarity": "epic",
       "card_text": "下一发主弹普通增伤增加25%；本阶段此前已成功打出至少2张火附魔牌时，改为增加35%。本牌不计入该条件。",
@@ -235,7 +235,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "狂暴": {
+    "怒焰": {
       "element": "fire",
       "rarity": "epic",
       "card_text": "支付当前生命的5%，向上取整且支付后至少保留1生命；临时获得30攻击，适用于下一发射组的主弹与所有副弹，本组结算后清除。临时攻击加算。",
@@ -255,7 +255,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "熔盾烈焰": {
+    "高温炼化": {
       "element": "fire",
       "rarity": "epic",
       "card_text": "本场主弹与加成副弹对护盾造成的伤害增加10%；重复打出及其他对盾伤害增幅同区加算；不放大溢出生命伤害或穿盾部分。",
@@ -270,7 +270,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "余火": {
+    "添柴": {
       "element": "fire",
       "rarity": "rare",
       "card_text": "立即抽1张。若抽到本场尚未打出过的火附魔牌，该实例本阶段费用减少1，最低0；该实例离开手牌后，此折扣失效。",
@@ -285,7 +285,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "余烬刻度": {
+    "试我火候": {
       "element": "fire",
       "rarity": "rare",
       "card_text": "按计划时火附魔层数锁定分支：至少8层时获得1余烬；否则下个抽牌阶段多抽1张。",
@@ -310,7 +310,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "余烬护心": {
+    "余温护心": {
       "element": "fire",
       "rarity": "rare",
       "card_text": "消耗1余烬，回复已损失生命的15%；没有余烬时，改为获得60普通护盾。",
@@ -340,10 +340,10 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "回火": {
+    "回灶": {
       "element": "fire",
       "rarity": "rare",
-      "card_text": "本阶段此前已洗牌且已激活炽焰王冠时，获得1余烬。",
+      "card_text": "本阶段此前已洗牌且已激活聚烬成焰时，获得1余烬。",
       "roles": [
         {
           "role": "主动参数与状态",
@@ -375,7 +375,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "战意": {
+    "火势": {
       "element": "fire",
       "rarity": "rare",
       "card_text": "打出前火附魔层数至少4时，本场额外增加4攻击。",
@@ -390,7 +390,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "火种库": {
+    "火种书签": {
       "element": "fire",
       "rarity": "rare",
       "card_text": "从摸牌堆随机查看最多4张本场尚未打出过的火附魔牌，选择至多2张即时抽取，其余牌保持相对顺序。",
@@ -425,7 +425,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "烈焰附身": {
+    "火毒": {
       "element": "fire",
       "rarity": "rare",
       "card_text": "敌方治疗量降低25%，持续至自身下一个抽牌阶段开始前。",
@@ -443,7 +443,7 @@
     "燃血": {
       "element": "fire",
       "rarity": "rare",
-      "card_text": "支付当前生命的5%，向上取整且至少保留1生命；已激活炽焰王冠时获得1余烬；下一发主弹普通增伤增加15%。",
+      "card_text": "支付当前生命的5%，向上取整且至少保留1生命；已激活聚烬成焰时获得1余烬；下一发主弹普通增伤增加15%。",
       "roles": [
         {
           "role": "主动参数与状态",
@@ -460,7 +460,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "高温炉心": {
+    "高温炉芯": {
       "element": "fire",
       "rarity": "rare",
       "card_text": "下一发主弹每实际消耗1余烬，额外获得相当于本次有效攻击力5%的直接加伤。",
@@ -475,7 +475,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "火种翻找": {
+    "逐火": {
       "element": "fire",
       "rarity": "common",
       "card_text": "从摸牌堆随机查看最多3张火附魔牌，优先从本场尚未打出过的牌中选取，不足时由其他火附魔牌补足；选择1张置顶，其余位置不变。",
@@ -505,7 +505,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "烈焰冲刺": {
+    "催火": {
       "element": "fire",
       "rarity": "common",
       "card_text": "下一发主弹发射后的固定间隔减少10；与同类临时减间隔加算叠加。",
@@ -535,7 +535,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "引火": {
+    "指尖火苗": {
       "element": "fire",
       "rarity": "common",
       "card_text": "下一发主弹普通增伤5%；与同类临时增伤加算叠加。",
@@ -585,7 +585,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "深渊潮": {
+    "沧海横流": {
       "element": "water",
       "rarity": "legendary",
       "card_text": "首次打出获得5层水附魔。",
@@ -630,7 +630,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "血潮": {
+    "浴血狂澜": {
       "element": "water",
       "rarity": "legendary",
       "card_text": "每次主弹发射前支付当前生命10%（向上取整，支付后至少保留1血），实际支付量100%加入本发主弹直接加伤。获得30%×自身当前生命百分比的主弹减伤，随当前生命动态变化，仅减免敌方主弹伤害。",
@@ -646,7 +646,7 @@
           "formal": "到位才按C原公式支付，不超当前存量，生命保留1；纯战斗收益依实耗，手牌/费用承诺不追缴。"
         }
       ],
-      "specific_rule": "主弹前生命支付是C事件，按当时实际支付100%转伤并保1；不在P先扣、不触发仅限卡牌支付的细流。",
+      "specific_rule": "主弹前生命支付是C事件，按当时实际支付100%转伤并保1；不在P先扣、不触发仅限卡牌支付的溯洄。",
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
@@ -665,7 +665,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "奔流": {
+    "湍流": {
       "element": "water",
       "rarity": "epic",
       "card_text": "本场攻击间隔减少5%（百分比修正）；在下一次主弹发射后的间隔计算中生效。重复打出同区加算，最终间隔最低1。",
@@ -680,7 +680,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "水幕": {
+    "浸润": {
       "element": "water",
       "rarity": "epic",
       "card_text": "回复50生命；下一发主弹获得70%护盾穿透。",
@@ -695,7 +695,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "泉心": {
+    "泉眼": {
       "element": "water",
       "rarity": "epic",
       "card_text": "回复已损失生命的20%；本次实际回复记录潮汐时，记录量增加100%。",
@@ -740,7 +740,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "潮汐风暴": {
+    "风暴潮": {
       "element": "water",
       "rarity": "epic",
       "card_text": "消耗全部潮汐，立即造成实际消耗量150%的水系伤害，正常结算防御与护盾。该伤害不是主弹，不继承主弹专属增益，也不触发飞弹吸血。",
@@ -775,7 +775,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "回流": {
+    "观潮": {
       "element": "water",
       "rarity": "rare",
       "card_text": "若潮汐之心仍在摸牌堆，将其即时抽入手牌；否则回复30生命。",
@@ -795,7 +795,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "洪流": {
+    "巨浪奔涌": {
       "element": "water",
       "rarity": "rare",
       "card_text": "已激活潮汐之心时，获得10×水附魔层数的潮汐；否则回复60生命。",
@@ -825,7 +825,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "深流": {
+    "深潜": {
       "element": "water",
       "rarity": "rare",
       "card_text": "从摸牌堆随机查看最多3张水系传奇，选择1张置顶，其余牌相对顺序不变；没有合法目标时回复30生命。",
@@ -845,7 +845,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "潮声": {
+    "听潮": {
       "element": "water",
       "rarity": "rare",
       "card_text": "回复25生命；下次抽牌阶段开始时、抽牌前再回复25生命。",
@@ -880,7 +880,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "疾流": {
+    "凭潮": {
       "element": "water",
       "rarity": "rare",
       "card_text": "按计划时潮汐锁定分支：至少30时消耗30潮汐，下个抽牌阶段额外获得2费；否则回复30生命。正式消耗最多为实际持有量，已锁定的返费不因消耗不足而减少。",
@@ -905,7 +905,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "穿潮": {
+    "破浪": {
       "element": "water",
       "rarity": "rare",
       "card_text": "下一发主弹获得40%防御穿透；若该发实际消耗至少50潮汐，改为70%。",
@@ -940,7 +940,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "血怒": {
+    "背水": {
       "element": "water",
       "rarity": "rare",
       "card_text": "获得相当于水层数8倍的潮汐；打出前生命不高于最大生命50%时，改为12倍。",
@@ -975,7 +975,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "静水": {
+    "涟漪": {
       "element": "water",
       "rarity": "rare",
       "card_text": "已激活潮汐之心时，下一次实际回复生命大于0后，额外获得6×水附魔层数的潮汐。重复打出使该次额外获得量相加，在同一次有效回复后一并结算并清除；无效回复不消耗。",
@@ -990,7 +990,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "水之低语": {
+    "塑水": {
       "element": "water",
       "rarity": "common",
       "card_text": "随机查看摸牌堆最多2张水系牌，选择1张置顶，其余相对顺序不变；不足2张则全看，无目标时跳过。",
@@ -1005,7 +1005,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "泉眼": {
+    "润物": {
       "element": "water",
       "rarity": "common",
       "card_text": "回复20生命；回复前生命不高于最大生命50%时，改为回复50生命。",
@@ -1020,7 +1020,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "潮涌": {
+    "回流": {
       "element": "water",
       "rarity": "common",
       "card_text": "回复40生命；已激活潮汐之心时，下一发主弹消耗潮汐后，获得实际消耗量50%的普通护盾。重复打出的转盾比例相加，本发结算后清除。",
@@ -1040,10 +1040,10 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "细流": {
+    "溯洄": {
       "element": "water",
       "rarity": "common",
-      "card_text": "回复30生命；本阶段下一次通过卡牌实际支付生命后，回复实际支付量50%的生命。重复打出的回复比例相加，在同一次有效支付后一并结算并清除；支付量为0不消耗，血潮主弹支付不触发。",
+      "card_text": "回复30生命；本阶段下一次通过卡牌实际支付生命后，回复实际支付量50%的生命。重复打出的回复比例相加，在同一次有效支付后一并结算并清除；支付量为0不消耗，浴血狂澜主弹支付不触发。",
       "roles": [
         {
           "role": "主动治疗或治疗联动",
@@ -1051,7 +1051,7 @@
           "formal": "所有正式治疗按C原公式、减治疗与失血上限恢复，潮汐等只按真实有效恢复记一次；不补造P预算。"
         }
       ],
-      "specific_rule": "按卡面时点和数量正式结算；回复30生命；本阶段下一次通过卡牌实际支付生命后，回复实际支付量50%的生命。重复打出的回复比例相加，在同一次有效支付后一并结算并清除；支付量为0不消耗，血潮主弹支付不触发。",
+      "specific_rule": "按卡面时点和数量正式结算；回复30生命；本阶段下一次通过卡牌实际支付生命后，回复实际支付量50%的生命。重复打出的回复比例相加，在同一次有效支付后一并结算并清除；支付量为0不消耗，浴血狂澜主弹支付不触发。",
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
@@ -1090,7 +1090,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "反震岩核": {
+    "破而后立": {
       "element": "earth",
       "rarity": "legendary",
       "card_text": "已激活不周山时，碎盾伤害的每土附魔层系数改为3.5%，仍扣除敌方50%防御；被敌伤碎盾后，返还碎盾前总护盾量40%的普通护盾。",
@@ -1110,7 +1110,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "壁垒之心": {
+    "以守为攻": {
       "element": "earth",
       "rarity": "legendary",
       "card_text": "有任意护盾时，受到的普通飞弹伤害减少15%。已激活不周山时，每段普通飞弹被护盾实际吸收后，反伤原值＝max(0,实际吸收量×1.5%×土附魔层数−敌方防御×50%)。自动碎盾斩杀仍使用不周山的护盾量公式。",
@@ -1125,7 +1125,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "大地之握": {
+    "聚砾成锋": {
       "element": "earth",
       "rarity": "legendary",
       "card_text": "累计普通叠盾造成的旧普通护盾实际衰减损失。下一发主弹发射时，按累计损失×4%×发射时土附魔层数加入直接加伤；发射前土附魔获盾造成的衰减计入本发，随后清空记录。主动耗盾、敌方削盾及临时护盾到期不计。",
@@ -1140,7 +1140,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "山崩": {
+    "重峦叠嶂": {
       "element": "earth",
       "rarity": "legendary",
       "card_text": "首次打出获得5层土附魔。",
@@ -1180,7 +1180,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "不坏壁垒": {
+    "固若金汤": {
       "element": "earth",
       "rarity": "epic",
       "card_text": "获得220普通护盾；本次获盾不触发旧盾衰减。",
@@ -1195,7 +1195,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "回震岩甲": {
+    "屡毁屡筑": {
       "element": "earth",
       "rarity": "epic",
       "card_text": "获得100普通护盾；本场护盾被敌方伤害击碎时额外获得30普通护盾，每次打出使该返盾数值加算30；在反伤结算后统一获盾。",
@@ -1215,7 +1215,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "山岳之躯": {
+    "卸甲养伤": {
       "element": "earth",
       "rarity": "epic",
       "card_text": "消耗护盾并回复实际消耗量150%的生命。消耗量＝min(当前总护盾,150,ceil(已损失生命÷1.5))；满血不消耗护盾。",
@@ -1235,7 +1235,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "山岳壁垒": {
+    "步步为营": {
       "element": "earth",
       "rarity": "epic",
       "card_text": "本场每次自身主弹发射前，土附魔产生的普通护盾额外增加30。每次打出使该固定增加量加算30。",
@@ -1255,7 +1255,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "岩核重压": {
+    "挟山一击": {
       "element": "earth",
       "rarity": "epic",
       "card_text": "按打出前普通护盾量的20%，记录下一发主弹直接加伤。重复打出分别取值并加算。",
@@ -1270,7 +1270,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "岩潮壁垒": {
+    "流沙成岩": {
       "element": "earth",
       "rarity": "epic",
       "card_text": "获得140临时护盾，本次获盾不触发旧盾衰减；获盾后的自身下一个抽牌阶段开始前，移除该批剩余临时护盾，并按实际移除量的50%获得普通护盾，转化遵循普通叠盾衰减规则。",
@@ -1285,7 +1285,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "层岩结构": {
+    "积土成山": {
       "element": "earth",
       "rarity": "epic",
       "card_text": "本场自身新获得的普通及临时护盾量增加8%；重复打出及其他获盾量百分比增幅同区加算。不放大已有护盾，不改变旧盾衰减比例；全部倍率计算后统一向上取整。",
@@ -1300,7 +1300,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "临时壁垒": {
+    "沙堡": {
       "element": "earth",
       "rarity": "rare",
       "card_text": "获得120临时护盾，本次获盾不触发旧盾衰减；获盾后的自身下一个抽牌阶段开始前移除该批剩余临时护盾。",
@@ -1315,7 +1315,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "回岩": {
+    "补墙": {
       "element": "earth",
       "rarity": "rare",
       "card_text": "获得150普通护盾；本场护盾下一次被敌方伤害击碎时，在反伤后额外获得80普通护盾；重复打出增加同一次破盾的返盾量。",
@@ -1335,7 +1335,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "守岩": {
+    "固守": {
       "element": "earth",
       "rarity": "rare",
       "card_text": "获得80普通护盾；下一次受到普通飞弹伤害时，伤害原值额外减少40，随后清除。重复打出使减少量相加；最终伤害仍按统一伤害公式结算且至少1。",
@@ -1350,7 +1350,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "山岳": {
+    "平地起垒": {
       "element": "earth",
       "rarity": "rare",
       "card_text": "获得120普通护盾；若打出前普通护盾为0，改为获得200普通护盾。",
@@ -1365,7 +1365,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "岩拳": {
+    "铺路": {
       "element": "earth",
       "rarity": "rare",
       "card_text": "获得60普通护盾；本阶段下一张土附魔牌的减费增加1，最低0费。",
@@ -1385,7 +1385,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "岩核共鸣": {
+    "问山": {
       "element": "earth",
       "rarity": "rare",
       "card_text": "获得100普通护盾；随机查看摸牌堆最多5张稀有及以上的土系附魔牌，选择至多1张置顶（不足5张则全看）；下一抽牌阶段，第一张成功打出的土系专精或路线传奇费用-1，最低0。",
@@ -1410,10 +1410,10 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "握盾": {
+    "碎石借势": {
       "element": "earth",
       "rarity": "rare",
-      "card_text": "获得80普通护盾；已激活大地之握时，下一发主弹的盾衰减转伤增幅增加100个百分点。同类增幅加算，本发结算后清除。",
+      "card_text": "获得80普通护盾；已激活聚砾成锋时，下一发主弹的盾衰减转伤增幅增加100个百分点。同类增幅加算，本发结算后清除。",
       "roles": [
         {
           "role": "主动护盾或护盾联动",
@@ -1426,11 +1426,11 @@
           "formal": "正式到位按C原卡参数写入战斗状态；纯战斗数值可受更早位次影响，不能倒改手牌/费用承诺。"
         }
       ],
-      "specific_rule": "按卡面时点和数量正式结算；获得80普通护盾；已激活大地之握时，下一发主弹的盾衰减转伤增幅增加100个百分点。同类增幅加算，本发结算后清除。",
+      "specific_rule": "按卡面时点和数量正式结算；获得80普通护盾；已激活聚砾成锋时，下一发主弹的盾衰减转伤增幅增加100个百分点。同类增幅加算，本发结算后清除。",
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "盾脉": {
+    "夯实": {
       "element": "earth",
       "rarity": "rare",
       "card_text": "先获得80普通护盾，再增加2次普通获盾强化。每次强化使对应获盾的基础新增量增加40；重复打出增加待强化次数。",
@@ -1495,7 +1495,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "磐岩壁": {
+    "倚石养息": {
       "element": "earth",
       "rarity": "rare",
       "card_text": "获得60普通护盾；下一次受到普通飞弹伤害时，将该段实际盾吸收量的30%转为生命回复，随后清除；即使该段未被护盾吸收也会消耗此效果。重复打出的回复比例相加。",
@@ -1515,10 +1515,10 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "裂岩护壁": {
+    "砺石": {
       "element": "earth",
       "rarity": "rare",
-      "card_text": "获得40普通护盾；下一发主弹额外获得本牌本次叠盾造成的旧盾实际衰减损失200%的直接加伤，无需激活大地之握；已激活时与该路线的转伤分别加算。",
+      "card_text": "获得40普通护盾；下一发主弹额外获得本牌本次叠盾造成的旧盾实际衰减损失200%的直接加伤，无需激活聚砾成锋；已激活时与该路线的转伤分别加算。",
       "roles": [
         {
           "role": "主动护盾或护盾联动",
@@ -1526,11 +1526,11 @@
           "formal": "到位才真正获盾；普通叠盾、临时批次、衰减和真实反馈按C处理。纯触发盾见逐卡特例。"
         }
       ],
-      "specific_rule": "真实本位叠盾的旧盾衰减损失才转200%加伤；P预测不能额外再记一份，与大地之握真实转伤各算一次。",
+      "specific_rule": "真实本位叠盾的旧盾衰减损失才转200%加伤；P预测不能额外再记一份，与聚砾成锋真实转伤各算一次。",
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "坚岩": {
+    "垒土": {
       "element": "earth",
       "rarity": "common",
       "card_text": "获得70普通护盾。",
@@ -1545,7 +1545,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "寻岩": {
+    "探脉": {
       "element": "earth",
       "rarity": "common",
       "card_text": "随机查看摸牌堆中的2张护盾牌，选至多1张置顶，其余相对顺序不变；不足2张则全看。",
@@ -1560,7 +1560,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "岩甲": {
+    "披坚": {
       "element": "earth",
       "rarity": "common",
       "card_text": "获得普通护盾，数量为10＋打出前自身有效防御的200%，合计向上取整。",
@@ -1580,7 +1580,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "磐石": {
+    "压阵": {
       "element": "earth",
       "rarity": "common",
       "card_text": "获得100普通护盾；使敌方攻击降低20，持续至自身下一个抽牌阶段开始前。",
@@ -1600,7 +1600,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "开岩": {
+    "凿石": {
       "element": "earth",
       "rarity": "common",
       "card_text": "规划时护盾至少30则扣30规划盾并锁定抽1张；否则锁定获得30普通护盾。正式耗盾分支最多实耗30，不足也不减抽牌，不另触发获盾分支。",
@@ -1640,7 +1640,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "疾风之刃": {
+    "长风不息": {
       "element": "wind",
       "rarity": "legendary",
       "card_text": "本场攻击间隔额外减少4＋0.5×风附魔层数；主弹追加上次主弹实际生命伤害与盾伤之和×max(0,1−距上发行动值÷50)×20%的追击直接加伤；首次发射无追击。",
@@ -1655,7 +1655,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "穿云箭": {
+    "穿云破阵": {
       "element": "wind",
       "rarity": "legendary",
       "card_text": "飞弹防御穿透增加5%＋2%×风附魔层数；飞弹对盾伤害增加20%，与其他对盾伤害增幅同区加算；激活天岚后额外独立无视15%防御，与防御穿透后的剩余防御乘算。",
@@ -1670,10 +1670,10 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "风痕": {
+    "积风成灾": {
       "element": "wind",
       "rarity": "legendary",
-      "card_text": "已激活天岚时，主弹及普通加成副弹每段实际造成生命或护盾伤害后，叠加1层风痕，特定副弹按其词条叠层。天岚每第三发的真伤副弹位于本组全部普通副弹之后，攻击系数改为40%；该段结算后引爆并清空全部风痕。第k层伤害＝本次发射时有效攻击力×(12%＋(k−1)×2%)，各层合为一段真伤。",
+      "card_text": "已激活天岚时，主弹及普通加成副弹每段实际造成生命或护盾伤害后，叠加1层积风成灾，特定副弹按其词条叠层。天岚每第三发的真伤副弹位于本组全部普通副弹之后，攻击系数改为40%；该段结算后引爆并清空全部积风成灾。第k层伤害＝本次发射时有效攻击力×(12%＋(k−1)×2%)，各层合为一段真伤。",
       "roles": [
         {
           "role": "能力与真实事件",
@@ -1681,11 +1681,11 @@
           "formal": "正式到位后才激活；命中、破盾、伤害、毒层真实变化、死亡和复活只触发一次。"
         }
       ],
-      "specific_rule": "按卡面时点和数量正式结算；已激活天岚时，主弹及普通加成副弹每段实际造成生命或护盾伤害后，叠加1层风痕，特定副弹按其词条叠层。天岚每第三发的真伤副弹位于本组全部普通副弹之后，攻击系数改为40%；该段结算后引爆并清空全部风痕。第k层伤害＝本次发射时有效攻击力×(12%＋(k−1)×2%)，各层合为一段真伤。",
+      "specific_rule": "按卡面时点和数量正式结算；已激活天岚时，主弹及普通加成副弹每段实际造成生命或护盾伤害后，叠加1层积风成灾，特定副弹按其词条叠层。天岚每第三发的真伤副弹位于本组全部普通副弹之后，攻击系数改为40%；该段结算后引爆并清空全部积风成灾。第k层伤害＝本次发射时有效攻击力×(12%＋(k−1)×2%)，各层合为一段真伤。",
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "飓风": {
+    "大风起兮": {
       "element": "wind",
       "rarity": "legendary",
       "card_text": "首次打出获得5层风附魔。",
@@ -1700,7 +1700,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "气旋护壁": {
+    "一息尚存": {
       "element": "wind",
       "rarity": "epic",
       "card_text": "正式打出后获得护命，持续至自身下一个抽牌阶段开始前：首次伤害或疲劳致死时保留1生命，并保护本行动值剩余结算。每场至多触发一次；保1未死亡，牌序继续。",
@@ -1745,10 +1745,10 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "穿云破甲": {
+    "风蚀": {
       "element": "wind",
       "rarity": "epic",
-      "card_text": "下一发射组的主弹、普通加成副弹及天岚真伤副弹，每段实际造成生命或护盾伤害后，使目标本场防御减少6；风痕引爆不触发。重复打出使每段减防量相加，本组发射后清除该资格，已造成的减防保留。",
+      "card_text": "下一发射组的主弹、普通加成副弹及天岚真伤副弹，每段实际造成生命或护盾伤害后，使目标本场防御减少6；积风成灾引爆不触发。重复打出使每段减防量相加，本组发射后清除该资格，已造成的减防保留。",
       "roles": [
         {
           "role": "主动参数与状态",
@@ -1756,7 +1756,7 @@
           "formal": "正式到位按C原卡参数写入战斗状态；纯战斗数值可受更早位次影响，不能倒改手牌/费用承诺。"
         }
       ],
-      "specific_rule": "按卡面时点和数量正式结算；下一发射组的主弹、普通加成副弹及天岚真伤副弹，每段实际造成生命或护盾伤害后，使目标本场防御减少6；风痕引爆不触发。重复打出使每段减防量相加，本组发射后清除该资格，已造成的减防保留。",
+      "specific_rule": "按卡面时点和数量正式结算；下一发射组的主弹、普通加成副弹及天岚真伤副弹，每段实际造成生命或护盾伤害后，使目标本场防御减少6；积风成灾引爆不触发。重复打出使每段减防量相加，本组发射后清除该资格，已造成的减防保留。",
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
@@ -1778,7 +1778,7 @@
     "风之躯": {
       "element": "wind",
       "rarity": "epic",
-      "card_text": "移除自身全部毒层、风痕和可净化的临时负面效果；立即抽1张。毒层清空时，其派生的攻防减少自然解除；永久减防不被本牌移除。",
+      "card_text": "移除自身全部毒层、积风成灾和可净化的临时负面效果；立即抽1张。毒层清空时，其派生的攻防减少自然解除；永久减防不被本牌移除。",
       "roles": [
         {
           "role": "手牌与费用运转",
@@ -1791,7 +1791,7 @@
           "formal": "真实净化本位开始已存在的可净化负面；不清同位新负面。实清派生生命/盾量按C，不能重发P资源。"
         }
       ],
-      "specific_rule": "P抽1及手牌操作锁定；C清Ck全部合法毒/风痕与临时负面，不清同位新负面。",
+      "specific_rule": "P抽1及手牌操作锁定；C清Ck全部合法毒/积风成灾与临时负面，不清同位新负面。",
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
@@ -1810,10 +1810,10 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "风痕回廊": {
+    "风过留痕": {
       "element": "wind",
       "rarity": "epic",
-      "card_text": "下一发额外发射两段“固定100＋攻击力30%”的普通加成副弹。已激活风痕时，每段命中共叠2层风痕；计划时尚未激活风痕，则另锁定立即抽2张。",
+      "card_text": "下一发额外发射两段“固定100＋攻击力30%”的普通加成副弹。已激活积风成灾时，每段命中共叠2层积风成灾；计划时尚未激活积风成灾，则另锁定立即抽2张。",
       "roles": [
         {
           "role": "手牌与费用运转",
@@ -1821,7 +1821,7 @@
           "formal": "按正式前缀提交操作记录一次，不再抽样/选牌/改分支；死后尾段及其操作全部取消。"
         }
       ],
-      "specific_rule": "P只锁未激活风痕时抽2的运转承诺；C登记副弹，并按正式风痕激活状态决定每段1或2层标记；实际叠痕仍需发射时天岚与风痕已激活。",
+      "specific_rule": "P只锁未激活积风成灾时抽2的运转承诺；C登记副弹，并按正式积风成灾激活状态决定每段1或2层标记；实际叠痕仍需发射时天岚与积风成灾已激活。",
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
@@ -1840,7 +1840,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "疾行": {
+    "神行": {
       "element": "wind",
       "rarity": "rare",
       "card_text": "下一发主弹发射后的固定间隔减少10；立即抽1张。",
@@ -1855,7 +1855,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "穿云": {
+    "捕风": {
       "element": "wind",
       "rarity": "rare",
       "card_text": "从摸牌堆随机查看最多3张不同实例的风系牌，选择至多1张即时抽取，其余相对顺序不变。",
@@ -1930,7 +1930,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "风刃": {
+    "借风": {
       "element": "wind",
       "rarity": "rare",
       "card_text": "立即抽1张；本牌本场首次成功打出时，再获得1费。",
@@ -1945,7 +1945,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "风切": {
+    "回风": {
       "element": "wind",
       "rarity": "rare",
       "card_text": "下一发额外发射一段“固定40＋攻击力50%”的加成副弹；该副弹实际扣除生命后，回复等于该段实际扣血50%的生命。",
@@ -1963,7 +1963,7 @@
     "风痕刻印": {
       "element": "wind",
       "rarity": "rare",
-      "card_text": "下一发额外发射一段“固定60＋攻击力30%”的加成副弹；已激活风痕时，该副弹命中共叠2层风痕；否则下一发主弹发射后的攻击间隔减少10。",
+      "card_text": "下一发额外发射一段“固定60＋攻击力30%”的加成副弹；已激活积风成灾时，该副弹命中共叠2层积风成灾；否则下一发主弹发射后的攻击间隔减少10。",
       "roles": [
         {
           "role": "主动参数与状态",
@@ -1971,14 +1971,14 @@
           "formal": "正式到位按C原卡参数写入战斗状态；纯战斗数值可受更早位次影响，不能倒改手牌/费用承诺。"
         }
       ],
-      "specific_rule": "副弹与临时减间隔分支在C正式读取风痕是否激活，不是P锁定分支；副弹实际叠痕仍要求发射时天岚与风痕已激活。",
+      "specific_rule": "副弹与临时减间隔分支在C正式读取积风成灾是否激活，不是P锁定分支；副弹实际叠痕仍要求发射时天岚与积风成灾已激活。",
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "风蚀": {
+    "浴风": {
       "element": "wind",
       "rarity": "rare",
-      "card_text": "移除自身可净化的非毒负面效果及最多3层毒。每实际移除1层毒、每清除一种其他负面效果，回复20生命；风痕计一种，同类负面叠加计一种，毒层派生的攻防减少不另计。",
+      "card_text": "移除自身可净化的非毒负面效果及最多3层毒。每实际移除1层毒、每清除一种其他负面效果，回复20生命；积风成灾计一种，同类负面叠加计一种，毒层派生的攻防减少不另计。",
       "roles": [
         {
           "role": "主动治疗或治疗联动",
@@ -2010,7 +2010,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "寻风": {
+    "听风": {
       "element": "wind",
       "rarity": "common",
       "card_text": "随机查看摸牌堆中的最多2张风系牌，选至多1张置顶，其余位置不变。",
@@ -2025,7 +2025,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "风步": {
+    "迅捷": {
       "element": "wind",
       "rarity": "common",
       "card_text": "下一发主弹发射后的固定间隔减少7.5；与同类临时减间隔加算叠加。",
@@ -2040,7 +2040,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "风眼": {
+    "避风港": {
       "element": "wind",
       "rarity": "common",
       "card_text": "自身所有负面效果暂不生效，状态与层数仍可正常叠加；持续至自身下一个抽牌阶段开始前。",
@@ -2055,7 +2055,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "轻羽": {
+    "风起": {
       "element": "wind",
       "rarity": "common",
       "card_text": "本场首次打出本牌时，额外获得1层风附魔。",
@@ -2085,7 +2085,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "万毒之源": {
+    "瘟疫领主": {
       "element": "poison",
       "rarity": "specialization",
       "card_text": "激活瘟疫：目标有毒时，动态减少其攻击floor(5＋0.6×自身毒附魔层×目标毒层)、防御floor(5＋0.5×自身毒附魔层×目标毒层)。目标毒层清空时解除该减益。",
@@ -2100,7 +2100,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "毒爆": {
+    "以毒淬锋": {
       "element": "poison",
       "rarity": "legendary",
       "card_text": "激活后，目标每实际增加或减少1毒层，自身本场＋3攻击；包含自然衰减、净化和主动消耗，不追溯激活前变化。",
@@ -2115,7 +2115,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "瘟潮": {
+    "瘟疫之潮": {
       "element": "poison",
       "rarity": "legendary",
       "card_text": "首次打出获得5层毒附魔。",
@@ -2130,10 +2130,10 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "蚀命": {
+    "蚕食生机": {
       "element": "poison",
       "rarity": "legendary",
-      "card_text": "每次常规或额外触发的常规毒伤，其原值额外加入目标当前生命×1%×自身毒附魔层数×目标毒层数；整段只扣一次目标50%防御。万毒爆与毒潮的爆炸伤害不获得此加伤。",
+      "card_text": "每次常规或额外触发的常规毒伤，其原值额外加入目标当前生命×1%×自身毒附魔层数×目标毒层数；整段只扣一次目标50%防御。毒爆与烈性反应的爆炸伤害不获得此加伤。",
       "roles": [
         {
           "role": "能力与真实事件",
@@ -2145,10 +2145,10 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "蚀骨": {
+    "附骨之毒": {
       "element": "poison",
       "rarity": "legendary",
-      "card_text": "自然衰减保留最后1毒层，主动消耗和净化仍可清空；激活万毒之源后，其减攻/减防系数改为1.2/0.9。",
+      "card_text": "自然衰减保留最后1毒层，主动消耗和净化仍可清空；激活瘟疫领主后，其减攻/减防系数改为1.2/0.9。",
       "roles": [
         {
           "role": "能力与真实事件",
@@ -2156,14 +2156,14 @@
           "formal": "正式到位后才激活；命中、破盾、伤害、毒层真实变化、死亡和复活只触发一次。"
         }
       ],
-      "specific_rule": "自然衰减保留最后1层，主动消耗或净化仍可清空；已激活万毒之源时系数覆盖为减攻1.2/减防0.9，固定值5不变。",
+      "specific_rule": "自然衰减保留最后1层，主动消耗或净化仍可清空；已激活瘟疫领主时系数覆盖为减攻1.2/减防0.9，固定值5不变。",
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "万毒爆": {
+    "毒爆": {
       "element": "poison",
       "rarity": "epic",
-      "card_text": "消耗目标全部毒层，立即造成4倍基础毒伤原值的爆炸伤害。毒层与消耗资格按本位次开始时确认，伤害不包含蚀命加伤。",
+      "card_text": "消耗目标全部毒层，立即造成4倍基础毒伤原值的爆炸伤害。毒层与消耗资格按本位次开始时确认，伤害不包含蚕食生机加伤。",
       "roles": [
         {
           "role": "即时战斗伤害",
@@ -2195,7 +2195,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "万蚀": {
+    "蚀心": {
       "element": "poison",
       "rarity": "epic",
       "card_text": "立即触发一次常规毒伤，不消耗毒层，不改变原有毒伤与衰减计时。",
@@ -2206,14 +2206,14 @@
           "formal": "本位提交真实消耗和伤害；双方同位已提交效果完成后检查死亡/复活；耗量为0不制造兑换伤害。"
         }
       ],
-      "specific_rule": "C按真实毒层触发常规毒伤，0层不伤；实际才能消耗腐息额外次数，不预演真实伤害。",
+      "specific_rule": "C按真实毒层触发常规毒伤，0层不伤；实际才能消耗溃败额外次数，不预演真实伤害。",
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "毒潮": {
+    "烈性反应": {
       "element": "poison",
       "rarity": "epic",
-      "card_text": "消耗目标最多3层毒，立即造成2.5倍基础毒伤原值的爆炸伤害。按本位次开始时确认的消耗层数计算，其余毒层保留，伤害不包含蚀命加伤。",
+      "card_text": "消耗目标最多3层毒，立即造成2.5倍基础毒伤原值的爆炸伤害。按本位次开始时确认的消耗层数计算，其余毒层保留，伤害不包含蚕食生机加伤。",
       "roles": [
         {
           "role": "即时战斗伤害",
@@ -2230,7 +2230,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "毒龙": {
+    "蛇吻": {
       "element": "poison",
       "rarity": "epic",
       "card_text": "立即施加1毒层。",
@@ -2260,7 +2260,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "蚀骨之触": {
+    "毒入膏肓": {
       "element": "poison",
       "rarity": "epic",
       "card_text": "按打出时目标毒层，使目标防御本场减少floor(2＋0.5×毒层)，重复打出加算。",
@@ -2275,7 +2275,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "缓释毒素": {
+    "慢性毒药": {
       "element": "poison",
       "rarity": "epic",
       "card_text": "本场由自身施加的毒，其自然衰减间隔增加20%；重复打出及其他自然衰减间隔百分比增幅同区加算；保留当前已流逝进度，不重置计时，不改变毒伤触发频率。",
@@ -2293,7 +2293,7 @@
     "固毒": {
       "element": "poison",
       "rarity": "rare",
-      "card_text": "抵消目标下一次自然毒层衰减，并额外施加1毒层；重复打出累积保护次数，每次衰减事件仅消耗1次。蚀骨使最后1层不产生自然衰减事件时，不消耗保护。",
+      "card_text": "抵消目标下一次自然毒层衰减，并额外施加1毒层；重复打出累积保护次数，每次衰减事件仅消耗1次。附骨之毒使最后1层不产生自然衰减事件时，不消耗保护。",
       "roles": [
         {
           "role": "能力与真实事件",
@@ -2301,11 +2301,11 @@
           "formal": "正式到位后才激活；命中、破盾、伤害、毒层真实变化、死亡和复活只触发一次。"
         }
       ],
-      "specific_rule": "按卡面时点和数量正式结算；抵消目标下一次自然毒层衰减，并额外施加1毒层；重复打出累积保护次数，每次衰减事件仅消耗1次。蚀骨使最后1层不产生自然衰减事件时，不消耗保护。",
+      "specific_rule": "按卡面时点和数量正式结算；抵消目标下一次自然毒层衰减，并额外施加1毒层；重复打出累积保护次数，每次衰减事件仅消耗1次。附骨之毒使最后1层不产生自然衰减事件时，不消耗保护。",
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "枯潮": {
+    "毒物滋养": {
       "element": "poison",
       "rarity": "rare",
       "card_text": "立即施加2毒层；以计划中本牌施毒后的目标毒层锁定奖励：至少3层时立即获得1费，至少6层时再立即抽1张。",
@@ -2360,7 +2360,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "爆裂": {
+    "催命": {
       "element": "poison",
       "rarity": "rare",
       "card_text": "下一发主弹发射后的固定间隔减去10；打出时目标至少有3毒层，则改为减去20。",
@@ -2375,7 +2375,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "腐息": {
+    "溃败": {
       "element": "poison",
       "rarity": "rare",
       "card_text": "下一次常规毒伤或卡牌直接触发的常规毒伤后，额外结算一次常规毒伤；重复打出累积额外次数，在该次触发后一并消耗，额外毒伤不递归触发本效果。",
@@ -2390,7 +2390,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "腐溃": {
+    "催枯": {
       "element": "poison",
       "rarity": "rare",
       "card_text": "按打出时目标毒层，使下一发主弹临时攻击增加8＋4×毒层；该发结算后结束。",
@@ -2405,7 +2405,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "腐潮": {
+    "彼毒我药": {
       "element": "poison",
       "rarity": "rare",
       "card_text": "按打出时目标毒层，回复自身已损失生命的15%＋每毒层1%，最多回复已损失生命的30%。",
@@ -2435,10 +2435,10 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "蚀刻": {
+    "入髓": {
       "element": "poison",
       "rarity": "rare",
-      "card_text": "目标受到的治疗减少30%；打出时目标至少有3毒层，则改为50%。持续至自身下一个抽牌阶段开始前；多次蚀刻取较高值，再与其他减疗相加，总减疗最多60%。",
+      "card_text": "目标受到的治疗减少30%；打出时目标至少有3毒层，则改为50%。持续至自身下一个抽牌阶段开始前；多次入髓取较高值，再与其他减疗相加，总减疗最多60%。",
       "roles": [
         {
           "role": "主动参数与状态",
@@ -2451,11 +2451,11 @@
           "formal": "对抗状态从正式位次起作用；不追回已锁运转。同位净化不移除本位新施加部分。"
         }
       ],
-      "specific_rule": "按卡面时点和数量正式结算；目标受到的治疗减少30%；打出时目标至少有3毒层，则改为50%。持续至自身下一个抽牌阶段开始前；多次蚀刻取较高值，再与其他减疗相加，总减疗最多60%。",
+      "specific_rule": "按卡面时点和数量正式结算；目标受到的治疗减少30%；打出时目标至少有3毒层，则改为50%。持续至自身下一个抽牌阶段开始前；多次入髓取较高值，再与其他减疗相加，总减疗最多60%。",
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "寻毒": {
+    "寻药": {
       "element": "poison",
       "rarity": "common",
       "card_text": "随机查看摸牌堆中的最多2张毒系牌，选择1张置顶，其余位置不变。",
@@ -2470,7 +2470,7 @@
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
-    "毒瓶": {
+    "涂毒": {
       "element": "poison",
       "rarity": "common",
       "card_text": "支付自身当前生命的5%，立即施加2毒层；生命支付最低保留1点，不属于伤害。",
@@ -2511,7 +2511,7 @@
           "formal": "只由正式前缀建立；阶段末次数按真实成功出牌统计，死后尾段不计数；下一阶段按新S0兑现。"
         }
       ],
-      "specific_rule": "正式到位才登记下阶段施毒；在下一阶段常规毒伤之前施加，当前P不把未来毒层用于枯潮/循毒。",
+      "specific_rule": "正式到位才登记下阶段施毒；在下一阶段常规毒伤之前施加，当前P不把未来毒层用于毒物滋养/循毒。",
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },
@@ -2593,7 +2593,7 @@
     "时光倒流": {
       "element": "generic",
       "rarity": "legendary",
-      "card_text": "记录打出时的有效攻击、有效防御、生命与总护盾。此后200行动值内首次死亡时恢复四项，护盾恢复为普通护盾；保留死亡时附魔层，移除毒、风痕及可净化临时负面，清零临时通用攻击、深渊层数与本场减防，保留其他已登记效果。记录前仍有效的常驻攻击修正按现行公式继续计算。每场最多复活一次，复活仍终止本阶段剩余牌序。",
+      "card_text": "记录打出时的有效攻击、有效防御、生命与总护盾。此后200行动值内首次死亡时恢复四项，护盾恢复为普通护盾；保留死亡时附魔层，移除毒、积风成灾及可净化临时负面，清零临时通用攻击、深渊层数与本场减防，保留其他已登记效果。记录前仍有效的常驻攻击修正按现行公式继续计算。每场最多复活一次，复活仍终止本阶段剩余牌序。",
       "roles": [
         {
           "role": "能力与真实事件",
@@ -2601,7 +2601,7 @@
           "formal": "正式到位后才激活；命中、破盾、伤害、毒层真实变化、死亡和复活只触发一次。"
         }
       ],
-      "specific_rule": "按卡面时点和数量正式结算；记录打出时的有效攻击、有效防御、生命与总护盾。此后200行动值内首次死亡时恢复四项，护盾恢复为普通护盾；保留死亡时附魔层，移除毒、风痕及可净化临时负面，清零临时通用攻击、深渊层数与本场减防，保留其他已登记效果。记录前仍有效的常驻攻击修正按现行公式继续计算。每场最多复活一次，复活仍终止本阶段剩余牌序。",
+      "specific_rule": "按卡面时点和数量正式结算；记录打出时的有效攻击、有效防御、生命与总护盾。此后200行动值内首次死亡时恢复四项，护盾恢复为普通护盾；保留死亡时附魔层，移除毒、积风成灾及可净化临时负面，清零临时通用攻击、深渊层数与本场减防，保留其他已登记效果。记录前仍有效的常驻攻击修正按现行公式继续计算。每场最多复活一次，复活仍终止本阶段剩余牌序。",
       "commit_scope": "reached_prefix_only",
       "runtime_migrated": true
     },

@@ -1,0 +1,139 @@
+{
+  "status": "passed",
+  "date": "2026-10-31",
+  "version": "1.2",
+  "runtime": "native-csharp",
+  "active_logic_language": "C#",
+  "active_python_files": 0,
+  "python_environment_required": false,
+  "canonical_cards": 183,
+  "pool_stock": 677,
+  "published_ai_models": 6,
+  "flavor_cards_in_match": 25,
+  "regressions": {
+    "foundation": "passed",
+    "mechanics": "passed",
+    "static": {
+      "checks": 532,
+      "training_policy_checks": 55,
+      "corruption_guard_checks": 12
+    },
+    "training": {
+      "status": "passed",
+      "checks": 41647,
+      "full_tournaments": 3,
+      "proposal_cases": 8,
+      "reference_commit": "2e38abc44a37214b4edd0aad6aa2ab273e171c97",
+      "python_required": false
+    },
+    "oracle": {
+      "card": 366,
+      "battle": 15,
+      "session": 7
+    },
+    "business": {
+      "operations": 1214,
+      "original_test_names": 112
+    },
+    "protocol": {
+      "requests": 27,
+      "catalog_cards": 183,
+      "routes": 15,
+      "privacy": "passed",
+      "deterministic_decision": "passed"
+    },
+    "status": "passed",
+    "python_required": false,
+    "seconds": 19.5426886
+  },
+  "godot": {
+    "scenes": 7,
+    "passed": true,
+    "manual_tournament_steps": 609,
+    "graphical_transitions": true,
+    "flavor_gallery": true
+  },
+  "training_smoke": [
+    {
+      "mode": "dual",
+      "finished": true,
+      "episodes": 12,
+      "skipped": 0
+    },
+    {
+      "mode": "element",
+      "finished": true,
+      "episodes": 30,
+      "skipped": 0
+    },
+    {
+      "mode": "element-paired",
+      "finished": true,
+      "episodes": 60,
+      "skipped": 0
+    },
+    {
+      "mode": "free",
+      "finished": true,
+      "episodes": 8,
+      "skipped": 0
+    },
+    {
+      "mode": "mechanism",
+      "finished": true,
+      "episodes": 8,
+      "skipped": 0
+    },
+    {
+      "mode": "medium",
+      "finished": true,
+      "episodes": 8,
+      "skipped": 0
+    },
+    {
+      "mode": "outcome",
+      "finished": true,
+      "episodes": 8,
+      "skipped": 0
+    },
+    {
+      "mode": "population",
+      "finished": true,
+      "episodes": 120,
+      "skipped": 0
+    },
+    {
+      "mode": "six",
+      "finished": true,
+      "episodes": 96,
+      "skipped": 0
+    },
+    {
+      "mode": "thin",
+      "finished": true,
+      "episodes": 8,
+      "skipped": 0
+    }
+  ],
+  "training_smoke_is_full_budget": false,
+  "models_replaced": false,
+  "package": {
+    "status": "passed",
+    "runtime": "native-csharp",
+    "python_required": false,
+    "files": 238,
+    "integrity_entries": 237,
+    "cards": 183,
+    "stock": 677,
+    "models": 6,
+    "rule_and_display_data_equal_to_source": true,
+    "python_files": [],
+    "python_disabled_smoke": true
+  },
+  "archive": {
+    "file": "Magicians-v1.2-CSharp-Windows-x64.zip",
+    "bytes": 73428275,
+    "sha256": "c24bda9e1f5d07ae696713fafbaacfcf9750b587d87d2f26681555b58705ad52"
+  },
+  "historical_evidence": "Frozen ZIPs contain retired source only; no interpreter or executable Python is used or distributed."
+}

@@ -1,9 +1,7 @@
-# v1.2 权威模拟器
+# v1.2 规则数据
 
-当前183张卡牌、677库存，四人赛事。规则在 rules/，效果在 effects.py，StrictBattle负责锁定出牌序列。全部火系卡（含专精/传奇）统一计作火系附魔牌；见 catalog.Card.enchantment。
+此目录只保留 rules/ JSON 和 fixtures/ 测试策略。唯一执行内核为 Scripts/Native；开发工具为 tools/Magicians.Tooling，不再运行Python。
 
-运行测试：python -m unittest discover -s tools/sim_v12 -t .
+当前183张卡牌、677库存，四人赛事。全部火系卡（含专精/传奇）统一计作火系附魔牌；实现见 Magicians.Native.Card.enchantment。运行回归：`dotnet run --project tools/Magicians.Tooling -- test`。
 
-六模型加载入口 six_styles.load_policy；已发布模型位于 releases/ai-v1.2-six-styles-20261029。six_train.initial_models 以当前发布模型作为继续训练起点。fixtures 中两份小型策略仅用于训练算法回归，不是客户端模型。旧批次训练驱动仅保留算法兼容；不要运行含历史输入路径的旧批次 main。新训练应显式指定输入模型、全新种子范围与输出目录，并分别保留训练/验证/终测，不能据终测重选。
-
-历史研究报告已压缩移出工作树。项目入口与发行流程见根 README 和 docs/development.md。
+六模型入口为 SixStyles.load_policy，发布模型位于 releases/ai-v1.2-six-styles-20261029。fixtures中的两份小型策略仅用于算法回归。训练使用新输出目录和独立训练/验证/终测，默认不部署候选。详见 docs/development.md。

@@ -34,8 +34,24 @@ public partial class V12CardUiRunner : Node
             foreach (var row in cards.RootElement.GetProperty("cards").EnumerateObject())
             {
                 var p = V12CardPresentation.Profile(row.Value);
+                var needsFlavor = p.Element != "generic" && (p.Rarity == "legendary" || p.Rarity == "specialization");
+                if (needsFlavor != (p.FlavorText.Length > 0)) throw new Exception("Missing or misplaced flavor: " + row.Name);
                 if (p.Name != row.Name || p.CombatCost != row.Value.GetProperty("cost").GetInt32() || p.RulesText != row.Value.GetProperty("text").GetString() || p.DisplayRulesText != p.RulesText)
                     throw new Exception("Stale card presentation: " + row.Name);
+                foreach (var applied in new bool?[] { null, false, true })
+                foreach (var inCombat in new[] { false, true })
+                {
+                    var data = JsonSerializer.Deserialize<Dictionary<string, JsonElement>>(row.Value.GetRawText())!;
+                    if (applied.HasValue) data["enchantment_applied"] = JsonSerializer.SerializeToElement(applied.Value);
+                    var face = V12CardPresentation.Face(JsonSerializer.SerializeToElement(data), 300, 480, combat: inCombat);
+                    var flavor = face.GetChild<CardView>(0).GetNode<Label>("Margin/Column/Details/Text/Flavor");
+                    if (flavor.Visible != needsFlavor || flavor.Text != p.FlavorText || (needsFlavor && !face.TooltipText.Contains(p.FlavorText)))
+                        throw new Exception("Flavor not bound to card face: " + row.Name);
+                    var color = face.GetChild<CardView>(0).GetNode<Label>("Margin/Column/Title").GetThemeColor("font_color");
+                    var expected = inCombat && applied == false && p.FirstEnchantmentLayers > 0 ? new Color("ffd166") : Colors.White;
+                    if (color != expected) throw new Exception($"First enchantment highlight incorrect: {row.Name}, combat={inCombat}, applied={applied}");
+                    face.Free();
+                }
             }
             await scene.StartMatchAsync(334020, new[] { "fire", "water", "earth" });
             await ToSignal(GetTree(), SceneTree.SignalName.ProcessFrame); await ToSignal(GetTree(), SceneTree.SignalName.ProcessFrame);

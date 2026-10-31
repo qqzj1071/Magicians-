@@ -113,6 +113,12 @@ theme_override_font_sizes/font_size = 20
 autowrap_mode = 3
 modulate = Color(1, 0.85, 0.55, 1)
 
+[node name="Flavor" type="Label" parent="Margin/Column/Details/Text"]
+theme_override_font_sizes/font_size = 16
+autowrap_mode = 3
+modulate = Color(0.78, 0.8, 0.85, 1)
+visible = false
+
 [node name="StatsRarity" type="HBoxContainer" parent="Margin/Column"]
 theme_override_constants/separation = 8
 alignment = 1

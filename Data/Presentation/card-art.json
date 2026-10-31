@@ -1,33 +1,33 @@
 {
-  "毒龙": {
+  "蛇吻": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "岩潮壁垒": {
+  "流沙成岩": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "毒瓶": {
+  "涂毒": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "蚀骨": {
+  "附骨之毒": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "血怒": {
+  "背水": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -55,7 +55,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "山岳": {
+  "平地起垒": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -83,7 +83,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "回流": {
+  "观潮": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -97,7 +97,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "治愈洪流": {
+  "治愈巨浪奔涌": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -132,7 +132,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "潮涌": {
+  "回流": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -146,14 +146,14 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "岩甲": {
+  "披坚": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "燃烧血统": {
+  "焚天神兵": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -174,7 +174,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "风步": {
+  "迅捷": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -195,7 +195,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "穿潮": {
+  "破浪": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -237,7 +237,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "战意": {
+  "火势": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -286,7 +286,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "余烬心脏": {
+  "烬中搏动": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -307,14 +307,14 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "爆裂弹头": {
+  "催命弹头": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "深渊潮": {
+  "沧海横流": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -328,7 +328,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "风刃": {
+  "借风": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -342,21 +342,21 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "潮声": {
+  "听潮": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "坚岩": {
+  "垒土": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "回震岩甲": {
+  "屡毁屡筑": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -398,14 +398,14 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "万毒之源": {
+  "瘟疫领主": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "回火": {
+  "回灶": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -454,7 +454,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "守岩": {
+  "固守": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -468,7 +468,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "不灭烈焰": {
+  "拾火": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -482,7 +482,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "炽焰王冠": {
+  "聚烬成焰": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -517,7 +517,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "余火": {
+  "添柴": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -531,28 +531,28 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "余烬护心": {
+  "余温护心": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "岩核重压": {
+  "挟山一击": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "风蚀": {
+  "浴风": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "山崩": {
+  "重峦叠嶂": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -566,7 +566,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "静水": {
+  "涟漪": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -594,14 +594,14 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "万毒爆": {
+  "毒爆": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "临时壁垒": {
+  "沙堡": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -629,21 +629,21 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "蚀刻": {
+  "入髓": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "毒爆弹": {
+  "以毒淬锋弹": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "风痕": {
+  "积风成灾": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -685,21 +685,21 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "山岳之躯": {
+  "卸甲养伤": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "洪流": {
+  "巨浪奔涌": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "火种翻找": {
+  "逐火": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -713,7 +713,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "泉眼": {
+  "润物": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -734,7 +734,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "狂暴": {
+  "怒焰": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -748,14 +748,14 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "烈焰冲刺": {
+  "催火": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "爆裂": {
+  "催命": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -790,7 +790,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "寻岩": {
+  "探脉": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -818,14 +818,14 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "寻毒": {
+  "寻药": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "蚀命": {
+  "蚕食生机": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -846,7 +846,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "焚心": {
+  "吞烬": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -860,7 +860,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "毒爆": {
+  "以毒淬锋": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -874,21 +874,21 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "蚀骨之触": {
+  "毒入膏肓": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "磐岩壁": {
+  "倚石养息": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "细流": {
+  "溯洄": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -909,14 +909,14 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "烈焰附身": {
+  "火毒": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "余烬引擎": {
+  "回炉重造": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -930,14 +930,14 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "枯潮": {
+  "毒物滋养": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "风切": {
+  "回风": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -958,14 +958,14 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "压缩爆燃": {
+  "聚爆": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "火种库": {
+  "火种书签": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -986,7 +986,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "穿云": {
+  "捕风": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1007,14 +1007,14 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "余烬刻度": {
+  "试我火候": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "生命洪流": {
+  "生命巨浪奔涌": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1042,7 +1042,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "风痕回廊": {
+  "风过留痕": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1077,7 +1077,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "爆燃": {
+  "炽焰": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1091,7 +1091,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "深流": {
+  "深潜": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1112,7 +1112,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "穿云箭": {
+  "穿云破阵": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1126,21 +1126,21 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "瘟潮": {
+  "瘟疫之潮": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "不坏壁垒": {
+  "固若金汤": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "万蚀": {
+  "蚀心": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1154,14 +1154,14 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "余烬之核": {
+  "身为洪炉": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "回岩": {
+  "补墙": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1210,7 +1210,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "裂岩护壁": {
+  "砺石": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1231,7 +1231,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "疾行": {
+  "神行": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1252,7 +1252,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "山岳壁垒": {
+  "步步为营": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1266,7 +1266,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "战意沸腾": {
+  "火势沸腾": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1301,7 +1301,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "燎原": {
+  "星火燎原": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1315,7 +1315,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "壁垒之心": {
+  "以守为攻": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1329,7 +1329,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "疾流": {
+  "凭潮": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1378,70 +1378,70 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "腐息": {
+  "溃败": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "毒潮": {
+  "烈性反应": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "握盾": {
+  "碎石借势": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "反震岩核": {
+  "破而后立": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "飓风": {
+  "大风起兮": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "血潮": {
+  "浴血狂澜": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "潮汐风暴": {
+  "风暴潮": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "腐潮": {
+  "彼毒我药": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "水之低语": {
+  "塑水": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "灰烬重生": {
+  "拨灰续火": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1455,7 +1455,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "水幕": {
+  "浸润": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1469,14 +1469,14 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "腐溃": {
+  "催枯": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "寻风": {
+  "听风": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1525,14 +1525,14 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "穿云破甲": {
+  "风蚀": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "磐石": {
+  "压阵": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1546,7 +1546,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "大地之握": {
+  "聚砾成锋": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1595,7 +1595,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "高温炉心": {
+  "高温炉芯": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1623,7 +1623,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "岩拳": {
+  "铺路": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1651,7 +1651,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "疾风之刃": {
+  "长风不息": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1672,14 +1672,14 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "气旋护壁": {
+  "一息尚存": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
     "EffectScene": "",
     "Sound": ""
   },
-  "奔流": {
+  "湍流": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1700,7 +1700,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "泉心": {
+  "泉眼": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1742,7 +1742,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "风眼": {
+  "避风港": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",
@@ -1756,7 +1756,7 @@
     "EffectScene": "",
     "Sound": ""
   },
-  "盾脉": {
+  "夯实": {
     "IllustrationTexture": "",
     "FrameTexture": "",
     "ElementIconTexture": "",

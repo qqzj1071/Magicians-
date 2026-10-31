@@ -1,0 +1,650 @@
+{
+  "schema_version": 1,
+  "version": "1.2",
+  "status": "retired-reference",
+  "snapshot_id": "canonical-workspace-20261031",
+  "archive": "releases/v1.2/python-migration-baseline.zip",
+  "archive_sha256": "b873aaf45dc8f0baffae90ae2ab8825806f0227e5ac788a15d0e9b912b194006",
+  "note": "Exact pre-migration workspace Python sources are preserved in the checked archive; no Git commit is claimed for uncommitted changes.",
+  "files": {
+    "tools/audit_v12_cards.py": {
+      "sha256_at_retirement": "9db00669e7d6dd342f270f8708f45cfab88337278b426e1b818de70d8bfc9dff",
+      "git_blob_sha1": "41be74b2656f61ab48123c3b673debb45a168ba5",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": "9db00669e7d6dd342f270f8708f45cfab88337278b426e1b818de70d8bfc9dff",
+      "historical_zip_sha256": "9db00669e7d6dd342f270f8708f45cfab88337278b426e1b818de70d8bfc9dff",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/audit_v12_layers.py": {
+      "sha256_at_retirement": "f996a050fdf95d5332a141b950d9e610949e74c30ac3002e089af53bc3ea025f",
+      "git_blob_sha1": "b5bebed4730f4deadb9de26de16d7746a718ad4a",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": "f996a050fdf95d5332a141b950d9e610949e74c30ac3002e089af53bc3ea025f",
+      "historical_zip_sha256": "f996a050fdf95d5332a141b950d9e610949e74c30ac3002e089af53bc3ea025f",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/build_v12_catalogue.py": {
+      "sha256_at_retirement": "df72c4a0da6fabece784fae3b5233c0ac83d7d667f1df8fa05e03389f137d8f4",
+      "git_blob_sha1": "e7aaa29ba8dcea3d6ededc4cfb67f3807f9fe014",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": "df72c4a0da6fabece784fae3b5233c0ac83d7d667f1df8fa05e03389f137d8f4",
+      "historical_zip_sha256": "df72c4a0da6fabece784fae3b5233c0ac83d7d667f1df8fa05e03389f137d8f4",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/client_v12/__init__.py": {
+      "sha256_at_retirement": "dfbe5f185cc18dc4b631ee7d48c038f66a81d7baf08f2e24eb75315a6c040087",
+      "git_blob_sha1": "8521c0a217351fe420ec3146c891003bad83a1aa",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/client_v12/bridge.py": {
+      "sha256_at_retirement": "3da1725ed450806fca2fc9639a4aad461f9b704e151c58b7c8b4289492cef538",
+      "git_blob_sha1": "cac9da5eff9b81cd8c8246d59f6526ed05ed1b4c",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/client_v12/match.py": {
+      "sha256_at_retirement": "1f348379e42826af2eba5cf91b3be405bc882f2b6edff45251ca27af8697b9dd",
+      "git_blob_sha1": "fc44e1545edbdd92279e734e76795362f210e52f",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/client_v12/test_bridge.py": {
+      "sha256_at_retirement": "8039e1ebac816c4543bd6d82dece0bd5f611ab6fc426b560b6ed30de960be68c",
+      "git_blob_sha1": "0307b33f6a6bd67084ee1e17b7f6bdefdc98df17",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/client_v12/test_card_content.py": {
+      "sha256_at_retirement": "bcefd4c73ca90099b0a75b2961bd566f83cad189558ea03e0ffc15d386b56504",
+      "git_blob_sha1": "399936cc34003237fa6dd3ea5142f10a55ded1e6",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/client_v12/test_match.py": {
+      "sha256_at_retirement": "fb3ca3dcfd62fead5cae8b98b5b44dcadbcb789c0ef28be8a5560825d08a4771",
+      "git_blob_sha1": "b06bdd5503713d7fefe25315c60547902d9461c8",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/freeze_v12.py": {
+      "sha256_at_retirement": "65f6fe3f5248f24171de28d3b2762f16eb4c26b2627b15113a104ef972a0ff7c",
+      "git_blob_sha1": "a6bfde7b5197e847ee71d428947b7e156185f939",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": "65f6fe3f5248f24171de28d3b2762f16eb4c26b2627b15113a104ef972a0ff7c",
+      "historical_zip_sha256": "65f6fe3f5248f24171de28d3b2762f16eb4c26b2627b15113a104ef972a0ff7c",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/installer/build_v12_portable.py": {
+      "sha256_at_retirement": "3675d5a35056eb29e40720d6213ed50ecb0414f416ec37d51df38b0c9c7aada5",
+      "git_blob_sha1": "68089dc6fa05506d7bcc9011fd83112d6e5a9494",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/__init__.py": {
+      "sha256_at_retirement": "0e11ae776df77bb7eea4e2f9b818ecb59c8b14f8d77f6e86a1239cabbdb8ca17",
+      "git_blob_sha1": "63971285af27b166843443ecb0333003bd587e6a",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/__main__.py": {
+      "sha256_at_retirement": "73ff4a6f263f311557aac79bd940a3f222190ff1a15a2997a45232239cbac94d",
+      "git_blob_sha1": "792323266c497abe72044547ee59b2b9290e57d9",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/analytics.py": {
+      "sha256_at_retirement": "683351248816291c8c9eaa3031fa268d6cac12dbefba5b3aed672ccf67ff420d",
+      "git_blob_sha1": "513eedd162361f547319ee321679d1fc28951e1c",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/catalog.py": {
+      "sha256_at_retirement": "129e6ece1df8a5e816945dcd8df54d3519ac8f447c92c47065933640b437456b",
+      "git_blob_sha1": "465e38987b19c60050835ac34547d9210bba5308",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": "129e6ece1df8a5e816945dcd8df54d3519ac8f447c92c47065933640b437456b",
+      "historical_zip_sha256": "129e6ece1df8a5e816945dcd8df54d3519ac8f447c92c47065933640b437456b",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/sim_v12/cohort.py": {
+      "sha256_at_retirement": "2e919b2a73d0f64d5fbe71c61e8cac4359c695546db73f4faac6385fa094f553",
+      "git_blob_sha1": "d1a2e86b578be4a56abc1a611aa361b743fcd3d0",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/construction.py": {
+      "sha256_at_retirement": "4dda62da51d71076e8f81768043c4ba657b0d205a7d895534163478f6b359e70",
+      "git_blob_sha1": "0b47ac770a3f46fceba321b446c7b7a1bea2969d",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/construction_templates.py": {
+      "sha256_at_retirement": "fa0f7c50e3c61463fc8e3d43de493ed6428a8bbe4db1eee691094102c9ecb57a",
+      "git_blob_sha1": "c0b7a5a7073aa9a12944ba55cdd03e428472989f",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/dual_train.py": {
+      "sha256_at_retirement": "167c616f08ec6d7d33774f6eaebf3abaf2c8e9e3290401ab787d2164ce0c4365",
+      "git_blob_sha1": "d432ee41461f50db5037395541388d1c0567237d",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/effects.py": {
+      "sha256_at_retirement": "ecf13521d9980ed183d8e89d1eaed1475bfe02bc4607799f09fedb2e75c2f9b6",
+      "git_blob_sha1": "d07cb17b1792f58663492b195897ae689839c13e",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": "ecf13521d9980ed183d8e89d1eaed1475bfe02bc4607799f09fedb2e75c2f9b6",
+      "historical_zip_sha256": "ecf13521d9980ed183d8e89d1eaed1475bfe02bc4607799f09fedb2e75c2f9b6",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/sim_v12/element_paired_train.py": {
+      "sha256_at_retirement": "e3c38aed0673c3f384514eec303e6da093f74d8dd433cfe158c6ba65300efc12",
+      "git_blob_sha1": "9eac751fda4d4296838824a971df86a473f402ac",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/element_train.py": {
+      "sha256_at_retirement": "a38db6e06505282c4320cddf3f86fa13fa926c0c2640f3385bfa5269c20f870e",
+      "git_blob_sha1": "cf679bc74703a373f1f57b86fba931ca0c0132ef",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/engine.py": {
+      "sha256_at_retirement": "6f3c1c6f279016f95353d27ac61fea965c54d375d3cb744ddf910692e9816262",
+      "git_blob_sha1": "10ab2eb83d9952dd2ecb55b953884309dface4f9",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": "6f3c1c6f279016f95353d27ac61fea965c54d375d3cb744ddf910692e9816262",
+      "historical_zip_sha256": "6f3c1c6f279016f95353d27ac61fea965c54d375d3cb744ddf910692e9816262",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/sim_v12/exploration.py": {
+      "sha256_at_retirement": "f9532428f71c87e2efe40c5ec32ab811dd47220ea51269ec2b61a88feb9d771b",
+      "git_blob_sha1": "d83c68f93093a0fdbc20989b1702be87d047b7cd",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/free_train.py": {
+      "sha256_at_retirement": "a4eee428fe712cd6da0a5d5fa257c06ee0562a0d44c2729eedc5b44173b61f83",
+      "git_blob_sha1": "598e38557cdc582ef410b225f809aea44621bb4e",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/learning_policy.py": {
+      "sha256_at_retirement": "1132c2875a92b131406159d64850bc87812848e643f3f2116411e87713a1c5ae",
+      "git_blob_sha1": "250517bb406ad369a08dee575a4c07e0f59fa649",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/legacy_policy.py": {
+      "sha256_at_retirement": "cb6b5bd57b0c9956d2965db9e45a24d790e00328ccad874db0f366a3f072b9e3",
+      "git_blob_sha1": "a9a709e52ce8e1e69206466f1b4aed47eb2c03bd",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/locked.py": {
+      "sha256_at_retirement": "ff0d0a6157b094d7a830be7d6a14e49e33b5ff9bec9c1640befa879470f189f1",
+      "git_blob_sha1": "c3de7cb2d559a0fcb53f70d09b0ea5410d7bc86e",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": "ff0d0a6157b094d7a830be7d6a14e49e33b5ff9bec9c1640befa879470f189f1",
+      "historical_zip_sha256": "ff0d0a6157b094d7a830be7d6a14e49e33b5ff9bec9c1640befa879470f189f1",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/sim_v12/mechanics.py": {
+      "sha256_at_retirement": "d47fe29792e847a76b09570350ea0d3a882b35a6bbedba86933c30fd0f2d04ba",
+      "git_blob_sha1": "b5d8c2aee49a3f70fc2383af44c1572bb6dd04d5",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/medium_train.py": {
+      "sha256_at_retirement": "56ac6a620b17bede1603276f82f77b3d11a03290abb70e471629469e03486a38",
+      "git_blob_sha1": "8fdceb376e243fe5c53fe4c46b995cb9ec9ed096",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/model.py": {
+      "sha256_at_retirement": "48aa946c29553e8efa2470855c91532b15301dbb4764c70cbcd0a69611df7719",
+      "git_blob_sha1": "23c6219635803fcac0fefdca1429a773ea491e4c",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": "48aa946c29553e8efa2470855c91532b15301dbb4764c70cbcd0a69611df7719",
+      "historical_zip_sha256": "48aa946c29553e8efa2470855c91532b15301dbb4764c70cbcd0a69611df7719",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/sim_v12/outcome_train.py": {
+      "sha256_at_retirement": "7d24dd8dd9fb06198d62e75a5784f21e0f1dedb495c567ad9ed9c4178a339e60",
+      "git_blob_sha1": "86a398078fa104f2c55085233132ff1cd39ff136",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/panel_budget.py": {
+      "sha256_at_retirement": "f7d3a3d5ec66c0571fa3601a26e45d79077016df2e5cac751d73e836d9b2bb76",
+      "git_blob_sha1": "7c4247ba3dfcbc3f567b6f0f56f41f32021dd2bf",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": "f7d3a3d5ec66c0571fa3601a26e45d79077016df2e5cac751d73e836d9b2bb76",
+      "historical_zip_sha256": "f7d3a3d5ec66c0571fa3601a26e45d79077016df2e5cac751d73e836d9b2bb76",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/sim_v12/policy.py": {
+      "sha256_at_retirement": "5f3ae04085f961a4c5ac44443580a62023f567c48f18cbb75067c0eaa46b46f0",
+      "git_blob_sha1": "bd1c3756578a08f5573ba551212eeb2e19906526",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/pool.py": {
+      "sha256_at_retirement": "57e5dad528799512c06389018294a182174e62993129d8120d1c1546e40dcafb",
+      "git_blob_sha1": "4dc1087412366a14f66be6fec22fca7992935378",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/population_train.py": {
+      "sha256_at_retirement": "3860f9447ccc43b7e1c91f991478c0ccd48c304ec2515c0bc400686d2a01927e",
+      "git_blob_sha1": "484455d305b3de3b26dcfa0fcb3ac08595660119",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/quick_test.py": {
+      "sha256_at_retirement": "f7cd04dab9a5e95300e42f9e7b5e36171b06cf23de8518c2c8a2c30f471f4b78",
+      "git_blob_sha1": "e6832f39b39020f25d9764d084dfdfdee0ab9bc1",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/six_styles.py": {
+      "sha256_at_retirement": "965ce06bcf9e37ea0e9b8324878c10ff0f35f2ce4451b37b583f88eaa070f943",
+      "git_blob_sha1": "51ede17362dbd0dfb6fd9c9a89b27aff301dd7f9",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/six_train.py": {
+      "sha256_at_retirement": "d8052bc02b17f1eb8228eeafb4ea4741082d9b49b4a3e025982df710eced0092",
+      "git_blob_sha1": "9ac93315d2e84658e29deed6b46bde8a962bc3a1",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/strict.py": {
+      "sha256_at_retirement": "915f690c6f389a6bee01d0334b212719798fe1f4566b81ccbd36ff21a484b6f3",
+      "git_blob_sha1": "d9fb938f05845389f0828b2623d310aba3925552",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": "915f690c6f389a6bee01d0334b212719798fe1f4566b81ccbd36ff21a484b6f3",
+      "historical_zip_sha256": "915f690c6f389a6bee01d0334b212719798fe1f4566b81ccbd36ff21a484b6f3",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    },
+    "tools/sim_v12/test_blood_poison_startup.py": {
+      "sha256_at_retirement": "2eeaf2cd8ec26789e5b8d1360f2d042405f8f52118eb379cc45ce31e0fb03adc",
+      "git_blob_sha1": "fce467df5cc2c7ad0f03f57fc8ccac1b6adffa6a",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_current.py": {
+      "sha256_at_retirement": "7ccca1748aaaeef1eb2b287811903638f83d9a481e596504c694a41efa3baa53",
+      "git_blob_sha1": "0f305c5184d1f2994fa1dc9c30546ddd95fc8e21",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_early_deletion.py": {
+      "sha256_at_retirement": "cfc5e6939dfbd6c487ffae59b1ae9074df4627927a227bb201533c0ab4626987",
+      "git_blob_sha1": "6a6c6f03d2613351321c91bca56884db35b1e317",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_economy.py": {
+      "sha256_at_retirement": "a0574f0c591d71d6f412632ad522983acee4cc263de52d7afc198afcf1dd8ab9",
+      "git_blob_sha1": "6871f8d1233cb76ac5d52b27270972cd292c4f99",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_element_paired_train.py": {
+      "sha256_at_retirement": "ee0de4f3de492eb3b2b156cf3e4bebddffbd70e7d77b2c99d986476d02ce6784",
+      "git_blob_sha1": "ba7a0f3f5c89d2a75f3a8ef581dc830c371147da",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_element_train.py": {
+      "sha256_at_retirement": "9f429d98872589f48d7ec141a769d0f7184ce0063169ba2b4e5b645be9fdfa2b",
+      "git_blob_sha1": "5a4aa025f38f49508a922fe57135178f39e75063",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_exploration.py": {
+      "sha256_at_retirement": "e926293c47f23a55df226f6b6f248eb2ce905b44d8b5dc9126a333cb89462173",
+      "git_blob_sha1": "a48a1d7aac8429319a2ffe43d9f491aaa88a6dee",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_fatigue.py": {
+      "sha256_at_retirement": "8e3ce4e0a5790f1c1e1f275b6622122a201e6ffb9e8ad29f15f873ec4bac1ebd",
+      "git_blob_sha1": "99043875cb2d4e1345fb30ffe132ad103eb3d669",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_fire_enchantment_fix.py": {
+      "sha256_at_retirement": "b6a187345f40f2c35d3d86e2f1201dde7ee994f556890dfda70f5402881d7caa",
+      "git_blob_sha1": "557cb02d9c19111ed631a10aa4a1effc12ba15eb",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_freeze_contract.py": {
+      "sha256_at_retirement": "f733c97c5c8a5619e50d8fe1de2e2a25571c37df7c5d7426b639ace46aac2f7d",
+      "git_blob_sha1": "969320cb1ab94b238ca360b350dc1dce8a70f7a7",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_latest_cards.py": {
+      "sha256_at_retirement": "9aeb1e80e2eb9c99057685320b6c9f6716d3e4c7fe385293b989e1187912aedf",
+      "git_blob_sha1": "a50601b3c978905901d98be69cd06acdd9a20101",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_outcome_train.py": {
+      "sha256_at_retirement": "2825a4bab699fa6229d1714cf7b55b77266395c917ed212bbd139e8810ef1276",
+      "git_blob_sha1": "50a227cadc4ca331ddf0b6f2baf1f4b701477ca6",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_panel_budget.py": {
+      "sha256_at_retirement": "87dcf59f182445a7f8ba06b33a8d0e5631028809e06a0690e6576e2c94a4ed90",
+      "git_blob_sha1": "70ed91b236893ddb4898ae9e617534d594e5d3ab",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_poison_specialization_rollback.py": {
+      "sha256_at_retirement": "fdc7a99789a6d1bc476a2cfe5b94a12997881614103d116962e84e8ddc3e70e1",
+      "git_blob_sha1": "160bc4e74210d80f21c30c4f0cc5c803afd22f15",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_route_balance.py": {
+      "sha256_at_retirement": "7ce73079f817fa615cb1ec2e4bbc84b8b058af70241f552224ae80b1fdbe2e97",
+      "git_blob_sha1": "14b6cb3b9a11393062c9e90bac92cc7ec9a9626e",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_shield_fire_tuning.py": {
+      "sha256_at_retirement": "fef3b181f7d8eae711f90a2d72914a0b05d7025613944763d7e5d9f3c211691c",
+      "git_blob_sha1": "aea1a5cf40affaf31b75b3d6c4459508ce01189f",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_shield_poison_tuning.py": {
+      "sha256_at_retirement": "3a7273a51ef14c6595dc6dcb0e15258d32d9c8eaec93975c38539b012df965c6",
+      "git_blob_sha1": "b0c18f16e43268d694379c804329de328bdf4980",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_six_styles.py": {
+      "sha256_at_retirement": "c48c0869fc4880b11e6b26f1798f787dc21053ff6a03d59beddf977a921fc1fc",
+      "git_blob_sha1": "aa9c27fcd9ea2d415113e1903523c296bf9d7700",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_spring_refinement.py": {
+      "sha256_at_retirement": "84583c08161396121cb339748340480b6fda8e1fc58c3b52b95ebd0b6285a0d5",
+      "git_blob_sha1": "5c31807a207336392cd2f30e4cb015ae9fb3d186",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_temporary_additive.py": {
+      "sha256_at_retirement": "13e04a846a36932cc6b68d281afd19ba63957c01e1b87cebf0573e863c98878d",
+      "git_blob_sha1": "eab12380c7ebc308b222b2e32823c822f88ac930",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_user_earth_edits.py": {
+      "sha256_at_retirement": "c8671f6bcf500942a137f9c8c6fd7bb2a94e211c17dffea0d66a906396648e49",
+      "git_blob_sha1": "6b608619a4c8760dd858f11a14569a59b810992c",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_user_mixed_edits.py": {
+      "sha256_at_retirement": "ed82c07cc8cfb66f78e560866ebf795300da589aa69f0af0ffc0d8f0a0e5a1e5",
+      "git_blob_sha1": "4ce05dd587bc82eaf81d4be96cb2943d89032c42",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_user_water_poison_edits.py": {
+      "sha256_at_retirement": "786efda4d16b8eda71c8382d7419099cb4287beebe7ad295d81bb38a0ffc9639",
+      "git_blob_sha1": "e5b2732b9d0b58bf230a831bd3ab3ed8785e9323",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_water_earth.py": {
+      "sha256_at_retirement": "aca53f70cd7aff850f9537e084a3afb13569576817f0cc183889128b8eb9269c",
+      "git_blob_sha1": "21cdf75bc7bfa7c0f39ce51b18d7d544cde2aa8c",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_water_lifeonly.py": {
+      "sha256_at_retirement": "17614e49e054df4ddb05966f7742647ef5a91cd1e622bef2138a55c9caf8394b",
+      "git_blob_sha1": "9ca0ee8b725ebeb0c615cdd7b837ce6501d38b8d",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_wind_ash_poison.py": {
+      "sha256_at_retirement": "f3f8050a824e7c12bcc7d898a7c3a2db63621e2e788c5e5f0aa3f3e969dc1426",
+      "git_blob_sha1": "45303b17eb265200fb1edaa86fd9ea8b4798ecba",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/test_wind_rebalance.py": {
+      "sha256_at_retirement": "e1c557a4c06fc625093298dcdd8a7d1575ce9c496605e9a165b8857c3995388a",
+      "git_blob_sha1": "b4df0aa82cfd17fd98192f945eb8b19b0b8a2dee",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/thin_train.py": {
+      "sha256_at_retirement": "b5cb399951f36441829aa3456e55000a82205456e967183a45a34805f5dcdaf2",
+      "git_blob_sha1": "b4a5a1a93bc5d9d2d33664805e2cc1ecb5061f62",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/tournament.py": {
+      "sha256_at_retirement": "68f89d3cdb3b071fb81220a8dfbb75c587a698ce32ff72c5e5fa7d3f722ce104",
+      "git_blob_sha1": "bad23100a720d8f450f9364bffe9a4f365491f58",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/sim_v12/train.py": {
+      "sha256_at_retirement": "a1dcfee911e61868c06ffe6bcf816259f09c64a8eaf90e976d71d0cf3020678d",
+      "git_blob_sha1": "70b220db91476fccd8c2df4fdf48bcf5a6b31a34",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": null,
+      "historical_zip_sha256": null,
+      "zip_matches_retired_source": null,
+      "old_freeze_matches_retired_source": null
+    },
+    "tools/verify_v12.py": {
+      "sha256_at_retirement": "0d3682392527bf7c309b9f1aae674bbe710d489d2a4971a6ca69d3a4d4eaa826",
+      "git_blob_sha1": "ed8c0d46f4d7b3c654b7adf9927d65e32601f158",
+      "snapshot_id": "canonical-workspace-20261031",
+      "old_freeze_expected_sha256": "0d3682392527bf7c309b9f1aae674bbe710d489d2a4971a6ca69d3a4d4eaa826",
+      "historical_zip_sha256": "0d3682392527bf7c309b9f1aae674bbe710d489d2a4971a6ca69d3a4d4eaa826",
+      "zip_matches_retired_source": true,
+      "old_freeze_matches_retired_source": true
+    }
+  }
+}

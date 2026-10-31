@@ -1,0 +1,857 @@
+{
+  "schema_version": 1,
+  "version": "1.2",
+  "status": "frozen",
+  "implementation": "native-csharp-runtime-and-tooling",
+  "created_utc": "2026-10-31T12:13:22.7375426+00:00",
+  "historical_manifest": "releases/v1.2/freeze-manifest.json",
+  "historical_manifest_sha256": "45564dad19b68f3c80b4fcdb8867bb5c9bcaa167adbcdec5dfac4a340e8d9346",
+  "retired_python_manifest": "releases/v1.2/retired-python-manifest.json",
+  "retired_python_manifest_sha256": "000558422d27277ccdb3d7335476cb3f8456c1880f25b3d575f3f0e6cc22a100",
+  "boundary": "Exact pre-migration workspace Python sources are verified inside python-migration-baseline.zip. Current C# implementation and rule/data inputs are verified by this manifest; uncommitted workspace sources are not attributed to a historical Git commit.",
+  "text_hash_policy": "UTF-8 source text is hashed after CRLF to LF normalization; JSON/Markdown/models and historical archive use exact raw bytes.",
+  "cards": 183,
+  "pool_copies": 677,
+  "files": {
+    "Assets/Placeholders/card.svg": {
+      "sha256": "4a71dfc5e0ae9cfabf273d9f911445e04e4953d56c1603b70924d04bce0d56af",
+      "hash_mode": "utf8-lf"
+    },
+    "Assets/Placeholders/card.svg.import": {
+      "sha256": "a81b270c517b12e3069a85f23914ac7c06da300025288f77141cd43fafcf3f9a",
+      "hash_mode": "utf8-lf"
+    },
+    "Assets/Placeholders/character_ai.svg": {
+      "sha256": "a81574e8961183526f0ffee59635fe91f6ef80e493fab2c6dca2c07cdc4c49df",
+      "hash_mode": "utf8-lf"
+    },
+    "Assets/Placeholders/character_ai.svg.import": {
+      "sha256": "a3ae13a02477503e18e0bee4097fe2f0922dd039c5ef08abf729c4b9b88c9713",
+      "hash_mode": "utf8-lf"
+    },
+    "Assets/Placeholders/character_human.svg": {
+      "sha256": "0bae024c65235870ef2f113b9a1052134e6d345dd6a40b188897255a60f7dc9f",
+      "hash_mode": "utf8-lf"
+    },
+    "Assets/Placeholders/character_human.svg.import": {
+      "sha256": "0b1a46a03845a7e6b3860643de4c53bfcc7ff37db393df9d2843bfefc7e9ad58",
+      "hash_mode": "utf8-lf"
+    },
+    "Assets/Placeholders/projectile.svg": {
+      "sha256": "e1504c328413312f4b8e61a09e77c5d1751c890eb421ef59b07a9895cd6ad713",
+      "hash_mode": "utf8-lf"
+    },
+    "Assets/Placeholders/projectile.svg.import": {
+      "sha256": "2f1948c0493197a94f050bf56fc9289650125933838193b95ac2b9c26ec3b1d1",
+      "hash_mode": "utf8-lf"
+    },
+    "Data/Presentation/card-art.json": {
+      "sha256": "5e63ba60406607a8b132b3b822c253d5e8d6ec2e76e51639e421f2ba879b8847",
+      "hash_mode": "raw-sha256"
+    },
+    "Data/Presentation/card-display.json": {
+      "sha256": "cb2cc1c8c3f549e6fd0944b973b8626aa694285972a9d0f59cb6ef59fa960a39",
+      "hash_mode": "raw-sha256"
+    },
+    "Data/Presentation/card-flavor.json": {
+      "sha256": "3c4f6bfa8d9d841130ffc5b2f225781f1e23f3a474d648850e69e9e3176fb4ba",
+      "hash_mode": "raw-sha256"
+    },
+    "Magicians!.csproj": {
+      "sha256": "e2df7bd3f559bb35a892a5d5709b21100ec41acde4812090240a44e880a10faa",
+      "hash_mode": "utf8-lf"
+    },
+    "Magicians!.sln": {
+      "sha256": "eb43b5890205072cfcbcea1073eda814711ae79422ca1e4933f66b47b3ec0c5d",
+      "hash_mode": "utf8-lf"
+    },
+    "NuGet.config": {
+      "sha256": "25b5327b150f18d7b52e96fbcbd740f6db05ec00d333d5d1e4e293a633d2f815",
+      "hash_mode": "utf8-lf"
+    },
+    "Scenes/Boot/Boot.tscn": {
+      "sha256": "c808518cd709f6d7d560b95e441fa2997a76d5008ab068c0740404b27ed49bb0",
+      "hash_mode": "utf8-lf"
+    },
+    "Scenes/MainMenu/MainMenu.tscn": {
+      "sha256": "34b4d82a85f44307de4d79fc1bf8b4cef295afe0833146cd203ae68637f99c81",
+      "hash_mode": "utf8-lf"
+    },
+    "Scenes/Tests/MainMenuFlowRunner.tscn": {
+      "sha256": "db8f62b397575bee53a8e186d7b3c61fef5123d5a250418ea9526a03f22444a2",
+      "hash_mode": "utf8-lf"
+    },
+    "Scenes/Tests/V12CardUiRunner.tscn": {
+      "sha256": "4d3b8f9691cf735a586db15fee9045223d21927bd7edc2c112787c2d614f69aa",
+      "hash_mode": "utf8-lf"
+    },
+    "Scenes/Tests/V12CombatIntegrationRunner.tscn": {
+      "sha256": "fa265e86e7b5a5005d2a9c5cce49c3b1d6d8013419abd45daf9f1b950ef3ebe7",
+      "hash_mode": "utf8-lf"
+    },
+    "Scenes/Tests/V12DeletionRunner.tscn": {
+      "sha256": "8b71419de1d8aa8d41c0fbff568f582eb408a05216ee391dd0440d5a03a2292f",
+      "hash_mode": "utf8-lf"
+    },
+    "Scenes/Tests/V12FlavorRunner.tscn": {
+      "sha256": "801510cd3b949a368357480f1d0940b0e344b2ac3841e8231f34eb71fa49756c",
+      "hash_mode": "utf8-lf"
+    },
+    "Scenes/Tests/V12LifecycleRunner.tscn": {
+      "sha256": "0437ec4a5b18a2ad914abcd2c6cc66fdbc3aa74c91adcdd1f8ce3356fb91e3a3",
+      "hash_mode": "utf8-lf"
+    },
+    "Scenes/Tests/V12PackagedRunner.tscn": {
+      "sha256": "cd134d5eb4f50a95e43e813c99cc6b2d82aef7fecfcb64ced5078f13e44caf85",
+      "hash_mode": "utf8-lf"
+    },
+    "Scenes/Tests/V12SelectionRunner.tscn": {
+      "sha256": "ea27a20122762eced1ed206853248505e768a86adfded513a993285a05d15c85",
+      "hash_mode": "utf8-lf"
+    },
+    "Scenes/Tests/V12SinglePlayerRunner.tscn": {
+      "sha256": "cea06226d0d1a6b917f91170d1cca69559290e8105fb30a9769a832b68bef23c",
+      "hash_mode": "utf8-lf"
+    },
+    "Scenes/Tests/V12TransitionRunner.tscn": {
+      "sha256": "91aaf063dadc18320506ec1d4d08c4294cc135d8ac1d30ef80dc4f5acd7aa266",
+      "hash_mode": "utf8-lf"
+    },
+    "Scenes/UI/CardView.tscn": {
+      "sha256": "ddeac2535cc163ad9a13c518b264ffa4376f089b98124bd3a93c4357294f607f",
+      "hash_mode": "utf8-lf"
+    },
+    "Scenes/V12/SinglePlayer.tscn": {
+      "sha256": "a4be4f22d7f9cab6121fa89e864e8e7f9a30fb4bc54d712e76f5f38b7df3ce40",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Application/ClientPaths.cs": {
+      "sha256": "a9aada14bcf9cdbe77a634947bd9038b17b443aff626401ef412a341199c4265",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Application/ClientPaths.cs.uid": {
+      "sha256": "745c05e338f15aa9b3adf144cadd06b7ba705512146bd2ca7863a474a0dd5c98",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Application/DisplayPreferences.cs": {
+      "sha256": "fcad739376a96bca7daecdafa6bfea9a2f193df27293fb1a671238dc03915899",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Application/DisplayPreferences.cs.uid": {
+      "sha256": "590ce539f3a06abbcee8f8adc9d3ef7d285941732580480d792d74e370988328",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Application/ReleaseIntegrity.cs": {
+      "sha256": "7df3ca4e4e66ffaf51440db233a8ff7f8da3509e7b18276487f6d33915fdb177",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Application/ReleaseIntegrity.cs.uid": {
+      "sha256": "da997d8a12e122f8e5d08324ec04d0e0c2e25bd554ee2021caef1e476f697b20",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Application/V12CombatRuntime.cs": {
+      "sha256": "30027dd082e459d0f659d50b3f52274fe85545c89274be22ee9d557f5fdfd318",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Application/V12CombatRuntime.cs.uid": {
+      "sha256": "95f021934476a899c83a3217ba83022f9eee9ce5a28274626a0e5edb414f7166",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Application/V12MatchRuntime.cs": {
+      "sha256": "8e9cda5673245cc4183214c120fded35f2009f843d73a36217d64b1d19963802",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Application/V12MatchRuntime.cs.uid": {
+      "sha256": "a12837051bdc9bbfeba6a7a7f9a563c452474adab38bcc2f3e35493390b44eac",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Core/Cards/CardPresentationProfile.cs": {
+      "sha256": "3faa16785795e8245692d7d7f4058fa44d0fb2e651bd6b06ab63edb2648a626c",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Core/Cards/CardPresentationProfile.cs.uid": {
+      "sha256": "942d034f020b861eedae7f7289a84c34a0df4f17336fbc99471939b9d7ceaa49",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Combat/Battle.cs": {
+      "sha256": "8678294c06ad2e70b06022ab683bf37b54cd2595c33d91f65018fdda499a2ad0",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Combat/Battle.cs.uid": {
+      "sha256": "760d0f0f02ec35d863301e475c9a95a01dac38c9545fc78d074bb30fc9f96c5d",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Combat/BattleResolution.cs": {
+      "sha256": "d9adc32440f90f7d1ac4b2a0b31bc4b50f42b16b41ff940c6c546b61e9cac272",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Combat/BattleResolution.cs.uid": {
+      "sha256": "61e331fb732b6af932cde3a80c40bb5cc08ff2ca17d4e103848763c2d458b8ae",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Combat/Effects.cs": {
+      "sha256": "7fc66df51bdbd9a415a5633ceefb023f4f94ced0f78388631938bd0ad924fdd4",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Combat/Effects.cs.uid": {
+      "sha256": "cdedf539aa075a6a578191603ba536dd014588ab5059890115c5e28776348d10",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Combat/LockedBattle.cs": {
+      "sha256": "2b36045e7aa8c1679ef2e00376812d09efc65b03512f1c4146cc31865fe7473c",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Combat/LockedBattle.cs.uid": {
+      "sha256": "56e27a5ffce1df1af9b5f688b92af76e8db341b4b3138715695d8dc43380a512",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Combat/StrictBattle.cs": {
+      "sha256": "8f7ecf9d8eae5591d98cfbedb1cf1d14693c2088a36e2d33b396e1e9dbc90989",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Combat/StrictBattle.cs.uid": {
+      "sha256": "9d6056f320079532465ee53423084ba8477d17b8f25ebfd9e2af4d67d6c950b0",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Foundation/Catalog.cs": {
+      "sha256": "aff143b4d172c449d8f615778ed0b2fe99f17cd4700d496bfd7db16668e1f945",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Foundation/Catalog.cs.uid": {
+      "sha256": "2faf42316ddd9c18fa59da6b1dce7bdff8b3e6dda37e757fbc8910fb316393d5",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Foundation/Model.cs": {
+      "sha256": "6e72dbbbaff91f32c153247003ef348f91ae7f46ce2422151a6a92905e028bf0",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Foundation/Model.cs.uid": {
+      "sha256": "dd743c93e536f47eb4153c855fe815b23ecbf52abe415aeb366b9e88a3fb6563",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Foundation/PyCompat.cs": {
+      "sha256": "52b07f55d6caa071eb8d118faded099ecb5bbd2630654708647439beac9b55de",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Foundation/PyCompat.cs.uid": {
+      "sha256": "0a6f651b5b5c240e6fa2b5e7335d541ecd90400eae661be12fb1a8e3d0b57a21",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Foundation/PythonRandom.cs": {
+      "sha256": "b28e9134623510982b0aaa42c96685971e45484a0d81d24367997c1df5a39494",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Foundation/PythonRandom.cs.uid": {
+      "sha256": "27645c2d283679eb4cbf3ff29cfce7f35aec370f33d0aac66b03d007271b8908",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Foundation/Q.cs": {
+      "sha256": "4cf53d0b747ae413d3b565efde6dc35e44cca97f27010fdb4ddbdbbbb92c0bbd",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Foundation/Q.cs.uid": {
+      "sha256": "20968f55be39523ecb6800889df3a58c9b9b89c5cece1e93f59c2ba683909df3",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Policy/Construction.cs": {
+      "sha256": "828a41fbeaa78b331bcffe59b8a105ec9f94929db80cf1cd7be01e06bfe14f63",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Policy/Construction.cs.uid": {
+      "sha256": "2c5cb70ef1cc71d1b877dee3910cdc4494ca9dc1dedc0d41a22313e6c62e194b",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Policy/Mechanics.cs": {
+      "sha256": "d03b4beaed9cd987f9768630a439c49c06b005f04707371673723bf788eb6d99",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Policy/Mechanics.cs.uid": {
+      "sha256": "6595f76d382578d89a4c83306bbc61e30a15d4af6085d012b339f31121b1dc9a",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Policy/Policy.cs": {
+      "sha256": "760c30c4f15c06505f4691b84ec5005e09af784ad9d30059ced3f7225af5de60",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Policy/Policy.cs.uid": {
+      "sha256": "563ec2963d7cf5dfaf66a62b8fe00f2eb1ea6bbe97e2831ce768f80c93b3ab6e",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Policy/PolicyTables.cs": {
+      "sha256": "516cc1d3c3897eef9d9af76521f77d6409fe91be8a16fc334986825e8bfa05d9",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Policy/PolicyTables.cs.uid": {
+      "sha256": "8a0ee89feb353775ffaf612755bade0df3f319fddc444553ca9617d207d6e10f",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Tournament/Player.cs": {
+      "sha256": "0253013bf320070ac4a82984e68406faf0caca340dfd2b733d6b5a8e8b803b0c",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Tournament/Player.cs.uid": {
+      "sha256": "f6bba172a95067d47d8e5e96a42f00731529f0580e3b5038349704e010b9c055",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Tournament/Pool.cs": {
+      "sha256": "985baa3163341b5a8057f901fe061ff482c270bdda9ba01f84261c5bde5367f0",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Tournament/Pool.cs.uid": {
+      "sha256": "8917ff2862b6a1e04d6310eb6f7f814092dabee3003bf61810371c48092c02c9",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Tournament/Tournament.cs": {
+      "sha256": "37ce5869b1bc2991d61c58571b453c4771344ac00b595760ce9612d8affebac3",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Tournament/Tournament.cs.uid": {
+      "sha256": "236bebd1f1266278564c3bb5749c2c35765ac2c069d3c180fd2e3a600ca398b1",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Transport/NativeBridge.cs": {
+      "sha256": "eebae1d2996a656c5c992ec03cc028d87e41589b2e6137a1fa6c710319a9fa05",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Transport/NativeBridge.cs.uid": {
+      "sha256": "6c52337e449e5215f3343f4bcf0439b8dfbbc5c47db8ef7a2aafadb78be8f591",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Transport/NativeJson.cs": {
+      "sha256": "ee80a48eeda48fbf63cc77b014aac3daf62a47a5b9f9826e3b508f2a6b92a200",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Transport/NativeJson.cs.uid": {
+      "sha256": "c580671ea3c51a5727053f336565f6e8c668b2aa18ab7d1e0e384d402277aa97",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Transport/NativeMatchSession.cs": {
+      "sha256": "0850756681a1aa1821a5234f6214f11919340aac296b7295b15d14e53c702317",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Native/Transport/NativeMatchSession.cs.uid": {
+      "sha256": "e265c5e619207c781874c4ccf7317a2c81aa97fa9775f7c133d9f35c4cff8da4",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Presentation/BootController.cs": {
+      "sha256": "b19d4eb89f126aa8d2e861aa01fb1b7ac2eb5c90376f47aadcb9b778a5847b29",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Presentation/BootController.cs.uid": {
+      "sha256": "7f1e8bc54c1d0a19debc6e4315a963b36612a93532d32cc29cfc8bbe204f096b",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Presentation/CardView.cs": {
+      "sha256": "682b7e39bf89c98d2302199d127aebee984cad82f7d7969d4a98b1fcd21f7411",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Presentation/CardView.cs.uid": {
+      "sha256": "fa2a8bf5c458f117c4089e7ec472982a89915edff9f11124b59a4797e16df0bf",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Presentation/DisplaySettingsDialog.cs": {
+      "sha256": "f9ef41c6ff0641dcebc3bde01d1e0e554b8c7b6e46f77a402e15788ff1564c2f",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Presentation/DisplaySettingsDialog.cs.uid": {
+      "sha256": "6af27f0ab9b754e8626569736ae5b912e04afb76289816a2cccf7d894d3ecfd1",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Presentation/MainMenuController.cs": {
+      "sha256": "2e07624c295cd091af29955470a7a9582013f4a9b59ddd7c0031fa0990c19022",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Presentation/MainMenuController.cs.uid": {
+      "sha256": "8f36f8710fbf715d693349c89c35b78d7e15e283ed5cd2d28c60bd70c6ab636e",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Presentation/V12CardPresentation.cs": {
+      "sha256": "805b75172c14813d726623dfa6f761e66a67a6a08ec7f88ef40291a7ab719ec7",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Presentation/V12CardPresentation.cs.uid": {
+      "sha256": "d97cd48a9540a68fb0b33a036c01976e7e1ef168daa67bcc4c870ae3efd05160",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Presentation/V12HandStrip.cs": {
+      "sha256": "169a86a1e3fd5d4f535e46d37ce077d46886a9b715d5d8f14f584acb05b01bdd",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Presentation/V12HandStrip.cs.uid": {
+      "sha256": "37b9b5ac05a147ac16cb117303735533a2b4764857c4996338ef0c87db9ee461",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Presentation/V12MatchController.cs": {
+      "sha256": "9d89e4f0624b3aedb869a3fddb099296996e66997894b877784a381fbfa8c586",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Presentation/V12MatchController.cs.uid": {
+      "sha256": "3e08336bdad0420fd97cf518bf13783aae31fb947335511e8dfd99abe3dd24ef",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/MainMenuFlowRunner.cs": {
+      "sha256": "4c8766cbbd0cf108a810542a239217aeb09fdc9f01a828a66151793e8e2682ec",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/MainMenuFlowRunner.cs.uid": {
+      "sha256": "9bc56d69db724796818a9a17cf1d28de0493b94f9d88dae2c488d6eae0accae4",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/V12CardUiRunner.cs": {
+      "sha256": "ccb10991999591e2b12356d1bd59bc082c81873784d5cc8bf1574ea31570ccf8",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/V12CardUiRunner.cs.uid": {
+      "sha256": "ee6c286c8515674dbc3b098b2e3b194c5f00ee12c0315f4c7b9499b7c149b058",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/V12CombatIntegrationRunner.cs": {
+      "sha256": "02c04627986ae12e4a822d7c4bdfc023250b554192428850c32efb2faeca7673",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/V12CombatIntegrationRunner.cs.uid": {
+      "sha256": "23ce2e8910f8a7e6781c36248a7b1b51490560fa40c2eb82a2b4bca8c90798c1",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/V12DeletionRunner.cs": {
+      "sha256": "36794854f9d5c423b8f05f799ee36fa6773d2c1bb6df70f8fcb37a7d1510233f",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/V12DeletionRunner.cs.uid": {
+      "sha256": "04faeb579e5f43c6831cbce596fbb8452ee425691384fb0df7ed3b50a4d9324d",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/V12FlavorRunner.cs": {
+      "sha256": "73488ffc28163f419d4fbd725eaf9c78e1a9e6a39f46cdf7593f3b82e8f436df",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/V12FlavorRunner.cs.uid": {
+      "sha256": "ea649f0a86d619a6f49e0bf894adfab16323c8809b1050441203935a8325b2a9",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/V12LifecycleRunner.cs": {
+      "sha256": "d809f11d40a80aac25fcf7fa55b8f8d768464417b266055bd1155ed793a3badd",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/V12LifecycleRunner.cs.uid": {
+      "sha256": "24bbb7b9ad24d1d6ea028c764136519c883a2935b15e18a784fe4d466b13e36a",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/V12PackagedRunner.cs": {
+      "sha256": "1ccb81c2e3880f8bc31693aadc44ac1a28a421e21ec20c464600f3011e047c30",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/V12PackagedRunner.cs.uid": {
+      "sha256": "ba3d4be1f3e1022539465fc3c920584cc4f60c8ddd6c58b10fb5e111268b3385",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/V12SelectionRunner.cs": {
+      "sha256": "ef69e962237bf80d09cee9339a4729b53f964d997d92afd1110c2bba96db4015",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/V12SelectionRunner.cs.uid": {
+      "sha256": "be9b537a4e54db750b9661783794f9be96669ec8fc91f258b10279eda4b07f83",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/V12SinglePlayerRunner.cs": {
+      "sha256": "5aec9876d30c197a2b581e1fb83d5252cc6dc23a59a51ab997581bcf3eb88586",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/V12SinglePlayerRunner.cs.uid": {
+      "sha256": "f96ad62452cff9100efd39207a06e3b02c0c3457b203c31214294b39ee0eed92",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/V12TransitionRunner.cs": {
+      "sha256": "475830e78ff5656fa7799a92c1e3f43af32188c2c1b6dbdbe17135ec54550d67",
+      "hash_mode": "utf8-lf"
+    },
+    "Scripts/Tests/V12TransitionRunner.cs.uid": {
+      "sha256": "7c9296289efb7b3f6f0ba252d7cf730f8a7b4eee8129e0db742ffc802cfa16b7",
+      "hash_mode": "utf8-lf"
+    },
+    "docs/cards-v1.2/README.md": {
+      "sha256": "6a609220753a595c37f66fa6c7b0eadeefc7c7fc213bcee77d78d4ee3568d991",
+      "hash_mode": "raw-sha256"
+    },
+    "docs/cards-v1.2/catalogue.md": {
+      "sha256": "4f045ba999af01891722b5031382b9a095985b7d1c2fa7dea82b2d2e3d8c28c4",
+      "hash_mode": "raw-sha256"
+    },
+    "docs/cards-v1.2/change-history.md": {
+      "sha256": "43dc449dd03d129742698d04a376eee0ceb777ad63d1b1045f5a0d3a91ec010e",
+      "hash_mode": "raw-sha256"
+    },
+    "docs/cards-v1.2/combat-rules.json": {
+      "sha256": "7a5582952840085c7bb1292a91f59eae03f6bb0bbaba1485e55cee43771af34e",
+      "hash_mode": "raw-sha256"
+    },
+    "docs/cards-v1.2/earth.md": {
+      "sha256": "ab8cee72a99d3ff9df1256185e7e0ff5a36a6e9fc50df8f5e7e3bdfe64c70367",
+      "hash_mode": "raw-sha256"
+    },
+    "docs/cards-v1.2/fire.md": {
+      "sha256": "7c955e7687c842390d602193ac6abc114c2900ae84cc1335503fefacacf33f46",
+      "hash_mode": "raw-sha256"
+    },
+    "docs/cards-v1.2/flavor.md": {
+      "sha256": "c6ab9394211d8c477283d8f528c3add5448323beba843c5a3184d8b6ad8fa65e",
+      "hash_mode": "raw-sha256"
+    },
+    "docs/cards-v1.2/freeze-confirmation.md": {
+      "sha256": "43dc449dd03d129742698d04a376eee0ceb777ad63d1b1045f5a0d3a91ec010e",
+      "hash_mode": "raw-sha256"
+    },
+    "docs/cards-v1.2/generic.md": {
+      "sha256": "7dde67fbc0b27fd03d9c48d1266dde1bace6a354c9e4a146a4b086139ff17db6",
+      "hash_mode": "raw-sha256"
+    },
+    "docs/cards-v1.2/panel-budgets.md": {
+      "sha256": "62c578af37100a5fb72251e508011ae22870726a5a6cd8332b66f0abe4fee863",
+      "hash_mode": "raw-sha256"
+    },
+    "docs/cards-v1.2/poison.md": {
+      "sha256": "e0526a4ab8baa555ee148bda55c5f305c711c8bdb45c32c25b2d28246ff3db31",
+      "hash_mode": "raw-sha256"
+    },
+    "docs/cards-v1.2/snapshot-audit.md": {
+      "sha256": "1b746c1510454f71669ae0126ea68d87115b4b04d03f8b3f3d68f01526304c7c",
+      "hash_mode": "raw-sha256"
+    },
+    "docs/cards-v1.2/snapshot-contract.json": {
+      "sha256": "de8e4a1714e450b8d51ae2039a5f88e087543ef2c12ce90df4f480a639784861",
+      "hash_mode": "raw-sha256"
+    },
+    "docs/cards-v1.2/snapshot-contract.md": {
+      "sha256": "a32bc76084049ef02f3e10c0e4e56a5d85cd6b31e14ceed00b8d45f9714bd013",
+      "hash_mode": "raw-sha256"
+    },
+    "docs/cards-v1.2/water.md": {
+      "sha256": "f0f5ae3bbcd95e8ef67b44332400d4353991d2f3d1e605256fe5f8fa7e0db2de",
+      "hash_mode": "raw-sha256"
+    },
+    "docs/cards-v1.2/wind.md": {
+      "sha256": "4cec9cf94f5f2beec53c6658eb72f403c4bf9c648ff65b26916ff286ddf219dd",
+      "hash_mode": "raw-sha256"
+    },
+    "export_presets.cfg": {
+      "sha256": "8edb56a31f07b2621e807e513223841954815dbc4657a22b60e7d3e91c23ad75",
+      "hash_mode": "utf8-lf"
+    },
+    "project.godot": {
+      "sha256": "1bb1a36dc27e5d38df6a9d5b9d0aaf7f72d2852983167de81a377aa799edb2a1",
+      "hash_mode": "utf8-lf"
+    },
+    "releases/ai-v1.2-six-styles-20261029/README.md": {
+      "sha256": "c83761007234df56be38302a16afb6ae24194f14fabd9db53e6582f24aca6c19",
+      "hash_mode": "raw-sha256"
+    },
+    "releases/ai-v1.2-six-styles-20261029/manifest.json": {
+      "sha256": "8f926a3c5b23576939ba4da1c99bd48baf188d68cb7a8d2aac2d459b54d6ec66",
+      "hash_mode": "raw-sha256"
+    },
+    "releases/ai-v1.2-six-styles-20261029/models/earth.json": {
+      "sha256": "46c1cd1aa36ded1439044b01ac9212228ab03a5d9afae16f5fe40603cdc38a1d",
+      "hash_mode": "raw-sha256"
+    },
+    "releases/ai-v1.2-six-styles-20261029/models/fire.json": {
+      "sha256": "1a9405815ee3c8121f0778b0d0b651a18df141a3aa64c40fd7a67d859f0fe97e",
+      "hash_mode": "raw-sha256"
+    },
+    "releases/ai-v1.2-six-styles-20261029/models/flexible.json": {
+      "sha256": "f898ba242b83d7dde84718c4dac9a70199a0fb6df7e3e064ced8055f03344f4a",
+      "hash_mode": "raw-sha256"
+    },
+    "releases/ai-v1.2-six-styles-20261029/models/poison.json": {
+      "sha256": "782b165f555e30828a79176abac6becb2057a66e9b4019e13d70576741820051",
+      "hash_mode": "raw-sha256"
+    },
+    "releases/ai-v1.2-six-styles-20261029/models/water.json": {
+      "sha256": "b24d3d60fe164ae66995bed65fdde5eb314011b28df506f20bcc00734ce30af1",
+      "hash_mode": "raw-sha256"
+    },
+    "releases/ai-v1.2-six-styles-20261029/models/wind.json": {
+      "sha256": "c7833e0ed0767d9c05b9c60435e37df65738a4494f58cce1e64839cc6b1d7c52",
+      "hash_mode": "raw-sha256"
+    },
+    "releases/v1.2/README.md": {
+      "sha256": "07dcccb6563a1c7da9a3f9200618e73c91d147bedf2afb75e5d61252c9ff15b1",
+      "hash_mode": "raw-sha256"
+    },
+    "releases/v1.2/cards.json": {
+      "sha256": "b243096c26223f137b6a791c5951656a2fd3c6cf7ac1842f58b5c3e6286b102a",
+      "hash_mode": "raw-sha256"
+    },
+    "releases/v1.2/combat-rules.json": {
+      "sha256": "d786618c103b2a6bf82a3f1aa0ce13d34290edf687c6859afb0dcea3f9011435",
+      "hash_mode": "raw-sha256"
+    },
+    "releases/v1.2/freeze-manifest.json": {
+      "sha256": "45564dad19b68f3c80b4fcdb8867bb5c9bcaa167adbcdec5dfac4a340e8d9346",
+      "hash_mode": "raw-sha256"
+    },
+    "releases/v1.2/implementation-review.json": {
+      "sha256": "b8503a7afe2fddc8955199de0c402babf1f99b93fa262a169b23f09e6114f4d5",
+      "hash_mode": "raw-sha256"
+    },
+    "releases/v1.2/pool-counts.json": {
+      "sha256": "17d0db27a1efbe886c6f3c99f6d93fc64fadf2d7c0d334373852862cdc647f3d",
+      "hash_mode": "raw-sha256"
+    },
+    "releases/v1.2/python-migration-baseline.zip": {
+      "sha256": "b873aaf45dc8f0baffae90ae2ab8825806f0227e5ac788a15d0e9b912b194006",
+      "hash_mode": "raw-sha256"
+    },
+    "releases/v1.2/retired-cards.json": {
+      "sha256": "5502d1dc25b3d0888fc247ebc63e84d2a5380a4393adea0a6b81992aa8bd5f06",
+      "hash_mode": "raw-sha256"
+    },
+    "releases/v1.2/retired-python-manifest.json": {
+      "sha256": "000558422d27277ccdb3d7335476cb3f8456c1880f25b3d575f3f0e6cc22a100",
+      "hash_mode": "raw-sha256"
+    },
+    "releases/v1.2/verification.json": {
+      "sha256": "c29254b714186be8d55b8047a0affb897a82420bb9f271577ece79d3468e78c2",
+      "hash_mode": "raw-sha256"
+    },
+    "tools/Magicians.Tooling/Data/DataCommands.cs": {
+      "sha256": "cccfac2ca53f780b27abe49f830f18254e180e88986a65ecc79650fc838926dd",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Data/DataCommands.cs.uid": {
+      "sha256": "b9032862915f64a693bcb53fd21974e730827b5b14e5547c9e0f72be576b5cee",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Data/DataSupport.cs": {
+      "sha256": "eeb6332de2ea63c9e2145adbb4f3f8e76fe29199863d2bdf8448186d0f716815",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Data/DataSupport.cs.uid": {
+      "sha256": "b713f6daa2b2b01e96aac6620a3076fe623e4ca2d0f3a8bc7a229ae99ca80e48",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Data/FrozenIntegrity.cs": {
+      "sha256": "f6d5d6a74b9a77ee9e879b49ca42c7c0ead74e6983964f70a641799da4bbd012",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Data/FrozenIntegrity.cs.uid": {
+      "sha256": "a5bd5c27b082b91f32dba169a40cfc36324ffa109b53e1781acf9904977c11d3",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Data/LayerDefinitions.cs": {
+      "sha256": "711d06e78b100d602edc085ac820dd8eaee3ba88cbd534bc25bf8d74b76c6a8c",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Data/LayerDefinitions.cs.uid": {
+      "sha256": "41c3ab49f659b2469df7e2150b15c6f507ebe8b64c2f82e04aa6a6ca3f46a1ca",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Magicians.Tooling.csproj": {
+      "sha256": "71e028576f627a627e01bb711f67c88cf90c43cdc74f2fa414fa9a08245e8673",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Packaging/PackageCommands.cs": {
+      "sha256": "91f9ecb8504f6a50413234c03a59c7cfb44ec66c7984a56a48f9394acde4ed53",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Packaging/PackageCommands.cs.uid": {
+      "sha256": "451366f76fe3c1edf530b9d244647a3ef2e35c66255476a9b470d6665861ed76",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Program.cs": {
+      "sha256": "bc72bd3b6189f27561de9c7096fc12fe7679bc7c8461fcd413d7d03c1f9e8f2a",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Program.cs.uid": {
+      "sha256": "1d5520c64a80edac0566799487017febb1d3ad2b94e1fae43e53bcb4a86f1723",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Testing/BusinessReplay.cs": {
+      "sha256": "9f8923d32151a3e71ccdfae54d24added0cc1edce97ce4d42e1350cae52a0b0c",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Testing/BusinessReplay.cs.uid": {
+      "sha256": "ad1f22b98c46d1fec0d8a6ae73fcfbc0a3987f42ecf4c94dc11148cfa905f456",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Testing/Fixtures/business-coverage.json": {
+      "sha256": "a1db58a577d988c87f4c52a8183fbbe366256268d7ba5ec4c822394130fe1108",
+      "hash_mode": "raw-sha256"
+    },
+    "tools/Magicians.Tooling/Testing/Fixtures/business-operations.jsonl.gz": {
+      "sha256": "b3f29d285058917e4eb2b313071ca8a1bfea6976907913bd6f4d579ef8a4f9de",
+      "hash_mode": "raw-sha256"
+    },
+    "tools/Magicians.Tooling/Testing/Fixtures/coverage-matrix.json": {
+      "sha256": "1f1b1caacf1179335677929f68273f99efeed2bbd7fe9f1dabe4b4d4590c9eef",
+      "hash_mode": "raw-sha256"
+    },
+    "tools/Magicians.Tooling/Testing/Fixtures/foundation.json": {
+      "sha256": "f54264b34f79c5212571f44b4b0eacaacc68e1dd66d509febc4abd7f32eed48e",
+      "hash_mode": "raw-sha256"
+    },
+    "tools/Magicians.Tooling/Testing/Fixtures/manifest.json": {
+      "sha256": "db9082a77c0c59f19d7556a816f73c07ddcda35937fafd7875e034c900717611",
+      "hash_mode": "raw-sha256"
+    },
+    "tools/Magicians.Tooling/Testing/Fixtures/protocol.jsonl.gz": {
+      "sha256": "09f65c7122d0977af278105186e4096bd6a0a6285d0e5f2f67d6bfb6d82d6b22",
+      "hash_mode": "raw-sha256"
+    },
+    "tools/Magicians.Tooling/Testing/Fixtures/reference-oracle.jsonl.gz": {
+      "sha256": "4f9f71cae41af563056c3ae4780c934d03f24c87bc29ff84b320c23a447ae9e2",
+      "hash_mode": "raw-sha256"
+    },
+    "tools/Magicians.Tooling/Testing/FoundationRegression.cs": {
+      "sha256": "89a874d99e4aa9e493c3f4f00d1b706ab50df0854fdbc2efa23243dda7b6e5c1",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Testing/FoundationRegression.cs.uid": {
+      "sha256": "45f01aec6016e299aeb3db5ee14a6aae22e1b25b7787cdaa6cdd8214bdd868b9",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Testing/GuardRegression.cs": {
+      "sha256": "ff40e831c6ceddf111554057425216f9310444289e7ab8912abebb1c71f0d0dd",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Testing/GuardRegression.cs.uid": {
+      "sha256": "72eba7f759f4d71cdc79f2296ecdf84456e90b6ed4b4aabe19d93160eaaf6999",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Testing/MechanicRegression.cs": {
+      "sha256": "310f36c89c1b7b59ca7c1454d1fa5cc6247d092559773ff8feb53afc9be18273",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Testing/MechanicRegression.cs.uid": {
+      "sha256": "d6ff3f22bafabb40c213c2f2d5a034b4291b8d692b3836d077c93526ad5a0479",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Testing/PolicyRegression.cs": {
+      "sha256": "5dc35886476e4fa9efcd7f3bd02406629b875ec68d243b65d22eb7873363607c",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Testing/PolicyRegression.cs.uid": {
+      "sha256": "5f70d604376f96996bdfade9b8225326ca745c5e22cbe67b5a9150457914f4c6",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Testing/ProtocolRegression.cs": {
+      "sha256": "82945c4aedce5eb5230c7d051d47f9048fe533c5b18cd299a7873a9055a9792e",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Testing/ProtocolRegression.cs.uid": {
+      "sha256": "635d3ab0bb49859ba292094565ddf08c88bd667c3d405cbb63a002730b4b7198",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Testing/ReferenceFixtures.cs": {
+      "sha256": "d89c2793058a68e5735fa628da4165b1cc4eb1dd1730903d43331cdc9833b36f",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Testing/ReferenceFixtures.cs.uid": {
+      "sha256": "8ed25e2a029402d6bd67bb9737349f527e18a7983b372d64eb4d7fcb6b0d6bf2",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Testing/StaticRegression.cs": {
+      "sha256": "89d23d88fd5d6b349d3a6a347db2e643d4a9913229f59b11a2674e4b2326ab80",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Testing/StaticRegression.cs.uid": {
+      "sha256": "acba4002b54920ab521aeca4c2a2bbc0b21c616c61fc968f37b8be7248c7c3e2",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Testing/TestCommands.cs": {
+      "sha256": "45b23cf9f3bc87efdd342d07de860d3969dbbb8a3177212939fb5a7bbdc0eb97",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Testing/TestCommands.cs.uid": {
+      "sha256": "9e3fa5b38e0775a09669beaad428a80b34b3b5d8a6618cce25dd49cc49adbe36",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Training/Fixtures/parity.json": {
+      "sha256": "ac1d6693f4478bf76996161f652cd3126d32bdd4a56e5db78752e0843b1864ef",
+      "hash_mode": "raw-sha256"
+    },
+    "tools/Magicians.Tooling/Training/LearningMetrics.cs": {
+      "sha256": "9136c1ef4b8c6de4cb0fbc755a6a37d56067b145eec50ca6ff00702c8adba1aa",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Training/LearningMetrics.cs.uid": {
+      "sha256": "aed3c2f0f910346be6eb9f39807eacb8d05d5978689611652ec1b14e54383fd0",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Training/Proposals.cs": {
+      "sha256": "900c723d74f1141ee7aec0ae4390ff06e65d79ed61bb6ed5822a8002c544a704",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Training/Proposals.cs.uid": {
+      "sha256": "bfe5c18a39303254ce2d042b31be76c34b334504b63a67ba8b84a45ab663231a",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Training/Statistics.cs": {
+      "sha256": "e338b77488a9c76b42733185cdc6c75a9ec128c58ac4cda9a3ccfbd947239b51",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Training/Statistics.cs.uid": {
+      "sha256": "dca29f1b8f09fe5c293c6031e20cc8338cfcb9b3140d644c3caa6eedfbb1278b",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Training/TrainingCommands.cs": {
+      "sha256": "3b0f55512d0fbc317da64508b1862d54c08bcb07f5904361cf9250e4a95af23c",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Training/TrainingCommands.cs.uid": {
+      "sha256": "5f29c6c14eb970d9a2d25d65929fd7603f5586ba05417245e5c649532de3d9ae",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Training/TrainingJson.cs": {
+      "sha256": "6b278ac68c21a53162b401fcba2bf43a448b94e10d2dcfbb7ee67790aa5827af",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Training/TrainingJson.cs.uid": {
+      "sha256": "f28a9a8c398d62282c416c69c97759c6a56936e921a51860990bff714e04b69a",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Training/TrainingRunner.cs": {
+      "sha256": "dfd27108a4525e143008894c978378f31e980484f8072c4c719b79d0394a082d",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/Magicians.Tooling/Training/TrainingRunner.cs.uid": {
+      "sha256": "5bbc75c40e08ee0c3edac14f5e7ffc1937e3d9d7b882df9211c867402647535d",
+      "hash_mode": "utf8-lf"
+    },
+    "tools/sim_v12/README.md": {
+      "sha256": "e036d37efcee5d319d94b467a3ce3b3cba358a77be52d5d9d4c3d1b3276c020e",
+      "hash_mode": "raw-sha256"
+    },
+    "tools/sim_v12/fixtures/medium-policy.json": {
+      "sha256": "406e02ba8a054d677175c3a000df6a86ea82467afd469f1ff3f82650134d3a1c",
+      "hash_mode": "raw-sha256"
+    },
+    "tools/sim_v12/fixtures/small-policy.json": {
+      "sha256": "d21edd1894977ab54e5e693c360ca11e1c2d75822f25320d6c23598c4f5897a2",
+      "hash_mode": "raw-sha256"
+    },
+    "tools/sim_v12/rules/ai-policy.json": {
+      "sha256": "38167d9da80d76263f604534d9650b6cdec133dbe73697680f00ad123d74ed8f",
+      "hash_mode": "raw-sha256"
+    },
+    "tools/sim_v12/rules/combat.json": {
+      "sha256": "7a5582952840085c7bb1292a91f59eae03f6bb0bbaba1485e55cee43771af34e",
+      "hash_mode": "raw-sha256"
+    },
+    "tools/sim_v12/rules/damage.json": {
+      "sha256": "2d43c157e65e2d373b3bca31b09030ab478079cbd37e4b226358ef631851710a",
+      "hash_mode": "raw-sha256"
+    },
+    "tools/sim_v12/rules/economy.json": {
+      "sha256": "2dfd5e683b65f5de7861d91439c974488aa1dfaed40549656fe65ec6dcb751c4",
+      "hash_mode": "raw-sha256"
+    },
+    "tools/sim_v12/rules/panel-budgets.json": {
+      "sha256": "a0e5709a4244f79c16f659a69ab82654cfd75f33bfff3b916443dc273ea2903f",
+      "hash_mode": "raw-sha256"
+    },
+    "tools/sim_v12/rules/probabilities.json": {
+      "sha256": "96fd6ea63fd37532414721f193cd791f6b86c1d2c7ae3ddb39db9fdcc99d5b6b",
+      "hash_mode": "raw-sha256"
+    }
+  }
+}

@@ -24,5 +24,8 @@ runtime/
 /research/
 /archives/
 *.zip
-!releases/Magicians-cards-combat-v1.2.zip
+!releases/Magicians-cards-combat-v1.2-canonical.zip
+!releases/v1.2/python-migration-baseline.zip
+**/bin/
+**/obj/
 *.zip.part*

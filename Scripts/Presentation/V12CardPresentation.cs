@@ -4,12 +4,11 @@ using System.Text.Json;
 
 namespace Magicians.Presentation;
 
-// Stable runtime card IDs remain independent of future localized names/copy.
+// Canonical card names are shared by the client and rules authority.
 public static class V12CardPresentation
 {
-    public static Func<string, string, string> DisplayName { get; set; } = (_, original) => original;
-    public static Func<string, string, string> DisplayRules { get; set; } = (_, original) => original;
     private static Dictionary<string, CardArtSlots>? _art;
+    private static Dictionary<string, string>? _flavor;
 
     public static CardPresentationProfile Profile(JsonElement card)
     {
@@ -23,24 +22,33 @@ public static class V12CardPresentation
         var rarity = card.GetProperty("rarity").GetString()!;
         var text = card.GetProperty("text").GetString()!;
         var layers = card.GetProperty("layers").GetInt32();
-        var shown = DisplayRules(id, text);
-        return new(1, id, "v12:" + id, DisplayName(id, id), card.GetProperty("element").GetString()!, rarity,
+        if (_flavor is null)
+        {
+            var path = Path.Combine(Magicians.Application.ClientPaths.DataRoot, "Data", "Presentation", "card-flavor.json");
+            using var document = JsonDocument.Parse(File.ReadAllText(path));
+            _flavor = document.RootElement.GetProperty("cards").EnumerateObject()
+                .ToDictionary(p => p.Name, p => p.Value.GetString()!, StringComparer.Ordinal);
+        }
+        return new(1, id, "v12:" + id, id, card.GetProperty("element").GetString()!, rarity,
             card.GetProperty("cost").GetInt32(), rarity switch { "common" => 1, "rare" => 2, "epic" => 3, "legendary" => 4, _ => 0 },
             card.GetProperty("attack").GetInt32(), card.GetProperty("defense").GetInt32(), layers,
-            text, shown, Array.Empty<string>(), _art.GetValueOrDefault(id) ?? new CardArtSlots());
+            text, text, Array.Empty<string>(), _art.GetValueOrDefault(id) ?? new CardArtSlots(), _flavor.GetValueOrDefault(id, ""));
     }
 
     public static Control Face(JsonElement data, float width, float height, bool compact = false, bool combat = false)
     {
         var profile = Profile(data);
-        var wrap = new Control { CustomMinimumSize = new Vector2(width, height), TooltipText = profile.Name + "\n" + profile.DisplayRulesText };
+        var wrap = new Control { CustomMinimumSize = new Vector2(width, height), TooltipText = profile.Name + "\n" + profile.DisplayRulesText + (profile.FlavorText.Length > 0 ? "\n\n" + profile.FlavorText : "") };
         var face = GD.Load<PackedScene>("res://Scenes/UI/CardView.tscn").Instantiate<CardView>();
         wrap.AddChild(face);
         var scale = 1f;
         face.CustomMinimumSize = new Vector2(width / scale, height / scale);
         face.Size = face.CustomMinimumSize; face.Scale = new Vector2(scale, scale);
         face.Theme = new Theme { DefaultFontSize = 20 };
-        face.Bind(profile, combat: true);
+        // Battle hands and selection candidates carry per-instance authority state.
+        // Catalogs and pile viewers do not imply a first play.
+        var applied = !data.TryGetProperty("enchantment_applied", out var state) || state.GetBoolean();
+        face.Bind(profile, combat: true, enchantmentApplied: !combat || applied);
         if (compact)
         {
             face.CustomMinimumSize = new Vector2(0, 0);
@@ -53,7 +61,7 @@ public static class V12CardPresentation
         if (!combat) face.GetNode<Label>("Margin/Column/Title").AddThemeColorOverride("font_color", Colors.White);
         face.GetNode<Label>("Margin/Column/Details/Text/Rules").Text = profile.DisplayRulesText;
         var details = face.GetNode<ScrollContainer>("Margin/Column/Details");
-        if (!compact) details.VerticalScrollMode = ScrollContainer.ScrollMode.Disabled;
+        details.VerticalScrollMode = ScrollContainer.ScrollMode.Auto;
         return wrap;
     }
 

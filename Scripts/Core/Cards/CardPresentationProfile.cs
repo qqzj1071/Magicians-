@@ -24,7 +24,8 @@ public sealed record CardPresentationProfile(
     string RulesText,
     string DisplayRulesText,
     string[] RuleNotes,
-    CardArtSlots Art);
+    CardArtSlots Art,
+    string FlavorText = "");
 
 public static class CardPresentationCatalog
 {
