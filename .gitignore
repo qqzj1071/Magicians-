@@ -1,5 +1,9 @@
 # Godot 4+ specific ignores
 .godot/
+**/bin/
+**/obj/
+**/__pycache__/
+.nuget/
 /android/
 
 # Local Python caches and secrets
@@ -26,3 +30,9 @@ runtime/
 *.zip
 !releases/Magicians-cards-combat-v1.2.zip
 *.zip.part*
+# Generated migration evidence and isolated test builds.
+migration/oracle/*.jsonl
+migration/**/*.log
+migration/**/bin/
+migration/**/obj/
+.godot/
